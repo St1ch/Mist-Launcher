@@ -166,9 +166,9 @@ pub async fn init_ads_window<R: Runtime>(
             None
         };
 
-        let Some(webview) = webview.clone() else {
+        if webview.is_none() {
             return Ok(());
-        };
+        }
 
         // tauri::async_runtime::spawn(async move {
         //     loop {
