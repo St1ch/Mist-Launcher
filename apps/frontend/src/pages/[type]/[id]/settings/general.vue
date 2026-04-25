@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import {
+	ConfirmLeaveModal,
 	defineMessages,
 	IconSelect,
 	injectProjectPageContext,
 	type MessageDescriptor,
 	SettingsLabel,
+	StyledInput,
 	UnsavedChangesPopup,
+	usePageLeaveSafety,
 	useSavable,
 	useVIntl,
 } from '@modrinth/ui'
@@ -14,7 +17,7 @@ const { formatMessage } = useVIntl()
 
 const { projectV2: project, patchProject } = injectProjectPageContext()
 
-const { saved, current, saving, reset, save } = useSavable(
+const { saved, current, saving, hasChanges, reset, save } = useSavable(
 	() => ({
 		title: project.value.title,
 		tagline: project.value.description,
@@ -29,6 +32,8 @@ const { saved, current, saving, reset, save } = useSavable(
 		})
 	},
 )
+
+const { confirmLeaveModal } = usePageLeaveSafety(hasChanges)
 
 const messages = defineMessages({
 	nameTitle: {
@@ -116,6 +121,7 @@ const placeholder = computed(() => placeholders[placeholderIndex.value] ?? place
 </script>
 <template>
 	<div>
+		<ConfirmLeaveModal ref="confirmLeaveModal" />
 		<UnsavedChangesPopup
 			:original="saved"
 			:modified="current"
@@ -134,14 +140,13 @@ const placeholder = computed(() => placeholders[placeholderIndex.value] ?? place
 					:description="messages.nameDescription"
 				/>
 				<div class="flex">
-					<input
+					<StyledInput
 						id="project-name"
 						v-model="current.title"
 						:placeholder="formatMessage(placeholder.name)"
 						autocomplete="off"
-						maxlength="50"
-						class="flex-grow"
-						type="text"
+						:maxlength="50"
+						wrapper-class="flex-grow"
 					/>
 				</div>
 			</div>
@@ -151,27 +156,20 @@ const placeholder = computed(() => placeholders[placeholderIndex.value] ?? place
 					:title="messages.taglineTitle"
 					:description="messages.taglineDescription"
 				/>
-				<input
+				<StyledInput
 					id="project-tagline"
 					v-model="current.tagline"
 					:placeholder="formatMessage(placeholder.tagline)"
 					autocomplete="off"
-					maxlength="120"
-					class="w-full"
-					type="text"
+					:maxlength="120"
+					wrapper-class="w-full"
 				/>
 			</div>
 			<div class="mt-4">
 				<SettingsLabel id="project-url" :title="messages.urlTitle" />
 				<div class="text-input-wrapper">
 					<div class="text-input-wrapper__before">https://modrinth.com/project/</div>
-					<input
-						id="project-url"
-						v-model="current.url"
-						type="text"
-						maxlength="64"
-						autocomplete="off"
-					/>
+					<StyledInput id="project-url" v-model="current.url" :maxlength="64" autocomplete="off" />
 				</div>
 			</div>
 		</div>

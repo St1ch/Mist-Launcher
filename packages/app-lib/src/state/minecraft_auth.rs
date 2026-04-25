@@ -1,5 +1,5 @@
 use crate::ErrorKind;
-use crate::util::fetch::REQWEST_CLIENT;
+use crate::util::fetch::INSECURE_REQWEST_CLIENT;
 use base64::Engine;
 use base64::prelude::{BASE64_STANDARD, BASE64_URL_SAFE_NO_PAD};
 use chrono::{DateTime, Duration, TimeZone, Utc};
@@ -912,7 +912,7 @@ async fn oauth_token(
     query.insert("scope", REQUESTED_SCOPE);
 
     let res = auth_retry(|| {
-        REQWEST_CLIENT
+        INSECURE_REQWEST_CLIENT
             .post("https://login.live.com/oauth20_token.srf")
             .header("Accept", "application/json")
             .form(&query)
@@ -960,7 +960,7 @@ async fn oauth_refresh(
     query.insert("scope", REQUESTED_SCOPE);
 
     let res = auth_retry(|| {
-        REQWEST_CLIENT
+        INSECURE_REQWEST_CLIENT
             .post("https://login.live.com/oauth20_token.srf")
             .header("Accept", "application/json")
             .form(&query)
@@ -1105,7 +1105,7 @@ async fn minecraft_token(
     let token = token.token;
 
     let res = auth_retry(|| {
-        REQWEST_CLIENT
+        INSECURE_REQWEST_CLIENT
             .post("https://api.minecraftservices.com/launcher/login")
             .header("Accept", "application/json")
             .json(&json!({
@@ -1333,7 +1333,7 @@ async fn minecraft_profile(
     token: &str,
 ) -> Result<MinecraftProfile, MinecraftAuthenticationError> {
     let res = auth_retry(|| {
-        REQWEST_CLIENT
+        INSECURE_REQWEST_CLIENT
             .get("https://api.minecraftservices.com/minecraft/profile")
             .header("Accept", "application/json")
             .bearer_auth(token)
@@ -1384,7 +1384,7 @@ async fn minecraft_entitlements(
     token: &str,
 ) -> Result<MinecraftEntitlements, MinecraftAuthenticationError> {
     let res = auth_retry(|| {
-        REQWEST_CLIENT
+        INSECURE_REQWEST_CLIENT
             .get(format!("https://api.minecraftservices.com/entitlements/license?requestId={}", Uuid::new_v4()))
             .header("Accept", "application/json")
             .bearer_auth(token)
@@ -1528,7 +1528,7 @@ async fn send_signed_request<T: DeserializeOwned>(
     let signature = BASE64_STANDARD.encode(&sig_buffer);
 
     let res = auth_retry(|| {
-        let mut request = REQWEST_CLIENT
+        let mut request = INSECURE_REQWEST_CLIENT
             .post(url)
             .header("Content-Type", "application/json; charset=utf-8")
             .header("Accept", "application/json")

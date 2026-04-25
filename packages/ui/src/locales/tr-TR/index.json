@@ -1,51 +1,93 @@
-{
+﻿{
   "affiliate.create.button": {
-    "defaultMessage": "Ortaklık bağlantısı oluştur"
+    "defaultMessage": "OrtaklД±k baДџlantД±sД± oluЕџtur"
   },
   "affiliate.create.header": {
-    "defaultMessage": "Yeni ortaklık kodu oluşturuluyor"
+    "defaultMessage": "Yeni ortaklД±k kodu oluЕџturuluyor"
   },
   "affiliate.create.title.description": {
-    "defaultMessage": "Ortaklık bağlantına bir isim ver, böylece insanların nereden geldiğini bilirsin!"
+    "defaultMessage": "OrtaklД±k baДџlantД±na bir isim ver, bГ¶ylece insanlarД±n nereden geldiДџini bilirsin!"
   },
   "affiliate.create.title.label": {
-    "defaultMessage": "Ortaklık bağlantısının başlığı"
+    "defaultMessage": "OrtaklД±k baДџlantД±sД±nД±n baЕџlД±ДџД±"
   },
   "affiliate.create.title.placeholder": {
-    "defaultMessage": "ör. Youtube"
+    "defaultMessage": "Г¶r. Youtube"
   },
   "affiliate.create.user.description": {
-    "defaultMessage": "Ortaklık kodunu oluşturmak için kullanıcının kullanıcı adı"
+    "defaultMessage": "OrtaklД±k kodunu oluЕџturacak kullanД±cД±nД±n kullanД±cД± adД±"
   },
   "affiliate.create.user.placeholder": {
-    "defaultMessage": "Kullanıcı adı giriniz..."
+    "defaultMessage": "KullanД±cД± adД± giriniz..."
   },
   "affiliate.createdBy": {
-    "defaultMessage": "{user} tarafından oluşturuldu"
+    "defaultMessage": "{user} tarafД±ndan oluЕџturuldu"
   },
   "affiliate.creating.button": {
-    "defaultMessage": "Ortaklık bağlantısı oluşturuluyor..."
+    "defaultMessage": "OrtaklД±k baДџlantД±sД± oluЕџturuluyor..."
   },
   "affiliate.revoke": {
-    "defaultMessage": "Ortaklık bağlantısını iptal et"
+    "defaultMessage": "OrtaklД±k baДџlantД±sД±nД± iptal et"
   },
   "affiliate.viewAnalytics": {
-    "defaultMessage": "Verileri görüntüle"
+    "defaultMessage": "Verileri gГ¶rГјntГјle"
+  },
+  "app.server-settings.failed-to-load-server": {
+    "defaultMessage": "Sunucu ayarlarД± yГјklenemedi"
+  },
+  "badge.alpha": {
+    "defaultMessage": "Alfa"
   },
   "badge.beta": {
     "defaultMessage": "Beta"
   },
   "badge.beta-release": {
-    "defaultMessage": "Beta Sürümü"
+    "defaultMessage": "Beta SГјrГјmГј"
   },
   "badge.new": {
     "defaultMessage": "Yeni"
+  },
+  "billing.resubscribe-modal.cancel": {
+    "defaultMessage": "Д°ptal"
+  },
+  "billing.resubscribe-modal.error.title": {
+    "defaultMessage": "Hata"
+  },
+  "billing.resubscribe-modal.failed-load": {
+    "defaultMessage": "Abonelik detaylarД± yГјklenemedi."
+  },
+  "billing.resubscribe-modal.interval.five-days": {
+    "defaultMessage": "/5 gГјn"
+  },
+  "billing.resubscribe-modal.interval.monthly": {
+    "defaultMessage": "/ay"
+  },
+  "billing.resubscribe-modal.interval.quarterly": {
+    "defaultMessage": "/Г§eyrek"
+  },
+  "billing.resubscribe-modal.interval.yearly": {
+    "defaultMessage": "/yД±l"
+  },
+  "billing.resubscribe-modal.plan-label": {
+    "defaultMessage": "Plan"
+  },
+  "billing.resubscribe-modal.ram": {
+    "defaultMessage": "{ramGb} GB RAM"
+  },
+  "billing.resubscribe-modal.resubscribe": {
+    "defaultMessage": "Yeniden abone ol"
+  },
+  "billing.resubscribe-modal.storage": {
+    "defaultMessage": "{storageGb} GB Depolama"
+  },
+  "billing.resubscribe-modal.title": {
+    "defaultMessage": "Sunucuya Yeniden Abone Ol"
   },
   "button.accept": {
     "defaultMessage": "Kabul Et"
   },
   "button.affiliate-links": {
-    "defaultMessage": "Ortaklık bağlantıları"
+    "defaultMessage": "OrtaklД±k baДџlantД±larД±"
   },
   "button.analytics": {
     "defaultMessage": "Veriler"
@@ -54,7 +96,10 @@
     "defaultMessage": "Geri"
   },
   "button.cancel": {
-    "defaultMessage": "İptal"
+    "defaultMessage": "Д°ptal"
+  },
+  "button.change-version": {
+    "defaultMessage": "SГјrГјm deДџiЕџtir"
   },
   "button.clear": {
     "defaultMessage": "Temizle"
@@ -65,41 +110,68 @@
   "button.continue": {
     "defaultMessage": "Devam"
   },
+  "button.copy-filename": {
+    "defaultMessage": "Dosya adД±nД± kopyala"
+  },
+  "button.copy-full-path": {
+    "defaultMessage": "Tam yolu kopyala"
+  },
   "button.copy-id": {
     "defaultMessage": "ID'yi Kopyala"
   },
+  "button.copy-link": {
+    "defaultMessage": "BaДџlantД±yД± kopyala"
+  },
   "button.copy-permalink": {
-    "defaultMessage": "Kalıcı bağlantı kopyala"
+    "defaultMessage": "KalД±cД± baДџlantД± kopyala"
   },
   "button.create-a-project": {
-    "defaultMessage": "Bir proje oluştur"
+    "defaultMessage": "Bir proje oluЕџtur"
   },
   "button.decline": {
     "defaultMessage": "Reddet"
   },
+  "button.disable": {
+    "defaultMessage": "Devre dД±ЕџД± bД±rak"
+  },
   "button.download": {
-    "defaultMessage": "İndir"
+    "defaultMessage": "Д°ndir"
   },
   "button.downloading": {
-    "defaultMessage": "İndiriliyor"
+    "defaultMessage": "Д°ndiriliyor"
   },
   "button.edit": {
-    "defaultMessage": "Düzenle"
+    "defaultMessage": "DГјzenle"
+  },
+  "button.enable": {
+    "defaultMessage": "EtkinleЕџtir"
+  },
+  "button.extract": {
+    "defaultMessage": "AyД±kla"
   },
   "button.follow": {
     "defaultMessage": "Takip Et"
+  },
+  "button.hide-snapshots": {
+    "defaultMessage": "SnapshotlarД± gizle"
   },
   "button.max": {
     "defaultMessage": "Maksimum"
   },
   "button.more-options": {
-    "defaultMessage": "Diğer ayarlar"
+    "defaultMessage": "DiДџer ayarlar"
+  },
+  "button.move": {
+    "defaultMessage": "TaЕџД±"
   },
   "button.next": {
-    "defaultMessage": "İleri"
+    "defaultMessage": "Д°leri"
   },
   "button.open-folder": {
-    "defaultMessage": "Klasörü aç"
+    "defaultMessage": "KlasГ¶rГј aГ§"
+  },
+  "button.open-in-folder": {
+    "defaultMessage": "KlasГ¶rde aГ§"
   },
   "button.play": {
     "defaultMessage": "Oyna"
@@ -107,17 +179,32 @@
   "button.refresh": {
     "defaultMessage": "Yenile"
   },
+  "button.reinstall-modpack": {
+    "defaultMessage": "Mod paketini yeniden kur"
+  },
   "button.remove": {
-    "defaultMessage": "Kaldır"
+    "defaultMessage": "KaldД±r"
   },
   "button.remove-image": {
-    "defaultMessage": "Görseli kaldır"
+    "defaultMessage": "GГ¶rseli kaldД±r"
+  },
+  "button.rename": {
+    "defaultMessage": "Yeniden adlandД±r"
+  },
+  "button.repair": {
+    "defaultMessage": "Tamir et"
+  },
+  "button.repairing": {
+    "defaultMessage": "Tamir Ediliyor..."
   },
   "button.report": {
     "defaultMessage": "Bildir"
   },
   "button.reset": {
-    "defaultMessage": "Sıfırla"
+    "defaultMessage": "SД±fД±rla"
+  },
+  "button.reset-server": {
+    "defaultMessage": "Sunucuyu sД±fД±rla"
   },
   "button.retry": {
     "defaultMessage": "Yeniden dene"
@@ -126,16 +213,22 @@
     "defaultMessage": "Kaydet"
   },
   "button.save-changes": {
-    "defaultMessage": "Değişiklikleri kaydet"
+    "defaultMessage": "DeДџiЕџiklikleri kaydet"
   },
   "button.saving": {
     "defaultMessage": "Kaydediliyor"
   },
+  "button.show-all-versions": {
+    "defaultMessage": "TГјm sГјrГјmleri gГ¶ster"
+  },
+  "button.show-file": {
+    "defaultMessage": "DosyayД± gГ¶ster"
+  },
   "button.sign-in": {
-    "defaultMessage": "Giriş yap"
+    "defaultMessage": "GiriЕџ yap"
   },
   "button.sign-out": {
-    "defaultMessage": "Çıkış yap"
+    "defaultMessage": "Г‡Д±kД±Еџ yap"
   },
   "button.sign-up": {
     "defaultMessage": "Kaydol"
@@ -143,20 +236,23 @@
   "button.stop": {
     "defaultMessage": "Durdur"
   },
+  "button.switch-version": {
+    "defaultMessage": "SГјrГјm deДџiЕџtir"
+  },
   "button.unfollow": {
-    "defaultMessage": "Takibi bırak"
+    "defaultMessage": "Takibi bД±rak"
+  },
+  "button.unlink-modpack": {
+    "defaultMessage": "Mod paketi baДџД±nД± kopar"
   },
   "button.update": {
-    "defaultMessage": "Güncelle"
+    "defaultMessage": "GГјncelle"
   },
   "button.upload-image": {
-    "defaultMessage": "Görsel yükle"
+    "defaultMessage": "GГ¶rsel yГјkle"
   },
   "changelog.justNow": {
-    "defaultMessage": "Şimdi"
-  },
-  "changelog.product.api": {
-    "defaultMessage": "API"
+    "defaultMessage": "Ећimdi"
   },
   "changelog.product.app": {
     "defaultMessage": "Uygulama"
@@ -165,16 +261,580 @@
     "defaultMessage": "Hosting"
   },
   "changelog.product.web": {
-    "defaultMessage": "Website"
+    "defaultMessage": "Platform"
   },
   "collections.label.private": {
     "defaultMessage": "Gizli"
   },
+  "content.confirm-bulk-update.admonition-body": {
+    "defaultMessage": "{count, plural, one {# projeyi} other {# projeyi}} en yeni uyumlu sГјrГјmГјne gГјncellemek istediДџinden emin misin? Д°Г§eriklerin tek tek gГјncellenmesi Г¶nerilir."
+  },
+  "content.confirm-bulk-update.admonition-header": {
+    "defaultMessage": "GГјncelleme uyarД±sД±"
+  },
+  "content.confirm-bulk-update.header": {
+    "defaultMessage": "Projeleri gГјncelle"
+  },
+  "content.confirm-bulk-update.update-button": {
+    "defaultMessage": "{count} projeyi gГјncelle"
+  },
+  "content.confirm-deletion.admonition-body": {
+    "defaultMessage": "Mod kaldД±rmak dГјnyanД±zД± kalД±cД± Еџekilde etkileyebilir ve eksik iГ§erik ve beklenmedik sorunlar yaЕџayabilirsiniz."
+  },
+  "content.confirm-deletion.admonition-header": {
+    "defaultMessage": "KaldД±rma uyarД±sД±"
+  },
+  "content.confirm-deletion.delete-button": {
+    "defaultMessage": "{count} {itemType} kaldД±r"
+  },
+  "content.confirm-deletion.header": {
+    "defaultMessage": "{itemType} kaldД±r"
+  },
+  "content.confirm-modpack-update.admonition-header": {
+    "defaultMessage": "{action, select, downgrade {SГјrГјm DГјЕџГјrme} other {GГјncelleme}} uyarД±sД±"
+  },
+  "content.confirm-modpack-update.confirm-button": {
+    "defaultMessage": "Mod paketini{action, select, downgrade {n sГјrГјmГјnГј dГјЕџГјr} other { gГјncelle}}"
+  },
+  "content.confirm-modpack-update.header": {
+    "defaultMessage": "Mod paketini{action, select, downgrade {n sГјrГјmГјnГј dГјЕџГјr} other { gГјncelle}}"
+  },
+  "content.confirm-unlink.admonition-body": {
+    "defaultMessage": "Modlar ve iГ§erikler, mod paketinin Гјzerine ekledikleriniz ile birleЕџicek ve gГјncelleme almayД± durduracak."
+  },
+  "content.confirm-unlink.admonition-header": {
+    "defaultMessage": "Mod paketi baДџlantД±sД± kesiliyor"
+  },
+  "content.confirm-unlink.header": {
+    "defaultMessage": "Mod paketi baДџlantД±sД±nД± kes"
+  },
+  "content.confirm-unlink.unlink-button": {
+    "defaultMessage": "BaДџlantД±yД± kopar/kes"
+  },
+  "content.diff-modal.added-count": {
+    "defaultMessage": "{count} eklendi"
+  },
+  "content.diff-modal.diff-type.added": {
+    "defaultMessage": "Eklendi (baДџД±mlД±lД±k)"
+  },
+  "content.diff-modal.diff-type.removed": {
+    "defaultMessage": "Devre dД±ЕџД±"
+  },
+  "content.diff-modal.diff-type.updated": {
+    "defaultMessage": "GГјncellendi"
+  },
+  "content.diff-modal.removed-count": {
+    "defaultMessage": "{count} kaldД±rД±ldД±"
+  },
+  "content.diff-modal.unknown-content-body": {
+    "defaultMessage": "Sunucundaki bazД± iГ§erikler analiz edilemedi ve bu deДџiЕџiklikten etkilenebilir."
+  },
+  "content.diff-modal.updated-count": {
+    "defaultMessage": "{count} gГјncellendi"
+  },
+  "content.inline-backup.backing-up": {
+    "defaultMessage": "Yedekleniyor..."
+  },
+  "content.inline-backup.backup-complete": {
+    "defaultMessage": "Yedek baЕџarД±yla oluЕџturuldu"
+  },
+  "content.inline-backup.backup-failed": {
+    "defaultMessage": "Yedek oluЕџturma baЕџarД±sД±z. Yine de devam edebilirsiniz."
+  },
+  "content.inline-backup.backup-in-progress": {
+    "defaultMessage": "Bunu yapmadan Г¶nce yedek alma iЕџleminin bitmesini beklemeniz Г¶nerilir."
+  },
+  "content.inline-backup.backup-takes-a-while": {
+    "defaultMessage": "Sunucunuzun boyutuna gГ¶re yedek oluЕџturmak bir kaГ§ dakika alabilir."
+  },
+  "content.inline-backup.create-backup": {
+    "defaultMessage": "Yedek oluЕџtur"
+  },
+  "content.inline-backup.shift-click-hint": {
+    "defaultMessage": "DoДџrulamayД± atlamak iГ§in tД±klarken Shift basД±lД± tutun."
+  },
+  "content.inline-backup.warning-body": {
+    "defaultMessage": "Herhangi bir Еџey bozulursa {type, select, server {dГјnyanД±zД±} other {kurulumunuzu}} kurtarmak iГ§in devam etmeden Г¶nce yedek oluЕџturmanД±zД± tavsiye ediyoruz."
+  },
+  "content.modpack-card.content-hint-description": {
+    "defaultMessage": "Mod paketinizin iГ§eriДџi artД±k burada bulunabilir!"
+  },
+  "content.modpack-card.content-hint-title": {
+    "defaultMessage": "Mod paketi iГ§eriДџi taЕџД±ndД±"
+  },
+  "content.modpack-card.dismiss-hint": {
+    "defaultMessage": "Bir daha gГ¶sterme"
+  },
+  "content.page-layout.additional-content": {
+    "defaultMessage": "Fazladan iГ§erik"
+  },
+  "content.page-layout.browse-content": {
+    "defaultMessage": "Д°Г§erik ara"
+  },
+  "content.page-layout.busy-description": {
+    "defaultMessage": "LГјtfen iГ§eriДџi dГјzenlemeye devam etmeden Г¶nce iЕџlemin nitmesini bekleyin."
+  },
+  "content.page-layout.empty.hint": {
+    "defaultMessage": "BaЕџlamak iГ§in {contentType} arayД±n ya da yГјkleyin"
+  },
+  "content.page-layout.empty.modpack-hint": {
+    "defaultMessage": "Bu mod paketinin Гјzerine ek iГ§erik ekle"
+  },
+  "content.page-layout.empty.no-content-installed": {
+    "defaultMessage": "HiГ§ iГ§erik kurulmamД±Еџ"
+  },
+  "content.page-layout.empty.no-extra-content-installed": {
+    "defaultMessage": "HiГ§ ekstra iГ§erik kurulmamД±Еџ"
+  },
+  "content.page-layout.failed-to-load": {
+    "defaultMessage": "Д°Г§erik yГјklemesi baЕџarД±sД±z oldu"
+  },
+  "content.page-layout.loading": {
+    "defaultMessage": "Д°Г§erik yГјkleniyor..."
+  },
+  "content.page-layout.no-content-found": {
+    "defaultMessage": "HiГ§ iГ§erik bulunamadД±."
+  },
+  "content.page-layout.please-wait": {
+    "defaultMessage": "LГјtfen bekleyin"
+  },
+  "content.page-layout.search-placeholder": {
+    "defaultMessage": "{count} {contentType} arasД±nda arayД±n..."
+  },
+  "content.page-layout.share.file-names": {
+    "defaultMessage": "Dosya adlarД±"
+  },
+  "content.page-layout.share.label": {
+    "defaultMessage": "PaylaЕџ"
+  },
+  "content.page-layout.share.markdown-links": {
+    "defaultMessage": "Markdown baДџlantД±larД±"
+  },
+  "content.page-layout.share.project-links": {
+    "defaultMessage": "Proje baДџlantД±larД±"
+  },
+  "content.page-layout.share.project-names": {
+    "defaultMessage": "Proje isimleri"
+  },
+  "content.page-layout.sort.alphabetical": {
+    "defaultMessage": "Alfabetik"
+  },
+  "content.page-layout.sort.date-added-newest": {
+    "defaultMessage": "Г–nce en yeni"
+  },
+  "content.page-layout.sort.date-added-oldest": {
+    "defaultMessage": "Г–nce en eski"
+  },
+  "content.page-layout.sort.label": {
+    "defaultMessage": "SД±ralama Еџekli {mode}"
+  },
+  "content.page-layout.update-all": {
+    "defaultMessage": "TГјmГјnГј gГјncelle"
+  },
+  "content.page-layout.upload-files": {
+    "defaultMessage": "Dosya yГјkle"
+  },
+  "content.page-layout.uploading-files": {
+    "defaultMessage": "Dosyalar yГјkleniyor ({completed}/{total})"
+  },
+  "content.selection-bar.all-already-disabled": {
+    "defaultMessage": "TГјm seГ§ili iГ§erik zaten devre dД±ЕџД±"
+  },
+  "content.selection-bar.all-already-enabled": {
+    "defaultMessage": "TГјm seГ§ili iГ§erik zaten aktif"
+  },
+  "content.selection-bar.bulk.deleting": {
+    "defaultMessage": "{progress}/{total} {contentType} siliniyor..."
+  },
+  "content.selection-bar.bulk.deleting-waiting": {
+    "defaultMessage": "{contentType} siliniyor..."
+  },
+  "content.selection-bar.bulk.disabling": {
+    "defaultMessage": "{progress}/{total} {contentType} devre dД±ЕџД± bД±rakД±lД±yor..."
+  },
+  "content.selection-bar.bulk.disabling-waiting": {
+    "defaultMessage": "{contentType} devre dД±ЕџД± bД±rakД±lД±yor..."
+  },
+  "content.selection-bar.bulk.enabling": {
+    "defaultMessage": "{progress}/{total} {contentType} aktive ediliyor..."
+  },
+  "content.selection-bar.bulk.enabling-waiting": {
+    "defaultMessage": "{contentType} aktive ediliyor..."
+  },
+  "content.selection-bar.bulk.updating": {
+    "defaultMessage": "{progress}/{total} {contentType} gГјncelleniyor..."
+  },
+  "content.selection-bar.bulk.updating-waiting": {
+    "defaultMessage": "{contentType} gГјncelleniyor..."
+  },
+  "content.selection-bar.selected-count": {
+    "defaultMessage": "{count} {contentType} seГ§ildi"
+  },
+  "content.selection-bar.selected-count-simple": {
+    "defaultMessage": "{count, number} seГ§ildi"
+  },
+  "files.conflict-modal.header": {
+    "defaultMessage": "Г–zeti ayД±kla"
+  },
+  "files.conflict-modal.overwrite-button": {
+    "defaultMessage": "Гњzerine yaz"
+  },
+  "files.conflict-modal.overwrite-many-warning": {
+    "defaultMessage": "AyД±klama iЕџlemine devam ederseniz 100'den fazla dosyanД±n Гјzerine yazД±lacak; iЕџte bunlardan bazД±larД±."
+  },
+  "files.conflict-modal.overwrite-warning": {
+    "defaultMessage": "AyД±klama iЕџlemine devam ederseniz sunucunuzda halihazД±rda bulunan Еџu {count} dosyanД±n Гјzerine yazД±lacaktД±r."
+  },
+  "files.conflict-modal.overwritten-count": {
+    "defaultMessage": "{count} tanesinin Гјzerine yazД±ldД±"
+  },
+  "files.conflict-modal.overwritten-label": {
+    "defaultMessage": "Гњzerine yazД±ldД±"
+  },
+  "files.conflict-modal.warning-header": {
+    "defaultMessage": "DosyalarД±n Гјzerine yazД±lacak"
+  },
+  "files.create-modal.create-button": {
+    "defaultMessage": "{type, select, directory {klasГ¶r} other {dosya}} oluЕџtur"
+  },
+  "files.create-modal.header": {
+    "defaultMessage": "Bir {type, select, directory {klasГ¶r} other {dosya}} oluЕџtur"
+  },
+  "files.create-modal.placeholder-directory": {
+    "defaultMessage": "Г¶rneДџin: klasГ¶rГјm"
+  },
+  "files.create-modal.placeholder-file": {
+    "defaultMessage": "Г¶rneДџin: config.yml"
+  },
+  "files.delete-modal.deleting-name": {
+    "defaultMessage": "\"{name}\" siliniyor"
+  },
+  "files.delete-modal.header": {
+    "defaultMessage": "DosyayД± sil"
+  },
+  "files.delete-modal.warning": {
+    "defaultMessage": "{type, select, directory {Bu klasГ¶r ve iГ§indeki tГјm iГ§erikler kalД±cД± olarak silinecektir. Bu iЕџlem geri alД±namaz.} other {Bu dosya kalД±cД± olarak silinecektir. Bu iЕџlem geri alД±namaz.}}"
+  },
+  "files.editor.failed-to-open-text": {
+    "defaultMessage": "Dosya iГ§eriДџi yГјklenemedi."
+  },
+  "files.editor.failed-to-open-title": {
+    "defaultMessage": "Dosya aГ§Д±lamadД±"
+  },
+  "files.editor.failed-to-share-text": {
+    "defaultMessage": "mclo.gs sitesine yГјklenemedi."
+  },
+  "files.editor.failed-to-share-title": {
+    "defaultMessage": "Dosya paylaЕџД±lamadД±"
+  },
+  "files.editor.file-saved-text": {
+    "defaultMessage": "DosyanД±z kaydedildi."
+  },
+  "files.editor.file-saved-title": {
+    "defaultMessage": "Dosya kaydedildi"
+  },
+  "files.editor.find-close": {
+    "defaultMessage": "Kapat"
+  },
+  "files.editor.find-in-file": {
+    "defaultMessage": "Bul"
+  },
+  "files.editor.find-match-count": {
+    "defaultMessage": "{current} / {total}"
+  },
+  "files.editor.find-next-match": {
+    "defaultMessage": "Sonraki eЕџleЕџme"
+  },
+  "files.editor.find-no-results": {
+    "defaultMessage": "SonuГ§ yok"
+  },
+  "files.editor.find-previous-match": {
+    "defaultMessage": "Г–nceki eЕџleЕџme"
+  },
+  "files.editor.find-toggle-replace": {
+    "defaultMessage": "DeДџiЕџtirmeyi aГ§/kapa"
+  },
+  "files.editor.log-url-copied-text": {
+    "defaultMessage": "GГјnlГјk (log) dosyasД± baДџlantД±nД±z panoya kopyalandД±."
+  },
+  "files.editor.log-url-copied-title": {
+    "defaultMessage": "GГјnlГјk (log) baДџlantД±sД± kopyalandД±"
+  },
+  "files.editor.replace": {
+    "defaultMessage": "DeДџiЕџtir"
+  },
+  "files.editor.replace-all": {
+    "defaultMessage": "Hepsini DeДџiЕџtir"
+  },
+  "files.editor.replace-in-file": {
+    "defaultMessage": "DeДџiЕџtir"
+  },
+  "files.editor.save-failed-text": {
+    "defaultMessage": "Dosya kaydedilemedi."
+  },
+  "files.editor.save-failed-title": {
+    "defaultMessage": "Kaydetme baЕџarД±sД±z"
+  },
+  "files.error.go-to-home": {
+    "defaultMessage": "Ana klasГ¶re git"
+  },
+  "files.error.try-again": {
+    "defaultMessage": "Yeniden dene"
+  },
+  "files.image_viewer.image_too_large": {
+    "defaultMessage": "Gemini Еџunu dedi:\nGГ¶rГјntГјlemek iГ§in resim Г§ok bГјyГјk (maksimum {maxDimension}x{maxDimension} piksel)"
+  },
+  "files.image_viewer.invalid_image": {
+    "defaultMessage": "GeГ§ersiz veya boЕџ resim dosyasД±."
+  },
+  "files.image_viewer.load_failed": {
+    "defaultMessage": "Resim yГјklenemedi"
+  },
+  "files.image_viewer.reset_zoom": {
+    "defaultMessage": "YakД±nlaЕџtД±rmayД± sД±fД±rla"
+  },
+  "files.image_viewer.viewed_image_alt": {
+    "defaultMessage": "GГ¶rГјntГјlenen resim"
+  },
+  "files.image_viewer.zoom_in": {
+    "defaultMessage": "YakД±nlaЕџtД±r"
+  },
+  "files.image_viewer.zoom_out": {
+    "defaultMessage": "UzaklaЕџtД±r"
+  },
+  "files.layout.busy-warning": {
+    "defaultMessage": "Д°Еџlem devam ederken dosya iЕџlemleri devre dД±ЕџД± bД±rakД±lД±r."
+  },
+  "files.layout.dry-run-failed-text": {
+    "defaultMessage": "Kuru Г§alД±ЕџtД±rma (dry run) yГјrГјtГјlГјrken hata oluЕџtu"
+  },
+  "files.layout.dry-run-failed-title": {
+    "defaultMessage": "Kuru Г§alД±ЕџtД±rma baЕџarД±sД±z"
+  },
+  "files.layout.empty-folder-description": {
+    "defaultMessage": "HiГ§bir dosya veya klasГ¶r bulunamadД±."
+  },
+  "files.layout.empty-folder-title": {
+    "defaultMessage": "Bu klasГ¶r boЕџ"
+  },
+  "files.layout.error-message": {
+    "defaultMessage": "KlasГ¶r mevcut olmayabilir."
+  },
+  "files.layout.error-title": {
+    "defaultMessage": "Dosyalar yГјklenemedi"
+  },
+  "files.layout.extraction-started-title": {
+    "defaultMessage": "Г‡Д±karma iЕџlemi baЕџladД±"
+  },
+  "files.layout.selected-count": {
+    "defaultMessage": "{count} seГ§ildi"
+  },
+  "files.layout.unsaved-changes": {
+    "defaultMessage": "KaydedilmemiЕџ deДџiЕџiklikler var."
+  },
+  "files.move-modal.current-location": {
+    "defaultMessage": "Ећu anki konum"
+  },
+  "files.move-modal.destination-path": {
+    "defaultMessage": "Hedef yolu"
+  },
+  "files.move-modal.destination-placeholder": {
+    "defaultMessage": "Г–rn. /klasorum"
+  },
+  "files.move-modal.header": {
+    "defaultMessage": "{type, select, directory {KlasГ¶rГј taЕџД±} other {DosyayД± taЕџД±}}"
+  },
+  "files.navbar.back-to-home": {
+    "defaultMessage": "Ana sayfaya dГ¶n"
+  },
+  "files.navbar.breadcrumb-navigation": {
+    "defaultMessage": "Yol iЕџareti gezintisi"
+  },
+  "files.navbar.create-new": {
+    "defaultMessage": "Yeni oluЕџtur..."
+  },
+  "files.navbar.file-navigation": {
+    "defaultMessage": "Dosya gezintisi"
+  },
+  "files.navbar.find-in-file": {
+    "defaultMessage": "Dosyada bul"
+  },
+  "files.navbar.home": {
+    "defaultMessage": "Ana sayfa"
+  },
+  "files.navbar.install-curseforge-pack": {
+    "defaultMessage": "CurseForge paketini kur"
+  },
+  "files.navbar.new-file": {
+    "defaultMessage": "Yeni dosya"
+  },
+  "files.navbar.new-folder": {
+    "defaultMessage": "Yeni klasГ¶r"
+  },
+  "files.navbar.search-files": {
+    "defaultMessage": "DosyalarД± ara"
+  },
+  "files.navbar.share-to-mclogs": {
+    "defaultMessage": "mclo.gs'de paylaЕџ"
+  },
+  "files.navbar.upload-file": {
+    "defaultMessage": "Dosya yГјkle"
+  },
+  "files.navbar.upload-from-zip": {
+    "defaultMessage": "Upload from .zip file"
+  },
+  "files.navbar.upload-from-zip-url": {
+    "defaultMessage": ".zip URL'sinden yГјkle"
+  },
+  "files.operations.extracted": {
+    "defaultMessage": "{size} Г§Д±karД±ldД±"
+  },
+  "files.operations.extracting": {
+    "defaultMessage": "{source} Г§Д±karД±lД±yor"
+  },
+  "files.operations.failed": {
+    "defaultMessage": "BaЕџarД±sД±z"
+  },
+  "files.operations.modpack-from-url": {
+    "defaultMessage": "URL'den mod paketi"
+  },
+  "files.rename-modal.header": {
+    "defaultMessage": "{name} adД±nД± deДџiЕџtir"
+  },
+  "files.rename-modal.new-name-label": {
+    "defaultMessage": "Yeni ad"
+  },
+  "files.row.item-count": {
+    "defaultMessage": "{count, plural, one {# Г¶Дџe} other {# Г¶Дџe}}"
+  },
+  "files.table-header.created": {
+    "defaultMessage": "OluЕџturuldu"
+  },
+  "files.table-header.modified": {
+    "defaultMessage": "DeДџiЕџtirildi"
+  },
+  "files.table-header.name": {
+    "defaultMessage": "Ad"
+  },
+  "files.table-header.size": {
+    "defaultMessage": "Boyut"
+  },
+  "files.unsaved-changes-modal.body": {
+    "defaultMessage": "KaydedilmemiЕџ deДџiЕџiklikleriniz var, ayrД±lД±rsanД±z bunlar kaybolacak. AyrД±lmadan Г¶nce kaydetmek ister misiniz?"
+  },
+  "files.unsaved-changes-modal.discard": {
+    "defaultMessage": "VazgeГ§"
+  },
+  "files.unsaved-changes-modal.header": {
+    "defaultMessage": "KaydedilmemiЕџ deДџiЕџiklikler"
+  },
+  "files.upload-dropdown.cancelled": {
+    "defaultMessage": "Д°ptal edildi"
+  },
+  "files.upload-dropdown.failed-file-exists": {
+    "defaultMessage": "BaЕџarД±sД±z - Dosya zaten mevcut"
+  },
+  "files.upload-dropdown.failed-generic": {
+    "defaultMessage": "Failed - {error}"
+  },
+  "files.upload-dropdown.failed-incorrect-type": {
+    "defaultMessage": "BaЕџarД±sД±z - GeГ§ersiz dosya tГјrГј"
+  },
+  "files.upload-dropdown.failed-to-upload": {
+    "defaultMessage": "{fileName} yГјklenemedi"
+  },
+  "files.upload-dropdown.file": {
+    "defaultMessage": "Dosya"
+  },
+  "files.upload-dropdown.file-uploads": {
+    "defaultMessage": "{fileType} uploads"
+  },
+  "files.upload-dropdown.incorrect-file-type": {
+    "defaultMessage": "YГјkleme geГ§ersiz dosya tГјrГјne sahipti"
+  },
+  "files.upload-dropdown.unexpected-error": {
+    "defaultMessage": "Beklenmedik bir hata oluЕџtu."
+  },
+  "files.upload-dropdown.uploads-left": {
+    "defaultMessage": "- {count} kaldД±"
+  },
+  "files.upload.drag-and-drop.drop-to-upload": {
+    "defaultMessage": "YГјklemek iГ§in {type, select, undefined {dosyalarД±} other {{type}larД±}} buraya bД±rakД±n"
+  },
+  "files.validation.name-invalid-directory": {
+    "defaultMessage": "Ad yalnД±zca alfanГјmerik karakterler, tireler, alt Г§izgiler veya boЕџluklar iГ§erebilir."
+  },
+  "files.validation.name-invalid-file": {
+    "defaultMessage": "Ad yalnД±zca alfanГјmerik karakterler, tireler, alt Г§izgiler, noktalar veya boЕџluklar iГ§erebilir."
+  },
+  "files.validation.name-label": {
+    "defaultMessage": "Ad"
+  },
+  "files.validation.name-required": {
+    "defaultMessage": "Ad gerekli."
+  },
+  "files.zip-url-modal.backup-name": {
+    "defaultMessage": "CurseForge mod paketi kurulumu"
+  },
+  "files.zip-url-modal.cf-header": {
+    "defaultMessage": "Install a CurseForge modpack"
+  },
+  "files.zip-url-modal.cf-not-found-text": {
+    "defaultMessage": "Belirtilen URL'de CurseForge mod paketi bulunamadД±."
+  },
+  "files.zip-url-modal.cf-not-found-title": {
+    "defaultMessage": "CurseForge mod paketi bulunamadД±"
+  },
+  "files.zip-url-modal.enter-link": {
+    "defaultMessage": "BaДџlantД±yД± girin"
+  },
+  "files.zip-url-modal.error-cf-url": {
+    "defaultMessage": "URL, bir CurseForge mod paketi sГјrГјm URL'si olmalД±dД±r."
+  },
+  "files.zip-url-modal.error-url-invalid": {
+    "defaultMessage": "URL geГ§erli olmalД±dД±r."
+  },
+  "files.zip-url-modal.error-url-required": {
+    "defaultMessage": "URL gerekli."
+  },
+  "files.zip-url-modal.install-button": {
+    "defaultMessage": "Kur"
+  },
+  "files.zip-url-modal.install-failed-title": {
+    "defaultMessage": "Kurulum baЕџarД±sД±z oldu"
+  },
+  "files.zip-url-modal.step-copy-description": {
+    "defaultMessage": "SГјrГјm sayfasД± URL'sini kopyalayД±n ve aЕџaДџД±ya yapД±ЕџtД±rД±n."
+  },
+  "files.zip-url-modal.step-copy-title": {
+    "defaultMessage": "URL'yi kopyala"
+  },
+  "files.zip-url-modal.step-find-description": {
+    "defaultMessage": "CurseForge'a gГ¶z atД±n ve istediДџiniz mod paketini bulun."
+  },
+  "files.zip-url-modal.step-find-title": {
+    "defaultMessage": "Mod paketini bulun"
+  },
+  "files.zip-url-modal.step-select-description": {
+    "defaultMessage": "\"Dosyalar\" sekmesine gidin ve yГјklemek istediДџiniz sГјrГјmГј seГ§in."
+  },
+  "files.zip-url-modal.step-select-title": {
+    "defaultMessage": "Bir sГјrГјm seГ§in"
+  },
+  "files.zip-url-modal.unknown-error": {
+    "defaultMessage": "Bilinmeyen bir hata oluЕџtu"
+  },
+  "files.zip-url-modal.zip-description": {
+    "defaultMessage": "Bir .zip dosyasД±nД±n doДџrudan indirme URL'sini kopyalayД±p aЕџaДџД±ya yapД±ЕџtД±rД±n."
+  },
+  "files.zip-url-modal.zip-header": {
+    "defaultMessage": "URL'den .zip iГ§eriДџi yГјkleniyor"
+  },
   "form.label.address-line": {
-    "defaultMessage": "Adres satırı"
+    "defaultMessage": "Adres satД±rД±"
   },
   "form.label.address-line-2": {
-    "defaultMessage": "Adres satırı 2 (isteğe bağlı)"
+    "defaultMessage": "Adres satД±rД± 2 (isteДџe baДџlД±)"
   },
   "form.label.amount": {
     "defaultMessage": "Miktar"
@@ -183,16 +843,16 @@
     "defaultMessage": "Banka ismi"
   },
   "form.label.business-name": {
-    "defaultMessage": "İşletme adı"
+    "defaultMessage": "Д°Еџletme adД±"
   },
   "form.label.city": {
-    "defaultMessage": "Şehir"
+    "defaultMessage": "Ећehir"
   },
   "form.label.country": {
-    "defaultMessage": "Ülke"
+    "defaultMessage": "Гњlke"
   },
   "form.label.date-of-birth": {
-    "defaultMessage": "Doğum tarihi"
+    "defaultMessage": "DoДџum tarihi"
   },
   "form.label.email": {
     "defaultMessage": "E Posta"
@@ -222,16 +882,16 @@
     "defaultMessage": "Banka ismi giriniz"
   },
   "form.placeholder.bank-name-dropdown": {
-    "defaultMessage": "Banka ismini seçin"
+    "defaultMessage": "Banka ismini seГ§in"
   },
   "form.placeholder.business-name": {
-    "defaultMessage": "İşletme ismini girin"
+    "defaultMessage": "Д°Еџletme ismini girin"
   },
   "form.placeholder.city": {
-    "defaultMessage": "Şehir girin"
+    "defaultMessage": "Ећehir girin"
   },
   "form.placeholder.country": {
-    "defaultMessage": "Ülke seç"
+    "defaultMessage": "Гњlke seГ§"
   },
   "form.placeholder.email": {
     "defaultMessage": "Eposta adresini girin"
@@ -252,19 +912,106 @@
     "defaultMessage": "Kategori"
   },
   "header.category.feature": {
-    "defaultMessage": "Özellikler"
+    "defaultMessage": "Г–zellikler"
+  },
+  "header.category.minecraft-server-community": {
+    "defaultMessage": "Topluluk"
+  },
+  "header.category.minecraft-server-features": {
+    "defaultMessage": "Г–zellikler"
+  },
+  "header.category.minecraft-server-gameplay": {
+    "defaultMessage": "OynanД±Еџ"
+  },
+  "header.category.minecraft-server-meta": {
+    "defaultMessage": "Meta"
   },
   "header.category.performance-impact": {
     "defaultMessage": "Performansa etkisi"
   },
   "header.category.resolutions": {
-    "defaultMessage": "Çözünürlükler"
+    "defaultMessage": "Г‡Г¶zГјnГјrlГјk"
+  },
+  "hosting.content.failed-to-bulk-delete": {
+    "defaultMessage": "Д°Г§eriДџi silmek baЕџarД±sД±z"
+  },
+  "hosting.content.failed-to-bulk-disable": {
+    "defaultMessage": "Д°Г§eriДџi kapatmak baЕџarД±sД±z"
+  },
+  "hosting.content.failed-to-bulk-enable": {
+    "defaultMessage": "Д°Г§eriДџi aГ§mak baЕџarД±sД±z"
+  },
+  "hosting.content.failed-to-bulk-update": {
+    "defaultMessage": "Д°Г§eriДџi gГјncelleme baЕџarД±sД±z"
+  },
+  "hosting.content.failed-to-load-modpack-content": {
+    "defaultMessage": "Mod paketinin iГ§eriДџi yГјklenemedi"
+  },
+  "hosting.content.failed-to-load-versions": {
+    "defaultMessage": "SГјrГјmler yГјklenemedi"
+  },
+  "hosting.content.failed-to-remove": {
+    "defaultMessage": "Д°Г§erik Г§Д±karД±lamadД±"
+  },
+  "hosting.content.failed-to-toggle": {
+    "defaultMessage": "{name} durumu deДџiЕџtirilemedi"
+  },
+  "hosting.content.failed-to-unlink": {
+    "defaultMessage": "Mod paketinin baДџlantД±sД± koparД±lamadД±"
+  },
+  "hosting.content.failed-to-update": {
+    "defaultMessage": "GГјncellenemedi"
+  },
+  "hosting.content.failed-to-upload": {
+    "defaultMessage": "Dosya yГјkleme baЕџarД±sД±z"
+  },
+  "hosting.loader.failed-to-change-version": {
+    "defaultMessage": "Mod paketi sГјrГјmГј deДџiЕџtirilemedi"
+  },
+  "hosting.loader.failed-to-load-versions": {
+    "defaultMessage": "SГјrГјmler yГјklenemedi"
+  },
+  "hosting.loader.failed-to-repair": {
+    "defaultMessage": "Sunucu tamir edilemedi"
+  },
+  "hosting.loader.failed-to-reset-to-onboarding": {
+    "defaultMessage": "Sunucu baЕџlangД±Г§ ayarlarД±na sД±fД±rlanamadД±"
+  },
+  "hosting.loader.failed-to-save-settings": {
+    "defaultMessage": "Kurulum ayarlarД± kaydedilemedi"
+  },
+  "hosting.loader.failed-to-unlink": {
+    "defaultMessage": "Mod paketi baДџlantД±sД± kaldД±rД±lamadД±"
+  },
+  "hosting.loader.repair-started-text": {
+    "defaultMessage": "Sunucu kurulumunuz baЕџarД±yla onarД±ldД±."
+  },
+  "hosting.loader.repair-started-title": {
+    "defaultMessage": "Tamir tamamlandД±"
+  },
+  "hosting.loader.reset-server": {
+    "defaultMessage": "Sunucuyu sД±fД±rla"
+  },
+  "hosting.loader.reset-server-description": {
+    "defaultMessage": "Sunucunuzdaki tГјm verileri, dГјnyalarД±nД±zД±, modlarД± ve yapД±landД±rma dosyalarД±nД±zД± siler. Yedekler korunur ve geri yГјklenebilir."
+  },
+  "hosting.loader.reset-to-onboarding-button": {
+    "defaultMessage": "Kurulum aЕџamasД±na sД±fД±rla"
+  },
+  "hosting.loader.reset-to-onboarding-modal-description": {
+    "defaultMessage": "Bu sunucuyu kurulum aЕџamasД±na geri gГ¶nderecek. Devam etmek istediДџinizden emin misiniz?"
+  },
+  "hosting.loader.reset-to-onboarding-modal-title": {
+    "defaultMessage": "Kurulum aЕџamasД±na sД±fД±rla"
+  },
+  "hosting.loader.support-options-title": {
+    "defaultMessage": "Destek seГ§enekleri"
   },
   "hosting.specs.burst": {
-    "defaultMessage": "{cpus} CPUya kadar çıkar"
+    "defaultMessage": "{cpus} CPUya kadar Г§Д±kar"
   },
   "hosting.specs.burst.tooltip": {
-    "defaultMessage": "CPU çıkması, sunucunuzun geçici olarak ek Thread(iş parçacığı) kullanabilmesini sağlar. Daha fazla bilgi için tıklayın."
+    "defaultMessage": "CPU Г§Д±kmasД±, sunucunuzun geГ§ici olarak ek Thread(iЕџ parГ§acД±ДџД±) kullanabilmesini saДџlar. Daha fazla bilgi iГ§in tД±klayД±n."
   },
   "hosting.specs.gb-ram": {
     "defaultMessage": "{ram} GB RAM"
@@ -273,40 +1020,166 @@
     "defaultMessage": "{storage} GB Depolama"
   },
   "hosting.specs.shared-cpus": {
-    "defaultMessage": "{cpus} Paylaşılan CPU"
+    "defaultMessage": "{cpus} PaylaЕџД±lan CPU"
   },
   "icon-select.edit": {
-    "defaultMessage": "Simgeyi düzenle"
+    "defaultMessage": "Simgeyi dГјzenle"
   },
   "icon-select.remove": {
-    "defaultMessage": "Simgeyi kaldır"
+    "defaultMessage": "Simgeyi kaldД±r"
   },
   "icon-select.replace": {
-    "defaultMessage": "Simgeyi değiştir"
+    "defaultMessage": "Simgeyi deДџiЕџtir"
   },
   "icon-select.select": {
-    "defaultMessage": "Simge seç"
+    "defaultMessage": "Simge seГ§"
+  },
+  "input.search-version.placeholder": {
+    "defaultMessage": "SГјrГјm ara..."
   },
   "input.search.placeholder": {
     "defaultMessage": "Ara..."
   },
+  "input.select-version.placeholder": {
+    "defaultMessage": "SГјrГјm seГ§"
+  },
   "input.view.gallery": {
-    "defaultMessage": "Galeri görünümü"
+    "defaultMessage": "Galeri gГ¶rГјnГјmГј"
   },
   "input.view.grid": {
-    "defaultMessage": "Tablo görünümü"
+    "defaultMessage": "Tablo gГ¶rГјnГјmГј"
   },
   "input.view.list": {
-    "defaultMessage": "Satır görünümü"
+    "defaultMessage": "SatД±r gГ¶rГјnГјmГј"
+  },
+  "installation-settings.aria.select-game-version": {
+    "defaultMessage": "Oyun sГјrГјmГј seГ§"
+  },
+  "installation-settings.aria.select-loader-version": {
+    "defaultMessage": "{loader} sГјrГјmГј seГ§"
+  },
+  "installation-settings.aria.select-platform": {
+    "defaultMessage": "Platform seГ§"
+  },
+  "installation-settings.confirm-version-change": {
+    "defaultMessage": "Onayla"
+  },
+  "installation-settings.confirm-version-change-description": {
+    "defaultMessage": "{gameVersion} sГјrГјmГјne geГ§mek sunucundaki Еџu iГ§eriДџi deДџiЕџtirecek."
+  },
+  "installation-settings.confirm-version-change-header": {
+    "defaultMessage": "Д°Г§erik deДџiЕџikliklerini gГјncelleyin"
+  },
+  "installation-settings.edit-installation.title": {
+    "defaultMessage": "Kurulumu dГјzenleyin"
+  },
+  "installation-settings.edit.warning-instance": {
+    "defaultMessage": "Д°Г§erik kurduktan sonra kurulumunuzu deДџiЕџtirmenizi tavsiye etmeyiz. EДџer deДџiЕџiklik yapmak isterseniz dikkatli olun Г§ГјnkГј bu Г§eЕџitli sorunlara yol aГ§abilir."
+  },
+  "installation-settings.edit.warning-server": {
+    "defaultMessage": "Д°Г§erik kurduktan sonra kurulumunuzu deДџiЕџtirmenizi tavsiye etmeyiz. EДџer deДџiЕџiklik yapmak isterseniz sunucunuzu sД±fД±rlayД±n."
+  },
+  "installation-settings.incompatible-content.auto-fix-button": {
+    "defaultMessage": "Oto-Г§Г¶z"
+  },
+  "installation-settings.incompatible-content.change-loader-button": {
+    "defaultMessage": "YГјkleyiciyi deДџiЕџtir"
+  },
+  "installation-settings.incompatible-content.disable-conflicts-button": {
+    "defaultMessage": "Г‡akД±ЕџanlarД± kapat"
+  },
+  "installation-settings.incompatible-content.game-version-warning-body": {
+    "defaultMessage": "Oyun sГјrГјmГјnГј deДџiЕџtirirken uyumsuz yГјklГј iГ§erikleri kapatabilir veya Г§Г¶zmeye Г§alД±Еџabiliriz."
+  },
+  "installation-settings.incompatible-content.game-version-warning-title": {
+    "defaultMessage": "Uyumsuzluk uyarД±sД±"
+  },
+  "installation-settings.incompatible-content.header": {
+    "defaultMessage": "Uyumsuz iГ§erik yГјklГј"
+  },
+  "installation-settings.incompatible-content.loader-change-body": {
+    "defaultMessage": "YГјkleyiciyi deДџiЕџtirdiДџinizde tГјm yГјklГј iГ§erik kapatД±lacak. Onun yerine sunucunuzu sД±fД±rlamanД±zД± Г¶neririz."
+  },
+  "installation-settings.incompatible-content.loader-change-title": {
+    "defaultMessage": "YГјkleyici deДџiЕџtirmek tehlikelidir"
+  },
+  "installation-settings.linked-instance.title": {
+    "defaultMessage": "BaДџlД± {projectType, select, server {sunucu} other {mod paketi}}"
+  },
+  "installation-settings.loader-version": {
+    "defaultMessage": "{loader} sГјrГјmГј"
+  },
+  "installation-settings.platform-lock-tooltip": {
+    "defaultMessage": "YГјkleyici deДџiЕџtirmek iГ§in sunucunuzu sД±fД±rlamalД±sД±nД±z."
+  },
+  "installation-settings.reinstall-modpack.description": {
+    "defaultMessage": "Mod paketini tekrardan kurmak {type, select, server {sunucuyu} other {kurulumu}} orijinal hГўline geri dГ¶ndГјrГјr. Bu iЕџlem sonradan eklediДџiniz tГјm iГ§eriДџi siler."
+  },
+  "installation-settings.reinstall-modpack.title": {
+    "defaultMessage": "Mod paketini yeniden kur"
+  },
+  "installation-settings.reinstalling-modpack": {
+    "defaultMessage": "Mod paketi yeniden kuruluyor"
+  },
+  "installation-settings.removed-incompatible": {
+    "defaultMessage": "KaldД±rД±ldД± (uyumsuz)"
+  },
+  "installation-settings.repair.instance-description": {
+    "defaultMessage": "Minecraft'Д±n gereksinimlerini yeniden kurar ve bozukluklarД± arar. Bu eДџer oyununuz baЕџlatД±cД± nedenli hatalardan dolayД± aГ§Д±lmД±yorsa sorunu dГјzeltebilir."
+  },
+  "installation-settings.repair.instance-title": {
+    "defaultMessage": "Kurulumu tamir et"
+  },
+  "installation-settings.repair.server-description": {
+    "defaultMessage": "Mod yГјkleyicisini ve Minecraft gereksinimlerini, iГ§eriДџinizi silmeden tekrar yГјkler. Bu sunucunuzun dГјzgГјn baЕџlamamasД± sorununu Г§Г¶zebilir."
+  },
+  "installation-settings.repair.server-title": {
+    "defaultMessage": "Sunucuyu tamir et"
+  },
+  "installation-settings.saving": {
+    "defaultMessage": "Kaydediliyor..."
+  },
+  "installation-settings.search-game-version": {
+    "defaultMessage": "Oyun sГјrГјmГј ara..."
+  },
+  "installation-settings.unlink": {
+    "defaultMessage": "BaДџlantД±yД± kopar"
+  },
+  "installation-settings.unlink.description": {
+    "defaultMessage": "BaДџlantД±yД± kalД±cД± olarak kesmek, bu {type, select, server {sunucunun} other {Г¶rneДџin}} {projectType, select, server {sunucu} other {mod paketi}} projesiyle olan iliЕџkisini tamamen koparД±r; bu sayede yГјkleyiciyi ve Minecraft sГјrГјmГјnГј deДџiЕџtirebilirsiniz ancak gelecekteki gГјncellemeleri alamazsД±nД±z."
+  },
+  "installation-settings.verifying": {
+    "defaultMessage": "DoДџrulanД±yor..."
+  },
+  "instance.confirm-reinstall.admonition-body": {
+    "defaultMessage": "Yeniden kurulum, mod paketinin Гјzerine yГјklenmiЕџ veya deДџiЕџitirilmiЕџ iГ§eriДџi sД±fД±rlar, orijinal kurulumun Гјzerine eklediДџiniz herhangi mod veya iГ§eriДџi kaldД±rД±r."
+  },
+  "instance.confirm-reinstall.admonition-header": {
+    "defaultMessage": "Yeniden kurulum uyarД±sД±"
+  },
+  "instance.confirm-reinstall.header": {
+    "defaultMessage": "Mod paketini yeniden kur"
+  },
+  "instance.confirm-reinstall.reinstall-button": {
+    "defaultMessage": "Mod paketini yeniden kur"
+  },
+  "instance.confirm-repair.body": {
+    "defaultMessage": "Tamir etmek yГјkleyiciyi ve Minecraft'Д±n Г§alД±ЕџmasД± iГ§in gereken dosyalarД±, sizin iГ§eriДџinizi silmeden tekrar yГјkler. Bu, {type, select, server {sunucunuz doДџru baЕџlamД±yor ise} other {oyununuz yГјkleyici bazlД± hatalardan dolayД± baЕџlamД±yor ise}} sorunlarД± Г§Г¶zebilir."
+  },
+  "instance.confirm-repair.header": {
+    "defaultMessage": "{type, select, server {Sunucuyu} other {Kurulumu}} tamir et"
+  },
+  "instance.confirm-repair.repair-button": {
+    "defaultMessage": "Tamir et"
   },
   "instance.worlds.game_mode.adventure": {
     "defaultMessage": "Macera modu"
   },
   "instance.worlds.game_mode.creative": {
-    "defaultMessage": "Yaratıcılık modu"
+    "defaultMessage": "YaratД±cД±lД±k modu"
   },
   "instance.worlds.game_mode.spectator": {
-    "defaultMessage": "İzleyici modu"
+    "defaultMessage": "Д°zleyici modu"
   },
   "instance.worlds.game_mode.survival": {
     "defaultMessage": "Hayatta kalma modu"
@@ -314,47 +1187,128 @@
   "instance.worlds.game_mode.unknown": {
     "defaultMessage": "Bilinmeyen oyun modu"
   },
-  "instances.modpack-card.unlink": {
-    "defaultMessage": "Mod paketi bağını kopar"
+  "instances.confirm-leave-modal.body": {
+    "defaultMessage": "Dosyalar hГўlГў yГјkleniyor. Bu sayfadan ayrД±lmak yГјklemeyi iptal eder ve deДџiЕџiklikleriniz yok olabilir."
+  },
+  "instances.confirm-leave-modal.upload-in-progress": {
+    "defaultMessage": "YГјkleme devam etmekte"
+  },
+  "instances.content-install.compatible-count": {
+    "defaultMessage": "{count} uyumlu kurulum"
+  },
+  "instances.content-install.existing-tab": {
+    "defaultMessage": "Var olan kurulum"
+  },
+  "instances.content-install.game-version-placeholder": {
+    "defaultMessage": "Oyun sГјrГјmГј seГ§"
+  },
+  "instances.content-install.header": {
+    "defaultMessage": "Proje kur"
+  },
+  "instances.content-install.install-button": {
+    "defaultMessage": "YГјkle"
+  },
+  "instances.content-install.installed-badge": {
+    "defaultMessage": "YГјklГј"
+  },
+  "instances.content-install.instance-type": {
+    "defaultMessage": "Kurulum tГјrГј"
+  },
+  "instances.content-install.loader-label": {
+    "defaultMessage": "YГјkleyici"
+  },
+  "instances.content-install.name-label": {
+    "defaultMessage": "Ad"
+  },
+  "instances.content-install.name-placeholder": {
+    "defaultMessage": "Kurulum adД± girin"
+  },
+  "instances.content-install.new-tab": {
+    "defaultMessage": "Yeni kurulum"
+  },
+  "instances.content-install.no-instances": {
+    "defaultMessage": "Uyumlu kurulum yok"
+  },
+  "instances.content-install.remove-icon": {
+    "defaultMessage": "Simgeyi kaldД±r"
+  },
+  "instances.content-install.search-placeholder": {
+    "defaultMessage": "Kurulum ara"
+  },
+  "instances.content-install.select-icon": {
+    "defaultMessage": "Simge seГ§"
+  },
+  "instances.modpack-content-modal.empty-description": {
+    "defaultMessage": "Bu mod paketi baЕџka hiГ§ bir ekstra iЕџerik iГ§ermez."
+  },
+  "instances.modpack-content-modal.empty-title": {
+    "defaultMessage": "Д°Г§erik bulunamadД±"
+  },
+  "instances.modpack-content-modal.header": {
+    "defaultMessage": "Mod paketi iГ§eriДџi"
+  },
+  "instances.modpack-content-modal.loading": {
+    "defaultMessage": "Д°Г§erik yГјkleniyor..."
+  },
+  "instances.modpack-content-modal.no-results": {
+    "defaultMessage": "AramanД±zla eЕџleЕџen proje yok."
+  },
+  "instances.modpack-content-modal.search-placeholder": {
+    "defaultMessage": "Search {count, number} {count, plural, one {project} other {projects}}"
   },
   "instances.updater-modal.badge.current": {
-    "defaultMessage": "Şu anki"
+    "defaultMessage": "Ећu anki"
   },
   "instances.updater-modal.badge.incompatible": {
     "defaultMessage": "Uyumsuz"
   },
   "instances.updater-modal.downgrade-to": {
-    "defaultMessage": "Sürümü v{version}'e düşür"
+    "defaultMessage": "SГјrГјmГј {version}'e dГјЕџГјr"
   },
   "instances.updater-modal.header": {
-    "defaultMessage": "Güncelleme sürümü"
+    "defaultMessage": "GГјncelleme sГјrГјmГј"
+  },
+  "instances.updater-modal.header-modpack": {
+    "defaultMessage": "Mod paketi sГјrГјmГјnГј deДџiЕџtir"
+  },
+  "instances.updater-modal.header-switch": {
+    "defaultMessage": "SГјrГјm deДџiЕџtir"
   },
   "instances.updater-modal.hide-incompatible": {
-    "defaultMessage": "Uyumsuz olanları gizle"
+    "defaultMessage": "Uyumsuz olanlarД± gizle"
+  },
+  "instances.updater-modal.loading-changelog": {
+    "defaultMessage": "DeДџiЕџiklikler yГјkleniyor..."
+  },
+  "instances.updater-modal.loading-versions": {
+    "defaultMessage": "SГјrГјmler yГјkleniyor..."
   },
   "instances.updater-modal.no-changelog": {
-    "defaultMessage": "Bu sürüm için güncelleme günlüğü sağlanmadı."
+    "defaultMessage": "Bu sГјrГјm iГ§in gГјncelleme gГјnlГјДџГј saДџlanmadД±."
   },
   "instances.updater-modal.no-versions": {
-    "defaultMessage": "Sürümler bulunamadı"
+    "defaultMessage": "SГјrГјmler bulunamadД±"
   },
   "instances.updater-modal.search-placeholder": {
-    "defaultMessage": "Sürüm ara..."
+    "defaultMessage": "SГјrГјm ara..."
   },
   "instances.updater-modal.select-version": {
-    "defaultMessage": "Güncelleme günlüğünü görmek için bir sürüm seç"
+    "defaultMessage": "GГјncelleme gГјnlГјДџГјnГј gГ¶rmek iГ§in bir sГјrГјm seГ§"
   },
   "instances.updater-modal.show-incompatible": {
-    "defaultMessage": "Uyumsuzları göster"
+    "defaultMessage": "UyumsuzlarД± gГ¶ster"
+  },
+  "instances.updater-modal.switch-to": {
+    "defaultMessage": "{version} sГјrГјmГјne geГ§"
   },
   "instances.updater-modal.update-to": {
-    "defaultMessage": "Sürümü v{version}'e yükselt"
+    "defaultMessage": "{version}'e gГјncelle"
   },
-  "instances.updater-modal.warning.app": {
-    "defaultMessage": "Güncellemelerin sizin kurulumunuz için güvenli olduğunu garanti edemeyiz. Ara sürümlerin tümünün değişiklik günlüğünü inceleyin ve yedekleme yapmayı düşünün."
+  "instances.updater-modal.warning-app": {
+    "defaultMessage": "GГјncellemek kurulumunuzu bozabilir. SГјrГјm deДџiЕџikliklerini gГ¶zden geГ§irin ve yedek alД±n."
   },
-  "instances.updater-modal.warning.web": {
-    "defaultMessage": "Güncellemelerin dünyalarınız için güvenli olduğunu garanti edemeyiz. Tüm ara sürümlerin güncelleme günlüğünü inceleyin ve yedekleme yapmayı düşünün."
+  "instances.updater-modal.warning-web": {
+    "defaultMessage": "GГјncellemek dГјnyanД±zД± bozabilir. SГјrГјm deДџiЕџikliklerini gГ¶zden geГ§irin ve yedek alД±n."
   },
   "label.actions": {
     "defaultMessage": "Eylemler"
@@ -363,22 +1317,40 @@
     "defaultMessage": "{amount} mevcut."
   },
   "label.changelog": {
-    "defaultMessage": "Değişiklik günlüğü"
+    "defaultMessage": "DeДџiЕџiklik gГјnlГјДџГј"
   },
   "label.changes-saved": {
-    "defaultMessage": "Değişiklikler kaydedildi"
+    "defaultMessage": "DeДџiЕџiklikler kaydedildi"
+  },
+  "label.client-depends-warning": {
+    "defaultMessage": "Bu mod, istemci tarafД± (client-side) bir moda baДџД±mlД±dД±r ve sunucunuzu baЕџlatД±rken sorunlara neden olabilir"
+  },
+  "label.client-only-warning": {
+    "defaultMessage": "Bu iЕџlemci-tarafД± bir mod ve sunucunuzu baЕџlatД±rken sorunlara yol aГ§abilir"
+  },
+  "label.client-retained-warning": {
+    "defaultMessage": "Bu, baДџД±mlД±lД±k olarak yГјklenmiЕџ bir istemci tarafД± (client-side) modudur ve sunucunuzu baЕџlatД±rken sorunlara neden olabilir"
   },
   "label.collections": {
     "defaultMessage": "Koleksiyonlar"
   },
   "label.confirm-password": {
-    "defaultMessage": "Parolayı onayla"
+    "defaultMessage": "ParolayД± onayla"
   },
   "label.content": {
     "defaultMessage": ""
   },
+  "label.copied-filename": {
+    "defaultMessage": "Dosya adД± kopyalandД±"
+  },
+  "label.copied-path": {
+    "defaultMessage": "Yol kopyalandД±"
+  },
+  "label.create-failed": {
+    "defaultMessage": "OluЕџturma baЕџarД±sД±z oldu"
+  },
   "label.created-ago": {
-    "defaultMessage": "{ago} önce oluşturuldu"
+    "defaultMessage": "{ago} Г¶nce oluЕџturuldu"
   },
   "label.dashboard": {
     "defaultMessage": "Panel"
@@ -386,20 +1358,35 @@
   "label.delete": {
     "defaultMessage": "Sil"
   },
+  "label.delete-failed": {
+    "defaultMessage": "Silme baЕџarД±sД±z oldu"
+  },
+  "label.delete-immediately": {
+    "defaultMessage": "Hemen kaldД±r"
+  },
   "label.description": {
-    "defaultMessage": "Açıklama"
+    "defaultMessage": "AГ§Д±klama"
   },
   "label.details": {
     "defaultMessage": "Detaylar"
+  },
+  "label.done": {
+    "defaultMessage": "TamamlandД±"
+  },
+  "label.download-failed": {
+    "defaultMessage": "Д°ndirme baЕџarД±sД±z oldu"
   },
   "label.email": {
     "defaultMessage": "E-posta"
   },
   "label.email-username": {
-    "defaultMessage": "E-posta veya kullanıcı adı"
+    "defaultMessage": "E-posta veya kullanД±cД± adД±"
   },
   "label.error": {
     "defaultMessage": "Hata"
+  },
+  "label.extract-failed": {
+    "defaultMessage": "DД±Еџa aktarma baЕџarД±sД±z oldu"
   },
   "label.filter-by": {
     "defaultMessage": "Filtrele"
@@ -407,17 +1394,35 @@
   "label.followed-projects": {
     "defaultMessage": "Takip edilen projeler"
   },
+  "label.game-version": {
+    "defaultMessage": "Oyun sГјrГјmГј"
+  },
+  "label.installation-info": {
+    "defaultMessage": "Kurulum bilgisi"
+  },
+  "label.installed-modpack": {
+    "defaultMessage": "YГјklГј mod paketi"
+  },
+  "label.installing": {
+    "defaultMessage": "Kuruluyor..."
+  },
   "label.loading": {
-    "defaultMessage": "Yükleniyor..."
+    "defaultMessage": "YГјkleniyor..."
   },
   "label.moderation": {
     "defaultMessage": "Moderasyon"
   },
+  "label.modpack": {
+    "defaultMessage": "Mod paketi"
+  },
+  "label.move-failed": {
+    "defaultMessage": "TaЕџД±ma baЕџarД±sД±z oldu"
+  },
   "label.no": {
-    "defaultMessage": "Hayır"
+    "defaultMessage": "HayД±r"
   },
   "label.no-items": {
-    "defaultMessage": "Eşyasız"
+    "defaultMessage": "EЕџyasД±z"
   },
   "label.notifications": {
     "defaultMessage": "Bildirimler"
@@ -428,20 +1433,41 @@
   "label.password": {
     "defaultMessage": "Parola"
   },
+  "label.plan-custom": {
+    "defaultMessage": "Г–zel"
+  },
+  "label.plan-large": {
+    "defaultMessage": "BГјyГјk"
+  },
+  "label.plan-medium": {
+    "defaultMessage": "Orta"
+  },
+  "label.plan-small": {
+    "defaultMessage": "KГјГ§Гјk"
+  },
+  "label.plan-unknown": {
+    "defaultMessage": "Bilinmiyor"
+  },
+  "label.platform": {
+    "defaultMessage": "Platform"
+  },
   "label.played": {
-    "defaultMessage": "{time} kez oynandı"
+    "defaultMessage": "{ago} oynandД±"
   },
   "label.project": {
     "defaultMessage": "Projeler"
   },
   "label.public": {
-    "defaultMessage": "Herkese Açık"
+    "defaultMessage": "Herkese AГ§Д±k"
   },
   "label.rejected": {
-    "defaultMessage": "Reddedilmiş"
+    "defaultMessage": "ReddedilmiЕџ"
+  },
+  "label.rename-failed": {
+    "defaultMessage": "Yeniden adlandД±rma baЕџarД±sД±z oldu"
   },
   "label.rewards-program-terms-agreement": {
-    "defaultMessage": "<terms-link>Ödül Programı Şartları</terms-link>'nı kabul ediyorum"
+    "defaultMessage": "<terms-link>Г–dГјl ProgramД± ЕћartlarД±</terms-link>'nД± kabul ediyorum"
   },
   "label.saved": {
     "defaultMessage": "Kaydedildi"
@@ -451,6 +1477,12 @@
   },
   "label.search": {
     "defaultMessage": "Ara"
+  },
+  "label.select-all": {
+    "defaultMessage": "Hepsini seГ§"
+  },
+  "label.selection-actions": {
+    "defaultMessage": "SeГ§im eylemleri"
   },
   "label.server": {
     "defaultMessage": "Sunucu"
@@ -465,70 +1497,196 @@
     "defaultMessage": "Tek Oyunculu"
   },
   "label.sort-by": {
-    "defaultMessage": "Sırala"
+    "defaultMessage": "SД±ralama Г¶lГ§ГјtГј: "
   },
   "label.success": {
-    "defaultMessage": "Başarılı"
+    "defaultMessage": "BaЕџarД±lД±"
   },
   "label.title": {
-    "defaultMessage": "Başlık"
+    "defaultMessage": "BaЕџlД±k"
+  },
+  "label.unknown": {
+    "defaultMessage": "Bilinmeyen"
   },
   "label.unlisted": {
-    "defaultMessage": "Liste Dışı"
+    "defaultMessage": "Liste DД±ЕџД±"
   },
   "label.update-available": {
-    "defaultMessage": "Güncelleme mevcut"
+    "defaultMessage": "GГјncelleme mevcut"
+  },
+  "label.updating": {
+    "defaultMessage": "GГјncelleniyor..."
+  },
+  "label.upload-failed": {
+    "defaultMessage": "YГјkleme baЕџarД±sД±z oldu"
   },
   "label.username": {
-    "defaultMessage": "Kullanıcı adı"
+    "defaultMessage": "KullanД±cД± adД±"
   },
   "label.version": {
-    "defaultMessage": "Sürüm"
+    "defaultMessage": "SГјrГјm"
   },
   "label.visibility": {
-    "defaultMessage": "Görünürlük"
+    "defaultMessage": "GГ¶rГјnГјrlГјk"
   },
   "label.visit-your-profile": {
-    "defaultMessage": "Profilini görüntüle"
+    "defaultMessage": "Profilini gГ¶rГјntГјle"
   },
   "label.yes": {
     "defaultMessage": "Evet"
   },
+  "locale.cs-CZ": {
+    "defaultMessage": "Г‡ekГ§e"
+  },
+  "locale.da-DK": {
+    "defaultMessage": "Danca"
+  },
+  "locale.de-CH": {
+    "defaultMessage": "Almanca (Д°sviГ§re)"
+  },
+  "locale.de-DE": {
+    "defaultMessage": "Almanca (Almanya)"
+  },
+  "locale.en-US": {
+    "defaultMessage": "Д°ngilizce (Amerikan)"
+  },
+  "locale.es-419": {
+    "defaultMessage": "Д°spanyolca (Latin Amerika)"
+  },
+  "locale.es-ES": {
+    "defaultMessage": "Д°spanyolca (Д°spanya)"
+  },
+  "locale.fi-FI": {
+    "defaultMessage": "Fince"
+  },
+  "locale.fil-PH": {
+    "defaultMessage": "Filipince"
+  },
+  "locale.fr-FR": {
+    "defaultMessage": "FransД±zca"
+  },
+  "locale.he-IL": {
+    "defaultMessage": "Д°branice"
+  },
+  "locale.hu-HU": {
+    "defaultMessage": "Macarca"
+  },
+  "locale.id-ID": {
+    "defaultMessage": "Endonezyaca"
+  },
+  "locale.it-IT": {
+    "defaultMessage": "Д°talyanca (Д°talya)"
+  },
+  "locale.ja-JP": {
+    "defaultMessage": "Japonca"
+  },
+  "locale.ko-KR": {
+    "defaultMessage": "Korece"
+  },
+  "locale.ms-MY": {
+    "defaultMessage": "Malezyaca"
+  },
+  "locale.nl-NL": {
+    "defaultMessage": "FlemenkГ§e"
+  },
+  "locale.no-NO": {
+    "defaultMessage": "NorveГ§Г§e"
+  },
+  "locale.pl-PL": {
+    "defaultMessage": "LehГ§e"
+  },
+  "locale.pt-BR": {
+    "defaultMessage": "Portekizce (Brazilya)"
+  },
+  "locale.pt-PT": {
+    "defaultMessage": "Portekizce (Portekiz)"
+  },
+  "locale.ro-RO": {
+    "defaultMessage": "Romence"
+  },
+  "locale.ru-RU": {
+    "defaultMessage": "RusГ§a"
+  },
+  "locale.sr-CS": {
+    "defaultMessage": "SД±rpГ§a (Latin)"
+  },
+  "locale.sv-SE": {
+    "defaultMessage": "Д°sveГ§Г§e"
+  },
+  "locale.th-TH": {
+    "defaultMessage": "Taica"
+  },
+  "locale.tr-TR": {
+    "defaultMessage": "TГјrkГ§e"
+  },
+  "locale.uk-UA": {
+    "defaultMessage": "Ukraynaca"
+  },
+  "locale.vi-VN": {
+    "defaultMessage": "Vietnamca"
+  },
+  "locale.zh-CN": {
+    "defaultMessage": "Г‡ince (BasitleЕџtirilmiЕџ)"
+  },
+  "locale.zh-TW": {
+    "defaultMessage": "Г‡ince (Geleneksel)"
+  },
   "modal.add-payment-method.action": {
-    "defaultMessage": "Ödeme yöntemi ekle"
+    "defaultMessage": "Г–deme yГ¶ntemi ekle"
   },
   "modal.add-payment-method.title": {
-    "defaultMessage": "Ödeme yöntemi ekleme"
+    "defaultMessage": "Г–deme yГ¶ntemi ekleme"
+  },
+  "modal.open-in-app.benefit.install": {
+    "defaultMessage": "Gerekli iГ§erikleri otomatik olarak indir"
+  },
+  "modal.open-in-app.benefit.launch": {
+    "defaultMessage": "Oyunu direk sunucuda baЕџlat"
+  },
+  "modal.open-in-app.benefit.update": {
+    "defaultMessage": "Sunucu deДџiЕџtiДџinde dosyalarД± gГјncel tut"
+  },
+  "modal.open-in-app.get-app": {
+    "defaultMessage": "Modrinth UygulamasД± Edin"
+  },
+  "modal.open-in-app.opening-automatically": {
+    "defaultMessage": "Mist Launcher otomatik olarak aГ§Д±lacak..."
+  },
+  "modal.open-in-app.title": {
+    "defaultMessage": "Mist Launcher aГ§Д±lД±yor"
+  },
+  "modal.open-in-app.why-use": {
+    "defaultMessage": "Neden Mist Launcher kullanmalД±sД±n"
   },
   "notification.error.title": {
-    "defaultMessage": "Bir hata oluştu"
+    "defaultMessage": "Bir hata oluЕџtu"
   },
   "omorphia.component.badge.label.accepted": {
     "defaultMessage": "Kabul Edildi"
   },
   "omorphia.component.badge.label.approved": {
-    "defaultMessage": "Onaylandı"
+    "defaultMessage": "OnaylandД±"
   },
   "omorphia.component.badge.label.archived": {
-    "defaultMessage": "Arşivlendi"
+    "defaultMessage": "ArЕџivlendi"
   },
   "omorphia.component.badge.label.closed": {
-    "defaultMessage": "Kapatıldı"
+    "defaultMessage": "KapatД±ldД±"
   },
   "omorphia.component.badge.label.creator": {
-    "defaultMessage": "Yaratıcı"
+    "defaultMessage": "YaratД±cД±"
   },
   "omorphia.component.badge.label.draft": {
     "defaultMessage": "Taslak"
   },
   "omorphia.component.badge.label.failed": {
-    "defaultMessage": "Başarısız"
+    "defaultMessage": "BaЕџarД±sД±z"
   },
   "omorphia.component.badge.label.listed": {
     "defaultMessage": "Listede"
   },
   "omorphia.component.badge.label.moderator": {
-    "defaultMessage": "Moderatör"
+    "defaultMessage": "ModeratГ¶r"
   },
   "omorphia.component.badge.label.modrinth-team": {
     "defaultMessage": "Modrinth Ekibi"
@@ -540,25 +1698,25 @@
     "defaultMessage": "Gizli"
   },
   "omorphia.component.badge.label.processed": {
-    "defaultMessage": "İşlenmiş"
+    "defaultMessage": "Д°ЕџlenmiЕџ"
   },
   "omorphia.component.badge.label.rejected": {
     "defaultMessage": "Reddedildi"
   },
   "omorphia.component.badge.label.returned": {
-    "defaultMessage": "Geri Döndü"
+    "defaultMessage": "Geri DГ¶ndГј"
   },
   "omorphia.component.badge.label.safe": {
-    "defaultMessage": "Geçti"
+    "defaultMessage": "GeГ§ti"
   },
   "omorphia.component.badge.label.scheduled": {
-    "defaultMessage": "Planlanmış"
+    "defaultMessage": "PlanlanmД±Еџ"
   },
   "omorphia.component.badge.label.under-review": {
-    "defaultMessage": "İncelemede"
+    "defaultMessage": "Д°ncelemede"
   },
   "omorphia.component.badge.label.unlisted": {
-    "defaultMessage": "Liste Dışı"
+    "defaultMessage": "Liste DД±ЕџД±"
   },
   "omorphia.component.badge.label.unsafe": {
     "defaultMessage": "Hata"
@@ -570,13 +1728,13 @@
     "defaultMessage": "Kodu panoya kopyala"
   },
   "omorphia.component.environment-indicator.label.client": {
-    "defaultMessage": "İstemci"
+    "defaultMessage": "Д°stemci"
   },
   "omorphia.component.environment-indicator.label.client-and-server": {
-    "defaultMessage": "İstemci ve sunucu"
+    "defaultMessage": "Д°stemci ve sunucu"
   },
   "omorphia.component.environment-indicator.label.client-or-server": {
-    "defaultMessage": "İstemci veya sunucu"
+    "defaultMessage": "Д°stemci veya sunucu"
   },
   "omorphia.component.environment-indicator.label.server": {
     "defaultMessage": "Sunucu"
@@ -600,25 +1758,25 @@
     "defaultMessage": "Cash App"
   },
   "payment-method.charity": {
-    "defaultMessage": "Yardım kuruluşu"
+    "defaultMessage": "YardД±m kuruluЕџu"
   },
   "payment-method.charity-plural": {
-    "defaultMessage": "Yardım kuruluşları"
+    "defaultMessage": "YardД±m kuruluЕџlarД±"
   },
   "payment-method.diners": {
     "defaultMessage": "Diners Club"
   },
   "payment-method.discover": {
-    "defaultMessage": "Keşfet"
+    "defaultMessage": "KeЕџfet"
   },
   "payment-method.eftpos": {
     "defaultMessage": "EFTPOS"
   },
   "payment-method.gift-card": {
-    "defaultMessage": "Hediye kartı"
+    "defaultMessage": "Hediye kartД±"
   },
   "payment-method.gift-card-plural": {
-    "defaultMessage": "Hediye kartları"
+    "defaultMessage": "Hediye kartlarД±"
   },
   "payment-method.jcb": {
     "defaultMessage": "JCB"
@@ -630,13 +1788,13 @@
     "defaultMessage": "PayPal"
   },
   "payment-method.paypal_international": {
-    "defaultMessage": "PayPal Uluslararası"
+    "defaultMessage": "PayPal UluslararasД±"
   },
   "payment-method.unionpay": {
     "defaultMessage": "UnionPay"
   },
   "payment-method.unknown": {
-    "defaultMessage": "Bilinmeyen ödeme yöntemi"
+    "defaultMessage": "Bilinmeyen Г¶deme yГ¶ntemi"
   },
   "payment-method.venmo": {
     "defaultMessage": "Venmo"
@@ -650,8 +1808,26 @@
   "payment-method.visa": {
     "defaultMessage": "Visa"
   },
+  "project-card.date.published.tooltip": {
+    "defaultMessage": "{date} tarihinde yayД±nlandД±"
+  },
+  "project-card.date.updated.tooltip": {
+    "defaultMessage": "{date} tarihinde gГјncellendi"
+  },
+  "project-card.environment.client": {
+    "defaultMessage": "Д°stemci"
+  },
+  "project-card.environment.client-and-server": {
+    "defaultMessage": "Д°stemci ve sunucu"
+  },
+  "project-card.environment.client-or-server": {
+    "defaultMessage": "Д°stemci veya sunucu"
+  },
+  "project-card.environment.server": {
+    "defaultMessage": "Sunucu"
+  },
   "project-type.all": {
-    "defaultMessage": "Tümü"
+    "defaultMessage": "TГјmГј"
   },
   "project-type.datapack.capital": {
     "defaultMessage": "Veri Paketi"
@@ -729,16 +1905,16 @@
     "defaultMessage": "Desteklenen ortamlar"
   },
   "project.about.compatibility.environments.client-and-server": {
-    "defaultMessage": "İstemci ve sunucu"
+    "defaultMessage": "Д°stemci ve sunucu"
   },
   "project.about.compatibility.environments.client-side": {
-    "defaultMessage": "İstemci-taraflı"
+    "defaultMessage": "Д°stemci-taraflД±"
   },
   "project.about.compatibility.environments.dedicated-servers-only": {
-    "defaultMessage": "Yalnızca özel sunucular"
+    "defaultMessage": "YalnД±zca Г¶zel sunucular"
   },
   "project.about.compatibility.environments.server-side": {
-    "defaultMessage": "Sunucu-taraflı"
+    "defaultMessage": "Sunucu-taraflД±"
   },
   "project.about.compatibility.environments.singleplayer": {
     "defaultMessage": "Tek Oyunculu"
@@ -755,110 +1931,152 @@
   "project.about.compatibility.title": {
     "defaultMessage": "Uyumluluk"
   },
+  "project.about.creators.organization": {
+    "defaultMessage": "Organizasyon"
+  },
   "project.about.creators.owner": {
     "defaultMessage": "Projenin sahibi"
   },
   "project.about.creators.title": {
-    "defaultMessage": "Yaratıcılar"
+    "defaultMessage": "YaratД±cД±lar"
   },
   "project.about.details.created": {
-    "defaultMessage": "{date} tarihinde oluşturuldu"
+    "defaultMessage": "{date} tarihinde oluЕџturuldu"
   },
   "project.about.details.licensed": {
-    "defaultMessage": "{license} lisanslı"
+    "defaultMessage": "{license} lisanslД±"
   },
   "project.about.details.published": {
-    "defaultMessage": "{date} tarihinde yayımlandı"
+    "defaultMessage": "{date} tarihinde yayД±mlandД±"
   },
   "project.about.details.submitted": {
-    "defaultMessage": "{date} tarihinde yollandı"
+    "defaultMessage": "{date} tarihinde yollandД±"
   },
   "project.about.details.updated": {
-    "defaultMessage": "{date} tarihinde güncellendi"
+    "defaultMessage": "{date} tarihinde gГјncellendi"
   },
   "project.about.links.discord": {
-    "defaultMessage": "Discord sunucusuna katıl"
+    "defaultMessage": "Discord sunucusuna katД±l"
   },
   "project.about.links.donate.bmac": {
-    "defaultMessage": "Bana kahve ısmarlıyın"
+    "defaultMessage": "Bana kahve Д±smarlД±yД±n"
   },
   "project.about.links.donate.generic": {
-    "defaultMessage": "Bağış"
+    "defaultMessage": "BaДџД±Еџ"
   },
   "project.about.links.donate.github": {
     "defaultMessage": "GitHub'tan Sponsor Ol"
   },
   "project.about.links.donate.kofi": {
-    "defaultMessage": "Ko-fi'den Bağış Yap"
+    "defaultMessage": "Ko-fi'den BaДџД±Еџ Yap"
   },
   "project.about.links.donate.patreon": {
-    "defaultMessage": "Patreon'dan Bağış Yap"
+    "defaultMessage": "Patreon'dan BaДџД±Еџ Yap"
   },
   "project.about.links.donate.paypal": {
-    "defaultMessage": "PayPal'dan Bağış Yap"
+    "defaultMessage": "PayPal'dan BaДџД±Еџ Yap"
   },
   "project.about.links.issues": {
-    "defaultMessage": "Sorunları bildir"
+    "defaultMessage": "SorunlarД± bildir"
+  },
+  "project.about.links.site": {
+    "defaultMessage": "Websiteyi ziyaret et"
   },
   "project.about.links.source": {
-    "defaultMessage": "Kaynak göster"
+    "defaultMessage": "Kaynak gГ¶ster"
+  },
+  "project.about.links.store": {
+    "defaultMessage": "MaДџazayД± ziyaret et"
   },
   "project.about.links.title": {
-    "defaultMessage": "Bağlantılar"
+    "defaultMessage": "BaДџlantД±lar"
   },
   "project.about.links.wiki": {
     "defaultMessage": "Wikiye git"
   },
+  "project.about.server.address.tooltip": {
+    "defaultMessage": "Copy Java server address"
+  },
+  "project.about.server.copied": {
+    "defaultMessage": "KopyalandД±!"
+  },
+  "project.about.server.copiedText": {
+    "defaultMessage": "Sunucu adresi panoya kopyalandД±"
+  },
+  "project.about.server.downloadModpack": {
+    "defaultMessage": "Mod paketini indir"
+  },
+  "project.about.server.languages": {
+    "defaultMessage": "Diller"
+  },
+  "project.about.server.recommendedVersion": {
+    "defaultMessage": "(Г–nerilen)"
+  },
+  "project.about.server.region": {
+    "defaultMessage": "BГ¶lge"
+  },
+  "project.about.server.requiredContent": {
+    "defaultMessage": "Gerekli iГ§erik"
+  },
+  "project.about.server.title": {
+    "defaultMessage": "Sunucu detaylarД±"
+  },
+  "project.about.tags.title": {
+    "defaultMessage": "Etiketler"
+  },
+  "project.download-count-tooltip": {
+    "defaultMessage": "{count, number} indirme"
+  },
   "project.environment.client-and-server.description": {
-    "defaultMessage": "İstemci ve sunucunun her ikisinde de, kısmen bile olsa, bazı işlevlere sahiptir."
+    "defaultMessage": "Hem istemci hem de sunucu tarafД±nda gereklidir."
   },
   "project.environment.client-and-server.title": {
-    "defaultMessage": "İstemci ve sunucu, ikisinde de gerekli"
+    "defaultMessage": "Д°stemci ve sunucu, ikisinde de gerekli"
   },
   "project.environment.client-only-server-optional.description": {
-    "defaultMessage": "İstemci ve sunucunun her ikisinde de, kısmen bile olsa, bazı işlevlere sahiptir."
+    "defaultMessage": "Д°Еџlevlerin Г§oДџu istemci tarafД±ndadД±r, ancak sunucuya yГјklemek geliЕџmiЕџ Г¶zellikleri etkinleЕџtirir."
   },
   "project.environment.client-only-server-optional.title": {
-    "defaultMessage": "İstemci ve sunucu, sunucuda tercihe bağlı"
+    "defaultMessage": "Д°stemci ve sunucu, sunucuda tercihe baДџlД±"
   },
   "project.environment.client-only.description": {
-    "defaultMessage": "Tüm işlevler istemci tarafında gerçekleştirilir ve vanilla sunucularla uyumludur."
+    "defaultMessage": "TГјm iЕџlevler istemci tarafД±nda gerГ§ekleЕџtirilir ve vanilla sunucularla uyumludur."
   },
   "project.environment.client-only.title": {
-    "defaultMessage": "Sadece istemci taraflı"
+    "defaultMessage": "Sadece istemci taraflД±"
   },
   "project.environment.client-or-server-prefers-both.description": {
-    "defaultMessage": "İstemci ve sunucunun her ikisinde de, kısmen bile olsa, bazı işlevlere sahiptir."
+    "defaultMessage": "Hem istemci hem de sunucuda kД±smi de olsa bazД± iЕџlevlere sahiptir. Her iki tarafa da yГјklemek en iyi deneyimi saДџlar."
   },
   "project.environment.client-or-server-prefers-both.title": {
-    "defaultMessage": "İstemci ve sunucu, ikisinde olması önerilir"
+    "defaultMessage": "Д°stemci ve sunucu, ikisinde olmasД± Г¶nerilir"
   },
   "project.environment.client-or-server.description": {
-    "defaultMessage": "İstemci ve sunucunun her ikisinde de, kısmen bile olsa, bazı işlevlere sahiptir."
+    "defaultMessage": "Д°stemci ve sunucunun her ikisinde de, kД±smen bile olsa, bazД± iЕџlevlere sahiptir."
   },
   "project.environment.client-or-server.title": {
-    "defaultMessage": "İstemci ve sunucu, ikisinde de tercihe bağlı"
+    "defaultMessage": "Д°stemci ve sunucu, ikisinde de tercihe baДџlД±"
   },
   "project.environment.dedicated-server-only.description": {
-    "defaultMessage": "Tüm işlevler sunucu tarafında gerçekleştirilir ve vanilla istemcilerle uyumludur."
+    "defaultMessage": "TГјm iЕџlevler sunucu tarafД±nda gerГ§ekleЕџtirilir ve vanilla istemcilerle uyumludur. Sadece Г¶zel sunucularda Г§alД±ЕџД±r."
   },
   "project.environment.dedicated-server-only.title": {
-    "defaultMessage": "Sadece sunucu taraflı"
+    "defaultMessage": "Sadece sunucu taraflД±"
   },
   "project.environment.server-only-client-optional.description": {
-    "defaultMessage": "İstemci ve sunucunun her ikisinde de, kısmen bile olsa, bazı işlevlere sahiptir."
+    "defaultMessage": "Д°Еџlevlerin Г§oДџu sunucu tarafД±ndadД±r, ancak istemciye yГјklemek geliЕџmiЕџ Г¶zellikleri etkinleЕџtirir."
   },
   "project.environment.server-only-client-optional.title": {
-    "defaultMessage": "İstemci ve sunucu, istemcide tercihe bağlı"
+    "defaultMessage": "Д°stemci ve sunucu, istemcide tercihe baДџlД±"
   },
   "project.environment.server-only.description": {
-    "defaultMessage": "Tüm işlevler sunucu tarafında gerçekleştirilir ve vanilla istemcilerle uyumludur."
+    "defaultMessage": "TГјm iЕџlevler sunucu tarafД±nda gerГ§ekleЕџir ve vanilla istemcilerle uyumludur. Tek oyuncuda dahili sunucuda da Г§alД±ЕџД±r."
   },
   "project.environment.server-only.title": {
-    "defaultMessage": "Yalnız Sunucu-taraflı, tek oyunculuda da çalışır"
+    "defaultMessage": "YalnД±z Sunucu-taraflД±, tek oyunculuda da Г§alД±ЕџД±r"
   },
   "project.environment.singleplayer-only.description": {
-    "defaultMessage": "Sadece Tek Oyunculuda veya bir Çok Oyunculu sunucuya bağlı değilken çalışır."
+    "defaultMessage": "Sadece Tek Oyunculuda veya bir Г‡ok Oyunculu sunucuya baДџlД± deДџilken Г§alД±ЕџД±r."
   },
   "project.environment.singleplayer-only.title": {
     "defaultMessage": "Sadece Tek Oyunculu"
@@ -870,61 +2088,340 @@
     "defaultMessage": "Bilinmiyor"
   },
   "project.environment.unknown.description": {
-    "defaultMessage": "Bu sürüm için ortam belirlenemedi."
+    "defaultMessage": "Bu sГјrГјm iГ§in ortam belirlenemedi."
   },
   "project.environment.unknown.title": {
     "defaultMessage": "Bilinmeyen ortam"
   },
+  "project.follower-count-tooltip": {
+    "defaultMessage": "{count, number} takipГ§i"
+  },
+  "project.online-player-count": {
+    "defaultMessage": "{count, number} Г§evrim iГ§i"
+  },
+  "project.online-player-count.tooltip": {
+    "defaultMessage": "{count} Г§evrim iГ§i oyuncu"
+  },
+  "project.recent-plays": {
+    "defaultMessage": "{count} oynama"
+  },
+  "project.recent-plays.tooltip": {
+    "defaultMessage": "Modrinth'den son 2 haftada {count} oynama"
+  },
+  "project.server.customModpackTooltip": {
+    "defaultMessage": "Bu proje Г¶zel bir mod paketi kullanmaktadД±r"
+  },
+  "project.server.language.af": {
+    "defaultMessage": "Afrikaanca"
+  },
+  "project.server.language.am": {
+    "defaultMessage": "Amharic"
+  },
+  "project.server.language.ar": {
+    "defaultMessage": "ArapГ§a"
+  },
+  "project.server.language.az": {
+    "defaultMessage": "Azerice"
+  },
+  "project.server.language.be": {
+    "defaultMessage": "BelarusГ§a"
+  },
+  "project.server.language.bg": {
+    "defaultMessage": "Bulgarca"
+  },
+  "project.server.language.bn": {
+    "defaultMessage": "Bengalce"
+  },
+  "project.server.language.bs": {
+    "defaultMessage": "BoЕџnakГ§a"
+  },
+  "project.server.language.ca": {
+    "defaultMessage": "Katalanca"
+  },
+  "project.server.language.cs": {
+    "defaultMessage": "Г‡ekГ§e"
+  },
+  "project.server.language.da": {
+    "defaultMessage": "Danca"
+  },
+  "project.server.language.de": {
+    "defaultMessage": "Almanca"
+  },
+  "project.server.language.el": {
+    "defaultMessage": "Yunanca"
+  },
+  "project.server.language.en": {
+    "defaultMessage": "Д°ngilizce"
+  },
+  "project.server.language.eo": {
+    "defaultMessage": "Esperanto"
+  },
+  "project.server.language.es": {
+    "defaultMessage": "Д°spanyolca"
+  },
+  "project.server.language.et": {
+    "defaultMessage": "Estonca"
+  },
+  "project.server.language.eu": {
+    "defaultMessage": "BaskГ§a"
+  },
+  "project.server.language.fa": {
+    "defaultMessage": "FarsГ§a"
+  },
+  "project.server.language.fi": {
+    "defaultMessage": "Fince"
+  },
+  "project.server.language.fr": {
+    "defaultMessage": "FransД±zca"
+  },
+  "project.server.language.ga": {
+    "defaultMessage": "Д°rlandaca"
+  },
+  "project.server.language.gl": {
+    "defaultMessage": "GaliГ§yaca"
+  },
+  "project.server.language.he": {
+    "defaultMessage": "Д°branice"
+  },
+  "project.server.language.hi": {
+    "defaultMessage": "HintГ§e"
+  },
+  "project.server.language.hr": {
+    "defaultMessage": "HД±rvatГ§a"
+  },
+  "project.server.language.hu": {
+    "defaultMessage": "Macarca"
+  },
+  "project.server.language.hy": {
+    "defaultMessage": "Ermenice"
+  },
+  "project.server.language.id": {
+    "defaultMessage": "Endonezce"
+  },
+  "project.server.language.is": {
+    "defaultMessage": "Д°zlandaca"
+  },
+  "project.server.language.it": {
+    "defaultMessage": "Д°talyanca"
+  },
+  "project.server.language.ja": {
+    "defaultMessage": "Japonca"
+  },
+  "project.server.language.ka": {
+    "defaultMessage": "GГјrcГјce"
+  },
+  "project.server.language.kk": {
+    "defaultMessage": "KazakГ§a"
+  },
+  "project.server.language.km": {
+    "defaultMessage": "Kmerce"
+  },
+  "project.server.language.kn": {
+    "defaultMessage": "Kannada dili"
+  },
+  "project.server.language.ko": {
+    "defaultMessage": "Korece"
+  },
+  "project.server.language.lo": {
+    "defaultMessage": "Laoca"
+  },
+  "project.server.language.lt": {
+    "defaultMessage": "Litvanyaca"
+  },
+  "project.server.language.lv": {
+    "defaultMessage": "Letonca"
+  },
+  "project.server.language.mk": {
+    "defaultMessage": "Makedonca"
+  },
+  "project.server.language.ml": {
+    "defaultMessage": "Malayalamca"
+  },
+  "project.server.language.mn": {
+    "defaultMessage": "MoДџolca"
+  },
+  "project.server.language.mr": {
+    "defaultMessage": "Marathice"
+  },
+  "project.server.language.ms": {
+    "defaultMessage": "Malayca"
+  },
+  "project.server.language.my": {
+    "defaultMessage": "Birmanca"
+  },
+  "project.server.language.ne": {
+    "defaultMessage": "Nepali"
+  },
+  "project.server.language.nl": {
+    "defaultMessage": "FlemenkГ§e"
+  },
+  "project.server.language.no": {
+    "defaultMessage": "NorveГ§ce"
+  },
+  "project.server.language.pa": {
+    "defaultMessage": "PencapГ§a"
+  },
+  "project.server.language.pl": {
+    "defaultMessage": "LehГ§e"
+  },
+  "project.server.language.pt": {
+    "defaultMessage": "Portekizce"
+  },
+  "project.server.language.ro": {
+    "defaultMessage": "Romanca"
+  },
+  "project.server.language.ru": {
+    "defaultMessage": "RusГ§a"
+  },
+  "project.server.language.si": {
+    "defaultMessage": "Seylanca"
+  },
+  "project.server.language.sk": {
+    "defaultMessage": "SlovakГ§a"
+  },
+  "project.server.language.sl": {
+    "defaultMessage": "Slovence"
+  },
+  "project.server.language.sq": {
+    "defaultMessage": "ArnavutГ§a"
+  },
+  "project.server.language.sr": {
+    "defaultMessage": "SД±rpГ§a"
+  },
+  "project.server.language.sv": {
+    "defaultMessage": "Д°sveГ§Г§e"
+  },
+  "project.server.language.sw": {
+    "defaultMessage": "Svahili"
+  },
+  "project.server.language.ta": {
+    "defaultMessage": "Tamilce"
+  },
+  "project.server.language.te": {
+    "defaultMessage": "Telugu"
+  },
+  "project.server.language.th": {
+    "defaultMessage": "Tayca"
+  },
+  "project.server.language.tl": {
+    "defaultMessage": "Filipino"
+  },
+  "project.server.language.tr": {
+    "defaultMessage": "TГјrkГ§e"
+  },
+  "project.server.language.uk": {
+    "defaultMessage": "Ukraynaca"
+  },
+  "project.server.language.ur": {
+    "defaultMessage": "Urduca"
+  },
+  "project.server.language.uz": {
+    "defaultMessage": "Г–zbekГ§e"
+  },
+  "project.server.language.vi": {
+    "defaultMessage": "Vietnam dili"
+  },
+  "project.server.language.yo": {
+    "defaultMessage": "Yoruba dili"
+  },
+  "project.server.language.zh": {
+    "defaultMessage": "Г‡ince"
+  },
+  "project.server.language.zu": {
+    "defaultMessage": "Zulu dili"
+  },
+  "project.server.ping.ms": {
+    "defaultMessage": "{ping, number} ms"
+  },
+  "project.server.region.asia": {
+    "defaultMessage": "Asya"
+  },
+  "project.server.region.australia": {
+    "defaultMessage": "Avustralya"
+  },
+  "project.server.region.europe": {
+    "defaultMessage": "Avrupa"
+  },
+  "project.server.region.middle_east": {
+    "defaultMessage": "Orta DoДџu"
+  },
+  "project.server.region.russia": {
+    "defaultMessage": "Rusya"
+  },
+  "project.server.region.south_america": {
+    "defaultMessage": "GГјney Amerika"
+  },
+  "project.server.region.tooltip": {
+    "defaultMessage": "Sunucu uyruДџu: {regionName}"
+  },
+  "project.server.region.us_east": {
+    "defaultMessage": "DoДџu ABD"
+  },
+  "project.server.region.us_west": {
+    "defaultMessage": "BatД± ABD"
+  },
+  "project.server.status.offline": {
+    "defaultMessage": "Г‡evrim dД±ЕџД±"
+  },
+  "project.server.status.offline.tooltip": {
+    "defaultMessage": "Sunucu Г§evrim dД±ЕџД±"
+  },
+  "project.server.status.online": {
+    "defaultMessage": "Г‡evrim iГ§i"
+  },
   "project.settings.analytics.title": {
     "defaultMessage": "Veriler"
   },
+  "project.settings.content.title": {
+    "defaultMessage": "Д°Г§erik"
+  },
   "project.settings.description.title": {
-    "defaultMessage": "Açıklama"
+    "defaultMessage": "AГ§Д±klama"
   },
   "project.settings.environment.client_and_server.description": {
-    "defaultMessage": "Hem istemci hem sunucu tarafında bazı özellikleri var."
+    "defaultMessage": "Hem istemci hem sunucu tarafД±nda bazД± Г¶zellikleri var."
   },
   "project.settings.environment.client_and_server.optional_both.title": {
-    "defaultMessage": "İkisinde de tercihe bağlı, herhangi tarafa yüklendiğinde aynı çalışır"
+    "defaultMessage": "Д°kisinde de tercihe baДџlД±, herhangi tarafa yГјklendiДџinde aynД± Г§alД±ЕџД±r"
   },
   "project.settings.environment.client_and_server.optional_both_prefers_both.title": {
-    "defaultMessage": "İkisinde de tercihe bağlı, ikisinde de yüklü olduğunda en iyi çalışır"
+    "defaultMessage": "Д°kisinde de tercihe baДџlД±, ikisinde de yГјklГј olduДџunda en iyi Г§alД±ЕџД±r"
   },
   "project.settings.environment.client_and_server.optional_client.title": {
-    "defaultMessage": "İstemcide tercihe bağlı"
+    "defaultMessage": "Д°stemcide tercihe baДџlД±"
   },
   "project.settings.environment.client_and_server.optional_server.title": {
-    "defaultMessage": "Sunucuda tercihe bağlı"
+    "defaultMessage": "Sunucuda tercihe baДџlД±"
   },
   "project.settings.environment.client_and_server.required_both.title": {
-    "defaultMessage": "İkisinde de gerekli"
+    "defaultMessage": "Д°kisinde de gerekli"
   },
   "project.settings.environment.client_and_server.title": {
-    "defaultMessage": "İstemci ve sunucu"
+    "defaultMessage": "Д°stemci ve sunucu"
   },
   "project.settings.environment.client_only.description": {
-    "defaultMessage": "Tüm işlevler istemci tarafında gerçekleştirilir ve vanilla sunucularla uyumludur."
+    "defaultMessage": "TГјm iЕџlevler istemci tarafД±nda gerГ§ekleЕџtirilir ve vanilla sunucularla uyumludur."
   },
   "project.settings.environment.client_only.title": {
-    "defaultMessage": "Sadece İstemci taraflı"
+    "defaultMessage": "Sadece Д°stemci taraflД±"
   },
   "project.settings.environment.notice.missing-env.description": {
-    "defaultMessage": "Projeniz ortam meta verisi bulundurmuyor, lütfen aşağıdan uygun ayarı şeçin."
+    "defaultMessage": "Projeniz ortam meta verisi bulundurmuyor, lГјtfen aЕџaДџД±dan uygun ayarД± ЕџeГ§in."
   },
   "project.settings.environment.notice.missing-env.title": {
-    "defaultMessage": "Lütfen projeniz için bir ortam şeçin"
+    "defaultMessage": "LГјtfen projeniz iГ§in bir ortam ЕџeГ§in"
   },
   "project.settings.environment.notice.multiple-environments.description": {
-    "defaultMessage": "Projenizin farklı sürümlerinde farklı ortamlar şeçili, yani şu an hepsini düzenleyemezsiniz."
+    "defaultMessage": "Projenizin farklД± sГјrГјmlerinde farklД± ortamlar ЕџeГ§ili, yani Еџu an hepsini dГјzenleyemezsiniz."
   },
   "project.settings.environment.notice.multiple-environments.title": {
-    "defaultMessage": "Projenizin birden fazla ortamı var"
+    "defaultMessage": "Projenizin birden fazla ortamД± var"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Daha yeni Modrinth'in Ortam sistemini tamamen yeniledik ve yeni ayarlar var. Lütfen aşağıda doğru ayarın şeçili olduğundan emin olun ve 'Doğrula' tuşuna basın!"
+    "defaultMessage": "Daha yeni Modrinth'in Ortam sistemini tamamen yeniledik ve yeni ayarlar var. LГјtfen aЕџaДџД±da doДџru ayarД±n ЕџeГ§ili olduДџundan emin olun ve 'DoДџrula' tuЕџuna basД±n!"
   },
   "project.settings.environment.notice.review-options.title": {
-    "defaultMessage": "Lütfen aşağıdaki ayarları inceleyin"
+    "defaultMessage": "LГјtfen aЕџaДџД±daki ayarlarД± inceleyin"
   },
   "project.settings.environment.notice.wrong-project-type.description": {
     "defaultMessage": "Sadece mod ve mod paketi projelerinin ortam meta verisi olabilir."
@@ -933,19 +2430,19 @@
     "defaultMessage": "Bu proje ortam meta verisi desteklemiyor"
   },
   "project.settings.environment.server_only.dedicated_only.title": {
-    "defaultMessage": "Sadece sunucu için"
+    "defaultMessage": "Sadece sunucu iГ§in"
   },
   "project.settings.environment.server_only.description": {
-    "defaultMessage": "Tüm işlevler sunucu tarafında gerçekleştirilir ve vanilla istemcilerle uyumludur."
+    "defaultMessage": "TГјm iЕџlevler sunucu tarafД±nda gerГ§ekleЕџtirilir ve vanilla istemcilerle uyumludur."
   },
   "project.settings.environment.server_only.supports_singleplayer.title": {
-    "defaultMessage": "Tek oyunculuda da çalışır"
+    "defaultMessage": "Tek oyunculuda da Г§alД±ЕџД±r"
   },
   "project.settings.environment.server_only.title": {
-    "defaultMessage": "Sadece Sunucu-Tarafı"
+    "defaultMessage": "Sadece Sunucu-TarafД±"
   },
   "project.settings.environment.singleplayer.description": {
-    "defaultMessage": "Sadece Tek Oyunculuda veya Çok Oyunculuya bağlı değilken çalışır."
+    "defaultMessage": "Sadece Tek Oyunculuda veya Г‡ok Oyunculuya baДџlД± deДџilken Г§alД±ЕџД±r."
   },
   "project.settings.environment.singleplayer.title": {
     "defaultMessage": "Sadece Tek Oyunculu"
@@ -954,16 +2451,16 @@
     "defaultMessage": "{title}: {description}"
   },
   "project.settings.environment.suboption.accessibility-suboption-group-label": {
-    "defaultMessage": "{option} Alt Ayarları"
+    "defaultMessage": "{option} Alt AyarlarД±"
   },
   "project.settings.environment.title": {
     "defaultMessage": "Ortam"
   },
   "project.settings.environment.verification.verify-button": {
-    "defaultMessage": "Doğrula"
+    "defaultMessage": "DoДџrula"
   },
   "project.settings.environment.verification.verify-text": {
-    "defaultMessage": "Projenin ortamının doğru ayarlandığını doğrulayın."
+    "defaultMessage": "Projenin ortamД±nД±n doДџru ayarlandД±ДџД±nД± doДџrulayД±n."
   },
   "project.settings.gallery.title": {
     "defaultMessage": "Galeri"
@@ -975,28 +2472,31 @@
     "defaultMessage": "Lisans"
   },
   "project.settings.links.title": {
-    "defaultMessage": "Bağlantılar"
+    "defaultMessage": "BaДџlantД±lar"
   },
   "project.settings.members.title": {
-    "defaultMessage": "Üyeler"
+    "defaultMessage": "Гњyeler"
   },
   "project.settings.notice.no-permission.description": {
-    "defaultMessage": "Bunu düzenlemek için yetkiniz yok."
+    "defaultMessage": "Bunu dГјzenlemek iГ§in yetkiniz yok."
   },
   "project.settings.notice.no-permission.title": {
-    "defaultMessage": "İzin yok"
+    "defaultMessage": "Д°zin yok"
+  },
+  "project.settings.server.title": {
+    "defaultMessage": "Sunucu"
   },
   "project.settings.tags.title": {
     "defaultMessage": "Etiketler"
   },
   "project.settings.upload.title": {
-    "defaultMessage": "Yükle"
+    "defaultMessage": "YГјkle"
   },
   "project.settings.versions.title": {
-    "defaultMessage": "Sürümler"
+    "defaultMessage": "SГјrГјmler"
   },
   "project.settings.view.title": {
-    "defaultMessage": "Görüntüle"
+    "defaultMessage": "GГ¶rГјntГјle"
   },
   "project.versions.channel.alpha.symbol": {
     "defaultMessage": "A"
@@ -1008,52 +2508,52 @@
     "defaultMessage": "R"
   },
   "project.visibility.archived": {
-    "defaultMessage": "Arşivlenmiş"
+    "defaultMessage": "ArЕџivlenmiЕџ"
   },
   "project.visibility.draft": {
     "defaultMessage": "Taslak"
   },
   "project.visibility.private": {
-    "defaultMessage": "Özel"
+    "defaultMessage": "Г–zel"
   },
   "project.visibility.public": {
-    "defaultMessage": "Herkese Açık"
+    "defaultMessage": "Herkese AГ§Д±k"
   },
   "project.visibility.rejected": {
-    "defaultMessage": "Reddedilmiş"
+    "defaultMessage": "ReddedilmiЕџ"
   },
   "project.visibility.scheduled": {
-    "defaultMessage": "Planlanmış"
+    "defaultMessage": "PlanlanmД±Еџ"
   },
   "project.visibility.under-review": {
-    "defaultMessage": "İncelemede"
+    "defaultMessage": "Д°ncelemede"
   },
   "project.visibility.unknown": {
     "defaultMessage": "Bilinmeyen"
   },
   "project.visibility.unlisted": {
-    "defaultMessage": "Liste Dışı"
+    "defaultMessage": "Liste DД±ЕџД±"
   },
   "project.visibility.unlisted-by-staff": {
-    "defaultMessage": "Kadro tarafından liste dışı"
+    "defaultMessage": "Kadro tarafД±ndan liste dД±ЕџД±"
   },
   "search.filter.locked.default": {
     "defaultMessage": "Filtre kilitli"
   },
   "search.filter.locked.default.description": {
-    "defaultMessage": "Bunun kilidini açmak, uyumsuz içerikleri kurmanıza izin verebilir."
+    "defaultMessage": "Bunun kilidini aГ§mak, uyumsuz iГ§erikleri kurmanД±za izin verebilir."
   },
   "search.filter.locked.default.sync": {
-    "defaultMessage": "Filtre eşle"
+    "defaultMessage": "Filtre eЕџle"
   },
   "search.filter.locked.default.title": {
     "defaultMessage": "{type} kilitli"
   },
   "search.filter.locked.default.unlock": {
-    "defaultMessage": "Filtreyi aç"
+    "defaultMessage": "Filtreyi aГ§"
   },
   "search.filter.option.exclusion.add.tooltip": {
-    "defaultMessage": "Hariç"
+    "defaultMessage": "HariГ§"
   },
   "search.filter.option.search.clear.aria_label": {
     "defaultMessage": "Temizle"
@@ -1062,40 +2562,40 @@
     "defaultMessage": "Ara..."
   },
   "search.filter.option.show_fewer": {
-    "defaultMessage": "Daha az göster"
+    "defaultMessage": "Daha az gГ¶ster"
   },
   "search.filter.option.show_more": {
-    "defaultMessage": "Daha fazla göster"
+    "defaultMessage": "Daha fazla gГ¶ster"
   },
   "search.filter_type.environment": {
     "defaultMessage": "Ortam"
   },
   "search.filter_type.environment.client": {
-    "defaultMessage": "İstemci"
+    "defaultMessage": "Д°stemci"
   },
   "search.filter_type.environment.server": {
     "defaultMessage": "Sunucu"
   },
   "search.filter_type.game_version": {
-    "defaultMessage": "Oyun sürümü"
+    "defaultMessage": "Oyun sГјrГјmГј"
   },
   "search.filter_type.game_version.all_versions": {
-    "defaultMessage": "Tüm sürümleri göster"
+    "defaultMessage": "TГјm sГјrГјmleri gГ¶ster"
   },
   "search.filter_type.license": {
     "defaultMessage": "Lisans"
   },
   "search.filter_type.license.open_source": {
-    "defaultMessage": "Açık kaynak"
+    "defaultMessage": "AГ§Д±k kaynak"
   },
   "search.filter_type.mod_loader": {
-    "defaultMessage": "Yükleyici"
+    "defaultMessage": "YГјkleyici"
   },
   "search.filter_type.modpack_loader": {
-    "defaultMessage": "Yükleyici"
+    "defaultMessage": "YГјkleyici"
   },
   "search.filter_type.plugin_loader": {
-    "defaultMessage": "Yükleyici"
+    "defaultMessage": "YГјkleyici"
   },
   "search.filter_type.plugin_platform": {
     "defaultMessage": "Platform"
@@ -1103,47 +2603,128 @@
   "search.filter_type.project_id": {
     "defaultMessage": "Proje ID'si"
   },
+  "search.filter_type.server_content_type": {
+    "defaultMessage": "TГјr"
+  },
+  "search.filter_type.server_language": {
+    "defaultMessage": "Dil"
+  },
+  "search.filter_type.server_region": {
+    "defaultMessage": "BГ¶lge"
+  },
+  "search.filter_type.server_status": {
+    "defaultMessage": "Durum"
+  },
   "search.filter_type.shader_loader": {
-    "defaultMessage": "Yükleyici"
+    "defaultMessage": "YГјkleyici"
+  },
+  "search.server_content_type.modpack": {
+    "defaultMessage": "Modlu"
+  },
+  "search.server_content_type.vanilla": {
+    "defaultMessage": "Vanilya"
+  },
+  "servers.backups.admonition.backup-failed.description": {
+    "defaultMessage": "{backupName} oluЕџturulamadД±. LГјtfen tekrar deneyin veya sorun devam ederse desteДџe ulaЕџД±n."
+  },
+  "servers.backups.admonition.backup-failed.title": {
+    "defaultMessage": "Yedek baЕџarД±sД±z"
+  },
+  "servers.backups.admonition.backup-queued.description": {
+    "defaultMessage": "{backupName} sД±rada ve yakД±nda baЕџlayacak."
+  },
+  "servers.backups.admonition.backup-queued.title": {
+    "defaultMessage": "Yedekleme sД±rada"
+  },
+  "servers.backups.admonition.creating-backup.description": {
+    "defaultMessage": "{backupName} iГ§in dГјnya verisi ve sunucu ayarlarД± kayД±t ediliyor. Bu bir kaГ§ dakika sГјrebilir."
+  },
+  "servers.backups.admonition.creating-backup.title": {
+    "defaultMessage": "Yedek oluЕџturuluyor"
+  },
+  "servers.backups.admonition.fallback-name": {
+    "defaultMessage": "YedeДџiniz"
+  },
+  "servers.backups.admonition.restore-failed.description": {
+    "defaultMessage": "{backupName}'den geri yГјklerken bir hata yaЕџandД±. LГјtfen tekrar deneyin veya sorun devam ederse desteДџe ulaЕџД±n."
+  },
+  "servers.backups.admonition.restore-failed.title": {
+    "defaultMessage": "Yedekten geri yГјkleme baЕџarД±sД±z"
+  },
+  "servers.backups.admonition.restore-queued.description": {
+    "defaultMessage": "{backupName}'den geri yГјkleme sД±rada ve kД±sa sГјrede baЕџlayacak."
+  },
+  "servers.backups.admonition.restore-queued.title": {
+    "defaultMessage": "Yedekten geri yГјkleme sД±rada"
+  },
+  "servers.backups.admonition.restore-successful.description": {
+    "defaultMessage": "Sunucunuz {backupName} olarak kurtarД±ldД± ve baЕџlamaya hazД±r."
+  },
+  "servers.backups.admonition.restore-successful.title": {
+    "defaultMessage": "Yedekten geri yГјkleme baЕџarД±lД±"
+  },
+  "servers.backups.admonition.restoring-backup.description": {
+    "defaultMessage": "Sunucunuz {backupName}'den geri yГјkleniyor. Bir kaГ§ dakika sГјrebilir."
+  },
+  "servers.backups.admonition.restoring-backup.title": {
+    "defaultMessage": "Yedekten geri yГјkleniyor"
   },
   "servers.backups.item.auto": {
     "defaultMessage": "Otomatik"
   },
   "servers.backups.item.backup-schedule": {
-    "defaultMessage": "Yedekleme zamanları"
-  },
-  "servers.backups.item.creating-backup": {
-    "defaultMessage": "Yedekleniyor..."
+    "defaultMessage": "Yedekleme zamanlarД±"
   },
   "servers.backups.item.failed-to-create-backup": {
-    "defaultMessage": "Yedekleme başarısız"
+    "defaultMessage": "Yedekleme baЕџarД±sД±z"
   },
   "servers.backups.item.failed-to-restore-backup": {
-    "defaultMessage": "Yedekten geri yükleme başarısız"
+    "defaultMessage": "Yedekten geri yГјkleme baЕџarД±sД±z"
   },
   "servers.backups.item.manual-backup": {
     "defaultMessage": "Manuel yedekleme"
   },
-  "servers.backups.item.queued-for-backup": {
-    "defaultMessage": "Yedekleme sırada"
-  },
-  "servers.backups.item.queued-for-restore": {
-    "defaultMessage": "Geri yükleme sırada"
-  },
   "servers.backups.item.rename": {
-    "defaultMessage": "Yeniden adlandır"
+    "defaultMessage": "Yeniden adlandД±r"
   },
   "servers.backups.item.restore": {
-    "defaultMessage": "Geri yükle"
+    "defaultMessage": "Geri yГјkle"
   },
-  "servers.backups.item.restoring-backup": {
-    "defaultMessage": "Yedekten geri yükleniyor..."
+  "servers.busy.backup-creating": {
+    "defaultMessage": "Yedek oluЕџturma sГјrГјyor"
+  },
+  "servers.busy.backup-restoring": {
+    "defaultMessage": "YedeДџe dГ¶nme sГјrГјyor"
+  },
+  "servers.busy.installing": {
+    "defaultMessage": "Sunucu kuruluyor"
+  },
+  "servers.busy.syncing-content": {
+    "defaultMessage": "Д°Г§erik eЕџlemesi sГјrГјyor"
+  },
+  "servers.list-empty.already-have-server-label": {
+    "defaultMessage": "Zaten sunucunuz var mД±?"
+  },
+  "servers.list-empty.modrinth-hosting-label": {
+    "defaultMessage": "Modrinth Hosting"
+  },
+  "servers.list-empty.new-server-button": {
+    "defaultMessage": "Yeni sunucu"
+  },
+  "servers.list-empty.no-servers-description": {
+    "defaultMessage": "Mod kur, arkadaЕџ davet et, birlikte oyna ve hepsini Mist Launcher'ten yap."
+  },
+  "servers.list-empty.no-servers-title": {
+    "defaultMessage": "Daha sunucu yok"
+  },
+  "servers.list-empty.one-click-mod-installs-title": {
+    "defaultMessage": "Tek-tД±klamada mod kurma"
   },
   "servers.notice.dismiss": {
-    "defaultMessage": "Görmezden gel"
+    "defaultMessage": "GГ¶rmezden gel"
   },
   "servers.notice.dismissable": {
-    "defaultMessage": "Görmezden Gelinebilir"
+    "defaultMessage": "GГ¶rmezden Gelinebilir"
   },
   "servers.notice.heading.attention": {
     "defaultMessage": "Dikkat"
@@ -1161,58 +2742,49 @@
     "defaultMessage": "Anket"
   },
   "servers.notice.level.warn.name": {
-    "defaultMessage": "Uyarı"
+    "defaultMessage": "UyarД±"
   },
   "servers.notice.undismissable": {
-    "defaultMessage": "Görmezden gelinemez"
+    "defaultMessage": "GГ¶rmezden gelinemez"
   },
   "servers.purchase.step.payment.description": {
-    "defaultMessage": "Şimdilik ödeme almayacağız."
+    "defaultMessage": "Ећimdilik Г¶deme almayacaДџД±z."
   },
   "servers.purchase.step.payment.prompt": {
-    "defaultMessage": "Bir ödeme yöntemi seç"
+    "defaultMessage": "Bir Г¶deme yГ¶ntemi seГ§"
   },
   "servers.purchase.step.payment.title": {
-    "defaultMessage": "Ödeme yöntemi"
-  },
-  "servers.purchase.step.plan.billed": {
-    "defaultMessage": "{interval} faturalandırılır"
+    "defaultMessage": "Г–deme yГ¶ntemi"
   },
   "servers.purchase.step.plan.custom.desc": {
-    "defaultMessage": "Sana gereken şeyler için özel bir plan oluştur."
+    "defaultMessage": "Sana gereken Еџeyler iГ§in Г¶zel bir plan oluЕџtur."
   },
   "servers.purchase.step.plan.get-started": {
-    "defaultMessage": "Başla"
+    "defaultMessage": "BaЕџla"
   },
   "servers.purchase.step.plan.large.desc": {
-    "defaultMessage": "15–25 oyuncu arası mod paketleri veya fazla modlu sunucular için ideal."
+    "defaultMessage": "15вЂ“25 oyuncu arasД± mod paketleri veya fazla modlu sunucular iГ§in ideal."
   },
   "servers.purchase.step.plan.medium.desc": {
-    "defaultMessage": "6–15 oyuncu ve birden fazla mod için iyi."
+    "defaultMessage": "6вЂ“15 oyuncu ve birden fazla mod iГ§in iyi."
   },
   "servers.purchase.step.plan.most-popular": {
-    "defaultMessage": "En Popüler"
-  },
-  "servers.purchase.step.plan.prompt": {
-    "defaultMessage": "Bir plan seç"
+    "defaultMessage": "En PopГјler"
   },
   "servers.purchase.step.plan.select": {
-    "defaultMessage": "Plan seç"
+    "defaultMessage": "Plan seГ§"
   },
   "servers.purchase.step.plan.small.desc": {
-    "defaultMessage": "1–5 arkadaş ve birkaç hafif mod için mükemmel."
-  },
-  "servers.purchase.step.plan.subtitle": {
-    "defaultMessage": "İhtiyaçlarını karşılayan RAM miktarını ve özellikleri seç."
+    "defaultMessage": "1вЂ“5 arkadaЕџ ve birkaГ§ hafif mod iГ§in mГјkemmel."
   },
   "servers.purchase.step.plan.title": {
     "defaultMessage": "Plan"
   },
   "servers.purchase.step.region.title": {
-    "defaultMessage": "Bölge"
+    "defaultMessage": "BГ¶lge"
   },
   "servers.purchase.step.review.title": {
-    "defaultMessage": "İnceleme"
+    "defaultMessage": "Д°nceleme"
   },
   "servers.region.central-europe": {
     "defaultMessage": "Merkez Avrupa"
@@ -1224,76 +2796,97 @@
     "defaultMessage": "Kuzey Amerika"
   },
   "servers.region.prompt": {
-    "defaultMessage": "Sunucunun nerede bulunmasını istersin?"
+    "defaultMessage": "Sunucunun nerede bulunmasД±nД± istersin?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Bölgen listede yok mu? <link>Modrinth Hosting'i gelecekte nerede görmek istediğini bize söyle!</link>"
+    "defaultMessage": "BГ¶lgen listede yok mu? <link>Modrinth Hosting'i gelecekte nerede gГ¶rmek istediДџini bize sГ¶yle!</link>"
   },
   "servers.region.southeast-asia": {
-    "defaultMessage": "Güneydoğu Asya"
+    "defaultMessage": "GГјneydoДџu Asya"
   },
   "servers.region.western-europe": {
-    "defaultMessage": "Batı Avrupa"
+    "defaultMessage": "BatД± Avrupa"
+  },
+  "servers.setup.rate-limit.text": {
+    "defaultMessage": "SД±nД±rlandД±rД±lД±yorsunuz. LГјtfen sonra tekrar deneyin."
+  },
+  "servers.setup.rate-limit.title": {
+    "defaultMessage": "Sunucu yeniden yГјklenemiyor"
+  },
+  "servers.setup.reinstall-failed.text": {
+    "defaultMessage": "Yeniden yГјkleme sД±rasД±nda beklenmedik hata ile karЕџД±laЕџД±ldД±. LГјtfen sonra tekrar deneyin."
+  },
+  "servers.setup.reinstall-failed.title": {
+    "defaultMessage": "Yeniden Kurulum BaЕџarД±sД±z"
+  },
+  "servers.setup.upload-warning": {
+    "defaultMessage": "LГјtfen yГјkleme sД±rasД±nda bu sayfayД± kapatmayД±n."
+  },
+  "servers.setup.uploading-modpack.header": {
+    "defaultMessage": "Mod paketi yГјkleniyor"
   },
   "settings.account.title": {
-    "defaultMessage": "Hesap ve güvenlik"
+    "defaultMessage": "Hesap ve gГјvenlik"
   },
   "settings.appearance.title": {
-    "defaultMessage": "Görünüm"
+    "defaultMessage": "GГ¶rГјnГјm"
   },
   "settings.applications.title": {
-    "defaultMessage": "Senin uygulamaların"
+    "defaultMessage": "Senin uygulamalarД±n"
   },
   "settings.authorized-apps.title": {
-    "defaultMessage": "İzin verilen uygulamalar"
+    "defaultMessage": "Д°zin verilen uygulamalar"
   },
   "settings.billing.title": {
     "defaultMessage": "Faturalar ve abonelikler"
   },
   "settings.display.theme.dark": {
-    "defaultMessage": "Karanlık"
+    "defaultMessage": "KaranlД±k"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Modrinth için bu cihazda tercih ettiğiniz renk temasını seçin."
+    "defaultMessage": "Modrinth iГ§in bu cihazda tercih ettiДџiniz renk temasД±nД± seГ§in."
   },
   "settings.display.theme.light": {
-    "defaultMessage": "Aydınlık"
+    "defaultMessage": "AydД±nlД±k"
   },
   "settings.display.theme.oled": {
     "defaultMessage": "OLED"
   },
   "settings.display.theme.preferred-dark-theme": {
-    "defaultMessage": "Tercih edilen karanlık tema"
+    "defaultMessage": "Tercih edilen karanlД±k tema"
   },
   "settings.display.theme.preferred-light-theme": {
-    "defaultMessage": "Tercih edilen aydınlık tema"
+    "defaultMessage": "Tercih edilen aydД±nlД±k tema"
   },
   "settings.display.theme.retro": {
     "defaultMessage": "Retro"
   },
   "settings.display.theme.system": {
-    "defaultMessage": "Sistemle eşle"
+    "defaultMessage": "Sistemle eЕџle"
   },
   "settings.display.theme.title": {
-    "defaultMessage": "Renk teması"
+    "defaultMessage": "Renk temasД±"
+  },
+  "settings.feature-flags.title": {
+    "defaultMessage": "Г–zellik BayraklarД±"
   },
   "settings.language.categories.default": {
     "defaultMessage": "Mevcut diller"
   },
   "settings.language.categories.search-result": {
-    "defaultMessage": "Arama sonuçları"
+    "defaultMessage": "Arama sonuГ§larД±"
   },
   "settings.language.description": {
-    "defaultMessage": "{platform} için tercih ettiğiniz dili seçin. Çeviriler, gönüllüler tarafından <crowdin-link>Crowdin</crowdin-link> üzerinde katkı sağlanarak yapılmaktadır."
+    "defaultMessage": "{platform} iГ§in tercih ettiДџiniz dili seГ§in. Г‡eviriler, gГ¶nГјllГјler tarafД±ndan <crowdin-link>Crowdin</crowdin-link> Гјzerinde katkД± saДџlanarak yapД±lmaktadД±r."
   },
   "settings.language.languages.search-field.placeholder": {
-    "defaultMessage": "Dil arayın..."
+    "defaultMessage": "Dil arayД±n..."
   },
   "settings.language.languages.search-results-announcement": {
-    "defaultMessage": "Aramanızla {matches, plural, =0 {herhangi bir dil eşleşmedi} one {# dil eşleşti} other {# dil eşleşti}}."
+    "defaultMessage": "AramanД±zla {matches, plural, =0 {herhangi bir dil eЕџleЕџmedi} one {# dil eЕџleЕџti} other {# dil eЕџleЕџti}}."
   },
   "settings.language.languages.search.no-results": {
-    "defaultMessage": "Aramanızla eşleşen dil yok."
+    "defaultMessage": "AramanД±zla eЕџleЕџen dil yok."
   },
   "settings.language.platform.app": {
     "defaultMessage": "uygulama"
@@ -1305,13 +2898,13 @@
     "defaultMessage": "Dil"
   },
   "settings.language.warning": {
-    "defaultMessage": "{platform} dilini değiştirmek, çeviri mevcut değilse bazı içeriklerin İngilizce görünmesine neden olabilir. {platform} henüz tamamen çevrilmemiştir, bu nedenle bazı diller için bazı içerikler İngilizce olarak kalabilir."
+    "defaultMessage": "{platform} dilini deДџiЕџtirmek, Г§eviri mevcut deДџilse bazД± iГ§eriklerin Д°ngilizce gГ¶rГјnmesine neden olabilir. {platform} henГјz tamamen Г§evrilmemiЕџtir, bu nedenle bazД± diller iГ§in bazД± iГ§erikler Д°ngilizce olarak kalabilir."
   },
   "settings.pats.title": {
-    "defaultMessage": "Kişisel erişim tokenleri"
+    "defaultMessage": "KiЕџisel eriЕџim tokenleri"
   },
   "settings.profile.title": {
-    "defaultMessage": "Herkese açık profil"
+    "defaultMessage": "Herkese aГ§Д±k profil"
   },
   "settings.sessions.title": {
     "defaultMessage": "Oturumlar"
@@ -1332,16 +2925,22 @@
     "defaultMessage": "48x"
   },
   "tag.category.512x+": {
-    "defaultMessage": "512x veya üzeri"
+    "defaultMessage": "512x veya Гјzeri"
   },
   "tag.category.64x": {
     "defaultMessage": "64x"
   },
   "tag.category.8x-": {
-    "defaultMessage": "8x ya da altı"
+    "defaultMessage": "8x ve altД±"
   },
   "tag.category.adventure": {
     "defaultMessage": "Macera"
+  },
+  "tag.category.adventure-mode": {
+    "defaultMessage": "Macera modu"
+  },
+  "tag.category.anarchy": {
+    "defaultMessage": "AnarЕџi"
   },
   "tag.category.atmosphere": {
     "defaultMessage": "Atmosfer"
@@ -1349,140 +2948,254 @@
   "tag.category.audio": {
     "defaultMessage": "Ses"
   },
+  "tag.category.battle-royale": {
+    "defaultMessage": "Battle Royale"
+  },
+  "tag.category.bedwars": {
+    "defaultMessage": "Bed Wars"
+  },
   "tag.category.blocks": {
-    "defaultMessage": "Bloklar"
+    "defaultMessage": "Blok"
   },
   "tag.category.bloom": {
-    "defaultMessage": "Parıltı"
+    "defaultMessage": "ParД±ltД±"
+  },
+  "tag.category.bosses": {
+    "defaultMessage": "Bosslar"
   },
   "tag.category.cartoon": {
-    "defaultMessage": "Çizgi"
+    "defaultMessage": "Г‡izimsi"
   },
   "tag.category.challenging": {
-    "defaultMessage": "Zorlayıcı"
+    "defaultMessage": "ZorlayД±cД±"
+  },
+  "tag.category.classes": {
+    "defaultMessage": "SД±nД±flar"
   },
   "tag.category.colored-lighting": {
-    "defaultMessage": "Renkli ışıklandırma"
+    "defaultMessage": "Renkli IЕџД±k"
   },
   "tag.category.combat": {
-    "defaultMessage": "Savaş"
+    "defaultMessage": "SavaЕџ"
+  },
+  "tag.category.competitive": {
+    "defaultMessage": "RekabetГ§i"
   },
   "tag.category.core-shaders": {
     "defaultMessage": ""
   },
+  "tag.category.creative-mode": {
+    "defaultMessage": "YaratД±cД±lД±k modu"
+  },
+  "tag.category.creator-community": {
+    "defaultMessage": "Гњretici TopluluДџu"
+  },
+  "tag.category.crossplay": {
+    "defaultMessage": "Crossplay"
+  },
   "tag.category.cursed": {
-    "defaultMessage": ""
+    "defaultMessage": "Lanetli"
+  },
+  "tag.category.custom-content": {
+    "defaultMessage": "Г–zel Д°Г§erik"
   },
   "tag.category.decoration": {
     "defaultMessage": "Dekorasyon"
+  },
+  "tag.category.dungeons": {
+    "defaultMessage": "Zindanlar"
   },
   "tag.category.economy": {
     "defaultMessage": "Ekonomi"
   },
   "tag.category.entities": {
-    "defaultMessage": ""
+    "defaultMessage": "VarlД±k"
   },
   "tag.category.environment": {
-    "defaultMessage": ""
+    "defaultMessage": "Г‡evre"
   },
   "tag.category.equipment": {
-    "defaultMessage": ""
+    "defaultMessage": "Ekipman"
+  },
+  "tag.category.factions": {
+    "defaultMessage": "Factions"
   },
   "tag.category.fantasy": {
     "defaultMessage": "Fantazi"
   },
   "tag.category.foliage": {
-    "defaultMessage": ""
+    "defaultMessage": "YeЕџillik"
   },
   "tag.category.fonts": {
-    "defaultMessage": "Yazı Tipleri"
+    "defaultMessage": "Font"
   },
   "tag.category.food": {
     "defaultMessage": "Yiyecek"
   },
   "tag.category.game-mechanics": {
-    "defaultMessage": "Oyun Mekaniği"
+    "defaultMessage": "Oyun MekaniДџi"
+  },
+  "tag.category.gens": {
+    "defaultMessage": "Gens"
   },
   "tag.category.gui": {
-    "defaultMessage": "GUI"
+    "defaultMessage": "ArayГјz"
+  },
+  "tag.category.hardcore-mode": {
+    "defaultMessage": "Hardcore modu"
   },
   "tag.category.high": {
-    "defaultMessage": "Yüksek"
+    "defaultMessage": "YГјksek"
   },
   "tag.category.items": {
-    "defaultMessage": "Öğeler"
+    "defaultMessage": "EЕџya"
+  },
+  "tag.category.keep-inventory": {
+    "defaultMessage": "Envanteri koru"
   },
   "tag.category.kitchen-sink": {
-    "defaultMessage": "Ortaya karışık"
+    "defaultMessage": "Г‡ok TГјrlГј"
+  },
+  "tag.category.kitpvp": {
+    "defaultMessage": "Kit PvP"
   },
   "tag.category.library": {
-    "defaultMessage": "Kütüphane"
+    "defaultMessage": "KГјtГјphane"
+  },
+  "tag.category.lifesteal": {
+    "defaultMessage": "Lifesteal"
   },
   "tag.category.lightweight": {
     "defaultMessage": "Hafif"
   },
   "tag.category.locale": {
-    "defaultMessage": "Yerel"
+    "defaultMessage": "YerelleЕџtirme"
   },
   "tag.category.low": {
-    "defaultMessage": "Düşük"
+    "defaultMessage": "DГјЕџГјk"
   },
   "tag.category.magic": {
-    "defaultMessage": "Büyü"
+    "defaultMessage": "BГјyГј"
   },
   "tag.category.management": {
-    "defaultMessage": "Yönetim"
+    "defaultMessage": "YГ¶netim"
+  },
+  "tag.category.media": {
+    "defaultMessage": "Medya"
   },
   "tag.category.medium": {
     "defaultMessage": "Orta"
   },
+  "tag.category.microgames": {
+    "defaultMessage": "Mikro oyunlar"
+  },
   "tag.category.minigame": {
-    "defaultMessage": "Mini oyun"
+    "defaultMessage": "Mini Oyun"
+  },
+  "tag.category.minigames": {
+    "defaultMessage": "Mini oyunlar"
+  },
+  "tag.category.mmo": {
+    "defaultMessage": "MMO"
   },
   "tag.category.mobs": {
-    "defaultMessage": "Yaratıklar"
+    "defaultMessage": "YaratД±k"
   },
   "tag.category.modded": {
-    "defaultMessage": "Modlanmış"
+    "defaultMessage": "Modlu"
   },
   "tag.category.models": {
     "defaultMessage": "Modeller"
   },
   "tag.category.multiplayer": {
-    "defaultMessage": "Çok oyunculu"
+    "defaultMessage": "Г‡ok Oyunculu"
+  },
+  "tag.category.network": {
+    "defaultMessage": "AДџ"
+  },
+  "tag.category.offline-mode": {
+    "defaultMessage": "Г‡evrim dД±ЕџД± mod"
+  },
+  "tag.category.oneblock": {
+    "defaultMessage": "Tek Blok"
+  },
+  "tag.category.op": {
+    "defaultMessage": "OP"
   },
   "tag.category.optimization": {
     "defaultMessage": "Optimizasyon"
   },
+  "tag.category.parkour": {
+    "defaultMessage": "Parkur"
+  },
   "tag.category.path-tracing": {
-    "defaultMessage": "Yol İzleme"
+    "defaultMessage": "Yol Д°zleme"
   },
   "tag.category.pbr": {
     "defaultMessage": "PBR"
   },
+  "tag.category.personal-worlds": {
+    "defaultMessage": "KiЕџisel DГјnyalar"
+  },
+  "tag.category.plots": {
+    "defaultMessage": "Arsalar"
+  },
+  "tag.category.pokemon": {
+    "defaultMessage": "PokГ©mon"
+  },
   "tag.category.potato": {
     "defaultMessage": "Patates"
   },
+  "tag.category.prison": {
+    "defaultMessage": "Prison"
+  },
+  "tag.category.pve": {
+    "defaultMessage": "PvE"
+  },
+  "tag.category.pvp": {
+    "defaultMessage": "PvP"
+  },
+  "tag.category.questing": {
+    "defaultMessage": "GГ¶rev yapmak"
+  },
   "tag.category.quests": {
-    "defaultMessage": "Görevler"
+    "defaultMessage": "GГ¶revli"
+  },
+  "tag.category.racing": {
+    "defaultMessage": "YarД±Еџ"
   },
   "tag.category.realistic": {
-    "defaultMessage": "Gerçekçi"
+    "defaultMessage": "GerГ§ekГ§i"
+  },
+  "tag.category.recording-smp": {
+    "defaultMessage": "KayД±t alД±nan SMP"
   },
   "tag.category.reflections": {
-    "defaultMessage": "Yansımalar"
+    "defaultMessage": "YansД±ma"
+  },
+  "tag.category.roleplay": {
+    "defaultMessage": "Rol yapma"
+  },
+  "tag.category.rpg": {
+    "defaultMessage": "RPG"
   },
   "tag.category.screenshot": {
-    "defaultMessage": "Ekran görüntüsü"
+    "defaultMessage": "Ekran GГ¶rГјntГјsГј"
   },
   "tag.category.semi-realistic": {
-    "defaultMessage": "Yarı Gerçekçi"
+    "defaultMessage": "YarД± GerГ§ekГ§i"
   },
   "tag.category.shadows": {
-    "defaultMessage": "Gölgeler"
+    "defaultMessage": "GГ¶lgeler"
   },
   "tag.category.simplistic": {
-    "defaultMessage": ""
+    "defaultMessage": "Basit"
+  },
+  "tag.category.skyblock": {
+    "defaultMessage": "Skyblock"
+  },
+  "tag.category.smp": {
+    "defaultMessage": "SMP"
   },
   "tag.category.social": {
     "defaultMessage": "Sosyal"
@@ -1490,26 +3203,44 @@
   "tag.category.storage": {
     "defaultMessage": "Depolama"
   },
+  "tag.category.survival-mode": {
+    "defaultMessage": "Hayatta kalma modu"
+  },
+  "tag.category.teams": {
+    "defaultMessage": "TakД±mlar"
+  },
+  "tag.category.technical": {
+    "defaultMessage": "Teknik"
+  },
   "tag.category.technology": {
     "defaultMessage": "Teknoloji"
   },
   "tag.category.themed": {
-    "defaultMessage": ""
+    "defaultMessage": "TemalД±"
+  },
+  "tag.category.towns": {
+    "defaultMessage": "Ећehirler"
   },
   "tag.category.transportation": {
-    "defaultMessage": "Ulaşım"
+    "defaultMessage": "UlaЕџД±m"
   },
   "tag.category.tweaks": {
-    "defaultMessage": "İnce Ayarlar"
+    "defaultMessage": "Д°nce Ayar"
   },
   "tag.category.utility": {
-    "defaultMessage": "Alet Edavat"
+    "defaultMessage": "AraГ§ GereГ§"
   },
   "tag.category.vanilla-like": {
-    "defaultMessage": "Vanilla gibi"
+    "defaultMessage": "Vanilla Gibi"
+  },
+  "tag.category.whitelisted": {
+    "defaultMessage": "Beyaz ListelenmiЕџ"
+  },
+  "tag.category.world-resets": {
+    "defaultMessage": "DГјnya sД±fД±rlanmasД±"
   },
   "tag.category.worldgen": {
-    "defaultMessage": "Dünya Oluşumu"
+    "defaultMessage": "DГјnya OluЕџumu"
   },
   "tag.loader.babric": {
     "defaultMessage": "Babric"
@@ -1524,7 +3255,7 @@
     "defaultMessage": "BungeeCord"
   },
   "tag.loader.canvas": {
-    "defaultMessage": "Tuval"
+    "defaultMessage": "Canvas"
   },
   "tag.loader.datapack": {
     "defaultMessage": "Veri Paketi"
@@ -1557,7 +3288,7 @@
     "defaultMessage": "Kaynak Paketi"
   },
   "tag.loader.modloader": {
-    "defaultMessage": "Risugami'nin Mod Yükleyicisi"
+    "defaultMessage": "Risugami's ModLoader"
   },
   "tag.loader.mrpack": {
     "defaultMessage": "Mod paketi"
@@ -1593,7 +3324,7 @@
     "defaultMessage": "Sponge"
   },
   "tag.loader.vanilla": {
-    "defaultMessage": "Vanilla Gölgelendirici"
+    "defaultMessage": "Vanilla Shader"
   },
   "tag.loader.velocity": {
     "defaultMessage": "Velocity"
@@ -1601,11 +3332,23 @@
   "tag.loader.waterfall": {
     "defaultMessage": "Waterfall"
   },
-  "tooltip.date-at-time": {
-    "defaultMessage": "{date, date, long} {time, time, short}"
-  },
   "ui.component.unsaved-changes-popup.body": {
-    "defaultMessage": "Kaydedilmemiş değişikliklerin var."
+    "defaultMessage": "KaydedilmemiЕџ deДџiЕџikliklerin var."
+  },
+  "ui.confirm-leave-modal.body": {
+    "defaultMessage": "Sayfadan ayrД±lД±rsanД±z kaydedilmemiЕџ deДџiЕџiklikleriniz kaybolacaktД±r."
+  },
+  "ui.confirm-leave-modal.header": {
+    "defaultMessage": "KaydedilmemiЕџ deДџiЕџiklikleriniz var"
+  },
+  "ui.confirm-leave-modal.leave": {
+    "defaultMessage": "Sayfadan ayrД±l"
+  },
+  "ui.confirm-leave-modal.stay": {
+    "defaultMessage": "Stay on page"
+  },
+  "ui.confirm-leave-modal.title": {
+    "defaultMessage": "Sayfadan ayrД±lsД±n mД±?"
   }
 }
 

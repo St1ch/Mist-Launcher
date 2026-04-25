@@ -1,162 +1,270 @@
-{
+﻿{
   "affiliate.create.button": {
-    "defaultMessage": "Створити партнерське посилання"
+    "defaultMessage": "РЎС‚РІРѕСЂРёС‚Рё РїР°СЂС‚РЅРµСЂСЃСЊРєРµ РїРѕСЃРёР»Р°РЅРЅСЏ"
   },
   "affiliate.create.header": {
-    "defaultMessage": "Створити новий код партнера"
+    "defaultMessage": "РЎС‚РІРѕСЂРёС‚Рё РЅРѕРІРёР№ РєРѕРґ РїР°СЂС‚РЅРµСЂР°"
   },
   "affiliate.create.title.description": {
-    "defaultMessage": "Дайте своєму партнерському посиланню назву, щоб ви знали, звідки люди приходять!"
+    "defaultMessage": "Р”Р°Р№С‚Рµ СЃРІРѕС”РјСѓ РїР°СЂС‚РЅРµСЂСЃСЊРєРѕРјСѓ РїРѕСЃРёР»Р°РЅРЅСЋ РЅР°Р·РІСѓ, С‰РѕР± РІРё Р·РЅР°Р»Рё, Р·РІС–РґРєРё Р»СЋРґРё РїСЂРёС…РѕРґСЏС‚СЊ!"
   },
   "affiliate.create.title.label": {
-    "defaultMessage": "Заголовок партнерського посилання"
+    "defaultMessage": "Р—Р°РіРѕР»РѕРІРѕРє РїР°СЂС‚РЅРµСЂСЃСЊРєРѕРіРѕ РїРѕСЃРёР»Р°РЅРЅСЏ"
   },
   "affiliate.create.title.placeholder": {
-    "defaultMessage": "напр., YouTube"
+    "defaultMessage": "СЏРє-РѕС‚ YouTube"
   },
   "affiliate.create.user.description": {
-    "defaultMessage": "Ім’я користувача особи, для якої створити код партнера"
+    "defaultMessage": "Р†РјвЂ™СЏ РєРѕСЂРёСЃС‚СѓРІР°С‡Р° РѕСЃРѕР±Рё, РґР»СЏ СЏРєРѕС— СЃС‚РІРѕСЂРёС‚Рё РєРѕРґ РїР°СЂС‚РЅРµСЂР°"
   },
   "affiliate.create.user.placeholder": {
-    "defaultMessage": "Уведіть ім’я користувача…"
+    "defaultMessage": "РЈРІРµРґС–С‚СЊ С–РјвЂ™СЏ РєРѕСЂРёСЃС‚СѓРІР°С‡Р°вЂ¦"
   },
   "affiliate.createdBy": {
-    "defaultMessage": "Створено {user}"
+    "defaultMessage": "РЎС‚РІРѕСЂРµРЅРѕ {user}"
   },
   "affiliate.creating.button": {
-    "defaultMessage": "Створення партнерського посилання…"
+    "defaultMessage": "РЎС‚РІРѕСЂРµРЅРЅСЏ РїР°СЂС‚РЅРµСЂСЃСЊРєРѕРіРѕ РїРѕСЃРёР»Р°РЅРЅСЏвЂ¦"
   },
   "affiliate.revoke": {
-    "defaultMessage": "Відкликати партнерське посилання"
+    "defaultMessage": "Р’С–РґРєР»РёРєР°С‚Рё РїР°СЂС‚РЅРµСЂСЃСЊРєРµ РїРѕСЃРёР»Р°РЅРЅСЏ"
   },
   "affiliate.viewAnalytics": {
-    "defaultMessage": "Переглянути аналітику"
+    "defaultMessage": "РџРµСЂРµРіР»СЏРЅСѓС‚Рё Р°РЅР°Р»С–С‚РёРєСѓ"
+  },
+  "app.server-settings.failed-to-load-server": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ Р·Р°РІР°РЅС‚Р°Р¶РёС‚Рё РЅР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ СЃРµСЂРІРµСЂР°"
+  },
+  "badge.alpha": {
+    "defaultMessage": "РђР»СЊС„Р°"
   },
   "badge.beta": {
-    "defaultMessage": "Бета"
+    "defaultMessage": "Р‘РµС‚Р°"
   },
   "badge.beta-release": {
-    "defaultMessage": "Бета-версія"
+    "defaultMessage": "Р‘РµС‚Р°-РІРµСЂСЃС–СЏ"
   },
   "badge.new": {
-    "defaultMessage": "Нове"
+    "defaultMessage": "РќРѕРІРµ"
+  },
+  "billing.resubscribe-modal.cancel": {
+    "defaultMessage": "РЎРєР°СЃСѓРІР°С‚Рё"
+  },
+  "billing.resubscribe-modal.cpus": {
+    "defaultMessage": "{sharedCpus} СЃРїС–Р»СЊРЅРёС… Р¦Рџ"
+  },
+  "billing.resubscribe-modal.description": {
+    "defaultMessage": "Р’Рё Р·Р±РёСЂР°С”С‚РµСЃСЏ РїРѕРІС‚РѕСЂРЅРѕ РїС–РґРїРёСЃР°С‚РёСЃСЏ РЅР° <server-name>{serverName}</server-name>. Р’Р°С€Сѓ РїС–РґРїРёСЃРєСѓ Р±СѓРґРµ РІС–РґРЅРѕРІР»РµРЅРѕ, С– РІР°С€ СЃРµСЂРІРµСЂ РїСЂРѕРґРѕРІР¶РёС‚СЊ РїСЂР°С†СЋРІР°С‚Рё Р±РµР· РїРµСЂРµСЂРІ."
+  },
+  "billing.resubscribe-modal.error.text": {
+    "defaultMessage": "РќРµ РјРѕР¶РЅР° РїРѕРІС‚РѕСЂРЅРѕ РїС–РґРїРёСЃР°С‚РёСЃСЏ, РЅРµ РІРґР°Р»РѕСЃСЏ Р·Р°РІР°РЅС‚Р°Р¶РёС‚Рё РґРµС‚Р°Р»С– РїС–РґРїРёСЃРєРё."
+  },
+  "billing.resubscribe-modal.error.title": {
+    "defaultMessage": "РџРѕРјРёР»РєР°"
+  },
+  "billing.resubscribe-modal.failed-load": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ Р·Р°РІР°РЅС‚Р°Р¶РёС‚Рё РґРµС‚Р°Р»РµР№ РїС–РґРїРёСЃРєРё."
+  },
+  "billing.resubscribe-modal.interval.five-days": {
+    "defaultMessage": "/5 РґРЅС–РІ"
+  },
+  "billing.resubscribe-modal.interval.monthly": {
+    "defaultMessage": "/РјС–СЃСЏС†СЊ"
+  },
+  "billing.resubscribe-modal.interval.quarterly": {
+    "defaultMessage": "/РєРІР°СЂС‚Р°Р»"
+  },
+  "billing.resubscribe-modal.interval.yearly": {
+    "defaultMessage": "/СЂС–Рє"
+  },
+  "billing.resubscribe-modal.next-charge": {
+    "defaultMessage": "Р’Р°С€Рµ РЅР°СЃС‚СѓРїРЅРµ СЃРїРёСЃР°РЅРЅСЏ Р±СѓРґРµ <charge-date>{date}</charge-date>."
+  },
+  "billing.resubscribe-modal.plan-label": {
+    "defaultMessage": "РџР»Р°РЅ"
+  },
+  "billing.resubscribe-modal.ram": {
+    "defaultMessage": "{ramGb} Р“Р‘ РћР—Рџ"
+  },
+  "billing.resubscribe-modal.resubscribe": {
+    "defaultMessage": "РџС–РґРїРёСЃР°С‚РёСЃСЏ РїРѕРІС‚РѕСЂРЅРѕ"
+  },
+  "billing.resubscribe-modal.storage": {
+    "defaultMessage": "{storageGb} Р“Р‘ СЃС…РѕРІРёС‰Р°"
+  },
+  "billing.resubscribe-modal.title": {
+    "defaultMessage": "РџС–РґРїРёСЃР°С‚РёСЃСЏ РїРѕРІС‚РѕСЂРЅРѕ РґРѕ СЃРµСЂРІРµСЂР°"
   },
   "button.accept": {
-    "defaultMessage": "Прийняти"
+    "defaultMessage": "РџСЂРёР№РЅСЏС‚Рё"
   },
   "button.affiliate-links": {
-    "defaultMessage": "Партнерські посилання"
+    "defaultMessage": "РџР°СЂС‚РЅРµСЂСЃСЊРєС– РїРѕСЃРёР»Р°РЅРЅСЏ"
   },
   "button.analytics": {
-    "defaultMessage": "Аналітика"
+    "defaultMessage": "РђРЅР°Р»С–С‚РёРєР°"
   },
   "button.back": {
-    "defaultMessage": "Назад"
+    "defaultMessage": "РќР°Р·Р°Рґ"
   },
   "button.cancel": {
-    "defaultMessage": "Скасувати"
+    "defaultMessage": "РЎРєР°СЃСѓРІР°С‚Рё"
+  },
+  "button.change-version": {
+    "defaultMessage": "Р—РјС–РЅРёС‚Рё РІРµСЂСЃС–СЋ"
   },
   "button.clear": {
-    "defaultMessage": "Очистити"
+    "defaultMessage": "РћС‡РёСЃС‚РёС‚Рё"
   },
   "button.close": {
-    "defaultMessage": "Сховати"
+    "defaultMessage": "РЎС…РѕРІР°С‚Рё"
   },
   "button.continue": {
-    "defaultMessage": "Продовжити"
+    "defaultMessage": "РџСЂРѕРґРѕРІР¶РёС‚Рё"
+  },
+  "button.copy-filename": {
+    "defaultMessage": "РљРѕРїС–СЋРІР°С‚Рё РЅР°Р·РІСѓ С„Р°Р№Р»Сѓ"
+  },
+  "button.copy-full-path": {
+    "defaultMessage": "РљРѕРїС–СЋРІР°С‚Рё РїРѕРІРЅРёР№ С€Р»СЏС…"
   },
   "button.copy-id": {
-    "defaultMessage": "Скопіювати ID"
+    "defaultMessage": "РЎРєРѕРїС–СЋРІР°С‚Рё ID"
+  },
+  "button.copy-link": {
+    "defaultMessage": "РљРѕРїС–СЋРІР°С‚Рё РїРѕСЃРёР»Р°РЅРЅСЏ"
   },
   "button.copy-permalink": {
-    "defaultMessage": "Скопіювати постійне посилання"
+    "defaultMessage": "РЎРєРѕРїС–СЋРІР°С‚Рё РїРѕСЃС‚С–Р№РЅРµ РїРѕСЃРёР»Р°РЅРЅСЏ"
   },
   "button.create-a-project": {
-    "defaultMessage": "Створити проєкт"
+    "defaultMessage": "РЎС‚РІРѕСЂРёС‚Рё РїСЂРѕС”РєС‚"
   },
   "button.decline": {
-    "defaultMessage": "Відхилити"
+    "defaultMessage": "Р’С–РґС…РёР»РёС‚Рё"
+  },
+  "button.disable": {
+    "defaultMessage": "Р’РёРјРєРЅСѓС‚Рё"
   },
   "button.download": {
-    "defaultMessage": "Завантажити"
+    "defaultMessage": "Р—Р°РІР°РЅС‚Р°Р¶РёС‚Рё"
   },
   "button.downloading": {
-    "defaultMessage": "Завантаження"
+    "defaultMessage": "Р—Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ"
   },
   "button.edit": {
-    "defaultMessage": "Редагувати"
+    "defaultMessage": "Р РµРґР°РіСѓРІР°С‚Рё"
+  },
+  "button.enable": {
+    "defaultMessage": "РЈРІС–РјРєРЅСѓС‚Рё"
+  },
+  "button.extract": {
+    "defaultMessage": "Р’РёРґРѕР±СѓС‚Рё"
   },
   "button.follow": {
-    "defaultMessage": "Відстежувати"
+    "defaultMessage": "Р’С–РґСЃС‚РµР¶СѓРІР°С‚Рё"
+  },
+  "button.hide-snapshots": {
+    "defaultMessage": "РџСЂРёС…РѕРІР°С‚Рё Р·РЅС–РјРєРё"
   },
   "button.max": {
-    "defaultMessage": "Максимум"
+    "defaultMessage": "РњР°РєСЃРёРјСѓРј"
   },
   "button.more-options": {
-    "defaultMessage": "Більше"
+    "defaultMessage": "Р‘С–Р»СЊС€Рµ"
+  },
+  "button.move": {
+    "defaultMessage": "РџРµСЂРµРјС–СЃС‚РёС‚Рё"
   },
   "button.next": {
-    "defaultMessage": "Далі"
+    "defaultMessage": "Р”Р°Р»С–"
   },
   "button.open-folder": {
-    "defaultMessage": "Відкрити теку"
+    "defaultMessage": "Р’С–РґРєСЂРёС‚Рё С‚РµРєСѓ"
+  },
+  "button.open-in-folder": {
+    "defaultMessage": "Р’С–РґРєСЂРёС‚Рё РІ С‚РµС†С–"
   },
   "button.play": {
-    "defaultMessage": "Грати"
+    "defaultMessage": "Р“СЂР°С‚Рё"
   },
   "button.refresh": {
-    "defaultMessage": "Оновити"
+    "defaultMessage": "РџРµСЂРµР·Р°РІР°РЅС‚Р°Р¶РёС‚Рё"
+  },
+  "button.reinstall-modpack": {
+    "defaultMessage": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІРёС‚Рё Р·Р±С–СЂРєСѓ"
   },
   "button.remove": {
-    "defaultMessage": "Видалити"
+    "defaultMessage": "Р’РёРґР°Р»РёС‚Рё"
   },
   "button.remove-image": {
-    "defaultMessage": "Вилучити зображення"
+    "defaultMessage": "Р’РёРґР°Р»РёС‚Рё Р·РѕР±СЂР°Р¶РµРЅРЅСЏ"
+  },
+  "button.rename": {
+    "defaultMessage": "РџРµСЂРµР№РјРµРЅСѓРІР°С‚Рё"
+  },
+  "button.repair": {
+    "defaultMessage": "РџРѕР»Р°РіРѕРґРёС‚Рё"
+  },
+  "button.repairing": {
+    "defaultMessage": "Р›Р°РіРѕРґР¶РµРЅРЅСЏвЂ¦"
   },
   "button.report": {
-    "defaultMessage": "Поскаржитися"
+    "defaultMessage": "РџРѕСЃРєР°СЂР¶РёС‚РёСЃСЏ"
   },
   "button.reset": {
-    "defaultMessage": "Скинути"
+    "defaultMessage": "РЎРєРёРЅСѓС‚Рё"
+  },
+  "button.reset-server": {
+    "defaultMessage": "РЎРєРёРЅСѓС‚Рё СЃРµСЂРІРµСЂ"
   },
   "button.retry": {
-    "defaultMessage": "Повторити"
+    "defaultMessage": "РџРѕРІС‚РѕСЂРёС‚Рё"
   },
   "button.save": {
-    "defaultMessage": "Зберегти"
+    "defaultMessage": "Р—Р±РµСЂРµРіС‚Рё"
   },
   "button.save-changes": {
-    "defaultMessage": "Зберегти зміни"
+    "defaultMessage": "Р—Р±РµСЂРµРіС‚Рё Р·РјС–РЅРё"
   },
   "button.saving": {
-    "defaultMessage": "Збереження"
+    "defaultMessage": "Р—Р±РµСЂРµР¶РµРЅРЅСЏ"
+  },
+  "button.show-all-versions": {
+    "defaultMessage": "РџРѕРєР°Р·Р°С‚Рё РІСЃС– РІРµСЂСЃС–С—"
+  },
+  "button.show-file": {
+    "defaultMessage": "РџРѕРєР°Р·Р°С‚Рё С„Р°Р№Р»"
   },
   "button.sign-in": {
-    "defaultMessage": "Увійти"
+    "defaultMessage": "РЈРІС–Р№С‚Рё"
   },
   "button.sign-out": {
-    "defaultMessage": "Вийти"
+    "defaultMessage": "Р’РёР№С‚Рё"
   },
   "button.sign-up": {
-    "defaultMessage": "Зареєструватись"
+    "defaultMessage": "Р—Р°СЂРµС”СЃС‚СЂСѓРІР°С‚РёСЃСЊ"
   },
   "button.stop": {
-    "defaultMessage": "Зупинити"
+    "defaultMessage": "Р—СѓРїРёРЅРёС‚Рё"
+  },
+  "button.switch-version": {
+    "defaultMessage": "Р—РјС–РЅРёС‚Рё РІРµСЂСЃС–СЋ"
   },
   "button.unfollow": {
-    "defaultMessage": "Не слідкувати"
+    "defaultMessage": "РќРµ СЃР»С–РґРєСѓРІР°С‚Рё"
+  },
+  "button.unlink-modpack": {
+    "defaultMessage": "Р’С–РґРІвЂ™СЏР·Р°С‚Рё Р·Р±С–СЂРєСѓ"
   },
   "button.update": {
-    "defaultMessage": "Оновити"
+    "defaultMessage": "РћРЅРѕРІРёС‚Рё"
   },
   "button.upload-image": {
-    "defaultMessage": "Завантажити фото"
+    "defaultMessage": "Р—Р°РІР°РЅС‚Р°Р¶РёС‚Рё Р·РѕР±СЂР°Р¶РµРЅРЅСЏ"
   },
   "changelog.justNow": {
-    "defaultMessage": "Щойно"
-  },
-  "changelog.product.api": {
-    "defaultMessage": "API"
+    "defaultMessage": "Р©РѕР№РЅРѕ"
   },
   "changelog.product.app": {
     "defaultMessage": "App"
@@ -165,427 +273,1507 @@
     "defaultMessage": "Hosting"
   },
   "changelog.product.web": {
-    "defaultMessage": "Вебсайт"
+    "defaultMessage": "РџР»Р°С‚С„РѕСЂРјР°"
   },
   "collections.label.private": {
-    "defaultMessage": "Приватно"
+    "defaultMessage": "РџСЂРёРІР°С‚РЅРѕ"
+  },
+  "content.confirm-bulk-update.admonition-body": {
+    "defaultMessage": "Р’Рё РІРїРµРІРЅРµРЅС–, С‰Рѕ С…РѕС‡РµС‚Рµ РѕРЅРѕРІРёС‚Рё {count, plural, one {# РїСЂРѕС”РєС‚} few {# РїСЂРѕС”РєС‚Рё} other {# РїСЂРѕС”РєС‚С–РІ}} РґРѕ С—С…РЅСЊРѕС— РѕСЃС‚Р°РЅРЅСЊРѕС— СЃСѓРјС–СЃРЅРѕС— РІРµСЂСЃС–С—? Р РµРєРѕРјРµРЅРґСѓС”С‚СЊСЃСЏ РѕРЅРѕРІР»СЋРІР°С‚Рё РІРјС–СЃС‚ РїРѕ РѕРґРЅРѕРјСѓ."
+  },
+  "content.confirm-bulk-update.admonition-header": {
+    "defaultMessage": "РџРѕРїРµСЂРµРґР¶РµРЅРЅСЏ С‰РѕРґРѕ РѕРЅРѕРІР»РµРЅРЅСЏ"
+  },
+  "content.confirm-bulk-update.header": {
+    "defaultMessage": "РћРЅРѕРІР»РµРЅРЅСЏ РїСЂРѕС”РєС‚С–РІ"
+  },
+  "content.confirm-bulk-update.shift-click-hint": {
+    "defaultMessage": "Р©РѕР± РїСЂРѕРїСѓСЃС‚РёС‚Рё С†Рµ РїС–РґС‚РІРµСЂРґР¶РµРЅРЅСЏ РІ РјР°Р№Р±СѓС‚РЅСЊРѕРјСѓ, СѓС‚СЂРёРјСѓР№С‚Рµ РєР»Р°РІС–С€Сѓ Shift, РЅР°С‚РёСЃРєР°СЋС‡Рё В«РћРЅРѕРІРёС‚Рё РІСЃРµВ»."
+  },
+  "content.confirm-bulk-update.update-button": {
+    "defaultMessage": "РћРЅРѕРІРёС‚Рё {count, plural, one {# РїСЂРѕС”РєС‚} few {# РїСЂРѕС”РєС‚Рё} other {# РїСЂРѕС”РєС‚С–РІ}}"
+  },
+  "content.confirm-deletion.admonition-body": {
+    "defaultMessage": "Р’РёРґР°Р»РµРЅРЅСЏ РјРѕРґСѓ РјРѕР¶Рµ РЅР°Р·Р°РІР¶РґРё РІРїР»РёРЅСѓС‚Рё РЅР° РІР°С€ СЃРІС–С‚ Р№ СЃРїСЂРёС‡РёРЅРёС‚Рё РІС‚СЂР°С‚Сѓ РІРјС–СЃС‚Сѓ Р°Р±Рѕ РЅРµСЃРїРѕРґС–РІР°РЅС– РїСЂРѕР±Р»РµРјРё РїСЂРё Р№РѕРіРѕ РїРѕРІС‚РѕСЂРЅРѕРјСѓ Р·Р°РІР°РЅС‚Р°Р¶РµРЅРЅС–."
+  },
+  "content.confirm-deletion.admonition-header": {
+    "defaultMessage": "РџРѕРїРµСЂРµРґР¶РµРЅРЅСЏ С‰РѕРґРѕ РІРёРґР°Р»РµРЅРЅСЏ"
+  },
+  "content.confirm-deletion.delete-button": {
+    "defaultMessage": "Р’РёРґР°Р»РёС‚Рё {count} {itemType}"
+  },
+  "content.confirm-deletion.header": {
+    "defaultMessage": "Р’РёРґР°Р»РµРЅРЅСЏ {itemType}"
+  },
+  "content.confirm-modpack-update.admonition-body": {
+    "defaultMessage": "{action, select, downgrade {РџРѕРЅРёР¶РµРЅРЅСЏ} other {РџС–РґРІРёС‰РµРЅРЅСЏ}} РјРѕР¶Рµ СЃРїСЂРёС‡РёРЅРёС‚Рё РїСЂРѕР±Р»РµРјРё СЃСѓРјС–СЃРЅРѕСЃС‚Рё. РњРѕРґРё С‡Рё РІРјС–СЃС‚, СЏРєРёР№ РІРё РґРѕРґР°Р»Рё РІ Р·Р±С–СЂРєСѓ, Р±СѓРґРµ Р·Р±РµСЂРµР¶РµРЅРѕ, Р°Р»Рµ РјРѕР¶Рµ Р±СѓС‚Рё РЅРµСЃСѓРјС–СЃРЅРёРј С–Р· РЅРѕРІРѕСЋ РІРµСЂСЃС–С”СЋ."
+  },
+  "content.confirm-modpack-update.admonition-header": {
+    "defaultMessage": "РџРѕРїРµСЂРµРґР¶РµРЅРЅСЏ С‰РѕРґРѕ {action, select, downgrade {РІС–РґРєР°С‚Сѓ РѕРЅРѕРІР»РµРЅСЊ} other {РѕРЅРѕРІР»РµРЅСЊ}}"
+  },
+  "content.confirm-modpack-update.confirm-button": {
+    "defaultMessage": "{action, select, downgrade {Р’С–РґРєРѕС‚РёС‚Рё} other {РћРЅРѕРІРёС‚Рё}} Р·Р±С–СЂРєСѓ"
+  },
+  "content.confirm-modpack-update.header": {
+    "defaultMessage": "{action, select, downgrade {Р’С–РґРєРѕС‡РµРЅРЅСЏ} other {РћРЅРѕРІР»РµРЅРЅСЏ}} Р·Р±С–СЂРєРё"
+  },
+  "content.confirm-unlink.admonition-body": {
+    "defaultMessage": "РњРѕРґРё С‚Р° РІРјС–СЃС‚ Р±СѓРґСѓС‚СЊ РѕР±вЂ™С”РґРЅР°РЅС– Р· С‚РёРј, С‰Рѕ РІРё РґРѕРґР°Р»Рё РґРѕ Р·Р±С–СЂРєРё СЃР°РјРѕСЃС‚С–Р№РЅРѕ, Р№ РїРµСЂРµСЃС‚Р°РЅСѓС‚СЊ РѕС‚СЂРёРјСѓРІР°С‚Рё РѕРЅРѕРІР»РµРЅРЅСЏ."
+  },
+  "content.confirm-unlink.admonition-header": {
+    "defaultMessage": "Р’С–РґРІвЂ™СЏР·Р°РЅРЅСЏ Р·Р±С–СЂРєРё"
+  },
+  "content.confirm-unlink.header": {
+    "defaultMessage": "Р’С–РґРІвЂ™СЏР·Р°РЅРЅСЏ Р·Р±С–СЂРєРё"
+  },
+  "content.confirm-unlink.unlink-button": {
+    "defaultMessage": "Р’С–РґРІвЂ™СЏР·Р°С‚Рё"
+  },
+  "content.diff-modal.added-count": {
+    "defaultMessage": "Р”РѕРґР°РЅРѕ {count}"
+  },
+  "content.diff-modal.diff-type.added": {
+    "defaultMessage": "Р”РѕРґР°РЅРѕ (Р·Р°Р»РµР¶РЅРѕСЃС‚С–)"
+  },
+  "content.diff-modal.diff-type.removed": {
+    "defaultMessage": "Р’РёРјРєРЅРµРЅРѕ"
+  },
+  "content.diff-modal.diff-type.updated": {
+    "defaultMessage": "РћРЅРѕРІР»РµРЅРѕ"
+  },
+  "content.diff-modal.removed-count": {
+    "defaultMessage": "Р’РёРґР°Р»РµРЅРѕ {count}"
+  },
+  "content.diff-modal.unknown-content-body": {
+    "defaultMessage": "Р”РµСЏРєРёР№ СѓРјС–СЃС‚ РЅР° РІР°С€РѕРјСѓ СЃРµСЂРІРµСЂС– РЅРµ РІРґР°Р»РѕСЃСЏ РїСЂРѕР°РЅР°Р»С–Р·СѓРІР°С‚Рё, С‚РѕР¶ С†СЏ Р·РјС–РЅР° РјРѕР¶Рµ РІРїР»РёРЅСѓС‚Рё РЅР° РЅСЊРѕРіРѕ."
+  },
+  "content.diff-modal.updated-count": {
+    "defaultMessage": "{count} РѕРЅРѕРІР»РµРЅРѕ"
+  },
+  "content.inline-backup.backing-up": {
+    "defaultMessage": "РЎС‚РІРѕСЂРµРЅРЅСЏ СЂРµР·РµСЂРІРЅРѕС— РєРѕРїС–С—вЂ¦"
+  },
+  "content.inline-backup.backup-complete": {
+    "defaultMessage": "Р РµР·РµСЂРІРЅСѓ РєРѕРїС–СЋ СѓСЃРїС–С€РЅРѕ СЃС‚РІРѕСЂРµРЅРѕ"
+  },
+  "content.inline-backup.backup-failed": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ СЃС‚РІРѕСЂРёС‚Рё СЂРµР·РµСЂРІРЅСѓ РєРѕРїС–СЋ. Р’Рё РІСЃРµ РѕРґРЅРѕ РјРѕР¶РµС‚Рµ РїСЂРѕРґРѕРІР¶РёС‚Рё."
+  },
+  "content.inline-backup.backup-in-progress": {
+    "defaultMessage": "РўСЂРёРІР°С” РїСЂРѕС†РµСЃ СЃС‚РІРѕСЂРµРЅРЅСЏ СЂРµР·РµСЂРІРЅРѕС— РєРѕРїС–С—. Р РµРєРѕРјРµРЅРґРѕРІР°РЅРѕ РґРѕС‡РµРєР°С‚РёСЃСЏ Р·Р°РІРµСЂС€РµРЅРЅСЏ, Р° Р»РёС€Рµ С‚РѕРґС– РІРёРєРѕРЅСѓРІР°С‚Рё С†СЋ РґС–СЋ."
+  },
+  "content.inline-backup.backup-takes-a-while": {
+    "defaultMessage": "РЎС‚РІРѕСЂРµРЅРЅСЏ СЂРµР·РµСЂРІРЅРѕС— РєРѕРїС–С— РјРѕР¶Рµ Р·Р°Р№РЅСЏС‚Рё РєС–Р»СЊРєР° С…РІРёР»РёРЅ, Р·Р°Р»РµР¶РЅРѕ РІС–Рґ СЂРѕР·РјС–СЂСѓ РІР°С€РѕРіРѕ СЃРµСЂРІРµСЂР°."
+  },
+  "content.inline-backup.create-backup": {
+    "defaultMessage": "РЎС‚РІРѕСЂРёС‚Рё СЂРµР·РµСЂРІРЅСѓ РєРѕРїС–СЋ"
+  },
+  "content.inline-backup.shift-click-hint": {
+    "defaultMessage": "РЈС‚СЂРёРјСѓР№С‚Рµ РєР»Р°РІС–С€Сѓ Shift РїС–Рґ С‡Р°СЃ РЅР°С‚РёСЃРєР°РЅРЅСЏ, С‰РѕР± РїСЂРѕРїСѓСЃС‚РёС‚Рё РїС–РґС‚РІРµСЂРґР¶РµРЅРЅСЏ."
+  },
+  "content.inline-backup.warning-body": {
+    "defaultMessage": "РњРё СЂРµРєРѕРјРµРЅРґСѓС”РјРѕ СЃС‚РІРѕСЂРёС‚Рё СЂРµР·РµСЂРІРЅСѓ РєРѕРїС–СЋ РїРµСЂС€ РЅС–Р¶ РїСЂРѕРґРѕРІР¶СѓРІР°С‚Рё, С‰РѕР± РІРё РјРѕРіР»Рё РІС–РґРЅРѕРІРёС‚Рё СЃРІС–Р№ {type, select, server {СЃРІС–С‚} other {РїСЂРѕС„С–Р»СЊ}}, СЏРєС‰Рѕ С‰РѕСЃСЊ РїС–РґРµ РЅРµ С‚Р°Рє."
+  },
+  "content.modpack-card.content-hint-description": {
+    "defaultMessage": "РЈРјС–СЃС‚ РІР°С€РѕС— Р·Р±С–СЂРєРё С‚РµРїРµСЂ РјРѕР¶РЅР° Р·РЅР°Р№С‚Рё С‚СѓС‚!"
+  },
+  "content.modpack-card.content-hint-title": {
+    "defaultMessage": "РЈРјС–СЃС‚ Р·Р±С–СЂРєРё РїРµСЂРµРјС–СЃС‚РёРІСЃСЏ"
+  },
+  "content.modpack-card.dismiss-hint": {
+    "defaultMessage": "РќРµ РїРѕРєР°Р·СѓРІР°С‚Рё Р·РЅРѕРІСѓ"
+  },
+  "content.page-layout.additional-content": {
+    "defaultMessage": "Р”РѕРґР°С‚РєРѕРІРёР№ СѓРјС–СЃС‚"
+  },
+  "content.page-layout.browse-content": {
+    "defaultMessage": "РЁСѓРєР°С‚Рё РІРјС–СЃС‚"
+  },
+  "content.page-layout.busy-description": {
+    "defaultMessage": "Р‘СѓРґСЊ Р»Р°СЃРєР°, РґРѕС‡РµРєР°Р№С‚РµСЃСЏ Р·Р°РІРµСЂС€РµРЅРЅСЏ РѕРїРµСЂР°С†С–С—, РїРµСЂС€ РЅС–Р¶ СЂРµРґР°РіСѓРІР°С‚Рё РІРјС–СЃС‚."
+  },
+  "content.page-layout.empty.hint": {
+    "defaultMessage": "Р—РЅР°Р№РґС–С‚СЊ Р°Р±Рѕ РІРёРІР°РЅС‚Р°Р¶С‚Рµ {contentType, select, mod {РјРѕРґ} mods {РјРѕРґРё} plugin {РїР»Р°Т‘С–РЅ} plugins {РїР»Р°Т‘С–РЅРё} datapack {РїР°РєРµС‚ РґР°РЅРёС…} datapacks {РїР°РєРµС‚Рё РґР°РЅРёС…} project {РїСЂРѕС”РєС‚} projects {РїСЂРѕС”РєС‚Рё} other {РІРјС–СЃС‚}}, С‰РѕР± СЂРѕР·РїРѕС‡Р°С‚Рё"
+  },
+  "content.page-layout.empty.modpack-hint": {
+    "defaultMessage": "Р”РѕРґР°Р№С‚Рµ РґРѕРґР°С‚РєРѕРІРёР№ СѓРјС–СЃС‚ РґРѕ С†С–С”С— Р·Р±С–СЂРєРё"
+  },
+  "content.page-layout.empty.no-content-installed": {
+    "defaultMessage": "РќРµРјР°С” РІСЃС‚Р°РЅРѕРІР»РµРЅРѕРіРѕ РІРјС–СЃС‚Сѓ"
+  },
+  "content.page-layout.empty.no-extra-content-installed": {
+    "defaultMessage": "РќРµРјР°С” РґРѕРґР°С‚РєРѕРІРѕРіРѕ РІРјС–СЃС‚Сѓ"
+  },
+  "content.page-layout.failed-to-load": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ Р·Р°РІР°РЅС‚Р°Р¶РёС‚Рё РІРјС–СЃС‚"
+  },
+  "content.page-layout.loading": {
+    "defaultMessage": "Р—Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ РІРјС–СЃС‚СѓвЂ¦"
+  },
+  "content.page-layout.no-content-found": {
+    "defaultMessage": "РЈРјС–СЃС‚Сѓ РЅРµ Р·РЅР°Р№РґРµРЅРѕ."
+  },
+  "content.page-layout.please-wait": {
+    "defaultMessage": "Р‘СѓРґСЊ Р»Р°СЃРєР°, Р·Р°С‡РµРєР°Р№С‚Рµ"
+  },
+  "content.page-layout.search-placeholder": {
+    "defaultMessage": "РџРѕС€СѓРє СЃРµСЂРµРґ {count} {contentType, select, mod {РјРѕРґР°} mods {РјРѕРґС–РІ} plugin {РїР»Р°Т‘С–РЅР°} plugins {РїР»Р°Т‘С–РЅС–РІ} datapack {РїР°РєРµС‚Р° РґР°РЅРёС…} datapacks {РїР°РєРµС‚С–РІ РґР°РЅРёС…} РїСЂРѕС”РєС‚ {РїСЂРѕС”РєС‚Сѓ} РїСЂРѕС”РєС‚s {РїСЂРѕС”РєС‚С–РІ} other {РµР»РµРјРµРЅС‚С–РІ СѓРјС–СЃС‚Сѓ}}вЂ¦"
+  },
+  "content.page-layout.share.file-names": {
+    "defaultMessage": "РќР°Р·РІРё С„Р°Р№Р»С–РІ"
+  },
+  "content.page-layout.share.label": {
+    "defaultMessage": "РџРѕРґС–Р»РёС‚РёСЃСЏ"
+  },
+  "content.page-layout.share.markdown-links": {
+    "defaultMessage": "РџРѕСЃРёР»Р°РЅРЅСЏ Р· Markdown"
+  },
+  "content.page-layout.share.project-links": {
+    "defaultMessage": "РџРѕСЃРёР»Р°РЅРЅСЏ РЅР° РїСЂРѕС”РєС‚Рё"
+  },
+  "content.page-layout.share.project-names": {
+    "defaultMessage": "РќР°Р·РІРё РїСЂРѕС”РєС‚С–РІ"
+  },
+  "content.page-layout.sort.alphabetical": {
+    "defaultMessage": "Р—Р° Р°Р»С„Р°РІС–С‚РѕРј"
+  },
+  "content.page-layout.sort.date-added-newest": {
+    "defaultMessage": "РЎРїРѕС‡Р°С‚РєСѓ РЅРѕРІС–С€С–"
+  },
+  "content.page-layout.sort.date-added-oldest": {
+    "defaultMessage": "РЎРїРѕС‡Р°С‚РєСѓ СЃС‚Р°СЂС–С€С–"
+  },
+  "content.page-layout.sort.label": {
+    "defaultMessage": "РЎРѕСЂС‚СѓРІР°РЅРЅСЏ: {mode}"
+  },
+  "content.page-layout.update-all": {
+    "defaultMessage": "РћРЅРѕРІРёС‚Рё РІСЃРµ"
+  },
+  "content.page-layout.upload-files": {
+    "defaultMessage": "Р’РёРІР°РЅС‚Р°Р¶РёС‚Рё С„Р°Р№Р»Рё"
+  },
+  "content.page-layout.uploading-files": {
+    "defaultMessage": "Р’РёРІР°РЅС‚Р°Р¶РµРЅРЅСЏ С„Р°Р№Р»С–РІ ({completed}/{total})"
+  },
+  "content.selection-bar.all-already-disabled": {
+    "defaultMessage": "РЈРІРµСЃСЊ РІРёР±СЂР°РЅРёР№ СѓРјС–СЃС‚ СѓР¶Рµ РІРёРјРєРЅРµРЅРѕ"
+  },
+  "content.selection-bar.all-already-enabled": {
+    "defaultMessage": "РЈРІРµСЃСЊ РІРёР±СЂР°РЅРёР№ СѓРјС–СЃС‚ СѓР¶Рµ РІРІС–РјРєРЅРµРЅРѕ"
+  },
+  "content.selection-bar.bulk.deleting": {
+    "defaultMessage": "Р’РёРґР°Р»РµРЅРЅСЏ {progress}/{total} {contentType, select, mod {РјРѕРґР°} mods {РјРѕРґС–РІ} plugin {РїР»Р°Т‘С–РЅР°} plugins {РїР»Р°Т‘С–РЅС–РІ} datapack {РїР°РєРµС‚Р° РґР°РЅРёС…} datapacks {РїР°РєРµС‚С–РІ РґР°РЅРёС…} project {РїСЂРѕС”РєС‚Сѓ} projects {РїСЂРѕС”РєС‚С–РІ} other {РІРјС–СЃС‚Сѓ}}вЂ¦"
+  },
+  "content.selection-bar.bulk.deleting-waiting": {
+    "defaultMessage": "Р’РёРґР°Р»РµРЅРЅСЏ {contentType, select, mod {РјРѕРґР°} mods {РјРѕРґС–РІ} plugin {РїР»Р°Т‘С–РЅР°} plugins {РїР»Р°Т‘С–РЅС–РІ} datapack {РїР°РєРµС‚Р° РґР°РЅРёС…} datapacks {РїР°РєРµС‚С–РІ РґР°РЅРёС…} project {РїСЂРѕС”РєС‚Сѓ} projects {РїСЂРѕС”РєС‚С–РІ} other {РІРјС–СЃС‚Сѓ}}вЂ¦"
+  },
+  "content.selection-bar.bulk.disabling": {
+    "defaultMessage": "Р’РёРјРєРЅРµРЅРЅСЏ {progress}/{total} {contentType, select, mod {РјРѕРґР°} mods {РјРѕРґС–РІ} plugin {РїР»Р°Т‘С–РЅР°} plugins {РїР»Р°Т‘С–РЅС–РІ} datapack {РїР°РєРµС‚Р° РґР°РЅРёС…} datapacks {РїР°РєРµС‚С–РІ РґР°РЅРёС…} project {РїСЂРѕС”РєС‚Сѓ} projects {РїСЂРѕС”РєС‚С–РІ} other {РІРјС–СЃС‚Сѓ}}вЂ¦"
+  },
+  "content.selection-bar.bulk.disabling-waiting": {
+    "defaultMessage": "Р’РёРјРєРЅРµРЅРЅСЏ {contentType, select, mod {РјРѕРґР°} mods {РјРѕРґС–РІ} plugin {РїР»Р°Т‘С–РЅР°} plugins {РїР»Р°Т‘С–РЅС–РІ} datapack {РїР°РєРµС‚Р° РґР°РЅРёС…} datapacks {РїР°РєРµС‚С–РІ РґР°РЅРёС…} project {РїСЂРѕС”РєС‚Сѓ} projects {РїСЂРѕС”РєС‚С–РІ} other {РІРјС–СЃС‚Сѓ}}вЂ¦"
+  },
+  "content.selection-bar.bulk.enabling": {
+    "defaultMessage": "РЈРІС–РјРєРЅРµРЅРЅСЏ {progress}/{total} {contentType, select, mod {РјРѕРґР°} mods {РјРѕРґС–РІ} plugin {РїР»Р°Т‘С–РЅР°} plugins {РїР»Р°Т‘С–РЅС–РІ} datapack {РїР°РєРµС‚Р° РґР°РЅРёС…} datapacks {РїР°РєРµС‚С–РІ РґР°РЅРёС…} project {РїСЂРѕС”РєС‚Сѓ} projects {РїСЂРѕС”РєС‚С–РІ} other {РІРјС–СЃС‚Сѓ}}вЂ¦"
+  },
+  "content.selection-bar.bulk.enabling-waiting": {
+    "defaultMessage": "РЈРІС–РјРєРЅРµРЅРЅСЏ {contentType, select, mod {РјРѕРґР°} mods {РјРѕРґС–РІ} plugin {РїР»Р°Т‘С–РЅР°} plugins {РїР»Р°Т‘С–РЅС–РІ} datapack {РїР°РєРµС‚Р° РґР°РЅРёС…} datapacks {РїР°РєРµС‚С–РІ РґР°РЅРёС…} project {РїСЂРѕС”РєС‚Сѓ} projects {РїСЂРѕС”РєС‚С–РІ} other {РІРјС–СЃС‚Сѓ}}вЂ¦"
+  },
+  "content.selection-bar.bulk.updating": {
+    "defaultMessage": "РћРЅРѕРІР»РµРЅРЅСЏ {progress}/{total} {contentType, select, mod {РјРѕРґР°} mods {РјРѕРґС–РІ} plugin {РїР»Р°Т‘С–РЅР°} plugins {РїР»Р°Т‘С–РЅС–РІ} datapack {РїР°РєРµС‚Р° РґР°РЅРёС…} datapacks {РїР°РєРµС‚С–РІ РґР°РЅРёС…} project {РїСЂРѕС”РєС‚Сѓ} projects {РїСЂРѕС”РєС‚С–РІ} other {РІРјС–СЃС‚Сѓ}}вЂ¦"
+  },
+  "content.selection-bar.bulk.updating-waiting": {
+    "defaultMessage": "РћРЅРѕРІР»РµРЅРЅСЏ {contentType, select, mod {РјРѕРґР°} mods {РјРѕРґС–РІ} plugin {РїР»Р°Т‘С–РЅР°} plugins {РїР»Р°Т‘С–РЅС–РІ} datapack {РїР°РєРµС‚Р° РґР°РЅРёС…} datapacks {РїР°РєРµС‚С–РІ РґР°РЅРёС…} project {РїСЂРѕС”РєС‚Сѓ} projects {РїСЂРѕС”РєС‚С–РІ} other {РІРјС–СЃС‚Сѓ}}вЂ¦"
+  },
+  "content.selection-bar.selected-count": {
+    "defaultMessage": "Р’РёР±СЂР°РЅРѕ {count} {contentType, select, mod {РјРѕРґ} mods {{count, plural, few {РјРѕРґРё} other {РјРѕРґС–РІ}}} plugin {РїР»Р°Т‘С–РЅ} plugins {{count, plural, few {РїР»Р°Т‘С–РЅРё} other {РїР»Р°Т‘С–РЅС–РІ}}} datapack {РїР°РєРµС‚ РґР°РЅРёС…} datapacks {{count, plural, few {РїР°РєРµС‚Рё РґР°РЅРёС…} other {РїР°РєРµС‚С–РІ РґР°РЅРёС…}}} РїСЂРѕС”РєС‚ {РїСЂРѕС”РєС‚} РїСЂРѕС”РєС‚s {{count, plural, few {РїСЂРѕС”РєС‚Рё} other {РїСЂРѕС”РєС‚С–РІ}}} other {{count, plural, one {РµР»РµРјРµРЅС‚ СѓРјС–СЃС‚Сѓ} few {РµР»РµРјРµРЅС‚Рё РІРјС–СЃС‚Сѓ} other {РµР»РµРјРµРЅС‚С–РІ СѓРјС–СЃС‚Сѓ}}}}"
+  },
+  "content.selection-bar.selected-count-simple": {
+    "defaultMessage": "Р’РёР±СЂР°РЅРѕ {count, number}"
+  },
+  "files.conflict-modal.header": {
+    "defaultMessage": "РџС–РґСЃСѓРјРѕРє РІРёРґРѕР±СѓРІР°РЅРЅСЏ"
+  },
+  "files.conflict-modal.overwrite-button": {
+    "defaultMessage": "РџРµСЂРµР·Р°РїРёСЃР°С‚Рё"
+  },
+  "files.conflict-modal.overwrite-many-warning": {
+    "defaultMessage": "РџРѕРЅР°Рґ 100 С„Р°Р№Р»С–РІ Р±СѓРґРµ РїРµСЂРµР·Р°РїРёСЃР°РЅРѕ, СЏРєС‰Рѕ РІРё РїСЂРѕРґРѕРІР¶РёС‚Рµ РїСЂРѕС†РµСЃ РІРёРґРѕР±СѓРІР°РЅРЅСЏ. РћСЃСЊ РґРµСЏРєС– Р· РЅРёС…."
+  },
+  "files.conflict-modal.overwrite-warning": {
+    "defaultMessage": "РќР°СЃС‚СѓРїРЅС– С„Р°Р№Р»Рё ({count}) РІР¶Рµ С–СЃРЅСѓСЋС‚СЊ РЅР° РІР°С€РѕРјСѓ СЃРµСЂРІРµСЂС– С‚Р° Р±СѓРґСѓС‚СЊ РїРµСЂРµР·Р°РїРёСЃР°РЅС–, СЏРєС‰Рѕ РІРё РїСЂРѕРґРѕРІР¶РёС‚Рµ РїСЂРѕС†РµСЃ РІРёРґРѕР±СѓРІР°РЅРЅСЏ."
+  },
+  "files.conflict-modal.overwritten-count": {
+    "defaultMessage": "{count} РїРµСЂРµР·Р°РїРёСЃР°РЅРѕ"
+  },
+  "files.conflict-modal.overwritten-label": {
+    "defaultMessage": "РџРµСЂРµР·Р°РїРёСЃР°РЅРѕ"
+  },
+  "files.conflict-modal.warning-header": {
+    "defaultMessage": "Р¤Р°Р№Р»Рё Р±СѓРґСѓС‚СЊ РїРµСЂРµР·Р°РїРёСЃР°РЅС–"
+  },
+  "files.create-modal.create-button": {
+    "defaultMessage": "РЎС‚РІРѕСЂРёС‚Рё {type, select, directory {С‚РµРєСѓ} other {С„Р°Р№Р»}}"
+  },
+  "files.create-modal.header": {
+    "defaultMessage": "РЎС‚РІРѕСЂРёС‚Рё {type, select, directory {С‚РµРєСѓ} other {С„Р°Р№Р»}}"
+  },
+  "files.create-modal.placeholder-directory": {
+    "defaultMessage": "СЏРє-РѕС‚ my-folder"
+  },
+  "files.create-modal.placeholder-file": {
+    "defaultMessage": "СЏРє-РѕС‚ config.yml"
+  },
+  "files.delete-modal.deleting-name": {
+    "defaultMessage": "Р’РёРґР°Р»РµРЅРЅСЏ В«{name}В»"
+  },
+  "files.delete-modal.header": {
+    "defaultMessage": "Р’РёРґР°Р»РёС‚Рё С„Р°Р№Р»"
+  },
+  "files.delete-modal.warning": {
+    "defaultMessage": "{type, select, directory {Р¦СЋ С‚РµРєСѓ С‚Р° РІРµСЃСЊ С—С— РІРјС–СЃС‚ Р±СѓРґРµ РЅР°Р·Р°РІР¶РґРё РІРёРґР°Р»РµРЅРѕ. Р¦СЋ РґС–СЋ РЅРµРјРѕР¶Р»РёРІРѕ СЃРєР°СЃСѓРІР°С‚Рё.} other {Р¦РµР№ С„Р°Р№Р» Р±СѓРґРµ РЅР°Р·Р°РІР¶РґРё РІРёРґР°Р»РµРЅРѕ. Р¦СЋ РґС–СЋ РЅРµРјРѕР¶Р»РёРІРѕ СЃРєР°СЃСѓРІР°С‚Рё.}}"
+  },
+  "files.editor.failed-to-open-text": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ Р·Р°РІР°РЅС‚Р°Р¶РёС‚Рё РІРјС–СЃС‚ С‚РµРєРё."
+  },
+  "files.editor.failed-to-open-title": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РІС–РґРєСЂРёС‚Рё С„Р°Р№Р»"
+  },
+  "files.editor.failed-to-share-text": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РІРёРІР°РЅС‚Р°Р¶РёС‚Рё РЅР° mclo.gs."
+  },
+  "files.editor.failed-to-share-title": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РїРѕРґС–Р»РёС‚РёСЃСЏ С„Р°Р№Р»РѕРј"
+  },
+  "files.editor.file-saved-text": {
+    "defaultMessage": "Р’Р°С€ С„Р°Р№Р» Р·Р±РµСЂРµР¶РµРЅРѕ."
+  },
+  "files.editor.file-saved-title": {
+    "defaultMessage": "Р¤Р°Р№Р» Р·Р±РµСЂРµР¶РµРЅРѕ"
+  },
+  "files.editor.find-close": {
+    "defaultMessage": "Р—Р°РєСЂРёС‚Рё"
+  },
+  "files.editor.find-in-file": {
+    "defaultMessage": "Р—РЅР°Р№С‚Рё"
+  },
+  "files.editor.find-match-count": {
+    "defaultMessage": "{current} Р· {total}"
+  },
+  "files.editor.find-next-match": {
+    "defaultMessage": "РќР°СЃС‚СѓРїРЅРёР№ Р·Р±С–Рі"
+  },
+  "files.editor.find-no-results": {
+    "defaultMessage": "Р—Р±С–РіС–РІ РЅРµРјР°С”"
+  },
+  "files.editor.find-previous-match": {
+    "defaultMessage": "РџРѕРїРµСЂРµРґРЅС–Р№ Р·Р±С–Рі"
+  },
+  "files.editor.find-toggle-replace": {
+    "defaultMessage": "РџРµСЂРµРјРєРЅСѓС‚Рё Р·Р°РјС–РЅСѓ"
+  },
+  "files.editor.log-url-copied-text": {
+    "defaultMessage": "URL С„Р°Р№Р»Сѓ Р¶СѓСЂРЅР°Р»Сѓ СЃРєРѕРїС–Р№РѕРІР°РЅРѕ РґРѕ Р±СѓС„РµСЂР° РѕР±РјС–РЅСѓ."
+  },
+  "files.editor.log-url-copied-title": {
+    "defaultMessage": "URL Р¶СѓСЂРЅР°Р»Сѓ СЃРєРѕРїС–Р№РѕРІР°РЅРѕ"
+  },
+  "files.editor.replace": {
+    "defaultMessage": "Р—Р°РјС–РЅРёС‚Рё"
+  },
+  "files.editor.replace-all": {
+    "defaultMessage": "Р—Р°РјС–РЅРёС‚Рё РІСЃРµ"
+  },
+  "files.editor.replace-in-file": {
+    "defaultMessage": "Р—Р°РјС–РЅРёС‚Рё"
+  },
+  "files.editor.save-failed-text": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ Р·Р±РµСЂРµРіС‚Рё С„Р°Р№Р»."
+  },
+  "files.editor.save-failed-title": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ Р·Р±РµСЂРµРіС‚Рё"
+  },
+  "files.error.go-to-home": {
+    "defaultMessage": "РџРµСЂРµР№С‚Рё РґРѕ РґРѕРјР°С€РЅСЊРѕС— С‚РµРєРё"
+  },
+  "files.error.try-again": {
+    "defaultMessage": "РЎРїСЂРѕР±СѓРІР°С‚Рё Р·РЅРѕРІСѓ"
+  },
+  "files.image_viewer.image_too_large": {
+    "defaultMessage": "Р—РѕР±СЂР°Р¶РµРЅРЅСЏ Р·Р°РІРµР»РёРєРµ, С‰РѕР± РїРѕР±Р°С‡РёС‚Рё (РјР°РєСЃ. {maxDimension}x{maxDimension} РїС–РєСЃРµР»С–РІ)"
+  },
+  "files.image_viewer.invalid_image": {
+    "defaultMessage": "РҐРёР±РЅРёР№ Р°Р±Рѕ РїРѕСЂРѕР¶РЅС–Р№ С„Р°Р№Р» Р·РѕР±СЂР°Р¶РµРЅРЅСЏ."
+  },
+  "files.image_viewer.load_failed": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ Р·Р°РІР°РЅС‚Р°Р¶РёС‚Рё Р·РѕР±СЂР°Р¶РµРЅРЅСЏ"
+  },
+  "files.image_viewer.reset_zoom": {
+    "defaultMessage": "РЎРєРёРЅСѓС‚Рё РјР°СЃС€С‚Р°Р±СѓРІР°РЅРЅСЏ"
+  },
+  "files.image_viewer.viewed_image_alt": {
+    "defaultMessage": "РџРѕРєР°Р·Р°РЅРµ Р·РѕР±СЂР°Р¶РµРЅРЅСЏ"
+  },
+  "files.image_viewer.zoom_in": {
+    "defaultMessage": "РќР°Р±Р»РёР·РёС‚Рё"
+  },
+  "files.image_viewer.zoom_out": {
+    "defaultMessage": "Р’С–РґРґР°Р»РёС‚Рё"
+  },
+  "files.layout.busy-warning": {
+    "defaultMessage": "РћРїРµСЂР°С†С–С— Р· С„Р°Р№Р»Р°РјРё РІРёРјРєРЅРµРЅРѕ, РїРѕРєРё РІРѕРЅРё РІРёРєРѕСЂРёСЃС‚РѕРІСѓСЋС‚СЊСЃСЏ."
+  },
+  "files.layout.dry-run-failed-text": {
+    "defaultMessage": "РџРѕРјРёР»РєР° Р·Р°РїСѓСЃРєСѓ СЃСѓС…РѕРіРѕ Р·Р°РїСѓСЃРєСѓ"
+  },
+  "files.layout.dry-run-failed-title": {
+    "defaultMessage": "РќРµ РІРґР°РІСЃСЏ СЃСѓС…РёР№ Р·Р°РїСѓСЃРє"
+  },
+  "files.layout.empty-folder-description": {
+    "defaultMessage": "РќРµРјР°С” С„Р°Р№Р»С–РІ С– С‚РµРє."
+  },
+  "files.layout.empty-folder-title": {
+    "defaultMessage": "Р¦СЏ С‚РµРєР° РїРѕСЂРѕР¶РЅСЏ"
+  },
+  "files.layout.error-message": {
+    "defaultMessage": "РўРµРєР° РјРѕР¶Рµ РЅРµ С–СЃРЅСѓРІР°С‚Рё."
+  },
+  "files.layout.error-title": {
+    "defaultMessage": "РќРµРјРѕР¶Р»РёРІРѕ Р·Р°РІР°РЅС‚Р°Р¶РёС‚Рё С„Р°Р№Р»Рё"
+  },
+  "files.layout.extraction-started-title": {
+    "defaultMessage": "Р’РёРґРѕР±СѓРІР°РЅРЅСЏ РїРѕС‡Р°С‚Рѕ"
+  },
+  "files.layout.selected-count": {
+    "defaultMessage": "{count} РІРёР±СЂР°РЅРѕ"
+  },
+  "files.layout.unsaved-changes": {
+    "defaultMessage": "РЈ РІР°СЃ С” РЅРµР·Р±РµСЂРµР¶РµРЅС– Р·РјС–РЅРё."
+  },
+  "files.move-modal.current-location": {
+    "defaultMessage": "РџРѕС‚РѕС‡РЅР° Р»РѕРєР°С†С–СЏ"
+  },
+  "files.move-modal.destination-path": {
+    "defaultMessage": "РЁР»СЏС… РїСЂРёР·РЅР°С‡РµРЅРЅСЏ"
+  },
+  "files.move-modal.destination-placeholder": {
+    "defaultMessage": "СЏРє-РѕС‚ /my-folder"
+  },
+  "files.move-modal.header": {
+    "defaultMessage": "{type, select, directory {РџРµСЂРµРјС–СЃС‚РёС‚Рё С‚РµРєСѓ} other {РџРµСЂРµРјС–СЃС‚РёС‚Рё С„Р°Р№Р»}}"
+  },
+  "files.navbar.back-to-home": {
+    "defaultMessage": "РќР° РіРѕР»РѕРІРЅСѓ"
+  },
+  "files.navbar.breadcrumb-navigation": {
+    "defaultMessage": "РќР°РІС–РіР°С†С–Р№РЅР° СЃС‚РµР¶РєР°"
+  },
+  "files.navbar.create-new": {
+    "defaultMessage": "РЎС‚РІРѕСЂРёС‚РёвЂ¦"
+  },
+  "files.navbar.file-navigation": {
+    "defaultMessage": "РќР°РІС–РіР°С†С–СЏ СЃРµСЂРµРґ С„Р°Р№Р»С–РІ"
+  },
+  "files.navbar.find-in-file": {
+    "defaultMessage": "Р—РЅР°Р№С‚Рё РІ С„Р°Р№Р»С–"
+  },
+  "files.navbar.home": {
+    "defaultMessage": "Р“РѕР»РѕРІРЅР°"
+  },
+  "files.navbar.install-curseforge-pack": {
+    "defaultMessage": "РЈСЃС‚Р°РЅРѕРІРёС‚Рё Р·Р±С–СЂРєСѓ CurseForge"
+  },
+  "files.navbar.new-file": {
+    "defaultMessage": "РќРѕРІРёР№ С„Р°Р№Р»"
+  },
+  "files.navbar.new-folder": {
+    "defaultMessage": "РќРѕРІР° С‚РµРєР°"
+  },
+  "files.navbar.search-files": {
+    "defaultMessage": "РџРѕС€СѓРє С„Р°Р№Р»С–РІ"
+  },
+  "files.navbar.share-to-mclogs": {
+    "defaultMessage": "РџРѕС€РёСЂРёС‚Рё РІ mclo.gs"
+  },
+  "files.navbar.upload-file": {
+    "defaultMessage": "Р’РёРІР°РЅС‚Р°Р¶РёС‚Рё С„Р°Р№Р»"
+  },
+  "files.navbar.upload-from-zip": {
+    "defaultMessage": "Р’РёРІР°РЅС‚Р°Р¶РёС‚Рё Р· С„Р°Р№Р»Сѓ .zip"
+  },
+  "files.navbar.upload-from-zip-url": {
+    "defaultMessage": "Р’РёРІР°РЅС‚Р°Р¶РёС‚Рё Р· РїРѕСЃРёР»Р°РЅРЅСЏ РЅР° .zip"
+  },
+  "files.operations.extracted": {
+    "defaultMessage": "Р’РёРґРѕР±СѓС‚Рѕ {size}"
+  },
+  "files.operations.extracting": {
+    "defaultMessage": "Р’РёРґРѕР±СѓРІР°РЅРЅСЏ {source}"
+  },
+  "files.operations.failed": {
+    "defaultMessage": "РќРµРІРґР°Р»Рѕ"
+  },
+  "files.operations.modpack-from-url": {
+    "defaultMessage": "Р·Р±С–СЂРєРё С–Р· РїРѕСЃРёР»Р°РЅРЅСЏ"
+  },
+  "files.rename-modal.header": {
+    "defaultMessage": "РџРµСЂРµР№РјРµРЅСѓРІР°С‚Рё В«{name}В»"
+  },
+  "files.rename-modal.new-name-label": {
+    "defaultMessage": "РќРѕРІР° РЅР°Р·РІР°"
+  },
+  "files.row.item-count": {
+    "defaultMessage": "{count, plural, one {# РµР»РµРјРµРЅС‚} few {# РµР»РµРјРµРЅС‚Рё} other {# РµР»РµРјРµРЅС‚С–РІ}}"
+  },
+  "files.table-header.created": {
+    "defaultMessage": "РЎС‚РІРѕСЂРµРЅРѕ"
+  },
+  "files.table-header.modified": {
+    "defaultMessage": "Р—РјС–РЅРµРЅРѕ"
+  },
+  "files.table-header.name": {
+    "defaultMessage": "РќР°Р·РІР°"
+  },
+  "files.table-header.size": {
+    "defaultMessage": "Р РѕР·РјС–СЂ"
+  },
+  "files.unsaved-changes-modal.body": {
+    "defaultMessage": "РЈ РІР°СЃ С” РЅРµР·Р±РµСЂРµР¶РµРЅС– Р·РјС–РЅРё, СЏРєС– Р±СѓРґРµ РІС‚СЂР°С‡РµРЅРѕ, СЏРєС‰Рѕ РІРё Р·Р°РєСЂРёС”С‚Рµ С†СЋ СЃС‚РѕСЂС–РЅРєСѓ. Р‘Р°Р¶Р°С”С‚Рµ Р·Р±РµСЂРµРіС‚Рё С—С… РїРµСЂС€ РЅС–Р¶ Р·Р°Р»РёС€РёС‚Рё СЃС‚РѕСЂС–РЅРєСѓ?"
+  },
+  "files.unsaved-changes-modal.discard": {
+    "defaultMessage": "РЎРєР°СЃСѓРІР°С‚Рё"
+  },
+  "files.unsaved-changes-modal.header": {
+    "defaultMessage": "РќРµР·Р±РµСЂРµР¶РµРЅС– Р·РјС–РЅРё"
+  },
+  "files.upload-dropdown.cancelled": {
+    "defaultMessage": "РЎРєР°СЃРѕРІР°РЅРѕ"
+  },
+  "files.upload-dropdown.failed-file-exists": {
+    "defaultMessage": "РџРѕРјРёР»РєР° вЂ” С‚Р°РєРёР№ С„Р°Р№Р» РІР¶Рµ С–СЃРЅСѓС”"
+  },
+  "files.upload-dropdown.failed-generic": {
+    "defaultMessage": "РџРѕРјРёР»РєР° вЂ” {error}"
+  },
+  "files.upload-dropdown.failed-incorrect-type": {
+    "defaultMessage": "РџРѕРјРёР»РєР° вЂ” РЅРµРїСЂР°РІРёР»СЊРЅРёР№ С‚РёРї С„Р°Р№Р»Сѓ"
+  },
+  "files.upload-dropdown.failed-to-upload": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РІРёРІР°РЅС‚Р°Р¶РёС‚Рё В«{fileName}В»"
+  },
+  "files.upload-dropdown.file": {
+    "defaultMessage": "Р¤Р°Р№Р»"
+  },
+  "files.upload-dropdown.file-uploads": {
+    "defaultMessage": "Р’РёРІР°РЅС‚Р°Р¶РµРЅРЅСЏ {fileType}"
+  },
+  "files.upload-dropdown.incorrect-file-type": {
+    "defaultMessage": "Р’РёРІР°РЅС‚Р°Р¶РµРЅРЅСЏ РјР°Р»Рѕ РЅРµРїСЂР°РІРёР»СЊРЅРёР№ С‚РёРї С„Р°Р№Р»Сѓ"
+  },
+  "files.upload-dropdown.unexpected-error": {
+    "defaultMessage": "Р’РёРЅРёРєР»Р° РЅРµРїРµСЂРµРґР±Р°С‡СѓРІР°РЅР° РїРѕРјРёР»РєР°."
+  },
+  "files.upload-dropdown.uploads-left": {
+    "defaultMessage": " вЂ” Р·Р°Р»РёС€РёР»РѕСЃСЏ {count}"
+  },
+  "files.upload.drag-and-drop.drop-to-upload": {
+    "defaultMessage": "РџРµСЂРµРјС–СЃС‚С–С‚СЊ СЃСЋРґРё С„Р°Р№Р»Рё, С‰РѕР± РІРёРІР°РЅС‚Р°Р¶РёС‚Рё С—С…"
+  },
+  "files.validation.name-invalid-directory": {
+    "defaultMessage": "РќР°Р·РІР° РјРѕР¶Рµ РјС–СЃС‚РёС‚Рё Р»РёС€Рµ Р»С–С‚РµСЂРё, С†РёС„СЂРё, С‚РёСЂРµ, РЅРёР¶РЅС– РїС–РґРєСЂРµСЃР»РµРЅРЅСЏ Р°Р±Рѕ РїСЂРѕР±С–Р»Рё."
+  },
+  "files.validation.name-invalid-file": {
+    "defaultMessage": "РќР°Р·РІР° РјРѕР¶Рµ РјС–СЃС‚РёС‚Рё Р»РёС€Рµ Р»С–С‚РµСЂРё, С†РёС„СЂРё, С‚РёСЂРµ, РЅРёР¶РЅС– РїС–РґРєСЂРµСЃР»РµРЅРЅСЏ, РєСЂР°РїРєРё Р°Р±Рѕ РїСЂРѕР±С–Р»Рё."
+  },
+  "files.validation.name-label": {
+    "defaultMessage": "РќР°Р·РІР°"
+  },
+  "files.validation.name-required": {
+    "defaultMessage": "РќР°Р·РІР° С” РѕР±РѕРІвЂ™СЏР·РєРѕРІРѕСЋ."
+  },
+  "files.zip-url-modal.backup-name": {
+    "defaultMessage": "РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ Р·Р±С–СЂРєРё CurseForge"
+  },
+  "files.zip-url-modal.cf-header": {
+    "defaultMessage": "РЈСЃС‚Р°РЅРѕРІРёС‚Рё Р·Р±С–СЂРєСѓ CurseForge"
+  },
+  "files.zip-url-modal.cf-not-found-text": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ Р·РЅР°Р№С‚Рё Р·Р±С–СЂРєСѓ CurseForge Р·Р° С†РёРј РїРѕСЃРёР»Р°РЅРЅСЏРј."
+  },
+  "files.zip-url-modal.cf-not-found-title": {
+    "defaultMessage": "Р—Р±С–СЂРєСѓ CurseForge РЅРµ Р·РЅР°Р№РґРµРЅРѕ"
+  },
+  "files.zip-url-modal.enter-link": {
+    "defaultMessage": "РЈРєР°Р¶С–С‚СЊ РїРѕСЃРёР»Р°РЅРЅСЏ"
+  },
+  "files.zip-url-modal.error-cf-url": {
+    "defaultMessage": "РџРѕСЃРёР»Р°РЅРЅСЏ РјР°С” РІРµСЃС‚Рё РЅР° РІРµСЂСЃС–СЋ Р·Р±С–СЂРєРё CurseForge."
+  },
+  "files.zip-url-modal.error-url-invalid": {
+    "defaultMessage": "РџРѕСЃРёР»Р°РЅРЅСЏ РјР°С” Р±СѓС‚Рё РґС–Р№СЃРЅРёРј."
+  },
+  "files.zip-url-modal.error-url-required": {
+    "defaultMessage": "РџРѕСЃРёР»Р°РЅРЅСЏ С” РѕР±РѕРІвЂ™СЏР·РєРѕРІРёРј."
+  },
+  "files.zip-url-modal.install-button": {
+    "defaultMessage": "РЈСЃС‚Р°РЅРѕРІРёС‚Рё"
+  },
+  "files.zip-url-modal.install-failed-title": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РІСЃС‚Р°РЅРѕРІРёС‚Рё"
+  },
+  "files.zip-url-modal.step-copy-description": {
+    "defaultMessage": "РЎРєРѕРїС–СЋР№С‚Рµ РїРѕСЃРёР»Р°РЅРЅСЏ РЅР° СЃС‚РѕСЂС–РЅРєСѓ РІРµСЂСЃС–С— С‚Р° РІРєР°Р¶С–С‚СЊ Р№РѕРіРѕ РЅРёР¶С‡Рµ."
+  },
+  "files.zip-url-modal.step-copy-title": {
+    "defaultMessage": "РЎРєРѕРїС–СЋР№С‚Рµ РїРѕСЃРёР»Р°РЅРЅСЏ"
+  },
+  "files.zip-url-modal.step-find-description": {
+    "defaultMessage": "РџРµСЂРµР№РґС–С‚СЊ РЅР° CurseForge С– Р·РЅР°Р№РґС–С‚СЊ Р±Р°Р¶Р°РЅСѓ Р·Р±С–СЂРєСѓ."
+  },
+  "files.zip-url-modal.step-find-title": {
+    "defaultMessage": "Р—РЅР°Р№РґС–С‚СЊ Р·Р±С–СЂРєСѓ"
+  },
+  "files.zip-url-modal.step-select-description": {
+    "defaultMessage": "РџРµСЂРµР№РґС–С‚СЊ Сѓ РІРєР»Р°РґРєСѓ В«Р¤Р°Р№Р»РёВ» Р№ РІРёР±РµСЂС–С‚СЊ РІРµСЂСЃС–СЋ, СЏРєСѓ С…РѕС‡РµС‚Рµ РІСЃС‚Р°РЅРѕРІРёС‚Рё."
+  },
+  "files.zip-url-modal.step-select-title": {
+    "defaultMessage": "Р’РёР±РµСЂС–С‚СЊ РІРµСЂСЃС–СЋ"
+  },
+  "files.zip-url-modal.unknown-error": {
+    "defaultMessage": "Р’РёРЅРёРєР»Р° РЅРµРІС–РґРѕРјР° РїРѕРјРёР»РєР°"
+  },
+  "files.zip-url-modal.zip-description": {
+    "defaultMessage": "РЎРєРѕРїС–СЋР№С‚Рµ Р№ РІСЃС‚Р°РІС‚Рµ РїСЂСЏРјРµ РїРѕСЃРёР»Р°РЅРЅСЏ РЅР° Р·Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ С„Р°Р№Р»Сѓ .zip."
+  },
+  "files.zip-url-modal.zip-header": {
+    "defaultMessage": "Р’РёРІР°РЅС‚Р°Р¶РµРЅРЅСЏ РІРјС–СЃС‚Сѓ .zip С–Р· РїРѕСЃРёР»Р°РЅРЅСЏ"
   },
   "form.label.address-line": {
-    "defaultMessage": "Рядок адреси"
+    "defaultMessage": "Р СЏРґРѕРє Р°РґСЂРµСЃРё"
   },
   "form.label.address-line-2": {
-    "defaultMessage": "Рядок адреси 2 (необов’язково)"
+    "defaultMessage": "Р СЏРґРѕРє Р°РґСЂРµСЃРё 2 (РЅРµРѕР±РѕРІвЂ™СЏР·РєРѕРІРѕ)"
   },
   "form.label.amount": {
-    "defaultMessage": "Кількість"
+    "defaultMessage": "РљС–Р»СЊРєС–СЃС‚СЊ"
   },
   "form.label.bank-name": {
-    "defaultMessage": "Назва банку"
+    "defaultMessage": "РќР°Р·РІР° Р±Р°РЅРєСѓ"
   },
   "form.label.business-name": {
-    "defaultMessage": "Назва компанії"
+    "defaultMessage": "РќР°Р·РІР° РєРѕРјРїР°РЅС–С—"
   },
   "form.label.city": {
-    "defaultMessage": "Місто"
+    "defaultMessage": "РњС–СЃС‚Рѕ"
   },
   "form.label.country": {
-    "defaultMessage": "Країна"
+    "defaultMessage": "РљСЂР°С—РЅР°"
   },
   "form.label.date-of-birth": {
-    "defaultMessage": "Дата народження"
+    "defaultMessage": "Р”Р°С‚Р° РЅР°СЂРѕРґР¶РµРЅРЅСЏ"
   },
   "form.label.email": {
-    "defaultMessage": "Електронна пошта"
+    "defaultMessage": "Р•Р»РµРєС‚СЂРѕРЅРЅР° РїРѕС€С‚Р°"
   },
   "form.label.first-name": {
-    "defaultMessage": "Ім’я"
+    "defaultMessage": "Р†РјвЂ™СЏ"
   },
   "form.label.last-name": {
-    "defaultMessage": "Прізвище"
+    "defaultMessage": "РџСЂС–Р·РІРёС‰Рµ"
   },
   "form.label.postal-code": {
-    "defaultMessage": "Поштовий індекс"
+    "defaultMessage": "РџРѕС€С‚РѕРІРёР№ С–РЅРґРµРєСЃ"
   },
   "form.label.state-province": {
-    "defaultMessage": "Область/регіон"
+    "defaultMessage": "РћР±Р»Р°СЃС‚СЊ/СЂРµРіС–РѕРЅ"
   },
   "form.placeholder.address": {
-    "defaultMessage": "Введіть адресу"
+    "defaultMessage": "Р’РІРµРґС–С‚СЊ Р°РґСЂРµСЃСѓ"
   },
   "form.placeholder.address-2": {
-    "defaultMessage": "Квартира, приміщення тощо"
+    "defaultMessage": "РљРІР°СЂС‚РёСЂР°, РїСЂРёРјС–С‰РµРЅРЅСЏ С‚РѕС‰Рѕ"
   },
   "form.placeholder.amount": {
-    "defaultMessage": "Уведіть суму"
+    "defaultMessage": "РЈРІРµРґС–С‚СЊ СЃСѓРјСѓ"
   },
   "form.placeholder.bank-name": {
-    "defaultMessage": "Уведіть назву банку"
+    "defaultMessage": "РЈРІРµРґС–С‚СЊ РЅР°Р·РІСѓ Р±Р°РЅРєСѓ"
   },
   "form.placeholder.bank-name-dropdown": {
-    "defaultMessage": "Виберіть назву банку"
+    "defaultMessage": "Р’РёР±РµСЂС–С‚СЊ РЅР°Р·РІСѓ Р±Р°РЅРєСѓ"
   },
   "form.placeholder.business-name": {
-    "defaultMessage": "Уведіть назву компанії"
+    "defaultMessage": "РЈРІРµРґС–С‚СЊ РЅР°Р·РІСѓ РєРѕРјРїР°РЅС–С—"
   },
   "form.placeholder.city": {
-    "defaultMessage": "Уведіть місто"
+    "defaultMessage": "РЈРІРµРґС–С‚СЊ РјС–СЃС‚Рѕ"
   },
   "form.placeholder.country": {
-    "defaultMessage": "Виберіть країну"
+    "defaultMessage": "Р’РёР±РµСЂС–С‚СЊ РєСЂР°С—РЅСѓ"
   },
   "form.placeholder.email": {
-    "defaultMessage": "Уведіть електронну пошту"
+    "defaultMessage": "РЈРІРµРґС–С‚СЊ РµР»РµРєС‚СЂРѕРЅРЅСѓ РїРѕС€С‚Сѓ"
   },
   "form.placeholder.first-name": {
-    "defaultMessage": "Уведіть ім’я"
+    "defaultMessage": "РЈРІРµРґС–С‚СЊ С–РјвЂ™СЏ"
   },
   "form.placeholder.last-name": {
-    "defaultMessage": "Уведіть прізвище"
+    "defaultMessage": "РЈРІРµРґС–С‚СЊ РїСЂС–Р·РІРёС‰Рµ"
   },
   "form.placeholder.postal-code": {
-    "defaultMessage": "Уведіть поштовий індекс"
+    "defaultMessage": "РЈРІРµРґС–С‚СЊ РїРѕС€С‚РѕРІРёР№ С–РЅРґРµРєСЃ"
   },
   "form.placeholder.state": {
-    "defaultMessage": "Уведіть регіон"
+    "defaultMessage": "РЈРІРµРґС–С‚СЊ СЂРµРіС–РѕРЅ"
   },
   "header.category.category": {
-    "defaultMessage": "Категорія"
+    "defaultMessage": "РљР°С‚РµРіРѕСЂС–СЏ"
   },
   "header.category.feature": {
-    "defaultMessage": "Особливість"
+    "defaultMessage": "РћСЃРѕР±Р»РёРІС–СЃС‚СЊ"
+  },
+  "header.category.minecraft-server-community": {
+    "defaultMessage": "РЎРїС–Р»СЊРЅРѕС‚Р°"
+  },
+  "header.category.minecraft-server-features": {
+    "defaultMessage": "РћСЃРѕР±Р»РёРІРѕСЃС‚С–"
+  },
+  "header.category.minecraft-server-gameplay": {
+    "defaultMessage": "Р†РіСЂРѕРІРёР№ РїСЂРѕС†РµСЃ"
+  },
+  "header.category.minecraft-server-meta": {
+    "defaultMessage": "Р’Р»Р°СЃС‚РёРІРѕСЃС‚С–"
   },
   "header.category.performance-impact": {
-    "defaultMessage": "Вплив на продуктивність"
+    "defaultMessage": "РќР°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ"
   },
   "header.category.resolutions": {
-    "defaultMessage": "Роздільність"
+    "defaultMessage": "Р РѕР·РґС–Р»СЊРЅС–СЃС‚СЊ"
+  },
+  "hosting.content.failed-to-bulk-delete": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РІРёРґР°Р»РёС‚Рё РІРјС–СЃС‚"
+  },
+  "hosting.content.failed-to-bulk-disable": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РІРёРјРєРЅСѓС‚Рё РІРјС–СЃС‚"
+  },
+  "hosting.content.failed-to-bulk-enable": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РІРІС–РјРєРЅСѓС‚Рё РІРјС–СЃС‚"
+  },
+  "hosting.content.failed-to-bulk-update": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РѕРЅРѕРІРёС‚Рё РІРјС–СЃС‚"
+  },
+  "hosting.content.failed-to-load-modpack-content": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ Р·Р°РІР°РЅС‚Р°Р¶РёС‚Рё РІРјС–СЃС‚ Р·Р±С–СЂРєРё"
+  },
+  "hosting.content.failed-to-load-versions": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ Р·Р°РІР°РЅС‚Р°Р¶РёС‚Рё РІРµСЂСЃС–С—"
+  },
+  "hosting.content.failed-to-remove": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РІРёРґР°Р»РёС‚Рё РІРјС–СЃС‚"
+  },
+  "hosting.content.failed-to-toggle": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РїРµСЂРµРјРєРЅСѓС‚Рё {name}"
+  },
+  "hosting.content.failed-to-unlink": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РІС–РґРІвЂ™СЏР·Р°С‚Рё Р·Р±С–СЂРєСѓ"
+  },
+  "hosting.content.failed-to-update": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РѕРЅРѕРІРёС‚Рё"
+  },
+  "hosting.content.failed-to-upload": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РѕРЅРѕРІРёС‚Рё С„Р°Р№Р»"
+  },
+  "hosting.loader.failed-to-change-version": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ Р·РјС–РЅРёС‚Рё РІРµСЂСЃС–СЋ Р·Р±С–СЂРєРё"
+  },
+  "hosting.loader.failed-to-load-versions": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ Р·Р°РІР°РЅС‚Р°Р¶РёС‚Рё РІРµСЂСЃС–С—"
+  },
+  "hosting.loader.failed-to-reinstall": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РїРµСЂРµРІСЃС‚Р°РЅРѕРІРёС‚Рё Р·Р±С–СЂРєСѓ"
+  },
+  "hosting.loader.failed-to-repair": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РїРѕР»Р°РіРѕРґРёС‚Рё СЃРµСЂРІРµСЂ"
+  },
+  "hosting.loader.failed-to-reset-to-onboarding": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ СЃРєРёРЅСѓС‚Рё РґРѕ РїРѕС‡Р°С‚РєРѕРІРѕРіРѕ СЃС‚Р°РЅСѓ"
+  },
+  "hosting.loader.failed-to-save-settings": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ Р·Р±РµСЂРµРіС‚Рё РЅР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ С–РЅСЃС‚Р°Р»СЏС†С–С—"
+  },
+  "hosting.loader.failed-to-unlink": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РІС–РґРІвЂ™СЏР·Р°С‚Рё Р·Р±С–СЂРєСѓ"
+  },
+  "hosting.loader.loader-version": {
+    "defaultMessage": "Р’РµСЂСЃС–СЏ {loader, select, null {Р·Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡Р°} other {{loader}}}"
+  },
+  "hosting.loader.repair-started-text": {
+    "defaultMessage": "Р†РЅСЃС‚Р°Р»СЏС†С–СЏ РІР°С€РѕРіРѕ СЃРµСЂРІРµСЂР° Р±СѓР»Р° РїРѕР»Р°РіРѕРґР¶РµРЅР°."
+  },
+  "hosting.loader.repair-started-title": {
+    "defaultMessage": "Р›Р°РіРѕРґР¶РµРЅРЅСЏ Р·Р°РІРµСЂС€РµРЅРѕ"
+  },
+  "hosting.loader.reset-server": {
+    "defaultMessage": "РЎРєРёРЅСѓС‚Рё СЃРµСЂРІРµСЂ"
+  },
+  "hosting.loader.reset-server-description": {
+    "defaultMessage": "Р’РёРґР°Р»СЏС” РІСЃС– РґР°РЅС– РЅР° РІР°С€РѕРјСѓ СЃРµСЂРІРµСЂС–, РІРєР»СЋС‡Р°СЋС‡Рё СЃРІС–С‚Рё, РјРѕРґРё С‚Р° С„Р°Р№Р»Рё РЅР°Р»Р°С€С‚СѓРІР°РЅСЊ. Р РµР·РµСЂРІРЅС– РєРѕРїС–С— Р·Р±РµСЂРµР¶СѓС‚СЊСЃСЏ, С– С—С… РјРѕР¶РЅР° Р±СѓРґРµ РІС–РґРЅРѕРІРёС‚Рё."
+  },
+  "hosting.loader.reset-to-onboarding-button": {
+    "defaultMessage": "РЎРєРёРЅСѓС‚Рё РґРѕ РїРѕС‡Р°С‚РєРѕРІРѕРіРѕ СЃС‚Р°РЅСѓ"
+  },
+  "hosting.loader.reset-to-onboarding-modal-description": {
+    "defaultMessage": "Р¦Рµ РїСЂРёР·РІРµРґРµ РґРѕ РїРѕРІРµСЂРЅРµРЅРЅСЏ СЃРµСЂРІРµСЂР° РІ РїРѕС‡Р°С‚РєРѕРІРёР№ СЃС‚Р°РЅ, С‰РѕР± РјРѕР¶РЅР° Р±СѓР»Рѕ РїРѕРІС‚РѕСЂРЅРѕ РІРёРєРѕРЅР°С‚Рё РїСЂРѕС†РµСЃ РЅР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ. Р’Рё РІРїРµРІРЅРµРЅС–, С‰Рѕ С…РѕС‡РµС‚Рµ РїСЂРѕРґРѕРІР¶РёС‚Рё?"
+  },
+  "hosting.loader.reset-to-onboarding-modal-title": {
+    "defaultMessage": "РЎРєРёРЅСѓС‚Рё РґРѕ РїРѕС‡Р°С‚РєРѕРІРѕРіРѕ СЃС‚Р°РЅСѓ"
+  },
+  "hosting.loader.reset-to-onboarding-success-description": {
+    "defaultMessage": "РЎРµСЂРІРµСЂ РїРѕРІРµСЂРЅСѓС‚Рѕ РґРѕ РїРѕС‡Р°С‚РєРѕРІРѕРіРѕ СЃС‚Р°РЅСѓ РґР»СЏ РЅР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ."
+  },
+  "hosting.loader.reset-to-onboarding-success-title": {
+    "defaultMessage": "РЎРµСЂРІРµСЂ СЃРєРёРЅСѓС‚Рѕ РґРѕ РїРѕС‡Р°С‚РєРѕРІРѕРіРѕ СЃС‚Р°РЅСѓ"
+  },
+  "hosting.loader.support-options-title": {
+    "defaultMessage": "РќР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ РїС–РґС‚СЂРёРјРєРё"
   },
   "hosting.specs.burst": {
-    "defaultMessage": "Короткочасно до {cpus} ЦП"
+    "defaultMessage": "РљРѕСЂРѕС‚РєРѕС‡Р°СЃРЅРѕ РґРѕ {cpus} Р¦Рџ"
   },
   "hosting.specs.burst.tooltip": {
-    "defaultMessage": "Короткочасне посилення ЦП дозволяє вашому серверу використовувати додаткові потоки для пом’якшення стрибків TPS. Натисніть, щоб дізнатися більше."
+    "defaultMessage": "РљРѕСЂРѕС‚РєРѕС‡Р°СЃРЅРµ РїРѕСЃРёР»РµРЅРЅСЏ Р¦Рџ РґРѕР·РІРѕР»СЏС” РІР°С€РѕРјСѓ СЃРµСЂРІРµСЂСѓ РІРёРєРѕСЂРёСЃС‚РѕРІСѓРІР°С‚Рё РґРѕРґР°С‚РєРѕРІС– РїРѕС‚РѕРєРё РґР»СЏ РїРѕРјвЂ™СЏРєС€РµРЅРЅСЏ СЃС‚СЂРёР±РєС–РІ TPS. РќР°С‚РёСЃРЅС–С‚СЊ, С‰РѕР± РґС–Р·РЅР°С‚РёСЃСЏ Р±С–Р»СЊС€Рµ."
   },
   "hosting.specs.gb-ram": {
-    "defaultMessage": "{ram} ГБ ОЗП"
+    "defaultMessage": "{ram} Р“Р‘ РћР—Рџ"
   },
   "hosting.specs.gb-storage": {
-    "defaultMessage": "{storage} ГБ сховища"
+    "defaultMessage": "{storage} Р“Р‘ СЃС…РѕРІРёС‰Р°"
   },
   "hosting.specs.shared-cpus": {
-    "defaultMessage": "{cpus} спільних ЦП"
+    "defaultMessage": "{cpus} СЃРїС–Р»СЊРЅРёС… Р¦Рџ"
   },
   "icon-select.edit": {
-    "defaultMessage": "Редагувати значок"
+    "defaultMessage": "Р РµРґР°РіСѓРІР°С‚Рё Р·РЅР°С‡РѕРє"
   },
   "icon-select.remove": {
-    "defaultMessage": "Прибрати значок"
+    "defaultMessage": "РџСЂРёР±СЂР°С‚Рё Р·РЅР°С‡РѕРє"
   },
   "icon-select.replace": {
-    "defaultMessage": "Замінити значок"
+    "defaultMessage": "Р—Р°РјС–РЅРёС‚Рё Р·РЅР°С‡РѕРє"
   },
   "icon-select.select": {
-    "defaultMessage": "Вибрати значок"
+    "defaultMessage": "Р’РёР±СЂР°С‚Рё Р·РЅР°С‡РѕРє"
+  },
+  "input.search-version.placeholder": {
+    "defaultMessage": "Р—РЅР°Р№С‚Рё РІРµСЂСЃС–СЋвЂ¦"
   },
   "input.search.placeholder": {
-    "defaultMessage": "Пошук…"
+    "defaultMessage": "РџРѕС€СѓРєвЂ¦"
+  },
+  "input.select-version.placeholder": {
+    "defaultMessage": "Р’РёР±СЂР°С‚Рё РІРµСЂСЃС–СЋ"
   },
   "input.view.gallery": {
-    "defaultMessage": "У вигляді галереї"
+    "defaultMessage": "РЈ РІРёРіР»СЏРґС– РіР°Р»РµСЂРµС—"
   },
   "input.view.grid": {
-    "defaultMessage": "У вигляді таблиці"
+    "defaultMessage": "РЈ РІРёРіР»СЏРґС– С‚Р°Р±Р»РёС†С–"
   },
   "input.view.list": {
-    "defaultMessage": "У вигляді рядків"
+    "defaultMessage": "РЈ РІРёРіР»СЏРґС– СЂСЏРґРєС–РІ"
+  },
+  "installation-settings.aria.select-game-version": {
+    "defaultMessage": "Р’РёР±СЂР°С‚Рё РІРµСЂСЃС–СЋ РіСЂРё"
+  },
+  "installation-settings.aria.select-loader-version": {
+    "defaultMessage": "Р’РёР±СЂР°С‚Рё РІРµСЂСЃС–СЋ {loader}"
+  },
+  "installation-settings.aria.select-platform": {
+    "defaultMessage": "Р’РёР±СЂР°С‚Рё РїР»Р°С‚С„РѕСЂРјСѓ"
+  },
+  "installation-settings.confirm-version-change": {
+    "defaultMessage": "РџС–РґС‚РІРµСЂРґРёС‚Рё"
+  },
+  "installation-settings.confirm-version-change-description": {
+    "defaultMessage": "Р—РјС–РЅР° РІРµСЂСЃС–С— РЅР° {gameVersion} РїСЂРёР·РІРµРґРµ С‚Р°РєРёС… Р·РјС–РЅ СѓРјС–СЃС‚Сѓ РЅР° РІР°С€РѕРјСѓ СЃРµСЂРІРµСЂС–."
+  },
+  "installation-settings.confirm-version-change-header": {
+    "defaultMessage": "РџРµСЂРµРіР»СЏРґ Р·РјС–РЅ СѓРјС–СЃС‚Сѓ"
+  },
+  "installation-settings.edit-installation.title": {
+    "defaultMessage": "Р РµРґР°РіСѓРІР°С‚Рё С–РЅСЃС‚Р°Р»СЏС†С–СЋ"
+  },
+  "installation-settings.edit.warning-instance": {
+    "defaultMessage": "РњРё РЅРµ СЂРµРєРѕРјРµРЅРґСѓС”РјРѕ Р·РјС–РЅСЋРІР°С‚Рё РЅР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ С–РЅСЃС‚Р°Р»СЏС†С–С— РїС–СЃР»СЏ РІСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ РІРјС–СЃС‚Сѓ. РЇРєС‰Рѕ РІРё РІСЃРµ Р¶ С…РѕС‡РµС‚Рµ С—С… Р·РјС–РЅРёС‚Рё, Р±СѓРґСЊС‚Рµ РѕР±РµСЂРµР¶РЅС–, РѕСЃРєС–Р»СЊРєРё С†Рµ РјРѕР¶Рµ СЃРїСЂРёС‡РёРЅРёС‚Рё РїСЂРѕР±Р»РµРјРё."
+  },
+  "installation-settings.edit.warning-server": {
+    "defaultMessage": "РњРё РЅРµ СЂРµРєРѕРјРµРЅРґСѓС”РјРѕ Р·РјС–РЅСЋРІР°С‚Рё РЅР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ С–РЅСЃС‚Р°Р»СЏС†С–С— РїС–СЃР»СЏ РІСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ РІРјС–СЃС‚Сѓ. РЇРєС‰Рѕ РІРё РІСЃРµ Р¶ С…РѕС‡РµС‚Рµ С—С… Р·РјС–РЅРёС‚Рё, СЃРєРёРЅСЊС‚Рµ РІР°С€ СЃРµСЂРІРµСЂ."
+  },
+  "installation-settings.incompatible-content.auto-fix-button": {
+    "defaultMessage": "Р’РёРїСЂР°РІРёС‚Рё Р°РІС‚РѕРјР°С‚РёС‡РЅРѕ"
+  },
+  "installation-settings.incompatible-content.change-loader-button": {
+    "defaultMessage": "Р—РјС–РЅРёС‚Рё Р·Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡"
+  },
+  "installation-settings.incompatible-content.disable-conflicts-button": {
+    "defaultMessage": "Р’РёРјРєРЅСѓС‚Рё РєРѕРЅС„Р»С–РєС‚Рё"
+  },
+  "installation-settings.incompatible-content.game-version-warning-body": {
+    "defaultMessage": "Р—РјС–РЅСЋСЋС‡Рё РІРµСЂСЃС–СЋ РіСЂРё, РјРё РјРѕР¶РµРјРѕ РІРёРјРєРЅСѓС‚Рё РЅРµСЃСѓРјС–СЃРЅРёР№ РІСЃС‚Р°РЅРѕРІР»РµРЅРёР№ РІРјС–СЃС‚ Р°Р±Рѕ СЃРїСЂРѕР±СѓРІР°С‚Рё СѓСЃСѓРЅСѓС‚Рё РЅРµСЃСѓРјС–СЃРЅС–СЃС‚СЊ."
+  },
+  "installation-settings.incompatible-content.game-version-warning-title": {
+    "defaultMessage": "РџРѕРїРµСЂРµРґР¶РµРЅРЅСЏ РЅРµСЃСѓРјС–СЃРЅРѕСЃС‚Рё"
+  },
+  "installation-settings.incompatible-content.header": {
+    "defaultMessage": "РЈСЃС‚Р°РЅРѕРІР»РµРЅРѕ РЅРµСЃСѓРјС–СЃРЅРёР№ СѓРјС–СЃС‚"
+  },
+  "installation-settings.incompatible-content.loader-change-body": {
+    "defaultMessage": "РџСЂРё Р·РјС–РЅС– Р·Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡Р° РІРµСЃСЊ РІСЃС‚Р°РЅРѕРІР»РµРЅРёР№ СѓРјС–СЃС‚ Р±СѓРґРµ РІРёРјРєРЅРµРЅРѕ. РќР°С‚РѕРјС–СЃС‚СЊ СЂРµРєРѕРјРµРЅРґСѓС”РјРѕ СЃРєРёРЅСѓС‚Рё РЅР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ СЃРµСЂРІРµСЂР°."
+  },
+  "installation-settings.incompatible-content.loader-change-title": {
+    "defaultMessage": "Р—РјС–РЅРµРЅРЅСЏ Р·Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡Р° РґРµСЃС‚СЂСѓРєС‚РёРІРЅРµ"
+  },
+  "installation-settings.linked-instance.title": {
+    "defaultMessage": "{projectType, select, server {РџРѕРІвЂ™Р·Р°РЅРёР№ РїСЂРѕС”РєС‚ СЃРµСЂРІРµСЂР°} other {РџРѕРІвЂ™Р·Р°РЅР° Р·Р±С–СЂРєР°}}"
+  },
+  "installation-settings.loader-version": {
+    "defaultMessage": "Р’РµСЂСЃС–СЏ {loader}"
+  },
+  "installation-settings.platform-lock-tooltip": {
+    "defaultMessage": "Р©РѕР± Р·РјС–РЅСЋРІР°С‚Рё Р·Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡ РїРѕС‚СЂС–Р±РЅРѕ СЃРєРёРЅСѓС‚Рё СЃРµСЂРІРµСЂ."
+  },
+  "installation-settings.reinstall-modpack.description": {
+    "defaultMessage": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ Р·С–Р±СЂРєРё СЃРєРёРЅРµ РІРјС–СЃС‚ {type, select, server {СЃРµСЂРІРµСЂР°} other {РїСЂРѕС„С–Р»СЏ}} РґРѕ РїРѕС‡Р°С‚РєРѕРІРѕРіРѕ СЃС‚Р°РЅСѓ, РІРёРґР°Р»РёРІС€Рё РІСЃС– РјРѕРґРё С‚Р° РІРјС–СЃС‚, СЏРєС– РІРё РґРѕРґР°РІР°Р»Рё."
+  },
+  "installation-settings.reinstall-modpack.title": {
+    "defaultMessage": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІРёС‚Рё Р·Р±С–СЂРєСѓ"
+  },
+  "installation-settings.reinstalling-modpack": {
+    "defaultMessage": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ Р·Р±С–СЂРєРё"
+  },
+  "installation-settings.removed-incompatible": {
+    "defaultMessage": "Р’РёРґР°Р»РµРЅРѕ (РЅРµСЃСѓРјС–СЃРЅРѕ)"
+  },
+  "installation-settings.repair.instance-description": {
+    "defaultMessage": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІР»СЋС” Р·Р°Р»РµР¶РЅРѕСЃС‚С– Minecraft С‚Р° РїРµСЂРµРІС–СЂСЏС” С—С… РЅР° РЅР°СЏРІРЅС–СЃС‚СЊ РїРѕС€РєРѕРґР¶РµРЅСЊ. Р¦Рµ РјРѕР¶Рµ СЂРѕР·РІвЂ™СЏР·Р°С‚Рё РїСЂРѕР±Р»РµРјРё, СЏРєС‰Рѕ РІР°С€Р° РіСЂР° РЅРµ Р·Р°РїСѓСЃРєР°С”С‚СЊСЃСЏ С‡РµСЂРµР· РїРѕРјРёР»РєРё Р·Р°РїСѓСЃРєР°С‡Р°."
+  },
+  "installation-settings.repair.instance-title": {
+    "defaultMessage": "Р’С–РґРЅРѕРІРёС‚Рё РїСЂРѕС„С–Р»СЊ"
+  },
+  "installation-settings.repair.server-description": {
+    "defaultMessage": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІР»СЋС” Р·Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡ С‚Р° Р·Р°Р»РµР¶РЅРѕСЃС‚С– Minecraft Р±РµР· РІРёРґР°Р»РµРЅРЅСЏ РІР°С€РѕРіРѕ РІРјС–СЃС‚Сѓ. Р¦Рµ РјРѕР¶Рµ СЂРѕР·РІвЂ™СЏР·Р°С‚Рё РїСЂРѕР±Р»РµРјРё, СЏРєС‰Рѕ РІР°С€ СЃРµСЂРІРµСЂ РЅРµ Р·Р°РїСѓСЃРєР°С”С‚СЊСЃСЏ РЅР°Р»РµР¶РЅРёРј С‡РёРЅРѕРј."
+  },
+  "installation-settings.repair.server-title": {
+    "defaultMessage": "Р›Р°РіРѕРґР¶РµРЅРЅСЏ СЃРµСЂРІРµСЂР°"
+  },
+  "installation-settings.saving": {
+    "defaultMessage": "Р—Р±РµСЂРµР¶РµРЅРЅСЏвЂ¦"
+  },
+  "installation-settings.search-game-version": {
+    "defaultMessage": "РџРѕС€СѓРє РІРµСЂСЃС–Р№ РіСЂРёвЂ¦"
+  },
+  "installation-settings.unlink": {
+    "defaultMessage": "Р’С–РґРІвЂ™СЏР·Р°С‚Рё"
+  },
+  "installation-settings.unlink.description": {
+    "defaultMessage": "Р’С–РґРІвЂ™СЏР¶С–С‚СЊ {type, select, server {СЃРµСЂРІРµСЂ} other {РїСЂРѕС„С–Р»СЊ}} РІС–Рґ РїСЂРѕС”РєС‚Сѓ {projectType, select, server {СЃРµСЂРІРµСЂР°} other {Р·Р±С–СЂРєРё}}. Р¦Рµ РґРѕР·РІРѕР»РёС‚СЊ Р·РјС–РЅРёС‚Рё Р·Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡ С– РІРµСЂСЃС–СЋ Minecraft, Р°Р»Рµ РІРё РЅРµ Р±СѓРґРµС‚Рµ РѕС‚СЂРёРјСѓРІР°С‚Рё РјР°Р№Р±СѓС‚РЅС– РѕРЅРѕРІР»РµРЅРЅСЏ."
+  },
+  "installation-settings.verifying": {
+    "defaultMessage": "РџРµСЂРµРІС–СЂРєР°вЂ¦"
+  },
+  "instance.confirm-reinstall.admonition-body": {
+    "defaultMessage": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ СЃРєРёРЅРµ РІРІРµСЃСЊ РґРѕРґР°РЅРёР№ Р°Р±Рѕ РјРѕРґРёС„С–РєРѕРІР°РЅРёР№ СѓРјС–СЃС‚ РґРѕ РЅР°РґР°РЅРѕРіРѕ Р·Р±С–СЂРєРѕСЋ, РїСЂРёР±РёСЂР°СЋС‡Рё Р±СѓРґСЊ-СЏРєС– РґРѕРґР°С‚РєРѕРІРѕ РІСЃС‚Р°РЅРѕРІР»РµРЅС– РІР°РјРё РјРѕРґРё С‡Рё РІРјС–СЃС‚."
+  },
+  "instance.confirm-reinstall.admonition-header": {
+    "defaultMessage": "РџРѕРїРµСЂРµРґР¶РµРЅРЅСЏ РїСЂРѕ РїРµСЂРµРІСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ"
+  },
+  "instance.confirm-reinstall.header": {
+    "defaultMessage": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІРёС‚Рё Р·Р±С–СЂРєСѓ"
+  },
+  "instance.confirm-reinstall.reinstall-button": {
+    "defaultMessage": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІРёС‚Рё Р·Р±С–СЂРєСѓ"
+  },
+  "instance.confirm-repair.body": {
+    "defaultMessage": "Р›Р°РіРѕРґР¶РµРЅРЅСЏ РїРµСЂРµРІСЃС‚Р°РЅРѕРІРёС‚СЊ Р·Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡ С‚Р° Р·Р°Р»РµР¶РЅРѕСЃС‚С– Minecraft Р±РµР· РІРёРґР°Р»РµРЅРЅСЏ РІР°С€РѕРіРѕ РІРјС–СЃС‚Сѓ. Р¦Рµ РјРѕР¶Рµ СЂРѕР·РІвЂ™СЏР·Р°С‚Рё РїСЂРѕР±Р»РµРјРё, СЏРєС‰Рѕ {type, select, server {РІР°С€ СЃРµСЂРІРµСЂ РЅРµ Р·Р°РїСѓСЃРєР°С”С‚СЊСЃСЏ РЅР°Р»РµР¶РЅРёРј С‡РёРЅРѕРј} other {РІР°С€Р° РіСЂР° РЅРµ Р·Р°РїСѓСЃРєР°С”С‚СЊСЃСЏ С‡РµСЂРµР· РїРѕРјРёР»РєРё Р·Р°РїСѓСЃРєР°С‡Р°}}."
+  },
+  "instance.confirm-repair.header": {
+    "defaultMessage": "РџРѕР»Р°РіРѕРґРёС‚Рё {type, select, server {СЃРµСЂРІРµСЂ} other {РїСЂРѕС„С–Р»СЊ}}"
+  },
+  "instance.confirm-repair.repair-button": {
+    "defaultMessage": "РџРѕР»Р°РіРѕРґРёС‚Рё"
   },
   "instance.worlds.game_mode.adventure": {
-    "defaultMessage": "Режим пригод"
+    "defaultMessage": "Р РµР¶РёРј РїСЂРёРіРѕРґ"
   },
   "instance.worlds.game_mode.creative": {
-    "defaultMessage": "Режим творчости"
+    "defaultMessage": "Р РµР¶РёРј С‚РІРѕСЂС‡РѕСЃС‚Рё"
   },
   "instance.worlds.game_mode.spectator": {
-    "defaultMessage": "Режим спостерігача"
+    "defaultMessage": "Р РµР¶РёРј СЃРїРѕСЃС‚РµСЂС–РіР°С‡Р°"
   },
   "instance.worlds.game_mode.survival": {
-    "defaultMessage": "Режим виживання"
+    "defaultMessage": "Р РµР¶РёРј РІРёР¶РёРІР°РЅРЅСЏ"
   },
   "instance.worlds.game_mode.unknown": {
-    "defaultMessage": "Невідомий режим"
+    "defaultMessage": "РќРµРІС–РґРѕРјРёР№ СЂРµР¶РёРј"
   },
-  "instances.modpack-card.unlink": {
-    "defaultMessage": "Відв’язати збірку"
+  "instances.confirm-leave-modal.body": {
+    "defaultMessage": "Р¤Р°Р№Р»Рё РІСЃРµ С‰Рµ РІРёРІР°РЅС‚Р°Р¶СѓСЋС‚СЊСЃСЏ. РЇРєС‰Рѕ РІРё РїРѕРєРёРЅРµС‚Рµ С†СЋ СЃС‚РѕСЂС–РЅРєСѓ, РІРёРІР°РЅС‚Р°Р¶РµРЅРЅСЏ Р±СѓРґРµ СЃРєР°СЃРѕРІР°РЅРѕ, С– РІР°С€С– Р·РјС–РЅРё РјРѕР¶СѓС‚СЊ Р±СѓС‚Рё РІС‚СЂР°С‡РµРЅС–."
+  },
+  "instances.confirm-leave-modal.upload-in-progress": {
+    "defaultMessage": "Р’РёРІР°РЅС‚Р°Р¶РµРЅРЅСЏ С‚СЂРёРІР°С”"
+  },
+  "instances.content-install.compatible-count": {
+    "defaultMessage": "{count} {count, plural, one {СЃСѓРјС–СЃРЅРёР№ РїСЂРѕС„С–Р»СЊ} few {СЃСѓРјС–СЃРЅС– РїСЂРѕС„С–Р»С–} other {СЃСѓРјС–СЃРЅРёС… РїСЂРѕС„С–Р»С–РІ}}"
+  },
+  "instances.content-install.existing-tab": {
+    "defaultMessage": "РќР°СЏРІРЅРёР№ РїСЂРѕС„С–Р»СЊ"
+  },
+  "instances.content-install.game-version-placeholder": {
+    "defaultMessage": "Р’РёР±СЂР°С‚Рё РІРµСЂСЃС–СЋ РіСЂРё"
+  },
+  "instances.content-install.header": {
+    "defaultMessage": "РЈСЃС‚Р°РЅРѕРІРёС‚Рё РїСЂРѕС”РєС‚"
+  },
+  "instances.content-install.install-button": {
+    "defaultMessage": "РЈСЃС‚Р°РЅРѕРІРёС‚Рё"
+  },
+  "instances.content-install.installed-badge": {
+    "defaultMessage": "РЈСЃС‚Р°РЅРѕРІР»РµРЅРѕ"
+  },
+  "instances.content-install.instance-type": {
+    "defaultMessage": "РўРёРї РїСЂРѕС„С–Р»СЏ"
+  },
+  "instances.content-install.loader-label": {
+    "defaultMessage": "Р—Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡"
+  },
+  "instances.content-install.name-label": {
+    "defaultMessage": "РќР°Р·РІР°"
+  },
+  "instances.content-install.name-placeholder": {
+    "defaultMessage": "РЈРєР°Р¶С–С‚СЊ РЅР°Р·РІСѓ РїСЂРѕС„С–Р»СЋ"
+  },
+  "instances.content-install.new-tab": {
+    "defaultMessage": "РќРѕРІРёР№ РїСЂРѕС„С–Р»СЊ"
+  },
+  "instances.content-install.no-instances": {
+    "defaultMessage": "РќРµ Р·РЅР°Р№РґРµРЅРѕ СЃСѓРјС–СЃРЅРёС… РїСЂРѕС„С–Р»С–РІ"
+  },
+  "instances.content-install.remove-icon": {
+    "defaultMessage": "РџСЂРёР±СЂР°С‚Рё Р·РЅР°С‡РѕРє"
+  },
+  "instances.content-install.search-placeholder": {
+    "defaultMessage": "РџРѕС€СѓРє РїСЂРѕС„С–Р»С–РІ"
+  },
+  "instances.content-install.select-icon": {
+    "defaultMessage": "Р’РёР±СЂР°С‚Рё Р·РЅР°С‡РѕРє"
+  },
+  "instances.modpack-content-modal.empty-description": {
+    "defaultMessage": "Р—Р±С–СЂРєР° РЅРµ РІРєР»СЋС‡Р°С” РґРѕРґР°С‚РєРѕРІРёР№ СѓРјС–СЃС‚."
+  },
+  "instances.modpack-content-modal.empty-title": {
+    "defaultMessage": "РЈРјС–СЃС‚Сѓ РЅРµ Р·РЅР°Р№РґРµРЅРѕ"
+  },
+  "instances.modpack-content-modal.header": {
+    "defaultMessage": "РЈРјС–СЃС‚ Р·Р±С–СЂРєРё"
+  },
+  "instances.modpack-content-modal.loading": {
+    "defaultMessage": "Р—Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ РІРјС–СЃС‚СѓвЂ¦"
+  },
+  "instances.modpack-content-modal.no-results": {
+    "defaultMessage": "Р—Р° РІР°С€РёРј Р·Р°РїРёС‚РѕРј РЅРµ Р·РЅР°Р№РґРµРЅРѕ Р¶РѕРґРЅРѕРіРѕ РїСЂРѕС”РєС‚Сѓ."
+  },
+  "instances.modpack-content-modal.search-placeholder": {
+    "defaultMessage": "РџРѕС€СѓРє {count, number} {count, plural, one {РїСЂРѕС”РєС‚Сѓ} other {РїСЂРѕС”РєС‚С–РІ}}"
   },
   "instances.updater-modal.badge.current": {
-    "defaultMessage": "Поточна"
+    "defaultMessage": "РџРѕС‚РѕС‡РЅР°"
   },
   "instances.updater-modal.badge.incompatible": {
-    "defaultMessage": "Несумісна"
+    "defaultMessage": "РќРµСЃСѓРјС–СЃРЅР°"
   },
   "instances.updater-modal.downgrade-to": {
-    "defaultMessage": "Відкотити до {version}"
+    "defaultMessage": "Р’С–РґРєРѕС‚РёС‚Рё РґРѕ {version}"
   },
   "instances.updater-modal.header": {
-    "defaultMessage": "Оновити версію"
+    "defaultMessage": "РћРЅРѕРІРёС‚Рё РІРµСЂСЃС–СЋ"
+  },
+  "instances.updater-modal.header-modpack": {
+    "defaultMessage": "Р—РјС–РЅРёС‚Рё РІРµСЂСЃС–СЋ Р·Р±С–СЂРєРё"
+  },
+  "instances.updater-modal.header-switch": {
+    "defaultMessage": "Р—РјС–РЅРёС‚Рё РІРµСЂСЃС–СЋ"
   },
   "instances.updater-modal.hide-incompatible": {
-    "defaultMessage": "Приховати несумісні"
+    "defaultMessage": "РџСЂРёС…РѕРІР°С‚Рё РЅРµСЃСѓРјС–СЃРЅС–"
+  },
+  "instances.updater-modal.loading-changelog": {
+    "defaultMessage": "Р—Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ Р¶СѓСЂРЅР°Р»Сѓ Р·РјС–РЅвЂ¦"
+  },
+  "instances.updater-modal.loading-versions": {
+    "defaultMessage": "Р—Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ РІРµСЂСЃС–Р№вЂ¦"
   },
   "instances.updater-modal.no-changelog": {
-    "defaultMessage": "Для цієї версії не надано журнал змін."
+    "defaultMessage": "Р”Р»СЏ С†С–С”С— РІРµСЂСЃС–С— РЅРµ РЅР°РґР°РЅРѕ Р¶СѓСЂРЅР°Р» Р·РјС–РЅ."
   },
   "instances.updater-modal.no-versions": {
-    "defaultMessage": "Версій не знайдено"
+    "defaultMessage": "Р’РµСЂСЃС–Р№ РЅРµ Р·РЅР°Р№РґРµРЅРѕ"
   },
   "instances.updater-modal.search-placeholder": {
-    "defaultMessage": "Пошук версій…"
+    "defaultMessage": "РџРѕС€СѓРє РІРµСЂСЃС–С—вЂ¦"
   },
   "instances.updater-modal.select-version": {
-    "defaultMessage": "Виберіть версію, щоб переглянути її журнал змін"
+    "defaultMessage": "Р’РёР±РµСЂС–С‚СЊ РІРµСЂСЃС–СЋ, С‰РѕР± РїРµСЂРµРіР»СЏРЅСѓС‚Рё С—С— Р¶СѓСЂРЅР°Р» Р·РјС–РЅ"
   },
   "instances.updater-modal.show-incompatible": {
-    "defaultMessage": "Показати несумісні"
+    "defaultMessage": "РџРѕРєР°Р·Р°С‚Рё РЅРµСЃСѓРјС–СЃРЅС–"
+  },
+  "instances.updater-modal.switch-to": {
+    "defaultMessage": "Р—РјС–РЅРёС‚Рё РЅР° {version}"
   },
   "instances.updater-modal.update-to": {
-    "defaultMessage": "Оновити до {version}"
+    "defaultMessage": "РћРЅРѕРІРёС‚Рё РґРѕ {version}"
   },
-  "instances.updater-modal.warning.app": {
-    "defaultMessage": "Ми не можемо гарантувати безпеку оновлень для вашого профілю. Перегляньте журнал змін для всіх проміжних версій і розгляньте можливість створення резервної копії."
+  "instances.updater-modal.warning-app": {
+    "defaultMessage": "РћРЅРѕРІР»РµРЅРЅСЏ РјРѕР¶Рµ Р·Р»Р°РјР°С‚Рё РІР°С€ РїСЂРѕС„С–Р»СЊ. РЎРїРѕС‡Р°С‚РєСѓ РѕР·РЅР°Р№РѕРјС‚РµСЃСЏ С–Р· Р¶СѓСЂРЅР°Р»РѕРј Р·РјС–РЅ Сѓ РІРµСЂСЃС–С— Р№ СЃС‚РІРѕСЂС–С‚СЊ СЂРµР·РµСЂРІРЅСѓ РєРѕРїС–СЋ."
   },
-  "instances.updater-modal.warning.web": {
-    "defaultMessage": "Ми не можемо гарантувати безпеку оновлень для ваших світів. Перегляньте журнал змін для всіх проміжних версій і розгляньте можливість створення резервної копії."
+  "instances.updater-modal.warning-web": {
+    "defaultMessage": "РћРЅРѕРІР»РµРЅРЅСЏ РјРѕР¶Рµ Р·Р»Р°РјР°С‚Рё РІР°С€ СЃРІС–С‚. РЎРїРѕС‡Р°С‚РєСѓ РѕР·РЅР°Р№РѕРјС‚РµСЃСЏ С–Р· Р¶СѓСЂРЅР°Р»РѕРј Р·РјС–РЅ Сѓ РІРµСЂСЃС–С— Р№ СЃС‚РІРѕСЂС–С‚СЊ СЂРµР·РµСЂРІРЅСѓ РєРѕРїС–СЋ."
   },
   "label.actions": {
-    "defaultMessage": "Дії"
+    "defaultMessage": "Р”С–С—"
   },
   "label.available": {
-    "defaultMessage": "{amount} доступно."
+    "defaultMessage": "{amount} РґРѕСЃС‚СѓРїРЅРѕ."
   },
   "label.changelog": {
-    "defaultMessage": "Журнал змін"
+    "defaultMessage": "Р–СѓСЂРЅР°Р» Р·РјС–РЅ"
   },
   "label.changes-saved": {
-    "defaultMessage": "Зміни збережено"
+    "defaultMessage": "Р—РјС–РЅРё Р·Р±РµСЂРµР¶РµРЅРѕ"
+  },
+  "label.client-depends-warning": {
+    "defaultMessage": "Р¦РµР№ РјРѕРґ Р·Р°Р»РµР¶РёС‚СЊ РІС–Рґ РєР»С–С”РЅС‚СЃСЊРєРѕРіРѕ РјРѕРґР°, С‰Рѕ РјРѕР¶Рµ СЃРїСЂРёС‡РёРЅРёС‚Рё РїСЂРѕР±Р»РµРјРё РїС–Рґ С‡Р°СЃ Р·Р°РїСѓСЃРєСѓ СЃРµСЂРІРµСЂР°"
+  },
+  "label.client-only-warning": {
+    "defaultMessage": "Р¦Рµ РєР»С–С”РЅС‚СЃСЊРєРёР№ РјРѕРґ, СЏРєРёР№ РјРѕР¶Рµ РІРёРєР»РёРєР°С‚Рё РїСЂРѕР±Р»РµРјРё РїС–Рґ С‡Р°СЃ Р·Р°РїСѓСЃРєСѓ СЃРµСЂРІРµСЂР°"
+  },
+  "label.client-retained-warning": {
+    "defaultMessage": "Р¦Рµ РєР»С–С”РЅС‚СЃСЊРєРёР№ РјРѕРґ, СЏРєРёР№ Р±СѓРІ РІСЃС‚Р°РЅРѕРІР»РµРЅРёР№ СЏРє Р·Р°Р»РµР¶РЅС–СЃС‚СЊ С– РјРѕР¶Рµ СЃРїСЂРёС‡РёРЅРёС‚Рё РїСЂРѕР±Р»РµРјРё РїС–Рґ С‡Р°СЃ Р·Р°РїСѓСЃРєСѓ СЃРµСЂРІРµСЂР°"
   },
   "label.collections": {
-    "defaultMessage": "Добірки"
+    "defaultMessage": "Р”РѕР±С–СЂРєРё"
   },
   "label.confirm-password": {
-    "defaultMessage": "Підтвердження пароля"
+    "defaultMessage": "РџС–РґС‚РІРµСЂРґР¶РµРЅРЅСЏ РїР°СЂРѕР»СЏ"
   },
   "label.content": {
-    "defaultMessage": "Уміст"
+    "defaultMessage": "РЈРјС–СЃС‚"
+  },
+  "label.copied-filename": {
+    "defaultMessage": "РЎРєРѕРїС–Р№РѕРІР°РЅРѕ РЅР°Р·РІСѓ С„Р°Р№Р»Сѓ"
+  },
+  "label.copied-path": {
+    "defaultMessage": "РЎРєРѕРїС–Р№РѕРІР°РЅРѕ С€Р»СЏС…"
+  },
+  "label.create-failed": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ СЃС‚РІРѕСЂРёС‚Рё"
   },
   "label.created-ago": {
-    "defaultMessage": "Створено {ago}"
+    "defaultMessage": "РЎС‚РІРѕСЂРµРЅРѕ {ago}"
   },
   "label.dashboard": {
-    "defaultMessage": "Панель керування"
+    "defaultMessage": "РџР°РЅРµР»СЊ РєРµСЂСѓРІР°РЅРЅСЏ"
   },
   "label.delete": {
-    "defaultMessage": "Видалити"
+    "defaultMessage": "Р’РёРґР°Р»РёС‚Рё"
+  },
+  "label.delete-failed": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РІРёРґР°Р»РёС‚Рё"
+  },
+  "label.delete-immediately": {
+    "defaultMessage": "Р’РёРґР°Р»РёС‚Рё РЅРµРіР°Р№РЅРѕ"
   },
   "label.description": {
-    "defaultMessage": "Опис"
+    "defaultMessage": "РћРїРёСЃ"
   },
   "label.details": {
-    "defaultMessage": "Деталі"
+    "defaultMessage": "Р”РµС‚Р°Р»С–"
+  },
+  "label.done": {
+    "defaultMessage": "Р“РѕС‚РѕРІРѕ"
+  },
+  "label.download-failed": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ Р·Р°РІР°РЅС‚Р°Р¶РёС‚Рё"
   },
   "label.email": {
-    "defaultMessage": "Електронна пошта"
+    "defaultMessage": "Р•Р»РµРєС‚СЂРѕРЅРЅР° РїРѕС€С‚Р°"
   },
   "label.email-username": {
-    "defaultMessage": "Ел. пошта або ім’я користувача"
+    "defaultMessage": "Р•Р». РїРѕС€С‚Р° Р°Р±Рѕ С–РјвЂ™СЏ РєРѕСЂРёСЃС‚СѓРІР°С‡Р°"
   },
   "label.error": {
-    "defaultMessage": "Помилка"
+    "defaultMessage": "РџРѕРјРёР»РєР°"
+  },
+  "label.extract-failed": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РІРёРґРѕР±СѓС‚Рё"
   },
   "label.filter-by": {
-    "defaultMessage": "Фільтрувати за"
+    "defaultMessage": "Р¤С–Р»СЊС‚СЂСѓРІР°С‚Рё Р·Р°"
   },
   "label.followed-projects": {
-    "defaultMessage": "Відстежуванні проєкти"
+    "defaultMessage": "Р’С–РґСЃС‚РµР¶СѓРІР°РЅРЅС– РїСЂРѕС”РєС‚Рё"
+  },
+  "label.game-version": {
+    "defaultMessage": "Р’РµСЂСЃС–СЏ РіСЂРё"
+  },
+  "label.installation-info": {
+    "defaultMessage": "Р†РЅС„РѕСЂРјР°С†С–СЏ РїСЂРѕ С–РЅСЃС‚Р°Р»СЏС†С–СЋ"
+  },
+  "label.installed-modpack": {
+    "defaultMessage": "РЈСЃС‚Р°РЅРѕРІР»РµРЅР° Р·Р±С–СЂРєР°"
+  },
+  "label.installing": {
+    "defaultMessage": "РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏвЂ¦"
   },
   "label.loading": {
-    "defaultMessage": "Завантаження…"
+    "defaultMessage": "Р—Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏвЂ¦"
   },
   "label.moderation": {
-    "defaultMessage": "Модерація"
+    "defaultMessage": "РњРѕРґРµСЂР°С†С–СЏ"
+  },
+  "label.modpack": {
+    "defaultMessage": "Р—Р±С–СЂРєР°"
+  },
+  "label.move-failed": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РїРµСЂРµРјС–СЃС‚РёС‚Рё"
   },
   "label.no": {
-    "defaultMessage": "Ні"
+    "defaultMessage": "РќС–"
   },
   "label.no-items": {
-    "defaultMessage": "Нічого немає"
+    "defaultMessage": "РќС–С‡РѕРіРѕ РЅРµРјР°С”"
   },
   "label.notifications": {
-    "defaultMessage": "Сповіщення"
+    "defaultMessage": "РЎРїРѕРІС–С‰РµРЅРЅСЏ"
   },
   "label.or": {
-    "defaultMessage": "або"
+    "defaultMessage": "Р°Р±Рѕ"
   },
   "label.password": {
-    "defaultMessage": "Пароль"
+    "defaultMessage": "РџР°СЂРѕР»СЊ"
+  },
+  "label.plan-custom": {
+    "defaultMessage": "Р’Р»Р°СЃРЅРёР№"
+  },
+  "label.plan-large": {
+    "defaultMessage": "Р’РµР»РёРєРёР№"
+  },
+  "label.plan-medium": {
+    "defaultMessage": "РЎРµСЂРµРґРЅС–Р№"
+  },
+  "label.plan-small": {
+    "defaultMessage": "РњР°Р»РёР№"
+  },
+  "label.plan-unknown": {
+    "defaultMessage": "РќРµРІС–РґРѕРјРёР№"
+  },
+  "label.platform": {
+    "defaultMessage": "РџР»Р°С‚С„РѕСЂРјР°"
   },
   "label.played": {
-    "defaultMessage": "Зіграно {time}"
+    "defaultMessage": "Р—С–РіСЂР°РЅРѕ {ago}"
   },
   "label.project": {
-    "defaultMessage": "Проєкт"
+    "defaultMessage": "РџСЂРѕС”РєС‚"
   },
   "label.public": {
-    "defaultMessage": "Публічна"
+    "defaultMessage": "РџСѓР±Р»С–С‡РЅР°"
   },
   "label.rejected": {
-    "defaultMessage": "Відхилено"
+    "defaultMessage": "Р’С–РґС…РёР»РµРЅРѕ"
+  },
+  "label.rename-failed": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РїРµСЂРµР№РјРµРЅСѓРІР°С‚Рё"
   },
   "label.rewards-program-terms-agreement": {
-    "defaultMessage": "Я погоджуюся з <terms-link>Умовами програми винагород</terms-link>"
+    "defaultMessage": "РЇ РїРѕРіРѕРґР¶СѓСЋСЃСЏ Р· <terms-link>РЈРјРѕРІР°РјРё РїСЂРѕРіСЂР°РјРё РІРёРЅР°РіРѕСЂРѕРґ</terms-link>"
   },
   "label.saved": {
-    "defaultMessage": "Збережено"
+    "defaultMessage": "Р—Р±РµСЂРµР¶РµРЅРѕ"
   },
   "label.scopes": {
-    "defaultMessage": "Цілі"
+    "defaultMessage": "Р¦С–Р»С–"
   },
   "label.search": {
-    "defaultMessage": "Пошук"
+    "defaultMessage": "РџРѕС€СѓРє"
+  },
+  "label.select-all": {
+    "defaultMessage": "Р’РёР±СЂР°С‚Рё РІСЃРµ"
+  },
+  "label.selection-actions": {
+    "defaultMessage": "Р”С–С— Р· РІРёР±СЂР°РЅРёРј"
   },
   "label.server": {
-    "defaultMessage": "Сервер"
+    "defaultMessage": "РЎРµСЂРІРµСЂ"
   },
   "label.servers": {
-    "defaultMessage": "Сервери"
+    "defaultMessage": "РЎРµСЂРІРµСЂРё"
   },
   "label.settings": {
-    "defaultMessage": "Налаштування"
+    "defaultMessage": "РќР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ"
   },
   "label.singleplayer": {
-    "defaultMessage": "Гра наодинці"
+    "defaultMessage": "Р“СЂР° РЅР°РѕРґРёРЅС†С–"
   },
   "label.sort-by": {
-    "defaultMessage": "Сортувати за"
+    "defaultMessage": "РЎРѕСЂС‚СѓРІР°С‚Рё Р·Р°: "
   },
   "label.success": {
-    "defaultMessage": "Успіх"
+    "defaultMessage": "РЈСЃРїС–С…"
   },
   "label.title": {
-    "defaultMessage": "Заголовок"
+    "defaultMessage": "Р—Р°РіРѕР»РѕРІРѕРє"
+  },
+  "label.unknown": {
+    "defaultMessage": "РќРµРІС–РґРѕРјРѕ"
   },
   "label.unlisted": {
-    "defaultMessage": "Прихований"
+    "defaultMessage": "РџСЂРёС…РѕРІР°РЅРёР№"
   },
   "label.update-available": {
-    "defaultMessage": "Доступне оновлення"
+    "defaultMessage": "Р”РѕСЃС‚СѓРїРЅРµ РѕРЅРѕРІР»РµРЅРЅСЏ"
+  },
+  "label.updating": {
+    "defaultMessage": "РћРЅРѕРІР»РµРЅРЅСЏвЂ¦"
+  },
+  "label.upload-failed": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РІРёРІР°РЅС‚Р°Р¶РёС‚Рё"
   },
   "label.username": {
-    "defaultMessage": "Ім’я користувача"
+    "defaultMessage": "Р†РјвЂ™СЏ РєРѕСЂРёСЃС‚СѓРІР°С‡Р°"
   },
   "label.version": {
-    "defaultMessage": "Версія"
+    "defaultMessage": "Р’РµСЂСЃС–СЏ"
   },
   "label.visibility": {
-    "defaultMessage": "Видимість"
+    "defaultMessage": "Р’РёРґРёРјС–СЃС‚СЊ"
   },
   "label.visit-your-profile": {
-    "defaultMessage": "Відвідати профіль"
+    "defaultMessage": "Р’С–РґРІС–РґР°С‚Рё РїСЂРѕС„С–Р»СЊ"
   },
   "label.yes": {
-    "defaultMessage": "Так"
+    "defaultMessage": "РўР°Рє"
+  },
+  "locale.cs-CZ": {
+    "defaultMessage": "Р§РµСЃСЊРєР°"
+  },
+  "locale.da-DK": {
+    "defaultMessage": "Р”Р°РЅСЃСЊРєР°"
+  },
+  "locale.de-CH": {
+    "defaultMessage": "РќС–РјРµС†СЊРєР° (РЁРІРµР№С†Р°СЂС–СЏ)"
+  },
+  "locale.de-DE": {
+    "defaultMessage": "РќС–РјРµС†СЊРєР° (РќС–РјРµС‡С‡РёРЅР°)"
+  },
+  "locale.en-US": {
+    "defaultMessage": "РђРЅРіР»С–Р№СЃСЊРєР° (РЎРЁРђ)"
+  },
+  "locale.es-419": {
+    "defaultMessage": "Р†СЃРїР°РЅСЃСЊРєР° (Р›Р°С‚РёРЅСЃСЊРєР° РђРјРµСЂРёРєР°)"
+  },
+  "locale.es-ES": {
+    "defaultMessage": "Р†СЃРїР°РЅСЃСЊРєР° (Р†СЃРїР°РЅС–СЏ)"
+  },
+  "locale.fi-FI": {
+    "defaultMessage": "Р¤С–РЅСЃСЊРєР°"
+  },
+  "locale.fil-PH": {
+    "defaultMessage": "Р¤С–Р»С–РїРїС–РЅСЃСЊРєР°"
+  },
+  "locale.fr-FR": {
+    "defaultMessage": "Р¤СЂР°РЅС†СѓР·СЊРєР°"
+  },
+  "locale.he-IL": {
+    "defaultMessage": "Р†РІСЂРёС‚"
+  },
+  "locale.hu-HU": {
+    "defaultMessage": "РЈРіРѕСЂСЃСЊРєР°"
+  },
+  "locale.id-ID": {
+    "defaultMessage": "Р†РЅРґРѕРЅРµР·С–Р№СЃСЊРєР°"
+  },
+  "locale.it-IT": {
+    "defaultMessage": "Р†С‚Р°Р»С–Р№СЃСЊРєР° (Р†С‚Р°Р»С–СЏ)"
+  },
+  "locale.ja-JP": {
+    "defaultMessage": "РЇРїРѕРЅСЃСЊРєР°"
+  },
+  "locale.ko-KR": {
+    "defaultMessage": "РљРѕСЂРµР№СЃСЊРєР°"
+  },
+  "locale.ms-MY": {
+    "defaultMessage": "РњР°Р»Р°Р№СЃСЊРєР°"
+  },
+  "locale.nl-NL": {
+    "defaultMessage": "РќС–РґРµСЂР»Р°РЅРґСЃСЊРєР°"
+  },
+  "locale.no-NO": {
+    "defaultMessage": "РќРѕСЂРІРµР·СЊРєР° (Р±СѓРєРјРѕР»)"
+  },
+  "locale.pl-PL": {
+    "defaultMessage": "РџРѕР»СЊСЃСЊРєР°"
+  },
+  "locale.pt-BR": {
+    "defaultMessage": "РџРѕСЂС‚СѓРіР°Р»СЊСЃСЊРєР° (Р‘СЂР°Р·РёР»С–СЏ)"
+  },
+  "locale.pt-PT": {
+    "defaultMessage": "РџРѕСЂС‚СѓРіР°Р»СЊСЃСЊРєР° (РџРѕСЂС‚СѓРіР°Р»С–СЏ)"
+  },
+  "locale.ro-RO": {
+    "defaultMessage": "Р СѓРјСѓРЅСЃСЊРєР°"
+  },
+  "locale.ru-RU": {
+    "defaultMessage": "Р РѕСЃС–Р№СЃСЊРєР°"
+  },
+  "locale.sr-CS": {
+    "defaultMessage": "РЎРµСЂР±СЃСЊРєР° (Р»Р°С‚РёРЅРёС†СЏ)"
+  },
+  "locale.sv-SE": {
+    "defaultMessage": "РЁРІРµРґСЃСЊРєР°"
+  },
+  "locale.th-TH": {
+    "defaultMessage": "РўР°Р№СЃСЊРєР°"
+  },
+  "locale.tr-TR": {
+    "defaultMessage": "РўСѓСЂРµС†СЊРєР°"
+  },
+  "locale.uk-UA": {
+    "defaultMessage": "РЈРєСЂР°С—РЅСЃСЊРєР°"
+  },
+  "locale.vi-VN": {
+    "defaultMessage": "Р’КјС”С‚РЅР°РјСЃСЊРєР°"
+  },
+  "locale.zh-CN": {
+    "defaultMessage": "РљРёС‚Р°Р№СЃСЊРєР° (СЃРїСЂРѕС‰РµРЅР°)"
+  },
+  "locale.zh-TW": {
+    "defaultMessage": "РљРёС‚Р°Р№СЃСЊРєР° (С‚СЂР°РґРёС†С–Р№РЅР°)"
   },
   "modal.add-payment-method.action": {
-    "defaultMessage": "Додати спосіб оплати"
+    "defaultMessage": "Р”РѕРґР°С‚Рё СЃРїРѕСЃС–Р± РѕРїР»Р°С‚Рё"
   },
   "modal.add-payment-method.title": {
-    "defaultMessage": "Додавання способу оплати"
+    "defaultMessage": "Р”РѕРґР°РІР°РЅРЅСЏ СЃРїРѕСЃРѕР±Сѓ РѕРїР»Р°С‚Рё"
+  },
+  "modal.open-in-app.benefit.install": {
+    "defaultMessage": "РђРІС‚РѕРјР°С‚РёС‡РЅРѕ РІСЃС‚Р°РЅРѕРІР»СЋС”С‚СЊСЃСЏ РїРѕС‚СЂС–Р±РЅРёР№ СѓРјС–СЃС‚"
+  },
+  "modal.open-in-app.benefit.launch": {
+    "defaultMessage": "Р—Р°РїСѓСЃРє РіСЂРё Р· РїС–РґРєР»СЋС‡РµРЅРЅСЏРј РґРѕ СЃРµСЂРІРµСЂР°"
+  },
+  "modal.open-in-app.benefit.update": {
+    "defaultMessage": "Р—Р±РµСЂС–РіР°РЅРЅСЏ С„Р°Р№Р»С–РІ РѕРЅРѕРІР»РµРЅРёРјРё, РїРѕРїСЂРё Р·РјС–РЅРё СЃРµСЂРІРµСЂР°"
+  },
+  "modal.open-in-app.get-app": {
+    "defaultMessage": "РћС‚СЂРёРјР°С‚Рё Mist Launcher"
+  },
+  "modal.open-in-app.opening-automatically": {
+    "defaultMessage": "Mist Launcher РІС–РґРєСЂРёС”С‚СЊСЃСЏ Р°РІС‚РѕРјР°С‚РёС‡РЅРѕвЂ¦"
+  },
+  "modal.open-in-app.title": {
+    "defaultMessage": "Р’С–РґРєСЂРёС‚С‚СЏ Mist Launcher"
+  },
+  "modal.open-in-app.why-use": {
+    "defaultMessage": "РќР°РІС–С‰Рѕ РІРёРєРѕСЂРёСЃС‚РѕРІСѓРІР°С‚Рё Mist Launcher"
   },
   "notification.error.title": {
-    "defaultMessage": "Виникла помилка"
+    "defaultMessage": "Р’РёРЅРёРєР»Р° РїРѕРјРёР»РєР°"
   },
   "omorphia.component.badge.label.accepted": {
-    "defaultMessage": "Прийнято"
+    "defaultMessage": "РџСЂРёР№РЅСЏС‚Рѕ"
   },
   "omorphia.component.badge.label.approved": {
-    "defaultMessage": "Затверджено"
+    "defaultMessage": "Р—Р°С‚РІРµСЂРґР¶РµРЅРѕ"
   },
   "omorphia.component.badge.label.archived": {
-    "defaultMessage": "Архівовано"
+    "defaultMessage": "РђСЂС…С–РІРѕРІР°РЅРѕ"
   },
   "omorphia.component.badge.label.closed": {
-    "defaultMessage": "Закрито"
+    "defaultMessage": "Р—Р°РєСЂРёС‚Рѕ"
   },
   "omorphia.component.badge.label.creator": {
-    "defaultMessage": "Автор"
+    "defaultMessage": "РђРІС‚РѕСЂ"
   },
   "omorphia.component.badge.label.draft": {
-    "defaultMessage": "Чернетка"
+    "defaultMessage": "Р§РµСЂРЅРµС‚РєР°"
   },
   "omorphia.component.badge.label.failed": {
-    "defaultMessage": "Невдало"
+    "defaultMessage": "РќРµРІРґР°Р»Рѕ"
   },
   "omorphia.component.badge.label.listed": {
-    "defaultMessage": "У списку"
+    "defaultMessage": "РЈ СЃРїРёСЃРєСѓ"
   },
   "omorphia.component.badge.label.moderator": {
-    "defaultMessage": "Модератор"
+    "defaultMessage": "РњРѕРґРµСЂР°С‚РѕСЂ"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Команда Modrinth"
+    "defaultMessage": "РљРѕРјР°РЅРґР° Modrinth"
   },
   "omorphia.component.badge.label.pending": {
-    "defaultMessage": "На розгляді"
+    "defaultMessage": "РќР° СЂРѕР·РіР»СЏРґС–"
   },
   "omorphia.component.badge.label.private": {
-    "defaultMessage": "Приватно"
+    "defaultMessage": "РџСЂРёРІР°С‚РЅРѕ"
   },
   "omorphia.component.badge.label.processed": {
-    "defaultMessage": "Оброблено"
+    "defaultMessage": "РћР±СЂРѕР±Р»РµРЅРѕ"
   },
   "omorphia.component.badge.label.rejected": {
-    "defaultMessage": "Відхилено"
+    "defaultMessage": "Р’С–РґС…РёР»РµРЅРѕ"
   },
   "omorphia.component.badge.label.returned": {
-    "defaultMessage": "Повернено"
+    "defaultMessage": "РџРѕРІРµСЂРЅРµРЅРѕ"
   },
   "omorphia.component.badge.label.safe": {
-    "defaultMessage": "Успіх"
+    "defaultMessage": "РџСЂРѕР№РґРµРЅРѕ"
   },
   "omorphia.component.badge.label.scheduled": {
-    "defaultMessage": "Заплановано"
+    "defaultMessage": "Р—Р°РїР»Р°РЅРѕРІР°РЅРѕ"
   },
   "omorphia.component.badge.label.under-review": {
-    "defaultMessage": "На розгляді"
+    "defaultMessage": "РќР° СЂРѕР·РіР»СЏРґС–"
   },
   "omorphia.component.badge.label.unlisted": {
-    "defaultMessage": "Поза списком"
+    "defaultMessage": "РџРѕР·Р° СЃРїРёСЃРєРѕРј"
   },
   "omorphia.component.badge.label.unsafe": {
-    "defaultMessage": "Невдача"
+    "defaultMessage": "РќРµРІРґР°С‡Р°"
   },
   "omorphia.component.badge.label.withheld": {
-    "defaultMessage": "Утримується"
+    "defaultMessage": "РЈС‚СЂРёРјСѓС”С‚СЊСЃСЏ"
   },
   "omorphia.component.copy.action.copy": {
-    "defaultMessage": "Скопіювати код у буфер обміну"
+    "defaultMessage": "РЎРєРѕРїС–СЋРІР°С‚Рё РєРѕРґ Сѓ Р±СѓС„РµСЂ РѕР±РјС–РЅСѓ"
   },
   "omorphia.component.environment-indicator.label.client": {
-    "defaultMessage": "Клієнт"
+    "defaultMessage": "РљР»С–С”РЅС‚"
   },
   "omorphia.component.environment-indicator.label.client-and-server": {
-    "defaultMessage": "Клієнт і сервер"
+    "defaultMessage": "РљР»С–С”РЅС‚ С‚Р° СЃРµСЂРІРµСЂ"
   },
   "omorphia.component.environment-indicator.label.client-or-server": {
-    "defaultMessage": "Клієнт чи сервер"
+    "defaultMessage": "РљР»С–С”РЅС‚ С‡Рё СЃРµСЂРІРµСЂ"
   },
   "omorphia.component.environment-indicator.label.server": {
-    "defaultMessage": "Сервер"
+    "defaultMessage": "РЎРµСЂРІРµСЂ"
   },
   "omorphia.component.environment-indicator.label.type": {
     "defaultMessage": "{type}"
   },
   "omorphia.component.environment-indicator.label.unsupported": {
-    "defaultMessage": "Не підтримується"
+    "defaultMessage": "РќРµ РїС–РґС‚СЂРёРјСѓС”С‚СЊСЃСЏ"
   },
   "payment-method.amazon_pay": {
     "defaultMessage": "Amazon Pay"
@@ -594,16 +1782,16 @@
     "defaultMessage": "American Express"
   },
   "payment-method.card_display": {
-    "defaultMessage": "{card_brand}, що закінчується на {last_four}"
+    "defaultMessage": "{card_brand}, С‰Рѕ Р·Р°РєС–РЅС‡СѓС”С‚СЊСЃСЏ РЅР° {last_four}"
   },
   "payment-method.cashapp": {
     "defaultMessage": "Cash App"
   },
   "payment-method.charity": {
-    "defaultMessage": "Благодійність"
+    "defaultMessage": "Р‘Р»Р°РіРѕРґС–Р№РЅС–СЃС‚СЊ"
   },
   "payment-method.charity-plural": {
-    "defaultMessage": "Благодійність"
+    "defaultMessage": "Р‘Р»Р°РіРѕРґС–Р№РЅС–СЃС‚СЊ"
   },
   "payment-method.diners": {
     "defaultMessage": "Diners Club"
@@ -615,10 +1803,10 @@
     "defaultMessage": "EFTPOS"
   },
   "payment-method.gift-card": {
-    "defaultMessage": "Подарункова карта"
+    "defaultMessage": "РџРѕРґР°СЂСѓРЅРєРѕРІР° РєР°СЂС‚Р°"
   },
   "payment-method.gift-card-plural": {
-    "defaultMessage": "Подарункові карти"
+    "defaultMessage": "РџРѕРґР°СЂСѓРЅРєРѕРІС– РєР°СЂС‚Рё"
   },
   "payment-method.jcb": {
     "defaultMessage": "JCB"
@@ -636,385 +1824,709 @@
     "defaultMessage": "UnionPay"
   },
   "payment-method.unknown": {
-    "defaultMessage": "Невідомий спосіб оплати"
+    "defaultMessage": "РќРµРІС–РґРѕРјРёР№ СЃРїРѕСЃС–Р± РѕРїР»Р°С‚Рё"
   },
   "payment-method.venmo": {
     "defaultMessage": "Venmo"
   },
   "payment-method.virtual-visa": {
-    "defaultMessage": "Віртуальна карта Visa"
+    "defaultMessage": "Р’С–СЂС‚СѓР°Р»СЊРЅР° РєР°СЂС‚Р° Visa"
   },
   "payment-method.virtual-visa-plural": {
-    "defaultMessage": "Віртуальні карти Visa"
+    "defaultMessage": "Р’С–СЂС‚СѓР°Р»СЊРЅС– РєР°СЂС‚Рё Visa"
   },
   "payment-method.visa": {
     "defaultMessage": "Visa"
   },
+  "project-card.date.published.tooltip": {
+    "defaultMessage": "РћРїСѓР±Р»С–РєРѕРІР°РЅРѕ {date}"
+  },
+  "project-card.date.updated.tooltip": {
+    "defaultMessage": "РћРЅРѕРІР»РµРЅРѕ {date}"
+  },
   "project-card.environment.client": {
-    "defaultMessage": "Клієнт"
+    "defaultMessage": "РљР»С–С”РЅС‚"
   },
   "project-card.environment.client-and-server": {
-    "defaultMessage": "Клієнт та сервер"
+    "defaultMessage": "РљР»С–С”РЅС‚ С‚Р° СЃРµСЂРІРµСЂ"
   },
   "project-card.environment.client-or-server": {
-    "defaultMessage": "Клієнт чи сервер"
+    "defaultMessage": "РљР»С–С”РЅС‚ С‡Рё СЃРµСЂРІРµСЂ"
   },
   "project-card.environment.server": {
-    "defaultMessage": "Сервер"
+    "defaultMessage": "РЎРµСЂРІРµСЂ"
   },
   "project-type.all": {
-    "defaultMessage": "Усі"
+    "defaultMessage": "РЈСЃС–"
   },
   "project-type.datapack.capital": {
-    "defaultMessage": "{count, plural, one {Пакет даних} few {Пакети даних} many {Пакетів даних} other {Пакетів даних}}"
+    "defaultMessage": "{count, plural, one {РџР°РєРµС‚ РґР°РЅРёС…} few {РџР°РєРµС‚Рё РґР°РЅРёС…} many {РџР°РєРµС‚С–РІ РґР°РЅРёС…} other {РџР°РєРµС‚С–РІ РґР°РЅРёС…}}"
   },
   "project-type.datapack.category": {
-    "defaultMessage": "Пакети даних"
+    "defaultMessage": "РџР°РєРµС‚Рё РґР°РЅРёС…"
   },
   "project-type.datapack.lowercase": {
-    "defaultMessage": "{count, plural, one {пакет даних} few {пакети даних} many {пакетів даних} other {пакетів даних}}"
+    "defaultMessage": "{count, plural, one {РїР°РєРµС‚ РґР°РЅРёС…} few {РїР°РєРµС‚Рё РґР°РЅРёС…} many {РїР°РєРµС‚С–РІ РґР°РЅРёС…} other {РїР°РєРµС‚С–РІ РґР°РЅРёС…}}"
   },
   "project-type.mod.capital": {
-    "defaultMessage": "{count, plural, one {Мод} few {Мода} many {Модів} other {Модів}}"
+    "defaultMessage": "{count, plural, one {РњРѕРґ} few {РњРѕРґР°} many {РњРѕРґС–РІ} other {РњРѕРґС–РІ}}"
   },
   "project-type.mod.category": {
-    "defaultMessage": "Моди"
+    "defaultMessage": "РњРѕРґРё"
   },
   "project-type.mod.lowercase": {
-    "defaultMessage": "{count, plural, one {мод} few {мода} many {модів} other {модів}}"
+    "defaultMessage": "{count, plural, one {РјРѕРґ} few {РјРѕРґР°} many {РјРѕРґС–РІ} other {РјРѕРґС–РІ}}"
   },
   "project-type.modpack.capital": {
-    "defaultMessage": "{count, plural, one {Збірка} few {Збірки} other {Збірок}}"
+    "defaultMessage": "{count, plural, one {Р—Р±С–СЂРєР°} few {Р—Р±С–СЂРєРё} other {Р—Р±С–СЂРѕРє}}"
   },
   "project-type.modpack.category": {
-    "defaultMessage": "Збірки"
+    "defaultMessage": "Р—Р±С–СЂРєРё"
   },
   "project-type.modpack.lowercase": {
-    "defaultMessage": "{count, plural, one {збірка} few {збірки} other {збірок}}"
+    "defaultMessage": "{count, plural, one {Р·Р±С–СЂРєР°} few {Р·Р±С–СЂРєРё} other {Р·Р±С–СЂРѕРє}}"
   },
   "project-type.plugin.capital": {
-    "defaultMessage": "{count, plural, one {Плаґін} few {Плаґіни} many {Плаґінів} other {Плаґінів}}"
+    "defaultMessage": "{count, plural, one {РџР»Р°Т‘С–РЅ} few {РџР»Р°Т‘С–РЅРё} many {РџР»Р°Т‘С–РЅС–РІ} other {РџР»Р°Т‘С–РЅС–РІ}}"
   },
   "project-type.plugin.category": {
-    "defaultMessage": "Плаґіни"
+    "defaultMessage": "РџР»Р°Т‘С–РЅРё"
   },
   "project-type.plugin.lowercase": {
-    "defaultMessage": "{count, plural, one {плаґін} few {плаґіни} many {плаґінів} other {плаґінів}}"
+    "defaultMessage": "{count, plural, one {РїР»Р°Т‘С–РЅ} few {РїР»Р°Т‘С–РЅРё} many {РїР»Р°Т‘С–РЅС–РІ} other {РїР»Р°Т‘С–РЅС–РІ}}"
   },
   "project-type.project.capital": {
-    "defaultMessage": "{count, plural, one {Проєкт} few {Проєкти} other {Проєктів}}"
+    "defaultMessage": "{count, plural, one {РџСЂРѕС”РєС‚} few {РџСЂРѕС”РєС‚Рё} other {РџСЂРѕС”РєС‚С–РІ}}"
   },
   "project-type.project.category": {
-    "defaultMessage": "Проєкти"
+    "defaultMessage": "РџСЂРѕС”РєС‚Рё"
   },
   "project-type.project.lowercase": {
-    "defaultMessage": "{count, plural, one {проєкт} few {проєкти} many {проєктів} other {проєктів}}"
+    "defaultMessage": "{count, plural, one {РїСЂРѕС”РєС‚} few {РїСЂРѕС”РєС‚Рё} many {РїСЂРѕС”РєС‚С–РІ} other {РїСЂРѕС”РєС‚С–РІ}}"
   },
   "project-type.resourcepack.capital": {
-    "defaultMessage": "{count, plural, one {Пакет ресурсів} few {Пакети ресурсів} many {Пакетів ресурсів} other {Пакетів ресурсів}}"
+    "defaultMessage": "{count, plural, one {РџР°РєРµС‚ СЂРµСЃСѓСЂСЃС–РІ} few {РџР°РєРµС‚Рё СЂРµСЃСѓСЂСЃС–РІ} many {РџР°РєРµС‚С–РІ СЂРµСЃСѓСЂСЃС–РІ} other {РџР°РєРµС‚С–РІ СЂРµСЃСѓСЂСЃС–РІ}}"
   },
   "project-type.resourcepack.category": {
-    "defaultMessage": "Пакети ресурсів"
+    "defaultMessage": "РџР°РєРµС‚Рё СЂРµСЃСѓСЂСЃС–РІ"
   },
   "project-type.resourcepack.lowercase": {
-    "defaultMessage": "{count, plural, one {пакет ресурсів} few {пакети ресурсів} many {пакетів ресурсів} other {пакетів ресурсів}}"
+    "defaultMessage": "{count, plural, one {РїР°РєРµС‚ СЂРµСЃСѓСЂСЃС–РІ} few {РїР°РєРµС‚Рё СЂРµСЃСѓСЂСЃС–РІ} many {РїР°РєРµС‚С–РІ СЂРµСЃСѓСЂСЃС–РІ} other {РїР°РєРµС‚С–РІ СЂРµСЃСѓСЂСЃС–РІ}}"
   },
   "project-type.server.capital": {
-    "defaultMessage": "{count, plural, one {Сервер} few {Сервери} many {Серверів} other {Серверів}}"
+    "defaultMessage": "{count, plural, one {РЎРµСЂРІРµСЂ} few {РЎРµСЂРІРµСЂРё} many {РЎРµСЂРІРµСЂС–РІ} other {РЎРµСЂРІРµСЂС–РІ}}"
   },
   "project-type.server.category": {
-    "defaultMessage": "Сервери"
+    "defaultMessage": "РЎРµСЂРІРµСЂРё"
   },
   "project-type.server.lowercase": {
-    "defaultMessage": "{count, plural, one {сервер} few {сервери} many {серверів} other {серверів}}"
+    "defaultMessage": "{count, plural, one {СЃРµСЂРІРµСЂ} few {СЃРµСЂРІРµСЂРё} many {СЃРµСЂРІРµСЂС–РІ} other {СЃРµСЂРІРµСЂС–РІ}}"
   },
   "project-type.shader.capital": {
-    "defaultMessage": "{count, plural, one {Шейдер} few {Шейдери} other {Шейдерів}}"
+    "defaultMessage": "{count, plural, one {РЁРµР№РґРµСЂ} few {РЁРµР№РґРµСЂРё} other {РЁРµР№РґРµСЂС–РІ}}"
   },
   "project-type.shader.category": {
-    "defaultMessage": "Шейдери"
+    "defaultMessage": "РЁРµР№РґРµСЂРё"
   },
   "project-type.shader.lowercase": {
-    "defaultMessage": "{count, plural, one {шейдер} few {шейдери} other {шейдерів}}"
+    "defaultMessage": "{count, plural, one {С€РµР№РґРµСЂ} few {С€РµР№РґРµСЂРё} other {С€РµР№РґРµСЂС–РІ}}"
   },
   "project.about.compatibility.environments": {
-    "defaultMessage": "Підтримувані середовища"
+    "defaultMessage": "РџС–РґС‚СЂРёРјСѓРІР°РЅС– СЃРµСЂРµРґРѕРІРёС‰Р°"
   },
   "project.about.compatibility.environments.client-and-server": {
-    "defaultMessage": "Клієнт та сервер"
+    "defaultMessage": "РљР»С–С”РЅС‚ С‚Р° СЃРµСЂРІРµСЂ"
   },
   "project.about.compatibility.environments.client-side": {
-    "defaultMessage": "Клієнт"
+    "defaultMessage": "РљР»С–С”РЅС‚"
   },
   "project.about.compatibility.environments.dedicated-servers-only": {
-    "defaultMessage": "Лише виділені сервери"
+    "defaultMessage": "Р›РёС€Рµ РІРёРґС–Р»РµРЅС– СЃРµСЂРІРµСЂРё"
   },
   "project.about.compatibility.environments.server-side": {
-    "defaultMessage": "Сервер"
+    "defaultMessage": "РЎРµСЂРІРµСЂ"
   },
   "project.about.compatibility.environments.singleplayer": {
-    "defaultMessage": "Гра наодинці"
+    "defaultMessage": "Р“СЂР° РЅР°РѕРґРёРЅС†С–"
   },
   "project.about.compatibility.environments.singleplayer-only": {
-    "defaultMessage": "Лише гра наодинці"
+    "defaultMessage": "Р›РёС€Рµ РіСЂР° РЅР°РѕРґРёРЅС†С–"
   },
   "project.about.compatibility.game.minecraftJava": {
     "defaultMessage": "Minecraft: Java Edition"
   },
   "project.about.compatibility.platforms": {
-    "defaultMessage": "Платформи"
+    "defaultMessage": "РџР»Р°С‚С„РѕСЂРјРё"
   },
   "project.about.compatibility.title": {
-    "defaultMessage": "Сумісність"
+    "defaultMessage": "РЎСѓРјС–СЃРЅС–СЃС‚СЊ"
+  },
+  "project.about.creators.organization": {
+    "defaultMessage": "РћСЂРіР°РЅС–Р·Р°С†С–СЏ"
   },
   "project.about.creators.owner": {
-    "defaultMessage": "Власник проєкту"
+    "defaultMessage": "Р’Р»Р°СЃРЅРёРє РїСЂРѕС”РєС‚Сѓ"
   },
   "project.about.creators.title": {
-    "defaultMessage": "Автори"
+    "defaultMessage": "РђРІС‚РѕСЂРё"
   },
   "project.about.details.created": {
-    "defaultMessage": "Створено {date}"
+    "defaultMessage": "РЎС‚РІРѕСЂРµРЅРѕ {date}"
   },
   "project.about.details.licensed": {
-    "defaultMessage": "Ліцензія «{license}»"
+    "defaultMessage": "Р›С–С†РµРЅР·С–СЏ В«{license}В»"
   },
   "project.about.details.published": {
-    "defaultMessage": "Опубліковано {date}"
+    "defaultMessage": "РћРїСѓР±Р»С–РєРѕРІР°РЅРѕ {date}"
   },
   "project.about.details.submitted": {
-    "defaultMessage": "Надіслано {date}"
+    "defaultMessage": "РќР°РґС–СЃР»Р°РЅРѕ {date}"
   },
   "project.about.details.updated": {
-    "defaultMessage": "Оновлено {date}"
+    "defaultMessage": "РћРЅРѕРІР»РµРЅРѕ {date}"
   },
   "project.about.links.discord": {
-    "defaultMessage": "Приєднатися до Discord"
+    "defaultMessage": "РџСЂРёС”РґРЅР°С‚РёСЃСЏ РґРѕ Discord"
   },
   "project.about.links.donate.bmac": {
     "defaultMessage": "Buy Me a Coffee"
   },
   "project.about.links.donate.generic": {
-    "defaultMessage": "Підтримати"
+    "defaultMessage": "РџС–РґС‚СЂРёРјР°С‚Рё"
   },
   "project.about.links.donate.github": {
-    "defaultMessage": "Підтримати на Github"
+    "defaultMessage": "РџС–РґС‚СЂРёРјР°С‚Рё РЅР° Github"
   },
   "project.about.links.donate.kofi": {
-    "defaultMessage": "Підтримати на Ko-fi"
+    "defaultMessage": "РџС–РґС‚СЂРёРјР°С‚Рё РЅР° Ko-fi"
   },
   "project.about.links.donate.patreon": {
-    "defaultMessage": "Підтримати на Patreon"
+    "defaultMessage": "РџС–РґС‚СЂРёРјР°С‚Рё РЅР° Patreon"
   },
   "project.about.links.donate.paypal": {
-    "defaultMessage": "Підтримати на PayPal"
+    "defaultMessage": "РџС–РґС‚СЂРёРјР°С‚Рё РЅР° PayPal"
   },
   "project.about.links.issues": {
-    "defaultMessage": "Сповістити про проблеми"
+    "defaultMessage": "Р—РІС–С‚СѓРІР°С‚Рё РїСЂРѕР±Р»РµРјРё"
+  },
+  "project.about.links.site": {
+    "defaultMessage": "Р’С–РґРІС–РґР°С‚Рё РІРµР±СЃР°Р№С‚"
   },
   "project.about.links.source": {
-    "defaultMessage": "Вихідний код"
+    "defaultMessage": "Р’РёС…С–РґРЅРёР№ РєРѕРґ"
+  },
+  "project.about.links.store": {
+    "defaultMessage": "Р’С–РґРІС–РґР°С‚Рё РєСЂР°РјРЅРёС†СЋ"
   },
   "project.about.links.title": {
-    "defaultMessage": "Посилання"
+    "defaultMessage": "РџРѕСЃРёР»Р°РЅРЅСЏ"
   },
   "project.about.links.wiki": {
-    "defaultMessage": "Відвідати вікі"
+    "defaultMessage": "Р’С–РґРІС–РґР°С‚Рё РІС–РєС–"
+  },
+  "project.about.server.address.tooltip": {
+    "defaultMessage": "РЎРєРѕРїС–СЋРІР°С‚Рё РїРѕСЃРёР»Р°РЅРЅСЏ РЅР° СЃРµСЂРІРµСЂ Java"
+  },
+  "project.about.server.copied": {
+    "defaultMessage": "РЎРєРѕРїС–Р№РѕРІР°РЅРѕ!"
+  },
+  "project.about.server.copiedText": {
+    "defaultMessage": "РџРѕСЃРёР»Р°РЅРЅСЏ РЅР° СЃРµСЂРІРµСЂ СЃРєРѕРїС–Р№РѕРІР°РЅРѕ РґРѕ Р±СѓС„РµСЂР° РѕР±РјС–РЅСѓ"
+  },
+  "project.about.server.downloadModpack": {
+    "defaultMessage": "Р—Р°РІР°РЅС‚Р°Р¶РёС‚Рё Р·Р±С–СЂРєСѓ"
+  },
+  "project.about.server.languages": {
+    "defaultMessage": "РњРѕРІРё"
+  },
+  "project.about.server.recommendedVersion": {
+    "defaultMessage": "(СЂРµРєРѕРјРµРЅРґРѕРІР°РЅРѕ)"
+  },
+  "project.about.server.region": {
+    "defaultMessage": "Р РµРіС–РѕРЅ"
+  },
+  "project.about.server.requiredContent": {
+    "defaultMessage": "РћР±РѕРІвЂ™СЏР·РєРѕРІРёР№ РІРјС–СЃС‚"
+  },
+  "project.about.server.title": {
+    "defaultMessage": "РџРѕРґСЂРѕР±РёС†С– СЃРµСЂРІРµСЂР°"
+  },
+  "project.about.tags.title": {
+    "defaultMessage": "РўРµТ‘Рё"
   },
   "project.download-count-tooltip": {
-    "defaultMessage": "{count} {count, plural, one {завантаження} few {завантаження} other {завантажень}}"
+    "defaultMessage": "{count, number} {count, plural, one {Р·Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ} few {Р·Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ} other {Р·Р°РІР°РЅС‚Р°Р¶РµРЅСЊ}}"
   },
   "project.environment.client-and-server.description": {
-    "defaultMessage": "Має певну функціональність як на клієнті, так і на сервері, навіть якщо лише частково."
+    "defaultMessage": "РќРµРѕР±С…С–РґРЅРѕ Р№ РЅР° РєР»С–С”РЅС‚С– Р№ РЅР° СЃРµСЂРІРµСЂС–."
   },
   "project.environment.client-and-server.title": {
-    "defaultMessage": "Сервер та клієнт, потрібно обидва"
+    "defaultMessage": "РЎРµСЂРІРµСЂ С‚Р° РєР»С–С”РЅС‚, РїРѕС‚СЂС–Р±РЅРѕ РѕР±РёРґРІР°"
   },
   "project.environment.client-only-server-optional.description": {
-    "defaultMessage": "Має трохи функціоналу на клієнті та сервері, навіть якщо лише частково."
+    "defaultMessage": "Р‘С–Р»СЊС€С–СЃС‚СЊ С„СѓРЅРєС†С–Р№ РїСЂР°С†СЋС” РЅР° СЃС‚РѕСЂРѕРЅС– РєР»С–С”РЅС‚Р°, Р°Р»Рµ РІСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ РЅР° СЃРµСЂРІРµСЂ РїРѕРєСЂР°С‰СѓС” С„СѓРЅРєС†С–РѕРЅР°Р»СЊРЅС–СЃС‚СЊ."
   },
   "project.environment.client-only-server-optional.title": {
-    "defaultMessage": "Сервер та клієнт, необов’язково на сервері"
+    "defaultMessage": "РЎРµСЂРІРµСЂ С‚Р° РєР»С–С”РЅС‚, РЅРµРѕР±РѕРІвЂ™СЏР·РєРѕРІРѕ РЅР° СЃРµСЂРІРµСЂС–"
   },
   "project.environment.client-only.description": {
-    "defaultMessage": "Уся функціональність виконана на клієнтському боці, та сумісна зі стандартними серверами."
+    "defaultMessage": "РЈСЃСЏ С„СѓРЅРєС†С–РѕРЅР°Р»СЊРЅС–СЃС‚СЊ РІРёРєРѕРЅР°РЅР° РЅР° РєР»С–С”РЅС‚СЃСЊРєРѕРјСѓ Р±РѕС†С–, С‚Р° СЃСѓРјС–СЃРЅР° Р·С– СЃС‚Р°РЅРґР°СЂС‚РЅРёРјРё СЃРµСЂРІРµСЂР°РјРё."
   },
   "project.environment.client-only.title": {
-    "defaultMessage": "Лише клієнтська сторона"
+    "defaultMessage": "Р›РёС€Рµ РєР»С–С”РЅС‚СЃСЊРєР° СЃС‚РѕСЂРѕРЅР°"
   },
   "project.environment.client-or-server-prefers-both.description": {
-    "defaultMessage": "Має трохи функціоналу на клієнті та сервері, навіть якщо лише частково."
+    "defaultMessage": "РњР°С” РґРµСЏРєС– С„СѓРЅРєС†С–С— СЏРє РЅР° РєР»С–С”РЅС‚С–, С‚Р°Рє С– РЅР° СЃРµСЂРІРµСЂС–, РЅР°РІС–С‚СЊ СЏРєС‰Рѕ РІРѕРЅРё РЅРµРїРѕРІРЅС–. РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ Р№РѕРіРѕ РЅР° РѕР±РѕС… СЃС‚РѕСЂРѕРЅР°С… Р·Р°Р±РµР·РїРµС‡СѓС” РЅР°Р№РєСЂР°С‰РёР№ РґРѕСЃРІС–Рґ РІРёРєРѕСЂРёСЃС‚Р°РЅРЅСЏ."
   },
   "project.environment.client-or-server-prefers-both.title": {
-    "defaultMessage": "Сервер та клієнт, краще коли встановлено на обидва"
+    "defaultMessage": "РЎРµСЂРІРµСЂ С‚Р° РєР»С–С”РЅС‚, РєСЂР°С‰Рµ РєРѕР»Рё РІСЃС‚Р°РЅРѕРІР»РµРЅРѕ РЅР° РѕР±РёРґРІР°"
   },
   "project.environment.client-or-server.description": {
-    "defaultMessage": "Має трохи функціоналу на клієнті та сервері, навіть якщо лише частково."
+    "defaultMessage": "РњР°С” С‚СЂРѕС…Рё С„СѓРЅРєС†С–РѕРЅР°Р»Сѓ РЅР° РєР»С–С”РЅС‚С– С‚Р° СЃРµСЂРІРµСЂС–, РЅР°РІС–С‚СЊ СЏРєС‰Рѕ Р»РёС€Рµ С‡Р°СЃС‚РєРѕРІРѕ."
   },
   "project.environment.client-or-server.title": {
-    "defaultMessage": "Сервер та клієнт, обидва необов’язкові"
+    "defaultMessage": "РЎРµСЂРІРµСЂ С‚Р° РєР»С–С”РЅС‚, РѕР±РёРґРІР° РЅРµРѕР±РѕРІвЂ™СЏР·РєРѕРІС–"
   },
   "project.environment.dedicated-server-only.description": {
-    "defaultMessage": "Уся функціональність виконана на клієнтському боці, та сумісна зі стандартними серверами."
+    "defaultMessage": "РЈСЃСЏ С„СѓРЅРєС†С–РѕРЅР°Р»СЊРЅС–СЃС‚СЊ Р·РЅР°С…РѕРґРёС‚СЊСЃСЏ РЅР° СЃС‚РѕСЂРѕРЅС– СЃРµСЂРІРµСЂР° С‚Р° СЃСѓРјС–СЃРЅР° С–Р· РІР°РЅС–Р»СЊРЅРёРјРё РєР»С–С”РЅС‚Р°РјРё. РџСЂР°С†СЋС” Р»РёС€Рµ РЅР° РІРёРґС–Р»РµРЅРёС… СЃРµСЂРІРµСЂР°С…."
   },
   "project.environment.dedicated-server-only.title": {
-    "defaultMessage": "Лише серверна сторона"
+    "defaultMessage": "Р›РёС€Рµ СЃРµСЂРІРµСЂРЅР° СЃС‚РѕСЂРѕРЅР°"
   },
   "project.environment.server-only-client-optional.description": {
-    "defaultMessage": "Має певну функціональність як на клієнті, так і на сервері, навіть якщо лише частково."
+    "defaultMessage": "Р‘С–Р»СЊС€С–СЃС‚СЊ С„СѓРЅРєС†С–Р№ РїСЂР°С†СЋС” РЅР° СЃС‚РѕСЂРѕРЅС– СЃРµСЂРІРµСЂР°, Р°Р»Рµ РІСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ РЅР° СЃС‚РѕСЂРѕРЅСѓ РєР»С–С”РЅС‚Р° РїРѕРєСЂР°С‰СѓС” С„СѓРЅРєС†С–РѕРЅР°Р»СЊРЅС–СЃС‚СЊ."
   },
   "project.environment.server-only-client-optional.title": {
-    "defaultMessage": "Сервер та клієнт, необов’язково на клієнті"
+    "defaultMessage": "РЎРµСЂРІРµСЂ С‚Р° РєР»С–С”РЅС‚, РЅРµРѕР±РѕРІвЂ™СЏР·РєРѕРІРѕ РЅР° РєР»С–С”РЅС‚С–"
   },
   "project.environment.server-only.description": {
-    "defaultMessage": "Уся функціональність знаходиться на стороні сервера та сумісна зі стандартними серверами."
+    "defaultMessage": "РЈСЃСЏ С„СѓРЅРєС†С–РѕРЅР°Р»СЊРЅС–СЃС‚СЊ Р·РЅР°С…РѕРґРёС‚СЊСЃСЏ РЅР° СЃС‚РѕСЂРѕРЅС– СЃРµСЂРІРµСЂР° С‚Р° СЃСѓРјС–СЃРЅР° С–Р· РІР°РЅС–Р»СЊРЅРёРјРё РєР»С–С”РЅС‚Р°РјРё. РўР°РєРѕР¶ РїСЂР°С†СЋС” Р»РёС€Рµ РЅР° РІРЅСѓС‚СЂС–С€РЅС–С… СЃРµСЂРІРµСЂР°С… Сѓ РіСЂС– РЅР°РѕРґРёРЅС†С–."
   },
   "project.environment.server-only.title": {
-    "defaultMessage": "Лише серверний, також для гри наодинці"
+    "defaultMessage": "Р›РёС€Рµ СЃРµСЂРІРµСЂРЅРёР№, С‚Р°РєРѕР¶ РґР»СЏ РіСЂРё РЅР°РѕРґРёРЅС†С–"
   },
   "project.environment.singleplayer-only.description": {
-    "defaultMessage": "Працює лише у грі наодинці або коли не приєднано до сервера."
+    "defaultMessage": "РџСЂР°С†СЋС” Р»РёС€Рµ Сѓ РіСЂС– РЅР°РѕРґРёРЅС†С– Р°Р±Рѕ РєРѕР»Рё РЅРµ РїСЂРёС”РґРЅР°РЅРѕ РґРѕ СЃРµСЂРІРµСЂР°."
   },
   "project.environment.singleplayer-only.title": {
-    "defaultMessage": "Лише гра наодинці"
+    "defaultMessage": "Р›РёС€Рµ РіСЂР° РЅР°РѕРґРёРЅС†С–"
   },
   "project.environment.tag.not-applicable": {
-    "defaultMessage": "Н/Д"
+    "defaultMessage": "Рќ/Р”"
   },
   "project.environment.tag.unknown": {
-    "defaultMessage": "Невідомо"
+    "defaultMessage": "РќРµРІС–РґРѕРјРѕ"
   },
   "project.environment.unknown.description": {
-    "defaultMessage": "Середовище для цієї версії не було вказано."
+    "defaultMessage": "РЎРµСЂРµРґРѕРІРёС‰Рµ РґР»СЏ С†С–С”С— РІРµСЂСЃС–С— РЅРµ Р±СѓР»Рѕ РІРєР°Р·Р°РЅРѕ."
   },
   "project.environment.unknown.title": {
-    "defaultMessage": "Невідоме середовище"
+    "defaultMessage": "РќРµРІС–РґРѕРјРµ СЃРµСЂРµРґРѕРІРёС‰Рµ"
   },
   "project.follower-count-tooltip": {
-    "defaultMessage": "{count} {count, plural, one {відстежує} other {відстежують}}"
+    "defaultMessage": "{count, number} {count, plural, one {РІС–РґСЃС‚РµР¶СѓС”} few {РІС–РґСЃС‚РµР¶СѓСЋС‚СЊ} other {РІС–РґСЃС‚РµР¶СѓСЋС‚СЊ}}"
+  },
+  "project.online-player-count": {
+    "defaultMessage": "{count, number} Сѓ РјРµСЂРµР¶С–"
+  },
+  "project.online-player-count.tooltip": {
+    "defaultMessage": "{count} {countPlural, plural, one {РіСЂР°РІРµС†СЊ} few {РіСЂР°РІС†С–} many {РіСЂР°РІС†С–РІ} other {РіСЂР°РІС†С–РІ}} Сѓ РјРµСЂРµР¶С–"
+  },
+  "project.recent-plays": {
+    "defaultMessage": "{count} {countPlural, plural, one {РЅРµС‰РѕРґР°РІРЅРѕ РіСЂР°РІ} few {РЅРµС‰РѕРґР°РІРЅРѕ РіСЂР°Р»Рё} many {РЅРµС‰РѕРґР°РІРЅРѕ РіСЂР°Р»Рё} other {РЅРµС‰РѕРґР°РІРЅРѕ РіСЂР°Р»Рё}}"
+  },
+  "project.recent-plays.tooltip": {
+    "defaultMessage": "{count} {countPlural, plural, one {РЅРµС‰РѕРґР°РІРЅРѕ РіСЂР°РІ} other {РЅРµС‰РѕРґР°РІРЅРѕ РіСЂР°Р»Рё}} Р· Modrinth Р·Р° РѕСЃС‚Р°РЅРЅС– 2 С‚РёР¶РЅС–"
+  },
+  "project.server.customModpackTooltip": {
+    "defaultMessage": "Р¦РµР№ РїСЂРѕС”РєС‚ РІРёРєРѕСЂРёСЃС‚РѕРІСѓС” РІР»Р°СЃРЅСѓ Р·Р±С–СЂРєСѓ"
+  },
+  "project.server.language.af": {
+    "defaultMessage": "РђС„СЂРёРєР°Р°РЅСЃ"
+  },
+  "project.server.language.am": {
+    "defaultMessage": "РђРјС…Р°СЂСЃСЊРєР°"
+  },
+  "project.server.language.ar": {
+    "defaultMessage": "РђСЂР°Р±СЃСЊРєР°"
+  },
+  "project.server.language.az": {
+    "defaultMessage": "РђР·РµСЂР±Р°Р№РґР¶Р°РЅСЃСЊРєР°"
+  },
+  "project.server.language.be": {
+    "defaultMessage": "Р‘С–Р»РѕСЂСѓСЃСЊРєР°"
+  },
+  "project.server.language.bg": {
+    "defaultMessage": "Р‘РѕР»РіР°СЂСЃСЊРєР°"
+  },
+  "project.server.language.bn": {
+    "defaultMessage": "Р‘РµРЅРіР°Р»СЊСЃСЊРєР°"
+  },
+  "project.server.language.bs": {
+    "defaultMessage": "Р‘РѕСЃРЅС–Р№СЃСЊРєР°"
+  },
+  "project.server.language.ca": {
+    "defaultMessage": "РљР°С‚Р°Р»РѕРЅСЃСЊРєР°"
+  },
+  "project.server.language.cs": {
+    "defaultMessage": "Р§РµСЃСЊРєР°"
+  },
+  "project.server.language.da": {
+    "defaultMessage": "Р”Р°РЅСЃСЊРєР°"
+  },
+  "project.server.language.de": {
+    "defaultMessage": "РќС–РјРµС†СЊРєР°"
+  },
+  "project.server.language.el": {
+    "defaultMessage": "Р“СЂРµС†СЊРєР°"
+  },
+  "project.server.language.en": {
+    "defaultMessage": "РђРЅРіР»С–Р№СЃСЊРєР°"
+  },
+  "project.server.language.eo": {
+    "defaultMessage": "Р•СЃРїРµСЂР°РЅС‚Рѕ"
+  },
+  "project.server.language.es": {
+    "defaultMessage": "Р†СЃРїР°РЅСЃСЊРєР°"
+  },
+  "project.server.language.et": {
+    "defaultMessage": "Р•СЃС‚РѕРЅСЃСЊРєР°"
+  },
+  "project.server.language.eu": {
+    "defaultMessage": "Р‘Р°СЃРєСЃСЊРєР°"
+  },
+  "project.server.language.fa": {
+    "defaultMessage": "РџРµСЂСЃСЊРєР°"
+  },
+  "project.server.language.fi": {
+    "defaultMessage": "Р¤С–РЅСЃСЊРєР°"
+  },
+  "project.server.language.fr": {
+    "defaultMessage": "Р¤СЂР°РЅС†СѓР·СЊРєР°"
+  },
+  "project.server.language.ga": {
+    "defaultMessage": "Р†СЂР»Р°РЅРґСЃСЊРєР°"
+  },
+  "project.server.language.gl": {
+    "defaultMessage": "Р“Р°Р»С–СЃС–Р№СЃСЊРєР°"
+  },
+  "project.server.language.he": {
+    "defaultMessage": "Р†РІСЂРёС‚"
+  },
+  "project.server.language.hi": {
+    "defaultMessage": "Р“С–РЅРґС–"
+  },
+  "project.server.language.hr": {
+    "defaultMessage": "РҐРѕСЂРІР°С‚СЃСЊРєР°"
+  },
+  "project.server.language.hu": {
+    "defaultMessage": "РЈРіРѕСЂСЃСЊРєР°"
+  },
+  "project.server.language.hy": {
+    "defaultMessage": "Р’С–СЂРјРµРЅСЃСЊРєР°"
+  },
+  "project.server.language.id": {
+    "defaultMessage": "Р†РЅРґРѕРЅРµР·С–Р№СЃСЊРєР°"
+  },
+  "project.server.language.is": {
+    "defaultMessage": "Р†СЃР»Р°РЅРґСЃСЊРєР°"
+  },
+  "project.server.language.it": {
+    "defaultMessage": "Р†С‚Р°Р»С–Р№СЃСЊРєР°"
+  },
+  "project.server.language.ja": {
+    "defaultMessage": "РЇРїРѕРЅСЃСЊРєР°"
+  },
+  "project.server.language.ka": {
+    "defaultMessage": "РљР°СЂС‚Р»С–Р№СЃСЊРєР°"
+  },
+  "project.server.language.kk": {
+    "defaultMessage": "РљР°Р·Р°С…СЃСЊРєР°"
+  },
+  "project.server.language.km": {
+    "defaultMessage": "РљС…РјРµСЂСЃСЊРєР°"
+  },
+  "project.server.language.kn": {
+    "defaultMessage": "РљР°РЅРЅР°РґР°"
+  },
+  "project.server.language.ko": {
+    "defaultMessage": "РљРѕСЂРµР№СЃСЊРєР°"
+  },
+  "project.server.language.lo": {
+    "defaultMessage": "Р›Р°РѕСЃСЊРєР°"
+  },
+  "project.server.language.lt": {
+    "defaultMessage": "Р›РёС‚РѕРІСЃСЊРєР°"
+  },
+  "project.server.language.lv": {
+    "defaultMessage": "Р›Р°С‚РІС–Р№СЃСЊРєР°"
+  },
+  "project.server.language.mk": {
+    "defaultMessage": "РњР°РєРµРґРѕРЅСЃСЊРєР°"
+  },
+  "project.server.language.ml": {
+    "defaultMessage": "РњР°Р»Р°СЏР»Р°Рј"
+  },
+  "project.server.language.mn": {
+    "defaultMessage": "РњРѕРЅРіРѕР»СЊСЃСЊРєР°"
+  },
+  "project.server.language.mr": {
+    "defaultMessage": "РњР°СЂР°С‚С…С–"
+  },
+  "project.server.language.ms": {
+    "defaultMessage": "РњР°Р»Р°Р№СЃСЊРєР°"
+  },
+  "project.server.language.my": {
+    "defaultMessage": "Р‘С–СЂРјР°РЅСЃСЊРєР°"
+  },
+  "project.server.language.ne": {
+    "defaultMessage": "РќРµРїР°Р»СЊСЃСЊРєР°"
+  },
+  "project.server.language.nl": {
+    "defaultMessage": "РќС–РґРµСЂР»Р°РЅРґСЃСЊРєР°"
+  },
+  "project.server.language.no": {
+    "defaultMessage": "РќРѕСЂРІРµР·СЊРєР°"
+  },
+  "project.server.language.pa": {
+    "defaultMessage": "РџРµРЅРґР¶Р°Р±СЃСЊРєР°"
+  },
+  "project.server.language.pl": {
+    "defaultMessage": "РџРѕР»СЊСЃСЊРєР°"
+  },
+  "project.server.language.pt": {
+    "defaultMessage": "РџРѕСЂС‚СѓРіР°Р»СЊСЃСЊРєР°"
+  },
+  "project.server.language.ro": {
+    "defaultMessage": "Р СѓРјСѓРЅСЃСЊРєР°"
+  },
+  "project.server.language.ru": {
+    "defaultMessage": "Р РѕСЃС–Р№СЃСЊРєР°"
+  },
+  "project.server.language.si": {
+    "defaultMessage": "РЎРёРЅРіР°Р»СЊСЃСЊРєР°"
+  },
+  "project.server.language.sk": {
+    "defaultMessage": "РЎР»РѕРІР°С†СЊРєР°"
+  },
+  "project.server.language.sl": {
+    "defaultMessage": "РЎР»РѕРІРµРЅСЃСЊРєР°"
+  },
+  "project.server.language.sq": {
+    "defaultMessage": "РђР»Р±Р°РЅСЃСЊРєР°"
+  },
+  "project.server.language.sr": {
+    "defaultMessage": "РЎРµСЂР±СЃСЊРєР°"
+  },
+  "project.server.language.sv": {
+    "defaultMessage": "РЁРІРµРґСЃСЊРєР°"
+  },
+  "project.server.language.sw": {
+    "defaultMessage": "РЎСѓР°С…С–Р»С–"
+  },
+  "project.server.language.ta": {
+    "defaultMessage": "РўР°РјС–Р»СЊСЃСЊРєР°"
+  },
+  "project.server.language.te": {
+    "defaultMessage": "РўРµР»СѓРіСѓ"
+  },
+  "project.server.language.th": {
+    "defaultMessage": "РўР°Р№СЃСЊРєР°"
+  },
+  "project.server.language.tl": {
+    "defaultMessage": "Р¤С–Р»С–РїРїС–РЅСЃСЊРєР°"
+  },
+  "project.server.language.tr": {
+    "defaultMessage": "РўСѓСЂРµС†СЊРєР°"
+  },
+  "project.server.language.uk": {
+    "defaultMessage": "РЈРєСЂР°С—РЅСЃСЊРєР°"
+  },
+  "project.server.language.ur": {
+    "defaultMessage": "РЈСЂРґСѓ"
+  },
+  "project.server.language.uz": {
+    "defaultMessage": "РЈР·Р±РµС†СЊРєР°"
+  },
+  "project.server.language.vi": {
+    "defaultMessage": "Р’КјС”С‚РЅР°РјСЃСЊРєР°"
+  },
+  "project.server.language.yo": {
+    "defaultMessage": "Р™РѕСЂСѓР±Р°"
+  },
+  "project.server.language.zh": {
+    "defaultMessage": "РљРёС‚Р°Р№СЃСЊРєР°"
+  },
+  "project.server.language.zu": {
+    "defaultMessage": "Р—СѓР»Сѓ"
+  },
+  "project.server.ping.ms": {
+    "defaultMessage": "{ping, number} РјСЃ"
+  },
+  "project.server.region.asia": {
+    "defaultMessage": "РђР·С–СЏ"
+  },
+  "project.server.region.australia": {
+    "defaultMessage": "РђРІСЃС‚СЂР°Р»С–СЏ"
+  },
+  "project.server.region.europe": {
+    "defaultMessage": "Р„РІСЂРѕРїР°"
+  },
+  "project.server.region.middle_east": {
+    "defaultMessage": "Р‘Р»РёР·СЊРєРёР№ РЎС…С–Рґ"
+  },
+  "project.server.region.russia": {
+    "defaultMessage": "СЂРѕСЃС–СЏ"
+  },
+  "project.server.region.south_america": {
+    "defaultMessage": "РџС–РІРґРµРЅРЅР° РђРјРµСЂРёРєР°"
+  },
+  "project.server.region.tooltip": {
+    "defaultMessage": "Р›РѕРєР°С†С–СЏ СЃРµСЂРІРµСЂР°: {regionName}"
+  },
+  "project.server.region.us_east": {
+    "defaultMessage": "РЎРЁРђ (СЃС…С–Рґ)"
+  },
+  "project.server.region.us_west": {
+    "defaultMessage": "РЎРЁРђ (Р·Р°С…С–Рґ)"
+  },
+  "project.server.status.offline": {
+    "defaultMessage": "РџРѕР·Р° РјРµСЂРµР¶РµСЋ"
+  },
+  "project.server.status.offline.tooltip": {
+    "defaultMessage": "РЎРµСЂРІРµСЂ РїРѕР·Р° РјРµСЂРµР¶РµСЋ"
+  },
+  "project.server.status.online": {
+    "defaultMessage": "РЈ РјРµСЂРµР¶С–"
   },
   "project.settings.analytics.title": {
-    "defaultMessage": "Аналітика"
+    "defaultMessage": "РђРЅР°Р»С–С‚РёРєР°"
+  },
+  "project.settings.content.title": {
+    "defaultMessage": "РЈРјС–СЃС‚"
   },
   "project.settings.description.title": {
-    "defaultMessage": "Опис"
+    "defaultMessage": "РћРїРёСЃ"
   },
   "project.settings.environment.client_and_server.description": {
-    "defaultMessage": "Має деяку функціональність як на стороні клієнта, так і на стороні сервера."
+    "defaultMessage": "РњР°С” РґРµСЏРєСѓ С„СѓРЅРєС†С–РѕРЅР°Р»СЊРЅС–СЃС‚СЊ СЏРє РЅР° СЃС‚РѕСЂРѕРЅС– РєР»С–С”РЅС‚Р°, С‚Р°Рє С– РЅР° СЃС‚РѕСЂРѕРЅС– СЃРµСЂРІРµСЂР°."
   },
   "project.settings.environment.client_and_server.optional_both.title": {
-    "defaultMessage": "Опціонально для обох, працює однаково, якщо встановлено на будь-якій стороні"
+    "defaultMessage": "РћРїС†С–РѕРЅР°Р»СЊРЅРѕ РґР»СЏ РѕР±РѕС…, РїСЂР°С†СЋС” РѕРґРЅР°РєРѕРІРѕ, СЏРєС‰Рѕ РІСЃС‚Р°РЅРѕРІР»РµРЅРѕ РЅР° Р±СѓРґСЊ-СЏРєС–Р№ СЃС‚РѕСЂРѕРЅС–"
   },
   "project.settings.environment.client_and_server.optional_both_prefers_both.title": {
-    "defaultMessage": "Опціонально для обох, краще працює коли встановлено на обох сторонах"
+    "defaultMessage": "РћРїС†С–РѕРЅР°Р»СЊРЅРѕ РґР»СЏ РѕР±РѕС…, РєСЂР°С‰Рµ РїСЂР°С†СЋС” РєРѕР»Рё РІСЃС‚Р°РЅРѕРІР»РµРЅРѕ РЅР° РѕР±РѕС… СЃС‚РѕСЂРѕРЅР°С…"
   },
   "project.settings.environment.client_and_server.optional_client.title": {
-    "defaultMessage": "Опціонально для клієнта"
+    "defaultMessage": "РќРµРѕР±РѕРІвЂ™СЏР·РєРѕРІРѕ РЅР° РєР»С–С”РЅС‚С–"
   },
   "project.settings.environment.client_and_server.optional_server.title": {
-    "defaultMessage": "Опціонально для сервера"
+    "defaultMessage": "РћРїС†С–РѕРЅР°Р»СЊРЅРѕ РґР»СЏ СЃРµСЂРІРµСЂР°"
   },
   "project.settings.environment.client_and_server.required_both.title": {
-    "defaultMessage": "Необхідно для обох"
+    "defaultMessage": "РќРµРѕР±С…С–РґРЅРѕ РґР»СЏ РѕР±РѕС…"
   },
   "project.settings.environment.client_and_server.title": {
-    "defaultMessage": "Клієнт та сервер"
+    "defaultMessage": "РљР»С–С”РЅС‚ С‚Р° СЃРµСЂРІРµСЂ"
   },
   "project.settings.environment.client_only.description": {
-    "defaultMessage": "Уся функціональність знаходиться на стороні клієнта та сумісна із не модифікованими серверами."
+    "defaultMessage": "РЈСЃСЏ С„СѓРЅРєС†С–РѕРЅР°Р»СЊРЅС–СЃС‚СЊ Р·РЅР°С…РѕРґРёС‚СЊСЃСЏ РЅР° СЃС‚РѕСЂРѕРЅС– РєР»С–С”РЅС‚Р° С‚Р° СЃСѓРјС–СЃРЅР° С–Р· РЅРµ РјРѕРґРёС„С–РєРѕРІР°РЅРёРјРё СЃРµСЂРІРµСЂР°РјРё."
   },
   "project.settings.environment.client_only.title": {
-    "defaultMessage": "Лише на стороні клієнта"
+    "defaultMessage": "Р›РёС€Рµ РЅР° СЃС‚РѕСЂРѕРЅС– РєР»С–С”РЅС‚Р°"
   },
   "project.settings.environment.notice.missing-env.description": {
-    "defaultMessage": "У вашого проєкту відсутні метадані середовища, будь ласка, виберіть необхідний варіант нижче."
+    "defaultMessage": "РЈ РІР°С€РѕРіРѕ РїСЂРѕС”РєС‚Сѓ РІС–РґСЃСѓС‚РЅС– РјРµС‚Р°РґР°РЅС– СЃРµСЂРµРґРѕРІРёС‰Р°, Р±СѓРґСЊ Р»Р°СЃРєР°, РІРёР±РµСЂС–С‚СЊ РЅРµРѕР±С…С–РґРЅРёР№ РІР°СЂС–Р°РЅС‚ РЅРёР¶С‡Рµ."
   },
   "project.settings.environment.notice.missing-env.title": {
-    "defaultMessage": "Будь ласка, виберіть середовище для вашого проєкту"
+    "defaultMessage": "Р‘СѓРґСЊ Р»Р°СЃРєР°, РІРёР±РµСЂС–С‚СЊ СЃРµСЂРµРґРѕРІРёС‰Рµ РґР»СЏ РІР°С€РѕРіРѕ РїСЂРѕС”РєС‚Сѓ"
   },
   "project.settings.environment.notice.multiple-environments.description": {
-    "defaultMessage": "Різні версії вашого проєкту мають різні середовища, тож тепер ви не можете редагувати їх глобально."
+    "defaultMessage": "Р С–Р·РЅС– РІРµСЂСЃС–С— РІР°С€РѕРіРѕ РїСЂРѕС”РєС‚Сѓ РјР°СЋС‚СЊ СЂС–Р·РЅС– СЃРµСЂРµРґРѕРІРёС‰Р°, С‚РѕР¶ С‚РµРїРµСЂ РІРё РЅРµ РјРѕР¶РµС‚Рµ СЂРµРґР°РіСѓРІР°С‚Рё С—С… РіР»РѕР±Р°Р»СЊРЅРѕ."
   },
   "project.settings.environment.notice.multiple-environments.title": {
-    "defaultMessage": "Ваш проєкт має кілька середовищ"
+    "defaultMessage": "Р’Р°С€ РїСЂРѕС”РєС‚ РјР°С” РєС–Р»СЊРєР° СЃРµСЂРµРґРѕРІРёС‰"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Нещодавно ми оновили систему середовищ у Modrinth і вам тепер доступні нові налаштування. Будь ласка, переконайтесь, що обрано правильні налаштування та натисніть «Підтвердити» коли закінчите!"
+    "defaultMessage": "РќРµС‰РѕРґР°РІРЅРѕ РјРё РѕРЅРѕРІРёР»Рё СЃРёСЃС‚РµРјСѓ СЃРµСЂРµРґРѕРІРёС‰ Сѓ Modrinth С– РІР°Рј С‚РµРїРµСЂ РґРѕСЃС‚СѓРїРЅС– РЅРѕРІС– РЅР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ. Р‘СѓРґСЊ Р»Р°СЃРєР°, РїРµСЂРµРєРѕРЅР°Р№С‚РµСЃСЊ, С‰Рѕ РѕР±СЂР°РЅРѕ РїСЂР°РІРёР»СЊРЅС– РЅР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ С‚Р° РЅР°С‚РёСЃРЅС–С‚СЊ В«РџС–РґС‚РІРµСЂРґРёС‚РёВ» РєРѕР»Рё Р·Р°РєС–РЅС‡РёС‚Рµ!"
   },
   "project.settings.environment.notice.review-options.title": {
-    "defaultMessage": "Будь ласка, перегляньте налаштування нижче"
+    "defaultMessage": "Р‘СѓРґСЊ Р»Р°СЃРєР°, РїРµСЂРµРіР»СЏРЅСЊС‚Рµ РЅР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ РЅРёР¶С‡Рµ"
   },
   "project.settings.environment.notice.wrong-project-type.description": {
-    "defaultMessage": "Лише моди чи збірки можуть мати метадані середовища."
+    "defaultMessage": "Р›РёС€Рµ РјРѕРґРё С‡Рё Р·Р±С–СЂРєРё РјРѕР¶СѓС‚СЊ РјР°С‚Рё РјРµС‚Р°РґР°РЅС– СЃРµСЂРµРґРѕРІРёС‰Р°."
   },
   "project.settings.environment.notice.wrong-project-type.title": {
-    "defaultMessage": "Цей тип проєкту не підтримує метадані середовища"
+    "defaultMessage": "Р¦РµР№ С‚РёРї РїСЂРѕС”РєС‚Сѓ РЅРµ РїС–РґС‚СЂРёРјСѓС” РјРµС‚Р°РґР°РЅС– СЃРµСЂРµРґРѕРІРёС‰Р°"
   },
   "project.settings.environment.server_only.dedicated_only.title": {
-    "defaultMessage": "Лише виділені сервери"
+    "defaultMessage": "Р›РёС€Рµ РІРёРґС–Р»РµРЅС– СЃРµСЂРІРµСЂРё"
   },
   "project.settings.environment.server_only.description": {
-    "defaultMessage": "Уся функціональність знаходиться на стороні сервера та сумісна із ванільними серверами."
+    "defaultMessage": "РЈСЃСЏ С„СѓРЅРєС†С–РѕРЅР°Р»СЊРЅС–СЃС‚СЊ Р·РЅР°С…РѕРґРёС‚СЊСЃСЏ РЅР° СЃС‚РѕСЂРѕРЅС– СЃРµСЂРІРµСЂР° С‚Р° СЃСѓРјС–СЃРЅР° С–Р· РІР°РЅС–Р»СЊРЅРёРјРё СЃРµСЂРІРµСЂР°РјРё."
   },
   "project.settings.environment.server_only.supports_singleplayer.title": {
-    "defaultMessage": "Також працює у грі наодинці"
+    "defaultMessage": "РўР°РєРѕР¶ РїСЂР°С†СЋС” Сѓ РіСЂС– РЅР°РѕРґРёРЅС†С–"
   },
   "project.settings.environment.server_only.title": {
-    "defaultMessage": "Лише на стороні сервера"
+    "defaultMessage": "Р›РёС€Рµ РЅР° СЃС‚РѕСЂРѕРЅС– СЃРµСЂРІРµСЂР°"
   },
   "project.settings.environment.singleplayer.description": {
-    "defaultMessage": "Працює лише у грі наодинці або коли не підключено до сервера."
+    "defaultMessage": "РџСЂР°С†СЋС” Р»РёС€Рµ Сѓ РіСЂС– РЅР°РѕРґРёРЅС†С– Р°Р±Рѕ РєРѕР»Рё РЅРµ РїС–РґРєР»СЋС‡РµРЅРѕ РґРѕ СЃРµСЂРІРµСЂР°."
   },
   "project.settings.environment.singleplayer.title": {
-    "defaultMessage": "Лише гра наодинці"
+    "defaultMessage": "Р›РёС€Рµ РіСЂР° РЅР°РѕРґРёРЅС†С–"
   },
   "project.settings.environment.suboption.accessibility-option-label": {
     "defaultMessage": "{title}: {description}"
   },
   "project.settings.environment.suboption.accessibility-suboption-group-label": {
-    "defaultMessage": "Додаткові налаштування {option}"
+    "defaultMessage": "Р”РѕРґР°С‚РєРѕРІС– РЅР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ {option}"
   },
   "project.settings.environment.title": {
-    "defaultMessage": "Середовище"
+    "defaultMessage": "РЎРµСЂРµРґРѕРІРёС‰Рµ"
   },
   "project.settings.environment.verification.verify-button": {
-    "defaultMessage": "Підтвердити"
+    "defaultMessage": "РџС–РґС‚РІРµСЂРґРёС‚Рё"
   },
   "project.settings.environment.verification.verify-text": {
-    "defaultMessage": "Підтвердіть, що середовище проєкту вибрано вірно."
+    "defaultMessage": "РџС–РґС‚РІРµСЂРґС–С‚СЊ, С‰Рѕ СЃРµСЂРµРґРѕРІРёС‰Рµ РїСЂРѕС”РєС‚Сѓ РІРёР±СЂР°РЅРѕ РІС–СЂРЅРѕ."
   },
   "project.settings.gallery.title": {
-    "defaultMessage": "Галерея"
+    "defaultMessage": "Р“Р°Р»РµСЂРµСЏ"
   },
   "project.settings.general.title": {
-    "defaultMessage": "Загальні"
+    "defaultMessage": "Р—Р°РіР°Р»СЊРЅС–"
   },
   "project.settings.license.title": {
-    "defaultMessage": "Ліцензія"
+    "defaultMessage": "Р›С–С†РµРЅР·С–СЏ"
   },
   "project.settings.links.title": {
-    "defaultMessage": "Посилання"
+    "defaultMessage": "РџРѕСЃРёР»Р°РЅРЅСЏ"
   },
   "project.settings.members.title": {
-    "defaultMessage": "Учасники"
+    "defaultMessage": "РЈС‡Р°СЃРЅРёРєРё"
   },
   "project.settings.notice.no-permission.description": {
-    "defaultMessage": "У вас немає дозволу редагувати це."
+    "defaultMessage": "РЈ РІР°СЃ РЅРµРјР°С” РґРѕР·РІРѕР»Сѓ СЂРµРґР°РіСѓРІР°С‚Рё С†Рµ."
   },
   "project.settings.notice.no-permission.title": {
-    "defaultMessage": "Немає дозволу"
+    "defaultMessage": "РќРµРјР°С” РґРѕР·РІРѕР»Сѓ"
+  },
+  "project.settings.server.title": {
+    "defaultMessage": "РЎРµСЂРІРµСЂ"
   },
   "project.settings.tags.title": {
-    "defaultMessage": "Теґи"
+    "defaultMessage": "РўРµТ‘Рё"
   },
   "project.settings.upload.title": {
-    "defaultMessage": "Вивантажити"
+    "defaultMessage": "Р’РёРІР°РЅС‚Р°Р¶РёС‚Рё"
   },
   "project.settings.versions.title": {
-    "defaultMessage": "Версії"
+    "defaultMessage": "Р’РµСЂСЃС–С—"
   },
   "project.settings.view.title": {
-    "defaultMessage": "Переглянути"
+    "defaultMessage": "РџРµСЂРµРіР»СЏРЅСѓС‚Рё"
   },
   "project.versions.channel.alpha.symbol": {
     "defaultMessage": "A"
@@ -1026,508 +2538,961 @@
     "defaultMessage": "R"
   },
   "project.visibility.archived": {
-    "defaultMessage": "Архівовано"
+    "defaultMessage": "РђСЂС…С–РІРѕРІР°РЅРѕ"
   },
   "project.visibility.draft": {
-    "defaultMessage": "Чернетка"
+    "defaultMessage": "Р§РµСЂРЅРµС‚РєР°"
   },
   "project.visibility.private": {
-    "defaultMessage": "Приватно"
+    "defaultMessage": "РџСЂРёРІР°С‚РЅРѕ"
   },
   "project.visibility.public": {
-    "defaultMessage": "Публічно"
+    "defaultMessage": "РџСѓР±Р»С–С‡РЅРѕ"
   },
   "project.visibility.rejected": {
-    "defaultMessage": "Відхилено"
+    "defaultMessage": "Р’С–РґС…РёР»РµРЅРѕ"
   },
   "project.visibility.scheduled": {
-    "defaultMessage": "Заплановано"
+    "defaultMessage": "Р—Р°РїР»Р°РЅРѕРІР°РЅРѕ"
   },
   "project.visibility.under-review": {
-    "defaultMessage": "На розгляді"
+    "defaultMessage": "РќР° СЂРѕР·РіР»СЏРґС–"
   },
   "project.visibility.unknown": {
-    "defaultMessage": "Невідомо"
+    "defaultMessage": "РќРµРІС–РґРѕРјРѕ"
   },
   "project.visibility.unlisted": {
-    "defaultMessage": "Поза списком"
+    "defaultMessage": "РџРѕР·Р° СЃРїРёСЃРєРѕРј"
   },
   "project.visibility.unlisted-by-staff": {
-    "defaultMessage": "Команда зробила поза списком"
+    "defaultMessage": "РљРѕРјР°РЅРґР° Р·СЂРѕР±РёР»Р° РїРѕР·Р° СЃРїРёСЃРєРѕРј"
   },
   "search.filter.locked.default": {
-    "defaultMessage": "Фільтр заблоковано"
+    "defaultMessage": "Р¤С–Р»СЊС‚СЂ Р·Р°Р±Р»РѕРєРѕРІР°РЅРѕ"
   },
   "search.filter.locked.default.description": {
-    "defaultMessage": "Розблокування цього фільтра може дозволити вам установити несумісний контент."
+    "defaultMessage": "Р РѕР·Р±Р»РѕРєСѓРІР°РЅРЅСЏ С†СЊРѕРіРѕ С„С–Р»СЊС‚СЂР° РјРѕР¶Рµ РґРѕР·РІРѕР»РёС‚Рё РІР°Рј СѓСЃС‚Р°РЅРѕРІРёС‚Рё РЅРµСЃСѓРјС–СЃРЅРёР№ РєРѕРЅС‚РµРЅС‚."
   },
   "search.filter.locked.default.sync": {
-    "defaultMessage": "Синхронізувати фільтр"
+    "defaultMessage": "РЎРёРЅС…СЂРѕРЅС–Р·СѓРІР°С‚Рё С„С–Р»СЊС‚СЂ"
   },
   "search.filter.locked.default.title": {
-    "defaultMessage": "{type} заблоковано"
+    "defaultMessage": "{type} Р·Р°Р±Р»РѕРєРѕРІР°РЅРѕ"
   },
   "search.filter.locked.default.unlock": {
-    "defaultMessage": "Розблокувати фільтр"
+    "defaultMessage": "Р РѕР·Р±Р»РѕРєСѓРІР°С‚Рё С„С–Р»СЊС‚СЂ"
   },
   "search.filter.option.exclusion.add.tooltip": {
-    "defaultMessage": "Виключити"
+    "defaultMessage": "Р’РёРєР»СЋС‡РёС‚Рё"
   },
   "search.filter.option.search.clear.aria_label": {
-    "defaultMessage": "Очистити пошук"
+    "defaultMessage": "РћС‡РёСЃС‚РёС‚Рё РїРѕС€СѓРє"
   },
   "search.filter.option.search.placeholder": {
-    "defaultMessage": "Пошук…"
+    "defaultMessage": "РџРѕС€СѓРєвЂ¦"
   },
   "search.filter.option.show_fewer": {
-    "defaultMessage": "Показати менше"
+    "defaultMessage": "РџРѕРєР°Р·Р°С‚Рё РјРµРЅС€Рµ"
   },
   "search.filter.option.show_more": {
-    "defaultMessage": "Показати більше"
+    "defaultMessage": "РџРѕРєР°Р·Р°С‚Рё Р±С–Р»СЊС€Рµ"
   },
   "search.filter_type.environment": {
-    "defaultMessage": "Середовище"
+    "defaultMessage": "РЎРµСЂРµРґРѕРІРёС‰Рµ"
   },
   "search.filter_type.environment.client": {
-    "defaultMessage": "Для клієнта"
+    "defaultMessage": "РљР»С–С”РЅС‚"
   },
   "search.filter_type.environment.server": {
-    "defaultMessage": "Для сервера"
+    "defaultMessage": "Р”Р»СЏ СЃРµСЂРІРµСЂР°"
   },
   "search.filter_type.game_version": {
-    "defaultMessage": "Версія гри"
+    "defaultMessage": "Р’РµСЂСЃС–СЏ РіСЂРё"
   },
   "search.filter_type.game_version.all_versions": {
-    "defaultMessage": "Показати всі версії"
+    "defaultMessage": "РџРѕРєР°Р·Р°С‚Рё РІСЃС– РІРµСЂСЃС–С—"
   },
   "search.filter_type.license": {
-    "defaultMessage": "Ліцензія"
+    "defaultMessage": "Р›С–С†РµРЅР·С–СЏ"
   },
   "search.filter_type.license.open_source": {
-    "defaultMessage": "Відкритий код"
+    "defaultMessage": "Р’С–РґРєСЂРёС‚РёР№ РєРѕРґ"
   },
   "search.filter_type.mod_loader": {
-    "defaultMessage": "Завантажувач"
+    "defaultMessage": "Р—Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡"
   },
   "search.filter_type.modpack_loader": {
-    "defaultMessage": "Завантажувач"
+    "defaultMessage": "Р—Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡"
   },
   "search.filter_type.plugin_loader": {
-    "defaultMessage": "Завантажувач"
+    "defaultMessage": "Р—Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡"
   },
   "search.filter_type.plugin_platform": {
-    "defaultMessage": "Платформа"
+    "defaultMessage": "РџР»Р°С‚С„РѕСЂРјР°"
   },
   "search.filter_type.project_id": {
-    "defaultMessage": "ID проєкту"
+    "defaultMessage": "ID РїСЂРѕС”РєС‚Сѓ"
+  },
+  "search.filter_type.server_content_type": {
+    "defaultMessage": "РўРёРї"
+  },
+  "search.filter_type.server_language": {
+    "defaultMessage": "РњРѕРІР°"
+  },
+  "search.filter_type.server_region": {
+    "defaultMessage": "Р РµРіС–РѕРЅ"
+  },
+  "search.filter_type.server_status": {
+    "defaultMessage": "РЎС‚Р°С‚СѓСЃ"
   },
   "search.filter_type.shader_loader": {
-    "defaultMessage": "Завантажувач"
+    "defaultMessage": "Р—Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡"
+  },
+  "search.server_content_type.modpack": {
+    "defaultMessage": "РњРѕРґРёС„С–РєРѕРІР°РЅРёР№"
+  },
+  "search.server_content_type.vanilla": {
+    "defaultMessage": "Р’Р°РЅС–Р»СЊРЅРёР№"
+  },
+  "servers.backups.admonition.backup-failed.description": {
+    "defaultMessage": "РџС–Рґ С‡Р°СЃ СЃС‚РІРѕСЂРµРЅРЅСЏ В«{backupName}В» СЃС‚Р°Р»Р°СЃСЏ РїРѕРјРёР»РєР°. РЎРїСЂРѕР±СѓР№С‚Рµ С‰Рµ СЂР°Р· Р°Р±Рѕ Р·РІРµСЂРЅС–С‚СЊСЃСЏ РґРѕ СЃР»СѓР¶Р±Рё РїС–РґС‚СЂРёРјРєРё, СЏРєС‰Рѕ РїСЂРѕР±Р»РµРјР° РЅРµ Р·РЅРёРєР°С”."
+  },
+  "servers.backups.admonition.backup-failed.title": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ СЃС‚РІРѕСЂРёС‚Рё СЂРµР·РµСЂРІРЅСѓ РєРѕРїС–СЋ"
+  },
+  "servers.backups.admonition.backup-queued.description": {
+    "defaultMessage": "В«{backupName}В» РЅР°СЂР°Р·С– РІ С‡РµСЂР·С– Р№ СЂРѕР·РїРѕС‡РЅРµС‚СЊСЃСЏ РЅРµР·Р°Р±Р°СЂРѕРј."
+  },
+  "servers.backups.admonition.backup-queued.title": {
+    "defaultMessage": "Р РµР·РµСЂРІРЅРµ РєРѕРїС–СЋРІР°РЅРЅСЏ РІ С‡РµСЂР·С–"
+  },
+  "servers.backups.admonition.creating-backup.description": {
+    "defaultMessage": "Р—Р±РµСЂРµР¶РµРЅРЅСЏ РґР°РЅРёС… СЃРІС–С‚Сѓ Р№ РєРѕРЅС„С–РіСѓСЂР°С†С–С— СЃРµСЂРІРµСЂР° РґР»СЏ В«{backupName}В». Р¦Рµ РјРѕР¶Рµ Р·Р°Р№РЅСЏС‚Рё РєС–Р»СЊРєР° С…РІРёР»РёРЅ."
+  },
+  "servers.backups.admonition.creating-backup.title": {
+    "defaultMessage": "РЎС‚РІРѕСЂРµРЅРЅСЏ СЂРµР·РµСЂРІРЅРѕС— РєРѕРїС–С—"
+  },
+  "servers.backups.admonition.fallback-name": {
+    "defaultMessage": "Р’Р°С€Р° СЂРµР·РµСЂРІРЅР° РєРѕРїС–СЏ"
+  },
+  "servers.backups.admonition.restore-failed.description": {
+    "defaultMessage": "РџС–Рґ С‡Р°СЃ РІС–РґРЅРѕРІР»РµРЅРЅСЏ Р· В«{backupName}В» СЃС‚Р°Р»Р°СЃСЏ РїРѕРјРёР»РєР°. РЎРїСЂРѕР±СѓР№С‚Рµ С‰Рµ СЂР°Р· Р°Р±Рѕ Р·РІРµСЂРЅС–С‚СЊСЃСЏ РґРѕ СЃР»СѓР¶Р±Рё РїС–РґС‚СЂРёРјРєРё, СЏРєС‰Рѕ РїСЂРѕР±Р»РµРјР° РЅРµ Р·РЅРёРєР°С”."
+  },
+  "servers.backups.admonition.restore-failed.title": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РІС–РґРЅРѕРІРёС‚Рё Р· СЂРµР·РµСЂРІРЅРѕС— РєРѕРїС–С—"
+  },
+  "servers.backups.admonition.restore-queued.description": {
+    "defaultMessage": "Р’С–РґРЅРѕРІР»РµРЅРЅСЏ Р· В«{backupName}В» РЅР°СЂР°Р·С– РІ С‡РµСЂР·С– Р№ СЂРѕР·РїРѕС‡РЅРµС‚СЊСЃСЏ РЅРµР·Р°Р±Р°СЂРѕРј."
+  },
+  "servers.backups.admonition.restore-queued.title": {
+    "defaultMessage": "Р’С–РґРЅРѕРІР»РµРЅРЅСЏ Р· СЂРµР·РµСЂРІРЅРѕС— РєРѕРїС–С— РЅР°СЂР°Р·С– РІ С‡РµСЂР·С–"
+  },
+  "servers.backups.admonition.restore-successful.description": {
+    "defaultMessage": "Р’Р°С€ СЃРµСЂРІРµСЂ Р±СѓР»Рѕ РІС–РґРЅРѕРІР»РµРЅРѕ РґРѕ В«{backupName}В» С– РіРѕС‚РѕРІРёР№ РґРѕ Р·Р°РїСѓСЃРєСѓ."
+  },
+  "servers.backups.admonition.restore-successful.title": {
+    "defaultMessage": "РЈСЃРїС–С€РЅРµ РІС–РґРЅРѕРІР»РµРЅРЅСЏ Р· СЂРµР·РµСЂРІРЅРѕС— РєРѕРїС–С—"
+  },
+  "servers.backups.admonition.restoring-backup.description": {
+    "defaultMessage": "Р’С–РґРЅРѕРІР»РµРЅРЅСЏ РІР°С€РѕРіРѕ СЃРµСЂРІРµСЂР° Р· В«{backupName}В». Р¦Рµ РјРѕР¶Рµ Р·Р°Р№РЅСЏС‚Рё РєС–Р»СЊРєР° С…РІРёР»РёРЅ."
+  },
+  "servers.backups.admonition.restoring-backup.title": {
+    "defaultMessage": "Р’С–РґРЅРѕРІР»РµРЅРЅСЏ Р· СЂРµР·РµСЂРІРЅРѕС— РєРѕРїС–С—"
   },
   "servers.backups.item.auto": {
-    "defaultMessage": "Автоматично"
+    "defaultMessage": "РђРІС‚РѕРјР°С‚РёС‡РЅРѕ"
   },
   "servers.backups.item.backup-schedule": {
-    "defaultMessage": "Розклад резервного копіювання"
-  },
-  "servers.backups.item.creating-backup": {
-    "defaultMessage": "Створення резервної копії…"
+    "defaultMessage": "Р РѕР·РєР»Р°Рґ СЂРµР·РµСЂРІРЅРѕРіРѕ РєРѕРїС–СЋРІР°РЅРЅСЏ"
   },
   "servers.backups.item.failed-to-create-backup": {
-    "defaultMessage": "Не вдалося створити резервну копію"
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ СЃС‚РІРѕСЂРёС‚Рё СЂРµР·РµСЂРІРЅСѓ РєРѕРїС–СЋ"
   },
   "servers.backups.item.failed-to-restore-backup": {
-    "defaultMessage": "Не вдалося відновити з резервної копії"
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РІС–РґРЅРѕРІРёС‚Рё Р· СЂРµР·РµСЂРІРЅРѕС— РєРѕРїС–С—"
   },
   "servers.backups.item.manual-backup": {
-    "defaultMessage": "Ручне резервне копіювання"
-  },
-  "servers.backups.item.queued-for-backup": {
-    "defaultMessage": "Резервне копіювання в черзі"
-  },
-  "servers.backups.item.queued-for-restore": {
-    "defaultMessage": "Відновлення в черзі"
+    "defaultMessage": "Р СѓС‡РЅРµ СЂРµР·РµСЂРІРЅРµ РєРѕРїС–СЋРІР°РЅРЅСЏ"
   },
   "servers.backups.item.rename": {
-    "defaultMessage": "Перейменувати"
+    "defaultMessage": "РџРµСЂРµР№РјРµРЅСѓРІР°С‚Рё"
   },
   "servers.backups.item.restore": {
-    "defaultMessage": "Відновлення"
+    "defaultMessage": "Р’С–РґРЅРѕРІР»РµРЅРЅСЏ"
   },
-  "servers.backups.item.restoring-backup": {
-    "defaultMessage": "Відновлення з резервної копії…"
+  "servers.busy.backup-creating": {
+    "defaultMessage": "РўСЂРёРІР°С” СЃС‚РІРѕСЂРµРЅРЅСЏ СЂРµР·РµСЂРІРЅРѕС— РєРѕРїС–С—"
+  },
+  "servers.busy.backup-restoring": {
+    "defaultMessage": "РўСЂРёРІР°С” РІС–РґРЅРѕРІР»РµРЅРЅСЏ СЂРµР·РµСЂРІРЅРѕС— РєРѕРїС–С—"
+  },
+  "servers.busy.installing": {
+    "defaultMessage": "РЎРµСЂРІРµСЂ СѓСЃС‚Р°РЅРѕРІР»СЋС”С‚СЊСЃСЏ"
+  },
+  "servers.busy.syncing-content": {
+    "defaultMessage": "РўСЂРёРІР°С” СЃРёРЅС…СЂРѕРЅС–Р·Р°С†С–СЏ РІРјС–СЃС‚Сѓ"
+  },
+  "servers.list-empty.already-have-server-label": {
+    "defaultMessage": "РЈР¶Рµ РјР°С”С‚Рµ СЃРµСЂРІРµСЂ?"
+  },
+  "servers.list-empty.learn-more-link": {
+    "defaultMessage": "Р‘С–Р»СЊС€Рµ РїСЂРѕ Modrinth Hosting"
+  },
+  "servers.list-empty.modrinth-hosting-label": {
+    "defaultMessage": "Modrinth Hosting"
+  },
+  "servers.list-empty.new-server-button": {
+    "defaultMessage": "РќРѕРІРёР№ СЃРµСЂРІРµСЂ"
+  },
+  "servers.list-empty.no-servers-description": {
+    "defaultMessage": "РЈСЃС‚Р°РЅРѕРІР»СЋР№С‚Рµ РјРѕРґРё, Р·Р°РїСЂРѕС€СѓР№С‚Рµ РґСЂСѓР·С–РІ С– РіСЂР°Р№С‚Рµ СЂР°Р·РѕРј С–Р· Mist Launcher."
+  },
+  "servers.list-empty.no-servers-title": {
+    "defaultMessage": "РЎРµСЂРІРµСЂС–РІ С‰Рµ РЅРµРјР°С”"
+  },
+  "servers.list-empty.one-click-mod-installs-description": {
+    "defaultMessage": "Р’РёР±РµСЂС–С‚СЊ СЃРІРѕС— СѓР»СЋР±Р»РµРЅС– РјРѕРґРё, Р° РјРё РїРѕРґР±Р°С”РјРѕ РїСЂРѕ СЂРµС€С‚Сѓ."
+  },
+  "servers.list-empty.one-click-mod-installs-title": {
+    "defaultMessage": "РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ РІ РѕРґРЅРµ РЅР°С‚РёСЃРєР°РЅРЅСЏ"
+  },
+  "servers.list-empty.play-with-friends-description": {
+    "defaultMessage": "Р—Р°РїСЂРѕСЃС–С‚СЊ РґСЂСѓР·С–РІ С– РЅР°Р»Р°С€С‚СѓР№С‚Рµ С—С… РїСЂСЏРјРѕ РІ Mist Launcher."
+  },
+  "servers.list-empty.play-with-friends-title": {
+    "defaultMessage": "Р“СЂР°Р№С‚Рµ Р· РґСЂСѓР·СЏРјРё"
+  },
+  "servers.list-empty.sign-in-button": {
+    "defaultMessage": "РЈРІС–Р№С‚Рё"
+  },
+  "servers.list-empty.simple-setup-description": {
+    "defaultMessage": "РќР°Р»Р°С€С‚СѓР№С‚Рµ СЃРІС–Р№ СЃРµСЂРІРµСЂ СЏРє СЃРІС–С‚ РґР»СЏ РіСЂРё РЅР°РѕРґРёРЅС†С–."
+  },
+  "servers.list-empty.simple-setup-title": {
+    "defaultMessage": "РџСЂРѕСЃС‚Рµ РЅР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ"
+  },
+  "servers.listing.copied-label": {
+    "defaultMessage": "РЎРєРѕРїС–Р№РѕРІР°РЅРѕ"
+  },
+  "servers.listing.copy-code-tooltip": {
+    "defaultMessage": "РЎРєРѕРїС–СЋРІР°С‚Рё РєРѕРґ Сѓ Р±СѓС„РµСЂ РѕР±РјС–РЅСѓ"
+  },
+  "servers.listing.copy-id-label": {
+    "defaultMessage": "РЎРєРѕРїС–СЋРІР°С‚Рё ID"
+  },
+  "servers.listing.download-latest-backup-tooltip": {
+    "defaultMessage": "Р—Р°РІР°РЅС‚Р°Р¶РёС‚Рё РѕСЃС‚Р°РЅРЅСЋ СЂРµР·РµСЂРІРЅСѓ РєРѕРїС–СЋ"
+  },
+  "servers.listing.manage-billing-label": {
+    "defaultMessage": "РљРµСЂСѓРІР°РЅРЅСЏ РїР»Р°С‚РµР¶Р°РјРё"
+  },
+  "servers.listing.new-label": {
+    "defaultMessage": "РќРѕРІРёР№"
+  },
+  "servers.listing.notice.files-kept-for-download": {
+    "defaultMessage": "Р’Р°С€С– С„Р°Р№Р»Рё Р·Р±РµСЂС–РіР°С‚РёРјСѓС‚СЊСЃСЏ С‰Рµ <days-remaining>{daysRemaining} {daysRemaining, plural, one {РґРµРЅСЊ} few {РґРЅС–} many {РґРЅС–РІ} other {РґРЅС–РІ} }</days-remaining>. Р—РІРµСЂРЅС–С‚СЊСЃСЏ РґРѕ СЃР»СѓР¶Р±Рё РїС–РґС‚СЂРёРјРєРё, С‰РѕР± Р·Р°РІР°РЅС‚Р°Р¶РёС‚Рё С„Р°Р№Р»Рё, РїРµСЂС€ РЅС–Р¶ С—С… Р±СѓРґРµ РІРёРґР°Р»РµРЅРѕ. "
+  },
+  "servers.listing.notice.files-preserved-after-cancellation": {
+    "defaultMessage": "Р’Р°С€С– С„Р°Р№Р»Рё Р·Р±РµСЂС–РіР°С‚РёРјСѓС‚СЊСЃСЏ РїСЂРѕС‚СЏРіРѕРј 30 РґРЅС–РІ РїС–СЃР»СЏ СЃРєР°СЃСѓРІР°РЅРЅСЏ."
+  },
+  "servers.listing.notice.moderated": {
+    "defaultMessage": "Р’Р°С€ СЃРµСЂРІРµСЂ РїСЂРёР·СѓРїРёРЅРµРЅРѕ РјРѕРґРµСЂР°С†С–С”СЋ. "
+  },
+  "servers.listing.notice.pending-change": {
+    "defaultMessage": "Р’Р°С€ СЃРµСЂРІРµСЂ Р±СѓРґРµ {verb} РґРѕ {planSize} РїР»Р°РЅСѓ <date>{formattedDate}</date>. "
+  },
+  "servers.listing.notice.provisioning": {
+    "defaultMessage": "Р—Р°С‡РµРєР°Р№С‚Рµ, РїРѕРєРё РјРё РЅР°Р»Р°С€С‚СѓС”РјРѕ РІР°С€ СЃРµСЂРІРµСЂ. Р¦Рµ РјРѕР¶Рµ С‚СЂРёРІР°С‚Рё РґРѕ 10 С…РІРёР»РёРЅ."
+  },
+  "servers.listing.notice.subscription-cancelled": {
+    "defaultMessage": "Р’Р°С€Сѓ РїС–РґРїРёСЃРєСѓ СЃРєР°СЃРѕРІР°РЅРѕ."
+  },
+  "servers.listing.notice.subscription-cancelled-on-date": {
+    "defaultMessage": "Р’Р°С€Сѓ РїС–РґРїРёСЃРєСѓ СЃРєР°СЃРѕРІР°РЅРѕ <date>{formattedDate}</date>. "
+  },
+  "servers.listing.notice.subscription-cancelled-payment-failed": {
+    "defaultMessage": "Р’Р°С€Сѓ РїС–РґРїРёСЃРєСѓ СЃРєР°СЃРѕРІР°РЅРѕ С‡РµСЂРµР· РїРѕРјРёР»РєСѓ РѕРїР»Р°С‚Рё."
+  },
+  "servers.listing.notice.subscription-cancelled-payment-failed-on-date": {
+    "defaultMessage": "Р’Р°С€Сѓ РїС–РґРїРёСЃРєСѓ СЃРєР°СЃРѕРІР°РЅРѕ <date>{formattedDate}</date> С‡РµСЂРµР· РїРѕРјРёР»РєСѓ РѕРїР»Р°С‚Рё. "
+  },
+  "servers.listing.notice.subscription-set-to-cancel": {
+    "defaultMessage": "Р’Р°С€Сѓ РїС–РґРїРёСЃРєСѓ РІСЃС‚Р°РЅРѕРІР»РµРЅРѕ РЅР° СЃРєР°СЃСѓРІР°РЅРЅСЏ."
+  },
+  "servers.listing.notice.subscription-set-to-cancel-on-date": {
+    "defaultMessage": "Р’Р°С€Сѓ РїС–РґРїРёСЃРєСѓ РІСЃС‚Р°РЅРѕРІР»РµРЅРѕ РЅР° СЃРєР°СЃРѕРІР°РЅРЅСЏ <date>{formattedDate}</date>. "
+  },
+  "servers.listing.notice.suspended": {
+    "defaultMessage": "Р’Р°С€ СЃРµСЂРІРµСЂ РїСЂРёР·СѓРїРёРЅРµРЅРѕ. Р”Р»СЏ РїРѕРґСЂРѕР±РёС†СЊ Р·РІРµСЂРЅС–С‚СЊСЃСЏ РґРѕ СЃР»СѓР¶Р±Рё РїС–РґС‚СЂРёРјРєРё Modrinth."
+  },
+  "servers.listing.notice.upgrading": {
+    "defaultMessage": "РђРїР°СЂР°С‚РЅРµ Р·Р°Р±РµР·РїРµС‡РµРЅРЅСЏ РІР°С€РѕРіРѕ СЃРµСЂРІРµСЂР° Р·Р°СЂР°Р· РѕРЅРѕРІР»СЋС”С‚СЊСЃСЏ С‚Р° РЅРµР·Р°Р±Р°СЂРѕРј РІС–РґРЅРѕРІРёС‚СЊСЃСЏ."
+  },
+  "servers.listing.resubscribe-label": {
+    "defaultMessage": "РџС–РґРїРёСЃР°С‚РёСЃСЏ РїРѕРІС‚РѕСЂРЅРѕ"
+  },
+  "servers.listing.server-icon-alt": {
+    "defaultMessage": "Р—РЅР°С‡РѕРє СЃРµСЂРІРµСЂР°"
+  },
+  "servers.listing.support-label": {
+    "defaultMessage": "РџС–РґС‚СЂРёРјРєР°"
+  },
+  "servers.listing.using-project-label": {
+    "defaultMessage": "Р’РёРєРѕСЂРёСЃС‚Р°РЅРЅСЏ {projectTitle}"
+  },
+  "servers.manage.checking-for-new-servers": {
+    "defaultMessage": "РџРµСЂРµРІС–СЂРєР° РґР»СЏ РЅРѕРІРёС… СЃРµСЂРІРµСЂС–РІвЂ¦"
+  },
+  "servers.manage.confirm-leave.body": {
+    "defaultMessage": "Р’РёРєРѕРЅСѓС”С‚СЊСЃСЏ Р·Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ С„Р°Р№Р»Сѓ. Р—Р°Р»РёС€РµРЅРЅСЏ С†С–С”С— СЃС‚РѕСЂС–РЅРєРё СЃРєР°СЃСѓС” Р·Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ."
+  },
+  "servers.manage.confirm-leave.upload-in-progress": {
+    "defaultMessage": "Р’РёРІР°РЅС‚Р°Р¶РµРЅРЅСЏ С‚СЂРёРІР°С”"
+  },
+  "servers.manage.contact-support-button": {
+    "defaultMessage": "Р—РІ'СЏР·Р°С‚РёСЃСЏ Р·С– СЃР»СѓР¶Р±РѕСЋ РїС–РґС‚СЂРёРјРєРё Modrinth"
+  },
+  "servers.manage.error.alert-notice": {
+    "defaultMessage": "РќР°С€С– СЃРёСЃС‚РµРјРё Р°РІС‚РѕРјР°С‚РёС‡РЅРѕ СЃРїРѕРІС–С‰Р°СЋС‚СЊ РЅР°С€Сѓ РєРѕРјР°РЅРґСѓ РїСЂРѕ РїСЂРѕР±Р»РµРјСѓ. РњРё РІР¶Рµ РїСЂР°С†СЋС”РјРѕ РЅР°Рґ С‚РёРј, С‰РѕР± РїРѕРІРµСЂРЅСѓС‚Рё С—С… Сѓ РјРµСЂРµР¶Сѓ."
+  },
+  "servers.manage.error.description": {
+    "defaultMessage": "РЈ РЅР°СЃ РјРѕР¶СѓС‚СЊ РІРёРЅРёРєРЅСѓС‚Рё С‚РёРјС‡Р°СЃРѕРІС– РїСЂРѕР±Р»РµРјРё Р· РЅР°С€РёРјРё СЃРµСЂРІРµСЂР°РјРё."
+  },
+  "servers.manage.error.details": {
+    "defaultMessage": "РџРѕРґСЂРѕР±РёС†С– РїРѕРјРёР»РєРё:"
+  },
+  "servers.manage.error.queue-notice": {
+    "defaultMessage": "РЇРєС‰Рѕ РІРё РЅРµС‰РѕРґР°РІРЅРѕ РїСЂРёРґР±Р°Р»Рё СЃРІС–Р№ СЃРµСЂРІРµСЂ Modrinth Hosting, РІС–РЅ Р·Р°СЂР°Р· Сѓ С‡РµСЂР·С– С‚Р° Р·вЂ™СЏРІРёС‚СЊСЃСЏ С‚СѓС‚, С‰РѕР№РЅРѕ Р±СѓРґРµ РіРѕС‚РѕРІРёР№. <warning>РќРµ РЅР°РјР°РіР°Р№С‚РµСЃСЏ РїСЂРёРґР±Р°С‚Рё РЅРѕРІРёР№ СЃРµСЂРІРµСЂ.</warning>"
+  },
+  "servers.manage.error.support-notice": {
+    "defaultMessage": "РЇРєС‰Рѕ РІР°Рј РїРѕС‚СЂС–Р±РЅР° РїРµСЂСЃРѕРЅР°Р»СЊРЅР° РїС–РґС‚СЂРёРјРєР° С‰РѕРґРѕ СЃС‚Р°РЅСѓ РІР°С€РѕРіРѕ СЃРµСЂРІРµСЂР°, Р·РІРµСЂРЅС–С‚СЊСЃСЏ РґРѕ СЃР»СѓР¶Р±Рё РїС–РґС‚СЂРёРјРєРё Modrinth."
+  },
+  "servers.manage.error.title": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ Р·Р°РІР°РЅС‚Р°Р¶РёС‚Рё СЃРµСЂРІРµСЂР°"
+  },
+  "servers.manage.handle-error.title": {
+    "defaultMessage": "Р’РёРЅРёРєР»Р° РїРѕРјРёР»РєР°"
+  },
+  "servers.manage.new-server-button": {
+    "defaultMessage": "РќРѕРІРёР№ СЃРµСЂРІРµСЂ"
+  },
+  "servers.manage.no-servers-found": {
+    "defaultMessage": "РЎРµСЂРІРµСЂС–РІ РЅРµ Р·РЅР°Р№РґРµРЅРѕ."
+  },
+  "servers.manage.purchase-unavailable.text": {
+    "defaultMessage": "РџР»Р°С‚С–Р¶РЅР° С–РЅС„РѕСЂРјР°С†С–СЏ С‰Рµ Р·Р°РІР°РЅС‚Р°Р¶СѓС”С‚СЊСЃСЏ. РџРµСЂРµРІС–СЂРєР° РІС–РґРєСЂРёС”С‚СЊСЃСЏ РєРѕР»Рё РІСЃРµ Р±СѓРґРµ РіРѕС‚РѕРІРѕ."
+  },
+  "servers.manage.purchase-unavailable.title": {
+    "defaultMessage": "РџРѕРєСѓРїРєР° РЅРµРґРѕСЃС‚СѓРїРЅР°"
+  },
+  "servers.manage.reload-button": {
+    "defaultMessage": "РџРµСЂРµР·Р°РІР°РЅС‚Р°Р¶РёС‚Рё"
+  },
+  "servers.manage.resubscribe-error.text": {
+    "defaultMessage": "РџС–Рґ С‡Р°СЃ РїРѕРЅРѕРІР»РµРЅРЅСЏ РїС–РґРїРёСЃРєРё РЅР° СЃРµСЂРІРµСЂ Modrinth СЃС‚Р°Р»Р°СЃСЏ РїРѕРјРёР»РєР°."
+  },
+  "servers.manage.resubscribe-error.title": {
+    "defaultMessage": "РџРѕРјРёР»РєР° РїРѕРІС‚РѕСЂРЅРѕС— РїС–РґРїРёСЃРєРё"
+  },
+  "servers.manage.resubscribe-submitted.text": {
+    "defaultMessage": "РЇРєС‰Рѕ СЃРµСЂРІРµСЂ РЅР°СЂР°Р·С– СЃРєР°СЃРѕРІР°РЅРѕ, РїРѕРІС‚РѕСЂРЅР° СЃРїСЂРѕР±Р° РѕРїР»Р°С‚Рё РјРѕР¶Рµ Р·Р°Р№РЅСЏС‚Рё РґРѕ 10 С…РІРёР»РёРЅ."
+  },
+  "servers.manage.resubscribe-submitted.title": {
+    "defaultMessage": "Р—Р°РїРёС‚ РЅР° РїРѕРІС‚РѕСЂРЅСѓ РїС–РґРїРёСЃРєСѓ РЅР°РґС–СЃР»Р°РЅРѕ"
+  },
+  "servers.manage.resubscribe-success.text": {
+    "defaultMessage": "РџРѕРІС‚РѕСЂРЅСѓ РїС–РґРїРёСЃРєСѓ РЅР° СЃРµСЂРІРµСЂ СѓСЃРїС–С€РЅР°"
+  },
+  "servers.manage.resubscribe-success.title": {
+    "defaultMessage": "РЈСЃРїС–С…"
+  },
+  "servers.manage.search-placeholder": {
+    "defaultMessage": "РџРѕС€СѓРє {count} {count, plural, one {СЃРµСЂРІРµСЂР°} few {СЃРµСЂРІРµСЂС–РІ} many {СЃРµСЂРІРµСЂС–РІ} other {СЃРµСЂРІРµСЂС–РІ}}вЂ¦"
+  },
+  "servers.manage.servers-title": {
+    "defaultMessage": "Modrinth Hosting"
+  },
+  "servers.manage.settings-hint.description": {
+    "defaultMessage": "РўРµРїРµСЂ С—С… РјРѕР¶РЅР° Р·РЅР°Р№С‚Рё С‚СѓС‚!"
+  },
+  "servers.manage.settings-hint.dismiss": {
+    "defaultMessage": "РќРµ РїРѕРєР°Р·СѓРІР°С‚Рё Р·РЅРѕРІСѓ"
+  },
+  "servers.manage.settings-hint.title": {
+    "defaultMessage": "РќР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ РІР°С€РѕРіРѕ СЃРµСЂРІРµСЂР° РїРµСЂРµРјС–С‰РµРЅРѕ"
+  },
+  "servers.medal-listing.countdown.remaining": {
+    "defaultMessage": "Р—Р°Р»РёС€РёР»РѕСЃСЏ <days-count>{days}</days-count> {days, plural, one {РґРµРЅСЊ} few {РґРЅС–} other {РґРЅС–РІ}} <hours-count>{hours}</hours-count> {hours, plural, one {РіРѕРґРёРЅР°} few {РіРѕРґРёРЅРё} other {РіРѕРґРёРЅ}} <minutes-count>{minutes}</minutes-count> {minutes, plural, one {С…РІРёР»РёРЅР°} few {С…РІРёР»РёРЅРё} other {С…РІРёР»РёРЅ}} <seconds-count>{seconds}</seconds-count> {seconds, plural, one {СЃРµРєСѓРЅРґР°} few {СЃРµРєСѓРЅРґРё} other {СЃРµРєСѓРЅРґ}}вЂ¦"
+  },
+  "servers.medal-listing.new-server-label": {
+    "defaultMessage": "РќРѕРІРёР№ СЃРµСЂРІРµСЂ"
+  },
+  "servers.medal-listing.notice.medal-trial-ended": {
+    "defaultMessage": "РџСЂРѕР±РЅР° РІРµСЂСЃС–СЏ РІР°С€РѕРіРѕ СЃРµСЂРІРµСЂР° Medal Р·Р°РєС–РЅС‡РёР»Р°СЃСЏ, Р° СЂРѕР±РѕС‚Сѓ СЃРµСЂРІРµСЂР° РїСЂРёР·СѓРїРёРЅРµРЅРѕ. РћРЅРѕРІС–С‚СЊ, С‰РѕР± РїСЂРѕРґРѕРІР¶СѓРІР°С‚Рё РІРёРєРѕСЂРёСЃС‚РѕРІСѓРІР°С‚Рё СЃРІС–Р№ СЃРµСЂРІРµСЂ."
+  },
+  "servers.medal-listing.notice.suspended": {
+    "defaultMessage": "Р’Р°С€ СЃРµСЂРІРµСЂ РїСЂРёР·СѓРїРёРЅРµРЅРѕ. РћРЅРѕРІС–С‚СЊ СЃРІРѕСЋ РїР»Р°С‚С–Р¶РЅСѓ С–РЅС„РѕСЂРјР°С†С–СЋ Р°Р±Рѕ Р·РІРµСЂРЅС–С‚СЊСЃСЏ РґРѕ СЃР»СѓР¶Р±Рё РїС–РґС‚СЂРёРјРєРё Modrinth РґР»СЏ РїРѕРґСЂРѕР±РёС†СЊ."
+  },
+  "servers.medal-listing.notice.suspended-with-reason": {
+    "defaultMessage": "Р’Р°С€ СЃРµСЂРІРµСЂ РїСЂРёР·СѓРїРёРЅРµРЅРѕ: {reason}. РћРЅРѕРІС–С‚СЊ СЃРІРѕСЋ РїР»Р°С‚С–Р¶РЅСѓ С–РЅС„РѕСЂРјР°С†С–СЋ Р°Р±Рѕ Р·РІРµСЂРЅС–С‚СЊСЃСЏ РґРѕ СЃР»СѓР¶Р±Рё РїС–РґС‚СЂРёРјРєРё Modrinth РґР»СЏ РїРѕРґСЂРѕР±РёС†СЊ."
+  },
+  "servers.medal-listing.notice.upgrading": {
+    "defaultMessage": "РђРїР°СЂР°С‚РЅРµ Р·Р°Р±РµР·РїРµС‡РµРЅРЅСЏ РІР°С€РѕРіРѕ СЃРµСЂРІРµСЂР° Р·Р°СЂР°Р· РѕРЅРѕРІР»СЋС”С‚СЊСЃСЏ С‚Р° РЅРµР·Р°Р±Р°СЂРѕРј РІС–РґРЅРѕРІРёС‚СЊСЃСЏ."
+  },
+  "servers.medal-listing.server-icon-alt": {
+    "defaultMessage": "Р—РЅР°С‡РѕРє СЃРµСЂРІРµСЂР°"
+  },
+  "servers.medal-listing.upgrade-button": {
+    "defaultMessage": "РџРѕРєСЂР°С‰РёС‚Рё"
+  },
+  "servers.medal-listing.using-project-label": {
+    "defaultMessage": "Р’РёРєРѕСЂРёСЃС‚Р°РЅРЅСЏ {projectTitle}"
   },
   "servers.notice.dismiss": {
-    "defaultMessage": "Відхилити"
+    "defaultMessage": "Р’С–РґС…РёР»РёС‚Рё"
   },
   "servers.notice.dismissable": {
-    "defaultMessage": "Можна відхилити"
+    "defaultMessage": "РњРѕР¶РЅР° РІС–РґС…РёР»РёС‚Рё"
   },
   "servers.notice.heading.attention": {
-    "defaultMessage": "Увага"
+    "defaultMessage": "РЈРІР°РіР°"
   },
   "servers.notice.heading.info": {
-    "defaultMessage": "Інформація"
+    "defaultMessage": "Р†РЅС„РѕСЂРјР°С†С–СЏ"
   },
   "servers.notice.level.critical.name": {
-    "defaultMessage": "Критичний"
+    "defaultMessage": "РљСЂРёС‚РёС‡РЅРёР№"
   },
   "servers.notice.level.info.name": {
-    "defaultMessage": "Інформація"
+    "defaultMessage": "Р†РЅС„РѕСЂРјР°С†С–СЏ"
   },
   "servers.notice.level.survey.name": {
-    "defaultMessage": "Опитування"
+    "defaultMessage": "РћРїРёС‚СѓРІР°РЅРЅСЏ"
   },
   "servers.notice.level.warn.name": {
-    "defaultMessage": "Попередження"
+    "defaultMessage": "РџРѕРїРµСЂРµРґР¶РµРЅРЅСЏ"
   },
   "servers.notice.undismissable": {
-    "defaultMessage": "Не можна відхилити"
+    "defaultMessage": "РќРµ РјРѕР¶РЅР° РІС–РґС…РёР»РёС‚Рё"
+  },
+  "servers.purchase.notification.success.text": {
+    "defaultMessage": "Р’Р°С€Р° РїРѕРєСѓРїРєР° Modrinth Hosting Р±СѓР»Р° СѓСЃРїС–С€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°."
+  },
+  "servers.purchase.notification.success.title": {
+    "defaultMessage": "РЈСЃРїС–С€РЅР° РїРѕРєСѓРїРєР°"
   },
   "servers.purchase.step.payment.description": {
-    "defaultMessage": "З вас ще не стягуватиметься плата."
+    "defaultMessage": "Р— РІР°СЃ С‰Рµ РЅРµ СЃС‚СЏРіСѓРІР°С‚РёРјРµС‚СЊСЃСЏ РїР»Р°С‚Р°."
   },
   "servers.purchase.step.payment.prompt": {
-    "defaultMessage": "Виберіть спосіб оплати"
+    "defaultMessage": "Р’РёР±РµСЂС–С‚СЊ СЃРїРѕСЃС–Р± РѕРїР»Р°С‚Рё"
   },
   "servers.purchase.step.payment.title": {
-    "defaultMessage": "Спосіб оплати"
+    "defaultMessage": "РЎРїРѕСЃС–Р± РѕРїР»Р°С‚Рё"
   },
-  "servers.purchase.step.plan.billed": {
-    "defaultMessage": "оплачується {interval}"
+  "servers.purchase.step.plan.billing-subtitle": {
+    "defaultMessage": "Р”РѕСЃС‚СѓРїРЅРѕ Сѓ РџС–РІРЅС–С‡РЅС–Р№ РђРјРµСЂРёС†С–, Р„РІСЂРѕРїС– С‚Р° РџС–РІРґРµРЅРЅРѕ-СЃС…С–РґРЅС–Р№ РђР·С–С—."
   },
   "servers.purchase.step.plan.custom.desc": {
-    "defaultMessage": "Виберіть індивідуальний план із необхідними вам характеристиками."
+    "defaultMessage": "Р’РёР±РµСЂС–С‚СЊ С–РЅРґРёРІС–РґСѓР°Р»СЊРЅРёР№ РїР»Р°РЅ С–Р· РЅРµРѕР±С…С–РґРЅРёРјРё РІР°Рј С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°РјРё."
+  },
+  "servers.purchase.step.plan.custom.heading": {
+    "defaultMessage": "Р—РЅР°С”С‚Рµ, С‰Рѕ СЃР°РјРµ РІР°Рј РїРѕС‚СЂС–Р±РЅРѕ?"
   },
   "servers.purchase.step.plan.get-started": {
-    "defaultMessage": "Почнімо"
+    "defaultMessage": "РџРѕС‡РЅС–РјРѕ"
+  },
+  "servers.purchase.step.plan.large": {
+    "defaultMessage": "Р’РµР»РёРєРёР№"
   },
   "servers.purchase.step.plan.large.desc": {
-    "defaultMessage": "Ідеально підходить для 15–25 гравців, збірок або великої кількости модів."
+    "defaultMessage": "Р†РґРµР°Р»СЊРЅРѕ РїС–РґС…РѕРґРёС‚СЊ РґР»СЏ 15вЂ“25 РіСЂР°РІС†С–РІ, Р·Р±С–СЂРѕРє Р°Р±Рѕ РІРµР»РёРєРѕС— РєС–Р»СЊРєРѕСЃС‚Рё РјРѕРґС–РІ."
+  },
+  "servers.purchase.step.plan.medium": {
+    "defaultMessage": "РЎРµСЂРµРґРЅС–Р№"
   },
   "servers.purchase.step.plan.medium.desc": {
-    "defaultMessage": "Чудово підходить для 6–15 гравців та кількох модів."
+    "defaultMessage": "Р§СѓРґРѕРІРѕ РїС–РґС…РѕРґРёС‚СЊ РґР»СЏ 6вЂ“15 РіСЂР°РІС†С–РІ С‚Р° РєС–Р»СЊРєРѕС… РјРѕРґС–РІ."
   },
   "servers.purchase.step.plan.most-popular": {
-    "defaultMessage": "Найпопулярніший"
-  },
-  "servers.purchase.step.plan.prompt": {
-    "defaultMessage": "Виберіть план"
+    "defaultMessage": "РќР°Р№РїРѕРїСѓР»СЏСЂРЅС–С€РёР№"
   },
   "servers.purchase.step.plan.select": {
-    "defaultMessage": "Вибрати план"
+    "defaultMessage": "Р’РёР±СЂР°С‚Рё РїР»Р°РЅ"
+  },
+  "servers.purchase.step.plan.small": {
+    "defaultMessage": "РњР°Р»РёР№"
   },
   "servers.purchase.step.plan.small.desc": {
-    "defaultMessage": "Прекрасно підходить для 1–5 друзів із кількома легкими модами."
-  },
-  "servers.purchase.step.plan.subtitle": {
-    "defaultMessage": "Виберіть обсяг оперативної пам’яті та характеристики, які відповідають вашим потребам."
+    "defaultMessage": "РџСЂРµРєСЂР°СЃРЅРѕ РїС–РґС…РѕРґРёС‚СЊ РґР»СЏ 1вЂ“5 РґСЂСѓР·С–РІ С–Р· РєС–Р»СЊРєРѕРјР° Р»РµРіРєРёРјРё РјРѕРґР°РјРё."
   },
   "servers.purchase.step.plan.title": {
-    "defaultMessage": "План"
+    "defaultMessage": "РџР»Р°РЅ"
+  },
+  "servers.purchase.step.plan.your-current-plan": {
+    "defaultMessage": "Р’Р°С€ РїРѕС‚РѕС‡РЅРёР№ РїР»Р°РЅ"
   },
   "servers.purchase.step.region.title": {
-    "defaultMessage": "Регіон"
+    "defaultMessage": "Р РµРіС–РѕРЅ"
   },
   "servers.purchase.step.review.title": {
-    "defaultMessage": "Огляд"
+    "defaultMessage": "РћРіР»СЏРґ"
   },
   "servers.region.central-europe": {
-    "defaultMessage": "Центральна Європа"
+    "defaultMessage": "Р¦РµРЅС‚СЂР°Р»СЊРЅР° Р„РІСЂРѕРїР°"
   },
   "servers.region.custom.prompt": {
-    "defaultMessage": "Скільки оперативної пам’яті ви хочете мати на своєму сервері?"
+    "defaultMessage": "РЎРєС–Р»СЊРєРё РѕРїРµСЂР°С‚РёРІРЅРѕС— РїР°РјвЂ™СЏС‚С– РІРё С…РѕС‡РµС‚Рµ РјР°С‚Рё РЅР° СЃРµСЂРІРµСЂС–?"
   },
   "servers.region.north-america": {
-    "defaultMessage": "Північна Америка"
+    "defaultMessage": "РџС–РІРЅС–С‡РЅР° РђРјРµСЂРёРєР°"
   },
   "servers.region.prompt": {
-    "defaultMessage": "Де б ви хотіли розмістити свій сервер?"
+    "defaultMessage": "Р”Рµ Р± РІРё С…РѕС‚С–Р»Рё СЂРѕР·РјС–СЃС‚РёС‚Рё СЃРІС–Р№ СЃРµСЂРІРµСЂ?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Регіону немає в списку? <link>Повідомте нам, де ви ще хотіли б побачити Modrinth Hosting!</link>"
+    "defaultMessage": "Р РµРіС–РѕРЅСѓ РЅРµРјР°С” РІ СЃРїРёСЃРєСѓ? <link>РџРѕРІС–РґРѕРјС‚Рµ РЅР°Рј, РґРµ РІРё С‰Рµ С…РѕС‚С–Р»Рё Р± РїРѕР±Р°С‡РёС‚Рё Modrinth Hosting!</link>"
   },
   "servers.region.southeast-asia": {
-    "defaultMessage": "Південно-східна Азія"
+    "defaultMessage": "РџС–РІРґРµРЅРЅРѕ-СЃС…С–РґРЅР° РђР·С–СЏ"
   },
   "servers.region.western-europe": {
-    "defaultMessage": "Західна Європа"
+    "defaultMessage": "Р—Р°С…С–РґРЅР° Р„РІСЂРѕРїР°"
+  },
+  "servers.setup.rate-limit.text": {
+    "defaultMessage": "РќР° РІР°СЃ РЅР°РєР»Р°РґРµРЅРѕ РѕР±РјРµР¶РµРЅРЅСЏ С‡РµСЂРµР· РєС–Р»СЊРєС–СЃС‚СЊ Р·Р°РїРёС‚С–РІ. РЎРїСЂРѕР±СѓР№С‚Рµ С‰Рµ СЂР°Р· РїС–Р·РЅС–С€Рµ."
+  },
+  "servers.setup.rate-limit.title": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РїРµСЂРµРІСЃС‚Р°РЅРѕРІРёС‚Рё СЃРµСЂРІРµСЂ"
+  },
+  "servers.setup.reinstall-failed.text": {
+    "defaultMessage": "РџС–Рґ С‡Р°СЃ РїРµСЂРµРІСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ СЃС‚Р°Р»Р°СЃСЏ РЅРµСЃРїРѕРґС–РІР°РЅР° РїРѕРјРёР»РєР°. РЎРїСЂРѕР±СѓР№С‚Рµ С‰Рµ СЂР°Р· РїС–Р·РЅС–С€Рµ."
+  },
+  "servers.setup.reinstall-failed.title": {
+    "defaultMessage": "РќРµ РІРґР°Р»РѕСЃСЏ РїРµСЂРµРІСЃС‚Р°РЅРѕРІРёС‚Рё"
+  },
+  "servers.setup.upload-warning": {
+    "defaultMessage": "Р‘СѓРґСЊ Р»Р°СЃРєР°, РЅРµ Р·Р°РєСЂРёРІР°Р№С‚Рµ С†СЋ СЃС‚РѕСЂС–РЅРєСѓ РїРѕРєРё С‚СЂРёРІР°С” РІРёРІР°РЅС‚Р°Р¶РµРЅРЅСЏ."
+  },
+  "servers.setup.uploading-modpack.header": {
+    "defaultMessage": "Р’РёРІР°РЅС‚Р°Р¶РµРЅРЅСЏ Р·Р±С–СЂРєРё"
   },
   "settings.account.title": {
-    "defaultMessage": "Обліковий запис і безпека"
+    "defaultMessage": "РћР±Р»С–РєРѕРІРёР№ Р·Р°РїРёСЃ, Р±РµР·РїРµРєР°"
   },
   "settings.appearance.title": {
-    "defaultMessage": "Вигляд"
+    "defaultMessage": "Р’РёРіР»СЏРґ"
   },
   "settings.applications.title": {
-    "defaultMessage": "Ваші застосунки"
+    "defaultMessage": "Р’Р°С€С– Р·Р°СЃС‚РѕСЃСѓРЅРєРё"
   },
   "settings.authorized-apps.title": {
-    "defaultMessage": "Авторизовані застосунки"
+    "defaultMessage": "РђРІС‚РѕСЂРёР·РѕРІР°РЅС– Р·Р°СЃС‚РѕСЃСѓРЅРєРё"
   },
   "settings.billing.title": {
-    "defaultMessage": "Оплата і підписки"
+    "defaultMessage": "РћРїР»Р°С‚Р° С– РїС–РґРїРёСЃРєРё"
   },
   "settings.display.theme.dark": {
-    "defaultMessage": "Темна"
+    "defaultMessage": "РўРµРјРЅР°"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Виберіть бажану тему для Modrinth для цього пристрою."
+    "defaultMessage": "Р’РёР±РµСЂС–С‚СЊ Р±Р°Р¶Р°РЅСѓ С‚РµРјСѓ РґР»СЏ Modrinth РґР»СЏ С†СЊРѕРіРѕ РїСЂРёСЃС‚СЂРѕСЋ."
   },
   "settings.display.theme.light": {
-    "defaultMessage": "Світла"
+    "defaultMessage": "РЎРІС–С‚Р»Р°"
   },
   "settings.display.theme.oled": {
     "defaultMessage": "OLED"
   },
   "settings.display.theme.preferred-dark-theme": {
-    "defaultMessage": "Бажано темна тема"
+    "defaultMessage": "Р‘Р°Р¶Р°РЅРѕ С‚РµРјРЅР° С‚РµРјР°"
   },
   "settings.display.theme.preferred-light-theme": {
-    "defaultMessage": "Бажано світла тема"
+    "defaultMessage": "Р‘Р°Р¶Р°РЅРѕ СЃРІС–С‚Р»Р° С‚РµРјР°"
   },
   "settings.display.theme.retro": {
-    "defaultMessage": "Ретро"
+    "defaultMessage": "Р РµС‚СЂРѕ"
   },
   "settings.display.theme.system": {
-    "defaultMessage": "Синхронізувати з системою"
+    "defaultMessage": "РЎРёСЃС‚РµРјРЅР°"
   },
   "settings.display.theme.title": {
-    "defaultMessage": "Колірна тема"
+    "defaultMessage": "РљРѕР»С–СЂРЅР° С‚РµРјР°"
+  },
+  "settings.feature-flags.title": {
+    "defaultMessage": "РЎРїРµС†С–Р°Р»СЊРЅС– С„СѓРЅРєС†С–С—"
   },
   "settings.language.categories.default": {
-    "defaultMessage": "Стандартні мови"
+    "defaultMessage": "РЎС‚Р°РЅРґР°СЂС‚РЅС– РјРѕРІРё"
   },
   "settings.language.categories.search-result": {
-    "defaultMessage": "Результати пошуку"
+    "defaultMessage": "Р РµР·СѓР»СЊС‚Р°С‚Рё РїРѕС€СѓРєСѓ"
   },
   "settings.language.description": {
-    "defaultMessage": "Виберіть бажану мову {platform}. Переклади виконуються добровольцями <crowdin-link>на Crowdin</crowdin-link>."
+    "defaultMessage": "Р’РёР±РµСЂС–С‚СЊ Р±Р°Р¶Р°РЅСѓ РјРѕРІСѓ {platform}. РџРµСЂРµРєР»Р°РґРё РІРёРєРѕРЅСѓСЋС‚СЊСЃСЏ РґРѕР±СЂРѕРІРѕР»СЊС†СЏРјРё <crowdin-link>РЅР° Crowdin</crowdin-link>."
   },
   "settings.language.languages.search-field.placeholder": {
-    "defaultMessage": "Пошук мови…"
+    "defaultMessage": "РџРѕС€СѓРє РјРѕРІРёвЂ¦"
   },
   "settings.language.languages.search-results-announcement": {
-    "defaultMessage": "За вашим запитом {matches, plural,=0 {не знайдено жодної мови} one {знайдено # мову} few{знайдено # мови} other {знайдено # мов}}."
+    "defaultMessage": "Р—Р° РІР°С€РёРј Р·Р°РїРёС‚РѕРј {matches, plural,=0 {РЅРµ Р·РЅР°Р№РґРµРЅРѕ Р¶РѕРґРЅРѕС— РјРѕРІРё} one {Р·РЅР°Р№РґРµРЅРѕ # РјРѕРІСѓ} few{Р·РЅР°Р№РґРµРЅРѕ # РјРѕРІРё} other {Р·РЅР°Р№РґРµРЅРѕ # РјРѕРІ}}."
   },
   "settings.language.languages.search.no-results": {
-    "defaultMessage": "За вашим запитом не знайдено жодної мови."
+    "defaultMessage": "Р—Р° РІР°С€РёРј Р·Р°РїРёС‚РѕРј РЅРµ Р·РЅР°Р№РґРµРЅРѕ Р¶РѕРґРЅРѕС— РјРѕРІРё."
   },
   "settings.language.platform.app": {
-    "defaultMessage": "застосунку"
+    "defaultMessage": "Р·Р°СЃС‚РѕСЃСѓРЅРєСѓ"
   },
   "settings.language.platform.site": {
-    "defaultMessage": "сайту"
+    "defaultMessage": "СЃР°Р№С‚Сѓ"
   },
   "settings.language.title": {
-    "defaultMessage": "Мова"
+    "defaultMessage": "РњРѕРІР°"
   },
   "settings.language.warning": {
-    "defaultMessage": "Зміна мови {platform} може призвести до показу деякого вмісту англійською мовою, якщо переклад недоступний. Переклад {platform} ще не завершений, тому деякий уміст може залишатися англійською мовою для певних мов."
+    "defaultMessage": "Р—РјС–РЅР° РјРѕРІРё {platform} РјРѕР¶Рµ РїСЂРёР·РІРµСЃС‚Рё РґРѕ РїРѕРєР°Р·Сѓ РґРµСЏРєРѕРіРѕ РІРјС–СЃС‚Сѓ Р°РЅРіР»С–Р№СЃСЊРєРѕСЋ РјРѕРІРѕСЋ, СЏРєС‰Рѕ РїРµСЂРµРєР»Р°Рґ РЅРµРґРѕСЃС‚СѓРїРЅРёР№. РџРµСЂРµРєР»Р°Рґ {platform} С‰Рµ РЅРµ Р·Р°РІРµСЂС€РµРЅРёР№, С‚РѕРјСѓ РґРµСЏРєРёР№ СѓРјС–СЃС‚ РјРѕР¶Рµ Р·Р°Р»РёС€Р°С‚РёСЃСЏ Р°РЅРіР»С–Р№СЃСЊРєРѕСЋ РјРѕРІРѕСЋ РґР»СЏ РїРµРІРЅРёС… РјРѕРІ."
   },
   "settings.pats.title": {
-    "defaultMessage": "Персональний токен доступу"
+    "defaultMessage": "РћСЃРѕР±РёСЃС‚РёР№ С‚РѕРєРµРЅ РґРѕСЃС‚СѓРїСѓ"
   },
   "settings.profile.title": {
-    "defaultMessage": "Публічний профіль"
+    "defaultMessage": "РџСѓР±Р»С–С‡РЅРёР№ РїСЂРѕС„С–Р»СЊ"
   },
   "settings.sessions.title": {
-    "defaultMessage": "Сеанси"
+    "defaultMessage": "РЎРµР°РЅСЃРё"
   },
   "tag.category.128x": {
-    "defaultMessage": "×128"
+    "defaultMessage": "Г—128"
   },
   "tag.category.16x": {
-    "defaultMessage": "×16"
+    "defaultMessage": "Г—16"
   },
   "tag.category.256x": {
-    "defaultMessage": "×256"
+    "defaultMessage": "Г—256"
   },
   "tag.category.32x": {
-    "defaultMessage": "×32"
+    "defaultMessage": "Г—32"
   },
   "tag.category.48x": {
-    "defaultMessage": "×48"
+    "defaultMessage": "Г—48"
   },
   "tag.category.512x+": {
-    "defaultMessage": "×512 і більше"
+    "defaultMessage": "Г—512 С– Р±С–Р»СЊС€Рµ"
   },
   "tag.category.64x": {
-    "defaultMessage": "×64"
+    "defaultMessage": "Г—64"
   },
   "tag.category.8x-": {
-    "defaultMessage": "×8 і менше"
+    "defaultMessage": "Г—8 С– РјРµРЅС€Рµ"
   },
   "tag.category.adventure": {
-    "defaultMessage": "Пригоди"
+    "defaultMessage": "РџСЂРёРіРѕРґРё"
+  },
+  "tag.category.adventure-mode": {
+    "defaultMessage": "Р РµР¶РёРј РїСЂРёРіРѕРґ"
+  },
+  "tag.category.anarchy": {
+    "defaultMessage": "РђРЅР°СЂС…С–СЏ"
   },
   "tag.category.atmosphere": {
-    "defaultMessage": "Атмосфера"
+    "defaultMessage": "РђС‚РјРѕСЃС„РµСЂР°"
   },
   "tag.category.audio": {
-    "defaultMessage": "Звуки"
+    "defaultMessage": "Р—РІСѓРєРё"
+  },
+  "tag.category.battle-royale": {
+    "defaultMessage": "РљРѕСЂРѕР»С–РІСЃСЊРєР° Р±РёС‚РІР°"
+  },
+  "tag.category.bedwars": {
+    "defaultMessage": "Р‘РµРґ-РІР°СЂСЃ"
   },
   "tag.category.blocks": {
-    "defaultMessage": "Блоки"
+    "defaultMessage": "Р‘Р»РѕРєРё"
   },
   "tag.category.bloom": {
-    "defaultMessage": "Сяяння"
+    "defaultMessage": "РЎСЏСЏРЅРЅСЏ"
+  },
+  "tag.category.bosses": {
+    "defaultMessage": "Р‘РѕСЃРё"
   },
   "tag.category.cartoon": {
-    "defaultMessage": "Художні"
+    "defaultMessage": "РҐСѓРґРѕР¶РЅС–"
   },
   "tag.category.challenging": {
-    "defaultMessage": "Зі складністю"
+    "defaultMessage": "Р—С– СЃРєР»Р°РґРЅС–СЃС‚СЋ"
+  },
+  "tag.category.classes": {
+    "defaultMessage": "РљР»Р°СЃРё"
   },
   "tag.category.colored-lighting": {
-    "defaultMessage": "Кольорове світло"
+    "defaultMessage": "РљРѕР»СЊРѕСЂРѕРІРµ СЃРІС–С‚Р»Рѕ"
   },
   "tag.category.combat": {
-    "defaultMessage": "Бої"
+    "defaultMessage": "Р‘РѕС—"
+  },
+  "tag.category.competitive": {
+    "defaultMessage": "Р—РјР°РіР°РЅРЅСЏ"
   },
   "tag.category.core-shaders": {
-    "defaultMessage": "Базові шейдери"
+    "defaultMessage": "Р‘Р°Р·РѕРІС– С€РµР№РґРµСЂРё"
+  },
+  "tag.category.creative-mode": {
+    "defaultMessage": "Р РµР¶РёРј С‚РІРѕСЂС‡РѕСЃС‚Рё"
+  },
+  "tag.category.creator-community": {
+    "defaultMessage": "РЎРїС–Р»СЊРЅРѕС‚Р° С‚РІРѕСЂС†С–РІ"
+  },
+  "tag.category.crossplay": {
+    "defaultMessage": "РњС–Р¶РїР»Р°С‚С„РѕСЂРјРѕРІР° РіСЂР°"
   },
   "tag.category.cursed": {
-    "defaultMessage": "Дивне"
+    "defaultMessage": "Р”РёРІРЅРµ"
+  },
+  "tag.category.custom-content": {
+    "defaultMessage": "Р’Р»Р°СЃРЅРёР№ СѓРјС–СЃС‚"
   },
   "tag.category.decoration": {
-    "defaultMessage": "Оздоблення"
+    "defaultMessage": "РћР·РґРѕР±Р»РµРЅРЅСЏ"
+  },
+  "tag.category.dungeons": {
+    "defaultMessage": "РџС–РґР·РµРјРµР»Р»СЏ"
   },
   "tag.category.economy": {
-    "defaultMessage": "Економіка"
+    "defaultMessage": "Р•РєРѕРЅРѕРјС–РєР°"
   },
   "tag.category.entities": {
-    "defaultMessage": "Сутності"
+    "defaultMessage": "РЎСѓС‚РЅРѕСЃС‚С–"
   },
   "tag.category.environment": {
-    "defaultMessage": "Середовище"
+    "defaultMessage": "РЎРµСЂРµРґРѕРІРёС‰Рµ"
   },
   "tag.category.equipment": {
-    "defaultMessage": "Спорядження"
+    "defaultMessage": "РЎРїРѕСЂСЏРґР¶РµРЅРЅСЏ"
+  },
+  "tag.category.factions": {
+    "defaultMessage": "Р¤СЂР°РєС†С–С—"
   },
   "tag.category.fantasy": {
-    "defaultMessage": "Фентезі"
+    "defaultMessage": "Р¤РµРЅС‚РµР·С–"
   },
   "tag.category.foliage": {
-    "defaultMessage": "Рослинність"
+    "defaultMessage": "Р РѕСЃР»РёРЅРЅС–СЃС‚СЊ"
   },
   "tag.category.fonts": {
-    "defaultMessage": "Шрифти"
+    "defaultMessage": "РЁСЂРёС„С‚Рё"
   },
   "tag.category.food": {
-    "defaultMessage": "Їжа"
+    "defaultMessage": "Р‡Р¶Р°"
   },
   "tag.category.game-mechanics": {
-    "defaultMessage": "Ігрові механіки"
+    "defaultMessage": "Р†РіСЂРѕРІС– РјРµС…Р°РЅС–РєРё"
+  },
+  "tag.category.gens": {
+    "defaultMessage": "Р“РµРЅРё"
   },
   "tag.category.gui": {
-    "defaultMessage": "Інтерфейс"
+    "defaultMessage": "Р†РЅС‚РµСЂС„РµР№СЃ"
+  },
+  "tag.category.hardcore-mode": {
+    "defaultMessage": "Р РµР¶РёРј РіР°СЂРґРєРѕСЂСѓ"
   },
   "tag.category.high": {
-    "defaultMessage": "Високий"
+    "defaultMessage": "Р’РёСЃРѕРєРµ"
   },
   "tag.category.items": {
-    "defaultMessage": "Предмети"
+    "defaultMessage": "РџСЂРµРґРјРµС‚Рё"
+  },
+  "tag.category.keep-inventory": {
+    "defaultMessage": "Р—Р±РµСЂРµР¶РµРЅРЅСЏ С–РЅРІРµРЅС‚Р°СЂСЋ"
   },
   "tag.category.kitchen-sink": {
-    "defaultMessage": "Усе підряд"
+    "defaultMessage": "РЈСЃРµ РїС–РґСЂСЏРґ"
+  },
+  "tag.category.kitpvp": {
+    "defaultMessage": "РљРѕРјРїР»РµРєС‚ PvP"
   },
   "tag.category.library": {
-    "defaultMessage": "Бібліотека"
+    "defaultMessage": "Р‘С–Р±Р»С–РѕС‚РµРєР°"
+  },
+  "tag.category.lifesteal": {
+    "defaultMessage": "РљСЂР°РґС–Р¶РєР° Р¶РёС‚С‚СЏ"
   },
   "tag.category.lightweight": {
-    "defaultMessage": "Легка"
+    "defaultMessage": "Р›РµРіРєР°"
   },
   "tag.category.locale": {
-    "defaultMessage": "Локалізація"
+    "defaultMessage": "Р›РѕРєР°Р»С–Р·Р°С†С–СЏ"
   },
   "tag.category.low": {
-    "defaultMessage": "Низький"
+    "defaultMessage": "РќРёР·СЊРєРµ"
   },
   "tag.category.magic": {
-    "defaultMessage": "Магія"
+    "defaultMessage": "РњР°РіС–СЏ"
   },
   "tag.category.management": {
-    "defaultMessage": "Управління"
+    "defaultMessage": "РЈРїСЂР°РІР»С–РЅРЅСЏ"
+  },
+  "tag.category.media": {
+    "defaultMessage": "РњРµРґС–Р°"
   },
   "tag.category.medium": {
-    "defaultMessage": "Середній"
+    "defaultMessage": "РЎРµСЂРµРґРЅС”"
+  },
+  "tag.category.microgames": {
+    "defaultMessage": "РњС–РєСЂРѕС–РіСЂРё"
   },
   "tag.category.minigame": {
-    "defaultMessage": "Мінігра"
+    "defaultMessage": "РњС–РЅС–РіСЂР°"
+  },
+  "tag.category.minigames": {
+    "defaultMessage": "РњС–РЅС–С–РіСЂРё"
+  },
+  "tag.category.mmo": {
+    "defaultMessage": "РњРњРћ"
   },
   "tag.category.mobs": {
-    "defaultMessage": "Моби"
+    "defaultMessage": "РњРѕР±Рё"
   },
   "tag.category.modded": {
-    "defaultMessage": "Для модів"
+    "defaultMessage": "Р”Р»СЏ РјРѕРґС–РІ"
   },
   "tag.category.models": {
-    "defaultMessage": "Моделі"
+    "defaultMessage": "РњРѕРґРµР»С–"
   },
   "tag.category.multiplayer": {
-    "defaultMessage": "Гри в мережі"
+    "defaultMessage": "Р“СЂРё РІ РјРµСЂРµР¶С–"
+  },
+  "tag.category.network": {
+    "defaultMessage": "РњРµСЂРµР¶Р°"
+  },
+  "tag.category.offline-mode": {
+    "defaultMessage": "РџРѕР·Р° РјРµСЂРµР¶РµСЋ"
+  },
+  "tag.category.oneblock": {
+    "defaultMessage": "One Block"
+  },
+  "tag.category.op": {
+    "defaultMessage": "OP"
   },
   "tag.category.optimization": {
-    "defaultMessage": "Оптимізація"
+    "defaultMessage": "РћРїС‚РёРјС–Р·Р°С†С–СЏ"
+  },
+  "tag.category.parkour": {
+    "defaultMessage": "РџР°СЂРєСѓСЂ"
   },
   "tag.category.path-tracing": {
-    "defaultMessage": "Трасування шляхів"
+    "defaultMessage": "РўСЂР°СЃСѓРІР°РЅРЅСЏ С€Р»СЏС…С–РІ"
   },
   "tag.category.pbr": {
     "defaultMessage": "PBR"
   },
+  "tag.category.personal-worlds": {
+    "defaultMessage": "РћСЃРѕР±РёСЃС‚С– СЃРІС–С‚Рё"
+  },
+  "tag.category.plots": {
+    "defaultMessage": "Р”С–Р»СЏРЅРєРё"
+  },
+  "tag.category.pokemon": {
+    "defaultMessage": "PokГ©mon"
+  },
   "tag.category.potato": {
-    "defaultMessage": "Картопля"
+    "defaultMessage": "РљР°СЂС‚РѕРїР»СЏ"
+  },
+  "tag.category.prison": {
+    "defaultMessage": "Р’вЂ™СЏР·РЅРёС†СЏ"
+  },
+  "tag.category.pve": {
+    "defaultMessage": "PvE"
+  },
+  "tag.category.pvp": {
+    "defaultMessage": "PvP"
+  },
+  "tag.category.questing": {
+    "defaultMessage": "РџСЂРѕС…РѕРґР¶РµРЅРЅСЏ"
   },
   "tag.category.quests": {
-    "defaultMessage": "Завдання"
+    "defaultMessage": "Р—Р°РІРґР°РЅРЅСЏ"
+  },
+  "tag.category.racing": {
+    "defaultMessage": "РџРµСЂРµРіРѕРЅРё"
   },
   "tag.category.realistic": {
-    "defaultMessage": "Реалізм"
+    "defaultMessage": "Р РµР°Р»С–Р·Рј"
+  },
+  "tag.category.recording-smp": {
+    "defaultMessage": "SMP РїС–Рґ Р·Р°РїРёСЃ"
   },
   "tag.category.reflections": {
-    "defaultMessage": "Відбиття"
+    "defaultMessage": "Р’С–РґР±РёС‚С‚СЏ"
+  },
+  "tag.category.roleplay": {
+    "defaultMessage": "Р РѕР»СЊРѕРІР° РіСЂР°"
+  },
+  "tag.category.rpg": {
+    "defaultMessage": "RPG"
   },
   "tag.category.screenshot": {
-    "defaultMessage": "Для знімка екрана"
+    "defaultMessage": "Р›РёС€Рµ РґР»СЏ С„РѕС‚Рѕ"
   },
   "tag.category.semi-realistic": {
-    "defaultMessage": "Напівреалізм"
+    "defaultMessage": "РќР°РїС–РІСЂРµР°Р»С–Р·Рј"
   },
   "tag.category.shadows": {
-    "defaultMessage": "Тіні"
+    "defaultMessage": "РўС–РЅС–"
   },
   "tag.category.simplistic": {
-    "defaultMessage": "Простий"
+    "defaultMessage": "РџСЂРѕСЃС‚РёР№"
+  },
+  "tag.category.skyblock": {
+    "defaultMessage": "Skyblock"
+  },
+  "tag.category.smp": {
+    "defaultMessage": "SMP"
   },
   "tag.category.social": {
-    "defaultMessage": "Взаємодія"
+    "defaultMessage": "Р’Р·Р°С”РјРѕРґС–СЏ"
   },
   "tag.category.storage": {
-    "defaultMessage": "Сховище"
+    "defaultMessage": "РЎС…РѕРІРёС‰Рµ"
+  },
+  "tag.category.survival-mode": {
+    "defaultMessage": "Р РµР¶РёРј РІРёР¶РёРІР°РЅРЅСЏ"
+  },
+  "tag.category.teams": {
+    "defaultMessage": "РљРѕРјР°РЅРґРё"
+  },
+  "tag.category.technical": {
+    "defaultMessage": "РўРµС…РЅС–С‡РЅРёР№"
   },
   "tag.category.technology": {
-    "defaultMessage": "Технології"
+    "defaultMessage": "РўРµС…РЅРѕР»РѕРіС–С—"
   },
   "tag.category.themed": {
-    "defaultMessage": "Тематичне"
+    "defaultMessage": "РўРµРјР°С‚РёС‡РЅРµ"
+  },
+  "tag.category.towns": {
+    "defaultMessage": "РњС–СЃС‚Р°"
   },
   "tag.category.transportation": {
-    "defaultMessage": "Пересування"
+    "defaultMessage": "РџРµСЂРµСЃСѓРІР°РЅРЅСЏ"
   },
   "tag.category.tweaks": {
-    "defaultMessage": "Поліпшення"
+    "defaultMessage": "РџРѕР»С–РїС€РµРЅРЅСЏ"
   },
   "tag.category.utility": {
-    "defaultMessage": "Приладдя"
+    "defaultMessage": "РџСЂРёР»Р°РґРґСЏ"
   },
   "tag.category.vanilla-like": {
-    "defaultMessage": "Як стандартна гра"
+    "defaultMessage": "РЇРє РІР°РЅС–Р»СЊРЅР° РіСЂР°"
+  },
+  "tag.category.whitelisted": {
+    "defaultMessage": "Р‘С–Р»РёР№ СЃРїРёСЃРѕРє"
+  },
+  "tag.category.world-resets": {
+    "defaultMessage": "РЎРєРёРґР°РЅРЅСЏ СЃРІС–С‚Сѓ"
   },
   "tag.category.worldgen": {
-    "defaultMessage": "Генерація світу"
+    "defaultMessage": "Р“РµРЅРµСЂР°С†С–СЏ СЃРІС–С‚Сѓ"
   },
   "tag.loader.babric": {
     "defaultMessage": "Babric"
@@ -1545,7 +3510,7 @@
     "defaultMessage": "Canvas"
   },
   "tag.loader.datapack": {
-    "defaultMessage": "Пакет даних"
+    "defaultMessage": "РџР°РєРµС‚ РґР°РЅРёС…"
   },
   "tag.loader.fabric": {
     "defaultMessage": "Fabric"
@@ -1557,7 +3522,7 @@
     "defaultMessage": "Forge"
   },
   "tag.loader.geyser": {
-    "defaultMessage": "Розширення Geyser"
+    "defaultMessage": "Р РѕР·С€РёСЂРµРЅРЅСЏ Geyser"
   },
   "tag.loader.iris": {
     "defaultMessage": "Iris"
@@ -1572,13 +3537,13 @@
     "defaultMessage": "LiteLoader"
   },
   "tag.loader.minecraft": {
-    "defaultMessage": "Пакет ресурсів"
+    "defaultMessage": "РџР°РєРµС‚ СЂРµСЃСѓСЂСЃС–РІ"
   },
   "tag.loader.modloader": {
     "defaultMessage": "Risugami's ModLoader"
   },
   "tag.loader.mrpack": {
-    "defaultMessage": "Збірка"
+    "defaultMessage": "Р—Р±С–СЂРєР°"
   },
   "tag.loader.neoforge": {
     "defaultMessage": "NeoForge"
@@ -1611,7 +3576,7 @@
     "defaultMessage": "Sponge"
   },
   "tag.loader.vanilla": {
-    "defaultMessage": "Стандартна гра"
+    "defaultMessage": "РЎС‚Р°РЅРґР°СЂС‚РЅР° РіСЂР°"
   },
   "tag.loader.velocity": {
     "defaultMessage": "Velocity"
@@ -1619,11 +3584,23 @@
   "tag.loader.waterfall": {
     "defaultMessage": "Waterfall"
   },
-  "tooltip.date-at-time": {
-    "defaultMessage": "{date, date, long}, {time, time, short}"
-  },
   "ui.component.unsaved-changes-popup.body": {
-    "defaultMessage": "У вас є незбережені зміни."
+    "defaultMessage": "РЈ РІР°СЃ С” РЅРµР·Р±РµСЂРµР¶РµРЅС– Р·РјС–РЅРё."
+  },
+  "ui.confirm-leave-modal.body": {
+    "defaultMessage": "РЈ РІР°СЃ С” РЅРµР·Р±РµСЂРµР¶РµРЅС– Р·РјС–РЅРё, СЏРєС– Р±СѓРґРµ РІС‚СЂР°С‡РµРЅРѕ, СЏРєС‰Рѕ РІРё Р·Р°РєСЂРёС”С‚Рµ С†СЋ СЃС‚РѕСЂС–РЅРєСѓ."
+  },
+  "ui.confirm-leave-modal.header": {
+    "defaultMessage": "РЈ РІР°СЃ С” РЅРµР·Р±РµСЂРµР¶РµРЅС– Р·РјС–РЅРё"
+  },
+  "ui.confirm-leave-modal.leave": {
+    "defaultMessage": "РџРѕРєРёРЅСѓС‚Рё СЃС‚РѕСЂС–РЅРєСѓ"
+  },
+  "ui.confirm-leave-modal.stay": {
+    "defaultMessage": "Р—Р°Р»РёС€РёС‚РёСЃСЏ РЅР° СЃС‚РѕСЂС–РЅС†С–"
+  },
+  "ui.confirm-leave-modal.title": {
+    "defaultMessage": "РџРѕРєРёРЅСѓС‚Рё СЃС‚РѕСЂС–РЅРєСѓ?"
   }
 }
 

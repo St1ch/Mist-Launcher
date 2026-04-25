@@ -39,12 +39,12 @@
 					>{{ formatMessage(formFieldLabels.email) }} <span class="text-red">*</span></span
 				>
 			</label>
-			<input
+			<StyledInput
 				v-model="deliveryEmail"
 				type="email"
 				:placeholder="formatMessage(formFieldPlaceholders.emailPlaceholder)"
 				autocomplete="email"
-				class="w-full rounded-[14px] bg-surface-4 px-4 py-3 text-contrast placeholder:text-secondary sm:py-2.5"
+				wrapper-class="w-full"
 			/>
 		</div>
 
@@ -75,16 +75,16 @@
 							<span class="font-semibold leading-tight">{{ selectedRewardOption.label }}</span>
 						</div>
 					</template>
-					<template v-for="option in rewardOptions" :key="option.value" #[`option-${option.value}`]>
+					<template #option="{ item }">
 						<div class="flex items-center gap-2">
 							<img
-								v-if="option.imageUrl"
-								:src="option.imageUrl"
-								:alt="option.label"
+								v-if="item.imageUrl"
+								:src="item.imageUrl"
+								:alt="item.label"
 								class="size-5 rounded-full object-cover"
 								loading="lazy"
 							/>
-							<span class="font-semibold leading-tight">{{ option.label }}</span>
+							<span class="font-semibold leading-tight">{{ item.label }}</span>
 						</div>
 					</template>
 				</Combobox>
@@ -149,19 +149,17 @@
 
 			<div v-if="showGiftCardSelector && useFixedDenominations" class="flex flex-col gap-2.5">
 				<template v-if="useDenominationSuggestions">
-					<div class="iconified-input w-full">
-						<SearchIcon aria-hidden="true" />
-						<input
-							v-model.number="denominationSearchInput"
-							type="number"
-							step="0.01"
-							:min="0"
-							:disabled="effectiveMinAmount > roundedMaxAmount"
-							:placeholder="formatMessage(messages.enterDenominationPlaceholder)"
-							class="!bg-surface-4"
-							@input="hasTouchedSuggestions = true"
-						/>
-					</div>
+					<StyledInput
+						v-model="denominationSearchInput"
+						type="number"
+						:icon="SearchIcon"
+						:step="0.01"
+						:min="0"
+						:disabled="effectiveMinAmount > roundedMaxAmount"
+						:placeholder="formatMessage(messages.enterDenominationPlaceholder)"
+						wrapper-class="w-full"
+						@update:model-value="hasTouchedSuggestions = true"
+					/>
 					<Transition
 						enter-active-class="transition-opacity duration-200 ease-out"
 						enter-from-class="opacity-0"
@@ -350,10 +348,11 @@ import {
 	IntlFormatted,
 	normalizeChildren,
 	paymentMethodMessages,
+	StyledInput,
 	useDebugLogger,
+	useFormatMoney,
 	useVIntl,
 } from '@modrinth/ui'
-import { formatMoney } from '@modrinth/utils'
 import { useDebounceFn } from '@vueuse/core'
 import { computed, onMounted, ref, watch } from 'vue'
 
@@ -366,6 +365,7 @@ const debug = useDebugLogger('TremendousDetailsStage')
 const { withdrawData, maxWithdrawAmount, availableMethods, paymentOptions, calculateFees } =
 	useWithdrawContext()
 const { formatMessage } = useVIntl()
+const formatMoney = useFormatMoney()
 const auth = await useAuth()
 
 const userEmail = computed(() => {
@@ -588,16 +588,7 @@ function formatAmountForDisplay(
 	if (!currencyCode || currencyCode === 'USD' || !rate) {
 		return formatMoney(localAmount)
 	}
-	try {
-		return new Intl.NumberFormat('en-US', {
-			style: 'currency',
-			currency: currencyCode,
-			minimumFractionDigits: 2,
-			maximumFractionDigits: 2,
-		}).format(localAmount)
-	} catch {
-		return `${currencyCode} ${localAmount.toFixed(2)}`
-	}
+	return formatMoney(localAmount, currencyCode)
 }
 
 const useFixedDenominations = computed(() => {

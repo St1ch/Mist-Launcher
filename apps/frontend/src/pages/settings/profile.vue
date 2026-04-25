@@ -56,15 +56,15 @@
 					{{ formatMessage(messages.usernameDescription) }}
 				</span>
 			</label>
-			<input id="username-field" v-model="current.username" type="text" />
+			<StyledInput id="username-field" v-model="current.username" />
 			<label for="bio-field">
 				<span class="label__title">{{ formatMessage(messages.bioTitle) }}</span>
 				<span class="label__description">
 					{{ formatMessage(messages.bioDescription) }}
 				</span>
 			</label>
-			<textarea id="bio-field" v-model="current.bio" type="text" />
-			<div class="input-group">
+			<StyledInput id="bio-field" v-model="current.bio" multiline />
+			<div class="input-group mt-4">
 				<Button :link="`/user/${auth.user.username}`">
 					<UserIcon /> {{ formatMessage(commonMessages.visitYourProfile) }}
 				</Button>
@@ -90,6 +90,7 @@ import {
 	FileInput,
 	injectNotificationManager,
 	IntlFormatted,
+	StyledInput,
 	UnsavedChangesPopup,
 	useSavable,
 	useVIntl,
@@ -98,15 +99,15 @@ import {
 const { addNotification } = injectNotificationManager()
 const { formatMessage } = useVIntl()
 
-useHead({
-	title: 'Profile settings - Modrinth',
-})
-
 definePageMeta({
 	middleware: 'auth',
 })
 
 const messages = defineMessages({
+	headTitle: {
+		id: 'settings.profile.head-title',
+		defaultMessage: 'Profile settings',
+	},
 	title: {
 		id: 'settings.profile.profile-info',
 		defaultMessage: 'Profile information',
@@ -132,6 +133,10 @@ const messages = defineMessages({
 		id: 'settings.profile.bio.description',
 		defaultMessage: 'A short description to tell everyone a little bit about you.',
 	},
+})
+
+useHead({
+	title: () => `${formatMessage(messages.headTitle)} - Modrinth`,
 })
 
 const auth = await useAuth()
@@ -230,7 +235,7 @@ async function save() {
 		avatarUrl.value = auth.value.user.avatar_url
 	} catch (err) {
 		addNotification({
-			title: 'An error occurred',
+			title: formatMessage(commonMessages.errorNotificationTitle),
 			text: err
 				? err.data
 					? err.data.description
@@ -249,11 +254,5 @@ async function save() {
 	display: flex;
 	gap: var(--gap-lg);
 	margin-top: var(--gap-md);
-}
-
-textarea {
-	height: 6rem;
-	width: 40rem;
-	margin-bottom: var(--gap-lg);
 }
 </style>

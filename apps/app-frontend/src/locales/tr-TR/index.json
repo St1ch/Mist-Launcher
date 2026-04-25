@@ -5,20 +5,167 @@
   "app.auth-servers.unreachable.header": {
     "message": "DoДџrulama sunucularД±na eriЕџilemedi"
   },
+  "app.browse.add-server-to-instance": {
+    "message": "Sunucuyu kuruluma ekle"
+  },
+  "app.browse.add-servers-to-instance": {
+    "message": "Kurulumunuza sunucular ekleyin"
+  },
+  "app.browse.add-to-instance": {
+    "message": "Kuruluma ekle"
+  },
+  "app.browse.add-to-instance-name": {
+    "message": "{instanceName}'a ekle"
+  },
+  "app.browse.added": {
+    "message": "Ekli"
+  },
+  "app.browse.already-added": {
+    "message": "Zaten ekli"
+  },
+  "app.browse.discover-content": {
+    "message": "İçerik keşfet"
+  },
+  "app.browse.discover-servers": {
+    "message": "Sunucu keşfet"
+  },
+  "app.browse.hide-added-servers": {
+    "message": "Ekli sunucuları gizle"
+  },
+  "app.browse.hide-installed-content": {
+    "message": "Kurulu içerikleri gizle"
+  },
+  "app.browse.install-content-to-instance": {
+    "message": "İçeriği kuruluma yükle"
+  },
+  "app.export-modal.description-placeholder": {
+    "message": "Mod paketi açıklaması girin..."
+  },
+  "app.export-modal.export-button": {
+    "message": "Dışa aktar"
+  },
+  "app.export-modal.header": {
+    "message": "Mod paketini dışa aktar"
+  },
+  "app.export-modal.modpack-name-label": {
+    "message": "Mod Paketi Adı"
+  },
+  "app.export-modal.modpack-name-placeholder": {
+    "message": "Modpaketi adı"
+  },
+  "app.export-modal.select-files-label": {
+    "message": "Pakete dahil edilecek dosya ve klasörleri seçin"
+  },
+  "app.export-modal.version-number-label": {
+    "message": "Sürüm numarası"
+  },
+  "app.export-modal.version-number-placeholder": {
+    "message": "1.0.0"
+  },
+  "app.instance.confirm-delete.admonition-body": {
+    "message": "Dünyalarınız, yapılandırmalarınız ve yüklü tüm içerikler ve tüm veriler kalıcı olarak silinecek."
+  },
+  "app.instance.confirm-delete.admonition-header": {
+    "message": "Bu eylem geri alınamaz"
+  },
+  "app.instance.confirm-delete.delete-button": {
+    "message": "Kurulumu sil"
+  },
+  "app.instance.confirm-delete.header": {
+    "message": "Kurulumu sil"
+  },
+  "app.instance.modpack-already-installed.body": {
+    "message": "Bu mod paketi zaten <bold>{instanceName}</bold> kurulumunda yüklü. Kopyalamak istediğinizden emin misiniz?"
+  },
+  "app.instance.modpack-already-installed.create": {
+    "message": "Oluştur"
+  },
+  "app.instance.modpack-already-installed.header": {
+    "message": "Modpaketi zaten yüklü"
+  },
+  "app.instance.modpack-already-installed.instance": {
+    "message": "Kurulum"
+  },
+  "app.instance.mods.content-type-project": {
+    "message": "proje"
+  },
+  "app.instance.mods.project-was-added": {
+    "message": "\"{name}\" eklendi"
+  },
+  "app.instance.mods.projects-were-added": {
+    "message": "{count} projeler eklendi"
+  },
+  "app.instance.mods.share-text": {
+    "message": "Modpaketimde kullandığım projelere göz at!"
+  },
+  "app.instance.mods.share-title": {
+    "message": "Mod paketi içeriğini paylaşıyorsunuz"
+  },
+  "app.instance.mods.successfully-uploaded": {
+    "message": "Başarıyla yüklendi"
+  },
+  "app.instance.worlds.add-server": {
+    "message": "Sunucu Ekle"
+  },
+  "app.instance.worlds.browse-servers": {
+    "message": "Sunucuları Keşfet"
+  },
+  "app.instance.worlds.delete-world-description": {
+    "message": "'{name}' **kalıcı olarak silinecek** ve geri getirilmesi mümkün olmayacaktır."
+  },
+  "app.instance.worlds.delete-world-title": {
+    "message": "Bu dünyayı kalıcı olarak silmek istediğinizden emin misiniz?"
+  },
+  "app.instance.worlds.filter-modded": {
+    "message": "Modlu"
+  },
+  "app.instance.worlds.filter-offline": {
+    "message": "Çevrim dışı"
+  },
+  "app.instance.worlds.filter-online": {
+    "message": "Çevrim içi"
+  },
+  "app.instance.worlds.filter-vanilla": {
+    "message": "Vanilla"
+  },
+  "app.instance.worlds.no-worlds-description": {
+    "message": "Başlamak için bir sunucu ekleyin veya göz atın"
+  },
+  "app.instance.worlds.no-worlds-heading": {
+    "message": "Eklenmiş sunucu veya dünya yok"
+  },
+  "app.instance.worlds.remove-server-description": {
+    "message": "'{name}' oyun içi dahil olmak üzere listenizden kaldırılacak ve geri getirilmesi mümkün olmayacaktır."
+  },
+  "app.instance.worlds.remove-server-description-with-address": {
+    "message": "'{name}' ({address}) oyun içi dahil olmak üzere listenizden kaldırılacak ve geri getirilmesi mümkün olmayacaktır."
+  },
+  "app.instance.worlds.remove-server-title": {
+    "message": "{name}'i kaldırmak istediğinizden emin misiniz?"
+  },
+  "app.instance.worlds.search-worlds-placeholder": {
+    "message": "{count} dünya ara..."
+  },
+  "app.instance.worlds.this-server": {
+    "message": "bu sunucu"
+  },
+  "app.modal.install-to-play.content-required": {
+    "message": "İçerik gerekli"
+  },
   "app.modal.install-to-play.header": {
-    "message": "YГјkleyip oynayД±n"
+    "message": "Oynamak için yükleyin"
   },
   "app.modal.install-to-play.install-button": {
-    "message": "Д°ndirmek"
+    "message": "Yükle"
   },
   "app.modal.install-to-play.mod-count": {
     "message": "{count, plural,one {#mod}other {#modlar}}"
   },
-  "app.modal.install-to-play.server-requires-mods": {
-    "message": "Bu sunucuda oynamak iГ§in modlar gerekiyor. Д°ndir'e basarak gerekli dosyalarД± Modrinth Гјzerinden kurabilirsin."
+  "app.modal.install-to-play.required-modpack": {
+    "message": "Gerekli mod paketi"
   },
-  "app.modal.install-to-play.shared-by-today": {
-    "message": "{name} bugГјn senle bu Kurulumu paylaЕџtД±."
+  "app.modal.install-to-play.server-requires-mods": {
+    "message": "Bu sunucuya girebilmek için modlar gereklidir. Gerekli dosyaları Modrinth üzerinden kurmak için Yükle butonuna tıkla, ardından doğrudan sunucuya başlat."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "PaylaЕџД±lan Kurulum"
@@ -26,35 +173,17 @@
   "app.modal.install-to-play.shared-server-instance": {
     "message": "PaylaЕџД±lan Sunucu Kurulumu"
   },
-  "app.modal.update-to-play.added-count": {
-    "message": "{count} eklendi"
-  },
-  "app.modal.update-to-play.diff-type.added": {
-    "message": "Eklendi"
-  },
-  "app.modal.update-to-play.diff-type.removed": {
-    "message": "KaldД±rД±ldД±"
-  },
-  "app.modal.update-to-play.diff-type.updated": {
-    "message": "GГјncellendi"
+  "app.modal.install-to-play.view-contents": {
+    "message": "İçeriği görüntüle"
   },
   "app.modal.update-to-play.header": {
-    "message": "Oynamak iГ§in gГјncelleyin"
-  },
-  "app.modal.update-to-play.published-date": {
-    "message": "{date, date, long}"
-  },
-  "app.modal.update-to-play.removed-count": {
-    "message": "{count} kaldД±rД±ldД±"
+    "message": "Oynamak için güncelle"
   },
   "app.modal.update-to-play.update-required": {
     "message": "GГјncelleme gerekli"
   },
   "app.modal.update-to-play.update-required-description": {
     "message": "{name} oyununu oynamak iГ§in gГјncelleme gereklidir. Oyunu baЕџlatmak iГ§in lГјtfen en son sГјrГјme gГјncelleyin."
-  },
-  "app.modal.update-to-play.updated-count": {
-    "message": "{count} gГјncellendi"
   },
   "app.settings.developer-mode-enabled": {
     "message": "GeliЕџtirici modu aГ§Д±ldД±."
@@ -68,9 +197,6 @@
   "app.settings.tabs.default-instance-options": {
     "message": "VarsayД±lan profil seГ§enekleri"
   },
-  "app.settings.tabs.feature-flags": {
-    "message": "Г–zellik bayraklarД±"
-  },
   "app.settings.tabs.java-installations": {
     "message": "Java kurulumlarД±"
   },
@@ -83,41 +209,35 @@
   "app.settings.tabs.resource-management": {
     "message": "Kaynak yГ¶netimi"
   },
-  "app.update-toast.body": {
-    "message": "Mist Launcher v{version} kuruluma hazД±r! Ећimdi gГјncellemek iГ§in uygulamayД± yeniden yГјkle ya da sen Mist Launcher'i kapatД±nca otomatik olarak gГјncellensin."
+  "app.update-popup.body": {
+    "message": "Mist Launcher v{version} güncellemesi indirilmeye hazır! Hemen güncellemek için yeniden başlatın veya Mist Launcher’i kapattığınızda otomatik olarak güncellenecek."
   },
-  "app.update-toast.body.download-complete": {
-    "message": "Mist Launcher v{version} indirildi. Ећimdi gГјncellemek iГ§in uygulamayД± yeniden yГјkle ya da Mist Launcher'i kapatД±nca otomatik olarak gГјncellensin."
+  "app.update-popup.body.download-complete": {
+    "message": "Mist Launcher v{version} indirildi. Güncellemek için yeniden başlatın veya Mist Launcher’i kapattığınızda otomatik olarak güncellenecek."
   },
-  "app.update-toast.body.linux": {
-    "message": "Mist Launcher v{version} sГјrГјmГј kullanД±labilir. En yeni Г¶zellikler ve dГјzeltmeler iГ§in paket yГ¶neticinizi kullanarak gГјncelleyin!"
+  "app.update-popup.body.linux": {
+    "message": "Mist Launcher v{version} yayımlandı. En yeni özellikler ve hata düzeltmeleri için paket yöneticin üzerinden güncelle!"
   },
-  "app.update-toast.body.metered": {
-    "message": "Mist Launcher v{version} artД±k mevcut! Г–lГ§ГјlГј aДџda olduДџunuzdan otomatik olarak indirmedik."
+  "app.update-popup.body.metered": {
+    "message": "Mist Launcher v{version} mevcut! Kısıtlı bağlantıda olduğunuzdan otomatik olarak indirmedik."
   },
-  "app.update-toast.changelog": {
-    "message": "DeДџiЕџiklikler"
+  "app.update-popup.changelog": {
+    "message": "Yama Notları"
   },
-  "app.update-toast.download": {
-    "message": "Д°ndir ({size})"
+  "app.update-popup.download": {
+    "message": "İndir ({size})"
   },
-  "app.update-toast.download-page": {
-    "message": "Д°ndir"
+  "app.update-popup.download-complete": {
+    "message": "İndirme tamamlandı"
   },
-  "app.update-toast.downloading": {
-    "message": "Д°ndiriliyor..."
+  "app.update-popup.reload": {
+    "message": "Yeniden başlat"
   },
-  "app.update-toast.reload": {
-    "message": "Yeniden YГјkle"
-  },
-  "app.update-toast.title": {
-    "message": "GГјncelleme mevcut"
-  },
-  "app.update-toast.title.download-complete": {
-    "message": "YГјkleme tamamlandД±"
+  "app.update-popup.title": {
+    "message": "Güncelleme mevcut"
   },
   "app.update.complete-toast.text": {
-    "message": "DeДџiЕџiklik gГјnlГјДџГјnГј gГ¶rГјntГјlemek iГ§in buraya tД±klayД±n."
+    "message": "Değişiklikleri görüntülemek için buraya tıklayın."
   },
   "app.update.complete-toast.title": {
     "message": "{version} sГјrГјmГј baЕџarД±yla kuruldu!"
@@ -129,7 +249,25 @@
     "message": "GГјncelleme indiriliyor (%{percent})"
   },
   "app.update.reload-to-update": {
-    "message": "GГјncellemeyi kurmak iГ§in yeniden yГјkleyin"
+    "message": "Güncellemeyi kurmak için yeniden başlatın"
+  },
+  "app.world.server-modal.placeholder-address": {
+    "message": "example.modrinth.gg"
+  },
+  "app.world.server-modal.select-an-option": {
+    "message": "Bir seçenek seçin"
+  },
+  "app.world.world-item.incompatible-version": {
+    "message": "Uyumsuz sürüm {version}"
+  },
+  "app.world.world-item.not-played-yet": {
+    "message": "Henüz oynanmadı"
+  },
+  "app.world.world-item.offline": {
+    "message": "Çevrim dışı"
+  },
+  "app.world.world-item.players-online": {
+    "message": "{count} çevrimiçi"
   },
   "friends.action.add-friend": {
     "message": "Bir arkadaЕџ ekle"
@@ -144,7 +282,7 @@
     "message": "ArkadaЕџ ekleme"
   },
   "friends.add-friend.username.description": {
-    "message": "Minecraft kullanД±cД± adlarД±ndan farklД± olabilir!"
+    "message": "Minecraft kullanıcı adıyla aynı olmayabilir!"
   },
   "friends.add-friend.username.placeholder": {
     "message": "Modrinth kullanД±cД± adД±nД± girin..."
@@ -216,7 +354,7 @@
     "message": "Sunucuyu dГјzenle"
   },
   "instance.edit-world.hide-from-home": {
-    "message": "Ana sayfada gizle"
+    "message": "Ana Sayfadan gizle"
   },
   "instance.edit-world.name": {
     "message": "DГјnya AdД±"
@@ -230,17 +368,17 @@
   "instance.edit-world.title": {
     "message": "DГјnyayД± dГјzenle"
   },
-  "instance.filter.disabled": {
-    "message": "Devre dД±ЕџД± projeler"
+  "instance.files.adding-files": {
+    "message": "Dosyalar ekleniyor ({completed}/{total})"
   },
-  "instance.filter.updates-available": {
-    "message": "GГјncelleme var"
+  "instance.files.save-as": {
+    "message": "Farklı kaydet..."
   },
   "instance.server-modal.address": {
-    "message": "Sunucu Adresi"
+    "message": "Adres"
   },
   "instance.server-modal.name": {
-    "message": "Sunucu AdД±"
+    "message": "Ad"
   },
   "instance.server-modal.placeholder-name": {
     "message": "Minecraft Sunucusu"
@@ -252,34 +390,34 @@
     "message": "Genel"
   },
   "instance.settings.tabs.general.delete": {
-    "message": "Profili sil"
+    "message": "Kurulumu sil"
   },
   "instance.settings.tabs.general.delete.button": {
-    "message": "Profili sil"
+    "message": "Kurulumu sil"
   },
   "instance.settings.tabs.general.delete.description": {
-    "message": "Profili, iГ§indeki dГјnyalarД±, ayarlarД± ve indirilen Еџeyleri cihazД±ndan sonsuza kadar siler. Bir profil silindikten sonra geri dГ¶nГјЕџГј yok. Dikkatli ol."
+    "message": "Profili, içindeki dünyaları, ayarları ve indirilen şeyleri cihazınızdan sonsuza kadar siler. Dikkatli olun, bir profil silindikten sonra geri alınamaz."
   },
   "instance.settings.tabs.general.deleting.button": {
     "message": "Siliniyor..."
   },
   "instance.settings.tabs.general.duplicate-button": {
-    "message": "Klonla"
+    "message": "Çoğalt"
   },
   "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
-    "message": "Kurulurken kopyalanamaz."
+    "message": "İndirilirken çoğaltılamaz."
   },
   "instance.settings.tabs.general.duplicate-instance": {
-    "message": "Kurulumu klonla"
+    "message": "Profili çoğalt"
   },
   "instance.settings.tabs.general.duplicate-instance.description": {
-    "message": "Mevcut kurulumun kopyasД±nД± oluЕџturur, dГјnyalar, ayarlar, modlar vb. dahГ®l."
+    "message": "Bu profilin dünyalarını, yapılandırmalarını, modlarını vb. içeren bir kopyasını oluşturur."
   },
   "instance.settings.tabs.general.edit-icon": {
     "message": "Simgeyi dГјzenle"
   },
   "instance.settings.tabs.general.edit-icon.remove": {
-    "message": "Simgeli kaldД±r"
+    "message": "Simgeyi kaldır"
   },
   "instance.settings.tabs.general.edit-icon.replace": {
     "message": "Simgeyi deДџiЕџtir"
@@ -288,16 +426,16 @@
     "message": "Simge seГ§"
   },
   "instance.settings.tabs.general.library-groups": {
-    "message": "Gruplar"
+    "message": "Kütüphane grupları"
   },
   "instance.settings.tabs.general.library-groups.create": {
     "message": "Yeni grup oluЕџtur"
   },
   "instance.settings.tabs.general.library-groups.description": {
-    "message": "Gruplar kurulumlarД±nД± kГјtГјphanenin farklД± bГ¶lГјmlerine koymanД± ve organize etmeni saДџlar."
+    "message": "Kütüphane grupları profillerinizi kütüphane içinde farklı bölümler altında organize etmenizi sağlar."
   },
   "instance.settings.tabs.general.library-groups.enter-name": {
-    "message": "Grup adД± gir"
+    "message": "Grup adı girin"
   },
   "instance.settings.tabs.general.name": {
     "message": "Ad"
@@ -312,172 +450,40 @@
     "message": "Kancalar geliЕџmiЕџ kullanД±cД±larД±n oyunu baЕџlattД±ktan Г¶nce ve sonra belirli sistem komutlarД± Г§alД±ЕџtД±rmasД±nД± saДџlar."
   },
   "instance.settings.tabs.hooks.post-exit": {
-    "message": "Г‡Д±kД±Еџ-sonrasД±"
+    "message": "Çıkış sonrası"
   },
   "instance.settings.tabs.hooks.post-exit.description": {
     "message": "Oyun kapandД±ktan sonra Г§alД±ЕџД±r."
   },
   "instance.settings.tabs.hooks.post-exit.enter": {
-    "message": "Г‡Д±kД±Еџ-sonrasД± komutu gir..."
+    "message": "Çıkış sonrası komutu girin..."
   },
   "instance.settings.tabs.hooks.pre-launch": {
-    "message": "BaЕџlatma-Г¶ncesi"
+    "message": "Başlatma öncesi"
   },
   "instance.settings.tabs.hooks.pre-launch.description": {
-    "message": "Oyunu baЕџlatmadan Г¶nce Г§alД±ЕџtД±rД±r."
+    "message": "Oyun başlatılmadan önce çalıştırılır."
   },
   "instance.settings.tabs.hooks.pre-launch.enter": {
-    "message": "BaЕџlatma-Г¶ncesi komutu gir..."
+    "message": "Başlatma öncesi komutu girin..."
   },
   "instance.settings.tabs.hooks.title": {
     "message": "Oyun baЕџlatma kancalarД±"
   },
   "instance.settings.tabs.hooks.wrapper": {
-    "message": "Г–rtГј"
+    "message": "Sarmalayıcı"
   },
   "instance.settings.tabs.hooks.wrapper.description": {
-    "message": "Minecraft baЕџlatmak iГ§in Г¶rtГј komutu."
+    "message": "Minecraft'ı başlatmak için sarmalayıcı komutu."
   },
   "instance.settings.tabs.hooks.wrapper.enter": {
-    "message": "Г–rtГј komutunu girin..."
+    "message": "Sarmalayıcı komutu girin..."
   },
   "instance.settings.tabs.installation": {
     "message": "Kurulum"
   },
-  "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "Minecraft {game_version} iГ§in {platform} {version} zaten kurulmuЕџ"
-  },
-  "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "Vanilla {game_version} zaten kurulu"
-  },
-  "instance.settings.tabs.installation.change-version.button": {
-    "message": "SГјrГјm deДџiЕџtir"
-  },
-  "instance.settings.tabs.installation.change-version.button.install": {
-    "message": "Kur"
-  },
-  "instance.settings.tabs.installation.change-version.button.installing": {
-    "message": "Kuruluyor"
-  },
-  "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "Mod paketi sГјrГјmleri Г§ekiliyor"
-  },
-  "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "Yeni sГјrГјm kuruluyor"
-  },
-  "instance.settings.tabs.installation.currently-installed": {
-    "message": "Ећu an kurulu"
-  },
-  "instance.settings.tabs.installation.debug-information": {
-    "message": "AyД±klama bilgisi:"
-  },
-  "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "Mod paketi detaylarД± Г§ekiliyor"
-  },
-  "instance.settings.tabs.installation.game-version": {
-    "message": "Oyun sГјrГјmГј"
-  },
-  "instance.settings.tabs.installation.install": {
-    "message": "Kur"
-  },
-  "instance.settings.tabs.installation.install.in-progress": {
-    "message": "Kurulum Гјzerinde Г§alД±ЕџД±lД±yor"
-  },
   "instance.settings.tabs.installation.loader-version": {
     "message": "{loader} sГјrГјmГј"
-  },
-  "instance.settings.tabs.installation.minecraft-version": {
-    "message": "Minecraft {version}"
-  },
-  "instance.settings.tabs.installation.no-connection": {
-    "message": "BaДџlД± mod paketi detaylarД± Г§ekilemiyor. LГјtfen internet baДџlantД±nД±zД± kontrol edin."
-  },
-  "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader}, Minecraft {version} iГ§in mevcut deДџil. BaЕџka bir mod yГјkleyici deneyin."
-  },
-  "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "Bu profil bir mod paketine baДџlД± ama o mod paketi Modrinth'te bulunamД±yor."
-  },
-  "instance.settings.tabs.installation.platform": {
-    "message": "Platform"
-  },
-  "instance.settings.tabs.installation.reinstall.button": {
-    "message": "Mod paketini yeniden kur"
-  },
-  "instance.settings.tabs.installation.reinstall.button.reinstalling": {
-    "message": "Mod paketi yeniden kuruluyor"
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "Yeniden kurmak mod paketindeki indirilmiЕџ veya deДџiЕџtirilmiЕџ her Еџeyi mod paketinin saДџladД±klarД±na sД±fД±rlar, senin mod paketinin ГјstГјne eklediДџin modlarД± ve iГ§erikleri siler. Bu deДџiЕџiklik kaynaklД± beklenmedik durumlarД± dГјzeltebilir, ama dГјnyalarД±n ek kurulmuЕџ iГ§eriДџe baДџД±mlД±ysa o dГјnyalarД± bozabilir."
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "Bu kurulumu tekrar kurmak istediДџine emin misin?"
-  },
-  "instance.settings.tabs.installation.reinstall.description": {
-    "message": "Kurulumun iГ§eriДџini ilk hГўline geri dГ¶ndГјrГјr, orijinal mod paketinin ГјstГјne eklediДџin modlarД± ve iГ§erikleri siler."
-  },
-  "instance.settings.tabs.installation.reinstall.title": {
-    "message": "Mod paketini yeniden kur"
-  },
-  "instance.settings.tabs.installation.repair.button": {
-    "message": "Tamir Et"
-  },
-  "instance.settings.tabs.installation.repair.button.repairing": {
-    "message": "Tamir Ediliyor"
-  },
-  "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "Tamir etmek Minecraft dosyalarД±nД± tekrar indirir ve bozulma varmД± diye kontrol eder. Bu oyunun baЕџlatД±cД±sД± ile ilgili bazД± sorunlarД± Г§Г¶zebilir ama indirilen modlar ile alakalД± sorunlarД± Г§Г¶zemez."
-  },
-  "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "Tamir Edilsinmi?"
-  },
-  "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "Tamir ediliyor"
-  },
-  "instance.settings.tabs.installation.reset-selections": {
-    "message": "Mevcut olana sД±fД±rla"
-  },
-  "instance.settings.tabs.installation.show-all-versions": {
-    "message": "BГјtГјn sГјrГјmleri gГ¶ster"
-  },
-  "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "sГјrГјmГј deДџiЕџtir"
-  },
-  "instance.settings.tabs.installation.tooltip.action.install": {
-    "message": "indirilemez"
-  },
-  "instance.settings.tabs.installation.tooltip.action.reinstall": {
-    "message": "yeniden kur"
-  },
-  "instance.settings.tabs.installation.tooltip.action.repair": {
-    "message": "tamir edilemez"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "Д°ndirirken {action}"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
-    "message": "Г‡evrimdД±ЕџД± iken {action}"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "Tamir edilirken {action}"
-  },
-  "instance.settings.tabs.installation.unknown-version": {
-    "message": "(bilinmeyen sГјrГјm)"
-  },
-  "instance.settings.tabs.installation.unlink.button": {
-    "message": "Kurulum baДџlantД±sД±nД± kes"
-  },
-  "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "Devam edersen bu kurulumu geri baДџlayamazsД±n. Mod paketi gГјncellemeleri almazsД±n ve bu kurulum normal kuruluma dГ¶nГјЕџГјr."
-  },
-  "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "Bu kurulumun baДџД±nД± koparmak istediДџine eminmisin?"
-  },
-  "instance.settings.tabs.installation.unlink.description": {
-    "message": "Bu kurulum bir mod paketine baДџlД±, bu nedenle modlar gГјncellenemez ve mod yГјkleyicisini veya Minecraft sГјrГјmГјnГј deДџiЕџtiremezsin. Kurulumdan mod paketini koparmak kalД±cД±dД±r."
-  },
-  "instance.settings.tabs.installation.unlink.title": {
-    "message": "Mod paketi baДџД±nД± kopar"
   },
   "instance.settings.tabs.java": {
     "message": "Java ve bellek"
@@ -539,9 +545,6 @@
   "instance.worlds.dont_show_on_home": {
     "message": "Ana sayfada gГ¶sterme"
   },
-  "instance.worlds.filter.available": {
-    "message": "KullanД±labilir"
-  },
   "instance.worlds.game_already_open": {
     "message": "Bu kurulum zaten aГ§Д±k"
   },
@@ -550,6 +553,9 @@
   },
   "instance.worlds.incompatible_server": {
     "message": "Sunucu uyumlu deДџil"
+  },
+  "instance.worlds.linked_server": {
+    "message": "Sunucu projesi tarafından yönetilmektedir"
   },
   "instance.worlds.no_contact": {
     "message": "Sunucuya eriЕџilemedi"
@@ -562,12 +568,6 @@
   },
   "instance.worlds.play_instance": {
     "message": "Kurulumu oyna"
-  },
-  "instance.worlds.type.server": {
-    "message": "Sunucu"
-  },
-  "instance.worlds.type.singleplayer": {
-    "message": "Tek Oyunculu"
   },
   "instance.worlds.view_instance": {
     "message": "Kurulumu gГ¶r"
@@ -586,5 +586,17 @@
   },
   "search.filter.locked.instance.sync": {
     "message": "Kurulumla senkronize et"
+  },
+  "search.filter.locked.server": {
+    "message": "Sunucu tarafından sağlanmıştır"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "Sunucu örneğine yalnızca istemci tarafında çalışan modlar eklenebilir"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "Oyun sürümü sunucu tarafından sağlanıyor"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "Yükleyici sunucu tarafından sağlanıyor"
   }
 }

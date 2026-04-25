@@ -380,18 +380,18 @@ a {
 }
 
 h1 {
-	color: var(--color-text-dark);
+	color: var(--color-text-primary);
 }
 
 h2 {
 	margin-top: 0;
 	margin-bottom: 1rem;
-	color: var(--color-text-dark);
+	color: var(--color-text-primary);
 }
 
 h3 {
 	margin-block: var(--spacing-card-md) var(--spacing-card-sm);
-	color: var(--color-text-dark);
+	color: var(--color-text-primary);
 }
 
 input {
@@ -446,13 +446,6 @@ textarea {
 	}
 }
 
-button,
-input[type='button'] {
-	cursor: pointer;
-	border: none;
-	outline: 2px solid transparent;
-}
-
 kbd {
 	background-color: var(--color-code-bg);
 	color: var(--color-code-text);
@@ -463,9 +456,9 @@ kbd {
 	font-size: 0.85em !important;
 }
 
-@import '~/assets/styles/layout.scss';
-@import '~/assets/styles/utils.scss';
-@import '~/assets/styles/components.scss';
+@import './layout.scss';
+@import './utils.scss';
+@import './components.scss';
 
 // OMORPHIA FIXES
 .card {

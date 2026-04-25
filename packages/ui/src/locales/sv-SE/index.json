@@ -1,21 +1,39 @@
-{
+﻿{
   "affiliate.create.button": {
-    "defaultMessage": "Skapa affiliatelänk"
+    "defaultMessage": "Skapa affiliatelГ¤nk"
   },
   "affiliate.create.header": {
-    "defaultMessage": "Skapar ny affiliatelänk"
+    "defaultMessage": "Skapar ny affiliatelГ¤nk"
+  },
+  "affiliate.create.title.description": {
+    "defaultMessage": "Ge din affiliatelГ¤nk ett namn sГҐ du vet var personerna kommer ifrГҐn!"
+  },
+  "affiliate.create.title.label": {
+    "defaultMessage": "AffiliatelГ¤nkens titel"
   },
   "affiliate.create.title.placeholder": {
     "defaultMessage": "t.ex. YouTube"
   },
+  "affiliate.create.user.description": {
+    "defaultMessage": "AnvГ¤ndarnamnet av anvГ¤ndaren som affiliatelГ¤nken skapas fГ¶r"
+  },
   "affiliate.create.user.placeholder": {
-    "defaultMessage": "Ange användarnamn..."
+    "defaultMessage": "Ange anvГ¤ndarnamn..."
   },
   "affiliate.createdBy": {
     "defaultMessage": "Skapad av {user}"
   },
+  "affiliate.creating.button": {
+    "defaultMessage": "Skapar affiliatelГ¤nk..."
+  },
+  "affiliate.revoke": {
+    "defaultMessage": "UpphГ¤v affiliatelГ¤nk"
+  },
   "affiliate.viewAnalytics": {
     "defaultMessage": "Visa statistik"
+  },
+  "badge.alpha": {
+    "defaultMessage": "Alfa"
   },
   "badge.beta": {
     "defaultMessage": "Beta"
@@ -26,8 +44,47 @@
   "badge.new": {
     "defaultMessage": "Ny"
   },
+  "billing.resubscribe-modal.cancel": {
+    "defaultMessage": "Avbryt"
+  },
+  "billing.resubscribe-modal.cpus": {
+    "defaultMessage": "{sharedCpus} Delade CPUs"
+  },
+  "billing.resubscribe-modal.error.text": {
+    "defaultMessage": "Kunde inte prenumerera igen, misslyckades att ladda prenumerationsdetaljer."
+  },
+  "billing.resubscribe-modal.error.title": {
+    "defaultMessage": "Fel"
+  },
+  "billing.resubscribe-modal.failed-load": {
+    "defaultMessage": "Misslyckades att ladda prenumerationsdetaljer."
+  },
+  "billing.resubscribe-modal.interval.five-days": {
+    "defaultMessage": "/5 dagar"
+  },
+  "billing.resubscribe-modal.interval.monthly": {
+    "defaultMessage": "/mГҐnad"
+  },
+  "billing.resubscribe-modal.interval.quarterly": {
+    "defaultMessage": "/kvartal"
+  },
+  "billing.resubscribe-modal.interval.yearly": {
+    "defaultMessage": "/ГҐr"
+  },
+  "billing.resubscribe-modal.plan-label": {
+    "defaultMessage": "Plan"
+  },
+  "billing.resubscribe-modal.ram": {
+    "defaultMessage": "{ramGb} GB RAM"
+  },
+  "billing.resubscribe-modal.storage": {
+    "defaultMessage": "{storageGb} GB lagring"
+  },
+  "button.accept": {
+    "defaultMessage": "Acceptera"
+  },
   "button.affiliate-links": {
-    "defaultMessage": "Affiliatelänkar"
+    "defaultMessage": "AffiliatelГ¤nkar"
   },
   "button.analytics": {
     "defaultMessage": "Statistik"
@@ -38,23 +95,38 @@
   "button.cancel": {
     "defaultMessage": "Avbryt"
   },
+  "button.change-version": {
+    "defaultMessage": "Г„ndra version"
+  },
   "button.clear": {
     "defaultMessage": "Rensa"
   },
   "button.close": {
-    "defaultMessage": "Stäng"
+    "defaultMessage": "StГ¤ng"
   },
   "button.continue": {
-    "defaultMessage": "Fortsätt"
+    "defaultMessage": "FortsГ¤tt"
+  },
+  "button.copy-filename": {
+    "defaultMessage": "Kopiera filnamn"
   },
   "button.copy-id": {
     "defaultMessage": "Kopiera ID"
   },
+  "button.copy-link": {
+    "defaultMessage": "Kopiera lГ¤nk"
+  },
   "button.copy-permalink": {
-    "defaultMessage": "Kopiera permanent länk"
+    "defaultMessage": "Kopiera permanent lГ¤nk"
   },
   "button.create-a-project": {
     "defaultMessage": "Skapa ett projekt"
+  },
+  "button.decline": {
+    "defaultMessage": "Neka"
+  },
+  "button.disable": {
+    "defaultMessage": "Inaktivera"
   },
   "button.download": {
     "defaultMessage": "Ladda ner"
@@ -65,8 +137,17 @@
   "button.edit": {
     "defaultMessage": "Redigera"
   },
+  "button.enable": {
+    "defaultMessage": "Aktivera"
+  },
+  "button.extract": {
+    "defaultMessage": "Extrahera"
+  },
   "button.follow": {
-    "defaultMessage": "Följ"
+    "defaultMessage": "FГ¶lj"
+  },
+  "button.hide-snapshots": {
+    "defaultMessage": "DГ¶lj snapshots"
   },
   "button.max": {
     "defaultMessage": "Max"
@@ -74,14 +155,26 @@
   "button.more-options": {
     "defaultMessage": "Fler alternativ"
   },
+  "button.move": {
+    "defaultMessage": "Flytta"
+  },
   "button.next": {
-    "defaultMessage": "Nästa"
+    "defaultMessage": "NГ¤sta"
   },
   "button.open-folder": {
-    "defaultMessage": "Öppna mapp"
+    "defaultMessage": "Г–ppna mapp"
+  },
+  "button.open-in-folder": {
+    "defaultMessage": "Г–ppna i mapp"
   },
   "button.play": {
     "defaultMessage": "Spela"
+  },
+  "button.refresh": {
+    "defaultMessage": "SГ¶k efter uppdateringar"
+  },
+  "button.reinstall-modpack": {
+    "defaultMessage": "Ominstallera modpaket"
   },
   "button.remove": {
     "defaultMessage": "Ta bort"
@@ -89,20 +182,41 @@
   "button.remove-image": {
     "defaultMessage": "Ta bort bild"
   },
+  "button.rename": {
+    "defaultMessage": "Byt namn"
+  },
+  "button.repair": {
+    "defaultMessage": "Reparera"
+  },
+  "button.repairing": {
+    "defaultMessage": "Reparerar..."
+  },
   "button.report": {
     "defaultMessage": "Rapportera"
   },
   "button.reset": {
-    "defaultMessage": "Återställ"
+    "defaultMessage": "Г…terstГ¤ll"
+  },
+  "button.reset-server": {
+    "defaultMessage": "Г…terstГ¤ll server"
+  },
+  "button.retry": {
+    "defaultMessage": "FГ¶rsГ¶k igen"
   },
   "button.save": {
     "defaultMessage": "Spara"
   },
   "button.save-changes": {
-    "defaultMessage": "Spara ändringar"
+    "defaultMessage": "Spara Г¤ndringar"
   },
   "button.saving": {
     "defaultMessage": "Sparar"
+  },
+  "button.show-all-versions": {
+    "defaultMessage": "Visa alla versioner"
+  },
+  "button.show-file": {
+    "defaultMessage": "Visa fil"
   },
   "button.sign-in": {
     "defaultMessage": "Logga in"
@@ -116,8 +230,17 @@
   "button.stop": {
     "defaultMessage": "Stoppa"
   },
+  "button.switch-version": {
+    "defaultMessage": "Byt versioner"
+  },
   "button.unfollow": {
-    "defaultMessage": "Avfölj"
+    "defaultMessage": "AvfГ¶lj"
+  },
+  "button.unlink-modpack": {
+    "defaultMessage": "AvlГ¤nka modpaketet"
+  },
+  "button.update": {
+    "defaultMessage": "Uppdatera"
   },
   "button.upload-image": {
     "defaultMessage": "Ladda upp bild"
@@ -125,14 +248,425 @@
   "changelog.justNow": {
     "defaultMessage": "Just nu"
   },
-  "changelog.product.api": {
-    "defaultMessage": "API"
-  },
   "changelog.product.app": {
     "defaultMessage": "App"
   },
+  "changelog.product.hosting": {
+    "defaultMessage": "Hosting"
+  },
   "changelog.product.web": {
-    "defaultMessage": "Webbplats"
+    "defaultMessage": "Plattform"
+  },
+  "collections.label.private": {
+    "defaultMessage": "Privat"
+  },
+  "content.confirm-bulk-update.admonition-body": {
+    "defaultMessage": "Г„r du sГ¤ker pГҐ att du vill uppdatera {count, plural, one {# projekt} other {# projekt}} till deras senaste kompatibla version? Det Г¤r rekommenderat att uppdatera innehГҐllet individuellt."
+  },
+  "content.confirm-bulk-update.admonition-header": {
+    "defaultMessage": "Uppdatera varning"
+  },
+  "content.confirm-bulk-update.header": {
+    "defaultMessage": "Uppdatera projekt"
+  },
+  "content.confirm-bulk-update.update-button": {
+    "defaultMessage": "Uppdatera {count} projekt"
+  },
+  "content.confirm-deletion.admonition-body": {
+    "defaultMessage": "Att radera en mod kan stГ¤ndigt pГҐverka din vГ¤rld och kan orsaka fГ¶rsvunnen innehГҐll eller ofГ¶rvГ¤ntade problem nГ¤r den Г¶ppnas igen."
+  },
+  "content.confirm-deletion.admonition-header": {
+    "defaultMessage": "Raderingsvarning"
+  },
+  "content.confirm-deletion.delete-button": {
+    "defaultMessage": "Radera {count} {count, plural, one {{itemType, select, project {projekt} version {version} user {anvГ¤ndare} other {projekt}}} other {{itemType, select, project {projekt} version {versioner} user {anvГ¤ndare} other {projekt}}}}"
+  },
+  "content.confirm-deletion.header": {
+    "defaultMessage": "Radera {count, plural, one {{itemType, select, project {projekt} version {version} user {anvГ¤ndare} other {projekt}}} other {{itemType, select, project {projekt} version {versioner} user {anvГ¤ndare} other {projekt}}}}"
+  },
+  "content.confirm-modpack-update.admonition-body": {
+    "defaultMessage": "{action, select, downgrade {Att nedgradera} other {Att uppdatera}} kan orsaka kompatibilitetsproblem. Moddar eller innehГҐller du har lagt till sjГ¤lv kommer behГҐllas, men kanske inte Г¤r kompatibel med nya versionen."
+  },
+  "content.confirm-modpack-update.admonition-header": {
+    "defaultMessage": "Varning om att {action, select, downgrade {nedgradera} other {uppdatera}}"
+  },
+  "content.confirm-modpack-update.confirm-button": {
+    "defaultMessage": "{action, select, downgrade {Nedgradera} other {Uppgradera}} modpaket"
+  },
+  "content.confirm-modpack-update.header": {
+    "defaultMessage": "{action, select, downgrade {Nedgradera} other {Uppgradera}} modpaket"
+  },
+  "content.confirm-unlink.admonition-body": {
+    "defaultMessage": "Moddar och innehГҐll kommer blandas med det du lade till Г¶ver modpaketen, och kommer sluta fГҐ uppdateringar."
+  },
+  "content.confirm-unlink.admonition-header": {
+    "defaultMessage": "AvlГ¤nkar modpaket"
+  },
+  "content.confirm-unlink.header": {
+    "defaultMessage": "AvlГ¤nka modpaket"
+  },
+  "content.confirm-unlink.unlink-button": {
+    "defaultMessage": "AvlГ¤nka"
+  },
+  "content.diff-modal.added-count": {
+    "defaultMessage": "{count} tillagd"
+  },
+  "content.diff-modal.diff-type.added": {
+    "defaultMessage": "Lade till (beroende)"
+  },
+  "content.diff-modal.diff-type.removed": {
+    "defaultMessage": "Inaktiverad"
+  },
+  "content.diff-modal.diff-type.updated": {
+    "defaultMessage": "Uppdaterade"
+  },
+  "content.diff-modal.removed-count": {
+    "defaultMessage": "{count} borttagna"
+  },
+  "content.diff-modal.unknown-content-body": {
+    "defaultMessage": "NГҐgot innehГҐll pГҐ din server kunde inte analyseras och kommer kanske pГҐverkas av denna Г¤ndring."
+  },
+  "content.diff-modal.updated-count": {
+    "defaultMessage": "{count} uppdaterade"
+  },
+  "content.inline-backup.backing-up": {
+    "defaultMessage": "Skapar sГ¤kerhetskopia..."
+  },
+  "content.inline-backup.backup-complete": {
+    "defaultMessage": "Lyckades skapa sГ¤kerhetskopia"
+  },
+  "content.inline-backup.backup-failed": {
+    "defaultMessage": "Kunde inte skapa en sГ¤kerhetskopia. Du kan fortfarande fortsГ¤tta."
+  },
+  "content.inline-backup.backup-in-progress": {
+    "defaultMessage": "En sГ¤kerhetskopia skapas just nu, det Г¤r rekommenderat att vГ¤nta tills det Г¤r klart innan du gГ¶r detta."
+  },
+  "content.inline-backup.backup-takes-a-while": {
+    "defaultMessage": "Att skapa en sГ¤kerhetskopia kan ta flera minuter beroende pГҐ storleken av din server."
+  },
+  "content.inline-backup.create-backup": {
+    "defaultMessage": "Skapa sГ¤kerhetskopia"
+  },
+  "content.inline-backup.shift-click-hint": {
+    "defaultMessage": "HГҐll Skift medan du klickar fГ¶r att hoppa Г¶ver bekrГ¤ftelsen."
+  },
+  "content.inline-backup.warning-body": {
+    "defaultMessage": "Vi rekommenderar att du skapar en sГ¤kerhetskopia sГҐ att du kan ГҐterstГ¤lla din {type, select, server {vГ¤rld} other {instans}} ifall nГҐgot gГҐr sГ¶nder."
+  },
+  "content.modpack-card.content-hint-description": {
+    "defaultMessage": "Modpaketets innehГҐll kan nu ses hГ¤r!"
+  },
+  "content.modpack-card.content-hint-title": {
+    "defaultMessage": "Modpaketets innehГҐll flyttades"
+  },
+  "content.modpack-card.dismiss-hint": {
+    "defaultMessage": "Visa inte igen"
+  },
+  "content.page-layout.additional-content": {
+    "defaultMessage": "Ytterligare innehГҐll"
+  },
+  "content.page-layout.browse-content": {
+    "defaultMessage": "Utforska innehГҐll"
+  },
+  "content.page-layout.busy-description": {
+    "defaultMessage": "VГ¤nta pГҐ att operationen klaras innan du redigerar innehГҐll."
+  },
+  "content.page-layout.empty.hint": {
+    "defaultMessage": "Hitta eller ladda upp {contentType} fГ¶r att bГ¶rja"
+  },
+  "content.page-layout.empty.modpack-hint": {
+    "defaultMessage": "LГ¤gg till ytterligare innehГҐll Г¶ver modpaketet"
+  },
+  "content.page-layout.empty.no-content-installed": {
+    "defaultMessage": "Inget innehГҐll installerat"
+  },
+  "content.page-layout.empty.no-extra-content-installed": {
+    "defaultMessage": "Inget extra innehГҐll installerat"
+  },
+  "content.page-layout.failed-to-load": {
+    "defaultMessage": "Kunde inte ladda innehГҐll"
+  },
+  "content.page-layout.loading": {
+    "defaultMessage": "Laddar innehГҐll..."
+  },
+  "content.page-layout.no-content-found": {
+    "defaultMessage": "Inget innehГҐll hittades."
+  },
+  "content.page-layout.please-wait": {
+    "defaultMessage": "VГ¤nligen vГ¤nta"
+  },
+  "content.page-layout.search-placeholder": {
+    "defaultMessage": "SГ¶k genom {count} {contentType}..."
+  },
+  "content.page-layout.share.file-names": {
+    "defaultMessage": "Filernas namn"
+  },
+  "content.page-layout.share.label": {
+    "defaultMessage": "Dela"
+  },
+  "content.page-layout.share.markdown-links": {
+    "defaultMessage": "Markdown-lГ¤nkar"
+  },
+  "content.page-layout.share.project-links": {
+    "defaultMessage": "ProjektlГ¤nkar"
+  },
+  "content.page-layout.share.project-names": {
+    "defaultMessage": "Projektnamn"
+  },
+  "content.page-layout.sort.alphabetical": {
+    "defaultMessage": "Alfabetisk"
+  },
+  "content.page-layout.sort.date-added-newest": {
+    "defaultMessage": "Nyaste fГ¶rst"
+  },
+  "content.page-layout.sort.date-added-oldest": {
+    "defaultMessage": "Gamlaste fГ¶rst"
+  },
+  "content.page-layout.sort.label": {
+    "defaultMessage": "Sortera i {mode} ordning"
+  },
+  "content.page-layout.update-all": {
+    "defaultMessage": "Uppdatera alla"
+  },
+  "content.page-layout.upload-files": {
+    "defaultMessage": "Ladda upp filer"
+  },
+  "content.page-layout.uploading-files": {
+    "defaultMessage": "Laddar upp filler ({completed}/{total})"
+  },
+  "content.selection-bar.all-already-disabled": {
+    "defaultMessage": "Det valda innehГҐllet Г¤r redan inaktiverat"
+  },
+  "content.selection-bar.all-already-enabled": {
+    "defaultMessage": "Det valda innehГҐllet Г¤r redan aktiverat"
+  },
+  "content.selection-bar.bulk.deleting": {
+    "defaultMessage": "Raderar {progress}/{total} {contentType}..."
+  },
+  "content.selection-bar.bulk.deleting-waiting": {
+    "defaultMessage": "Raderar {contentType}..."
+  },
+  "content.selection-bar.bulk.disabling": {
+    "defaultMessage": "Inaktiverar {progress}/{total} {contentType}..."
+  },
+  "content.selection-bar.bulk.disabling-waiting": {
+    "defaultMessage": "Inaktiverar {contentType}..."
+  },
+  "content.selection-bar.bulk.enabling": {
+    "defaultMessage": "Aktiverar {progress}/{total} {contentType}..."
+  },
+  "content.selection-bar.bulk.enabling-waiting": {
+    "defaultMessage": "Aktiverar {contentType}..."
+  },
+  "content.selection-bar.bulk.updating": {
+    "defaultMessage": "Uppdaterar {progress}/{total} {contentType}..."
+  },
+  "content.selection-bar.bulk.updating-waiting": {
+    "defaultMessage": "Uppdaterar {contentType}..."
+  },
+  "content.selection-bar.selected-count": {
+    "defaultMessage": "{count} {contentType} valda"
+  },
+  "content.selection-bar.selected-count-simple": {
+    "defaultMessage": "{count, number} valda"
+  },
+  "files.conflict-modal.header": {
+    "defaultMessage": "Extraherings-lista"
+  },
+  "files.conflict-modal.overwrite-button": {
+    "defaultMessage": "Skriv Г¶ver"
+  },
+  "files.conflict-modal.overwrite-many-warning": {
+    "defaultMessage": "Г–ver 100 filer kommer att skrivas Г¶ver om du fortsГ¤tter med extrahering; hГ¤r Г¤r nГҐgra av dem."
+  },
+  "files.conflict-modal.overwrite-warning": {
+    "defaultMessage": "De fГ¶ljande {count} filerna finns redan pГҐ din server, och kommer bli Г¶verskrivna om du fortsГ¤tter att extrahera."
+  },
+  "files.conflict-modal.overwritten-count": {
+    "defaultMessage": "{count} Г¶verskrivna"
+  },
+  "files.conflict-modal.overwritten-label": {
+    "defaultMessage": "Г–verskriven"
+  },
+  "files.conflict-modal.warning-header": {
+    "defaultMessage": "Filer kommer att skrivas Г¶ver"
+  },
+  "files.create-modal.create-button": {
+    "defaultMessage": "Skapa {type, select, directory {mapp} other {fil}}"
+  },
+  "files.create-modal.header": {
+    "defaultMessage": "Skapa en {type, select, directory {mapp} other {fil}}"
+  },
+  "files.create-modal.placeholder-directory": {
+    "defaultMessage": "t.ex. min-mapp"
+  },
+  "files.create-modal.placeholder-file": {
+    "defaultMessage": "t.ex. config.yml"
+  },
+  "files.delete-modal.deleting-name": {
+    "defaultMessage": "Raderar \"{name}\""
+  },
+  "files.delete-modal.header": {
+    "defaultMessage": "Radera fil"
+  },
+  "files.delete-modal.warning": {
+    "defaultMessage": "{type, select, directory {Mappen och dess innehГҐll kommer raderas permanent. Det hГ¤r kan inte ГҐngras.} other {Filen kommer raderas permanent. Det hГ¤r kan inte ГҐngras.}}"
+  },
+  "files.editor.failed-to-open-text": {
+    "defaultMessage": "Kunde inte ladda filens innehГҐll."
+  },
+  "files.editor.failed-to-open-title": {
+    "defaultMessage": "Misslyckades att Г¶ppna filen"
+  },
+  "files.editor.failed-to-share-text": {
+    "defaultMessage": "Kunde inte ladda upp till mclo.gs."
+  },
+  "files.editor.failed-to-share-title": {
+    "defaultMessage": "Misslyckades att dela fil"
+  },
+  "files.editor.file-saved-text": {
+    "defaultMessage": "Din fil har sparats."
+  },
+  "files.editor.file-saved-title": {
+    "defaultMessage": "Filen sparades"
+  },
+  "files.editor.find-close": {
+    "defaultMessage": "StГ¤ng"
+  },
+  "files.editor.find-in-file": {
+    "defaultMessage": "Hitta"
+  },
+  "files.editor.find-match-count": {
+    "defaultMessage": "{current} av {total}"
+  },
+  "files.editor.find-next-match": {
+    "defaultMessage": "NГ¤sta match"
+  },
+  "files.editor.find-no-results": {
+    "defaultMessage": "Inga resultat"
+  },
+  "files.editor.find-previous-match": {
+    "defaultMessage": "FГ¶regГҐende match"
+  },
+  "files.editor.find-toggle-replace": {
+    "defaultMessage": "VГ¤xla ersГ¤tta"
+  },
+  "files.editor.replace": {
+    "defaultMessage": "ErsГ¤tt"
+  },
+  "files.editor.replace-all": {
+    "defaultMessage": "ErsГ¤tt allt"
+  },
+  "files.editor.replace-in-file": {
+    "defaultMessage": "ErsГ¤tt"
+  },
+  "files.editor.save-failed-title": {
+    "defaultMessage": "Misslyckades att spara"
+  },
+  "files.error.go-to-home": {
+    "defaultMessage": "GГҐ till hemmapp"
+  },
+  "files.error.try-again": {
+    "defaultMessage": "FГ¶rsГ¶k igen"
+  },
+  "files.image_viewer.load_failed": {
+    "defaultMessage": "Kunde inte ladda bilden"
+  },
+  "files.image_viewer.reset_zoom": {
+    "defaultMessage": "Г…terstГ¤ll zoom"
+  },
+  "files.image_viewer.zoom_in": {
+    "defaultMessage": "Zooma in"
+  },
+  "files.image_viewer.zoom_out": {
+    "defaultMessage": "Zooma ut"
+  },
+  "files.layout.error-message": {
+    "defaultMessage": "Mappen kanske inte existerar."
+  },
+  "files.layout.error-title": {
+    "defaultMessage": "Kunde inte ladda filerna"
+  },
+  "files.layout.selected-count": {
+    "defaultMessage": "{count} valda"
+  },
+  "files.layout.unsaved-changes": {
+    "defaultMessage": "Du har osparade Г¤ndringar."
+  },
+  "files.navbar.breadcrumb-navigation": {
+    "defaultMessage": "LГ¤nkstigsnavigering"
+  },
+  "files.navbar.create-new": {
+    "defaultMessage": "Skapa ny..."
+  },
+  "files.navbar.new-file": {
+    "defaultMessage": "Ny fil"
+  },
+  "files.navbar.new-folder": {
+    "defaultMessage": "Ny mapp"
+  },
+  "files.navbar.search-files": {
+    "defaultMessage": "SГ¶k filer"
+  },
+  "files.navbar.share-to-mclogs": {
+    "defaultMessage": "Dela till mclo.gs"
+  },
+  "files.navbar.upload-file": {
+    "defaultMessage": "Ladda upp fil"
+  },
+  "files.operations.modpack-from-url": {
+    "defaultMessage": "modpaket frГҐn en webbadress"
+  },
+  "files.rename-modal.header": {
+    "defaultMessage": "Г„ndra namn pГҐ {name}"
+  },
+  "files.rename-modal.new-name-label": {
+    "defaultMessage": "Nytt namn"
+  },
+  "files.row.item-count": {
+    "defaultMessage": "{count, plural, one {# fГ¶remГҐl} other {# fГ¶remГҐl}}"
+  },
+  "files.table-header.created": {
+    "defaultMessage": "Skapad"
+  },
+  "files.table-header.modified": {
+    "defaultMessage": "Modifierades"
+  },
+  "files.table-header.name": {
+    "defaultMessage": "Namn"
+  },
+  "files.table-header.size": {
+    "defaultMessage": "Storlek"
+  },
+  "files.unsaved-changes-modal.body": {
+    "defaultMessage": "Du har osparade Г¤ndringar som kommer fГ¶rloras om du lГ¤mnar. Vill du spara innan du lГ¤mnar?"
+  },
+  "files.unsaved-changes-modal.discard": {
+    "defaultMessage": "Kassera"
+  },
+  "files.unsaved-changes-modal.header": {
+    "defaultMessage": "Osparade Г¤ndringar"
+  },
+  "files.upload-dropdown.cancelled": {
+    "defaultMessage": "Avbrutet"
+  },
+  "files.upload-dropdown.file": {
+    "defaultMessage": "Fil"
+  },
+  "files.validation.name-label": {
+    "defaultMessage": "Namn"
+  },
+  "files.validation.name-required": {
+    "defaultMessage": "Namn krГ¤vs."
+  },
+  "files.zip-url-modal.error-url-required": {
+    "defaultMessage": "LГ¤nk krГ¤vs."
+  },
+  "files.zip-url-modal.install-button": {
+    "defaultMessage": "Installera"
+  },
+  "files.zip-url-modal.install-failed-title": {
+    "defaultMessage": "Installation misslyckades"
   },
   "form.label.address-line": {
     "defaultMessage": "Adresslinje"
@@ -141,13 +675,13 @@
     "defaultMessage": "Adresslinje 2 (frivillig)"
   },
   "form.label.amount": {
-    "defaultMessage": "Mängd"
+    "defaultMessage": "MГ¤ngd"
   },
   "form.label.bank-name": {
     "defaultMessage": "Banknamn"
   },
   "form.label.business-name": {
-    "defaultMessage": "Företagsnamn"
+    "defaultMessage": "FГ¶retagsnamn"
   },
   "form.label.city": {
     "defaultMessage": "Stad"
@@ -156,13 +690,13 @@
     "defaultMessage": "Land"
   },
   "form.label.date-of-birth": {
-    "defaultMessage": "Födelsedatum"
+    "defaultMessage": "FГ¶delsedatum"
   },
   "form.label.email": {
     "defaultMessage": "E-post"
   },
   "form.label.first-name": {
-    "defaultMessage": "Förnamn"
+    "defaultMessage": "FГ¶rnamn"
   },
   "form.label.last-name": {
     "defaultMessage": "Efternamn"
@@ -176,29 +710,32 @@
   "form.placeholder.address": {
     "defaultMessage": "Ange adress"
   },
+  "form.placeholder.address-2": {
+    "defaultMessage": "LГ¤genhet, svit etc."
+  },
   "form.placeholder.amount": {
-    "defaultMessage": "Ange mängd"
+    "defaultMessage": "Ange mГ¤ngd"
   },
   "form.placeholder.bank-name": {
     "defaultMessage": "Ange banknamn"
   },
   "form.placeholder.bank-name-dropdown": {
-    "defaultMessage": "Välj banknamn"
+    "defaultMessage": "VГ¤lj banknamn"
   },
   "form.placeholder.business-name": {
-    "defaultMessage": "Ange företagsnamn"
+    "defaultMessage": "Ange fГ¶retagsnamn"
   },
   "form.placeholder.city": {
     "defaultMessage": "Ange stad"
   },
   "form.placeholder.country": {
-    "defaultMessage": "Välj land"
+    "defaultMessage": "VГ¤lj land"
   },
   "form.placeholder.email": {
     "defaultMessage": "Ange e-post adress"
   },
   "form.placeholder.first-name": {
-    "defaultMessage": "Ange förnamn"
+    "defaultMessage": "Ange fГ¶rnamn"
   },
   "form.placeholder.last-name": {
     "defaultMessage": "Ange efternamn"
@@ -209,6 +746,78 @@
   "form.placeholder.state": {
     "defaultMessage": "Ange delstat/provins"
   },
+  "header.category.category": {
+    "defaultMessage": "Kategori"
+  },
+  "header.category.feature": {
+    "defaultMessage": "Funktion"
+  },
+  "header.category.minecraft-server-community": {
+    "defaultMessage": "Community"
+  },
+  "header.category.minecraft-server-features": {
+    "defaultMessage": "Funktioner"
+  },
+  "header.category.minecraft-server-gameplay": {
+    "defaultMessage": "Spelstil"
+  },
+  "header.category.minecraft-server-meta": {
+    "defaultMessage": "Meta"
+  },
+  "header.category.performance-impact": {
+    "defaultMessage": "PrestandapГҐverkan"
+  },
+  "header.category.resolutions": {
+    "defaultMessage": "Kvalitet"
+  },
+  "hosting.content.failed-to-bulk-delete": {
+    "defaultMessage": "Kunde inte radera innehГҐllet"
+  },
+  "hosting.content.failed-to-bulk-disable": {
+    "defaultMessage": "Kunde inte inaktivera innehГҐllet"
+  },
+  "hosting.content.failed-to-bulk-enable": {
+    "defaultMessage": "Kunde inte aktivera innehГҐllet"
+  },
+  "hosting.content.failed-to-bulk-update": {
+    "defaultMessage": "Kunde inte uppdatera innehГҐllet"
+  },
+  "hosting.content.failed-to-load-modpack-content": {
+    "defaultMessage": "Kunde inte ladda modpaketets innehГҐll"
+  },
+  "hosting.content.failed-to-load-versions": {
+    "defaultMessage": "Kunde inte ladda versionerna"
+  },
+  "hosting.content.failed-to-remove": {
+    "defaultMessage": "Kunde inte radera innehГҐllet"
+  },
+  "hosting.content.failed-to-toggle": {
+    "defaultMessage": "Kunde inte vГ¤xla {name}"
+  },
+  "hosting.content.failed-to-unlink": {
+    "defaultMessage": "Kunde inte avlГ¤nka modpaketet"
+  },
+  "hosting.content.failed-to-update": {
+    "defaultMessage": "Kunde inte uppdatera"
+  },
+  "hosting.content.failed-to-upload": {
+    "defaultMessage": "Kunde inte ladda upp filen"
+  },
+  "hosting.specs.burst": {
+    "defaultMessage": "Г–kar upp till {cpus} CPU:er"
+  },
+  "hosting.specs.burst.tooltip": {
+    "defaultMessage": "CPU-Г¶kning lГҐter din server att fГ¶r tillfГ¤llet anvГ¤nda fler trГҐd fГ¶r att fГ¶rsГ¶ka dГ¤mpa TPS-spikar. Klicka fГ¶r mer info."
+  },
+  "hosting.specs.gb-ram": {
+    "defaultMessage": "{ram} GB RAM"
+  },
+  "hosting.specs.gb-storage": {
+    "defaultMessage": "{storage} GB Lagring"
+  },
+  "hosting.specs.shared-cpus": {
+    "defaultMessage": "{cpus} Delade CPU"
+  },
   "icon-select.edit": {
     "defaultMessage": "Redigera-ikon"
   },
@@ -216,46 +825,283 @@
     "defaultMessage": "Ta bort ikon"
   },
   "icon-select.replace": {
-    "defaultMessage": "Ersätt ikon"
+    "defaultMessage": "ErsГ¤tt ikon"
   },
   "icon-select.select": {
-    "defaultMessage": "Välj ikon"
+    "defaultMessage": "VГ¤lj ikon"
+  },
+  "input.search-version.placeholder": {
+    "defaultMessage": "SГ¶k efter version..."
   },
   "input.search.placeholder": {
-    "defaultMessage": "Sök..."
+    "defaultMessage": "SГ¶k..."
+  },
+  "input.select-version.placeholder": {
+    "defaultMessage": "VГ¤lj version"
   },
   "input.view.gallery": {
     "defaultMessage": "Gallerivy"
   },
   "input.view.grid": {
-    "defaultMessage": "Rutnätsvy"
+    "defaultMessage": "RutnГ¤tsvy"
   },
   "input.view.list": {
     "defaultMessage": "Radvy"
   },
+  "installation-settings.aria.select-game-version": {
+    "defaultMessage": "VГ¤lj spelversion"
+  },
+  "installation-settings.aria.select-loader-version": {
+    "defaultMessage": "VГ¤lj {loader} version"
+  },
+  "installation-settings.aria.select-platform": {
+    "defaultMessage": "VГ¤lj plattform"
+  },
+  "installation-settings.confirm-version-change": {
+    "defaultMessage": "BekrГ¤fta"
+  },
+  "installation-settings.confirm-version-change-description": {
+    "defaultMessage": "Om du byter till {gameVersion} kommer detta innehГҐllet pГҐ din server Г¤ndras."
+  },
+  "installation-settings.confirm-version-change-header": {
+    "defaultMessage": "Kontrollera innehГҐllsГ¤ndringar"
+  },
+  "installation-settings.edit-installation.title": {
+    "defaultMessage": "Redigera installation"
+  },
+  "installation-settings.edit.warning-instance": {
+    "defaultMessage": "Vi rekommenderar inte att du Г¤ndrar installationsinstГ¤llningarna efter att du har installerat innehГҐllet. Om du vill Г¤ndra dem bГ¶r du vara fГ¶rsiktig, eftersom det kan orsaka problem."
+  },
+  "installation-settings.edit.warning-server": {
+    "defaultMessage": "Vi rekommenderar inte att du Г¤ndrar installationsinstГ¤llningarna efter att du har installerat innehГҐllet. Om du vill Г¤ndra dem mГҐste du starta om servern."
+  },
+  "installation-settings.linked-instance.title": {
+    "defaultMessage": "LГ¤nkat {projectType, select, server {serverprojekt} other {modpaket}}"
+  },
+  "installation-settings.loader-version": {
+    "defaultMessage": "{loader} version"
+  },
+  "installation-settings.platform-lock-tooltip": {
+    "defaultMessage": "Du kommer att behГ¶va stГ¤lla om din server fГ¶r att Г¤ndra loader."
+  },
+  "installation-settings.reinstall-modpack.description": {
+    "defaultMessage": "Ominstallering av modpaketet ГҐterstГ¤ller {type, select, server {serverns} other {instansens}} innehГҐll till dess originella skick, vilket kommer ta bort moddar eller innehГҐll som du lagt till."
+  },
+  "installation-settings.reinstall-modpack.title": {
+    "defaultMessage": "Ominstallera modpaket"
+  },
+  "installation-settings.reinstalling-modpack": {
+    "defaultMessage": "Ominstallerar modpack"
+  },
+  "installation-settings.removed-incompatible": {
+    "defaultMessage": "Tog bort (ej kompatibel)"
+  },
+  "installation-settings.repair.instance-description": {
+    "defaultMessage": "Ominstallerar Minecraft-beroenden och tittar efter korruption. Detta kan lГ¶sa problem om ditt spel inte startar pГҐ grund av launcher-relaterade problem."
+  },
+  "installation-settings.repair.instance-title": {
+    "defaultMessage": "Reparera instans"
+  },
+  "installation-settings.repair.server-description": {
+    "defaultMessage": "Ominstallerar loadern och Minecraft-beroenden utan att radera ditt innehГҐll. Detta kan lГ¶sa problem om din server inte startar rГ¤tt."
+  },
+  "installation-settings.repair.server-title": {
+    "defaultMessage": "Laga server"
+  },
+  "installation-settings.saving": {
+    "defaultMessage": "Sparar..."
+  },
+  "installation-settings.search-game-version": {
+    "defaultMessage": "SГ¶k efter spelversion..."
+  },
+  "installation-settings.unlink": {
+    "defaultMessage": "AvlГ¤nka"
+  },
+  "installation-settings.unlink.description": {
+    "defaultMessage": "Att avlГ¤nka kommer permanent avkoppla denna {type, select, server {server} other {instans}} frГҐn {projectType, select, server {server} other {modpaket}}-projektet, vilket ska lГҐta dig Г¤ndra loadern och Minecraft-versionen, men du kommer inte att fГҐ uppdateringar i framtiden."
+  },
+  "installation-settings.verifying": {
+    "defaultMessage": "Verifierar..."
+  },
+  "instance.confirm-reinstall.admonition-body": {
+    "defaultMessage": "Ominstallering kommer att stГ¤lla om alla installerade eller Г¤ndrade innehГҐll till det som Г¤r givet av modpaketet, vilket kommer ta bort moddar eller innehГҐll som du lagt Г¶ver den originella installationen."
+  },
+  "instance.confirm-reinstall.admonition-header": {
+    "defaultMessage": "Ominstalleringsvarning"
+  },
+  "instance.confirm-reinstall.header": {
+    "defaultMessage": "Ominstallera modpack"
+  },
+  "instance.confirm-reinstall.reinstall-button": {
+    "defaultMessage": "Ominstallera modpack"
+  },
+  "instance.confirm-repair.body": {
+    "defaultMessage": "Att laga kommer att ominstallera loadern och Minecraft-beroenden utan att radera ditt innehГҐll. Detta kan lГ¶sa problem om {type, select, server {din server inte startar som den ska} other {ditt spel inte startar pГҐ grund av lancher-relaterade fel}}."
+  },
+  "instance.confirm-repair.header": {
+    "defaultMessage": "Reparera {type, select, server {server} other {instans}}"
+  },
+  "instance.confirm-repair.repair-button": {
+    "defaultMessage": "Reparera"
+  },
   "instance.worlds.game_mode.adventure": {
-    "defaultMessage": "Äventyrsläge"
+    "defaultMessage": "Г„ventyrslГ¤ge"
   },
   "instance.worlds.game_mode.creative": {
-    "defaultMessage": "Kreativt läge"
+    "defaultMessage": "Kreativt lГ¤ge"
   },
   "instance.worlds.game_mode.spectator": {
-    "defaultMessage": "Åskådarläge"
+    "defaultMessage": "Г…skГҐdarlГ¤ge"
   },
   "instance.worlds.game_mode.survival": {
-    "defaultMessage": "Överlevnadsläge"
+    "defaultMessage": "Г–verlevnadslГ¤ge"
   },
   "instance.worlds.game_mode.unknown": {
-    "defaultMessage": "Okänt spelläge"
+    "defaultMessage": "OkГ¤nt spellГ¤ge"
+  },
+  "instances.confirm-leave-modal.body": {
+    "defaultMessage": "Filer laddas fortfarande upp. Om du lГ¤mnar sidan kommer uppladdningen avbrytas och dina Г¤ndringar kommer fГ¶rloras."
+  },
+  "instances.confirm-leave-modal.upload-in-progress": {
+    "defaultMessage": "Uppladdning pГҐgГҐr"
+  },
+  "instances.content-install.compatible-count": {
+    "defaultMessage": "{count} {count, plural, one {kompatibel} other {kompatibla}} {count, plural, one {instans} other {instanser}}"
+  },
+  "instances.content-install.existing-tab": {
+    "defaultMessage": "Befintliga instanser"
+  },
+  "instances.content-install.game-version-placeholder": {
+    "defaultMessage": "VГ¤lj spelversion"
+  },
+  "instances.content-install.header": {
+    "defaultMessage": "Installera projekt"
+  },
+  "instances.content-install.install-button": {
+    "defaultMessage": "Installera"
+  },
+  "instances.content-install.installed-badge": {
+    "defaultMessage": "Installerad"
+  },
+  "instances.content-install.instance-type": {
+    "defaultMessage": "Instanstyp"
+  },
+  "instances.content-install.loader-label": {
+    "defaultMessage": "Loader"
+  },
+  "instances.content-install.name-label": {
+    "defaultMessage": "Namn"
+  },
+  "instances.content-install.name-placeholder": {
+    "defaultMessage": "Ange instansnamn"
+  },
+  "instances.content-install.new-tab": {
+    "defaultMessage": "Ny instans"
+  },
+  "instances.content-install.no-instances": {
+    "defaultMessage": "Inga kompatibla instanser hittades"
+  },
+  "instances.content-install.remove-icon": {
+    "defaultMessage": "Radera ikon"
+  },
+  "instances.content-install.search-placeholder": {
+    "defaultMessage": "SГ¶k fГ¶r instans"
+  },
+  "instances.content-install.select-icon": {
+    "defaultMessage": "VГ¤lj ikon"
+  },
+  "instances.modpack-content-modal.empty-description": {
+    "defaultMessage": "Modpaketet innehГҐller inget ytterligare innehГҐll."
+  },
+  "instances.modpack-content-modal.empty-title": {
+    "defaultMessage": "Inget innehГҐll hittades"
+  },
+  "instances.modpack-content-modal.header": {
+    "defaultMessage": "Modpaketets innehГҐll"
+  },
+  "instances.modpack-content-modal.loading": {
+    "defaultMessage": "Laddar innehГҐll..."
+  },
+  "instances.modpack-content-modal.no-results": {
+    "defaultMessage": "Inga projekt matchar din sГ¶kning."
+  },
+  "instances.modpack-content-modal.search-placeholder": {
+    "defaultMessage": "SГ¶k genom {count, number} projekt"
+  },
+  "instances.updater-modal.badge.current": {
+    "defaultMessage": "Nuvarande"
+  },
+  "instances.updater-modal.badge.incompatible": {
+    "defaultMessage": "Inkompatibel"
+  },
+  "instances.updater-modal.downgrade-to": {
+    "defaultMessage": "Degradera till {version}"
+  },
+  "instances.updater-modal.header": {
+    "defaultMessage": "Uppdatera version"
+  },
+  "instances.updater-modal.header-modpack": {
+    "defaultMessage": "Г„ndra modpackens version"
+  },
+  "instances.updater-modal.header-switch": {
+    "defaultMessage": "Г„ndra version"
+  },
+  "instances.updater-modal.hide-incompatible": {
+    "defaultMessage": "DГ¶lj inkompatibla"
+  },
+  "instances.updater-modal.loading-changelog": {
+    "defaultMessage": "Laddar Г¤ndringslogg..."
+  },
+  "instances.updater-modal.loading-versions": {
+    "defaultMessage": "Laddar versioner..."
+  },
+  "instances.updater-modal.no-changelog": {
+    "defaultMessage": "Ingen Г¤ndringslogg tillgГ¤nglig fГ¶r denna version."
+  },
+  "instances.updater-modal.no-versions": {
+    "defaultMessage": "Inga versioner hittades"
+  },
+  "instances.updater-modal.search-placeholder": {
+    "defaultMessage": "SГ¶k efter en version..."
+  },
+  "instances.updater-modal.select-version": {
+    "defaultMessage": "VГ¤lj en version fГ¶r att lГ¤sa dess Г¤ndringslogg"
+  },
+  "instances.updater-modal.show-incompatible": {
+    "defaultMessage": "Visa inkompatibla"
+  },
+  "instances.updater-modal.switch-to": {
+    "defaultMessage": "Г„ndra till {version}"
+  },
+  "instances.updater-modal.update-to": {
+    "defaultMessage": "Uppdatera till {version}"
+  },
+  "instances.updater-modal.warning-app": {
+    "defaultMessage": "Att uppdatera kan fГ¶rstГ¶ra din instans. Kontrollera versionernas Г¤ndringsloggar och sГ¤kerhetskopiera fГ¶rst."
+  },
+  "instances.updater-modal.warning-web": {
+    "defaultMessage": "Att uppdatera kan fГ¶rstГ¶ra din vГ¤rld. Kontrollera versionernas Г¤ndringsloggar och sГ¤kerhetskopiera fГ¶rst."
+  },
+  "label.actions": {
+    "defaultMessage": "Г…tgГ¤rder"
   },
   "label.available": {
-    "defaultMessage": "{amount} tillgängligt."
+    "defaultMessage": "{amount} tillgГ¤ngligt."
+  },
+  "label.changelog": {
+    "defaultMessage": "Г„ndringslogg"
   },
   "label.changes-saved": {
-    "defaultMessage": "Ändringar sparade"
+    "defaultMessage": "Г„ndringar sparade"
   },
   "label.collections": {
     "defaultMessage": "Samlingar"
+  },
+  "label.confirm-password": {
+    "defaultMessage": "BekrГ¤fta lГ¶senord"
+  },
+  "label.content": {
+    "defaultMessage": "InnehГҐll"
   },
   "label.created-ago": {
     "defaultMessage": "Skapad {ago}"
@@ -266,20 +1112,56 @@
   "label.delete": {
     "defaultMessage": "Ta bort"
   },
+  "label.delete-immediately": {
+    "defaultMessage": "Radera direkt"
+  },
   "label.description": {
     "defaultMessage": "Beskrivning"
+  },
+  "label.details": {
+    "defaultMessage": "Detaljer"
+  },
+  "label.email": {
+    "defaultMessage": "E-post"
+  },
+  "label.email-username": {
+    "defaultMessage": "E-post eller anvГ¤ndarnamn"
   },
   "label.error": {
     "defaultMessage": "Fel"
   },
+  "label.filter-by": {
+    "defaultMessage": "Filtrera efter"
+  },
   "label.followed-projects": {
-    "defaultMessage": "Följda projekt"
+    "defaultMessage": "FГ¶ljda projekt"
+  },
+  "label.game-version": {
+    "defaultMessage": "Spelversion"
+  },
+  "label.installation-info": {
+    "defaultMessage": "Installationsinfo"
+  },
+  "label.installed-modpack": {
+    "defaultMessage": "Installerat modpaket"
+  },
+  "label.installing": {
+    "defaultMessage": "Installerar..."
   },
   "label.loading": {
     "defaultMessage": "Laddar..."
   },
   "label.moderation": {
     "defaultMessage": "Moderering"
+  },
+  "label.modpack": {
+    "defaultMessage": "Modpaket"
+  },
+  "label.no": {
+    "defaultMessage": "Nej"
+  },
+  "label.no-items": {
+    "defaultMessage": "Inga fГ¶remГҐl"
   },
   "label.notifications": {
     "defaultMessage": "Notifikationer"
@@ -288,10 +1170,31 @@
     "defaultMessage": "eller"
   },
   "label.password": {
-    "defaultMessage": "Lösenord"
+    "defaultMessage": "LГ¶senord"
+  },
+  "label.plan-custom": {
+    "defaultMessage": "Anpassad"
+  },
+  "label.plan-large": {
+    "defaultMessage": "Stor"
+  },
+  "label.plan-medium": {
+    "defaultMessage": "Medel"
+  },
+  "label.plan-small": {
+    "defaultMessage": "Liten"
+  },
+  "label.plan-unknown": {
+    "defaultMessage": "OkГ¤nd"
+  },
+  "label.platform": {
+    "defaultMessage": "Plattform"
   },
   "label.played": {
-    "defaultMessage": "Spelad för {time}"
+    "defaultMessage": "Spelades sist {ago}"
+  },
+  "label.project": {
+    "defaultMessage": "Projekt"
   },
   "label.public": {
     "defaultMessage": "Offentlig"
@@ -299,8 +1202,23 @@
   "label.rejected": {
     "defaultMessage": "Nekad"
   },
+  "label.rewards-program-terms-agreement": {
+    "defaultMessage": "Jag godkГ¤nner <terms-link>BelГ¶ningsprogrammets Villkor</terms-link>"
+  },
   "label.saved": {
     "defaultMessage": "Sparad"
+  },
+  "label.scopes": {
+    "defaultMessage": "Omfattning"
+  },
+  "label.search": {
+    "defaultMessage": "SГ¶k"
+  },
+  "label.select-all": {
+    "defaultMessage": "VГ¤lj alla"
+  },
+  "label.selection-actions": {
+    "defaultMessage": "ValГҐtgГ¤rder"
   },
   "label.server": {
     "defaultMessage": "Server"
@@ -309,40 +1227,181 @@
     "defaultMessage": "Servrar"
   },
   "label.settings": {
-    "defaultMessage": "Inställningar"
+    "defaultMessage": "InstГ¤llningar"
   },
   "label.singleplayer": {
-    "defaultMessage": "Enspelarläge"
+    "defaultMessage": "EnspelarlГ¤ge"
+  },
+  "label.sort-by": {
+    "defaultMessage": "Sortera efter: "
+  },
+  "label.success": {
+    "defaultMessage": "Lyckades"
   },
   "label.title": {
     "defaultMessage": "Titel"
   },
+  "label.unknown": {
+    "defaultMessage": "OkГ¤nd"
+  },
   "label.unlisted": {
     "defaultMessage": "Olistad"
+  },
+  "label.update-available": {
+    "defaultMessage": "TillgГ¤nglig uppdatering"
+  },
+  "label.username": {
+    "defaultMessage": "AnvГ¤ndarnamn"
+  },
+  "label.version": {
+    "defaultMessage": "Version"
   },
   "label.visibility": {
     "defaultMessage": "Synlighet"
   },
   "label.visit-your-profile": {
-    "defaultMessage": "Besök din profil"
+    "defaultMessage": "BesГ¶k din profil"
+  },
+  "label.yes": {
+    "defaultMessage": "Ja"
+  },
+  "locale.cs-CZ": {
+    "defaultMessage": "Tjeckiska"
+  },
+  "locale.da-DK": {
+    "defaultMessage": "Danska"
+  },
+  "locale.de-CH": {
+    "defaultMessage": "Tyska (Schweiz)"
+  },
+  "locale.de-DE": {
+    "defaultMessage": "Tyska (Tyskland)"
+  },
+  "locale.en-US": {
+    "defaultMessage": "Engelska (USA)"
+  },
+  "locale.es-419": {
+    "defaultMessage": "Spanska (Latinamerika)"
+  },
+  "locale.es-ES": {
+    "defaultMessage": "Spanska (Spanien)"
+  },
+  "locale.fi-FI": {
+    "defaultMessage": "Finska"
+  },
+  "locale.fil-PH": {
+    "defaultMessage": "Filippinska"
+  },
+  "locale.fr-FR": {
+    "defaultMessage": "Franska"
+  },
+  "locale.he-IL": {
+    "defaultMessage": "Hebreiska"
+  },
+  "locale.hu-HU": {
+    "defaultMessage": "Ungerska"
+  },
+  "locale.id-ID": {
+    "defaultMessage": "Indonesiska"
+  },
+  "locale.it-IT": {
+    "defaultMessage": "Italienska (Italien)"
+  },
+  "locale.ja-JP": {
+    "defaultMessage": "Japanska"
+  },
+  "locale.ko-KR": {
+    "defaultMessage": "Koreanska"
+  },
+  "locale.ms-MY": {
+    "defaultMessage": "Malajiska"
+  },
+  "locale.nl-NL": {
+    "defaultMessage": "HollГ¤ndska"
+  },
+  "locale.no-NO": {
+    "defaultMessage": "Norska BokmГҐl"
+  },
+  "locale.pl-PL": {
+    "defaultMessage": "Polska"
+  },
+  "locale.pt-BR": {
+    "defaultMessage": "Portugisiska (Brasilien)"
+  },
+  "locale.pt-PT": {
+    "defaultMessage": "Portugisiska (Portugal)"
+  },
+  "locale.ro-RO": {
+    "defaultMessage": "RumГ¤nska"
+  },
+  "locale.ru-RU": {
+    "defaultMessage": "Ryska"
+  },
+  "locale.sr-CS": {
+    "defaultMessage": "Serbiska (Latin)"
+  },
+  "locale.sv-SE": {
+    "defaultMessage": "Svenska"
+  },
+  "locale.th-TH": {
+    "defaultMessage": "ThailГ¤ndska"
+  },
+  "locale.tr-TR": {
+    "defaultMessage": "Turkiska"
+  },
+  "locale.uk-UA": {
+    "defaultMessage": "Ukrainska"
+  },
+  "locale.vi-VN": {
+    "defaultMessage": "Vietnamesiska"
+  },
+  "locale.zh-CN": {
+    "defaultMessage": "Kinesiska (FГ¶renklat)"
+  },
+  "locale.zh-TW": {
+    "defaultMessage": "Kinesiska (Traditionell)"
+  },
+  "modal.add-payment-method.action": {
+    "defaultMessage": "LГ¤gg till betalningsmetod"
   },
   "modal.add-payment-method.title": {
-    "defaultMessage": "Lägg till en betalningsmetod"
+    "defaultMessage": "LГ¤gg till en betalningsmetod"
+  },
+  "modal.open-in-app.benefit.install": {
+    "defaultMessage": "Installera krГ¤vt innehГҐll automatiskt"
+  },
+  "modal.open-in-app.benefit.launch": {
+    "defaultMessage": "Starta spelet direkt i servern"
+  },
+  "modal.open-in-app.benefit.update": {
+    "defaultMessage": "HГҐll filer uppdaterade nГ¤r servern Г¤ndras"
+  },
+  "modal.open-in-app.get-app": {
+    "defaultMessage": "Installera Mist Launcher"
+  },
+  "modal.open-in-app.opening-automatically": {
+    "defaultMessage": "Mist Launcher kommer att Г¶ppnas automatiskt..."
+  },
+  "modal.open-in-app.title": {
+    "defaultMessage": "Г–ppnar Mist Launcher"
+  },
+  "modal.open-in-app.why-use": {
+    "defaultMessage": "VarfГ¶r anvГ¤nda Mist Launcher"
   },
   "notification.error.title": {
-    "defaultMessage": "Ett fel inträffade"
+    "defaultMessage": "Ett fel intrГ¤ffade"
   },
   "omorphia.component.badge.label.accepted": {
     "defaultMessage": "Accepterad"
   },
   "omorphia.component.badge.label.approved": {
-    "defaultMessage": "Godkänd"
+    "defaultMessage": "GodkГ¤nd"
   },
   "omorphia.component.badge.label.archived": {
     "defaultMessage": "Arkiverad"
   },
   "omorphia.component.badge.label.closed": {
-    "defaultMessage": "Stängd"
+    "defaultMessage": "StГ¤ngd"
   },
   "omorphia.component.badge.label.creator": {
     "defaultMessage": "Skapare"
@@ -363,25 +1422,37 @@
     "defaultMessage": "Modrinth-teamet"
   },
   "omorphia.component.badge.label.pending": {
-    "defaultMessage": "Väntar"
+    "defaultMessage": "VГ¤ntar"
   },
   "omorphia.component.badge.label.private": {
     "defaultMessage": "Privat"
   },
   "omorphia.component.badge.label.processed": {
-    "defaultMessage": "Genomförd"
+    "defaultMessage": "GenomfГ¶rd"
   },
   "omorphia.component.badge.label.rejected": {
     "defaultMessage": "Nekad"
   },
   "omorphia.component.badge.label.returned": {
-    "defaultMessage": "Återvänt"
+    "defaultMessage": "Г…tervГ¤nt"
+  },
+  "omorphia.component.badge.label.safe": {
+    "defaultMessage": "Avklarad"
   },
   "omorphia.component.badge.label.scheduled": {
     "defaultMessage": "Schemalagd"
   },
+  "omorphia.component.badge.label.under-review": {
+    "defaultMessage": "Granskas"
+  },
   "omorphia.component.badge.label.unlisted": {
     "defaultMessage": "Olistad"
+  },
+  "omorphia.component.badge.label.unsafe": {
+    "defaultMessage": "Ej avklarad"
+  },
+  "omorphia.component.badge.label.withheld": {
+    "defaultMessage": "TillhandahГҐllen"
   },
   "omorphia.component.copy.action.copy": {
     "defaultMessage": "Kopiera kod till urklipp"
@@ -398,11 +1469,38 @@
   "omorphia.component.environment-indicator.label.server": {
     "defaultMessage": "Server"
   },
+  "omorphia.component.environment-indicator.label.type": {
+    "defaultMessage": "En {type}"
+  },
+  "omorphia.component.environment-indicator.label.unsupported": {
+    "defaultMessage": "OstГ¶ttad"
+  },
+  "payment-method.amazon_pay": {
+    "defaultMessage": "Amazon Pay"
+  },
+  "payment-method.amex": {
+    "defaultMessage": "American Express"
+  },
+  "payment-method.card_display": {
+    "defaultMessage": "{card_brand} som slutar i {last_four}"
+  },
+  "payment-method.cashapp": {
+    "defaultMessage": "Cash App"
+  },
   "payment-method.charity": {
-    "defaultMessage": "Välgörenhet"
+    "defaultMessage": "VГ¤lgГ¶renhet"
   },
   "payment-method.charity-plural": {
-    "defaultMessage": "Välgörenheter"
+    "defaultMessage": "VГ¤lgГ¶renheter"
+  },
+  "payment-method.diners": {
+    "defaultMessage": "Diners Club"
+  },
+  "payment-method.discover": {
+    "defaultMessage": "Utforska"
+  },
+  "payment-method.eftpos": {
+    "defaultMessage": "EFTPOS"
   },
   "payment-method.gift-card": {
     "defaultMessage": "Presentkort"
@@ -410,11 +1508,59 @@
   "payment-method.gift-card-plural": {
     "defaultMessage": "Presentkort"
   },
+  "payment-method.jcb": {
+    "defaultMessage": "JCB"
+  },
+  "payment-method.mastercard": {
+    "defaultMessage": "MasterCard"
+  },
+  "payment-method.paypal": {
+    "defaultMessage": "PayPal"
+  },
+  "payment-method.paypal_international": {
+    "defaultMessage": "PayPal Internationellt"
+  },
+  "payment-method.unionpay": {
+    "defaultMessage": "UnionPay"
+  },
+  "payment-method.unknown": {
+    "defaultMessage": "OkГ¤nd betalningsmetod"
+  },
   "payment-method.venmo": {
     "defaultMessage": "Venmo"
   },
+  "payment-method.virtual-visa": {
+    "defaultMessage": "Virtuell Visa"
+  },
+  "payment-method.virtual-visa-plural": {
+    "defaultMessage": "Virtuella Visa"
+  },
+  "payment-method.visa": {
+    "defaultMessage": "Visa"
+  },
+  "project-card.date.published.tooltip": {
+    "defaultMessage": "Skapades {date}"
+  },
+  "project-card.date.updated.tooltip": {
+    "defaultMessage": "Uppdaterades sist {date}"
+  },
+  "project-card.environment.client": {
+    "defaultMessage": "Klient"
+  },
+  "project-card.environment.client-and-server": {
+    "defaultMessage": "Klient och server"
+  },
+  "project-card.environment.client-or-server": {
+    "defaultMessage": "Klient eller server"
+  },
+  "project-card.environment.server": {
+    "defaultMessage": "Server"
+  },
   "project-type.all": {
     "defaultMessage": "Alla"
+  },
+  "project-type.datapack.capital": {
+    "defaultMessage": "{count, plural, one {Datapaket} other {Datapaket}}"
   },
   "project-type.datapack.category": {
     "defaultMessage": "Datapaket"
@@ -448,6 +1594,9 @@
   },
   "project-type.plugin.lowercase": {
     "defaultMessage": "{count, plural, one {plugin} other {plugins}}"
+  },
+  "project-type.project.capital": {
+    "defaultMessage": "{count, plural, one {Projekt} other {Projekt}}"
   },
   "project-type.project.category": {
     "defaultMessage": "Projekt"
@@ -483,7 +1632,25 @@
     "defaultMessage": "{count, plural, one {shader} other {shaders}}"
   },
   "project.about.compatibility.environments": {
-    "defaultMessage": "Stödda miljöer"
+    "defaultMessage": "StГ¶dda miljГ¶er"
+  },
+  "project.about.compatibility.environments.client-and-server": {
+    "defaultMessage": "Klient och server"
+  },
+  "project.about.compatibility.environments.client-side": {
+    "defaultMessage": "Klient-sida"
+  },
+  "project.about.compatibility.environments.dedicated-servers-only": {
+    "defaultMessage": "Endast dedikerade servrar"
+  },
+  "project.about.compatibility.environments.server-side": {
+    "defaultMessage": "Server-sida"
+  },
+  "project.about.compatibility.environments.singleplayer": {
+    "defaultMessage": "EnspelarlГ¤ge"
+  },
+  "project.about.compatibility.environments.singleplayer-only": {
+    "defaultMessage": "Endast enspelarlГ¤ge"
   },
   "project.about.compatibility.game.minecraftJava": {
     "defaultMessage": "Minecraft: Java Edition"
@@ -494,11 +1661,14 @@
   "project.about.compatibility.title": {
     "defaultMessage": "Kompatibilitet"
   },
+  "project.about.creators.organization": {
+    "defaultMessage": "Organisation"
+  },
   "project.about.creators.owner": {
-    "defaultMessage": "Projektägare"
+    "defaultMessage": "ProjektГ¤gare"
   },
   "project.about.creators.title": {
-    "defaultMessage": "Kreatörer"
+    "defaultMessage": "KreatГ¶rer"
   },
   "project.about.details.created": {
     "defaultMessage": "Skapad {date}"
@@ -507,7 +1677,7 @@
     "defaultMessage": "Licensierat {license}"
   },
   "project.about.details.published": {
-    "defaultMessage": "Publicerad {date}"
+    "defaultMessage": "Skapades {date}"
   },
   "project.about.details.submitted": {
     "defaultMessage": "Inskickad {date}"
@@ -516,160 +1686,535 @@
     "defaultMessage": "Uppdaterad {date}"
   },
   "project.about.links.discord": {
-    "defaultMessage": "Gå med i Discord Servern"
+    "defaultMessage": "GГҐ med i Discord Servern"
   },
   "project.about.links.donate.bmac": {
-    "defaultMessage": "Köp en kaffe till mig"
+    "defaultMessage": "Buy Me a Coffee"
   },
   "project.about.links.donate.generic": {
     "defaultMessage": "Donera"
   },
   "project.about.links.donate.github": {
-    "defaultMessage": "Sponsra på GitHub"
+    "defaultMessage": "Sponsra pГҐ GitHub"
   },
   "project.about.links.donate.kofi": {
-    "defaultMessage": "Donera på Ko-fi"
+    "defaultMessage": "Donera pГҐ Ko-fi"
   },
   "project.about.links.donate.patreon": {
-    "defaultMessage": "Donera på Patreon"
+    "defaultMessage": "Donera pГҐ Patreon"
   },
   "project.about.links.donate.paypal": {
-    "defaultMessage": "Donera på PayPal"
+    "defaultMessage": "Donera pГҐ PayPal"
   },
   "project.about.links.issues": {
     "defaultMessage": "Rapportera problem"
   },
+  "project.about.links.site": {
+    "defaultMessage": "GГҐ till webbsidan"
+  },
   "project.about.links.source": {
-    "defaultMessage": "Visa källa"
+    "defaultMessage": "Visa kГ¤lla"
+  },
+  "project.about.links.store": {
+    "defaultMessage": "GГҐ till butiksidan"
   },
   "project.about.links.title": {
-    "defaultMessage": "Länkar"
+    "defaultMessage": "LГ¤nkar"
   },
   "project.about.links.wiki": {
-    "defaultMessage": "Besök wiki"
+    "defaultMessage": "BesГ¶k wiki"
+  },
+  "project.about.server.address.tooltip": {
+    "defaultMessage": "Kopiera Java-serveraddress"
+  },
+  "project.about.server.copied": {
+    "defaultMessage": "Kopierat!"
+  },
+  "project.about.server.copiedText": {
+    "defaultMessage": "Serveraddressen kopierades till urklippet"
+  },
+  "project.about.server.downloadModpack": {
+    "defaultMessage": "Ladda ner modpaket"
+  },
+  "project.about.server.languages": {
+    "defaultMessage": "SprГҐk"
+  },
+  "project.about.server.recommendedVersion": {
+    "defaultMessage": "(Rekommenderad)"
+  },
+  "project.about.server.region": {
+    "defaultMessage": "Region"
+  },
+  "project.about.server.requiredContent": {
+    "defaultMessage": "KrГ¤vd innehГҐll"
+  },
+  "project.about.server.title": {
+    "defaultMessage": "Serverdetaljer"
+  },
+  "project.about.tags.title": {
+    "defaultMessage": "Taggar"
+  },
+  "project.download-count-tooltip": {
+    "defaultMessage": "{count, number} {count, plural, one {nedladdning} other {nedladdningar}}"
   },
   "project.environment.client-and-server.description": {
-    "defaultMessage": "Har någon funktionalitet på både klienten och servern, även om bara delvis."
+    "defaultMessage": "BehГ¶vs bГҐde pГҐ klienten och servern."
+  },
+  "project.environment.client-and-server.title": {
+    "defaultMessage": "Klient och server, krГ¤vs pГҐ bГҐda"
   },
   "project.environment.client-only-server-optional.description": {
-    "defaultMessage": "Har någon funktionalitet på både klienten och servern, även om bara delvis."
+    "defaultMessage": "Mest av funktionaliteten Г¤r pГҐ klientens sida, men om man installerar den pГҐ servern kan det fГ¶rbГ¤ttra funktionaliteten."
+  },
+  "project.environment.client-only-server-optional.title": {
+    "defaultMessage": "Klient och server, frivilligt pГҐ servern"
   },
   "project.environment.client-only.description": {
-    "defaultMessage": "All funktionalitet görs på klienten och är kompatibel med vaniljservrar."
+    "defaultMessage": "All funktionalitet gГ¶rs pГҐ klienten och Г¤r kompatibel med vanilla servrar."
   },
   "project.environment.client-only.title": {
     "defaultMessage": "Klient endast"
   },
   "project.environment.client-or-server-prefers-both.description": {
-    "defaultMessage": "Har någon funktionalitet på både klienten och servern, även om bara delvis."
+    "defaultMessage": "Har lite funktionalitet pГҐ bГҐde klienten och servern, Г¤ven om det bara Г¤r delvis. Man kan ha en bГ¤ttre upplevelse om man installerar det pГҐ bГҐda."
+  },
+  "project.environment.client-or-server-prefers-both.title": {
+    "defaultMessage": "Klient och server, bГ¤st nГ¤r installerat pГҐ bГҐda"
   },
   "project.environment.client-or-server.description": {
-    "defaultMessage": "Har någon funktionalitet på både klienten och servern, även om bara delvis."
+    "defaultMessage": "Har nГҐgon funktionalitet pГҐ bГҐde klienten och servern, Г¤ven om bara delvis."
+  },
+  "project.environment.client-or-server.title": {
+    "defaultMessage": "Klient och server, frivilligt pГҐ bГҐda"
   },
   "project.environment.dedicated-server-only.description": {
-    "defaultMessage": "All funktionalitet görs på servern och är kompatibel med vaniljklienter."
+    "defaultMessage": "All funktionalitet Г¤r pГҐ serverns sida och Г¤r kompatibel med vanilla-klienter. Fungerar bara pГҐ hГ¤ngivna servrar."
   },
   "project.environment.dedicated-server-only.title": {
     "defaultMessage": "Server endast"
   },
   "project.environment.server-only-client-optional.description": {
-    "defaultMessage": "Har någon funktionalitet på både klienten och servern, även om bara delvis."
+    "defaultMessage": "Mest av funktionaliteten Г¤r pГҐ serverns sida, men om man installerar den pГҐ klienten kan det fГ¶rbГ¤ttra funktionaliteten."
+  },
+  "project.environment.server-only-client-optional.title": {
+    "defaultMessage": "Klient och server, frivilligt pГҐ klienten"
   },
   "project.environment.server-only.description": {
-    "defaultMessage": "All funktionalitet görs på servern och är kompatibel med vaniljklienter."
+    "defaultMessage": "All funktionalitet Г¤r pГҐ serverns sida och Г¤r kompatibel med vanilla-klienter. Fungerar ocksГҐ pГҐ den inre servern som finns i enspelarlГ¤get."
+  },
+  "project.environment.server-only.title": {
+    "defaultMessage": "Endast server-sida, fungerar Г¤ven i singleplayer"
   },
   "project.environment.singleplayer-only.description": {
-    "defaultMessage": "Fungerar bara i Enspelarläge eller när du inte är ansluten till en Flerspelarserver."
+    "defaultMessage": "Fungerar bara i EnspelarlГ¤ge eller nГ¤r du inte Г¤r ansluten till en Flerspelarserver."
   },
   "project.environment.singleplayer-only.title": {
-    "defaultMessage": "Enspelarläge endast"
+    "defaultMessage": "EnspelarlГ¤ge endast"
+  },
+  "project.environment.tag.not-applicable": {
+    "defaultMessage": "Finns ej"
+  },
+  "project.environment.tag.unknown": {
+    "defaultMessage": "OkГ¤nt"
   },
   "project.environment.unknown.description": {
-    "defaultMessage": "Miljön för denna version kunde inte bestämmas."
+    "defaultMessage": "MiljГ¶n fГ¶r denna version kunde inte bestГ¤mmas."
   },
   "project.environment.unknown.title": {
-    "defaultMessage": "Okänd miljö"
+    "defaultMessage": "OkГ¤nd miljГ¶"
+  },
+  "project.follower-count-tooltip": {
+    "defaultMessage": "{count, number} fГ¶ljare"
+  },
+  "project.online-player-count": {
+    "defaultMessage": "{count, number} online"
+  },
+  "project.online-player-count.tooltip": {
+    "defaultMessage": "{count} spelare online"
+  },
+  "project.recent-plays": {
+    "defaultMessage": "Spelades senast {count} {countPlural, plural, one {gГҐng} other {gГҐnger}}"
+  },
+  "project.recent-plays.tooltip": {
+    "defaultMessage": "Spelades pГҐ Modrinth {count} {countPlural, plural, one {gГҐng} other {gГҐnger}} i de 2 sista veckorna"
+  },
+  "project.server.customModpackTooltip": {
+    "defaultMessage": "Detta projektet anvГ¤nder ett modpaket"
+  },
+  "project.server.language.af": {
+    "defaultMessage": "Afrikaans"
+  },
+  "project.server.language.am": {
+    "defaultMessage": "Amhariska"
+  },
+  "project.server.language.ar": {
+    "defaultMessage": "Arabiska"
+  },
+  "project.server.language.az": {
+    "defaultMessage": "Azerbajdzjanska"
+  },
+  "project.server.language.be": {
+    "defaultMessage": "Vitryska"
+  },
+  "project.server.language.bg": {
+    "defaultMessage": "Bulgariska"
+  },
+  "project.server.language.bn": {
+    "defaultMessage": "Bengali"
+  },
+  "project.server.language.bs": {
+    "defaultMessage": "Bosniska"
+  },
+  "project.server.language.ca": {
+    "defaultMessage": "Katalanska"
+  },
+  "project.server.language.cs": {
+    "defaultMessage": "Tjeckiska"
+  },
+  "project.server.language.da": {
+    "defaultMessage": "Danska"
+  },
+  "project.server.language.de": {
+    "defaultMessage": "Tyska"
+  },
+  "project.server.language.el": {
+    "defaultMessage": "Grekiska"
+  },
+  "project.server.language.en": {
+    "defaultMessage": "Engelska"
+  },
+  "project.server.language.eo": {
+    "defaultMessage": "Esperanto"
+  },
+  "project.server.language.es": {
+    "defaultMessage": "Spanska"
+  },
+  "project.server.language.et": {
+    "defaultMessage": "EstlГ¤ndska"
+  },
+  "project.server.language.eu": {
+    "defaultMessage": "Baskiska"
+  },
+  "project.server.language.fa": {
+    "defaultMessage": "Persiska"
+  },
+  "project.server.language.fi": {
+    "defaultMessage": "Finska"
+  },
+  "project.server.language.fr": {
+    "defaultMessage": "Franska"
+  },
+  "project.server.language.ga": {
+    "defaultMessage": "IrlГ¤ndska"
+  },
+  "project.server.language.gl": {
+    "defaultMessage": "Galiciska"
+  },
+  "project.server.language.he": {
+    "defaultMessage": "Hebreiska"
+  },
+  "project.server.language.hi": {
+    "defaultMessage": "Hindi"
+  },
+  "project.server.language.hr": {
+    "defaultMessage": "Kroatiska"
+  },
+  "project.server.language.hu": {
+    "defaultMessage": "Ungerska"
+  },
+  "project.server.language.hy": {
+    "defaultMessage": "Armeniska"
+  },
+  "project.server.language.id": {
+    "defaultMessage": "Indonesiska"
+  },
+  "project.server.language.is": {
+    "defaultMessage": "IslГ¤ndska"
+  },
+  "project.server.language.it": {
+    "defaultMessage": "Italienska"
+  },
+  "project.server.language.ja": {
+    "defaultMessage": "Japanska"
+  },
+  "project.server.language.ka": {
+    "defaultMessage": "Georgiska"
+  },
+  "project.server.language.kk": {
+    "defaultMessage": "Kazakiska"
+  },
+  "project.server.language.km": {
+    "defaultMessage": "Khmerska"
+  },
+  "project.server.language.kn": {
+    "defaultMessage": "Kannada"
+  },
+  "project.server.language.ko": {
+    "defaultMessage": "Koreanska"
+  },
+  "project.server.language.lo": {
+    "defaultMessage": "Lao"
+  },
+  "project.server.language.lt": {
+    "defaultMessage": "Litauiska"
+  },
+  "project.server.language.lv": {
+    "defaultMessage": "Lettiska"
+  },
+  "project.server.language.mk": {
+    "defaultMessage": "Makedoniska"
+  },
+  "project.server.language.ml": {
+    "defaultMessage": "Malayalam"
+  },
+  "project.server.language.mn": {
+    "defaultMessage": "Mongoliska"
+  },
+  "project.server.language.mr": {
+    "defaultMessage": "Marathi"
+  },
+  "project.server.language.ms": {
+    "defaultMessage": "Malajiska"
+  },
+  "project.server.language.my": {
+    "defaultMessage": "Burmesiska"
+  },
+  "project.server.language.ne": {
+    "defaultMessage": "Nepali"
+  },
+  "project.server.language.nl": {
+    "defaultMessage": "HollГ¤ndska"
+  },
+  "project.server.language.no": {
+    "defaultMessage": "Norska"
+  },
+  "project.server.language.pa": {
+    "defaultMessage": "Punjabi"
+  },
+  "project.server.language.pl": {
+    "defaultMessage": "Polska"
+  },
+  "project.server.language.pt": {
+    "defaultMessage": "Portugisiska"
+  },
+  "project.server.language.ro": {
+    "defaultMessage": "RumГ¤nska"
+  },
+  "project.server.language.ru": {
+    "defaultMessage": "Ryska"
+  },
+  "project.server.language.si": {
+    "defaultMessage": "Singalesiska"
+  },
+  "project.server.language.sk": {
+    "defaultMessage": "Slovakiska"
+  },
+  "project.server.language.sl": {
+    "defaultMessage": "Slovenska"
+  },
+  "project.server.language.sq": {
+    "defaultMessage": "Albanska"
+  },
+  "project.server.language.sr": {
+    "defaultMessage": "Serbiska"
+  },
+  "project.server.language.sv": {
+    "defaultMessage": "Svenska"
+  },
+  "project.server.language.sw": {
+    "defaultMessage": "Swahili"
+  },
+  "project.server.language.ta": {
+    "defaultMessage": "Tamil"
+  },
+  "project.server.language.te": {
+    "defaultMessage": "Telugu"
+  },
+  "project.server.language.th": {
+    "defaultMessage": "ThailГ¤ndska"
+  },
+  "project.server.language.tl": {
+    "defaultMessage": "Filippinska"
+  },
+  "project.server.language.tr": {
+    "defaultMessage": "Turkiska"
+  },
+  "project.server.language.uk": {
+    "defaultMessage": "Ukrainska"
+  },
+  "project.server.language.ur": {
+    "defaultMessage": "Urdu"
+  },
+  "project.server.language.uz": {
+    "defaultMessage": "Uzbekiska"
+  },
+  "project.server.language.vi": {
+    "defaultMessage": "Vietnamesiska"
+  },
+  "project.server.language.yo": {
+    "defaultMessage": "Yoruba"
+  },
+  "project.server.language.zh": {
+    "defaultMessage": "Kinesiska"
+  },
+  "project.server.language.zu": {
+    "defaultMessage": "Zulu"
+  },
+  "project.server.ping.ms": {
+    "defaultMessage": "{ping, number} ms"
+  },
+  "project.server.region.asia": {
+    "defaultMessage": "Asien"
+  },
+  "project.server.region.australia": {
+    "defaultMessage": "Australien"
+  },
+  "project.server.region.europe": {
+    "defaultMessage": "Europa"
+  },
+  "project.server.region.middle_east": {
+    "defaultMessage": "MellanГ¶stern"
+  },
+  "project.server.region.russia": {
+    "defaultMessage": "Ryssland"
+  },
+  "project.server.region.south_america": {
+    "defaultMessage": "Sydamerika"
+  },
+  "project.server.region.tooltip": {
+    "defaultMessage": "Servern Г¤r hostad i {regionName}"
+  },
+  "project.server.region.us_east": {
+    "defaultMessage": "Г–stra USA"
+  },
+  "project.server.region.us_west": {
+    "defaultMessage": "VГ¤stra USA"
+  },
+  "project.server.status.offline": {
+    "defaultMessage": "Offline"
+  },
+  "project.server.status.offline.tooltip": {
+    "defaultMessage": "Servern Г¤r offline"
+  },
+  "project.server.status.online": {
+    "defaultMessage": "Online"
   },
   "project.settings.analytics.title": {
     "defaultMessage": "Statistik"
+  },
+  "project.settings.content.title": {
+    "defaultMessage": "InnehГҐll"
   },
   "project.settings.description.title": {
     "defaultMessage": "Beskrivning"
   },
   "project.settings.environment.client_and_server.description": {
-    "defaultMessage": "Har någon funktionalitet på både klienten och servern, även om bara delvis."
+    "defaultMessage": "Har nГҐgon funktionalitet pГҐ bГҐde klienten och servern, Г¤ven om bara delvis."
   },
   "project.settings.environment.client_and_server.optional_both.title": {
-    "defaultMessage": "Frivillig på båda sidor, fungerar lika om den installeras på vardera sida"
+    "defaultMessage": "Frivillig pГҐ bГҐda sidor, fungerar lika om den installeras pГҐ vardera sida"
   },
   "project.settings.environment.client_and_server.optional_both_prefers_both.title": {
-    "defaultMessage": "Frivillig på båda sidor, fungerar bäst om den installeras på båda sidor"
+    "defaultMessage": "Frivillig pГҐ bГҐda sidor, fungerar bГ¤st om den installeras pГҐ bГҐda sidor"
   },
   "project.settings.environment.client_and_server.optional_client.title": {
-    "defaultMessage": "Frivillig på klient"
+    "defaultMessage": "Frivillig pГҐ klient"
   },
   "project.settings.environment.client_and_server.optional_server.title": {
-    "defaultMessage": "Frivillig på server"
+    "defaultMessage": "Frivillig pГҐ server"
   },
   "project.settings.environment.client_and_server.required_both.title": {
-    "defaultMessage": "Obligatorisk på båda"
+    "defaultMessage": "Obligatorisk pГҐ bГҐda"
   },
   "project.settings.environment.client_and_server.title": {
     "defaultMessage": "Klient och server"
   },
   "project.settings.environment.client_only.description": {
-    "defaultMessage": "All funktionalitet görs på klienten och är kompatibel med vaniljservrar."
+    "defaultMessage": "All funktionalitet gГ¶rs pГҐ klienten och Г¤r kompatibel med vanilla servrar."
   },
   "project.settings.environment.client_only.title": {
     "defaultMessage": "Klient endast"
   },
+  "project.settings.environment.notice.missing-env.description": {
+    "defaultMessage": "Ditt projekt saknar miljГ¶metadata, vГ¤nligen vГ¤lj den passande instГ¤llningen nedan."
+  },
+  "project.settings.environment.notice.missing-env.title": {
+    "defaultMessage": "VГ¤nligen vГ¤lj en miljГ¶ fГ¶r ditt projekt"
+  },
+  "project.settings.environment.notice.multiple-environments.description": {
+    "defaultMessage": "Olika versioner av ditt projekt har olika miljГ¶er valda, sГҐ du kan inte redigera dem globalt just nu."
+  },
   "project.settings.environment.notice.multiple-environments.title": {
-    "defaultMessage": "Ditt projekt har flera miljöer"
+    "defaultMessage": "Ditt projekt har flera miljГ¶er"
+  },
+  "project.settings.environment.notice.review-options.description": {
+    "defaultMessage": "Vi har just fГ¶rbГ¤ttrat MiljГ¶systemet pГҐ Modrinth och nya val finns nu. VГ¤nligen kontrollera att rГ¤tt val Г¤r vald nedanfГ¶r och sen klicka pГҐ 'Verifiera' nГ¤r du Г¤r klar!"
+  },
+  "project.settings.environment.notice.review-options.title": {
+    "defaultMessage": "Granska valen nedan"
+  },
+  "project.settings.environment.notice.wrong-project-type.description": {
+    "defaultMessage": "Endast mod- eller modpaketprojekt kan ha miljГ¶data."
+  },
+  "project.settings.environment.notice.wrong-project-type.title": {
+    "defaultMessage": "Denna projekttyp stГ¶der inte miljГ¶metadata"
   },
   "project.settings.environment.server_only.dedicated_only.title": {
     "defaultMessage": "Dedikerad server endast"
   },
+  "project.settings.environment.server_only.description": {
+    "defaultMessage": "All funktionalitet gГ¶rs pГҐ servern och Г¤r kompatibel med vanilla klienter."
+  },
   "project.settings.environment.server_only.supports_singleplayer.title": {
-    "defaultMessage": "Fungerar även i enspelarläge"
+    "defaultMessage": "Fungerar Г¤ven i enspelarlГ¤ge"
   },
   "project.settings.environment.server_only.title": {
     "defaultMessage": "Server endast"
   },
   "project.settings.environment.singleplayer.description": {
-    "defaultMessage": "Fungerar bara i Enspelarläge eller när du inte är ansluten till en Flerspelarserver."
+    "defaultMessage": "Fungerar bara i EnspelarlГ¤ge eller nГ¤r du inte Г¤r ansluten till en Flerspelarserver."
   },
   "project.settings.environment.singleplayer.title": {
-    "defaultMessage": "Enspelarläge endast"
+    "defaultMessage": "EnspelarlГ¤ge endast"
   },
   "project.settings.environment.suboption.accessibility-option-label": {
     "defaultMessage": "{title}: {description}"
   },
+  "project.settings.environment.suboption.accessibility-suboption-group-label": {
+    "defaultMessage": "Underalternativ av {option}"
+  },
   "project.settings.environment.title": {
-    "defaultMessage": "Miljö"
+    "defaultMessage": "MiljГ¶"
   },
   "project.settings.environment.verification.verify-button": {
     "defaultMessage": "Verifiera"
+  },
+  "project.settings.environment.verification.verify-text": {
+    "defaultMessage": "Verifiera att detta projektets miljГ¶ Г¤r korrekt."
   },
   "project.settings.gallery.title": {
     "defaultMessage": "Galleri"
   },
   "project.settings.general.title": {
-    "defaultMessage": "Allmänt"
+    "defaultMessage": "AllmГ¤nt"
   },
   "project.settings.license.title": {
     "defaultMessage": "Licens"
   },
   "project.settings.links.title": {
-    "defaultMessage": "Länkar"
+    "defaultMessage": "LГ¤nkar"
   },
   "project.settings.members.title": {
     "defaultMessage": "Medlemmar"
   },
   "project.settings.notice.no-permission.description": {
-    "defaultMessage": "Du har inte behörighet att redigera detta."
+    "defaultMessage": "Du har inte behГ¶righet att redigera detta."
   },
   "project.settings.notice.no-permission.title": {
-    "defaultMessage": "Ingen behörighet"
+    "defaultMessage": "Ingen behГ¶righet"
+  },
+  "project.settings.server.title": {
+    "defaultMessage": "Server"
   },
   "project.settings.tags.title": {
     "defaultMessage": "Taggar"
@@ -714,7 +2259,7 @@
     "defaultMessage": "Granskas"
   },
   "project.visibility.unknown": {
-    "defaultMessage": "Okänt"
+    "defaultMessage": "OkГ¤nt"
   },
   "project.visibility.unlisted": {
     "defaultMessage": "Olistad"
@@ -723,22 +2268,37 @@
     "defaultMessage": "Olistad av personal"
   },
   "search.filter.locked.default": {
-    "defaultMessage": "Filter låst"
+    "defaultMessage": "Filter lГҐst"
   },
   "search.filter.locked.default.description": {
-    "defaultMessage": "Att låsa upp detta filter kan låta dig installera inkompatibelt innehåll."
+    "defaultMessage": "Att lГҐsa upp detta filter kan lГҐta dig installera inkompatibelt innehГҐll."
   },
   "search.filter.locked.default.sync": {
     "defaultMessage": "Synka filter"
   },
   "search.filter.locked.default.title": {
-    "defaultMessage": "{type} är låst"
+    "defaultMessage": "{type} Г¤r lГҐst"
   },
   "search.filter.locked.default.unlock": {
-    "defaultMessage": "Lås upp filter"
+    "defaultMessage": "LГҐs upp filter"
+  },
+  "search.filter.option.exclusion.add.tooltip": {
+    "defaultMessage": "Exkludera"
+  },
+  "search.filter.option.search.clear.aria_label": {
+    "defaultMessage": "Rensa"
+  },
+  "search.filter.option.search.placeholder": {
+    "defaultMessage": "SГ¶k..."
+  },
+  "search.filter.option.show_fewer": {
+    "defaultMessage": "Visa fГ¤rre"
+  },
+  "search.filter.option.show_more": {
+    "defaultMessage": "Visa fler"
   },
   "search.filter_type.environment": {
-    "defaultMessage": "Miljö"
+    "defaultMessage": "MiljГ¶"
   },
   "search.filter_type.environment.client": {
     "defaultMessage": "Klient"
@@ -756,7 +2316,7 @@
     "defaultMessage": "Licens"
   },
   "search.filter_type.license.open_source": {
-    "defaultMessage": "Öppen källkod"
+    "defaultMessage": "Г–ppen kГ¤llkod"
   },
   "search.filter_type.mod_loader": {
     "defaultMessage": "Laddare"
@@ -773,47 +2333,107 @@
   "search.filter_type.project_id": {
     "defaultMessage": "Projekt-ID"
   },
+  "search.filter_type.server_content_type": {
+    "defaultMessage": "Typ"
+  },
+  "search.filter_type.server_language": {
+    "defaultMessage": "SprГҐk"
+  },
+  "search.filter_type.server_region": {
+    "defaultMessage": "Region"
+  },
+  "search.filter_type.server_status": {
+    "defaultMessage": "Status"
+  },
   "search.filter_type.shader_loader": {
     "defaultMessage": "Laddare"
+  },
+  "search.server_content_type.modpack": {
+    "defaultMessage": "Moddat"
+  },
+  "search.server_content_type.vanilla": {
+    "defaultMessage": "Vanilla"
+  },
+  "servers.backups.admonition.backup-failed.description": {
+    "defaultMessage": "NГҐgot gick fel nГ¤r sГ¤kerhetskopian {backupName} skapades. VГ¤nligen fГ¶rsГ¶k igen eller kontakta support om felet ГҐterkommer."
+  },
+  "servers.backups.admonition.backup-failed.title": {
+    "defaultMessage": "SГ¤kerhetskopiering misslyckades"
+  },
+  "servers.backups.admonition.backup-queued.description": {
+    "defaultMessage": "{backupName} Г¤r kГ¶ad och kommer startas strax."
+  },
+  "servers.backups.admonition.backup-queued.title": {
+    "defaultMessage": "SГ¤kerhetskopia kГ¶ad"
+  },
+  "servers.backups.admonition.creating-backup.description": {
+    "defaultMessage": "Sparar vГ¤rlddata och serverkonfigurationen fГ¶r {backupName}. Detta kan tГҐ nГҐgra minuter."
+  },
+  "servers.backups.admonition.creating-backup.title": {
+    "defaultMessage": "Skapar sГ¤kerhetskopia"
+  },
+  "servers.backups.admonition.fallback-name": {
+    "defaultMessage": "Din sГ¤kerhetskopia"
+  },
+  "servers.backups.admonition.restore-failed.description": {
+    "defaultMessage": "NГҐgot gick fel nГ¤r vi fГ¶rsГ¶kte ГҐterstГ¤lla frГҐn sГ¤kerhetskopian {backupName}. VГ¤nligen fГ¶rsГ¶k igen eller kontakta support om felet ГҐterkommer."
+  },
+  "servers.backups.admonition.restore-failed.title": {
+    "defaultMessage": "Г„terstГ¤llning frГҐn sГ¤kerhetskopia misslyckades"
+  },
+  "servers.backups.admonition.restore-queued.description": {
+    "defaultMessage": "Г…terstГ¤llning frГҐn {backupName} Г¤r kГ¶ad och kommer att bГ¶rja strax."
+  },
+  "servers.backups.admonition.restore-queued.title": {
+    "defaultMessage": "Г…terstГ¤llning frГҐn sГ¤kerhetskopia kГ¶ad"
+  },
+  "servers.backups.admonition.restore-successful.description": {
+    "defaultMessage": "Din server har ГҐterstГ¤llts till {backupName} och Г¤r redo fГ¶r att startas."
+  },
+  "servers.backups.admonition.restore-successful.title": {
+    "defaultMessage": "Г„terstГ¤llning frГҐn sГ¤kerhetskopia lyckades"
+  },
+  "servers.backups.admonition.restoring-backup.description": {
+    "defaultMessage": "Г…terstГ¤ller din server frГҐn {backupName}. Detta kan ta nГҐgra minuter."
+  },
+  "servers.backups.admonition.restoring-backup.title": {
+    "defaultMessage": "Г…terstГ¤ller frГҐn sГ¤kerhetskopia"
   },
   "servers.backups.item.auto": {
     "defaultMessage": "Auto"
   },
   "servers.backups.item.backup-schedule": {
-    "defaultMessage": "Säkerhetskopieringschema"
-  },
-  "servers.backups.item.creating-backup": {
-    "defaultMessage": "Skapar säkerhetskopia..."
+    "defaultMessage": "SГ¤kerhetskopieringschema"
   },
   "servers.backups.item.failed-to-create-backup": {
-    "defaultMessage": "Misslyckades med att skapa säkerhetskopia"
+    "defaultMessage": "Misslyckades med att skapa sГ¤kerhetskopia"
   },
   "servers.backups.item.failed-to-restore-backup": {
-    "defaultMessage": "Misslyckades med att återställa från säkerhetskopia"
+    "defaultMessage": "Misslyckades med att ГҐterstГ¤lla frГҐn sГ¤kerhetskopia"
   },
   "servers.backups.item.manual-backup": {
-    "defaultMessage": "Manuel säkerhetskopiering"
-  },
-  "servers.backups.item.queued-for-backup": {
-    "defaultMessage": "Säkerhetskopiering köad"
-  },
-  "servers.backups.item.queued-for-restore": {
-    "defaultMessage": "Återställning köad"
+    "defaultMessage": "Manuel sГ¤kerhetskopiering"
   },
   "servers.backups.item.rename": {
-    "defaultMessage": "Döp om"
+    "defaultMessage": "DГ¶p om"
   },
   "servers.backups.item.restore": {
-    "defaultMessage": "Återställ"
+    "defaultMessage": "Г…terstГ¤ll"
   },
-  "servers.backups.item.restoring-backup": {
-    "defaultMessage": "Återställer från säkerhetskopia..."
+  "servers.medal-listing.new-server-label": {
+    "defaultMessage": "Ny server"
+  },
+  "servers.medal-listing.upgrade-button": {
+    "defaultMessage": "Uppgradera"
   },
   "servers.notice.dismiss": {
     "defaultMessage": "Avvisa"
   },
+  "servers.notice.dismissable": {
+    "defaultMessage": "Kan avvisas"
+  },
   "servers.notice.heading.attention": {
-    "defaultMessage": "Uppmärksamhet"
+    "defaultMessage": "UppmГ¤rksamhet"
   },
   "servers.notice.heading.info": {
     "defaultMessage": "Info"
@@ -825,31 +2445,43 @@
     "defaultMessage": "Info"
   },
   "servers.notice.level.survey.name": {
-    "defaultMessage": "Undersökning"
+    "defaultMessage": "UndersГ¶kning"
   },
   "servers.notice.level.warn.name": {
     "defaultMessage": "Varning"
   },
+  "servers.notice.undismissable": {
+    "defaultMessage": "Kan ej avvisas"
+  },
+  "servers.purchase.step.payment.description": {
+    "defaultMessage": "Du kommer inte att debiteras Г¤n."
+  },
   "servers.purchase.step.payment.prompt": {
-    "defaultMessage": "Välj en betalningsmetod"
+    "defaultMessage": "VГ¤lj en betalningsmetod"
   },
   "servers.purchase.step.payment.title": {
     "defaultMessage": "Betalningsmetod"
   },
-  "servers.purchase.step.plan.billed": {
-    "defaultMessage": "fakturerad {interval}"
+  "servers.purchase.step.plan.custom.desc": {
+    "defaultMessage": "VГ¤lj en anpassad plan med just de specifikationer du behГ¶ver."
   },
   "servers.purchase.step.plan.get-started": {
-    "defaultMessage": "Kom igång"
+    "defaultMessage": "Kom igГҐng"
+  },
+  "servers.purchase.step.plan.large.desc": {
+    "defaultMessage": "Ideal fГ¶r 15вЂ“25 spelare, modpaket, eller tungt moddande."
+  },
+  "servers.purchase.step.plan.medium.desc": {
+    "defaultMessage": "Bra fГ¶r 6вЂ“15 spelare och flera moddar."
   },
   "servers.purchase.step.plan.most-popular": {
-    "defaultMessage": "Populärast"
-  },
-  "servers.purchase.step.plan.prompt": {
-    "defaultMessage": "Välj en plan"
+    "defaultMessage": "PopulГ¤rast"
   },
   "servers.purchase.step.plan.select": {
-    "defaultMessage": "Välj plan"
+    "defaultMessage": "VГ¤lj plan"
+  },
+  "servers.purchase.step.plan.small.desc": {
+    "defaultMessage": "Perfekt fГ¶r 1вЂ“5 vГ¤nner med nГҐgra fГҐ lГ¤tta moddar."
   },
   "servers.purchase.step.plan.title": {
     "defaultMessage": "Plan"
@@ -863,17 +2495,44 @@
   "servers.region.central-europe": {
     "defaultMessage": "Centraleuropa"
   },
+  "servers.region.custom.prompt": {
+    "defaultMessage": "Hur mycket RAM vill du att din server ska ha?"
+  },
   "servers.region.north-america": {
     "defaultMessage": "Nordamerika"
+  },
+  "servers.region.prompt": {
+    "defaultMessage": "Vart vill du att din server ska vara placerad?"
+  },
+  "servers.region.region-unsupported": {
+    "defaultMessage": "Г„r omrГҐdet inte med i listan? <link>BerГ¤tta vart du vill se Modrinth Hosting hГ¤rnГ¤st!</link>"
   },
   "servers.region.southeast-asia": {
     "defaultMessage": "Sydostasien"
   },
   "servers.region.western-europe": {
-    "defaultMessage": "Västeuropa"
+    "defaultMessage": "VГ¤steuropa"
+  },
+  "servers.setup.rate-limit.text": {
+    "defaultMessage": "Du blir hastighetsbegrГ¤nsad. VГ¤nligen fГ¶rsГ¶k igen senare."
+  },
+  "servers.setup.rate-limit.title": {
+    "defaultMessage": "Kunde inte ominstallera servern"
+  },
+  "servers.setup.reinstall-failed.text": {
+    "defaultMessage": "Ett ofГ¶rvГ¤ntat fel uppstod under ominstalleringen. VГ¤nligen fГ¶rsГ¶k igen senare."
+  },
+  "servers.setup.reinstall-failed.title": {
+    "defaultMessage": "Ominstallation misslyckades"
+  },
+  "servers.setup.upload-warning": {
+    "defaultMessage": "VГ¤nligen stГ¤ng inte sidan medan uppladdningen pГҐgГҐr."
+  },
+  "servers.setup.uploading-modpack.header": {
+    "defaultMessage": "Laddar upp modpaket"
   },
   "settings.account.title": {
-    "defaultMessage": "Konto och säkerhet"
+    "defaultMessage": "Konto och sГ¤kerhet"
   },
   "settings.appearance.title": {
     "defaultMessage": "Utseende"
@@ -884,14 +2543,26 @@
   "settings.authorized-apps.title": {
     "defaultMessage": "Auktoriserade appar"
   },
+  "settings.billing.title": {
+    "defaultMessage": "Prenumerationer"
+  },
   "settings.display.theme.dark": {
-    "defaultMessage": "Mörkt"
+    "defaultMessage": "MГ¶rkt"
+  },
+  "settings.display.theme.description": {
+    "defaultMessage": "VГ¤lj fГ¤rgtema fГ¶r Modrinth pГҐ denna enhet."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Ljust"
   },
   "settings.display.theme.oled": {
     "defaultMessage": "OLED"
+  },
+  "settings.display.theme.preferred-dark-theme": {
+    "defaultMessage": "Г–nskat mГ¶rkt tema"
+  },
+  "settings.display.theme.preferred-light-theme": {
+    "defaultMessage": "Г–nskat ljust tema"
   },
   "settings.display.theme.retro": {
     "defaultMessage": "Retro"
@@ -900,25 +2571,40 @@
     "defaultMessage": "Synka med system"
   },
   "settings.display.theme.title": {
-    "defaultMessage": "Färgtema"
+    "defaultMessage": "FГ¤rgtema"
   },
   "settings.language.categories.default": {
-    "defaultMessage": "Standardspråk"
+    "defaultMessage": "StandardsprГҐk"
   },
   "settings.language.categories.search-result": {
-    "defaultMessage": "Sökresultat"
+    "defaultMessage": "SГ¶kresultat"
+  },
+  "settings.language.description": {
+    "defaultMessage": "VГ¤lj sprГҐk fГ¶r {platform}n. Г–versГ¤ttningar gГ¶rs av volontГ¤rer <crowdin-link>pГҐ Crowdin</crowdin-link>."
   },
   "settings.language.languages.search-field.placeholder": {
-    "defaultMessage": "Sök efter ett språk..."
+    "defaultMessage": "SГ¶k efter ett sprГҐk..."
+  },
+  "settings.language.languages.search-results-announcement": {
+    "defaultMessage": "{matches, plural, =0 {Inga sprГҐk matchar} other {# sprГҐk matchar}} din sГ¶kning."
+  },
+  "settings.language.languages.search.no-results": {
+    "defaultMessage": "Inget sprГҐk matchar din sГ¶kning."
   },
   "settings.language.platform.app": {
     "defaultMessage": "app"
   },
   "settings.language.platform.site": {
-    "defaultMessage": "sida"
+    "defaultMessage": "webbsida"
   },
   "settings.language.title": {
-    "defaultMessage": "Språk"
+    "defaultMessage": "SprГҐk"
+  },
+  "settings.language.warning": {
+    "defaultMessage": "Om du Г¤ndrar sprГҐket pГҐ {platform}n kan vissa delar av innehГҐllet visas pГҐ engelska om det inte finns nГҐgon Г¶versГ¤ttning tillgГ¤nglig. {platform}n Г¤r Г¤nnu inte helt Г¶versatt, sГҐ vissa delar av innehГҐllet kan fortfarande vara pГҐ engelska fГ¶r vissa sprГҐk."
+  },
+  "settings.pats.title": {
+    "defaultMessage": "Personliga ГҐtkomstnycklar"
   },
   "settings.profile.title": {
     "defaultMessage": "Offentlig profil"
@@ -926,11 +2612,401 @@
   "settings.sessions.title": {
     "defaultMessage": "Sessioner"
   },
-  "tooltip.date-at-time": {
-    "defaultMessage": "{date, date, long} vid {time, time, short}"
+  "tag.category.128x": {
+    "defaultMessage": "128x"
+  },
+  "tag.category.16x": {
+    "defaultMessage": "16x"
+  },
+  "tag.category.256x": {
+    "defaultMessage": "256x"
+  },
+  "tag.category.32x": {
+    "defaultMessage": "32x"
+  },
+  "tag.category.48x": {
+    "defaultMessage": "48x"
+  },
+  "tag.category.512x+": {
+    "defaultMessage": "512x eller hГ¶gre"
+  },
+  "tag.category.64x": {
+    "defaultMessage": "64x"
+  },
+  "tag.category.8x-": {
+    "defaultMessage": "8x eller lГ¤gre"
+  },
+  "tag.category.adventure": {
+    "defaultMessage": "Г„ventyr"
+  },
+  "tag.category.adventure-mode": {
+    "defaultMessage": "Г„ventyrslГ¤ge"
+  },
+  "tag.category.anarchy": {
+    "defaultMessage": "Anarki"
+  },
+  "tag.category.atmosphere": {
+    "defaultMessage": "AtmosfГ¤r"
+  },
+  "tag.category.audio": {
+    "defaultMessage": "Ljud"
+  },
+  "tag.category.battle-royale": {
+    "defaultMessage": "Battle Royale"
+  },
+  "tag.category.bedwars": {
+    "defaultMessage": "Bed Wars"
+  },
+  "tag.category.blocks": {
+    "defaultMessage": "Block"
+  },
+  "tag.category.bloom": {
+    "defaultMessage": "Bloom"
+  },
+  "tag.category.bosses": {
+    "defaultMessage": "Bossar"
+  },
+  "tag.category.cartoon": {
+    "defaultMessage": "Tecknat"
+  },
+  "tag.category.challenging": {
+    "defaultMessage": "Utmanande"
+  },
+  "tag.category.classes": {
+    "defaultMessage": "Klasser"
+  },
+  "tag.category.colored-lighting": {
+    "defaultMessage": "FГ¤rgat ljus"
+  },
+  "tag.category.combat": {
+    "defaultMessage": "Strid"
+  },
+  "tag.category.competitive": {
+    "defaultMessage": "TГ¤vlingsinriktat"
+  },
+  "tag.category.core-shaders": {
+    "defaultMessage": "KГ¤rnshaders"
+  },
+  "tag.category.creative-mode": {
+    "defaultMessage": "Kreativt lГ¤ge"
+  },
+  "tag.category.creator-community": {
+    "defaultMessage": "KreatГ¶r-community"
+  },
+  "tag.category.cursed": {
+    "defaultMessage": "FГ¶rbannat"
+  },
+  "tag.category.custom-content": {
+    "defaultMessage": "Egengjort innehГҐll"
+  },
+  "tag.category.decoration": {
+    "defaultMessage": "Dekoration"
+  },
+  "tag.category.economy": {
+    "defaultMessage": "Ekonomi"
+  },
+  "tag.category.entities": {
+    "defaultMessage": "Entiteter"
+  },
+  "tag.category.environment": {
+    "defaultMessage": "MiljГ¶"
+  },
+  "tag.category.equipment": {
+    "defaultMessage": "Utrustning"
+  },
+  "tag.category.fantasy": {
+    "defaultMessage": "Fantasi"
+  },
+  "tag.category.foliage": {
+    "defaultMessage": "VГ¤xtlighet"
+  },
+  "tag.category.fonts": {
+    "defaultMessage": "Fonter"
+  },
+  "tag.category.food": {
+    "defaultMessage": "Mat"
+  },
+  "tag.category.game-mechanics": {
+    "defaultMessage": "Spelmekanik"
+  },
+  "tag.category.gui": {
+    "defaultMessage": "GUI"
+  },
+  "tag.category.hardcore-mode": {
+    "defaultMessage": "Hardcore-lГ¤ge"
+  },
+  "tag.category.high": {
+    "defaultMessage": "HГ¶g"
+  },
+  "tag.category.items": {
+    "defaultMessage": "FГ¶remГҐl"
+  },
+  "tag.category.keep-inventory": {
+    "defaultMessage": "BehГҐll fГ¶rrГҐd"
+  },
+  "tag.category.kitchen-sink": {
+    "defaultMessage": "KГ¶ksvask"
+  },
+  "tag.category.kitpvp": {
+    "defaultMessage": "Kit PvP"
+  },
+  "tag.category.library": {
+    "defaultMessage": "Bibliotek"
+  },
+  "tag.category.lifesteal": {
+    "defaultMessage": "Lifesteal"
+  },
+  "tag.category.lightweight": {
+    "defaultMessage": "Resurs-snГҐlt"
+  },
+  "tag.category.locale": {
+    "defaultMessage": "Lokalt"
+  },
+  "tag.category.low": {
+    "defaultMessage": "LГҐg"
+  },
+  "tag.category.magic": {
+    "defaultMessage": "Magi"
+  },
+  "tag.category.management": {
+    "defaultMessage": "Hantering"
+  },
+  "tag.category.medium": {
+    "defaultMessage": "Medel"
+  },
+  "tag.category.microgames": {
+    "defaultMessage": "Mikrospel"
+  },
+  "tag.category.minigame": {
+    "defaultMessage": "Minispel"
+  },
+  "tag.category.minigames": {
+    "defaultMessage": "Minispel"
+  },
+  "tag.category.mmo": {
+    "defaultMessage": "MMO"
+  },
+  "tag.category.mobs": {
+    "defaultMessage": "Varelser"
+  },
+  "tag.category.modded": {
+    "defaultMessage": "Moddat"
+  },
+  "tag.category.models": {
+    "defaultMessage": "Modeller"
+  },
+  "tag.category.multiplayer": {
+    "defaultMessage": "FlerspelarlГ¤ge"
+  },
+  "tag.category.network": {
+    "defaultMessage": "NГ¤tverk"
+  },
+  "tag.category.offline-mode": {
+    "defaultMessage": "OfflinelГ¤ge"
+  },
+  "tag.category.optimization": {
+    "defaultMessage": "Optimering"
+  },
+  "tag.category.parkour": {
+    "defaultMessage": "Parkour"
+  },
+  "tag.category.path-tracing": {
+    "defaultMessage": "VГ¤gspГҐrning"
+  },
+  "tag.category.pbr": {
+    "defaultMessage": "PBR"
+  },
+  "tag.category.personal-worlds": {
+    "defaultMessage": "Personliga vГ¤rldar"
+  },
+  "tag.category.pokemon": {
+    "defaultMessage": "PokГ©mon"
+  },
+  "tag.category.potato": {
+    "defaultMessage": "Potatis"
+  },
+  "tag.category.prison": {
+    "defaultMessage": "FГ¤ngelse"
+  },
+  "tag.category.pve": {
+    "defaultMessage": "PvE"
+  },
+  "tag.category.pvp": {
+    "defaultMessage": "PvP"
+  },
+  "tag.category.quests": {
+    "defaultMessage": "Uppdrag"
+  },
+  "tag.category.racing": {
+    "defaultMessage": "Racing"
+  },
+  "tag.category.realistic": {
+    "defaultMessage": "Realistiskt"
+  },
+  "tag.category.recording-smp": {
+    "defaultMessage": "Filmnings-SMP"
+  },
+  "tag.category.reflections": {
+    "defaultMessage": "Reflektioner"
+  },
+  "tag.category.roleplay": {
+    "defaultMessage": "Rollspel"
+  },
+  "tag.category.rpg": {
+    "defaultMessage": "RPG"
+  },
+  "tag.category.screenshot": {
+    "defaultMessage": "Fotografi"
+  },
+  "tag.category.semi-realistic": {
+    "defaultMessage": "Semi-realistiskt"
+  },
+  "tag.category.shadows": {
+    "defaultMessage": "Skuggor"
+  },
+  "tag.category.simplistic": {
+    "defaultMessage": "Simplistiskt"
+  },
+  "tag.category.skyblock": {
+    "defaultMessage": "Skyblock"
+  },
+  "tag.category.smp": {
+    "defaultMessage": "SMP"
+  },
+  "tag.category.social": {
+    "defaultMessage": "Socialt"
+  },
+  "tag.category.storage": {
+    "defaultMessage": "Lagring"
+  },
+  "tag.category.survival-mode": {
+    "defaultMessage": "Г–verlevnadslГ¤ge"
+  },
+  "tag.category.teams": {
+    "defaultMessage": "Lag"
+  },
+  "tag.category.technical": {
+    "defaultMessage": "Tekniskt"
+  },
+  "tag.category.technology": {
+    "defaultMessage": "Teknologi"
+  },
+  "tag.category.themed": {
+    "defaultMessage": "Tematiskt"
+  },
+  "tag.category.towns": {
+    "defaultMessage": "StГ¤der"
+  },
+  "tag.category.transportation": {
+    "defaultMessage": "Transport"
+  },
+  "tag.category.tweaks": {
+    "defaultMessage": "Justeringar"
+  },
+  "tag.category.utility": {
+    "defaultMessage": "Funktioner"
+  },
+  "tag.category.vanilla-like": {
+    "defaultMessage": "Vanilla-liknande"
+  },
+  "tag.category.world-resets": {
+    "defaultMessage": "VГ¤rldomstГ¤llningar"
+  },
+  "tag.category.worldgen": {
+    "defaultMessage": "VГ¤rldsgenerering"
+  },
+  "tag.loader.babric": {
+    "defaultMessage": "Babric"
+  },
+  "tag.loader.bta-babric": {
+    "defaultMessage": "BTA (Babric)"
+  },
+  "tag.loader.bukkit": {
+    "defaultMessage": "Bukkit"
+  },
+  "tag.loader.bungeecord": {
+    "defaultMessage": "BungeeCord"
+  },
+  "tag.loader.canvas": {
+    "defaultMessage": "Canvas"
+  },
+  "tag.loader.datapack": {
+    "defaultMessage": "Datapack"
+  },
+  "tag.loader.fabric": {
+    "defaultMessage": "Fabric"
+  },
+  "tag.loader.folia": {
+    "defaultMessage": "Folia"
+  },
+  "tag.loader.forge": {
+    "defaultMessage": "Forge"
+  },
+  "tag.loader.geyser": {
+    "defaultMessage": "Geyser TillГ¤gg"
+  },
+  "tag.loader.iris": {
+    "defaultMessage": "Iris"
+  },
+  "tag.loader.java-agent": {
+    "defaultMessage": "Java Agent"
+  },
+  "tag.loader.legacy-fabric": {
+    "defaultMessage": "Legacy Fabric"
+  },
+  "tag.loader.liteloader": {
+    "defaultMessage": "LiteLoader"
+  },
+  "tag.loader.minecraft": {
+    "defaultMessage": "Resurspaket"
+  },
+  "tag.loader.modloader": {
+    "defaultMessage": "Risugami's ModLoader"
+  },
+  "tag.loader.mrpack": {
+    "defaultMessage": "Modpaket"
+  },
+  "tag.loader.neoforge": {
+    "defaultMessage": "NeoForge"
+  },
+  "tag.loader.nilloader": {
+    "defaultMessage": "NilLoader"
+  },
+  "tag.loader.optifine": {
+    "defaultMessage": "OptiFine"
+  },
+  "tag.loader.ornithe": {
+    "defaultMessage": "Ornithe"
+  },
+  "tag.loader.paper": {
+    "defaultMessage": "Paper"
+  },
+  "tag.loader.purpur": {
+    "defaultMessage": "Purpur"
+  },
+  "tag.loader.quilt": {
+    "defaultMessage": "Quilt"
+  },
+  "tag.loader.rift": {
+    "defaultMessage": "Rift"
+  },
+  "tag.loader.spigot": {
+    "defaultMessage": "Spigot"
+  },
+  "tag.loader.sponge": {
+    "defaultMessage": "Sponge"
+  },
+  "tag.loader.vanilla": {
+    "defaultMessage": "Vanilla Shader"
+  },
+  "tag.loader.velocity": {
+    "defaultMessage": "Velocity"
+  },
+  "tag.loader.waterfall": {
+    "defaultMessage": "Waterfall"
   },
   "ui.component.unsaved-changes-popup.body": {
-    "defaultMessage": "Du har osparade ändringar."
+    "defaultMessage": "Du har osparade Г¤ndringar."
   }
 }
 

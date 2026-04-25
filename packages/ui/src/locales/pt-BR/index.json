@@ -1,24 +1,24 @@
-{
+﻿{
   "affiliate.create.button": {
     "defaultMessage": "Criar link de afiliado"
   },
   "affiliate.create.header": {
-    "defaultMessage": "Criando novo código de afiliado"
+    "defaultMessage": "Criando novo cГіdigo de afiliado"
   },
   "affiliate.create.title.description": {
-    "defaultMessage": "Dar a seu link afiliado um nome para que saiba de onde as pessoas estão vindo!"
+    "defaultMessage": "Dar a seu link afiliado um nome para que saiba de onde as pessoas estГЈo vindo!"
   },
   "affiliate.create.title.label": {
-    "defaultMessage": "Título do link de afiliado"
+    "defaultMessage": "TГ­tulo do link de afiliado"
   },
   "affiliate.create.title.placeholder": {
     "defaultMessage": "ex.: YouTube"
   },
   "affiliate.create.user.description": {
-    "defaultMessage": "O nome de usuário para quem vai criar o código afiliado"
+    "defaultMessage": "O nome de usuГЎrio para quem vai criar o cГіdigo afiliado"
   },
   "affiliate.create.user.placeholder": {
-    "defaultMessage": "Digitar nome de usuário..."
+    "defaultMessage": "Digitar nome de usuГЎrio..."
   },
   "affiliate.createdBy": {
     "defaultMessage": "Criado por {user}"
@@ -30,16 +30,70 @@
     "defaultMessage": "Revogar link de afiliado"
   },
   "affiliate.viewAnalytics": {
-    "defaultMessage": "Ver estatísticas"
+    "defaultMessage": "Ver estatГ­sticas"
+  },
+  "app.server-settings.failed-to-load-server": {
+    "defaultMessage": "Falha ao carregar as configuraГ§Гµes do servidor"
+  },
+  "badge.alpha": {
+    "defaultMessage": "Alfa"
   },
   "badge.beta": {
     "defaultMessage": "Beta"
   },
   "badge.beta-release": {
-    "defaultMessage": "Versão Beta"
+    "defaultMessage": "VersГЈo Beta"
   },
   "badge.new": {
     "defaultMessage": "Novo"
+  },
+  "billing.resubscribe-modal.cancel": {
+    "defaultMessage": "Cancelar"
+  },
+  "billing.resubscribe-modal.cpus": {
+    "defaultMessage": "{sharedCpus} CPUs compartilhadas"
+  },
+  "billing.resubscribe-modal.description": {
+    "defaultMessage": "VocГЄ estГЎ prestes a se reinscrever em <server-name>{serverName}</server-name>. Sua assinatura serГЎ reativada e seu servidor continuarГЎ funcionando sem interrupГ§Гµes."
+  },
+  "billing.resubscribe-modal.error.text": {
+    "defaultMessage": "NГЈo foi possГ­vel renovar a assinatura; falha ao carregar os detalhes da assinatura."
+  },
+  "billing.resubscribe-modal.error.title": {
+    "defaultMessage": "Erro"
+  },
+  "billing.resubscribe-modal.failed-load": {
+    "defaultMessage": "NГЈo foi possГ­vel carregar os detalhes da assinatura."
+  },
+  "billing.resubscribe-modal.interval.five-days": {
+    "defaultMessage": "/5 dias"
+  },
+  "billing.resubscribe-modal.interval.monthly": {
+    "defaultMessage": "/mГЄs"
+  },
+  "billing.resubscribe-modal.interval.quarterly": {
+    "defaultMessage": "/trimestre"
+  },
+  "billing.resubscribe-modal.interval.yearly": {
+    "defaultMessage": "/ano"
+  },
+  "billing.resubscribe-modal.next-charge": {
+    "defaultMessage": "Sua prГіxima cobranГ§a serГЎ em <charge-date>{date}</charge-date>."
+  },
+  "billing.resubscribe-modal.plan-label": {
+    "defaultMessage": "Plano"
+  },
+  "billing.resubscribe-modal.ram": {
+    "defaultMessage": "{ramGb} GB de RAM"
+  },
+  "billing.resubscribe-modal.resubscribe": {
+    "defaultMessage": "Reassinar"
+  },
+  "billing.resubscribe-modal.storage": {
+    "defaultMessage": "{storageGb} GB de armazenamento"
+  },
+  "billing.resubscribe-modal.title": {
+    "defaultMessage": "Reassinar Servidor"
   },
   "button.accept": {
     "defaultMessage": "Aceitar"
@@ -48,13 +102,16 @@
     "defaultMessage": "Links de afiliado"
   },
   "button.analytics": {
-    "defaultMessage": "Estatísticas"
+    "defaultMessage": "EstatГ­sticas"
   },
   "button.back": {
     "defaultMessage": "Voltar"
   },
   "button.cancel": {
     "defaultMessage": "Cancelar"
+  },
+  "button.change-version": {
+    "defaultMessage": "Alterar versГЈo"
   },
   "button.clear": {
     "defaultMessage": "Limpar"
@@ -65,8 +122,17 @@
   "button.continue": {
     "defaultMessage": "Continuar"
   },
+  "button.copy-filename": {
+    "defaultMessage": "Copiar nome do arquivo"
+  },
+  "button.copy-full-path": {
+    "defaultMessage": "Copiar caminho completo"
+  },
   "button.copy-id": {
     "defaultMessage": "Copiar ID"
+  },
+  "button.copy-link": {
+    "defaultMessage": "Copiar link"
   },
   "button.copy-permalink": {
     "defaultMessage": "Copiar link permanente"
@@ -77,6 +143,9 @@
   "button.decline": {
     "defaultMessage": "Recusar"
   },
+  "button.disable": {
+    "defaultMessage": "Desativar"
+  },
   "button.download": {
     "defaultMessage": "Baixar"
   },
@@ -86,20 +155,35 @@
   "button.edit": {
     "defaultMessage": "Editar"
   },
+  "button.enable": {
+    "defaultMessage": "Ativar"
+  },
+  "button.extract": {
+    "defaultMessage": "Extrair"
+  },
   "button.follow": {
     "defaultMessage": "Seguir"
   },
+  "button.hide-snapshots": {
+    "defaultMessage": "Esconder snapshots"
+  },
   "button.max": {
-    "defaultMessage": "Máx"
+    "defaultMessage": "MГЎx"
   },
   "button.more-options": {
-    "defaultMessage": "Mais opções"
+    "defaultMessage": "Mais opГ§Гµes"
+  },
+  "button.move": {
+    "defaultMessage": "Mover"
   },
   "button.next": {
-    "defaultMessage": "Próximo"
+    "defaultMessage": "PrГіximo"
   },
   "button.open-folder": {
     "defaultMessage": "Abrir pasta"
+  },
+  "button.open-in-folder": {
+    "defaultMessage": "Abrir na pasta"
   },
   "button.play": {
     "defaultMessage": "Jogar"
@@ -107,17 +191,32 @@
   "button.refresh": {
     "defaultMessage": "Recarregar"
   },
+  "button.reinstall-modpack": {
+    "defaultMessage": "Reinstalar pacote de mods"
+  },
   "button.remove": {
     "defaultMessage": "Remover"
   },
   "button.remove-image": {
     "defaultMessage": "Remover imagem"
   },
+  "button.rename": {
+    "defaultMessage": "Renomear"
+  },
+  "button.repair": {
+    "defaultMessage": "Reparar"
+  },
+  "button.repairing": {
+    "defaultMessage": "Reparando..."
+  },
   "button.report": {
     "defaultMessage": "Denunciar"
   },
   "button.reset": {
     "defaultMessage": "Redefinir"
+  },
+  "button.reset-server": {
+    "defaultMessage": "Reiniciar servidor"
   },
   "button.retry": {
     "defaultMessage": "Retentar"
@@ -126,13 +225,19 @@
     "defaultMessage": "Salvar"
   },
   "button.save-changes": {
-    "defaultMessage": "Salvar alterações"
+    "defaultMessage": "Salvar alteraГ§Гµes"
   },
   "button.saving": {
     "defaultMessage": "Salvando"
   },
+  "button.show-all-versions": {
+    "defaultMessage": "Exibir todas as versГµes"
+  },
+  "button.show-file": {
+    "defaultMessage": "Mostrar arquivo"
+  },
   "button.sign-in": {
-    "defaultMessage": "Iniciar sessão"
+    "defaultMessage": "Iniciar sessГЈo"
   },
   "button.sign-out": {
     "defaultMessage": "Sair"
@@ -143,8 +248,14 @@
   "button.stop": {
     "defaultMessage": "Parar"
   },
+  "button.switch-version": {
+    "defaultMessage": "Trocar versГЈo"
+  },
   "button.unfollow": {
     "defaultMessage": "Deixar de seguir"
+  },
+  "button.unlink-modpack": {
+    "defaultMessage": "Desvincular pacote de mods"
   },
   "button.update": {
     "defaultMessage": "Atualizado"
@@ -155,9 +266,6 @@
   "changelog.justNow": {
     "defaultMessage": "Agora pouco"
   },
-  "changelog.product.api": {
-    "defaultMessage": "API"
-  },
   "changelog.product.app": {
     "defaultMessage": "App"
   },
@@ -165,16 +273,586 @@
     "defaultMessage": "Hosting"
   },
   "changelog.product.web": {
-    "defaultMessage": "Site"
+    "defaultMessage": "Plataforma"
   },
   "collections.label.private": {
     "defaultMessage": "Privado"
   },
+  "content.confirm-bulk-update.admonition-body": {
+    "defaultMessage": "Tem certeza de que deseja atualizar {count, plural, one {# projeto} other {# projetos}} para a versГЈo compatГ­vel mais recente? Г‰ recomendado atualizar o conteГєdo um por um."
+  },
+  "content.confirm-bulk-update.admonition-header": {
+    "defaultMessage": "Aviso de atualizaГ§ГЈo"
+  },
+  "content.confirm-bulk-update.header": {
+    "defaultMessage": "Atualizar projetos"
+  },
+  "content.confirm-bulk-update.shift-click-hint": {
+    "defaultMessage": "Mantenha pressionada a tecla Shift enquanto clica em \"Atualizar tudo\" para ignorar esta confirmaГ§ГЈo no futuro."
+  },
+  "content.confirm-bulk-update.update-button": {
+    "defaultMessage": "Atualizar {count, plural, one {# projeto} other {# projetos}}"
+  },
+  "content.confirm-deletion.admonition-body": {
+    "defaultMessage": "Excluir um mod pode afetar permanentemente seu mundo e pode causar conteГєdo ausente ou problemas inesperados quando ele for carregado novamente."
+  },
+  "content.confirm-deletion.admonition-header": {
+    "defaultMessage": "Aviso de exclusГЈo"
+  },
+  "content.confirm-deletion.delete-button": {
+    "defaultMessage": "Excluir {count} {itemType}{count, plural, one {} other {s}}"
+  },
+  "content.confirm-deletion.header": {
+    "defaultMessage": "Excluir {itemType}{count, plural, one {} other {s}}"
+  },
+  "content.confirm-modpack-update.admonition-body": {
+    "defaultMessage": "{action, select, downgrade {O retrocesso de versГЈo} other {A atualizaГ§ГЈo}} pode causar problemas de compatibilidade. Mods ou conteГєdo que vocГЄ adicionou alГ©m do pacote de mods serГЈo mantidos, mas podem nГЈo ser compatГ­veis com a nova versГЈo."
+  },
+  "content.confirm-modpack-update.admonition-header": {
+    "defaultMessage": "Aviso de {action, select, downgrade {retrocesso de versГЈo} other {atualizaГ§ГЈo}}"
+  },
+  "content.confirm-modpack-update.confirm-button": {
+    "defaultMessage": "{action, select, downgrade {Reverter} other {Atualizar}} pacote de mods"
+  },
+  "content.confirm-modpack-update.header": {
+    "defaultMessage": "{action, select, downgrade {Reverter} other {Atualizar}} pacote de mods"
+  },
+  "content.confirm-unlink.admonition-body": {
+    "defaultMessage": "Mods e conteГєdos serГЈo mesclados com o que vocГЄ adicionou ao pacote de mods, e ele deixarГЎ de receber atualizaГ§Гµes."
+  },
+  "content.confirm-unlink.admonition-header": {
+    "defaultMessage": "Desvinculando pacote de mods"
+  },
+  "content.confirm-unlink.header": {
+    "defaultMessage": "Desvincular pacote de mods"
+  },
+  "content.confirm-unlink.unlink-button": {
+    "defaultMessage": "Desvincular"
+  },
+  "content.diff-modal.added-count": {
+    "defaultMessage": "{count} adicionado"
+  },
+  "content.diff-modal.diff-type.added": {
+    "defaultMessage": "Adicionado (dependГЄncia)"
+  },
+  "content.diff-modal.diff-type.removed": {
+    "defaultMessage": "Desativado"
+  },
+  "content.diff-modal.diff-type.updated": {
+    "defaultMessage": "Atualizado"
+  },
+  "content.diff-modal.removed-count": {
+    "defaultMessage": "{count} removido"
+  },
+  "content.diff-modal.unknown-content-body": {
+    "defaultMessage": "Alguns conteГєdos do seu servidor nГЈo puderam ser analisados e podem ser afetados por esta alteraГ§ГЈo."
+  },
+  "content.diff-modal.updated-count": {
+    "defaultMessage": "{count} atualizado"
+  },
+  "content.inline-backup.backing-up": {
+    "defaultMessage": "Criando cГіpia de seguranГ§a..."
+  },
+  "content.inline-backup.backup-complete": {
+    "defaultMessage": "CГіpia de seguranГ§a criada com sucesso"
+  },
+  "content.inline-backup.backup-failed": {
+    "defaultMessage": "A criaГ§ГЈo da cГіpia de seguranГ§a falhou. VocГЄ ainda pode prosseguir."
+  },
+  "content.inline-backup.backup-in-progress": {
+    "defaultMessage": "Uma cГіpia de seguranГ§a estГЎ em andamento, Г© recomendado aguardar a conclusГЈo antes de realizar esta aГ§ГЈo."
+  },
+  "content.inline-backup.backup-takes-a-while": {
+    "defaultMessage": "A criaГ§ГЈo de uma cГіpia de seguranГ§a pode levar vГЎrios minutos, dependendo do tamanho do seu servidor."
+  },
+  "content.inline-backup.create-backup": {
+    "defaultMessage": "Criar cГіpia de seguranГ§a"
+  },
+  "content.inline-backup.shift-click-hint": {
+    "defaultMessage": "Segure Shift ao clicar para pular a confirmaГ§ГЈo."
+  },
+  "content.inline-backup.warning-body": {
+    "defaultMessage": "Recomendamos criar uma cГіpia de seguranГ§a antes de prosseguir, assim vocГЄ poderГЎ restaurar {type, select, server {seu mundo} other {sua instГўncia}} caso algo dГЄ errado."
+  },
+  "content.modpack-card.content-hint-description": {
+    "defaultMessage": "O conteГєdo do seu pacote de mods agora pode ser encontrado aqui!"
+  },
+  "content.modpack-card.content-hint-title": {
+    "defaultMessage": "ConteГєdo do pacote de mods movido"
+  },
+  "content.modpack-card.dismiss-hint": {
+    "defaultMessage": "NГЈo mostrar novamente"
+  },
+  "content.page-layout.additional-content": {
+    "defaultMessage": "ConteГєdo adicional"
+  },
+  "content.page-layout.browse-content": {
+    "defaultMessage": "Explorar conteГєdo"
+  },
+  "content.page-layout.busy-description": {
+    "defaultMessage": "Aguarde a conclusГЈo da operaГ§ГЈo antes de editar o conteГєdo."
+  },
+  "content.page-layout.empty.hint": {
+    "defaultMessage": "Explore ou envie {contentType} para comeГ§ar"
+  },
+  "content.page-layout.empty.modpack-hint": {
+    "defaultMessage": "Adicionar conteГєdo adicional a este pacote de mods"
+  },
+  "content.page-layout.empty.no-content-installed": {
+    "defaultMessage": "Nenhum conteГєdo instalado"
+  },
+  "content.page-layout.empty.no-extra-content-installed": {
+    "defaultMessage": "Nenhum conteГєdo adicional instalado"
+  },
+  "content.page-layout.failed-to-load": {
+    "defaultMessage": "Falha ao carregar o conteГєdo"
+  },
+  "content.page-layout.loading": {
+    "defaultMessage": "Carregando conteГєdo..."
+  },
+  "content.page-layout.no-content-found": {
+    "defaultMessage": "Nenhum conteГєdo encontrado."
+  },
+  "content.page-layout.please-wait": {
+    "defaultMessage": "Por favor, aguarde"
+  },
+  "content.page-layout.search-placeholder": {
+    "defaultMessage": "Buscar {count} {contentType}..."
+  },
+  "content.page-layout.share.file-names": {
+    "defaultMessage": "Nomes dos arquivos"
+  },
+  "content.page-layout.share.label": {
+    "defaultMessage": "Compartilhar"
+  },
+  "content.page-layout.share.markdown-links": {
+    "defaultMessage": "Links em Markdown"
+  },
+  "content.page-layout.share.project-links": {
+    "defaultMessage": "Links do projeto"
+  },
+  "content.page-layout.share.project-names": {
+    "defaultMessage": "Nomes dos projetos"
+  },
+  "content.page-layout.sort.alphabetical": {
+    "defaultMessage": "AlfabГ©tico"
+  },
+  "content.page-layout.sort.date-added-newest": {
+    "defaultMessage": "Mais recentes primeiro"
+  },
+  "content.page-layout.sort.date-added-oldest": {
+    "defaultMessage": "Mais antigos primeiro"
+  },
+  "content.page-layout.sort.label": {
+    "defaultMessage": "Ordenar por {mode}"
+  },
+  "content.page-layout.update-all": {
+    "defaultMessage": "Atualizar tudo"
+  },
+  "content.page-layout.upload-files": {
+    "defaultMessage": "Enviar arquivos"
+  },
+  "content.page-layout.uploading-files": {
+    "defaultMessage": "Enviando arquivos ({completed}/{total})"
+  },
+  "content.selection-bar.all-already-disabled": {
+    "defaultMessage": "Todo o conteГєdo selecionado jГЎ estГЎ desativado"
+  },
+  "content.selection-bar.all-already-enabled": {
+    "defaultMessage": "Todo o conteГєdo selecionado jГЎ estГЎ ativado"
+  },
+  "content.selection-bar.bulk.deleting": {
+    "defaultMessage": "Excluindo {progress}/{total} {contentType}..."
+  },
+  "content.selection-bar.bulk.deleting-waiting": {
+    "defaultMessage": "Excluindo {contentType}..."
+  },
+  "content.selection-bar.bulk.disabling": {
+    "defaultMessage": "Desativando {progress}/{total} {contentType}..."
+  },
+  "content.selection-bar.bulk.disabling-waiting": {
+    "defaultMessage": "Desativando {contentType}..."
+  },
+  "content.selection-bar.bulk.enabling": {
+    "defaultMessage": "Ativando {progress}/{total} {contentType}..."
+  },
+  "content.selection-bar.bulk.enabling-waiting": {
+    "defaultMessage": "Ativando {contentType}..."
+  },
+  "content.selection-bar.bulk.updating": {
+    "defaultMessage": "Atualizando {progress}/{total} {contentType}..."
+  },
+  "content.selection-bar.bulk.updating-waiting": {
+    "defaultMessage": "Atualizando {contentType}..."
+  },
+  "content.selection-bar.selected-count": {
+    "defaultMessage": "{count} {contentType} selecionado(s)"
+  },
+  "content.selection-bar.selected-count-simple": {
+    "defaultMessage": "{count, number} selecionado(s)"
+  },
+  "files.conflict-modal.header": {
+    "defaultMessage": "Resumo da extraГ§ГЈo"
+  },
+  "files.conflict-modal.overwrite-button": {
+    "defaultMessage": "Sobrescrever"
+  },
+  "files.conflict-modal.overwrite-many-warning": {
+    "defaultMessage": "Mais de 100 arquivos serГЈo sobrescritos se vocГЄ prosseguir com a extraГ§ГЈo; aqui estГЈo alguns deles."
+  },
+  "files.conflict-modal.overwrite-warning": {
+    "defaultMessage": "Os seguintes {count} arquivos jГЎ existem no seu servidor e serГЈo sobrescritos se vocГЄ prosseguir com a extraГ§ГЈo."
+  },
+  "files.conflict-modal.overwritten-count": {
+    "defaultMessage": "{count} sobrescrito"
+  },
+  "files.conflict-modal.overwritten-label": {
+    "defaultMessage": "Sobrescrito"
+  },
+  "files.conflict-modal.warning-header": {
+    "defaultMessage": "Os arquivos serГЈo sobrescritos"
+  },
+  "files.create-modal.create-button": {
+    "defaultMessage": "Criar {type, select, directory {pasta} other {arquivo}}"
+  },
+  "files.create-modal.header": {
+    "defaultMessage": "Criar {type, select, directory {uma pasta} other {um arquivo}}"
+  },
+  "files.create-modal.placeholder-directory": {
+    "defaultMessage": "ex.: minha-pasta"
+  },
+  "files.create-modal.placeholder-file": {
+    "defaultMessage": "ex.: config.yml"
+  },
+  "files.delete-modal.deleting-name": {
+    "defaultMessage": "Excluindo \"{name}\""
+  },
+  "files.delete-modal.header": {
+    "defaultMessage": "Excluir arquivo"
+  },
+  "files.delete-modal.warning": {
+    "defaultMessage": "{type, select, directory {Esta pasta e todo o seu conteГєdo serГЈo excluГ­dos permanentemente. Esta aГ§ГЈo nГЈo pode ser desfeita.} other {Este arquivo serГЎ excluГ­do permanentemente. Esta aГ§ГЈo nГЈo pode ser desfeita.}}"
+  },
+  "files.editor.failed-to-open-text": {
+    "defaultMessage": "NГЈo foi possГ­vel carregar o conteГєdo do arquivo."
+  },
+  "files.editor.failed-to-open-title": {
+    "defaultMessage": "Falha ao abrir o arquivo"
+  },
+  "files.editor.failed-to-share-text": {
+    "defaultMessage": "NГЈo foi possГ­vel enviar para mclo.gs."
+  },
+  "files.editor.failed-to-share-title": {
+    "defaultMessage": "Falha ao compartilhar o arquivo"
+  },
+  "files.editor.file-saved-text": {
+    "defaultMessage": "Seu arquivo foi salvo."
+  },
+  "files.editor.file-saved-title": {
+    "defaultMessage": "Arquivo salvo"
+  },
+  "files.editor.find-close": {
+    "defaultMessage": "Fechar"
+  },
+  "files.editor.find-in-file": {
+    "defaultMessage": "Localizar"
+  },
+  "files.editor.find-match-count": {
+    "defaultMessage": "{current} de {total}"
+  },
+  "files.editor.find-next-match": {
+    "defaultMessage": "PrГіximo resultado"
+  },
+  "files.editor.find-no-results": {
+    "defaultMessage": "Nenhum resultado"
+  },
+  "files.editor.find-previous-match": {
+    "defaultMessage": "Resultado anterior"
+  },
+  "files.editor.find-toggle-replace": {
+    "defaultMessage": "Alternar substituiГ§ГЈo"
+  },
+  "files.editor.log-url-copied-text": {
+    "defaultMessage": "A URL do seu arquivo de log foi copiada para a ГЎrea de transferГЄncia."
+  },
+  "files.editor.log-url-copied-title": {
+    "defaultMessage": "URL do log copiada"
+  },
+  "files.editor.replace": {
+    "defaultMessage": "Substituir"
+  },
+  "files.editor.replace-all": {
+    "defaultMessage": "Substituir tudo"
+  },
+  "files.editor.replace-in-file": {
+    "defaultMessage": "Substituir"
+  },
+  "files.editor.save-failed-text": {
+    "defaultMessage": "NГЈo foi possГ­vel salvar o arquivo."
+  },
+  "files.editor.save-failed-title": {
+    "defaultMessage": "Falha ao salvar"
+  },
+  "files.error.go-to-home": {
+    "defaultMessage": "Ir para a pasta inicial"
+  },
+  "files.error.try-again": {
+    "defaultMessage": "Tente novamente"
+  },
+  "files.image_viewer.image_too_large": {
+    "defaultMessage": "Imagem muito grande para visualizar (mГЎx. {maxDimension}x{maxDimension} pixels)"
+  },
+  "files.image_viewer.invalid_image": {
+    "defaultMessage": "Arquivo de imagem invГЎlido ou vazio."
+  },
+  "files.image_viewer.load_failed": {
+    "defaultMessage": "Falha ao carregar a imagem"
+  },
+  "files.image_viewer.reset_zoom": {
+    "defaultMessage": "Redefinir zoom"
+  },
+  "files.image_viewer.viewed_image_alt": {
+    "defaultMessage": "Imagem visualizada"
+  },
+  "files.image_viewer.zoom_in": {
+    "defaultMessage": "Aumentar zoom"
+  },
+  "files.image_viewer.zoom_out": {
+    "defaultMessage": "Diminuir zoom"
+  },
+  "files.layout.busy-warning": {
+    "defaultMessage": "As operaГ§Гµes de arquivo estГЈo desativadas enquanto a operaГ§ГЈo estГЎ em andamento."
+  },
+  "files.layout.dry-run-failed-text": {
+    "defaultMessage": "Erro ao executar simulaГ§ГЈo"
+  },
+  "files.layout.dry-run-failed-title": {
+    "defaultMessage": "Falha na simulaГ§ГЈo"
+  },
+  "files.layout.empty-folder-description": {
+    "defaultMessage": "NГЈo hГЎ arquivos ou pastas."
+  },
+  "files.layout.empty-folder-title": {
+    "defaultMessage": "Esta pasta estГЎ vazia"
+  },
+  "files.layout.error-message": {
+    "defaultMessage": "A pasta pode nГЈo existir."
+  },
+  "files.layout.error-title": {
+    "defaultMessage": "NГЈo foi possГ­vel carregar os arquivos\t\t\t"
+  },
+  "files.layout.extraction-started-title": {
+    "defaultMessage": "ExtraГ§ГЈo iniciada"
+  },
+  "files.layout.selected-count": {
+    "defaultMessage": "{count} selecionado(s)"
+  },
+  "files.layout.unsaved-changes": {
+    "defaultMessage": "VocГЄ tem alteraГ§Гµes nГЈo salvas."
+  },
+  "files.move-modal.current-location": {
+    "defaultMessage": "LocalizaГ§ГЈo atual"
+  },
+  "files.move-modal.destination-path": {
+    "defaultMessage": "Caminho de destino"
+  },
+  "files.move-modal.destination-placeholder": {
+    "defaultMessage": "ex.: /minha-pasta"
+  },
+  "files.move-modal.header": {
+    "defaultMessage": "Mover {type, select, directory {pasta} other {arquivo}}"
+  },
+  "files.navbar.back-to-home": {
+    "defaultMessage": "Voltar para a pГЎgina inicial"
+  },
+  "files.navbar.breadcrumb-navigation": {
+    "defaultMessage": "NavegaГ§ГЈo por breadcrumbs"
+  },
+  "files.navbar.create-new": {
+    "defaultMessage": "Criar novo..."
+  },
+  "files.navbar.file-navigation": {
+    "defaultMessage": "NavegaГ§ГЈo de arquivos"
+  },
+  "files.navbar.find-in-file": {
+    "defaultMessage": "Localizar no arquivo"
+  },
+  "files.navbar.home": {
+    "defaultMessage": "InГ­cio"
+  },
+  "files.navbar.install-curseforge-pack": {
+    "defaultMessage": "Instalar pacote do CurseForge"
+  },
+  "files.navbar.new-file": {
+    "defaultMessage": "Novo arquivo"
+  },
+  "files.navbar.new-folder": {
+    "defaultMessage": "Nova pasta"
+  },
+  "files.navbar.search-files": {
+    "defaultMessage": "Buscar arquivos"
+  },
+  "files.navbar.share-to-mclogs": {
+    "defaultMessage": "Compartilhar em mclo.gs"
+  },
+  "files.navbar.upload-file": {
+    "defaultMessage": "Enviar arquivo"
+  },
+  "files.navbar.upload-from-zip": {
+    "defaultMessage": "Enviar a partir de arquivo .zip"
+  },
+  "files.navbar.upload-from-zip-url": {
+    "defaultMessage": "Enviar a partir de um URL .zip"
+  },
+  "files.operations.extracted": {
+    "defaultMessage": "{size} extraГ­do"
+  },
+  "files.operations.extracting": {
+    "defaultMessage": "Extraindo {source}"
+  },
+  "files.operations.failed": {
+    "defaultMessage": "Falhou"
+  },
+  "files.operations.modpack-from-url": {
+    "defaultMessage": "pacote de mods a partir de URL"
+  },
+  "files.rename-modal.header": {
+    "defaultMessage": "Renomear {name}"
+  },
+  "files.rename-modal.new-name-label": {
+    "defaultMessage": "Novo nome"
+  },
+  "files.row.item-count": {
+    "defaultMessage": "{count, plural, =0 {Nenhum item} one {# item} other {# itens}}"
+  },
+  "files.table-header.created": {
+    "defaultMessage": "Criado"
+  },
+  "files.table-header.modified": {
+    "defaultMessage": "Modificado"
+  },
+  "files.table-header.name": {
+    "defaultMessage": "Nome"
+  },
+  "files.table-header.size": {
+    "defaultMessage": "Tamanho"
+  },
+  "files.unsaved-changes-modal.body": {
+    "defaultMessage": "VocГЄ tem alteraГ§Гµes nГЈo salvas que serГЈo perdidas se sair. Deseja salvar antes de sair?"
+  },
+  "files.unsaved-changes-modal.discard": {
+    "defaultMessage": "Descartar"
+  },
+  "files.unsaved-changes-modal.header": {
+    "defaultMessage": "AlteraГ§Гµes nГЈo salvas"
+  },
+  "files.upload-dropdown.cancelled": {
+    "defaultMessage": "Cancelado"
+  },
+  "files.upload-dropdown.failed-file-exists": {
+    "defaultMessage": "Falha - O arquivo jГЎ existe"
+  },
+  "files.upload-dropdown.failed-generic": {
+    "defaultMessage": "Falha - {error}"
+  },
+  "files.upload-dropdown.failed-incorrect-type": {
+    "defaultMessage": "Falha - Tipo de arquivo incorreto"
+  },
+  "files.upload-dropdown.failed-to-upload": {
+    "defaultMessage": "Falha ao enviar {fileName}"
+  },
+  "files.upload-dropdown.file": {
+    "defaultMessage": "Arquivo"
+  },
+  "files.upload-dropdown.file-uploads": {
+    "defaultMessage": "{fileType} envios"
+  },
+  "files.upload-dropdown.incorrect-file-type": {
+    "defaultMessage": "O arquivo enviado continha um tipo de arquivo incorreto"
+  },
+  "files.upload-dropdown.unexpected-error": {
+    "defaultMessage": "Um erro inesperado aconteceu."
+  },
+  "files.upload-dropdown.uploads-left": {
+    "defaultMessage": " - {count} restantes"
+  },
+  "files.upload.drag-and-drop.drop-to-upload": {
+    "defaultMessage": "Solte {type, select, undefined {arquivos} other {{type}s}} aqui para enviar"
+  },
+  "files.validation.name-invalid-directory": {
+    "defaultMessage": "O nome deve conter apenas caracteres alfanumГ©ricos, hГ­fens, sublinhados ou espaГ§os."
+  },
+  "files.validation.name-invalid-file": {
+    "defaultMessage": "O nome deve conter apenas caracteres alfanumГ©ricos, hГ­fens, sublinhados, pontos ou espaГ§os."
+  },
+  "files.validation.name-label": {
+    "defaultMessage": "Nome"
+  },
+  "files.validation.name-required": {
+    "defaultMessage": "O nome Г© obrigatГіrio."
+  },
+  "files.zip-url-modal.backup-name": {
+    "defaultMessage": "InstalaГ§ГЈo de pacote de mods do CurseForge"
+  },
+  "files.zip-url-modal.cf-header": {
+    "defaultMessage": "Instale um pacote de mods do CurseForge"
+  },
+  "files.zip-url-modal.cf-not-found-text": {
+    "defaultMessage": "NГЈo foi possГ­vel encontrar o pacote de mods do CurseForge nessa URL."
+  },
+  "files.zip-url-modal.cf-not-found-title": {
+    "defaultMessage": "Pacote de mods do CurseForge nГЈo encontrado"
+  },
+  "files.zip-url-modal.enter-link": {
+    "defaultMessage": "Inserir link"
+  },
+  "files.zip-url-modal.error-cf-url": {
+    "defaultMessage": "A URL deve ser de uma versГЈo de pacote de mods do CurseForge."
+  },
+  "files.zip-url-modal.error-url-invalid": {
+    "defaultMessage": "URL deve ser vГЎlido."
+  },
+  "files.zip-url-modal.error-url-required": {
+    "defaultMessage": "O URL Г© necessГЎrio."
+  },
+  "files.zip-url-modal.install-button": {
+    "defaultMessage": "Instalar"
+  },
+  "files.zip-url-modal.install-failed-title": {
+    "defaultMessage": "A instalaГ§ГЈo falhou"
+  },
+  "files.zip-url-modal.step-copy-description": {
+    "defaultMessage": "Copie o URL da pГЎgina da versГЈo e cole-o abaixo."
+  },
+  "files.zip-url-modal.step-copy-title": {
+    "defaultMessage": "Copie o URL"
+  },
+  "files.zip-url-modal.step-find-description": {
+    "defaultMessage": "Navegue pelo CurseForge e encontre o pacote de mods que vocГЄ deseja."
+  },
+  "files.zip-url-modal.step-find-title": {
+    "defaultMessage": "Encontre o pacote de mods"
+  },
+  "files.zip-url-modal.step-select-description": {
+    "defaultMessage": "Acesse a aba \"Arquivos\" e selecione a versГЈo que deseja instalar."
+  },
+  "files.zip-url-modal.step-select-title": {
+    "defaultMessage": "Selecionar uma versГЈo"
+  },
+  "files.zip-url-modal.unknown-error": {
+    "defaultMessage": "Um erro desconhecido aconteceu"
+  },
+  "files.zip-url-modal.zip-description": {
+    "defaultMessage": "Copie e cole o URL de download direto de um arquivo .zip."
+  },
+  "files.zip-url-modal.zip-header": {
+    "defaultMessage": "Enviando conteГєdo de arquivo .zip a partir de uma URL"
+  },
   "form.label.address-line": {
-    "defaultMessage": "Endereço"
+    "defaultMessage": "EndereГ§o"
   },
   "form.label.address-line-2": {
-    "defaultMessage": "2° Endereço (opcional)"
+    "defaultMessage": "2В° EndereГ§o (opcional)"
   },
   "form.label.amount": {
     "defaultMessage": "Quantia"
@@ -183,13 +861,13 @@
     "defaultMessage": "Nome do banco"
   },
   "form.label.business-name": {
-    "defaultMessage": "Nome do negócio"
+    "defaultMessage": "Nome do negГіcio"
   },
   "form.label.city": {
     "defaultMessage": "Cidade"
   },
   "form.label.country": {
-    "defaultMessage": "País"
+    "defaultMessage": "PaГ­s"
   },
   "form.label.date-of-birth": {
     "defaultMessage": "Data de nascimento"
@@ -204,37 +882,37 @@
     "defaultMessage": "Sobrenome"
   },
   "form.label.postal-code": {
-    "defaultMessage": "Código postal"
+    "defaultMessage": "CГіdigo postal"
   },
   "form.label.state-province": {
     "defaultMessage": "Estado"
   },
   "form.placeholder.address": {
-    "defaultMessage": "Digitar endereço"
+    "defaultMessage": "Digitar endereГ§o"
   },
   "form.placeholder.address-2": {
-    "defaultMessage": "Apartamento, Suíte, etc."
+    "defaultMessage": "Apartamento, SuГ­te, etc."
   },
   "form.placeholder.amount": {
     "defaultMessage": "Digitar quantia"
   },
   "form.placeholder.bank-name": {
-    "defaultMessage": "Digitar nome bancário"
+    "defaultMessage": "Digitar nome bancГЎrio"
   },
   "form.placeholder.bank-name-dropdown": {
-    "defaultMessage": "Selecionar nome bancário"
+    "defaultMessage": "Selecionar nome bancГЎrio"
   },
   "form.placeholder.business-name": {
-    "defaultMessage": "Digitar nome do negócio"
+    "defaultMessage": "Digitar nome do negГіcio"
   },
   "form.placeholder.city": {
     "defaultMessage": "Digitar cidade"
   },
   "form.placeholder.country": {
-    "defaultMessage": "Selecionar país"
+    "defaultMessage": "Selecionar paГ­s"
   },
   "form.placeholder.email": {
-    "defaultMessage": "Digitar endereço de e-mail"
+    "defaultMessage": "Digitar endereГ§o de e-mail"
   },
   "form.placeholder.first-name": {
     "defaultMessage": "Digitar nome"
@@ -243,7 +921,7 @@
     "defaultMessage": "Digitar sobrenome"
   },
   "form.placeholder.postal-code": {
-    "defaultMessage": "Digitar código postal"
+    "defaultMessage": "Digitar cГіdigo postal"
   },
   "form.placeholder.state": {
     "defaultMessage": "Digitar estado"
@@ -254,50 +932,275 @@
   "header.category.feature": {
     "defaultMessage": "Recurso"
   },
+  "header.category.minecraft-server-community": {
+    "defaultMessage": "Comunidade"
+  },
+  "header.category.minecraft-server-features": {
+    "defaultMessage": "Recursos"
+  },
+  "header.category.minecraft-server-gameplay": {
+    "defaultMessage": "Jogabilidade"
+  },
+  "header.category.minecraft-server-meta": {
+    "defaultMessage": "Meta"
+  },
   "header.category.performance-impact": {
     "defaultMessage": "Impacto no desempenho"
   },
   "header.category.resolutions": {
-    "defaultMessage": "Resoluções"
+    "defaultMessage": "ResoluГ§ГЈo"
+  },
+  "hosting.content.failed-to-bulk-delete": {
+    "defaultMessage": "Falha ao excluir o conteГєdo"
+  },
+  "hosting.content.failed-to-bulk-disable": {
+    "defaultMessage": "Falha ao desativar o conteГєdo"
+  },
+  "hosting.content.failed-to-bulk-enable": {
+    "defaultMessage": "Falha ao ativar o conteГєdo"
+  },
+  "hosting.content.failed-to-bulk-update": {
+    "defaultMessage": "Falha ao atualizar o conteГєdo"
+  },
+  "hosting.content.failed-to-load-modpack-content": {
+    "defaultMessage": "Falha ao carregar o conteГєdo do pacote de mods"
+  },
+  "hosting.content.failed-to-load-versions": {
+    "defaultMessage": "Falha ao carregar as versГµes"
+  },
+  "hosting.content.failed-to-remove": {
+    "defaultMessage": "Falha ao remover o conteГєdo"
+  },
+  "hosting.content.failed-to-toggle": {
+    "defaultMessage": "Falha ao alterar {name}"
+  },
+  "hosting.content.failed-to-unlink": {
+    "defaultMessage": "Falha ao desvincular o pacote de mods"
+  },
+  "hosting.content.failed-to-update": {
+    "defaultMessage": "Falha ao atualizar"
+  },
+  "hosting.content.failed-to-upload": {
+    "defaultMessage": "Falha ao enviar o arquivo"
+  },
+  "hosting.loader.failed-to-change-version": {
+    "defaultMessage": "Falha ao alterar a versГЈo do pacote de mods"
+  },
+  "hosting.loader.failed-to-load-versions": {
+    "defaultMessage": "Falha ao carregar as versГµes"
+  },
+  "hosting.loader.failed-to-reinstall": {
+    "defaultMessage": "Falha ao reinstalar o pacote de mods"
+  },
+  "hosting.loader.failed-to-repair": {
+    "defaultMessage": "Falha ao reparar o servidor"
+  },
+  "hosting.loader.failed-to-reset-to-onboarding": {
+    "defaultMessage": "Falha ao redefinir o servidor para a integraГ§ГЈo"
+  },
+  "hosting.loader.failed-to-save-settings": {
+    "defaultMessage": "Falha ao salvar as configuraГ§Гµes de instalaГ§ГЈo"
+  },
+  "hosting.loader.failed-to-unlink": {
+    "defaultMessage": "Falha ao desvincular o pacote de mods"
+  },
+  "hosting.loader.loader-version": {
+    "defaultMessage": "{loader, select, null {Carregador} other {{loader}}} versГЈo"
+  },
+  "hosting.loader.repair-started-text": {
+    "defaultMessage": "A instalaГ§ГЈo do seu servidor foi reparada."
+  },
+  "hosting.loader.repair-started-title": {
+    "defaultMessage": "Reparo concluГ­do"
+  },
+  "hosting.loader.reset-server": {
+    "defaultMessage": "Reiniciar servidor"
+  },
+  "hosting.loader.reset-server-description": {
+    "defaultMessage": "Remove todos os dados do seu servidor, incluindo seus mundos, mods e arquivos de configuraГ§ГЈo. As cГіpias de seguranГ§a permanecerГЈo e poderГЈo ser restauradas."
+  },
+  "hosting.loader.reset-to-onboarding-button": {
+    "defaultMessage": "Redefinir para a integraГ§ГЈo"
+  },
+  "hosting.loader.reset-to-onboarding-modal-description": {
+    "defaultMessage": "Isso enviarГЎ o servidor de volta para a integraГ§ГЈo, para que a configuraГ§ГЈo possa ser concluГ­da novamente. Tem certeza de que deseja continuar?"
+  },
+  "hosting.loader.reset-to-onboarding-modal-title": {
+    "defaultMessage": "Redefinir para a integraГ§ГЈo"
+  },
+  "hosting.loader.reset-to-onboarding-success-description": {
+    "defaultMessage": "O servidor foi retornado ao fluxo de integraГ§ГЈo."
+  },
+  "hosting.loader.reset-to-onboarding-success-title": {
+    "defaultMessage": "Servidor redefinido para a integraГ§ГЈo"
+  },
+  "hosting.loader.support-options-title": {
+    "defaultMessage": "OpГ§Гµes de suporte"
   },
   "hosting.specs.burst": {
-    "defaultMessage": "Picos de até {cpus} CPUs"
+    "defaultMessage": "Picos de atГ© {cpus} CPUs"
   },
   "hosting.specs.burst.tooltip": {
-    "defaultMessage": "O pico de CPU permite que seu servidor use temporariamente threads adicionais para ajudar a mitigar picos de TPS. Clique para obter mais informações."
+    "defaultMessage": "O pico de CPU permite que seu servidor use temporariamente threads adicionais para ajudar a mitigar picos de TPS. Clique para obter mais informaГ§Гµes."
   },
   "hosting.specs.gb-ram": {
     "defaultMessage": "{ram} GB de RAM"
   },
   "hosting.specs.gb-storage": {
-    "defaultMessage": "Armazenamento de {storage} GB"
+    "defaultMessage": "{storage} GB de armazenamento"
   },
   "hosting.specs.shared-cpus": {
     "defaultMessage": "{cpus} CPUs compartilhadas"
   },
   "icon-select.edit": {
-    "defaultMessage": "Editar ícone"
+    "defaultMessage": "Editar Г­cone"
   },
   "icon-select.remove": {
-    "defaultMessage": "Remover ícone"
+    "defaultMessage": "Remover Г­cone"
   },
   "icon-select.replace": {
-    "defaultMessage": "Substituir ícone"
+    "defaultMessage": "Substituir Г­cone"
   },
   "icon-select.select": {
-    "defaultMessage": "Selecionar ícone"
+    "defaultMessage": "Selecionar Г­cone"
+  },
+  "input.search-version.placeholder": {
+    "defaultMessage": "Buscar versГЈo..."
   },
   "input.search.placeholder": {
     "defaultMessage": "Buscar..."
   },
+  "input.select-version.placeholder": {
+    "defaultMessage": "Selecionar versГЈo"
+  },
   "input.view.gallery": {
-    "defaultMessage": "Visualização em galeria"
+    "defaultMessage": "VisualizaГ§ГЈo em galeria"
   },
   "input.view.grid": {
-    "defaultMessage": "Visualização em grade"
+    "defaultMessage": "VisualizaГ§ГЈo em grade"
   },
   "input.view.list": {
-    "defaultMessage": "Visualização em linhas"
+    "defaultMessage": "VisualizaГ§ГЈo em linhas"
+  },
+  "installation-settings.aria.select-game-version": {
+    "defaultMessage": "Selecionar versГЈo do jogo"
+  },
+  "installation-settings.aria.select-loader-version": {
+    "defaultMessage": "Selecionar versГЈo do {loader}"
+  },
+  "installation-settings.aria.select-platform": {
+    "defaultMessage": "Selecionar plataforma"
+  },
+  "installation-settings.confirm-version-change": {
+    "defaultMessage": "Confirmar"
+  },
+  "installation-settings.confirm-version-change-description": {
+    "defaultMessage": "Alterar para {gameVersion} modificarГЎ o seguinte conteГєdo no seu servidor."
+  },
+  "installation-settings.confirm-version-change-header": {
+    "defaultMessage": "Revisar alteraГ§Гµes de conteГєdo"
+  },
+  "installation-settings.edit-installation.title": {
+    "defaultMessage": "Editar instalaГ§ГЈo"
+  },
+  "installation-settings.edit.warning-instance": {
+    "defaultMessage": "NГЈo recomendamos editar as configuraГ§Гµes da sua instalaГ§ГЈo apГіs instalar conteГєdo. Se quiser editГЎ-las, tenha cuidado, pois, isso pode causar problemas."
+  },
+  "installation-settings.edit.warning-server": {
+    "defaultMessage": "NГЈo recomendamos editar as configuraГ§Гµes da sua instalaГ§ГЈo apГіs instalar conteГєdo. Se quiser editГЎ-las, redefina seu servidor."
+  },
+  "installation-settings.incompatible-content.auto-fix-button": {
+    "defaultMessage": "Auto corrigir"
+  },
+  "installation-settings.incompatible-content.change-loader-button": {
+    "defaultMessage": "Alterar carregador"
+  },
+  "installation-settings.incompatible-content.disable-conflicts-button": {
+    "defaultMessage": "Desativar conflitos"
+  },
+  "installation-settings.incompatible-content.game-version-warning-body": {
+    "defaultMessage": "Ao alterar a versГЈo do jogo, podemos desativar o conteГєdo instalado incompatГ­vel ou tentar resolver as incompatibilidades."
+  },
+  "installation-settings.incompatible-content.game-version-warning-title": {
+    "defaultMessage": "Aviso de incompatibilidade"
+  },
+  "installation-settings.incompatible-content.header": {
+    "defaultMessage": "ConteГєdo incompatГ­vel instalado"
+  },
+  "installation-settings.incompatible-content.loader-change-body": {
+    "defaultMessage": "Ao alterar o carregador, todo o conteГєdo instalado serГЎ desativado. Recomendamos redefinir seu servidor em vez disso."
+  },
+  "installation-settings.incompatible-content.loader-change-title": {
+    "defaultMessage": "Alterar carregadores Г© destrutivo"
+  },
+  "installation-settings.linked-instance.title": {
+    "defaultMessage": "Vinculado ao {projectType, select, server {projeto de servidor} other {pacote de mods}}"
+  },
+  "installation-settings.loader-version": {
+    "defaultMessage": "VersГЈo do {loader}"
+  },
+  "installation-settings.platform-lock-tooltip": {
+    "defaultMessage": "VocГЄ precisarГЎ redefinir seu servidor para trocar o carregador."
+  },
+  "installation-settings.reinstall-modpack.description": {
+    "defaultMessage": "Reinstalar o pacote de mods redefine o conteГєdo {type, select, server {do servidor} other {da instancia}} para seu estado original, removendo quaisquer mods ou conteГєdo que vocГЄ tenha adicionado."
+  },
+  "installation-settings.reinstall-modpack.title": {
+    "defaultMessage": "Reinstalar pacote de mods"
+  },
+  "installation-settings.reinstalling-modpack": {
+    "defaultMessage": "Reinstalando pacote de mods"
+  },
+  "installation-settings.removed-incompatible": {
+    "defaultMessage": "Removido (incompatГ­vel)"
+  },
+  "installation-settings.repair.instance-description": {
+    "defaultMessage": "Reinstala as dependГЄncias do Minecraft e verifica se hГЎ corrupГ§ГЈo. Isso pode resolver problemas caso o jogo nГЈo esteja iniciando devido a erros relacionados ao launcher."
+  },
+  "installation-settings.repair.instance-title": {
+    "defaultMessage": "Reparar instГўncia"
+  },
+  "installation-settings.repair.server-description": {
+    "defaultMessage": "Reinstala o carregador e as dependГЄncias do Minecraft sem excluir seu conteГєdo. Isso pode resolver problemas caso seu servidor nГЈo esteja iniciando corretamente."
+  },
+  "installation-settings.repair.server-title": {
+    "defaultMessage": "Reparar servidor"
+  },
+  "installation-settings.saving": {
+    "defaultMessage": "Salvando..."
+  },
+  "installation-settings.search-game-version": {
+    "defaultMessage": "Buscar versГЈo do jogo..."
+  },
+  "installation-settings.unlink": {
+    "defaultMessage": "Desvincular"
+  },
+  "installation-settings.unlink.description": {
+    "defaultMessage": "Desvincular desconecta permanentemente {type, select, server {este servidor} other {esta instГўncia}} do {projectType, select, server {projeto de servidor} other {pacote de mods}}, permitindo que vocГЄ altere o carregador e a versГЈo do Minecraft, mas vocГЄ nГЈo receberГЎ atualizaГ§Гµes futuras."
+  },
+  "installation-settings.verifying": {
+    "defaultMessage": "Verificando..."
+  },
+  "instance.confirm-reinstall.admonition-body": {
+    "defaultMessage": "Reinstalar irГЎ redefinir todo o conteГєdo instalado ou modificado para o fornecido pelo pacote de mods, removendo quaisquer mods ou conteГєdos que vocГЄ tenha adicionado alГ©m da instalaГ§ГЈo original."
+  },
+  "instance.confirm-reinstall.admonition-header": {
+    "defaultMessage": "Aviso de reinstalaГ§ГЈo"
+  },
+  "instance.confirm-reinstall.header": {
+    "defaultMessage": "Reinstalar pacote de mods"
+  },
+  "instance.confirm-reinstall.reinstall-button": {
+    "defaultMessage": "Reinstalar pacote de mods"
+  },
+  "instance.confirm-repair.body": {
+    "defaultMessage": "Reparar reinstala o carregador e as dependГЄncias do Minecraft sem excluir seu conteГєdo. Isso pode resolver problemas se seu {type, select, server {servidor nГЈo estiver iniciando corretamente} other {jogo nГЈo estiver iniciando devido a erros relacionados ao launcher}}."
+  },
+  "instance.confirm-repair.header": {
+    "defaultMessage": "Reparar {type, select, server {servidor} other {instГўncia}}"
+  },
+  "instance.confirm-repair.repair-button": {
+    "defaultMessage": "Reparar"
   },
   "instance.worlds.game_mode.adventure": {
     "defaultMessage": "Modo Aventura"
@@ -309,73 +1212,172 @@
     "defaultMessage": "Modo Espectador"
   },
   "instance.worlds.game_mode.survival": {
-    "defaultMessage": "Modo Sobrevivência"
+    "defaultMessage": "Modo SobrevivГЄncia"
   },
   "instance.worlds.game_mode.unknown": {
     "defaultMessage": "Modo de jogo desconhecido"
   },
-  "instances.modpack-card.unlink": {
-    "defaultMessage": "Desvincular pacote de mods"
+  "instances.confirm-leave-modal.body": {
+    "defaultMessage": "Os arquivos ainda estГЈo sendo enviados. Sair desta pГЎgina cancelarГЎ o envio e suas alteraГ§Гµes podem ser perdidas."
+  },
+  "instances.confirm-leave-modal.upload-in-progress": {
+    "defaultMessage": "Envio em andamento"
+  },
+  "instances.content-install.compatible-count": {
+    "defaultMessage": "{count, plural, =0 {Nenhuma instГўncia compatГ­vel} one {{count} instГўncia compatГ­vel} other {{count} instГўncias compatГ­veis}} "
+  },
+  "instances.content-install.existing-tab": {
+    "defaultMessage": "InstГўncia existente"
+  },
+  "instances.content-install.game-version-placeholder": {
+    "defaultMessage": "Selecionar versГЈo do jogo"
+  },
+  "instances.content-install.header": {
+    "defaultMessage": "Instalar projeto"
+  },
+  "instances.content-install.install-button": {
+    "defaultMessage": "Instalar"
+  },
+  "instances.content-install.installed-badge": {
+    "defaultMessage": "Instalado"
+  },
+  "instances.content-install.instance-type": {
+    "defaultMessage": "Tipo de instГўncia"
+  },
+  "instances.content-install.loader-label": {
+    "defaultMessage": "Carregador"
+  },
+  "instances.content-install.name-label": {
+    "defaultMessage": "Nome"
+  },
+  "instances.content-install.name-placeholder": {
+    "defaultMessage": "Insira o nome da instГўncia"
+  },
+  "instances.content-install.new-tab": {
+    "defaultMessage": "Nova instГўncia"
+  },
+  "instances.content-install.no-instances": {
+    "defaultMessage": "Nenhuma instГўncia compatГ­vel encontrada"
+  },
+  "instances.content-install.remove-icon": {
+    "defaultMessage": "Remover Г­cone"
+  },
+  "instances.content-install.search-placeholder": {
+    "defaultMessage": "Buscar instГўncia"
+  },
+  "instances.content-install.select-icon": {
+    "defaultMessage": "Selecionar Г­cone"
+  },
+  "instances.modpack-content-modal.empty-description": {
+    "defaultMessage": "Este pacote de mods nГЈo inclui nenhum conteГєdo adicional."
+  },
+  "instances.modpack-content-modal.empty-title": {
+    "defaultMessage": "Nenhum conteГєdo encontrado"
+  },
+  "instances.modpack-content-modal.header": {
+    "defaultMessage": "ConteГєdo do pacote de mods"
+  },
+  "instances.modpack-content-modal.loading": {
+    "defaultMessage": "Carregando conteГєdo..."
+  },
+  "instances.modpack-content-modal.no-results": {
+    "defaultMessage": "Nenhum projeto corresponde com sua busca."
+  },
+  "instances.modpack-content-modal.search-placeholder": {
+    "defaultMessage": "Busque {count, number} {count, plural, one {projeto} other {projetos}}"
   },
   "instances.updater-modal.badge.current": {
     "defaultMessage": "Atual"
   },
   "instances.updater-modal.badge.incompatible": {
-    "defaultMessage": "Incompatível"
+    "defaultMessage": "IncompatГ­vel"
   },
   "instances.updater-modal.downgrade-to": {
-    "defaultMessage": "Voltar para a v{version}"
+    "defaultMessage": "Voltar para a {version}"
   },
   "instances.updater-modal.header": {
-    "defaultMessage": "Atualizar versão"
+    "defaultMessage": "Atualizar versГЈo"
+  },
+  "instances.updater-modal.header-modpack": {
+    "defaultMessage": "Alterar a versГЈo do pacote de mods"
+  },
+  "instances.updater-modal.header-switch": {
+    "defaultMessage": "Trocar versГЈo"
   },
   "instances.updater-modal.hide-incompatible": {
-    "defaultMessage": "Ver incompatibilidade"
+    "defaultMessage": "Ocultar incompatГ­veis"
+  },
+  "instances.updater-modal.loading-changelog": {
+    "defaultMessage": "Carregando registro de alteraГ§Гµes..."
+  },
+  "instances.updater-modal.loading-versions": {
+    "defaultMessage": "Carregando versГµes..."
   },
   "instances.updater-modal.no-changelog": {
-    "defaultMessage": "Nenhum registro de alteração disponível para esta versão."
+    "defaultMessage": "Nenhum registro de alteraГ§ГЈo disponГ­vel para esta versГЈo."
   },
   "instances.updater-modal.no-versions": {
-    "defaultMessage": "Nenhuma versão encontrada"
+    "defaultMessage": "Nenhuma versГЈo encontrada"
   },
   "instances.updater-modal.search-placeholder": {
-    "defaultMessage": "Buscando versão..."
+    "defaultMessage": "Buscando versГЈo..."
   },
   "instances.updater-modal.select-version": {
-    "defaultMessage": "Selecione a versão para ver seu registro de alteração"
+    "defaultMessage": "Selecione a versГЈo para ver seu registro de alteraГ§ГЈo"
   },
   "instances.updater-modal.show-incompatible": {
     "defaultMessage": "Ver incompatibilidade"
   },
+  "instances.updater-modal.switch-to": {
+    "defaultMessage": "Trocar para {version}"
+  },
   "instances.updater-modal.update-to": {
-    "defaultMessage": "Atualizar para v{version}"
+    "defaultMessage": "Atualizar para {version}"
   },
-  "instances.updater-modal.warning.app": {
-    "defaultMessage": "Nós não garantimos que essa atualização é segura para a sua instância. Revise o registro de alteração para todas as versões intermediárias e considere um backup."
+  "instances.updater-modal.warning-app": {
+    "defaultMessage": "Atualizar pode quebrar sua instГўncia. Verifique os registros de alteraГ§Гµes da versГЈo e faГ§a uma cГіpia de seguranГ§a primeiro."
   },
-  "instances.updater-modal.warning.web": {
-    "defaultMessage": "Nós não garantimos que essa atualização é segura para seus mundos. Revise o registro de alterações para todas as versões intermediárias e considere um backup."
+  "instances.updater-modal.warning-web": {
+    "defaultMessage": "Atualizar pode quebrar seu mundo. Verifique os registros de alteraГ§Гµes da versГЈo e faГ§a uma cГіpia de seguranГ§a primeiro."
   },
   "label.actions": {
-    "defaultMessage": "Ações"
+    "defaultMessage": "AГ§Гµes"
   },
   "label.available": {
-    "defaultMessage": "{amount} disponível."
+    "defaultMessage": "{amount} disponГ­vel."
   },
   "label.changelog": {
-    "defaultMessage": "Registro de alteração"
+    "defaultMessage": "Registro de alteraГ§ГЈo"
   },
   "label.changes-saved": {
-    "defaultMessage": "Alterações salvas"
+    "defaultMessage": "AlteraГ§Гµes salvas"
+  },
+  "label.client-depends-warning": {
+    "defaultMessage": "Este mod depende de um mod do lado do cliente e pode causar problemas ao iniciar o seu servidor"
+  },
+  "label.client-only-warning": {
+    "defaultMessage": "Este Г© um mod do lado do cliente e pode causar problemas ao iniciar o seu servidor"
+  },
+  "label.client-retained-warning": {
+    "defaultMessage": "Este Г© um mod do lado do cliente instalado como uma dependГЄncia e pode causar problemas ao iniciar o seu servidor"
   },
   "label.collections": {
-    "defaultMessage": "Coleções"
+    "defaultMessage": "ColeГ§Гµes"
   },
   "label.confirm-password": {
     "defaultMessage": "Confirmar senha"
   },
   "label.content": {
-    "defaultMessage": "Conteúdo"
+    "defaultMessage": "ConteГєdo"
+  },
+  "label.copied-filename": {
+    "defaultMessage": "Nome do arquivo copiado"
+  },
+  "label.copied-path": {
+    "defaultMessage": "Caminho copiado"
+  },
+  "label.create-failed": {
+    "defaultMessage": "Falha na criaГ§ГЈo"
   },
   "label.created-ago": {
     "defaultMessage": "Criado em {ago}"
@@ -386,20 +1388,35 @@
   "label.delete": {
     "defaultMessage": "Apagar"
   },
+  "label.delete-failed": {
+    "defaultMessage": "Falha ao excluir"
+  },
+  "label.delete-immediately": {
+    "defaultMessage": "Excluir imediatamente"
+  },
   "label.description": {
-    "defaultMessage": "Descrição"
+    "defaultMessage": "DescriГ§ГЈo"
   },
   "label.details": {
     "defaultMessage": "Detalhes"
   },
+  "label.done": {
+    "defaultMessage": "Feito"
+  },
+  "label.download-failed": {
+    "defaultMessage": "Falha no download"
+  },
   "label.email": {
-    "defaultMessage": "Email"
+    "defaultMessage": "E-mail"
   },
   "label.email-username": {
-    "defaultMessage": "E-mail ou nome de usuário"
+    "defaultMessage": "E-mail ou nome de usuГЎrio"
   },
   "label.error": {
     "defaultMessage": "Erro"
+  },
+  "label.extract-failed": {
+    "defaultMessage": "Falha na extraГ§ГЈo"
   },
   "label.filter-by": {
     "defaultMessage": "Filtrar por"
@@ -407,20 +1424,38 @@
   "label.followed-projects": {
     "defaultMessage": "Projetos seguidos"
   },
+  "label.game-version": {
+    "defaultMessage": "VersГЈo do jogo"
+  },
+  "label.installation-info": {
+    "defaultMessage": "InformaГ§Гµes de instalaГ§ГЈo"
+  },
+  "label.installed-modpack": {
+    "defaultMessage": "Pacote de mods instalado"
+  },
+  "label.installing": {
+    "defaultMessage": "Instalando..."
+  },
   "label.loading": {
     "defaultMessage": "Carregando..."
   },
   "label.moderation": {
-    "defaultMessage": "Moderação"
+    "defaultMessage": "ModeraГ§ГЈo"
+  },
+  "label.modpack": {
+    "defaultMessage": "Pacote de mods"
+  },
+  "label.move-failed": {
+    "defaultMessage": "Falha ao mover"
   },
   "label.no": {
-    "defaultMessage": "Não"
+    "defaultMessage": "NГЈo"
   },
   "label.no-items": {
     "defaultMessage": "Sem itens"
   },
   "label.notifications": {
-    "defaultMessage": "Notificações"
+    "defaultMessage": "NotificaГ§Гµes"
   },
   "label.or": {
     "defaultMessage": "ou"
@@ -428,17 +1463,38 @@
   "label.password": {
     "defaultMessage": "Senha"
   },
+  "label.plan-custom": {
+    "defaultMessage": "Personalizado"
+  },
+  "label.plan-large": {
+    "defaultMessage": "Grande"
+  },
+  "label.plan-medium": {
+    "defaultMessage": "MГ©dio"
+  },
+  "label.plan-small": {
+    "defaultMessage": "Pequeno"
+  },
+  "label.plan-unknown": {
+    "defaultMessage": "Desconhecido"
+  },
+  "label.platform": {
+    "defaultMessage": "Plataforma"
+  },
   "label.played": {
-    "defaultMessage": "Jogado {time}"
+    "defaultMessage": "Jogado {ago}"
   },
   "label.project": {
     "defaultMessage": "Projeto"
   },
   "label.public": {
-    "defaultMessage": "Público"
+    "defaultMessage": "PГєblico"
   },
   "label.rejected": {
     "defaultMessage": "Negado"
+  },
+  "label.rename-failed": {
+    "defaultMessage": "Falha ao renomear"
   },
   "label.rewards-program-terms-agreement": {
     "defaultMessage": "Eu concordo com os <terms-link>Termos do Programa de Recompensas</terms-link>"
@@ -452,6 +1508,12 @@
   "label.search": {
     "defaultMessage": "Buscar"
   },
+  "label.select-all": {
+    "defaultMessage": "Selecionar todos"
+  },
+  "label.selection-actions": {
+    "defaultMessage": "AГ§Гµes de seleГ§ГЈo"
+  },
   "label.server": {
     "defaultMessage": "Servidor"
   },
@@ -459,31 +1521,40 @@
     "defaultMessage": "Servidores"
   },
   "label.settings": {
-    "defaultMessage": "Configurações"
+    "defaultMessage": "ConfiguraГ§Гµes"
   },
   "label.singleplayer": {
     "defaultMessage": "Um jogador"
   },
   "label.sort-by": {
-    "defaultMessage": "Ordenar por"
+    "defaultMessage": "Ordenar por: "
   },
   "label.success": {
     "defaultMessage": "Sucesso"
   },
   "label.title": {
-    "defaultMessage": "Título"
+    "defaultMessage": "TГ­tulo"
+  },
+  "label.unknown": {
+    "defaultMessage": "Desconhecido"
   },
   "label.unlisted": {
-    "defaultMessage": "Não listado"
+    "defaultMessage": "NГЈo listado"
   },
   "label.update-available": {
-    "defaultMessage": "Atualização disponível"
+    "defaultMessage": "AtualizaГ§ГЈo disponГ­vel"
+  },
+  "label.updating": {
+    "defaultMessage": "Atualizando..."
+  },
+  "label.upload-failed": {
+    "defaultMessage": "Falha ao enviar"
   },
   "label.username": {
-    "defaultMessage": "Nome de usuário"
+    "defaultMessage": "Nome de usuГЎrio"
   },
   "label.version": {
-    "defaultMessage": "Versão"
+    "defaultMessage": "VersГЈo"
   },
   "label.visibility": {
     "defaultMessage": "Visibilidade"
@@ -494,11 +1565,128 @@
   "label.yes": {
     "defaultMessage": "Sim"
   },
+  "locale.cs-CZ": {
+    "defaultMessage": "Tcheco"
+  },
+  "locale.da-DK": {
+    "defaultMessage": "DinamarquГЄs"
+  },
+  "locale.de-CH": {
+    "defaultMessage": "AlemГЈo (SuГ­Г§a)"
+  },
+  "locale.de-DE": {
+    "defaultMessage": "AlemГЈo (Alemanha)"
+  },
+  "locale.en-US": {
+    "defaultMessage": "InglГЄs (Estados Unidos)"
+  },
+  "locale.es-419": {
+    "defaultMessage": "Espanhol (AmГ©rica Latina)"
+  },
+  "locale.es-ES": {
+    "defaultMessage": "Espanhol (Espanha)"
+  },
+  "locale.fi-FI": {
+    "defaultMessage": "FinlandГЄs"
+  },
+  "locale.fil-PH": {
+    "defaultMessage": "Filipino"
+  },
+  "locale.fr-FR": {
+    "defaultMessage": "FrancГЄs"
+  },
+  "locale.he-IL": {
+    "defaultMessage": "Hebraico"
+  },
+  "locale.hu-HU": {
+    "defaultMessage": "HГєngaro"
+  },
+  "locale.id-ID": {
+    "defaultMessage": "IndonГ©sio"
+  },
+  "locale.it-IT": {
+    "defaultMessage": "Italiano (ItГЎlia)"
+  },
+  "locale.ja-JP": {
+    "defaultMessage": "JaponГЄs"
+  },
+  "locale.ko-KR": {
+    "defaultMessage": "Coreano"
+  },
+  "locale.ms-MY": {
+    "defaultMessage": "Malaio"
+  },
+  "locale.nl-NL": {
+    "defaultMessage": "HolandГЄs"
+  },
+  "locale.no-NO": {
+    "defaultMessage": "NorueguГЄs BokmГҐl"
+  },
+  "locale.pl-PL": {
+    "defaultMessage": "PolonГЄs"
+  },
+  "locale.pt-BR": {
+    "defaultMessage": "PortuguГЄs (Brasil)"
+  },
+  "locale.pt-PT": {
+    "defaultMessage": "Portuguese (Portugal)"
+  },
+  "locale.ro-RO": {
+    "defaultMessage": "Romeno"
+  },
+  "locale.ru-RU": {
+    "defaultMessage": "Russo"
+  },
+  "locale.sr-CS": {
+    "defaultMessage": "SГ©rvio (latino)"
+  },
+  "locale.sv-SE": {
+    "defaultMessage": "Sueco"
+  },
+  "locale.th-TH": {
+    "defaultMessage": "TailandГЄs"
+  },
+  "locale.tr-TR": {
+    "defaultMessage": "Turco"
+  },
+  "locale.uk-UA": {
+    "defaultMessage": "Ucraniano"
+  },
+  "locale.vi-VN": {
+    "defaultMessage": "Vietnamita"
+  },
+  "locale.zh-CN": {
+    "defaultMessage": "ChinГЄs (Simplificado)"
+  },
+  "locale.zh-TW": {
+    "defaultMessage": "ChinГЄs (Tradicional)"
+  },
   "modal.add-payment-method.action": {
-    "defaultMessage": "Adicionar método de pagamento"
+    "defaultMessage": "Adicionar mГ©todo de pagamento"
   },
   "modal.add-payment-method.title": {
-    "defaultMessage": "Adicionando método de pagamento"
+    "defaultMessage": "Adicionando mГ©todo de pagamento"
+  },
+  "modal.open-in-app.benefit.install": {
+    "defaultMessage": "Instalar automaticamente o conteГєdo necessГЎrio"
+  },
+  "modal.open-in-app.benefit.launch": {
+    "defaultMessage": "Iniciar o jogo diretamente no servidor"
+  },
+  "modal.open-in-app.benefit.update": {
+    "defaultMessage": "Mantenha os arquivos atualizados quando o servidor mudar"
+  },
+  "modal.open-in-app.get-app": {
+    "defaultMessage": "Baixe o Mist Launcher"
+  },
+  "modal.open-in-app.opening-automatically": {
+    "defaultMessage": "O Mist Launcher vai abrir automaticamente..."
+  },
+  "modal.open-in-app.title": {
+    "defaultMessage": "Abrindo o Mist Launcher"
+  },
+  "modal.open-in-app.why-use": {
+    "defaultMessage": "Por que usar o Mist Launcher"
   },
   "notification.error.title": {
     "defaultMessage": "Ocorreu um erro"
@@ -555,10 +1743,10 @@
     "defaultMessage": "Agendado"
   },
   "omorphia.component.badge.label.under-review": {
-    "defaultMessage": "Em análise"
+    "defaultMessage": "Em anГЎlise"
   },
   "omorphia.component.badge.label.unlisted": {
-    "defaultMessage": "Não listado"
+    "defaultMessage": "NГЈo listado"
   },
   "omorphia.component.badge.label.unsafe": {
     "defaultMessage": "Falhou"
@@ -567,7 +1755,7 @@
     "defaultMessage": "Retido"
   },
   "omorphia.component.copy.action.copy": {
-    "defaultMessage": "Copiar código para área de transferência"
+    "defaultMessage": "Copiar cГіdigo para ГЎrea de transferГЄncia"
   },
   "omorphia.component.environment-indicator.label.client": {
     "defaultMessage": "Cliente"
@@ -636,7 +1824,7 @@
     "defaultMessage": "UnionPay"
   },
   "payment-method.unknown": {
-    "defaultMessage": "Método de pagamento desconhecido"
+    "defaultMessage": "MГ©todo de pagamento desconhecido"
   },
   "payment-method.venmo": {
     "defaultMessage": "Venmo"
@@ -649,6 +1837,12 @@
   },
   "payment-method.visa": {
     "defaultMessage": "Visa"
+  },
+  "project-card.date.published.tooltip": {
+    "defaultMessage": "Publicado {date}"
+  },
+  "project-card.date.updated.tooltip": {
+    "defaultMessage": "Atualizado {date}"
   },
   "project-card.environment.client": {
     "defaultMessage": "Cliente"
@@ -767,6 +1961,9 @@
   "project.about.compatibility.title": {
     "defaultMessage": "Compatibilidade"
   },
+  "project.about.creators.organization": {
+    "defaultMessage": "OrganizaГ§ГЈo"
+  },
   "project.about.creators.owner": {
     "defaultMessage": "Dono do projeto"
   },
@@ -812,8 +2009,14 @@
   "project.about.links.issues": {
     "defaultMessage": "Relatar problemas"
   },
+  "project.about.links.site": {
+    "defaultMessage": "Visitar site"
+  },
   "project.about.links.source": {
-    "defaultMessage": "Ver código-fonte"
+    "defaultMessage": "Ver cГіdigo-fonte"
+  },
+  "project.about.links.store": {
+    "defaultMessage": "Visitar pГЎgina da loja"
   },
   "project.about.links.title": {
     "defaultMessage": "Links"
@@ -821,29 +2024,59 @@
   "project.about.links.wiki": {
     "defaultMessage": "Visitar wiki"
   },
+  "project.about.server.address.tooltip": {
+    "defaultMessage": "Copiar endereГ§o do servidor Java"
+  },
+  "project.about.server.copied": {
+    "defaultMessage": "Copiado!"
+  },
+  "project.about.server.copiedText": {
+    "defaultMessage": "EndereГ§o do servidor copiado para a ГЎrea de transferГЄncia"
+  },
+  "project.about.server.downloadModpack": {
+    "defaultMessage": "Baixar pacote de mods"
+  },
+  "project.about.server.languages": {
+    "defaultMessage": "Idiomas"
+  },
+  "project.about.server.recommendedVersion": {
+    "defaultMessage": "(Recomendado)"
+  },
+  "project.about.server.region": {
+    "defaultMessage": "RegiГЈo"
+  },
+  "project.about.server.requiredContent": {
+    "defaultMessage": "ConteГєdo necessГЎrio"
+  },
+  "project.about.server.title": {
+    "defaultMessage": "Detalhes do servidor"
+  },
+  "project.about.tags.title": {
+    "defaultMessage": "Etiquetas"
+  },
   "project.download-count-tooltip": {
-    "defaultMessage": "{count, plural, =0 {Nenhum download} one {# download} other {# downloads}}"
+    "defaultMessage": "{count, plural, =0 {Nenhum download} one {{count} download} other {{count} downloads}}"
   },
   "project.environment.client-and-server.description": {
-    "defaultMessage": "Tem algumas funcionalidades, tanto no cliente quanto no servidor, mesmo que de forma parcial."
+    "defaultMessage": "NecessГЎrio tanto no cliente quanto no servidor."
   },
   "project.environment.client-and-server.title": {
-    "defaultMessage": "Cliente e servidor, necessários em ambos"
+    "defaultMessage": "Cliente e servidor, necessГЎrios em ambos"
   },
   "project.environment.client-only-server-optional.description": {
-    "defaultMessage": "Tem algumas funcionalidades, tanto no cliente quanto no servidor, mesmo que de forma parcial."
+    "defaultMessage": "A maior parte da funcionalidade Г© do lado do cliente, mas instalГЎ-lo no servidor habilita funcionalidades aprimoradas."
   },
   "project.environment.client-only-server-optional.title": {
     "defaultMessage": "Cliente e servidor, opcional no servidor"
   },
   "project.environment.client-only.description": {
-    "defaultMessage": "Toda a funcionalidade é feita no cliente e é compatível com servidores padrão."
+    "defaultMessage": "Toda a funcionalidade Г© feita no cliente e Г© compatГ­vel com servidores padrГЈo."
   },
   "project.environment.client-only.title": {
     "defaultMessage": "Apenas cliente"
   },
   "project.environment.client-or-server-prefers-both.description": {
-    "defaultMessage": "Tem alguma funcionalidade tanto no cliente quanto no servidor, mesmo que apenas de forma parcial."
+    "defaultMessage": "Possui algumas funcionalidades tanto no cliente quanto no servidor, mesmo que parcialmente. InstalГЎ-lo em ambos proporciona a melhor experiГЄncia."
   },
   "project.environment.client-or-server-prefers-both.title": {
     "defaultMessage": "Cliente e servidor, melhor quando instalados em ambos"
@@ -855,25 +2088,25 @@
     "defaultMessage": "Cliente e servidor, opcional em ambos"
   },
   "project.environment.dedicated-server-only.description": {
-    "defaultMessage": "Toda a funcionalidade é feita no servidor e é compatível com clientes padrão."
+    "defaultMessage": "Toda a funcionalidade Г© feita no lado do servidor e Г© compatГ­vel com clientes padrГЈo. Funciona apenas em servidores dedicados."
   },
   "project.environment.dedicated-server-only.title": {
     "defaultMessage": "Apenas servidor"
   },
   "project.environment.server-only-client-optional.description": {
-    "defaultMessage": "Tem alguma funcionalidade tanto no cliente quanto no servidor, mesmo que apenas de forma parcial."
+    "defaultMessage": "A maior parte da funcionalidade Г© do lado do servidor, mas instalГЎ-lo no cliente habilita funcionalidades aprimoradas."
   },
   "project.environment.server-only-client-optional.title": {
     "defaultMessage": "Cliente e servidor, opcional no cliente"
   },
   "project.environment.server-only.description": {
-    "defaultMessage": "Toda a funcionalidade é feita no servidor e é compatível com clientes padrão."
+    "defaultMessage": "Toda a funcionalidade Г© feita no lado do servidor e Г© compatГ­vel com clientes padrГЈo. TambГ©m funciona no servidor interno do modo um jogador."
   },
   "project.environment.server-only.title": {
-    "defaultMessage": "Apenas no lado do servidor, também funciona no modo para um jogador"
+    "defaultMessage": "Apenas no lado do servidor, tambГ©m funciona no modo para um jogador"
   },
   "project.environment.singleplayer-only.description": {
-    "defaultMessage": "Funciona somente em mundos de um jogador ou quando não estiver conectado a um servidor multijogador."
+    "defaultMessage": "Funciona somente em mundos de um jogador ou quando nГЈo estiver conectado a um servidor multijogador."
   },
   "project.environment.singleplayer-only.title": {
     "defaultMessage": "Apenas um jogador"
@@ -885,7 +2118,7 @@
     "defaultMessage": "Desconhecido"
   },
   "project.environment.unknown.description": {
-    "defaultMessage": "Não foi possível determinar o ambiente desta versão."
+    "defaultMessage": "NГЈo foi possГ­vel determinar o ambiente desta versГЈo."
   },
   "project.environment.unknown.title": {
     "defaultMessage": "Ambiente desconhecido"
@@ -893,11 +2126,287 @@
   "project.follower-count-tooltip": {
     "defaultMessage": "{count, plural, =0 {Nenhum seguidor} one {{count} seguidor} other {{count} seguidores}}"
   },
+  "project.online-player-count": {
+    "defaultMessage": "{count, plural, =0 {NinguГ©m online} other {{count} online}}"
+  },
+  "project.online-player-count.tooltip": {
+    "defaultMessage": "{count, plural, =0 {Nenhum jogador} one {{count} jogador} other {{count} jogadores}} online"
+  },
+  "project.recent-plays": {
+    "defaultMessage": "{countPlural, plural, =0 {Nenhuma entrada recente} one {{count} entrada recente} other {{count} entradas recentes}}"
+  },
+  "project.recent-plays.tooltip": {
+    "defaultMessage": "{countPlural, plural, =0 {Nenhuma entrada recente} one {{count} entrada recente} other {{count} entradas recentes}} do Modrinth nas Гєltimas 2 semanas"
+  },
+  "project.server.customModpackTooltip": {
+    "defaultMessage": "Este projeto utiliza um pacote de mods personalizado"
+  },
+  "project.server.language.af": {
+    "defaultMessage": "AfricГўner"
+  },
+  "project.server.language.am": {
+    "defaultMessage": "AmГЎrico"
+  },
+  "project.server.language.ar": {
+    "defaultMessage": "ГЃrabe"
+  },
+  "project.server.language.az": {
+    "defaultMessage": "Azerbaijano"
+  },
+  "project.server.language.be": {
+    "defaultMessage": "Bielorrusso"
+  },
+  "project.server.language.bg": {
+    "defaultMessage": "BГєlgaro"
+  },
+  "project.server.language.bn": {
+    "defaultMessage": "Bengali"
+  },
+  "project.server.language.bs": {
+    "defaultMessage": "BГіsnio"
+  },
+  "project.server.language.ca": {
+    "defaultMessage": "CatalГЈo"
+  },
+  "project.server.language.cs": {
+    "defaultMessage": "Tcheco"
+  },
+  "project.server.language.da": {
+    "defaultMessage": "DinamarquГЄs"
+  },
+  "project.server.language.de": {
+    "defaultMessage": "AlemГЈo"
+  },
+  "project.server.language.el": {
+    "defaultMessage": "Grego"
+  },
+  "project.server.language.en": {
+    "defaultMessage": "InglГЄs"
+  },
+  "project.server.language.eo": {
+    "defaultMessage": "Esperanto"
+  },
+  "project.server.language.es": {
+    "defaultMessage": "Espanhol"
+  },
+  "project.server.language.et": {
+    "defaultMessage": "Estoniano"
+  },
+  "project.server.language.eu": {
+    "defaultMessage": "Basco"
+  },
+  "project.server.language.fa": {
+    "defaultMessage": "Persa"
+  },
+  "project.server.language.fi": {
+    "defaultMessage": "FinlandГЄs"
+  },
+  "project.server.language.fr": {
+    "defaultMessage": "FrancГЄs"
+  },
+  "project.server.language.ga": {
+    "defaultMessage": "IrlandГЄs"
+  },
+  "project.server.language.gl": {
+    "defaultMessage": "Galego"
+  },
+  "project.server.language.he": {
+    "defaultMessage": "Hebraico"
+  },
+  "project.server.language.hi": {
+    "defaultMessage": "Indiano"
+  },
+  "project.server.language.hr": {
+    "defaultMessage": "Croata"
+  },
+  "project.server.language.hu": {
+    "defaultMessage": "HГєngaro"
+  },
+  "project.server.language.hy": {
+    "defaultMessage": "ArmГЄnio"
+  },
+  "project.server.language.id": {
+    "defaultMessage": "IndonГ©sio"
+  },
+  "project.server.language.is": {
+    "defaultMessage": "IslandГЄs"
+  },
+  "project.server.language.it": {
+    "defaultMessage": "Italiano"
+  },
+  "project.server.language.ja": {
+    "defaultMessage": "JaponГЄs"
+  },
+  "project.server.language.ka": {
+    "defaultMessage": "Georgiano"
+  },
+  "project.server.language.kk": {
+    "defaultMessage": "Cazaque"
+  },
+  "project.server.language.km": {
+    "defaultMessage": "Khmer"
+  },
+  "project.server.language.kn": {
+    "defaultMessage": "Kannada"
+  },
+  "project.server.language.ko": {
+    "defaultMessage": "Coreano"
+  },
+  "project.server.language.lo": {
+    "defaultMessage": "Laosiano"
+  },
+  "project.server.language.lt": {
+    "defaultMessage": "Lituano"
+  },
+  "project.server.language.lv": {
+    "defaultMessage": "LetГЈo"
+  },
+  "project.server.language.mk": {
+    "defaultMessage": "MacedГґnio"
+  },
+  "project.server.language.ml": {
+    "defaultMessage": "Malaiala"
+  },
+  "project.server.language.mn": {
+    "defaultMessage": "Mongol"
+  },
+  "project.server.language.mr": {
+    "defaultMessage": "Marata"
+  },
+  "project.server.language.ms": {
+    "defaultMessage": "Malaio"
+  },
+  "project.server.language.my": {
+    "defaultMessage": "BirmanГЄs"
+  },
+  "project.server.language.ne": {
+    "defaultMessage": "NepalГЄs"
+  },
+  "project.server.language.nl": {
+    "defaultMessage": "HolandГЄs"
+  },
+  "project.server.language.no": {
+    "defaultMessage": "NorueguГЄs"
+  },
+  "project.server.language.pa": {
+    "defaultMessage": "Panjabi"
+  },
+  "project.server.language.pl": {
+    "defaultMessage": "PolonГЄs"
+  },
+  "project.server.language.pt": {
+    "defaultMessage": "PortuguГЄs"
+  },
+  "project.server.language.ro": {
+    "defaultMessage": "Romeno"
+  },
+  "project.server.language.ru": {
+    "defaultMessage": "Russo"
+  },
+  "project.server.language.si": {
+    "defaultMessage": "Cingalesa"
+  },
+  "project.server.language.sk": {
+    "defaultMessage": "Eslovaco"
+  },
+  "project.server.language.sl": {
+    "defaultMessage": "Eslovena"
+  },
+  "project.server.language.sq": {
+    "defaultMessage": "AlbanГЄs"
+  },
+  "project.server.language.sr": {
+    "defaultMessage": "SГ©rvio"
+  },
+  "project.server.language.sv": {
+    "defaultMessage": "Sueco"
+  },
+  "project.server.language.sw": {
+    "defaultMessage": "SuaГ­li"
+  },
+  "project.server.language.ta": {
+    "defaultMessage": "TГўmil"
+  },
+  "project.server.language.te": {
+    "defaultMessage": "Telugo"
+  },
+  "project.server.language.th": {
+    "defaultMessage": "TailandГЄs"
+  },
+  "project.server.language.tl": {
+    "defaultMessage": "Filipino"
+  },
+  "project.server.language.tr": {
+    "defaultMessage": "Turco"
+  },
+  "project.server.language.uk": {
+    "defaultMessage": "Ucraniano"
+  },
+  "project.server.language.ur": {
+    "defaultMessage": "Urdu"
+  },
+  "project.server.language.uz": {
+    "defaultMessage": "Usbeque"
+  },
+  "project.server.language.vi": {
+    "defaultMessage": "Vietnamita"
+  },
+  "project.server.language.yo": {
+    "defaultMessage": "IorubГЎ"
+  },
+  "project.server.language.zh": {
+    "defaultMessage": "ChinГЄs"
+  },
+  "project.server.language.zu": {
+    "defaultMessage": "Zulu"
+  },
+  "project.server.ping.ms": {
+    "defaultMessage": "{ping, number} ms"
+  },
+  "project.server.region.asia": {
+    "defaultMessage": "ГЃsia"
+  },
+  "project.server.region.australia": {
+    "defaultMessage": "AustrГЎlia"
+  },
+  "project.server.region.europe": {
+    "defaultMessage": "Europa"
+  },
+  "project.server.region.middle_east": {
+    "defaultMessage": "Oriente MГ©dio"
+  },
+  "project.server.region.russia": {
+    "defaultMessage": "Russia"
+  },
+  "project.server.region.south_america": {
+    "defaultMessage": "AmГ©rica do Sul"
+  },
+  "project.server.region.tooltip": {
+    "defaultMessage": "Servidor hospedado em {regionName}"
+  },
+  "project.server.region.us_east": {
+    "defaultMessage": "Leste dos EUA"
+  },
+  "project.server.region.us_west": {
+    "defaultMessage": "Oeste dos EUA"
+  },
+  "project.server.status.offline": {
+    "defaultMessage": "Offline"
+  },
+  "project.server.status.offline.tooltip": {
+    "defaultMessage": "O servidor estГЎ offline"
+  },
+  "project.server.status.online": {
+    "defaultMessage": "Online"
+  },
   "project.settings.analytics.title": {
-    "defaultMessage": "Estatísticas"
+    "defaultMessage": "EstatГ­sticas"
+  },
+  "project.settings.content.title": {
+    "defaultMessage": "ConteГєdo"
   },
   "project.settings.description.title": {
-    "defaultMessage": "Descrição"
+    "defaultMessage": "DescriГ§ГЈo"
   },
   "project.settings.environment.client_and_server.description": {
     "defaultMessage": "Tem alguma funcionalidade tanto no cliente quanto no servidor, mesmo que apenas de forma parcial."
@@ -921,49 +2430,49 @@
     "defaultMessage": "Cliente e servidor"
   },
   "project.settings.environment.client_only.description": {
-    "defaultMessage": "Toda a funcionalidade é feita no cliente e é compatível com servidores padrão."
+    "defaultMessage": "Toda a funcionalidade Г© feita no cliente e Г© compatГ­vel com servidores padrГЈo."
   },
   "project.settings.environment.client_only.title": {
     "defaultMessage": "Apenas cliente"
   },
   "project.settings.environment.notice.missing-env.description": {
-    "defaultMessage": "Seu projeto não possui metadados de ambiente. Selecione a opção apropriada abaixo."
+    "defaultMessage": "Seu projeto nГЈo possui metadados de ambiente. Selecione a opГ§ГЈo apropriada abaixo."
   },
   "project.settings.environment.notice.missing-env.title": {
     "defaultMessage": "Por favor, selecione um ambiente para o seu projeto"
   },
   "project.settings.environment.notice.multiple-environments.description": {
-    "defaultMessage": "Versões diferentes do seu projeto têm ambientes diferentes selecionados, então você não pode editá-los globalmente agora."
+    "defaultMessage": "VersГµes diferentes do seu projeto tГЄm ambientes diferentes selecionados, entГЈo vocГЄ nГЈo pode editГЎ-los globalmente agora."
   },
   "project.settings.environment.notice.multiple-environments.title": {
-    "defaultMessage": "Seu projeto tem vários ambientes"
+    "defaultMessage": "Seu projeto tem vГЎrios ambientes"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Nós reformulamos o sistema de ambientes do Modrinth e novas opções estão disponíveis. Certifique-se de que a opção correta esteja selecionada abaixo e clique em \"Verificar\" quando terminar!"
+    "defaultMessage": "NГіs reformulamos o sistema de ambientes do Modrinth e novas opГ§Гµes estГЈo disponГ­veis. Certifique-se de que a opГ§ГЈo correta esteja selecionada abaixo e clique em \"Verificar\" quando terminar!"
   },
   "project.settings.environment.notice.review-options.title": {
-    "defaultMessage": "Por favor, revise as opções abaixo"
+    "defaultMessage": "Por favor, revise as opГ§Гµes abaixo"
   },
   "project.settings.environment.notice.wrong-project-type.description": {
     "defaultMessage": "Apenas mods ou pacotes de mods podem ter metadados de ambiente."
   },
   "project.settings.environment.notice.wrong-project-type.title": {
-    "defaultMessage": "Este tipo de projeto não suporta metadados de ambiente"
+    "defaultMessage": "Este tipo de projeto nГЈo suporta metadados de ambiente"
   },
   "project.settings.environment.server_only.dedicated_only.title": {
     "defaultMessage": "Apenas servidores dedicados"
   },
   "project.settings.environment.server_only.description": {
-    "defaultMessage": "Toda a funcionalidade é feita no servidor e é compatível com clientes padrão."
+    "defaultMessage": "Toda a funcionalidade Г© feita no servidor e Г© compatГ­vel com clientes padrГЈo."
   },
   "project.settings.environment.server_only.supports_singleplayer.title": {
-    "defaultMessage": "Também funciona em mundos de um jogador"
+    "defaultMessage": "TambГ©m funciona em mundos de um jogador"
   },
   "project.settings.environment.server_only.title": {
     "defaultMessage": "Apenas servidores"
   },
   "project.settings.environment.singleplayer.description": {
-    "defaultMessage": "Funciona somente em mundos de um jogador ou quando não estiver conectado a um servidor multijogador."
+    "defaultMessage": "Funciona somente em mundos de um jogador ou quando nГЈo estiver conectado a um servidor multijogador."
   },
   "project.settings.environment.singleplayer.title": {
     "defaultMessage": "Apenas um jogador"
@@ -972,7 +2481,7 @@
     "defaultMessage": "{title}: {description}"
   },
   "project.settings.environment.suboption.accessibility-suboption-group-label": {
-    "defaultMessage": "Mais opções de {option}"
+    "defaultMessage": "Mais opГ§Гµes de {option}"
   },
   "project.settings.environment.title": {
     "defaultMessage": "Ambiente"
@@ -981,7 +2490,7 @@
     "defaultMessage": "Verificar"
   },
   "project.settings.environment.verification.verify-text": {
-    "defaultMessage": "Verifique se o ambiente deste projeto está configurado corretamente."
+    "defaultMessage": "Verifique se o ambiente deste projeto estГЎ configurado corretamente."
   },
   "project.settings.gallery.title": {
     "defaultMessage": "Galeria"
@@ -990,7 +2499,7 @@
     "defaultMessage": "Geral"
   },
   "project.settings.license.title": {
-    "defaultMessage": "Licença"
+    "defaultMessage": "LicenГ§a"
   },
   "project.settings.links.title": {
     "defaultMessage": "Links"
@@ -999,10 +2508,13 @@
     "defaultMessage": "Membros"
   },
   "project.settings.notice.no-permission.description": {
-    "defaultMessage": "Você não tem permissão para editar isto."
+    "defaultMessage": "VocГЄ nГЈo tem permissГЈo para editar isto."
   },
   "project.settings.notice.no-permission.title": {
-    "defaultMessage": "Sem permissão"
+    "defaultMessage": "Sem permissГЈo"
+  },
+  "project.settings.server.title": {
+    "defaultMessage": "Servidor"
   },
   "project.settings.tags.title": {
     "defaultMessage": "Etiquetas"
@@ -1011,7 +2523,7 @@
     "defaultMessage": "Enviar"
   },
   "project.settings.versions.title": {
-    "defaultMessage": "Versões"
+    "defaultMessage": "VersГµes"
   },
   "project.settings.view.title": {
     "defaultMessage": "Ver"
@@ -1035,7 +2547,7 @@
     "defaultMessage": "Privado"
   },
   "project.visibility.public": {
-    "defaultMessage": "Público"
+    "defaultMessage": "PГєblico"
   },
   "project.visibility.rejected": {
     "defaultMessage": "Rejeitado"
@@ -1044,28 +2556,28 @@
     "defaultMessage": "Agendado"
   },
   "project.visibility.under-review": {
-    "defaultMessage": "Em análise"
+    "defaultMessage": "Em anГЎlise"
   },
   "project.visibility.unknown": {
     "defaultMessage": "Desconhecido"
   },
   "project.visibility.unlisted": {
-    "defaultMessage": "Não listado"
+    "defaultMessage": "NГЈo listado"
   },
   "project.visibility.unlisted-by-staff": {
-    "defaultMessage": "Não listado pela equipe"
+    "defaultMessage": "NГЈo listado pela equipe"
   },
   "search.filter.locked.default": {
     "defaultMessage": "Filtro bloqueado"
   },
   "search.filter.locked.default.description": {
-    "defaultMessage": "Desbloqueando este filtro você talvez baixe mods incompatíveis."
+    "defaultMessage": "Desbloqueando este filtro vocГЄ talvez baixe mods incompatГ­veis."
   },
   "search.filter.locked.default.sync": {
     "defaultMessage": "Sincronizar filtro"
   },
   "search.filter.locked.default.title": {
-    "defaultMessage": "{type} está bloqueado"
+    "defaultMessage": "{type} estГЎ bloqueado"
   },
   "search.filter.locked.default.unlock": {
     "defaultMessage": "Desbloquear filtro"
@@ -1095,16 +2607,16 @@
     "defaultMessage": "Servidor"
   },
   "search.filter_type.game_version": {
-    "defaultMessage": "Versão do jogo"
+    "defaultMessage": "VersГЈo do jogo"
   },
   "search.filter_type.game_version.all_versions": {
-    "defaultMessage": "Exibir todas as versões"
+    "defaultMessage": "Exibir todas as versГµes"
   },
   "search.filter_type.license": {
-    "defaultMessage": "Licença"
+    "defaultMessage": "LicenГ§a"
   },
   "search.filter_type.license.open_source": {
-    "defaultMessage": "Código aberto"
+    "defaultMessage": "CГіdigo aberto"
   },
   "search.filter_type.mod_loader": {
     "defaultMessage": "Carregador"
@@ -1121,32 +2633,86 @@
   "search.filter_type.project_id": {
     "defaultMessage": "ID do projeto"
   },
+  "search.filter_type.server_content_type": {
+    "defaultMessage": "Tipo"
+  },
+  "search.filter_type.server_language": {
+    "defaultMessage": "Idioma"
+  },
+  "search.filter_type.server_region": {
+    "defaultMessage": "RegiГЈo"
+  },
+  "search.filter_type.server_status": {
+    "defaultMessage": "Status"
+  },
   "search.filter_type.shader_loader": {
     "defaultMessage": "Carregador"
   },
+  "search.server_content_type.modpack": {
+    "defaultMessage": "Modificado"
+  },
+  "search.server_content_type.vanilla": {
+    "defaultMessage": "Jogo padrГЈo"
+  },
+  "servers.backups.admonition.backup-failed.description": {
+    "defaultMessage": "Algo deu errado ao criar {backupName}. Tente novamente ou entre em contato com o suporte se o problema continuar."
+  },
+  "servers.backups.admonition.backup-failed.title": {
+    "defaultMessage": "Falha na cГіpia de seguranГ§a"
+  },
+  "servers.backups.admonition.backup-queued.description": {
+    "defaultMessage": "{backupName} estГЎ na fila e serГЎ iniciado em breve."
+  },
+  "servers.backups.admonition.backup-queued.title": {
+    "defaultMessage": "CГіpia de seguranГ§a adicionada Г  fila"
+  },
+  "servers.backups.admonition.creating-backup.description": {
+    "defaultMessage": "Salvando os dados do mundo e a configuraГ§ГЈo do servidor para {backupName}. Isso pode levar alguns minutos."
+  },
+  "servers.backups.admonition.creating-backup.title": {
+    "defaultMessage": "Criando cГіpia de seguranГ§a"
+  },
+  "servers.backups.admonition.fallback-name": {
+    "defaultMessage": "Sua cГіpia de seguranГ§a"
+  },
+  "servers.backups.admonition.restore-failed.description": {
+    "defaultMessage": "Algo deu errado ao restaurar a partir de {backupName}. Tente novamente ou entre em contato com o suporte se o problema continuar."
+  },
+  "servers.backups.admonition.restore-failed.title": {
+    "defaultMessage": "Falha ao restaurar a cГіpia de seguranГ§a"
+  },
+  "servers.backups.admonition.restore-queued.description": {
+    "defaultMessage": "A restauraГ§ГЈo de {backupName} estГЎ na fila e serГЎ iniciada em breve."
+  },
+  "servers.backups.admonition.restore-queued.title": {
+    "defaultMessage": "RestauraГ§ГЈo da cГіpia de seguranГ§a na fila"
+  },
+  "servers.backups.admonition.restore-successful.description": {
+    "defaultMessage": "Seu servidor foi restaurado para {backupName} e estГЎ pronto para iniciar."
+  },
+  "servers.backups.admonition.restore-successful.title": {
+    "defaultMessage": "RestauraГ§ГЈo da cГіpia de seguranГ§a concluГ­da com sucesso"
+  },
+  "servers.backups.admonition.restoring-backup.description": {
+    "defaultMessage": "Restaurando seu servidor a partir de {backupName}. Isso pode levar alguns minutos."
+  },
+  "servers.backups.admonition.restoring-backup.title": {
+    "defaultMessage": "Restaurando da cГіpia de seguranГ§a"
+  },
   "servers.backups.item.auto": {
-    "defaultMessage": "Automático"
+    "defaultMessage": "AutomГЎtico"
   },
   "servers.backups.item.backup-schedule": {
-    "defaultMessage": "Agenda de backup"
-  },
-  "servers.backups.item.creating-backup": {
-    "defaultMessage": "Criando backup..."
+    "defaultMessage": "Agendamento de cГіpia de seguranГ§a"
   },
   "servers.backups.item.failed-to-create-backup": {
-    "defaultMessage": "Falha ao criar backup"
+    "defaultMessage": "Falha ao criar a cГіpia de seguranГ§a"
   },
   "servers.backups.item.failed-to-restore-backup": {
-    "defaultMessage": "Falha ao restaurar do backup"
+    "defaultMessage": "Falha ao restaurar a cГіpia de seguranГ§a"
   },
   "servers.backups.item.manual-backup": {
-    "defaultMessage": "Backup manual"
-  },
-  "servers.backups.item.queued-for-backup": {
-    "defaultMessage": "Backup adicionado à fila"
-  },
-  "servers.backups.item.queued-for-restore": {
-    "defaultMessage": "Restauração adicionada à fila"
+    "defaultMessage": "CГіpia de seguranГ§a manual"
   },
   "servers.backups.item.rename": {
     "defaultMessage": "Renomear"
@@ -1154,26 +2720,251 @@
   "servers.backups.item.restore": {
     "defaultMessage": "Restaurar"
   },
-  "servers.backups.item.restoring-backup": {
-    "defaultMessage": "Restaurando do backup..."
+  "servers.busy.backup-creating": {
+    "defaultMessage": "CriaГ§ГЈo de cГіpia de seguranГ§a em andamento"
+  },
+  "servers.busy.backup-restoring": {
+    "defaultMessage": "RestauraГ§ГЈo da cГіpia de seguranГ§a em andamento"
+  },
+  "servers.busy.installing": {
+    "defaultMessage": "O servidor estГЎ sendo instalado"
+  },
+  "servers.busy.syncing-content": {
+    "defaultMessage": "SincronizaГ§ГЈo de conteГєdo em andamento"
+  },
+  "servers.list-empty.already-have-server-label": {
+    "defaultMessage": "JГЎ possui um servidor?"
+  },
+  "servers.list-empty.learn-more-link": {
+    "defaultMessage": "Saiba mais sobre a Modrinth Hosting"
+  },
+  "servers.list-empty.modrinth-hosting-label": {
+    "defaultMessage": "Modrinth Hosting"
+  },
+  "servers.list-empty.new-server-button": {
+    "defaultMessage": "Novo servidor"
+  },
+  "servers.list-empty.no-servers-description": {
+    "defaultMessage": "Instale mods, convide amigos e joguem juntos, tudo pelo Mist Launcher."
+  },
+  "servers.list-empty.no-servers-title": {
+    "defaultMessage": "Ainda nГЈo hГЎ servidores"
+  },
+  "servers.list-empty.one-click-mod-installs-description": {
+    "defaultMessage": "Escolha seus mods favoritos e nГіs cuidamos do resto."
+  },
+  "servers.list-empty.one-click-mod-installs-title": {
+    "defaultMessage": "InstalaГ§ГЈo de mods com um clique"
+  },
+  "servers.list-empty.play-with-friends-description": {
+    "defaultMessage": "Convide seus amigos e ajude-os a configurar tudo diretamente no Mist Launcher."
+  },
+  "servers.list-empty.play-with-friends-title": {
+    "defaultMessage": "Jogue com amigos"
+  },
+  "servers.list-empty.sign-in-button": {
+    "defaultMessage": "Iniciar sessГЈo"
+  },
+  "servers.list-empty.simple-setup-description": {
+    "defaultMessage": "Configure seu servidor exatamente como um mundo de um jogador."
+  },
+  "servers.list-empty.simple-setup-title": {
+    "defaultMessage": "ConfiguraГ§ГЈo simples"
+  },
+  "servers.listing.copied-label": {
+    "defaultMessage": "Copiado"
+  },
+  "servers.listing.copy-code-tooltip": {
+    "defaultMessage": "Copiar cГіdigo para ГЎrea de transferГЄncia"
+  },
+  "servers.listing.copy-id-label": {
+    "defaultMessage": "Copiar ID"
+  },
+  "servers.listing.download-latest-backup-tooltip": {
+    "defaultMessage": "Baixe a cГіpia de seguranГ§a mais recente"
+  },
+  "servers.listing.manage-billing-label": {
+    "defaultMessage": "Gerenciar cobranГ§a"
+  },
+  "servers.listing.new-label": {
+    "defaultMessage": "Novo"
+  },
+  "servers.listing.notice.files-kept-for-download": {
+    "defaultMessage": "Seus arquivos serГЈo mantidos por mais {daysRemaining, plural, one {{daysRemaining} dia} other {{daysRemaining} dias}}. Entre em contato com o suporte para baixar os arquivos antes que sejam excluГ­dos. "
+  },
+  "servers.listing.notice.files-preserved-after-cancellation": {
+    "defaultMessage": "Seus arquivos serГЈo preservados por 30 dias apГіs o cancelamento."
+  },
+  "servers.listing.notice.moderated": {
+    "defaultMessage": "Seu servidor foi suspenso por aГ§ГЈo da moderaГ§ГЈo. "
+  },
+  "servers.listing.notice.pending-change": {
+    "defaultMessage": "Seu servidor {verb} para o plano {planSize} em <date>{formattedDate}</date>. "
+  },
+  "servers.listing.notice.provisioning": {
+    "defaultMessage": "Aguarde enquanto configuramos seu servidor. Isso pode levar atГ© 10 minutos."
+  },
+  "servers.listing.notice.subscription-cancelled": {
+    "defaultMessage": "Sua assinatura foi cancelada."
+  },
+  "servers.listing.notice.subscription-cancelled-on-date": {
+    "defaultMessage": "Sua assinatura foi cancelada em <date>{formattedDate}</date>. "
+  },
+  "servers.listing.notice.subscription-cancelled-payment-failed": {
+    "defaultMessage": "Sua assinatura foi cancelada devido a falha no pagamento."
+  },
+  "servers.listing.notice.subscription-cancelled-payment-failed-on-date": {
+    "defaultMessage": "Sua assinatura foi cancelada em <date>{formattedDate}</date> devido Г  falha no pagamento. "
+  },
+  "servers.listing.notice.subscription-set-to-cancel": {
+    "defaultMessage": "Sua assinatura serГЎ cancelada."
+  },
+  "servers.listing.notice.subscription-set-to-cancel-on-date": {
+    "defaultMessage": "Sua assinatura serГЎ cancelada em <date>{formattedDate}</date>. "
+  },
+  "servers.listing.notice.suspended": {
+    "defaultMessage": "Seu servidor foi suspenso. Entre em contato com o Suporte da Modrinth para obter mais informaГ§Гµes."
+  },
+  "servers.listing.notice.upgrading": {
+    "defaultMessage": "O hardware do seu servidor estГЎ sendo atualizado e estarГЎ online novamente em breve."
+  },
+  "servers.listing.resubscribe-label": {
+    "defaultMessage": "Reassinar"
+  },
+  "servers.listing.server-icon-alt": {
+    "defaultMessage": "ГЌcone do servidor"
+  },
+  "servers.listing.support-label": {
+    "defaultMessage": "Suporte"
+  },
+  "servers.listing.using-project-label": {
+    "defaultMessage": "Usando {projectTitle}"
+  },
+  "servers.manage.checking-for-new-servers": {
+    "defaultMessage": "Verificando novos servidores..."
+  },
+  "servers.manage.confirm-leave.body": {
+    "defaultMessage": "O envio de um arquivo estГЎ em andamento. Sair desta pГЎgina cancelarГЎ o envio."
+  },
+  "servers.manage.confirm-leave.upload-in-progress": {
+    "defaultMessage": "Envio em andamento"
+  },
+  "servers.manage.contact-support-button": {
+    "defaultMessage": "Contate o suporte da Modrinth"
+  },
+  "servers.manage.error.alert-notice": {
+    "defaultMessage": "Nossos sistemas alertam automaticamente nossa equipe quando hГЎ algum problema. JГЎ estamos trabalhando para restabelecГЄ-los."
+  },
+  "servers.manage.error.description": {
+    "defaultMessage": "Nossos servidores podem estar apresentando problemas temporГЎrios."
+  },
+  "servers.manage.error.details": {
+    "defaultMessage": "Detalhes do erro:"
+  },
+  "servers.manage.error.queue-notice": {
+    "defaultMessage": "Se vocГЄ adquiriu recentemente um servidor Modrinth Hosting, ele estГЎ atualmente em uma fila e aparecerГЎ aqui assim que estiver pronto. <warning>NГЈo tente adquirir um novo servidor.</warning>"
+  },
+  "servers.manage.error.support-notice": {
+    "defaultMessage": "Caso necessite de suporte personalizado em relaГ§ГЈo ao status do seu servidor, entre em contato com o Suporte da Modrinth."
+  },
+  "servers.manage.error.title": {
+    "defaultMessage": "NГЈo foi possГ­vel carregar os servidores"
+  },
+  "servers.manage.handle-error.title": {
+    "defaultMessage": "Ocorreu um erro"
+  },
+  "servers.manage.new-server-button": {
+    "defaultMessage": "Novo servidor"
+  },
+  "servers.manage.no-servers-found": {
+    "defaultMessage": "Nenhum servidor encontrado."
+  },
+  "servers.manage.purchase-unavailable.text": {
+    "defaultMessage": "As informaГ§Гµes de pagamento ainda estГЈo sendo carregadas. Abriremos o processo de finalizaГ§ГЈo da compra assim que estiver pronto."
+  },
+  "servers.manage.purchase-unavailable.title": {
+    "defaultMessage": "Compra indisponГ­vel"
+  },
+  "servers.manage.reload-button": {
+    "defaultMessage": "Recarregar"
+  },
+  "servers.manage.resubscribe-error.text": {
+    "defaultMessage": "Ocorreu um erro ao reassinar o seu Modrinth server."
+  },
+  "servers.manage.resubscribe-error.title": {
+    "defaultMessage": "Erro ao reassinar"
+  },
+  "servers.manage.resubscribe-submitted.text": {
+    "defaultMessage": "Se o servidor estiver cancelado, pode levar atГ© 10 minutos para que outra tentativa de cobranГ§a seja feita."
+  },
+  "servers.manage.resubscribe-submitted.title": {
+    "defaultMessage": "SolicitaГ§ГЈo de reassinar enviada"
+  },
+  "servers.manage.resubscribe-success.text": {
+    "defaultMessage": "Assinatura do servidor reassinada com sucesso"
+  },
+  "servers.manage.resubscribe-success.title": {
+    "defaultMessage": "Sucesso"
+  },
+  "servers.manage.search-placeholder": {
+    "defaultMessage": "Buscar {count} {count, plural, one {servidor} other {servidores}}..."
+  },
+  "servers.manage.servers-title": {
+    "defaultMessage": "Modrinth Hosting"
+  },
+  "servers.manage.settings-hint.description": {
+    "defaultMessage": "Agora vocГЄ pode encontrГЎ-los aqui!"
+  },
+  "servers.manage.settings-hint.dismiss": {
+    "defaultMessage": "NГЈo mostrar novamente"
+  },
+  "servers.manage.settings-hint.title": {
+    "defaultMessage": "As configuraГ§Гµes do seu servidor foram movidas"
+  },
+  "servers.medal-listing.countdown.remaining": {
+    "defaultMessage": "<days-count>{days}</days-count> {days, plural, one {dia} other {dias}} <hours-count>{hours}</hours-count> {hours, plural, one {hora} other {horas}} <minutes-count>{minutes}</minutes-count> {minutes, plural, one {minuto} other {minutos}} <seconds-count>{seconds}</seconds-count> {seconds, plural, one {segundo} other {segundos}} restante..."
+  },
+  "servers.medal-listing.new-server-label": {
+    "defaultMessage": "Novo servidor"
+  },
+  "servers.medal-listing.notice.medal-trial-ended": {
+    "defaultMessage": "Seu perГ­odo de teste do servidor Medal terminou e seu servidor foi suspenso. FaГ§a uma atualizaГ§ГЈo para continuar usando o servidor."
+  },
+  "servers.medal-listing.notice.suspended": {
+    "defaultMessage": "Seu servidor foi suspenso. Por favor, atualize suas informaГ§Гµes de pagamento ou entre em contato com o Suporte da Modrinth para obter mais informaГ§Гµes."
+  },
+  "servers.medal-listing.notice.suspended-with-reason": {
+    "defaultMessage": "Seu servidor foi suspenso: {reason}. Por favor, atualize suas informaГ§Гµes de pagamento ou entre em contato com o Suporte da Modrinth para obter mais informaГ§Гµes."
+  },
+  "servers.medal-listing.notice.upgrading": {
+    "defaultMessage": "O hardware do seu servidor estГЎ sendo atualizado e estarГЎ online novamente em breve."
+  },
+  "servers.medal-listing.server-icon-alt": {
+    "defaultMessage": "ГЌcone do servidor"
+  },
+  "servers.medal-listing.upgrade-button": {
+    "defaultMessage": "Atualizar"
+  },
+  "servers.medal-listing.using-project-label": {
+    "defaultMessage": "Usando {projectTitle}"
   },
   "servers.notice.dismiss": {
     "defaultMessage": "Dispensar"
   },
   "servers.notice.dismissable": {
-    "defaultMessage": "Dispensável"
+    "defaultMessage": "DispensГЎvel"
   },
   "servers.notice.heading.attention": {
-    "defaultMessage": "Atenção"
+    "defaultMessage": "AtenГ§ГЈo"
   },
   "servers.notice.heading.info": {
-    "defaultMessage": "Informação"
+    "defaultMessage": "InformaГ§ГЈo"
   },
   "servers.notice.level.critical.name": {
-    "defaultMessage": "Crítico"
+    "defaultMessage": "CrГ­tico"
   },
   "servers.notice.level.info.name": {
-    "defaultMessage": "Informação"
+    "defaultMessage": "InformaГ§ГЈo"
   },
   "servers.notice.level.survey.name": {
     "defaultMessage": "Enquete"
@@ -1182,52 +2973,67 @@
     "defaultMessage": "Aviso"
   },
   "servers.notice.undismissable": {
-    "defaultMessage": "Indispensável"
+    "defaultMessage": "IndispensГЎvel"
+  },
+  "servers.purchase.notification.success.text": {
+    "defaultMessage": "Sua compra do Modrinth Hosting foi concluГ­da com sucesso."
+  },
+  "servers.purchase.notification.success.title": {
+    "defaultMessage": "Compra concluГ­da"
   },
   "servers.purchase.step.payment.description": {
-    "defaultMessage": "Você não será cobrado ainda."
+    "defaultMessage": "VocГЄ nГЈo serГЎ cobrado ainda."
   },
   "servers.purchase.step.payment.prompt": {
-    "defaultMessage": "Selecione um método de pagamento"
+    "defaultMessage": "Selecione um mГ©todo de pagamento"
   },
   "servers.purchase.step.payment.title": {
-    "defaultMessage": "Método de pagamento"
+    "defaultMessage": "MГ©todo de pagamento"
   },
-  "servers.purchase.step.plan.billed": {
-    "defaultMessage": "cobrado {interval}"
+  "servers.purchase.step.plan.billing-subtitle": {
+    "defaultMessage": "DisponГ­vel na AmГ©rica do Norte, Europa e Sudeste AsiГЎtico."
   },
   "servers.purchase.step.plan.custom.desc": {
-    "defaultMessage": "Escolha um plano personalizado com as especificações que você precisa."
+    "defaultMessage": "Escolha um plano personalizado com as especificaГ§Гµes que vocГЄ precisa."
+  },
+  "servers.purchase.step.plan.custom.heading": {
+    "defaultMessage": "Sabe exatamente o que precisa?"
   },
   "servers.purchase.step.plan.get-started": {
     "defaultMessage": "Comece agora"
   },
+  "servers.purchase.step.plan.large": {
+    "defaultMessage": "Grande"
+  },
   "servers.purchase.step.plan.large.desc": {
-    "defaultMessage": "Ideal para 15–25 jogadores, pacotes de mods ou mods pesados."
+    "defaultMessage": "Ideal para 15вЂ“25 jogadores, pacotes de mods ou mods pesados."
+  },
+  "servers.purchase.step.plan.medium": {
+    "defaultMessage": "MГ©dio"
   },
   "servers.purchase.step.plan.medium.desc": {
-    "defaultMessage": "Bom para 6–15 jogadores e vários mods."
+    "defaultMessage": "Bom para 6вЂ“15 jogadores e vГЎrios mods."
   },
   "servers.purchase.step.plan.most-popular": {
     "defaultMessage": "Mais popular"
   },
-  "servers.purchase.step.plan.prompt": {
-    "defaultMessage": "Escolha um plano"
-  },
   "servers.purchase.step.plan.select": {
     "defaultMessage": "Selecionar plano"
   },
-  "servers.purchase.step.plan.small.desc": {
-    "defaultMessage": "Perfeito para 1–5 amigos e alguns mods leves."
+  "servers.purchase.step.plan.small": {
+    "defaultMessage": "Pequeno"
   },
-  "servers.purchase.step.plan.subtitle": {
-    "defaultMessage": "Selecione a quantidade de RAM que se encaixe com o que você quer."
+  "servers.purchase.step.plan.small.desc": {
+    "defaultMessage": "Perfeito para 1вЂ“5 amigos e alguns mods leves."
   },
   "servers.purchase.step.plan.title": {
     "defaultMessage": "Plano"
   },
+  "servers.purchase.step.plan.your-current-plan": {
+    "defaultMessage": "Seu plano atual"
+  },
   "servers.purchase.step.region.title": {
-    "defaultMessage": "Região"
+    "defaultMessage": "RegiГЈo"
   },
   "servers.purchase.step.review.title": {
     "defaultMessage": "Revisar"
@@ -1236,37 +3042,55 @@
     "defaultMessage": "Europa Central"
   },
   "servers.region.custom.prompt": {
-    "defaultMessage": "Quanto de RAM você quer no seu servidor?"
+    "defaultMessage": "Quanto de RAM vocГЄ quer no seu servidor?"
   },
   "servers.region.north-america": {
-    "defaultMessage": "América do Norte"
+    "defaultMessage": "AmГ©rica do Norte"
   },
   "servers.region.prompt": {
     "defaultMessage": "Onde deseja que seu servidor esteja localizado?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Região não listada? <link>Deixe-nos saber onde gostaria de ver o próximo Modrinth Hosting!</link>"
+    "defaultMessage": "RegiГЈo nГЈo listada? <link>Deixe-nos saber onde gostaria de ver o prГіximo Modrinth Hosting!</link>"
   },
   "servers.region.southeast-asia": {
-    "defaultMessage": "Sudeste Asiático"
+    "defaultMessage": "Sudeste AsiГЎtico"
   },
   "servers.region.western-europe": {
     "defaultMessage": "Europa Ocidental"
   },
+  "servers.setup.rate-limit.text": {
+    "defaultMessage": "VocГЄ estГЎ sendo limitado por taxa. Por favor, tente novamente mais tarde."
+  },
+  "servers.setup.rate-limit.title": {
+    "defaultMessage": "NГЈo Г© possГ­vel reinstalar o servidor"
+  },
+  "servers.setup.reinstall-failed.text": {
+    "defaultMessage": "Ocorreu um erro inesperado durante a reinstalaГ§ГЈo. Por favor, tente novamente mais tarde."
+  },
+  "servers.setup.reinstall-failed.title": {
+    "defaultMessage": "ReinstalaГ§ГЈo falhou"
+  },
+  "servers.setup.upload-warning": {
+    "defaultMessage": "Por favor, nГЈo feche esta pГЎgina durante o processo de envio."
+  },
+  "servers.setup.uploading-modpack.header": {
+    "defaultMessage": "Enviando pacote de mods"
+  },
   "settings.account.title": {
-    "defaultMessage": "Conta e segurança"
+    "defaultMessage": "Conta e seguranГ§a"
   },
   "settings.appearance.title": {
-    "defaultMessage": "Aparência"
+    "defaultMessage": "AparГЄncia"
   },
   "settings.applications.title": {
     "defaultMessage": "Seus aplicativos"
   },
   "settings.authorized-apps.title": {
-    "defaultMessage": "Aplicações autorizadas"
+    "defaultMessage": "AplicaГ§Гµes autorizadas"
   },
   "settings.billing.title": {
-    "defaultMessage": "Cobranças e assinaturas"
+    "defaultMessage": "CobranГ§as e assinaturas"
   },
   "settings.display.theme.dark": {
     "defaultMessage": "Escuro"
@@ -1287,7 +3111,7 @@
     "defaultMessage": "Tema claro preferido"
   },
   "settings.display.theme.retro": {
-    "defaultMessage": "Retrô"
+    "defaultMessage": "RetrГґ"
   },
   "settings.display.theme.system": {
     "defaultMessage": "Sincronizar com o sistema"
@@ -1295,23 +3119,26 @@
   "settings.display.theme.title": {
     "defaultMessage": "Tema"
   },
+  "settings.feature-flags.title": {
+    "defaultMessage": "SinalizaГ§ГЈo de recursos"
+  },
   "settings.language.categories.default": {
-    "defaultMessage": "Idiomas padrão"
+    "defaultMessage": "Idiomas padrГЈo"
   },
   "settings.language.categories.search-result": {
     "defaultMessage": "Resultados da busca"
   },
   "settings.language.description": {
-    "defaultMessage": "Escolha o seu idioma para o {platform}. As traduções são realizadas por voluntários no <crowdin-link>Crowdin</crowdin-link>."
+    "defaultMessage": "Escolha o seu idioma para o {platform}. As traduГ§Гµes sГЈo realizadas por voluntГЎrios no <crowdin-link>Crowdin</crowdin-link>."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Buscar um idioma..."
   },
   "settings.language.languages.search-results-announcement": {
-    "defaultMessage": "{matches, plural, =0 {Nenhum idioma corresponde} one {# Idioma corresponde} other {# Idiomas correspondem}} à sua busca."
+    "defaultMessage": "{matches, plural, =0 {Nenhum idioma corresponde} one {# Idioma corresponde} other {# Idiomas correspondem}} Г  sua busca."
   },
   "settings.language.languages.search.no-results": {
-    "defaultMessage": "Nenhum idioma corresponde à sua busca."
+    "defaultMessage": "Nenhum idioma corresponde Г  sua busca."
   },
   "settings.language.platform.app": {
     "defaultMessage": "app"
@@ -1323,16 +3150,16 @@
     "defaultMessage": "Idioma"
   },
   "settings.language.warning": {
-    "defaultMessage": "Alterar o idioma do {platform} pode fazer com que parte do conteúdo apareça em inglês caso uma tradução não esteja disponível. O {platform} ainda não está totalmente traduzido, portanto, alguns conteúdos podem permanecer em inglês em determinados idiomas."
+    "defaultMessage": "Alterar o idioma do {platform} pode fazer com que parte do conteГєdo apareГ§a em inglГЄs caso uma traduГ§ГЈo nГЈo esteja disponГ­vel. O {platform} ainda nГЈo estГЎ totalmente traduzido, portanto, alguns conteГєdos podem permanecer em inglГЄs em determinados idiomas."
   },
   "settings.pats.title": {
     "defaultMessage": "Token de acesso pessoal"
   },
   "settings.profile.title": {
-    "defaultMessage": "Perfil público"
+    "defaultMessage": "Perfil pГєblico"
   },
   "settings.sessions.title": {
-    "defaultMessage": "Sessões"
+    "defaultMessage": "SessГµes"
   },
   "tag.category.128x": {
     "defaultMessage": "128x"
@@ -1361,11 +3188,23 @@
   "tag.category.adventure": {
     "defaultMessage": "Aventura"
   },
+  "tag.category.adventure-mode": {
+    "defaultMessage": "Modo Aventura"
+  },
+  "tag.category.anarchy": {
+    "defaultMessage": "Anarquia"
+  },
   "tag.category.atmosphere": {
     "defaultMessage": "Atmosfera"
   },
   "tag.category.audio": {
-    "defaultMessage": "Áudio"
+    "defaultMessage": "ГЃudio"
+  },
+  "tag.category.battle-royale": {
+    "defaultMessage": "Battle Royale"
+  },
+  "tag.category.bedwars": {
+    "defaultMessage": "Bed Wars"
   },
   "tag.category.blocks": {
     "defaultMessage": "Blocos"
@@ -1373,26 +3212,50 @@
   "tag.category.bloom": {
     "defaultMessage": "Bloom"
   },
+  "tag.category.bosses": {
+    "defaultMessage": "Chefes"
+  },
   "tag.category.cartoon": {
     "defaultMessage": "Cartoon"
   },
   "tag.category.challenging": {
     "defaultMessage": "Desafiador"
   },
+  "tag.category.classes": {
+    "defaultMessage": "Classes"
+  },
   "tag.category.colored-lighting": {
-    "defaultMessage": "Iluminação colorida"
+    "defaultMessage": "IluminaГ§ГЈo colorida"
   },
   "tag.category.combat": {
     "defaultMessage": "Combate"
   },
+  "tag.category.competitive": {
+    "defaultMessage": "Competitivo"
+  },
   "tag.category.core-shaders": {
     "defaultMessage": "Sombreadores principais"
   },
+  "tag.category.creative-mode": {
+    "defaultMessage": "Modo Criativo"
+  },
+  "tag.category.creator-community": {
+    "defaultMessage": "Comunidade de Criadores"
+  },
+  "tag.category.crossplay": {
+    "defaultMessage": "Multiplataforma"
+  },
   "tag.category.cursed": {
-    "defaultMessage": "Amaldiçoado"
+    "defaultMessage": "AmaldiГ§oado"
+  },
+  "tag.category.custom-content": {
+    "defaultMessage": "ConteГєdo Personalizado"
   },
   "tag.category.decoration": {
-    "defaultMessage": "Decoração"
+    "defaultMessage": "DecoraГ§ГЈo"
+  },
+  "tag.category.dungeons": {
+    "defaultMessage": "Masmorras"
   },
   "tag.category.economy": {
     "defaultMessage": "Economia"
@@ -1405,6 +3268,9 @@
   },
   "tag.category.equipment": {
     "defaultMessage": "Equipamento"
+  },
+  "tag.category.factions": {
+    "defaultMessage": "FacГ§Гµes"
   },
   "tag.category.fantasy": {
     "defaultMessage": "Fantasia"
@@ -1419,10 +3285,16 @@
     "defaultMessage": "Comida"
   },
   "tag.category.game-mechanics": {
-    "defaultMessage": "Mecânicas do jogo"
+    "defaultMessage": "MecГўnicas do jogo"
+  },
+  "tag.category.gens": {
+    "defaultMessage": "Gens"
   },
   "tag.category.gui": {
     "defaultMessage": "Interface"
+  },
+  "tag.category.hardcore-mode": {
+    "defaultMessage": "Modo Intenso"
   },
   "tag.category.high": {
     "defaultMessage": "Alto"
@@ -1430,17 +3302,26 @@
   "tag.category.items": {
     "defaultMessage": "Itens"
   },
+  "tag.category.keep-inventory": {
+    "defaultMessage": "Manter Inventario"
+  },
   "tag.category.kitchen-sink": {
     "defaultMessage": "Misto"
   },
+  "tag.category.kitpvp": {
+    "defaultMessage": "Kit PvP"
+  },
   "tag.category.library": {
     "defaultMessage": "Biblioteca"
+  },
+  "tag.category.lifesteal": {
+    "defaultMessage": "Roubo de Vida"
   },
   "tag.category.lightweight": {
     "defaultMessage": "Leve"
   },
   "tag.category.locale": {
-    "defaultMessage": "Localização"
+    "defaultMessage": "LocalizaГ§ГЈo"
   },
   "tag.category.low": {
     "defaultMessage": "Baixo"
@@ -1451,11 +3332,23 @@
   "tag.category.management": {
     "defaultMessage": "Gerenciamento"
   },
+  "tag.category.media": {
+    "defaultMessage": "MГ­dia"
+  },
   "tag.category.medium": {
-    "defaultMessage": "Médio"
+    "defaultMessage": "MГ©dio"
+  },
+  "tag.category.microgames": {
+    "defaultMessage": "Microjogos"
   },
   "tag.category.minigame": {
     "defaultMessage": "Minijogo"
+  },
+  "tag.category.minigames": {
+    "defaultMessage": "Minijogos"
+  },
+  "tag.category.mmo": {
+    "defaultMessage": "MMO"
   },
   "tag.category.mobs": {
     "defaultMessage": "Criaturas"
@@ -1469,8 +3362,23 @@
   "tag.category.multiplayer": {
     "defaultMessage": "Multijogador"
   },
+  "tag.category.network": {
+    "defaultMessage": "Rede"
+  },
+  "tag.category.offline-mode": {
+    "defaultMessage": "Modo offline"
+  },
+  "tag.category.oneblock": {
+    "defaultMessage": "One Block"
+  },
+  "tag.category.op": {
+    "defaultMessage": "OP"
+  },
   "tag.category.optimization": {
-    "defaultMessage": "Otimização"
+    "defaultMessage": "OtimizaГ§ГЈo"
+  },
+  "tag.category.parkour": {
+    "defaultMessage": "Parkour"
   },
   "tag.category.path-tracing": {
     "defaultMessage": "Rastreamento de caminhos"
@@ -1478,17 +3386,50 @@
   "tag.category.pbr": {
     "defaultMessage": "PBR"
   },
+  "tag.category.personal-worlds": {
+    "defaultMessage": "Mundos pessoais"
+  },
+  "tag.category.plots": {
+    "defaultMessage": "Lotes"
+  },
+  "tag.category.pokemon": {
+    "defaultMessage": "PokГ©mon"
+  },
   "tag.category.potato": {
     "defaultMessage": "Batata"
   },
+  "tag.category.prison": {
+    "defaultMessage": "PrisГЈo"
+  },
+  "tag.category.pve": {
+    "defaultMessage": "PvE"
+  },
+  "tag.category.pvp": {
+    "defaultMessage": "PvP"
+  },
+  "tag.category.questing": {
+    "defaultMessage": "MissГµes"
+  },
   "tag.category.quests": {
-    "defaultMessage": "Missões"
+    "defaultMessage": "MissГµes"
+  },
+  "tag.category.racing": {
+    "defaultMessage": "Corrida"
   },
   "tag.category.realistic": {
     "defaultMessage": "Realista"
   },
+  "tag.category.recording-smp": {
+    "defaultMessage": "SMP de GravaГ§ГЈo"
+  },
   "tag.category.reflections": {
     "defaultMessage": "Reflexos"
+  },
+  "tag.category.roleplay": {
+    "defaultMessage": "AtuaГ§ГЈo"
+  },
+  "tag.category.rpg": {
+    "defaultMessage": "RPG"
   },
   "tag.category.screenshot": {
     "defaultMessage": "Captura de tela"
@@ -1502,17 +3443,35 @@
   "tag.category.simplistic": {
     "defaultMessage": "Simplista"
   },
+  "tag.category.skyblock": {
+    "defaultMessage": "Skyblock"
+  },
+  "tag.category.smp": {
+    "defaultMessage": "SMP"
+  },
   "tag.category.social": {
     "defaultMessage": "Social"
   },
   "tag.category.storage": {
     "defaultMessage": "Armazenamento"
   },
+  "tag.category.survival-mode": {
+    "defaultMessage": "Modo SobrevivГЄncia"
+  },
+  "tag.category.teams": {
+    "defaultMessage": "Times"
+  },
+  "tag.category.technical": {
+    "defaultMessage": "TГ©cnico"
+  },
   "tag.category.technology": {
     "defaultMessage": "Tecnologia"
   },
   "tag.category.themed": {
-    "defaultMessage": "Temático"
+    "defaultMessage": "TemГЎtico"
+  },
+  "tag.category.towns": {
+    "defaultMessage": "Cidades"
   },
   "tag.category.transportation": {
     "defaultMessage": "Transporte"
@@ -1524,10 +3483,16 @@
     "defaultMessage": "Utilidade"
   },
   "tag.category.vanilla-like": {
-    "defaultMessage": "Similar ao jogo padrão"
+    "defaultMessage": "Similar ao jogo padrГЈo"
+  },
+  "tag.category.whitelisted": {
+    "defaultMessage": "Com whitelist"
+  },
+  "tag.category.world-resets": {
+    "defaultMessage": "ReinГ­cios de mundo"
   },
   "tag.category.worldgen": {
-    "defaultMessage": "Geração de mundo"
+    "defaultMessage": "GeraГ§ГЈo de mundo"
   },
   "tag.loader.babric": {
     "defaultMessage": "Babric"
@@ -1557,7 +3522,7 @@
     "defaultMessage": "Forge"
   },
   "tag.loader.geyser": {
-    "defaultMessage": "Extensão Geyser"
+    "defaultMessage": "ExtensГЈo Geyser"
   },
   "tag.loader.iris": {
     "defaultMessage": "Iris"
@@ -1611,7 +3576,7 @@
     "defaultMessage": "Sponge"
   },
   "tag.loader.vanilla": {
-    "defaultMessage": "Sombreador padrão"
+    "defaultMessage": "Sombreador padrГЈo"
   },
   "tag.loader.velocity": {
     "defaultMessage": "Velocity"
@@ -1619,11 +3584,23 @@
   "tag.loader.waterfall": {
     "defaultMessage": "Waterfall"
   },
-  "tooltip.date-at-time": {
-    "defaultMessage": "{date, date, long} às {time, time, short}"
-  },
   "ui.component.unsaved-changes-popup.body": {
-    "defaultMessage": "Você tem alterações não salvas."
+    "defaultMessage": "VocГЄ tem alteraГ§Гµes nГЈo salvas."
+  },
+  "ui.confirm-leave-modal.body": {
+    "defaultMessage": "VocГЄ tem alteraГ§Гµes nГЈo salvas que serГЈo perdidas se sair desta pГЎgina."
+  },
+  "ui.confirm-leave-modal.header": {
+    "defaultMessage": "VocГЄ tem alteraГ§Гµes nГЈo salvas"
+  },
+  "ui.confirm-leave-modal.leave": {
+    "defaultMessage": "Sair da pГЎgina"
+  },
+  "ui.confirm-leave-modal.stay": {
+    "defaultMessage": "Ficar na pГЎgina"
+  },
+  "ui.confirm-leave-modal.title": {
+    "defaultMessage": "Sair da pГЎgina?"
   }
 }
 

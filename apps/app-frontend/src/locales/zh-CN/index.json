@@ -1,9 +1,156 @@
 ﻿{
   "app.auth-servers.unreachable.body": {
-    "message": "Minecraft и®¤иЇЃжњЌеЉЎе™ЁзЋ°ењЁеЏЇиѓЅж— жі•дЅїз”ЁгЂ‚иЇ·жЈЂжџҐдЅ зљ„зЅ‘з»њиїћжЋҐпјЊе№¶зЁЌеђЋе†ЌиЇ•гЂ‚"
+    "message": "Minecraft 身份验证服务器现在可能无法使用。请检查你的网络连接，并稍后再试。"
   },
   "app.auth-servers.unreachable.header": {
-    "message": "ж— жі•иїћжЋҐе€°и®¤иЇЃжњЌеЉЎе™Ё"
+    "message": "无法连接到身份验证服务器"
+  },
+  "app.browse.add-server-to-instance": {
+    "message": "将服务器添加到实例"
+  },
+  "app.browse.add-servers-to-instance": {
+    "message": "将服务器添加到你的实例"
+  },
+  "app.browse.add-to-instance": {
+    "message": "前往实例"
+  },
+  "app.browse.add-to-instance-name": {
+    "message": "添加到 {instanceName}"
+  },
+  "app.browse.added": {
+    "message": "已添加"
+  },
+  "app.browse.already-added": {
+    "message": "已添加过"
+  },
+  "app.browse.discover-content": {
+    "message": "发现内容"
+  },
+  "app.browse.discover-servers": {
+    "message": "发现服务器"
+  },
+  "app.browse.hide-added-servers": {
+    "message": "隐藏已添加的服务器"
+  },
+  "app.browse.hide-installed-content": {
+    "message": "隐藏已安装的实例"
+  },
+  "app.browse.install-content-to-instance": {
+    "message": "将内容安装到实例中"
+  },
+  "app.export-modal.description-placeholder": {
+    "message": "输入整合包描述……"
+  },
+  "app.export-modal.export-button": {
+    "message": "导出"
+  },
+  "app.export-modal.header": {
+    "message": "导出整合包"
+  },
+  "app.export-modal.modpack-name-label": {
+    "message": "整合包名称"
+  },
+  "app.export-modal.modpack-name-placeholder": {
+    "message": "整合包名称"
+  },
+  "app.export-modal.select-files-label": {
+    "message": "选择要包含在包中的文件和文件夹"
+  },
+  "app.export-modal.version-number-label": {
+    "message": "版本号"
+  },
+  "app.export-modal.version-number-placeholder": {
+    "message": "1.0.0"
+  },
+  "app.instance.confirm-delete.admonition-body": {
+    "message": "你实例的所有数据将被永久删除，包括你的世界、配置和所有已安装的内容。"
+  },
+  "app.instance.confirm-delete.admonition-header": {
+    "message": "此操作无法撤销"
+  },
+  "app.instance.confirm-delete.delete-button": {
+    "message": "删除实例"
+  },
+  "app.instance.confirm-delete.header": {
+    "message": "删除实例"
+  },
+  "app.instance.modpack-already-installed.body": {
+    "message": "该整合包已经被安装到实例<bold>{instanceName}</bold> 中了。你确定要重复安装吗？"
+  },
+  "app.instance.modpack-already-installed.create": {
+    "message": "创建"
+  },
+  "app.instance.modpack-already-installed.header": {
+    "message": "整合包已安装"
+  },
+  "app.instance.modpack-already-installed.instance": {
+    "message": "实例"
+  },
+  "app.instance.mods.content-type-project": {
+    "message": "项目"
+  },
+  "app.instance.mods.project-was-added": {
+    "message": "已添加 “{name}”"
+  },
+  "app.instance.mods.projects-were-added": {
+    "message": "已添加 {count} 个项目"
+  },
+  "app.instance.mods.share-text": {
+    "message": "查看在我整合包中使用的项目！"
+  },
+  "app.instance.mods.share-title": {
+    "message": "分享整合包内容"
+  },
+  "app.instance.mods.successfully-uploaded": {
+    "message": "上传成功"
+  },
+  "app.instance.worlds.add-server": {
+    "message": "添加服务器"
+  },
+  "app.instance.worlds.browse-servers": {
+    "message": "浏览服务器"
+  },
+  "app.instance.worlds.delete-world-description": {
+    "message": "“{name}”将被**永久删除**，并且无法恢复。"
+  },
+  "app.instance.worlds.delete-world-title": {
+    "message": "你确定要永久删除这个世界吗？"
+  },
+  "app.instance.worlds.filter-modded": {
+    "message": "模组适配"
+  },
+  "app.instance.worlds.filter-offline": {
+    "message": "离线"
+  },
+  "app.instance.worlds.filter-online": {
+    "message": "在线"
+  },
+  "app.instance.worlds.filter-vanilla": {
+    "message": "原版"
+  },
+  "app.instance.worlds.no-worlds-description": {
+    "message": "添加一个服务器或点击浏览来开始"
+  },
+  "app.instance.worlds.no-worlds-heading": {
+    "message": "未添加服务器或世界"
+  },
+  "app.instance.worlds.remove-server-description": {
+    "message": "将从你的列表中删除“{name}”，包括游戏内，并且无法恢复。"
+  },
+  "app.instance.worlds.remove-server-description-with-address": {
+    "message": "将从你的列表中删除“{name}”（{address}），包括游戏内，并且无法恢复。"
+  },
+  "app.instance.worlds.remove-server-title": {
+    "message": "你确定要删除 {name} 吗？"
+  },
+  "app.instance.worlds.search-worlds-placeholder": {
+    "message": "搜索 {count} 个世界……"
+  },
+  "app.instance.worlds.this-server": {
+    "message": "此服务器"
+  },
+  "app.modal.install-to-play.content-required": {
+    "message": "内容需求"
   },
   "app.modal.install-to-play.header": {
     "message": "е®‰иЈ…д»ҐжёёзЋ©"
@@ -14,47 +161,29 @@
   "app.modal.install-to-play.mod-count": {
     "message": "{count} дёЄжЁЎз»„"
   },
-  "app.modal.install-to-play.server-requires-mods": {
-    "message": "ж­¤жњЌеЉЎе™ЁйњЂи¦Ѓе®‰иЈ…жЁЎз»„ж‰ЌиѓЅжёёзЋ©гЂ‚з‚№е‡»е®‰иЈ…пјЊд»Ћ Modrinth дё‹иЅЅж‰ЂйњЂж–‡д»¶гЂ‚"
+  "app.modal.install-to-play.required-modpack": {
+    "message": "整合包需求"
   },
-  "app.modal.install-to-play.shared-by-today": {
-    "message": "{name} д»Ље¤©дёЋдЅ е€†дє«дє†иї™дёЄе®ћдѕ‹гЂ‚"
+  "app.modal.install-to-play.server-requires-mods": {
+    "message": "此服务器需要安装模组才能游玩。点击安装，从 Modrinth 下载所需文件，然后直接进入服务器。"
   },
   "app.modal.install-to-play.shared-instance": {
-    "message": "е…±дє«зљ„е®ћдѕ‹"
+    "message": "共享实例"
   },
   "app.modal.install-to-play.shared-server-instance": {
     "message": "е…±дє«зљ„жњЌеЉЎз«Їе®ћдѕ‹"
   },
-  "app.modal.update-to-play.added-count": {
-    "message": "ж·»еЉ дє† {count} йЎ№"
-  },
-  "app.modal.update-to-play.diff-type.added": {
-    "message": "е·Іж·»еЉ "
-  },
-  "app.modal.update-to-play.diff-type.removed": {
-    "message": "е·Із§»й™¤"
-  },
-  "app.modal.update-to-play.diff-type.updated": {
-    "message": "е·Іж›ґж–°"
+  "app.modal.install-to-play.view-contents": {
+    "message": "查看内容"
   },
   "app.modal.update-to-play.header": {
     "message": "ж›ґж–°д»ҐжёёзЋ©"
-  },
-  "app.modal.update-to-play.published-date": {
-    "message": "{date, date, long}"
-  },
-  "app.modal.update-to-play.removed-count": {
-    "message": "з§»й™¤дє† {count} йЎ№"
   },
   "app.modal.update-to-play.update-required": {
     "message": "йњЂи¦Ѓж›ґж–°"
   },
   "app.modal.update-to-play.update-required-description": {
     "message": "йњЂи¦Ѓж›ґж–°и‡іжњЂж–°з‰€жњ¬ж‰ЌиѓЅиїђиЎЊ {name}гЂ‚иЇ·ж›ґж–°еђЋеђЇеЉЁжёёж€ЏгЂ‚"
-  },
-  "app.modal.update-to-play.updated-count": {
-    "message": "ж›ґж–°дє† {count} йЎ№"
   },
   "app.settings.developer-mode-enabled": {
     "message": "ејЂеЏ‘иЂ…жЁЎејЏе·ІеђЇз”ЁгЂ‚"
@@ -68,9 +197,6 @@
   "app.settings.tabs.default-instance-options": {
     "message": "й»и®¤е®ћдѕ‹йЂ‰йЎ№"
   },
-  "app.settings.tabs.feature-flags": {
-    "message": "еЉџиѓЅејЂе…і"
-  },
   "app.settings.tabs.java-installations": {
     "message": "Java з®Ўзђ†"
   },
@@ -83,38 +209,32 @@
   "app.settings.tabs.resource-management": {
     "message": "иµ„жєђз®Ўзђ†"
   },
-  "app.update-toast.body": {
-    "message": "Mist Launcher v{version} ж›ґж–°е·Іе°±з»ЄпјЃз«‹еЌій‡ЌеђЇж›ґж–°пјЊж€–йЂЂе‡єж—¶и‡ЄеЉЁе®‰иЈ…гЂ‚"
+  "app.update-popup.body": {
+    "message": "Mist Launcher v{version} 更新已就绪！立即重启更新，或退出时自动安装。"
   },
-  "app.update-toast.body.download-complete": {
-    "message": "Mist Launcher v{version} ж›ґж–°е·Ідё‹иЅЅе®Њж€ђпјЃз«‹еЌій‡ЌеђЇж›ґж–°пјЊж€–йЂЂе‡єж—¶и‡ЄеЉЁе®‰иЈ…гЂ‚"
+  "app.update-popup.body.download-complete": {
+    "message": "Mist Launcher v{version} 更新已下载完成！立即重启更新，或退出时自动安装。"
   },
-  "app.update-toast.body.linux": {
-    "message": "Mist Launcher v{version} зЋ°е·ІеЏ‘еёѓгЂ‚иЇ·дЅїз”ЁдЅ зљ„иЅЇд»¶еЊ…з®Ўзђ†е™Ёиї›иЎЊж›ґж–°пјЊиЋ·еЏ–жњЂж–°еЉџиѓЅдёЋдї®е¤ЌпјЃ"
+  "app.update-popup.body.linux": {
+    "message": "Mist Launcher v{version} 现已发布。请使用你的软件包管理器进行更新，获取最新功能与修复！"
   },
-  "app.update-toast.body.metered": {
-    "message": "Mist Launcher v{version} зЋ°е·ІеЏ‘еёѓпјЃз”±дєЋдЅ ж­ЈењЁдЅїз”ЁжЊ‰жµЃй‡Џи®Ўиґ№зљ„зЅ‘з»њпјЊиЇҐж›ґж–°жњЄи‡ЄеЉЁдё‹иЅЅгЂ‚"
+  "app.update-popup.body.metered": {
+    "message": "Mist Launcher v{version} 现已发布！由于你正在使用按流量计费的网络，该更新未自动下载。"
   },
-  "app.update-toast.changelog": {
-    "message": "ж›ґж–°ж—Ґеї—"
+  "app.update-popup.changelog": {
+    "message": "更新日志"
   },
-  "app.update-toast.download": {
-    "message": "дё‹иЅЅпј€{size}пј‰"
+  "app.update-popup.download": {
+    "message": "下载（{size}）"
   },
-  "app.update-toast.download-page": {
-    "message": "дё‹иЅЅ"
+  "app.update-popup.download-complete": {
+    "message": "下载完成"
   },
-  "app.update-toast.downloading": {
-    "message": "дё‹иЅЅдё­вЂ¦"
+  "app.update-popup.reload": {
+    "message": "重新启动"
   },
-  "app.update-toast.reload": {
-    "message": "й‡Ќж–°еђЇеЉЁ"
-  },
-  "app.update-toast.title": {
-    "message": "жњ‰еЏЇз”Ёж›ґж–°"
-  },
-  "app.update-toast.title.download-complete": {
-    "message": "дё‹иЅЅе®Њж€ђ"
+  "app.update-popup.title": {
+    "message": "有可用的更新"
   },
   "app.update.complete-toast.text": {
     "message": "з‚№е‡»ж­¤е¤„жџҐзњ‹ж›ґж–°ж—Ґеї—гЂ‚"
@@ -130,6 +250,24 @@
   },
   "app.update.reload-to-update": {
     "message": "й‡ЌеђЇд»Ґе®‰иЈ…ж›ґж–°"
+  },
+  "app.world.server-modal.placeholder-address": {
+    "message": "example.modrinth.gg"
+  },
+  "app.world.server-modal.select-an-option": {
+    "message": "选择一个选项"
+  },
+  "app.world.world-item.incompatible-version": {
+    "message": "不兼容的版本 {version}"
+  },
+  "app.world.world-item.not-played-yet": {
+    "message": "暂未游玩"
+  },
+  "app.world.world-item.offline": {
+    "message": "离线"
+  },
+  "app.world.world-item.players-online": {
+    "message": "{count} 人在线"
   },
   "friends.action.add-friend": {
     "message": "ж·»еЉ еҐЅеЏ‹"
@@ -150,7 +288,7 @@
     "message": "иѕ“е…Ґ Modrinth з”Ёж€·еђЌвЂ¦вЂ¦"
   },
   "friends.add-friend.username.title": {
-    "message": "еҐЅеЏ‹зљ„ Modrinth з”Ёж€·еђЌжЇд»Ђд№€пјџ"
+    "message": "你好友的 Modrinth 用户名是什么？"
   },
   "friends.add-friends-to-share": {
     "message": "<link>ж·»еЉ еҐЅеЏ‹</link> жќҐзњ‹зњ‹д»–д»¬йѓЅењЁзЋ©д»Ђд№€пјЃ"
@@ -162,7 +300,7 @@
     "message": "е€ й™¤еҐЅеЏ‹"
   },
   "friends.friend.request-sent": {
-    "message": "е·ІеЏ‘йЂЃеҐЅеЏ‹иЇ·ж±‚"
+    "message": "已发送好友申请"
   },
   "friends.friend.view-profile": {
     "message": "жџҐзњ‹дёЄдєєиµ„ж–™"
@@ -186,7 +324,7 @@
     "message": "жІЎжњ‰еЇ№еє”еђЌе­—вЂњ{query}вЂќзљ„еҐЅеЏ‹"
   },
   "friends.search-friends-placeholder": {
-    "message": "жђњзґўеҐЅеЏ‹вЂ¦вЂ¦"
+    "message": "搜索好友…"
   },
   "friends.section.heading": {
     "message": "{title} - {count}"
@@ -222,19 +360,19 @@
     "message": "еђЌз§°"
   },
   "instance.edit-world.placeholder-name": {
-    "message": "Minecraft дё–з•Њ"
+    "message": "Minecraft 存档"
   },
   "instance.edit-world.reset-icon": {
-    "message": "й‡ЌзЅ®е›ѕж ‡"
+    "message": "重设图标"
   },
   "instance.edit-world.title": {
     "message": "зј–иѕ‘е­жЎЈ"
   },
-  "instance.filter.disabled": {
-    "message": "е·Із¦Ѓз”Ёзљ„йЎ№з›®"
+  "instance.files.adding-files": {
+    "message": "正在添加文件（{completed}/{total}）"
   },
-  "instance.filter.updates-available": {
-    "message": "жњ‰еЏЇз”Ёж›ґж–°"
+  "instance.files.save-as": {
+    "message": "保存为……"
   },
   "instance.server-modal.address": {
     "message": "ењ°еќЂ"
@@ -261,7 +399,7 @@
     "message": "е°†д»Ћи®ѕе¤‡дё­ж°ёд№…е€ й™¤иЇҐе®ћдѕ‹пјЊеЊ…ж‹¬ж‰Ђжњ‰е­жЎЈгЂЃй…ЌзЅ®ж–‡д»¶еЏЉе·Іе®‰иЈ…е†…е®№гЂ‚ж­¤ж“ЌдЅњдёЌеЏЇж’¤й”ЂпјЊиЇ·и°Ёж…Ћж“ЌдЅњгЂ‚"
   },
   "instance.settings.tabs.general.deleting.button": {
-    "message": "е€ й™¤дё­вЂ¦вЂ¦"
+    "message": "删除中..."
   },
   "instance.settings.tabs.general.duplicate-button": {
     "message": "е¤Ќе€¶"
@@ -303,7 +441,7 @@
     "message": "еђЌз§°"
   },
   "instance.settings.tabs.hooks": {
-    "message": "еђЇеЉЁHooks"
+    "message": "启动 Hooks"
   },
   "instance.settings.tabs.hooks.custom-hooks": {
     "message": "и‡Єе®љд№‰еђЇеЉЁHooks"
@@ -318,7 +456,7 @@
     "message": "ењЁжёёж€Џе…ій—­еђЋиїђиЎЊгЂ‚"
   },
   "instance.settings.tabs.hooks.post-exit.enter": {
-    "message": "иѕ“е…ҐйЂЂе‡єеђЋиїђиЎЊзљ„е‘Ѕд»¤вЂ¦вЂ¦"
+    "message": "输入退出后运行的命令…"
   },
   "instance.settings.tabs.hooks.pre-launch": {
     "message": "еђЇеЉЁе‰Ќ"
@@ -327,7 +465,7 @@
     "message": "ењЁе®ћдѕ‹еђЇеЉЁе‰ЌиїђиЎЊгЂ‚"
   },
   "instance.settings.tabs.hooks.pre-launch.enter": {
-    "message": "иѕ“е…Ґйў„еђЇеЉЁе‘Ѕд»¤вЂ¦вЂ¦"
+    "message": "输入启动前命令..."
   },
   "instance.settings.tabs.hooks.title": {
     "message": "жёёж€ЏеђЇеЉЁй’©е­ђ"
@@ -339,145 +477,13 @@
     "message": "з”ЁдєЋеђЇеЉЁ Minecraft зљ„еЊ…иЈ…е™Ёе‘Ѕд»¤гЂ‚"
   },
   "instance.settings.tabs.hooks.wrapper.enter": {
-    "message": "иѕ“е…ҐеЊ…иЈ…е™Ёе‘Ѕд»¤вЂ¦вЂ¦"
+    "message": "输入封装命令..."
   },
   "instance.settings.tabs.installation": {
     "message": "е®‰иЈ…"
   },
-  "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "йЂ‚з”ЁдєЋ Minecraft {game_version} зљ„ {platform} {version} е·Іе®‰иЈ…"
-  },
-  "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "еЋџз‰€ {game_version} е·Іе®‰иЈ…"
-  },
-  "instance.settings.tabs.installation.change-version.button": {
-    "message": "е€‡жЌўз‰€жњ¬"
-  },
-  "instance.settings.tabs.installation.change-version.button.install": {
-    "message": "е®‰иЈ…"
-  },
-  "instance.settings.tabs.installation.change-version.button.installing": {
-    "message": "е®‰иЈ…дё­"
-  },
-  "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "ж­ЈењЁиЋ·еЏ–ж•ґеђ€еЊ…з‰€жњ¬"
-  },
-  "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "ж­ЈењЁе®‰иЈ…ж–°з‰€жњ¬"
-  },
-  "instance.settings.tabs.installation.currently-installed": {
-    "message": "еЅ“е‰Ќе·Іе®‰иЈ…"
-  },
-  "instance.settings.tabs.installation.debug-information": {
-    "message": "и°ѓиЇ•дїЎжЃЇпјљ"
-  },
-  "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "ж­ЈењЁиЋ·еЏ–ж•ґеђ€еЊ…иЇ¦жѓ…"
-  },
-  "instance.settings.tabs.installation.game-version": {
-    "message": "жёёж€Џз‰€жњ¬"
-  },
-  "instance.settings.tabs.installation.install": {
-    "message": "е®‰иЈ…"
-  },
-  "instance.settings.tabs.installation.install.in-progress": {
-    "message": "ж­ЈењЁе®‰иЈ…"
-  },
   "instance.settings.tabs.installation.loader-version": {
     "message": "{loader} з‰€жњ¬"
-  },
-  "instance.settings.tabs.installation.minecraft-version": {
-    "message": "Minecraft {version}"
-  },
-  "instance.settings.tabs.installation.no-connection": {
-    "message": "ж— жі•иЋ·еЏ–ж•ґеђ€еЊ…иЇ¦з»†дїЎжЃЇгЂ‚иЇ·жЈЂжџҐзЅ‘з»њиїћжЋҐгЂ‚"
-  },
-  "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader} дёЌж”ЇжЊЃ Minecraft {version}гЂ‚иЇ·е°ќиЇ•е…¶д»–жЁЎз»„еЉ иЅЅе™ЁгЂ‚"
-  },
-  "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "ж­¤е®ћдѕ‹дёЋдёЂдёЄж•ґеђ€еЊ…з›ёе…іиЃ”пјЊдЅ†ењЁ Modrinth дёЉж— жі•ж‰ѕе€°иЇҐж•ґеђ€еЊ…гЂ‚"
-  },
-  "instance.settings.tabs.installation.platform": {
-    "message": "е№іеЏ°"
-  },
-  "instance.settings.tabs.installation.reinstall.button": {
-    "message": "й‡Ќж–°е®‰иЈ…ж•ґеђ€еЊ…"
-  },
-  "instance.settings.tabs.installation.reinstall.button.reinstalling": {
-    "message": "ж­ЈењЁй‡Ќж–°е®‰иЈ…ж•ґеђ€еЊ…"
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "й‡Ќж–°е®‰иЈ…е®ћдѕ‹е°†й‡ЌзЅ®ж‰Ђжњ‰е·Іе®‰иЈ…ж€–дї®ж”№зљ„е†…е®№пјЊе№¶жЃўе¤Ќж•ґеђ€еЊ…е€°е€ќе§‹зЉ¶жЂЃпјЊз§»й™¤еЏ¦е¤–ж·»еЉ зљ„ж‰Ђжњ‰е†…е®№гЂ‚иї™ж ·жњ‰еЏЇиѓЅдї®е¤Ќе› е®ћдѕ‹ж›ґж”№еЇји‡ґзљ„еј‚еёёпјЊдЅ†е¦‚жћњдЅ зљ„дё–з•Њдѕќиµ–еЏ¦е¤–ж·»еЉ зљ„е†…е®№пјЊж­¤дёѕеЏЇиѓЅдјљжЌџеќЏзЋ°жњ‰дё–з•ЊгЂ‚"
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "дЅ зЎ®е®љи¦Ѓй‡Ќж–°е®‰иЈ…иЇҐе®ћдѕ‹еђ—пјџ"
-  },
-  "instance.settings.tabs.installation.reinstall.description": {
-    "message": "е°†е®ћдѕ‹зљ„е†…е®№й‡ЌзЅ®дёєеЋџе§‹зЉ¶жЂЃпјЊз§»й™¤дЅ ењЁеЋџе§‹ж•ґеђ€еЊ…еџєзЎЂдёЉж·»еЉ зљ„д»»дЅ•дї®ж”№ж€–е†…е®№гЂ‚"
-  },
-  "instance.settings.tabs.installation.reinstall.title": {
-    "message": "й‡Ќж–°е®‰иЈ…ж•ґеђ€еЊ…"
-  },
-  "instance.settings.tabs.installation.repair.button": {
-    "message": "дї®е¤Ќ"
-  },
-  "instance.settings.tabs.installation.repair.button.repairing": {
-    "message": "дї®е¤Ќдё­"
-  },
-  "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "дї®е¤Ќдјљй‡Ќж–°е®‰иЈ… Minecraft дѕќиµ–йЎ№е№¶жЈЂжџҐжЇеђ¦жњ‰жЌџеќЏгЂ‚е¦‚жћњдЅ зљ„жёёж€Џе› еђЇеЉЁе™Ёз›ёе…ій”™иЇЇж— жі•еђЇеЉЁпјЊиї™еЏЇиѓЅдјљи§Је†ій—®йўпјЊдЅ†дёЌдјљи§Је†ідёЋе·Іе®‰иЈ…жЁЎз»„з›ёе…ізљ„й—®йўж€–еґ©жєѓгЂ‚"
-  },
-  "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "зЎ®е®љдї®е¤ЌиЇҐе®ћдѕ‹еђ—пјџ"
-  },
-  "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "ж­ЈењЁдї®е¤Ќ"
-  },
-  "instance.settings.tabs.installation.reset-selections": {
-    "message": "й‡ЌзЅ®дёєеЅ“е‰Ќз‰€жњ¬"
-  },
-  "instance.settings.tabs.installation.show-all-versions": {
-    "message": "жѕз¤єж‰Ђжњ‰з‰€жњ¬"
-  },
-  "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "е€‡жЌўз‰€жњ¬"
-  },
-  "instance.settings.tabs.installation.tooltip.action.install": {
-    "message": "е®‰иЈ…"
-  },
-  "instance.settings.tabs.installation.tooltip.action.reinstall": {
-    "message": "й‡Ќж–°е®‰иЈ…"
-  },
-  "instance.settings.tabs.installation.tooltip.action.repair": {
-    "message": "дї®е¤Ќ"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "е®‰иЈ…ж—¶ж— жі•{action}"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
-    "message": "з¦»зєїж—¶ж— жі•{action}"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "дї®е¤Ќж—¶ж— жі•{action}"
-  },
-  "instance.settings.tabs.installation.unknown-version": {
-    "message": "пј€жњЄзџҐз‰€жњ¬пј‰"
-  },
-  "instance.settings.tabs.installation.unlink.button": {
-    "message": "и§Јй™¤е®ћдѕ‹е…іиЃ”"
-  },
-  "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "и‹Ґз»§з»­ж“ЌдЅњпјЊиЇҐе®ћдѕ‹е°†ж— жі•й‡Ќж–°е…іиЃ”и‡іеЋџж•ґеђ€еЊ…пјЊй™¤йќће€›е»єе…Ёж–°зљ„е®ћдѕ‹гЂ‚ж­¤еђЋпјЊдёЌе†ЌжЋҐж”¶ж•ґеђ€еЊ…зљ„д»»дЅ•ж›ґж–°пјЊиЇҐе®ћдѕ‹еЏдёєж™®йЂље®ћдѕ‹гЂ‚"
-  },
-  "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "дЅ зЎ®е®љи¦ЃеЏ–ж¶€е…іиЃ”ж­¤е®ћдѕ‹еђ—пјџ"
-  },
-  "instance.settings.tabs.installation.unlink.description": {
-    "message": "иЇҐе®ћдѕ‹е·Іе…іиЃ”и‡іж•ґеђ€еЊ…пјЊе› ж­¤ж— жі•еЌ•з‹¬ж›ґж–°жЁЎз»„пјЊд№џж— жі•ж›ґж”№жЁЎз»„еЉ иЅЅе™Ёе’Њ Minecraft з‰€жњ¬гЂ‚и§Јй™¤е…іиЃ”еђЋпјЊиЇҐе®ћдѕ‹е°†ж— жі•й‡Ќж–°е…іиЃ”и‡іж•ґеђ€еЊ…гЂ‚"
-  },
-  "instance.settings.tabs.installation.unlink.title": {
-    "message": "еЏ–ж¶€ж•ґеђ€еЊ…е…іиЃ”"
   },
   "instance.settings.tabs.java": {
     "message": "Java еЏЉе†…е­"
@@ -486,7 +492,7 @@
     "message": "зЋЇеўѓеЏй‡Џ"
   },
   "instance.settings.tabs.java.hooks": {
-    "message": "й’©е­ђ"
+    "message": "Hooks"
   },
   "instance.settings.tabs.java.java-arguments": {
     "message": "Java еЏ‚ж•°"
@@ -516,7 +522,7 @@
     "message": "жёёж€ЏеђЇеЉЁж—¶зљ„зЄ—еЏЈй«еє¦гЂ‚"
   },
   "instance.settings.tabs.window.height.enter": {
-    "message": "иѕ“е…Ґй«еє¦вЂ¦вЂ¦"
+    "message": "输入高度…"
   },
   "instance.settings.tabs.window.width": {
     "message": "е®Ѕеє¦"
@@ -525,7 +531,7 @@
     "message": "жёёж€ЏеђЇеЉЁж—¶зљ„зЄ—еЏЈе®Ѕеє¦гЂ‚"
   },
   "instance.settings.tabs.window.width.enter": {
-    "message": "иѕ“е…Ґе®Ѕеє¦вЂ¦вЂ¦"
+    "message": "输入宽度…"
   },
   "instance.worlds.a_minecraft_server": {
     "message": "Minecraft жњЌеЉЎе™Ё"
@@ -539,9 +545,6 @@
   "instance.worlds.dont_show_on_home": {
     "message": "ењЁдё»з•Њйќўйљђи—Џ"
   },
-  "instance.worlds.filter.available": {
-    "message": "еЏЇз”Ё"
-  },
   "instance.worlds.game_already_open": {
     "message": "е®ћдѕ‹е·ІеђЇеЉЁ"
   },
@@ -550,6 +553,9 @@
   },
   "instance.worlds.incompatible_server": {
     "message": "жњЌеЉЎе™ЁдёЌе…је®№"
+  },
+  "instance.worlds.linked_server": {
+    "message": "由服务器项目管理"
   },
   "instance.worlds.no_contact": {
     "message": "ж— жі•иїћжЋҐжњЌеЉЎе™Ё"
@@ -562,12 +568,6 @@
   },
   "instance.worlds.play_instance": {
     "message": "жёёзЋ©е®ћдѕ‹"
-  },
-  "instance.worlds.type.server": {
-    "message": "жњЌеЉЎз«Ї"
-  },
-  "instance.worlds.type.singleplayer": {
-    "message": "еЌ•дєєжёёж€Џ"
   },
   "instance.worlds.view_instance": {
     "message": "жџҐзњ‹е®ћдѕ‹"
@@ -585,6 +585,18 @@
     "message": "еЉ иЅЅе™Ёз‰€жњ¬з”±е®ћдѕ‹жЏђдѕ›"
   },
   "search.filter.locked.instance.sync": {
-    "message": "дёЋе®ћдѕ‹еђЊж­Ґ"
+    "message": "与实例同步"
+  },
+  "search.filter.locked.server": {
+    "message": "由该服务器提供"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "只能将客户端模组添加到服务器实例中"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "游戏版本由服务器提供"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "加载器由服务器提供"
   }
 }

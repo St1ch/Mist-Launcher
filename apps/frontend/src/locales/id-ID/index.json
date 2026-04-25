@@ -497,11 +497,23 @@
   "create.project.create-project": {
     "message": "Buat proyek"
   },
+  "create.project.missing-fields-tooltip": {
+    "message": "Bidang hilang: {fields}"
+  },
   "create.project.name-label": {
     "message": "Nama"
   },
   "create.project.name-placeholder": {
     "message": "Masukkan nama proyek..."
+  },
+  "create.project.owner-description": {
+    "message": "Buat diri Anda atau organisasi yang Anda sertai sebagai pemilik proyek."
+  },
+  "create.project.owner-label": {
+    "message": "Pemilik"
+  },
+  "create.project.server-project-title": {
+    "message": "Membuat proyek server"
   },
   "create.project.summary-description": {
     "message": "Satu atau dua kalimat yang menjelaskan proyek Anda."
@@ -514,6 +526,15 @@
   },
   "create.project.title": {
     "message": "Membuat proyek"
+  },
+  "create.project.type-label": {
+    "message": "Jenis"
+  },
+  "create.project.type-project": {
+    "message": "Proyek"
+  },
+  "create.project.type-server": {
+    "message": "Server"
   },
   "create.project.url-label": {
     "message": "URL"
@@ -554,8 +575,20 @@
   "dashboard.collections.button.create-new": {
     "message": "Buat baru"
   },
+  "dashboard.collections.empty.get-started-hint": {
+    "message": "Buat koleksi pertama Anda untuk memulai!"
+  },
+  "dashboard.collections.empty.no-collections": {
+    "message": "Anda belum memiliki koleksi"
+  },
+  "dashboard.collections.empty.no-match": {
+    "message": "Tidak ada koleksi yang cocok dengan pencarian Anda"
+  },
+  "dashboard.collections.empty.no-match-hint": {
+    "message": "Coba sesuaikan kata kunci pencarian atau penyaringan Anda."
+  },
   "dashboard.collections.label.projects-count": {
-    "message": "{count, plural, other {{count} proyek}}"
+    "message": "{count} {countPlural, plural, other {proyek}}"
   },
   "dashboard.collections.label.search-input": {
     "message": "Cari koleksi Anda"
@@ -1077,7 +1110,7 @@
     "message": "Bayar per tiga bulan"
   },
   "hosting-marketing.billing.save-with-quarterly": {
-    "message": "Hemat 16% dengan pembayaran triwulan!"
+    "message": "Hemat 16% dengan penagihan triwulan!"
   },
   "hosting-marketing.billing.starting-at": {
     "message": "Mulai dari {price} / bulan"
@@ -1401,7 +1434,7 @@
     "message": "Untuk Pemain"
   },
   "landing.section.for-players.tagline": {
-    "message": "Temukan lebih dari {count} kreasi"
+    "message": "Temukan lebih dari {count, number} kreasi"
   },
   "landing.subheading": {
     "message": "Temukan, mainkan, dan bagikan konten Minecraft melalui platform sumber terbuka kami yang dibangun untuk komunitas."
@@ -1432,6 +1465,12 @@
   },
   "layout.action.new-project": {
     "message": "Proyek baru"
+  },
+  "layout.action.new-server-project": {
+    "message": "Server baru"
+  },
+  "layout.action.publish": {
+    "message": "Terbitkan"
   },
   "layout.action.reports": {
     "message": "Tinjau laporan"
@@ -1485,7 +1524,7 @@
     "message": "Lengkapi formulir pajak"
   },
   "layout.banner.tax.description": {
-    "message": "Anda telah menarik lebih dari $600 dari Modrinth tahun ini. Untuk mematuhi peraturan perpajakan, Anda harus melengkapi formulir pajak. Penarikan dana Anda dihentikan sementara hingga formulir diajukan."
+    "message": "Anda telah menarik lebih dari {threshold} dari Modrinth tahun ini. Untuk mematuhi peraturan perpajakan, Anda harus melengkapi formulir pajak. Penarikan dana Anda dihentikan sementara hingga formulir diajukan."
   },
   "layout.banner.tax.title": {
     "message": "Formulir pajak diperlukan"
@@ -1615,9 +1654,6 @@
   },
   "layout.nav.discover-content": {
     "message": "Temukan konten"
-  },
-  "layout.nav.feature-flags": {
-    "message": "Bendera fitur"
   },
   "layout.nav.get-modrinth-app": {
     "message": "Dapatkan Modrinth App"
@@ -1763,9 +1799,6 @@
   "muralpay.field.bank-account-number": {
     "message": "Nomor rekening"
   },
-  "muralpay.field.branch-code": {
-    "message": "Kode cabang"
-  },
   "muralpay.field.clabe": {
     "message": "CLABE"
   },
@@ -1795,6 +1828,9 @@
   },
   "muralpay.field.pix-phone": {
     "message": "Gawai PIX"
+  },
+  "muralpay.field.random-key": {
+    "message": "Kunci acak"
   },
   "muralpay.field.routing-number": {
     "message": "Nomor perutean"
@@ -1856,9 +1892,6 @@
   "muralpay.placeholder.enter-account-number": {
     "message": "Masukkan nomor rekening"
   },
-  "muralpay.placeholder.enter-branch-code": {
-    "message": "Masukkan kode cabang"
-  },
   "muralpay.placeholder.enter-clabe": {
     "message": "Masukkan CLABE 18 digit"
   },
@@ -1870,6 +1903,9 @@
   },
   "muralpay.placeholder.enter-pix-email": {
     "message": "Masukkan sur-el PIX"
+  },
+  "muralpay.placeholder.enter-random-key": {
+    "message": "Masukkan kunci acak"
   },
   "muralpay.placeholder.enter-routing-number": {
     "message": "Masukkan nomor perutean 9 digit"
@@ -1998,7 +2034,7 @@
     "message": "Koleksi"
   },
   "profile.label.downloads": {
-    "message": "{count} {count, plural, other {unduhan}}"
+    "message": "{count} {countPlural, plural, other {pengunduhan}}"
   },
   "profile.label.joined": {
     "message": "Telah bergabung"
@@ -2019,7 +2055,7 @@
     "message": "Organisasi"
   },
   "profile.label.projects": {
-    "message": "{count} {count, plural, other {proyek}}"
+    "message": "{count} {countPlural, plural, other {proyek}}"
   },
   "profile.label.saving": {
     "message": "Menyimpan..."
@@ -2102,6 +2138,12 @@
   "project-type.datapack.singular": {
     "message": "Paket Data"
   },
+  "project-type.minecraft_java_server.plural": {
+    "message": "Server"
+  },
+  "project-type.minecraft_java_server.singular": {
+    "message": "Server"
+  },
   "project-type.mod.plural": {
     "message": "Mod"
   },
@@ -2132,6 +2174,12 @@
   "project-type.resourcepack.singular": {
     "message": "Paket Sumber"
   },
+  "project-type.server.plural": {
+    "message": "Server"
+  },
+  "project-type.server.singular": {
+    "message": "Server"
+  },
   "project-type.shader.plural": {
     "message": "Pencorak"
   },
@@ -2145,16 +2193,16 @@
     "message": "Berlisensi {license}"
   },
   "project.about.details.published": {
-    "message": "Diterbitkan pada {date}"
+    "message": "Diterbitkan {date}"
   },
   "project.about.details.submitted": {
-    "message": "Diserahkan pada {date}"
+    "message": "Diserahkan {date}"
   },
   "project.about.details.title": {
     "message": "Perincian"
   },
   "project.about.details.updated": {
-    "message": "Diperbarui pada {date}"
+    "message": "Diperbarui {date}"
   },
   "project.actions.create-server": {
     "message": "Buat server"
@@ -2729,9 +2777,6 @@
   "search.filter.locked.server.sync": {
     "message": "Sinkronkan dengan server"
   },
-  "servers.backup.restore.in-progress.tooltip": {
-    "message": "Sedang memulihkan cadangan"
-  },
   "servers.notice.actions": {
     "message": "Tindakan"
   },
@@ -2762,20 +2807,119 @@
   "servers.plan.large.description": {
     "message": "Cocok untuk 15—25 pemain, paket mod, atau yang penggunakan mod berat."
   },
-  "servers.plan.large.name": {
-    "message": "Besar"
-  },
   "servers.plan.medium.description": {
     "message": "Cocok untuk 6—15 orang pemain dan yang menggunakan beberapa mod."
-  },
-  "servers.plan.medium.name": {
-    "message": "Sedang"
   },
   "servers.plan.small.description": {
     "message": "Cocok untuk 1—5 orang teman dengan beberapa mod ringan."
   },
-  "servers.plan.small.name": {
-    "message": "Kecil"
+  "settings.account.delete.confirm.proceed": {
+    "message": "Hapus akun ini"
+  },
+  "settings.account.delete.confirm.title": {
+    "message": "Apakah Anda yakin ingin menghapus akun ini?"
+  },
+  "settings.account.delete.section.action": {
+    "message": "Hapus akun"
+  },
+  "settings.account.delete.section.description": {
+    "message": "Setelah Anda menghapus akun Anda, tidak ada cara untuk kembali. Menghapus akun Anda akan menghapus semua data terkait, kecuali proyek, dari server kami."
+  },
+  "settings.account.delete.section.title": {
+    "message": "Hapus akun"
+  },
+  "settings.account.email.action.save": {
+    "message": "Simpan sur-el"
+  },
+  "settings.account.email.field.label": {
+    "message": "Alamat sur-el"
+  },
+  "settings.account.email.field.placeholder": {
+    "message": "Masukkan alamat sur-el Anda..."
+  },
+  "settings.account.email.modal.header.add": {
+    "message": "Tambah sur-el"
+  },
+  "settings.account.email.modal.header.change": {
+    "message": "Ubah sur-el"
+  },
+  "settings.account.email.modal.notice": {
+    "message": "Informasi akun Anda tidak ditampilkan secara umum."
+  },
+  "settings.account.password.action.remove": {
+    "message": "Hapus kata sandi"
+  },
+  "settings.account.password.action.save": {
+    "message": "Simpan kata sandi"
+  },
+  "settings.account.password.error.mismatch": {
+    "message": "Kata sandi yang dimasukkan tidak cocok!"
+  },
+  "settings.account.password.field.confirm-current.description": {
+    "message": "Mohon masukkan kata sandi Anda untuk melanjutkan."
+  },
+  "settings.account.password.field.confirm-current.label": {
+    "message": "Konfirmasi kata sandi"
+  },
+  "settings.account.password.field.confirm-current.placeholder": {
+    "message": "Konfirmasi kata sandi"
+  },
+  "settings.account.password.field.confirm-new.label": {
+    "message": "Konfirmasi kata sandi baru"
+  },
+  "settings.account.password.field.confirm-new.placeholder": {
+    "message": "Konfirmasi kata sandi baru"
+  },
+  "settings.account.password.field.new.label": {
+    "message": "Kata sandi baru"
+  },
+  "settings.account.password.field.new.placeholder": {
+    "message": "Kata sandi baru"
+  },
+  "settings.account.password.field.old.label": {
+    "message": "Kata sandi lama"
+  },
+  "settings.account.password.field.old.placeholder": {
+    "message": "Kata sandi lama"
+  },
+  "settings.account.password.modal.header.add": {
+    "message": "Tambah kata sandi"
+  },
+  "settings.account.password.modal.header.change": {
+    "message": "Ubah kata sandi"
+  },
+  "settings.account.password.modal.header.remove": {
+    "message": "Hapus kata sandi"
+  },
+  "settings.account.providers.action.add": {
+    "message": "Tambah"
+  },
+  "settings.account.providers.modal.header": {
+    "message": "Penyedia autentikasi"
+  },
+  "settings.account.providers.table.actions": {
+    "message": "Tindakan"
+  },
+  "settings.account.providers.table.provider": {
+    "message": "Penyedia"
+  },
+  "settings.account.security.email.action.add": {
+    "message": "Tambah sur-el"
+  },
+  "settings.account.security.email.action.change": {
+    "message": "Ubah sur-el"
+  },
+  "settings.account.security.email.description": {
+    "message": "Mengganti sur-el yang berkaitan dengan akun Anda."
+  },
+  "settings.account.security.email.title": {
+    "message": "Sur-el"
+  },
+  "settings.account.security.password.action.add": {
+    "message": "Tambah kata sandi"
+  },
+  "settings.account.security.password.action.change": {
+    "message": "Ubah kata sandi"
   },
   "settings.applications.about": {
     "message": "Tentang"
@@ -2784,7 +2928,7 @@
     "message": "Tambah lagi"
   },
   "settings.applications.button.add-redirect-uri": {
-    "message": "Tidak ada URI pengarahan ulang"
+    "message": "Tambah URI pengarahan ulang"
   },
   "settings.applications.button.cancel": {
     "message": "Batal"
@@ -2814,7 +2958,7 @@
     "message": "Rahasia klien"
   },
   "settings.applications.created-on": {
-    "message": "Dibuat pada {date}"
+    "message": "Dibuat {date}"
   },
   "settings.applications.delete.confirm.button": {
     "message": "Hapus aplikasi ini"
@@ -2860,9 +3004,6 @@
   },
   "settings.applications.modal.header": {
     "message": "Informasi aplikasi"
-  },
-  "settings.applications.notification.error.title": {
-    "message": "Terjadi kesalahan"
   },
   "settings.applications.notification.icon-updated.description": {
     "message": "Ikon aplikasi Anda telah diperbarui."
@@ -2954,6 +3095,9 @@
   "settings.display.project-list-layouts.resourcepack": {
     "message": "Halaman Paket Sumber"
   },
+  "settings.display.project-list-layouts.server": {
+    "message": "Halaman Server"
+  },
   "settings.display.project-list-layouts.shader": {
     "message": "Halaman Pencorak (Shader)"
   },
@@ -3006,7 +3150,7 @@
     "message": "Buat PAT"
   },
   "settings.pats.description": {
-    "message": "PAT dapat digunakan untuk mengakses API Modrinth. Untuk informasi lebih lanjut, lihat <doc-link>Dokumentasi API Modrinth</doc-link>. Mereka dapat dibuat dan dicabut kapan saja."
+    "message": "PAT dapat digunakan untuk mengakses API Modrinth dan dapat dibuat dan dicabut kapan saja. Untuk informasi lebih lanjut, lihat <doc-link>dokumentasi API Modrinth</doc-link>."
   },
   "settings.pats.modal.create.action": {
     "message": "Buat PAT"
@@ -3097,6 +3241,12 @@
   },
   "ui.latest-news-row.view-all": {
     "message": "Lihat semua berita"
+  },
+  "ui.newsletter-button.subscribe": {
+    "message": "Berlangganan"
+  },
+  "ui.newsletter-button.subscribed": {
+    "message": "Sudah berlangganan!"
   },
   "version.environment.none.description": {
     "message": "Lingkungan untuk versi ini belum ditentukan."

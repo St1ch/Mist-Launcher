@@ -5,6 +5,153 @@
   "app.auth-servers.unreachable.header": {
     "message": "Nie udaЕ‚o siД™ poЕ‚Д…czyД‡ siД™ z serwerami uwierzytelniania"
   },
+  "app.browse.add-server-to-instance": {
+    "message": "Dodaj serwer do instancji"
+  },
+  "app.browse.add-servers-to-instance": {
+    "message": "Dodaj serwery do swojej instancji"
+  },
+  "app.browse.add-to-instance": {
+    "message": "Dodaj do instancji"
+  },
+  "app.browse.add-to-instance-name": {
+    "message": "Dodaj do {instanceName}"
+  },
+  "app.browse.added": {
+    "message": "Dodano"
+  },
+  "app.browse.already-added": {
+    "message": "Już dodano"
+  },
+  "app.browse.discover-content": {
+    "message": "Odkrywaj zawartość"
+  },
+  "app.browse.discover-servers": {
+    "message": "Odkryj serwery"
+  },
+  "app.browse.hide-added-servers": {
+    "message": "Ukryj dodane serwery"
+  },
+  "app.browse.hide-installed-content": {
+    "message": "Ukryj zainstalowane zasoby"
+  },
+  "app.browse.install-content-to-instance": {
+    "message": "Zainstaluj zasoby do instancji"
+  },
+  "app.export-modal.description-placeholder": {
+    "message": "Wprowadź opis paczki modów..."
+  },
+  "app.export-modal.export-button": {
+    "message": "Eksportuj"
+  },
+  "app.export-modal.header": {
+    "message": "Eksportuj paczkę modów"
+  },
+  "app.export-modal.modpack-name-label": {
+    "message": "Nazwa paczki modów"
+  },
+  "app.export-modal.modpack-name-placeholder": {
+    "message": "Nazwa paczki modów"
+  },
+  "app.export-modal.select-files-label": {
+    "message": "Wybierz pliki i foldery, które mają znaleźć się w paczce"
+  },
+  "app.export-modal.version-number-label": {
+    "message": "Numer wersji"
+  },
+  "app.export-modal.version-number-placeholder": {
+    "message": "1.0.0"
+  },
+  "app.instance.confirm-delete.admonition-body": {
+    "message": "Wszystkie dane z Twojej instancji zostaną trwale usunięte, w tym Twoje światy, pliki konfiguracji i wszystkie zainstalowane treści."
+  },
+  "app.instance.confirm-delete.admonition-header": {
+    "message": "Tej akcji nie można odwrócić"
+  },
+  "app.instance.confirm-delete.delete-button": {
+    "message": "Usuń instancję"
+  },
+  "app.instance.confirm-delete.header": {
+    "message": "Usuń instancję"
+  },
+  "app.instance.modpack-already-installed.body": {
+    "message": "Ta paczka modów jest już zainstalowana w instancji <bold>{instanceName}</bold>. Czy na pewno chcesz utworzyć duplikat?"
+  },
+  "app.instance.modpack-already-installed.create": {
+    "message": "Utwórz"
+  },
+  "app.instance.modpack-already-installed.header": {
+    "message": "Paczka modów jest już zainstalowana"
+  },
+  "app.instance.modpack-already-installed.instance": {
+    "message": "Instalacja"
+  },
+  "app.instance.mods.content-type-project": {
+    "message": "projekt"
+  },
+  "app.instance.mods.project-was-added": {
+    "message": "Dodano \"{name}\""
+  },
+  "app.instance.mods.projects-were-added": {
+    "message": "Dodano {count} {count, plural, one {projekt} few {projekty} other {projektów}}"
+  },
+  "app.instance.mods.share-text": {
+    "message": "Sprawdź projekty, które używam w mojej paczce modów!"
+  },
+  "app.instance.mods.share-title": {
+    "message": "Udostępnianie zawartości paczki modów"
+  },
+  "app.instance.mods.successfully-uploaded": {
+    "message": "Przesyłanie powiodło się"
+  },
+  "app.instance.worlds.add-server": {
+    "message": "Dodaj serwer"
+  },
+  "app.instance.worlds.browse-servers": {
+    "message": "Szukaj serwerów"
+  },
+  "app.instance.worlds.delete-world-description": {
+    "message": "'{name}' zostanie **permanentnie usunięty** i nie ma możliwości go odzyskać."
+  },
+  "app.instance.worlds.delete-world-title": {
+    "message": "Czy na pewno chcesz trwale usunąć ten świat?"
+  },
+  "app.instance.worlds.filter-modded": {
+    "message": "Zmodowany"
+  },
+  "app.instance.worlds.filter-offline": {
+    "message": "Offline"
+  },
+  "app.instance.worlds.filter-online": {
+    "message": "Online"
+  },
+  "app.instance.worlds.filter-vanilla": {
+    "message": "Vanilla"
+  },
+  "app.instance.worlds.no-worlds-description": {
+    "message": "Dodaj serwer lub szukaj, aby rozpocząć"
+  },
+  "app.instance.worlds.no-worlds-heading": {
+    "message": "Nie dodano żadnych światów ani serwerów"
+  },
+  "app.instance.worlds.remove-server-description": {
+    "message": "'{name}' zostanie usunięty z twojej listy, również z gry, i nie będzie możliwości go odzyskać."
+  },
+  "app.instance.worlds.remove-server-description-with-address": {
+    "message": "'{name}' ({address}) zostanie usunięty z twojej listy, również z gry, i nie będzie możliwości go odzyskać."
+  },
+  "app.instance.worlds.remove-server-title": {
+    "message": "Czy jesteś pewny, że chcesz usunąć {name}?"
+  },
+  "app.instance.worlds.search-worlds-placeholder": {
+    "message": "Szukaj wśród {count} światów..."
+  },
+  "app.instance.worlds.this-server": {
+    "message": "ten serwer"
+  },
+  "app.modal.install-to-play.content-required": {
+    "message": "Wymagane treści"
+  },
   "app.modal.install-to-play.header": {
     "message": "Zainstaluj, aby graД‡"
   },
@@ -14,8 +161,11 @@
   "app.modal.install-to-play.mod-count": {
     "message": "{count, plural, one {# mod} few {# mody} other {# modГіw}}"
   },
+  "app.modal.install-to-play.required-modpack": {
+    "message": "Wymagana paczka modów"
+  },
   "app.modal.install-to-play.server-requires-mods": {
-    "message": "Ten serwer potrzebuje modГіw, aby graД‡. Kliknij, instaluj, aby ustawiД‡ potrzebne pliki z Modrinth."
+    "message": "Ten serwer wymaga modów, aby na nim grać. Kliknij \"Zainstaluj\" aby otrzymać potrzebne pliki z Modrinth, a potem dołącz bezpośrednio do serwera."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "WspГіlna instancja"
@@ -23,35 +173,17 @@
   "app.modal.install-to-play.shared-server-instance": {
     "message": "WspГіlna instancja serwera"
   },
-  "app.modal.update-to-play.added-count": {
-    "message": "Dodano {count}"
-  },
-  "app.modal.update-to-play.diff-type.added": {
-    "message": "Dodano"
-  },
-  "app.modal.update-to-play.diff-type.removed": {
-    "message": "UsuniД™to"
-  },
-  "app.modal.update-to-play.diff-type.updated": {
-    "message": "Zaktualizowano"
+  "app.modal.install-to-play.view-contents": {
+    "message": "Pokaż zawartość"
   },
   "app.modal.update-to-play.header": {
     "message": "Zaktualizuj, by graД‡"
-  },
-  "app.modal.update-to-play.published-date": {
-    "message": "{date, date, long}"
-  },
-  "app.modal.update-to-play.removed-count": {
-    "message": "UsuniД™to {count}"
   },
   "app.modal.update-to-play.update-required": {
     "message": "Wymagana jest aktualizacja"
   },
   "app.modal.update-to-play.update-required-description": {
     "message": "Aktualizacja jest wymagana, aby graД‡ w {name}. ProszД™ zaktualizowaД‡ do najnowszej wersji, aby uruchomiД‡ grД™."
-  },
-  "app.modal.update-to-play.updated-count": {
-    "message": "Zaktualizowano {count}"
   },
   "app.settings.developer-mode-enabled": {
     "message": "Tryb dewelopera wЕ‚Д…czony."
@@ -65,9 +197,6 @@
   "app.settings.tabs.default-instance-options": {
     "message": "DomyЕ›lne opcje instancji"
   },
-  "app.settings.tabs.feature-flags": {
-    "message": "Flagi funkcji"
-  },
   "app.settings.tabs.java-installations": {
     "message": "Instalacje Java"
   },
@@ -80,38 +209,32 @@
   "app.settings.tabs.resource-management": {
     "message": "ZarzД…dzanie zasobami"
   },
-  "app.update-toast.body": {
-    "message": "Wersja Mist Launcher v{version} jest gotowa do zainstalowania! OdЕ›wieЕј, Ејeby zaktualizowaД‡ teraz, albo automatycznie, gdy zamkniesz aplikacje Modrinth."
+  "app.update-popup.body": {
+    "message": "Wersja Mist Launcher v{version} jest gotowa do zainstalowania! Załaduj ponownie, żeby zaktualizować teraz, albo automatycznie, gdy zamkniesz Mist Launcher."
   },
-  "app.update-toast.body.download-complete": {
-    "message": "Wersja Mist Launcher v{version} zostaЕ‚a pobrana. OdЕ›wieЕј, Ејeby zaktualizowaД‡ teraz, albo automatycznie, gdy zamkniesz Mist Launcher."
+  "app.update-popup.body.download-complete": {
+    "message": "Wersja Mist Launcher v{version} została pobrana. Załaduj ponownie, żeby zaktualizować teraz, albo automatycznie, gdy zamkniesz Mist Launcher."
   },
-  "app.update-toast.body.linux": {
-    "message": "Mist Launcher v{version} jest dostД™pna. UЕјyj menedЕјera pakietГіw, aby zaktualizowaД‡ i uzyskaД‡ najnowsze funkcje i poprawki!"
+  "app.update-popup.body.linux": {
+    "message": "Wersja Mist Launcher v{version} jest dostępna. Pobierz aktualizację poprzez menedżer pakietów, by uzyskać najnowsze funkcje i poprawki!"
   },
-  "app.update-toast.body.metered": {
-    "message": "Wersja v{version} Mist Launcher jest dostД™pna! Skoro korzystasz z sieci taryfowej, nie pobraliЕ›my jej automatycznie."
+  "app.update-popup.body.metered": {
+    "message": "Wersja Mist Launcher v{version} jest dostępna! Skoro korzystasz z sieci taryfowej, nie pobraliśmy jej automatycznie."
   },
-  "app.update-toast.changelog": {
+  "app.update-popup.changelog": {
     "message": "Dziennik zmian"
   },
-  "app.update-toast.download": {
+  "app.update-popup.download": {
     "message": "Pobierz ({size})"
   },
-  "app.update-toast.download-page": {
-    "message": "Pobierz"
+  "app.update-popup.download-complete": {
+    "message": "Pobieranie ukończone"
   },
-  "app.update-toast.downloading": {
-    "message": "Pobieranie..."
+  "app.update-popup.reload": {
+    "message": "Załaduj ponownie"
   },
-  "app.update-toast.reload": {
-    "message": "ZaЕ‚aduj ponownie"
-  },
-  "app.update-toast.title": {
-    "message": "DostД™pna aktualizacja"
-  },
-  "app.update-toast.title.download-complete": {
-    "message": "Pobieranie ukoЕ„czone"
+  "app.update-popup.title": {
+    "message": "Dostępna aktualizacja"
   },
   "app.update.complete-toast.text": {
     "message": "Kliknij, by pokazaД‡ dziennik zmian."
@@ -127,6 +250,24 @@
   },
   "app.update.reload-to-update": {
     "message": "ZaЕ‚aduj ponownie, aby zainstalowaД‡ aktualizacjД™"
+  },
+  "app.world.server-modal.placeholder-address": {
+    "message": "example.modrinth.gg"
+  },
+  "app.world.server-modal.select-an-option": {
+    "message": "Wybierz opcję"
+  },
+  "app.world.world-item.incompatible-version": {
+    "message": "Niekompatybilna wersja {version}"
+  },
+  "app.world.world-item.not-played-yet": {
+    "message": "Jeszcze nie grano"
+  },
+  "app.world.world-item.offline": {
+    "message": "Offline"
+  },
+  "app.world.world-item.players-online": {
+    "message": "{count} online"
   },
   "friends.action.add-friend": {
     "message": "Dodaj znajomego"
@@ -227,11 +368,11 @@
   "instance.edit-world.title": {
     "message": "Edytuj Е›wiat"
   },
-  "instance.filter.disabled": {
-    "message": "WyЕ‚Д…czone projekty"
+  "instance.files.adding-files": {
+    "message": "Dodawanie plików ({completed}/{total})"
   },
-  "instance.filter.updates-available": {
-    "message": "DostД™pne aktualizacje"
+  "instance.files.save-as": {
+    "message": "Zapisz jako..."
   },
   "instance.server-modal.address": {
     "message": "Adres"
@@ -341,140 +482,8 @@
   "instance.settings.tabs.installation": {
     "message": "Instalacja"
   },
-  "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "{platform} {version} dla Minecraft {game_version} jest juЕј zainstalowana"
-  },
-  "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "Vanilla {game_version} jest juЕј zainstalowana"
-  },
-  "instance.settings.tabs.installation.change-version.button": {
-    "message": "ZmieЕ„ wersjД™"
-  },
-  "instance.settings.tabs.installation.change-version.button.install": {
-    "message": "Zainstaluj"
-  },
-  "instance.settings.tabs.installation.change-version.button.installing": {
-    "message": "Instalowanie"
-  },
-  "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "Pobieranie wersji paczki modГіw"
-  },
-  "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "Instalowanie nowej wersji"
-  },
-  "instance.settings.tabs.installation.currently-installed": {
-    "message": "Obecnie zainstalowane"
-  },
-  "instance.settings.tabs.installation.debug-information": {
-    "message": "Informacje dotyczД…ce debugowania:"
-  },
-  "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "Pobieranie szczegГіЕ‚Гіw paczki modГіw"
-  },
-  "instance.settings.tabs.installation.game-version": {
-    "message": "Wersja gry"
-  },
-  "instance.settings.tabs.installation.install": {
-    "message": "Zainstaluj"
-  },
-  "instance.settings.tabs.installation.install.in-progress": {
-    "message": "Trwa instalowanie"
-  },
   "instance.settings.tabs.installation.loader-version": {
     "message": "Wersja {loader}"
-  },
-  "instance.settings.tabs.installation.minecraft-version": {
-    "message": "Minecraft {version}"
-  },
-  "instance.settings.tabs.installation.no-connection": {
-    "message": "Nie moЕјna pobraД‡ powiД…zanych szczegГіЕ‚Гіw paczki modГіw. SprawdЕє swoje poЕ‚Д…czenie internetowe."
-  },
-  "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader} nie jest dostД™pny dla Minecraft {version}. SprГіbuj inny."
-  },
-  "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "Ta instancja jest poЕ‚Д…czona z paczkД… modГіw, ale nie udaЕ‚o siД™ znaleЕєД‡ tej paczki modГіw na Modrinth."
-  },
-  "instance.settings.tabs.installation.platform": {
-    "message": "Platforma"
-  },
-  "instance.settings.tabs.installation.reinstall.button": {
-    "message": "Zainstaluj paczkД™ modГіw ponownie"
-  },
-  "instance.settings.tabs.installation.reinstall.button.reinstalling": {
-    "message": "Ponowne instalowanie paczki modГіw"
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "Ponowne instalowanie zresetuje caЕ‚Д… zainstalowanД… lub zmodyfikowanД… zawartoЕ›Д‡ do stanu podanego przez paczkД™ modГіw, usuwajД…c jakiekolwiek mody lub zawartoЕ›Д‡, ktГіrД… dodaЕ‚eЕ›(-aЕ›) ponad oryginalnД… instalacjД™. MoЕјe to naprawiД‡ nieoczekiwane zachowanie, jeЕ›li instancja zostaЕ‚a zmieniona, ale jeЕ›li Twoje istniejД…ce Е›wiaty polegajД… na dodatkowej zawartoЕ›ci, ktГіrД… zainstalowaЕ‚eЕ›, moЕјe to je zepsuД‡."
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "Czy jesteЕ› pewien, Ејe chcesz ponownie zainstalowaД‡ tД™ instancjД™?"
-  },
-  "instance.settings.tabs.installation.reinstall.description": {
-    "message": "Resetuje zawartoЕ›Д‡ instancji do jej oryginalnego stanu, usuwajД…c jakiekolwiek modyfikacje lub zawartoЕ›Д‡ ktГіrД… dodano do paczki modГіw."
-  },
-  "instance.settings.tabs.installation.reinstall.title": {
-    "message": "Ponownie zainstaluj paczkД™ modГіw"
-  },
-  "instance.settings.tabs.installation.repair.button": {
-    "message": "Napraw"
-  },
-  "instance.settings.tabs.installation.repair.button.repairing": {
-    "message": "Naprawianie"
-  },
-  "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "Naprawa ponownie instaluje zaleЕјnoЕ›ci Minecraft i sprawdza, czy nie sД… one uszkodzone. MoЕјe to rozwiД…zaД‡ problemy, jeЕ›li gra nie uruchomi siД™ z powodu bЕ‚Д™dГіw zwiД…zanych z launcherem, ale nie rozwiД…Ејe problemГіw zwiД…zanych z zainstalowanymi modami."
-  },
-  "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "NaprawiД‡ instancjД™?"
-  },
-  "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "Trwa naprawianie"
-  },
-  "instance.settings.tabs.installation.reset-selections": {
-    "message": "Resetuj do aktualnego"
-  },
-  "instance.settings.tabs.installation.show-all-versions": {
-    "message": "PokaЕј wszystkie wersje"
-  },
-  "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "zmieЕ„ wersjД™"
-  },
-  "instance.settings.tabs.installation.tooltip.action.install": {
-    "message": "zainstaluj"
-  },
-  "instance.settings.tabs.installation.tooltip.action.reinstall": {
-    "message": "zainstaluj ponownie"
-  },
-  "instance.settings.tabs.installation.tooltip.action.repair": {
-    "message": "napraw"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "Podczas instalowania nie moЕјna wykonaД‡: {action}"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
-    "message": "Nie moЕјesz {action} podczas bycia offline"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "Podczas naprawiania nie moЕјna wykonaД‡: {action}"
-  },
-  "instance.settings.tabs.installation.unknown-version": {
-    "message": "(nieznana wersja)"
-  },
-  "instance.settings.tabs.installation.unlink.button": {
-    "message": "RozЕ‚Д…cz instancjД™"
-  },
-  "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "JeЕ›li przejdziesz dalej, nie bД™dziesz mГіgЕ‚ jej ponownie zЕ‚Д…czyД‡, bez tworzenia kompletnie nowej instancji. Nie bД™dziesz otrzymywaЕ‚ aktualizacji paczki modГіw i zamieni siД™ w normalnД… instancjД™."
-  },
-  "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "Czy jesteЕ› pewien, Ејe chcesz rozЕ‚Д…czyД‡ tД™ instancjД™?"
-  },
-  "instance.settings.tabs.installation.unlink.description": {
-    "message": "Ta instancja jest powiД…zana z paczkД… modГіw, co oznacza, Ејe mody nie mogД… byД‡ aktualizowane i nie moЕјna zmieniД‡ silnika gry ani wersji Minecrafta. OdЕ‚Д…czenie spowoduje trwaЕ‚e odЕ‚Д…czenie tej instancji od paczki modГіw."
-  },
-  "instance.settings.tabs.installation.unlink.title": {
-    "message": "RozЕ‚Д…cz od paczki modГіw"
   },
   "instance.settings.tabs.java": {
     "message": "Java i pamiД™Д‡"
@@ -536,9 +545,6 @@
   "instance.worlds.dont_show_on_home": {
     "message": "Nie pokazuj na stronie gЕ‚Гіwnej"
   },
-  "instance.worlds.filter.available": {
-    "message": "DostД™pny"
-  },
   "instance.worlds.game_already_open": {
     "message": "Instancja jest juЕј otwarta"
   },
@@ -547,6 +553,9 @@
   },
   "instance.worlds.incompatible_server": {
     "message": "Serwer jest nie kompatybilny"
+  },
+  "instance.worlds.linked_server": {
+    "message": "Zarządzane przez serwer"
   },
   "instance.worlds.no_contact": {
     "message": "Nie moЕјna nawiД…zaД‡ poЕ‚Д…czenia z serwerem"
@@ -559,12 +568,6 @@
   },
   "instance.worlds.play_instance": {
     "message": "Zagraj"
-  },
-  "instance.worlds.type.server": {
-    "message": "Serwer"
-  },
-  "instance.worlds.type.singleplayer": {
-    "message": "Tryb jednoosobowy"
   },
   "instance.worlds.view_instance": {
     "message": "Zobacz instancjД™"
@@ -582,6 +585,18 @@
     "message": "Loader jest dostarczony przez instancjД™"
   },
   "search.filter.locked.instance.sync": {
-    "message": "Synchronizuj z instancjД…"
+    "message": "Synchronizuj z instancją"
+  },
+  "search.filter.locked.server": {
+    "message": "Dostarczone przez serwer"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "Tylko mody po stronie klienta mogą być dodane do instancji serwera"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "Wersja gry jest dostarczona przez serwer"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "Loader jest dostarczony przez serwer"
   }
 }

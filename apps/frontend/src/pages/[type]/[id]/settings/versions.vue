@@ -28,7 +28,7 @@
 				(version: any) =>
 					`/${project.project_type}/${
 						project.slug ? project.slug : project.id
-					}/version/${encodeURI(version.displayUrlEnding)}`
+					}/version/${encodeURI(version.displayUrlEnding ? version.displayUrlEnding : version.id)}`
 			"
 			:open-modal="currentMember ? () => handleOpenCreateVersionModal() : undefined"
 		>
@@ -89,7 +89,7 @@
 								action: () => {},
 								link: `/${project.project_type}/${
 									project.slug ? project.slug : project.id
-								}/version/${encodeURI(version.displayUrlEnding)}`,
+								}/version/${encodeURI(version.displayUrlEnding ? version.displayUrlEnding : version.id)}`,
 								external: true,
 							},
 							{
@@ -98,7 +98,7 @@
 									copyToClipboard(
 										`https://modrinth.com/${project.project_type}/${
 											project.slug ? project.slug : project.id
-										}/version/${encodeURI(version.displayUrlEnding)}`,
+										}/version/${encodeURI(version.displayUrlEnding ? version.displayUrlEnding : version.id)}`,
 									),
 							},
 							{
@@ -110,7 +110,8 @@
 								id: 'report',
 								color: 'red',
 								hoverFilled: true,
-								action: () => (auth.user ? reportVersion(version.id) : navigateTo('/auth/sign-in')),
+								action: () =>
+									auth.user ? reportVersion(version.id) : navigateTo(getSignInRouteObj(route)),
 								shown: !currentMember,
 							},
 							{ divider: true, shown: !!currentMember || flags.developerMode },
@@ -208,7 +209,7 @@
 		</ProjectPageVersions>
 
 		<template v-if="!versions?.length">
-			<div class="grid place-content-center py-10">
+			<div class="grid place-items-center py-10">
 				<svg
 					width="250"
 					height="200"
@@ -307,7 +308,10 @@ import {
 import { useTemplateRef } from 'vue'
 
 import CreateProjectVersionModal from '~/components/ui/create-project-version/CreateProjectVersionModal.vue'
+import { getSignInRouteObj } from '~/composables/auth.js'
 import { reportVersion } from '~/utils/report-helpers.ts'
+
+const route = useRoute()
 
 const client = injectModrinthClient()
 const { addNotification } = injectNotificationManager()
@@ -315,7 +319,7 @@ const {
 	projectV2: project,
 	currentMember,
 	versions,
-	refreshVersions,
+	invalidate,
 	loadVersions,
 } = injectProjectPageContext()
 
@@ -387,7 +391,7 @@ async function deleteVersion() {
 		})
 	}
 
-	refreshVersions()
+	await invalidate()
 	selectedVersion.value = null
 
 	stopLoading()

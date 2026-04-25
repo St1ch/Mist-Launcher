@@ -5,6 +5,42 @@
   "app.auth-servers.unreachable.header": {
     "message": "Nu se pot accesa serverele de autentificare"
   },
+  "app.modal.install-to-play.content-required": {
+    "message": "Conținut necesar"
+  },
+  "app.modal.install-to-play.header": {
+    "message": "Instalați pentru a juca"
+  },
+  "app.modal.install-to-play.install-button": {
+    "message": "Instalează"
+  },
+  "app.modal.install-to-play.mod-count": {
+    "message": "{count, plural,one {#mod} other {# moduri}}"
+  },
+  "app.modal.install-to-play.required-modpack": {
+    "message": "Pachet de mod necesar"
+  },
+  "app.modal.install-to-play.server-requires-mods": {
+    "message": "Acest server necesită modificări pentru a juca. Faceți clic pe Instalare pentru a configura fișierele necesare din Modrinth, apoi lansați direct pe server."
+  },
+  "app.modal.install-to-play.shared-instance": {
+    "message": "Instanță comună"
+  },
+  "app.modal.install-to-play.shared-server-instance": {
+    "message": "Instanță de server partajată"
+  },
+  "app.modal.install-to-play.view-contents": {
+    "message": "Vizualizați conținutul"
+  },
+  "app.modal.update-to-play.header": {
+    "message": "Actualizați pentru a juca"
+  },
+  "app.modal.update-to-play.update-required": {
+    "message": "Actualizare necesară"
+  },
+  "app.modal.update-to-play.update-required-description": {
+    "message": "Este necesară o actualizare pentru a juca {name}. Vă rugăm să actualizați la cea mai recentă versiune pentru a lansa jocul."
+  },
   "app.settings.developer-mode-enabled": {
     "message": "Modul dezvoltator activat."
   },
@@ -16,9 +52,6 @@
   },
   "app.settings.tabs.default-instance-options": {
     "message": "OpИ›iuni implicite instanИ›Дѓ"
-  },
-  "app.settings.tabs.feature-flags": {
-    "message": "Controale funcИ›ionalitate"
   },
   "app.settings.tabs.java-installations": {
     "message": "InstalДѓri Java"
@@ -32,32 +65,32 @@
   "app.settings.tabs.resource-management": {
     "message": "Administrare resurse"
   },
-  "app.update-toast.body": {
-    "message": "Mist Launcher v{version} este gata de instalare! ReГ®ncarcДѓ pentru a actualiza acum, sau automat cГўnd Г®nchizi Mist Launcher."
+  "app.update-popup.body": {
+    "message": "Aplicația Modrinth v{version} este gata de instalat! Reîncărcați pentru a actualiza acum sau automat când închideți aplicația Modrinth."
   },
-  "app.update-toast.body.download-complete": {
-    "message": "Mist Launcher v{version} a terminat descДѓrcarea. ReГ®ncarcДѓ pentru a actualiza acum, sau automat cГўnd Г®nchizi Mist Launcher."
+  "app.update-popup.body.download-complete": {
+    "message": "Aplicația Modrinth v{version} a terminat descărcarea. Reîncărcați pentru a actualiza acum sau automat când închideți aplicația Modrinth."
   },
-  "app.update-toast.body.metered": {
-    "message": "Mist Launcher v{version} este disponibilДѓ acum! Deoarece eИ™ti pe o reИ›ea cu trafic limitat, nu am descДѓrcat-o automat."
+  "app.update-popup.body.linux": {
+    "message": "Aplicația Modrinth v{version} este disponibil. Utilizați managerul de pachete pentru a actualiza pentru cele mai recente funcții și remedieri!"
   },
-  "app.update-toast.changelog": {
-    "message": "Istoric modificДѓri"
+  "app.update-popup.body.metered": {
+    "message": "Aplicația Modrinth v{version} este disponibil acum! Deoarece sunteți într-o rețea cu contorizare, nu am descărcat-o automat."
   },
-  "app.update-toast.download": {
-    "message": "DescarcДѓ ({size})"
+  "app.update-popup.changelog": {
+    "message": "Jurnalul modificărilor"
   },
-  "app.update-toast.downloading": {
-    "message": "Se descarcДѓ..."
+  "app.update-popup.download": {
+    "message": "Descărcați ({size})"
   },
-  "app.update-toast.reload": {
-    "message": "ReГ®ncarcДѓ"
+  "app.update-popup.download-complete": {
+    "message": "Descărcare finalizată"
   },
-  "app.update-toast.title": {
-    "message": "Actualizare disponibilДѓ"
+  "app.update-popup.reload": {
+    "message": "Reîncărcați"
   },
-  "app.update-toast.title.download-complete": {
-    "message": "DescДѓrcare completДѓ"
+  "app.update-popup.title": {
+    "message": "Actualizare disponibilă"
   },
   "app.update.complete-toast.text": {
     "message": "ApasДѓ aici pentru a vedea istoricul de modificДѓri."
@@ -74,8 +107,14 @@
   "app.update.reload-to-update": {
     "message": "ReГ®ncarcДѓ pentru a instala actualizarea"
   },
+  "app.world.server-modal.select-an-option": {
+    "message": "Selectează o opțiune"
+  },
   "friends.action.add-friend": {
     "message": "AdaugДѓ un prieten"
+  },
+  "friends.action.view-friend-requests": {
+    "message": "{count} prieten {count, plural,one {cerere} other {cerere}}"
   },
   "friends.add-friend.submit": {
     "message": "Trimite cerere de prietenie"
@@ -128,6 +167,9 @@
   "friends.search-friends-placeholder": {
     "message": "CautДѓ prieteni..."
   },
+  "friends.section.heading": {
+    "message": "{title} - {count}"
+  },
   "friends.sign-in-to-add-friends": {
     "message": "<link>ConecteazДѓ-te la un cont Modrinth</link> pentru a adДѓuga prieteni И™i a vedea ce joacДѓ!"
   },
@@ -166,12 +208,6 @@
   },
   "instance.edit-world.title": {
     "message": "EditeazДѓ lumea"
-  },
-  "instance.filter.disabled": {
-    "message": "Proiecte dezactivate"
-  },
-  "instance.filter.updates-available": {
-    "message": "ActualizДѓri disponibile"
   },
   "instance.server-modal.address": {
     "message": "AdresДѓ"
@@ -281,140 +317,8 @@
   "instance.settings.tabs.installation": {
     "message": "Instalare"
   },
-  "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "Versiunea {version} a platformei {platform} pentru Minecraft {game_version} este deja instalatДѓ"
-  },
-  "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "Versiunea Vanilla {game_version} este deja instalatДѓ"
-  },
-  "instance.settings.tabs.installation.change-version.button": {
-    "message": "SchimbДѓ versiunea"
-  },
-  "instance.settings.tabs.installation.change-version.button.install": {
-    "message": "InstaleazДѓ"
-  },
-  "instance.settings.tabs.installation.change-version.button.installing": {
-    "message": "Se instaleazДѓ"
-  },
-  "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "Se obИ›in versiunile pachetului de moduri"
-  },
-  "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "Se instaleazДѓ noua versiune"
-  },
-  "instance.settings.tabs.installation.currently-installed": {
-    "message": "Instalat Г®n prezent"
-  },
-  "instance.settings.tabs.installation.debug-information": {
-    "message": "InformaИ›ii de depanare:"
-  },
-  "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "Se obИ›in detaliile pachetului de moduri"
-  },
-  "instance.settings.tabs.installation.game-version": {
-    "message": "Versiune joc"
-  },
-  "instance.settings.tabs.installation.install": {
-    "message": "InstaleazДѓ"
-  },
-  "instance.settings.tabs.installation.install.in-progress": {
-    "message": "Instalare Г®n progres"
-  },
   "instance.settings.tabs.installation.loader-version": {
     "message": "Versiune {loader}"
-  },
-  "instance.settings.tabs.installation.minecraft-version": {
-    "message": "Minecraft {version}"
-  },
-  "instance.settings.tabs.installation.no-connection": {
-    "message": "Nu s-au putut obИ›ine detaliile pachetului de moduri. Te tog verificДѓ-И›i conexiunea la internet."
-  },
-  "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader} nu este valabil pentru Minecraft {version}. Te rog Г®ncercДѓ alt loader de moduri."
-  },
-  "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "InstanИ›a este legatДѓ de un pachet de moduri, dar pachetul de moduri nu a putut fi gДѓsit pe Modrinth."
-  },
-  "instance.settings.tabs.installation.platform": {
-    "message": "PlatformДѓ"
-  },
-  "instance.settings.tabs.installation.reinstall.button": {
-    "message": "ReinstaleazДѓ pachetul de moduri"
-  },
-  "instance.settings.tabs.installation.reinstall.button.reinstalling": {
-    "message": "Se reinstaleazДѓ pachetul de moduri"
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "Reinstalarea va reseta tot conИ›inutul instalat sau modificat la starea iniИ›ialДѓ a pachetului de moduri, eliminГўnd orice moduri sau conИ›inut pe care le-ai adДѓugat tu. Acest lucru poate rezolva un comportament neaИ™teptat dacДѓ s-au fДѓcut modificДѓri instanИ›ei, dar dacДѓ lumile tale depind acum de conИ›inut suplimentar instalat, este posibil ca ele sДѓ nu mai funcИ›ioneze corect."
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "EИ™ti sigur cДѓ doreИ™ti sДѓ reinstalezi aceastДѓ instanИ›Дѓ?"
-  },
-  "instance.settings.tabs.installation.reinstall.description": {
-    "message": "ReseteazДѓ conИ›inutul instanИ›ei la starea sa iniИ›ialДѓ, eliminГўnd orice moduri sau conИ›inut pe care le-ai adДѓugat peste pachetul de moduri original."
-  },
-  "instance.settings.tabs.installation.reinstall.title": {
-    "message": "ReinstaleazДѓ pachetul de moduri"
-  },
-  "instance.settings.tabs.installation.repair.button": {
-    "message": "ReparДѓ"
-  },
-  "instance.settings.tabs.installation.repair.button.repairing": {
-    "message": "Se reparДѓ"
-  },
-  "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "Repararea reinstaleazДѓ dependenИ›ele Minecraft И™i verificДѓ dacДѓ existДѓ corupИ›ie. Acest lucru poate rezolva problemele Г®n cazul Г®n care jocul tДѓu nu porneИ™te din cauza erorilor legate de lansator, dar nu va rezolva problemele sau blocДѓrile legate de modurile instalate."
-  },
-  "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "ReparДѓ instanИ›a?"
-  },
-  "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "Repararea Г®n progres"
-  },
-  "instance.settings.tabs.installation.reset-selections": {
-    "message": "ReseteazДѓ la starea actualДѓ"
-  },
-  "instance.settings.tabs.installation.show-all-versions": {
-    "message": "AfiИ™eazДѓ toate versiunile"
-  },
-  "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "schimbДѓ versiunea"
-  },
-  "instance.settings.tabs.installation.tooltip.action.install": {
-    "message": "instaleazДѓ"
-  },
-  "instance.settings.tabs.installation.tooltip.action.reinstall": {
-    "message": "reinstaleazДѓ"
-  },
-  "instance.settings.tabs.installation.tooltip.action.repair": {
-    "message": "reparДѓ"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "Nu poИ›i {action} Г®n timp ce se instaleazДѓ"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
-    "message": "Nu poИ›i {action} Г®n timp ce eИ™ti neconectat"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "Nu poИ›i {action} Г®n timp ce se reparДѓ"
-  },
-  "instance.settings.tabs.installation.unknown-version": {
-    "message": "(versiune necunoscutДѓ)"
-  },
-  "instance.settings.tabs.installation.unlink.button": {
-    "message": "DezleagДѓ instanИ›a"
-  },
-  "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "DacДѓ continui, nu o vei mai putea lega din nou fДѓrДѓ a crea o instanИ›Дѓ complet nouДѓ. Nu vei mai primi actualizДѓri ale pachetului de moduri, iar acesta va deveni o instanИ›Дѓ normalДѓ."
-  },
-  "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "EИ™ti sigur cДѓ doreИ™ti sДѓ dezlegi aceastДѓ instanИ›Дѓ?"
-  },
-  "instance.settings.tabs.installation.unlink.description": {
-    "message": "AceastДѓ instanИ›Дѓ este legatДѓ de un pachet de moduri, ceea ce Г®nseamnДѓ cДѓ modurile nu pot fi actualizate И™i nu poИ›i schimba loader-ul de moduri sau versiunea de Minecraft. Dezlegarea va deconecta permanent aceastДѓ instanИ›Дѓ de pachetul de moduri."
-  },
-  "instance.settings.tabs.installation.unlink.title": {
-    "message": "DezleagДѓ de pachetul de moduri"
   },
   "instance.settings.tabs.java": {
     "message": "Java И™i memorie"
@@ -476,9 +380,6 @@
   "instance.worlds.dont_show_on_home": {
     "message": "Nu afiИ™a Г®n pagina principalДѓ"
   },
-  "instance.worlds.filter.available": {
-    "message": "Disponibil"
-  },
   "instance.worlds.game_already_open": {
     "message": "InstanИ›a este deja deschisДѓ"
   },
@@ -487,6 +388,9 @@
   },
   "instance.worlds.incompatible_server": {
     "message": "Serverul este incompatibil"
+  },
+  "instance.worlds.linked_server": {
+    "message": "Gestionat de proiect server"
   },
   "instance.worlds.no_contact": {
     "message": "Serverul nu a putut fi contactat"
@@ -499,12 +403,6 @@
   },
   "instance.worlds.play_instance": {
     "message": "JoacДѓ pe instanИ›a"
-  },
-  "instance.worlds.type.server": {
-    "message": "Server"
-  },
-  "instance.worlds.type.singleplayer": {
-    "message": "Un singur jucДѓtor"
   },
   "instance.worlds.view_instance": {
     "message": "AfiИ™eazДѓ instanИ›a"
@@ -522,6 +420,18 @@
     "message": "Loader-ul este oferit de instanИ›Дѓ"
   },
   "search.filter.locked.instance.sync": {
-    "message": "SincronizeazДѓ cu instanИ›a"
+    "message": "Sincronizează cu instanța"
+  },
+  "search.filter.locked.server": {
+    "message": "Furnizat de server"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "Numai modurile de pe partea clientului pot fi adăugate la instanța serverului"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "Versiunea jocului este furnizată de server"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "Încărcătorul este furnizat de server"
   }
 }

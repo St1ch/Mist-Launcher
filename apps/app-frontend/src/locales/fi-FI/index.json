@@ -1,24 +1,198 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
-    "message": "Minecraftin todennuspalvelimet eivät ehkä ole tällä hetkellä tavoitettavissa. Tarkista internetyhteytesi ja yritä myöhemmin uudelleen."
+    "message": "Minecraftin todennuspalvelimet eivГ¤t ehkГ¤ ole tГ¤llГ¤ hetkellГ¤ tavoitettavissa. Tarkista internetyhteytesi ja yritГ¤ myГ¶hemmin uudelleen."
   },
   "app.auth-servers.unreachable.header": {
-    "message": "Todennuspalvelimiin ei saada yhteyttä"
+    "message": "Todennuspalvelimiin ei saada yhteyttГ¤"
+  },
+  "app.browse.add-server-to-instance": {
+    "message": "LisГ¤Г¤ palvelin instanssiin"
+  },
+  "app.browse.add-servers-to-instance": {
+    "message": "LisГ¤Г¤ palvelimia instanssiisi"
+  },
+  "app.browse.add-to-instance": {
+    "message": "LisГ¤Г¤ instanssiin"
+  },
+  "app.browse.add-to-instance-name": {
+    "message": "LisГ¤Г¤ instanssiin {instanceName}"
+  },
+  "app.browse.added": {
+    "message": "LisГ¤tty"
+  },
+  "app.browse.already-added": {
+    "message": "On jo asennettu"
+  },
+  "app.browse.discover-content": {
+    "message": "LГ¶ydГ¤ sisГ¤ltГ¶Г¤"
+  },
+  "app.browse.discover-servers": {
+    "message": "LГ¶ydГ¤ palvelimia"
+  },
+  "app.browse.hide-added-servers": {
+    "message": "Piilota lisГ¤tyt palvelimet"
+  },
+  "app.browse.hide-installed-content": {
+    "message": "Piilota asennettu sisГ¤ltГ¶"
+  },
+  "app.browse.install-content-to-instance": {
+    "message": "Lataa sisГ¤ltГ¶Г¤ instanssiin"
+  },
+  "app.export-modal.description-placeholder": {
+    "message": "LisГ¤Г¤ modipaketin kuvaus..."
+  },
+  "app.export-modal.export-button": {
+    "message": "Vie"
+  },
+  "app.export-modal.header": {
+    "message": "Vie modipaketti"
+  },
+  "app.export-modal.modpack-name-label": {
+    "message": "Modipaketin nimi"
+  },
+  "app.export-modal.modpack-name-placeholder": {
+    "message": "Modipaketin nimi"
+  },
+  "app.export-modal.select-files-label": {
+    "message": "Valitse tiedostot ja kansiot pakettiin"
+  },
+  "app.export-modal.version-number-label": {
+    "message": "Versio numero"
+  },
+  "app.export-modal.version-number-placeholder": {
+    "message": "1.0.0"
+  },
+  "app.instance.confirm-delete.admonition-body": {
+    "message": "Kaikki sinun instanssisi data poistetaan pysyvГ¤sti, sisГ¤ltГ¤en maailmasi, konfiguraatiosi ja asennetun sisГ¤llГ¶n."
+  },
+  "app.instance.confirm-delete.admonition-header": {
+    "message": "TГ¤tГ¤ toimintoa ei voi peruuttaa"
+  },
+  "app.instance.confirm-delete.delete-button": {
+    "message": "Poista instannsi"
+  },
+  "app.instance.confirm-delete.header": {
+    "message": "Poista instanssi"
+  },
+  "app.instance.modpack-already-installed.body": {
+    "message": "TГ¤mГ¤ modipaketti on jo asennettu instanssiin <bold>{instanceName}</bold>. Oletko varma ettГ¤ haluat kopioida sen?"
+  },
+  "app.instance.modpack-already-installed.create": {
+    "message": "Luo"
+  },
+  "app.instance.modpack-already-installed.header": {
+    "message": "Modipaketti on jo asennettu"
+  },
+  "app.instance.modpack-already-installed.instance": {
+    "message": "Instanssi"
+  },
+  "app.instance.mods.content-type-project": {
+    "message": "projekti"
+  },
+  "app.instance.mods.project-was-added": {
+    "message": "\"{name}\" lisГ¤ttiin"
+  },
+  "app.instance.mods.projects-were-added": {
+    "message": "{count} projektia lisГ¤ttiin"
+  },
+  "app.instance.mods.share-text": {
+    "message": "Tsekkaa projektit joita kГ¤ytГ¤n minun modipaketissani!"
+  },
+  "app.instance.mods.successfully-uploaded": {
+    "message": "Onnistuneesti ladattu"
+  },
+  "app.instance.worlds.add-server": {
+    "message": "LisГ¤Г¤ palvelin"
+  },
+  "app.instance.worlds.browse-servers": {
+    "message": "Selaa palvelimia"
+  },
+  "app.instance.worlds.delete-world-description": {
+    "message": "'{name}' tullaan **poistamaan pysyvГ¤sti**, eikГ¤ tule olemaan mitГ¤Г¤n tapaa palauttaa sitГ¤."
+  },
+  "app.instance.worlds.delete-world-title": {
+    "message": "Oletko varma ettГ¤ haluat pysyvГ¤sti poistaa tГ¤mГ¤n maailman?"
+  },
+  "app.instance.worlds.filter-modded": {
+    "message": "Modattu"
+  },
+  "app.instance.worlds.filter-offline": {
+    "message": "Offline-tilassa"
+  },
+  "app.instance.worlds.filter-online": {
+    "message": "Online-tilassa"
+  },
+  "app.instance.worlds.filter-vanilla": {
+    "message": "Vanilla"
+  },
+  "app.instance.worlds.no-worlds-description": {
+    "message": "LisГ¤Г¤ palvelin tai selaa aloittaaksesi"
+  },
+  "app.instance.worlds.no-worlds-heading": {
+    "message": "Ei palvelimia tai maailmoja lisГ¤ttynГ¤"
+  },
+  "app.instance.worlds.remove-server-description": {
+    "message": "'{name}' tullaan poistamaan sinun listaltasi, mukaan lukien pelin sisГ¤llГ¤, eikГ¤ tule olemaan mitГ¤Г¤n tapaa palauttaa sitГ¤."
+  },
+  "app.instance.worlds.remove-server-description-with-address": {
+    "message": "'{name}' ({address}) tullaan poistamaan sinun listaltasi, mukaan lukien pelin sisГ¤llГ¤, eikГ¤ tule olemaan mitГ¤Г¤n tapaa palauttaa sitГ¤."
+  },
+  "app.instance.worlds.remove-server-title": {
+    "message": "Oletko varma ettГ¤ haluat poistaa {name}?"
+  },
+  "app.instance.worlds.search-worlds-placeholder": {
+    "message": "Hae {count} maailmasta..."
+  },
+  "app.instance.worlds.this-server": {
+    "message": "tГ¤mГ¤n palvelimen"
+  },
+  "app.modal.install-to-play.content-required": {
+    "message": "SisГ¤ltГ¶ vaaditaan"
+  },
+  "app.modal.install-to-play.header": {
+    "message": "Asenna pelataksesi"
+  },
+  "app.modal.install-to-play.install-button": {
+    "message": "Asenna"
+  },
+  "app.modal.install-to-play.mod-count": {
+    "message": "{count, plural, one {# mod} other {# modia}}"
+  },
+  "app.modal.install-to-play.required-modpack": {
+    "message": "Vaadittu modipaketti"
+  },
+  "app.modal.install-to-play.server-requires-mods": {
+    "message": "TГ¤mГ¤ palvelin vaatii modeja toimiakseen. Klikkaa Asenna ladataksesi vaaditut tiedostot Modrinthista, ja kГ¤ynnistГ¤ peli suoraan palvelimelle."
+  },
+  "app.modal.install-to-play.shared-instance": {
+    "message": "Jaettu instanssi"
+  },
+  "app.modal.install-to-play.shared-server-instance": {
+    "message": "Jaettu palvelininstanssi"
+  },
+  "app.modal.install-to-play.view-contents": {
+    "message": "Tarkastele sisГ¤ltГ¶Г¤"
+  },
+  "app.modal.update-to-play.header": {
+    "message": "PГ¤ivitГ¤ pelataksesi"
+  },
+  "app.modal.update-to-play.update-required": {
+    "message": "PГ¤ivitys vaaditaan"
+  },
+  "app.modal.update-to-play.update-required-description": {
+    "message": "PГ¤vitys vaaditaan pelataksesi {name}. PГ¤ivitГ¤ viimeisimpГ¤Г¤n versioon pelataksesi."
   },
   "app.settings.developer-mode-enabled": {
-    "message": "Kehittäjätila käytössä."
+    "message": "KehittГ¤jГ¤tila kГ¤ytГ¶ssГ¤."
   },
   "app.settings.downloading": {
     "message": "Ladataan v{version}"
   },
   "app.settings.tabs.appearance": {
-    "message": "Ulkonäkö"
+    "message": "UlkonГ¤kГ¶"
   },
   "app.settings.tabs.default-instance-options": {
     "message": "Oletusinstanssin asetukset"
-  },
-  "app.settings.tabs.feature-flags": {
-    "message": "Ominaisuuskytkimet"
   },
   "app.settings.tabs.java-installations": {
     "message": "Java asennukset"
@@ -32,89 +206,104 @@
   "app.settings.tabs.resource-management": {
     "message": "Resurssien hallinta"
   },
-  "app.update-toast.body": {
-    "message": "Modrinth-sovellus v{version} on valmis asennettavaksi! Lataa sovellus uudelleen päivittääksesi sen nyt tai automaattisesti, kun suljet Modrinth-sovelluksen."
+  "app.update-popup.body": {
+    "message": "Mist Launcher versio {version} on valmis asennettavaksi. Voit kГ¤ynnistГ¤Г¤ sovelluksen uudelleen pГ¤ivittГ¤Г¤ksesi heti tai antaa pГ¤ivityksen asentua automaattisesti, kun suljet Mist Launcherin."
   },
-  "app.update-toast.body.download-complete": {
-    "message": "Modrinth-sovellus v{version} on ladattu. Lataa sovellus uudelleen päivittääksesi sen nyt tai automaattisesti, kun suljet Modrinth-sovelluksen."
+  "app.update-popup.body.download-complete": {
+    "message": "Mist Launcher versio {version} on ladattu. Voit kГ¤ynnistГ¤Г¤ sovelluksen uudelleen pГ¤ivittГ¤Г¤ksesi heti tai antaa pГ¤ivityksen asentua automaattisesti, kun suljet Mist Launcherin."
   },
-  "app.update-toast.body.metered": {
-    "message": "Modrinth-sovellus v{version} on nyt saatavilla! Koska käytät käyttömaksullista verkkoa, emme ladanneet sitä automaattisesti."
+  "app.update-popup.body.linux": {
+    "message": "Mist Launcher versio {version} on saatavilla. KГ¤ytГ¤ paketinhallintasi ja pГ¤ivitГ¤ kГ¤yttГ¤Г¤ksesi uusimpia ominaisuuksia ja korjauksia!"
   },
-  "app.update-toast.changelog": {
+  "app.update-popup.body.metered": {
+    "message": "Mist Launcher versio {version} on nyt saatavilla! Koska kГ¤ytГ¤t kГ¤ytГ¶n mukaan laskutettavaa verkkoa, emme ladannut sitГ¤ automaattisesti."
+  },
+  "app.update-popup.changelog": {
     "message": "Muutosloki"
   },
-  "app.update-toast.download": {
+  "app.update-popup.download": {
     "message": "Lataa ({size})"
   },
-  "app.update-toast.download-page": {
-    "message": "Lataa"
-  },
-  "app.update-toast.downloading": {
-    "message": "Ladataan..."
-  },
-  "app.update-toast.reload": {
-    "message": "Uudelleen lataa"
-  },
-  "app.update-toast.title": {
-    "message": "Päivitys saatavilla"
-  },
-  "app.update-toast.title.download-complete": {
+  "app.update-popup.download-complete": {
     "message": "Lataus valmis"
   },
+  "app.update-popup.reload": {
+    "message": "Lataa uudelleen"
+  },
+  "app.update-popup.title": {
+    "message": "PГ¤ivitys saatavilla"
+  },
   "app.update.complete-toast.text": {
-    "message": "Klikkaa tästä nähdäksesi muutoslokin."
+    "message": "Klikkaa tГ¤stГ¤ nГ¤hdГ¤ksesi muutoslokin."
   },
   "app.update.complete-toast.title": {
     "message": "Versio {version} asennettiin onnistuneesti!"
   },
   "app.update.download-update": {
-    "message": "Lataa päivitys"
+    "message": "Lataa pГ¤ivitys"
   },
   "app.update.downloading-update": {
-    "message": "Ladataan päivitystä ({percent}%)"
+    "message": "Ladataan pГ¤ivitystГ¤ ({percent}%)"
   },
   "app.update.reload-to-update": {
-    "message": "Lataa uudelleen asentaaksesi päivityksen"
+    "message": "Lataa uudelleen asentaaksesi pГ¤ivityksen"
+  },
+  "app.world.server-modal.placeholder-address": {
+    "message": "example.modrinth.gg"
+  },
+  "app.world.server-modal.select-an-option": {
+    "message": "Valitse vaihtoehto"
+  },
+  "app.world.world-item.incompatible-version": {
+    "message": "Yhteensopimaton versio {version}"
+  },
+  "app.world.world-item.not-played-yet": {
+    "message": "Ei pelattu vielГ¤"
+  },
+  "app.world.world-item.offline": {
+    "message": "Offline-tilassa"
+  },
+  "app.world.world-item.players-online": {
+    "message": "{count} paikalla"
   },
   "friends.action.add-friend": {
-    "message": "Lisää ystävä"
+    "message": "LisГ¤Г¤ ystГ¤vГ¤"
   },
   "friends.action.view-friend-requests": {
-    "message": "{count} ystävä{count, plural, one {pyyntö} other {pyyntöä}}"
+    "message": "{count} ystГ¤vГ¤{count, plural, one {pyyntГ¶} other {pyyntГ¶Г¤}}"
   },
   "friends.add-friend.submit": {
-    "message": "Lähetä kaveripyyntö"
+    "message": "LГ¤hetГ¤ kaveripyyntГ¶"
   },
   "friends.add-friend.title": {
-    "message": "Lisätään kaveria"
+    "message": "LisГ¤tГ¤Г¤n kaveria"
   },
   "friends.add-friend.username.description": {
-    "message": "Se ei voi olla eri kuin heidän Minecraft-käyttäjänimi!"
+    "message": "Se ei voi olla eri kuin heidГ¤n Minecraft-kГ¤yttГ¤jГ¤nimi!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Syötä Modrinth-käyttäjätunnus..."
+    "message": "SyГ¶tГ¤ Modrinth-kГ¤yttГ¤jГ¤tunnus..."
   },
   "friends.add-friend.username.title": {
-    "message": "Mikä on ystäväsi Modrinth-käyttäjänimi?"
+    "message": "MikГ¤ on ystГ¤vГ¤si Modrinth-kГ¤yttГ¤jГ¤nimi?"
   },
   "friends.add-friends-to-share": {
-    "message": "<link>Lisää kavereita</link> nähdäksesi mitä he pelaavat!"
+    "message": "<link>LisГ¤Г¤ kavereita</link> nГ¤hdГ¤ksesi mitГ¤ he pelaavat!"
   },
   "friends.friend.cancel-request": {
-    "message": "Peruuta pyyntö"
+    "message": "Peruuta pyyntГ¶"
   },
   "friends.friend.remove-friend": {
-    "message": "Poista ystävä"
+    "message": "Poista ystГ¤vГ¤"
   },
   "friends.friend.request-sent": {
-    "message": "Ystäväpyyntö lähetetty"
+    "message": "YstГ¤vГ¤pyyntГ¶ lГ¤hetetty"
   },
   "friends.friend.view-profile": {
-    "message": "Näytä profiili"
+    "message": "NГ¤ytГ¤ profiili"
   },
   "friends.heading": {
-    "message": "Ystävät"
+    "message": "YstГ¤vГ¤t"
   },
   "friends.heading.active": {
     "message": "Aktiiviset"
@@ -129,34 +318,34 @@
     "message": "Odotetaan"
   },
   "friends.no-friends-match": {
-    "message": "Ei ystäviä, jotka vastaavat ''{query}''"
+    "message": "Ei ystГ¤viГ¤, jotka vastaavat ''{query}''"
   },
   "friends.search-friends-placeholder": {
-    "message": "Hae ystäviä..."
+    "message": "Hae ystГ¤viГ¤..."
   },
   "friends.section.heading": {
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Kirjaudu Modrinth-tilille</link> lisätäksesi ystäviä ja nähdäksesi mitä he pelaavat!"
+    "message": "<link>Kirjaudu Modrinth-tilille</link> lisГ¤tГ¤ksesi ystГ¤viГ¤ ja nГ¤hdГ¤ksesi mitГ¤ he pelaavat!"
   },
   "instance.add-server.add-and-play": {
-    "message": "Lisää ja pelaa"
+    "message": "LisГ¤Г¤ ja pelaa"
   },
   "instance.add-server.add-server": {
-    "message": "Lisää palvelin"
+    "message": "LisГ¤Г¤ palvelin"
   },
   "instance.add-server.resource-pack.disabled": {
-    "message": "Poistettu käytöstä"
+    "message": "Poistettu kГ¤ytГ¶stГ¤"
   },
   "instance.add-server.resource-pack.enabled": {
-    "message": "Käytössä"
+    "message": "KГ¤ytГ¶ssГ¤"
   },
   "instance.add-server.resource-pack.prompt": {
     "message": "Kehote"
   },
   "instance.add-server.title": {
-    "message": "Lisää palvelin"
+    "message": "LisГ¤Г¤ palvelin"
   },
   "instance.edit-server.title": {
     "message": "Muokkaa palvelinta"
@@ -176,11 +365,11 @@
   "instance.edit-world.title": {
     "message": "Muokkaa maailmaa"
   },
-  "instance.filter.disabled": {
-    "message": "Käytöstä poistetut projektit"
+  "instance.files.adding-files": {
+    "message": "LisГ¤tГ¤Г¤n tiedostoja ({completed}/{total})"
   },
-  "instance.filter.updates-available": {
-    "message": "Päivityksia saatavilla"
+  "instance.files.save-as": {
+    "message": "Tallenna nimellГ¤..."
   },
   "instance.server-modal.address": {
     "message": "Osoite"
@@ -204,7 +393,7 @@
     "message": "Poista instanssi"
   },
   "instance.settings.tabs.general.delete.description": {
-    "message": "Pysyvästi poistaa instanssin laitteeltasi sisältäen sinun maailmasi, asetuksesi ja muun asennetun sisällön. Ole varovainen, koska instanssia ei pysty palauttaa poistamisen jälkeen."
+    "message": "PysyvГ¤sti poistaa instanssin laitteeltasi sisГ¤ltГ¤en sinun maailmasi, asetuksesi ja muun asennetun sisГ¤llГ¶n. Ole varovainen, koska instanssia ei pysty palauttaa poistamisen jГ¤lkeen."
   },
   "instance.settings.tabs.general.deleting.button": {
     "message": "Poistetaan..."
@@ -213,13 +402,13 @@
     "message": "Kopioi"
   },
   "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
-    "message": "Ei pystytä monistamaan asennettaessa."
+    "message": "Ei pystytГ¤ monistamaan asennettaessa."
   },
   "instance.settings.tabs.general.duplicate-instance": {
-    "message": "Monista instanssi"
+    "message": "Monista asennus"
   },
   "instance.settings.tabs.general.duplicate-instance.description": {
-    "message": "Luo kopion tästä instanssista sekä kaikista sen maailmoista, asetuksista, modeista yms."
+    "message": "Luo kopion tГ¤stГ¤ instanssista sekГ¤ kaikista sen maailmoista, asetuksista, modeista yms."
   },
   "instance.settings.tabs.general.edit-icon": {
     "message": "Muokkaa kuvaketta"
@@ -234,16 +423,16 @@
     "message": "Valitse kuvake"
   },
   "instance.settings.tabs.general.library-groups": {
-    "message": "Kirjaston ryhmät"
+    "message": "Kirjaston ryhmГ¤t"
   },
   "instance.settings.tabs.general.library-groups.create": {
-    "message": "Luo uusi ryhmä"
+    "message": "Luo uusi ryhmГ¤"
   },
   "instance.settings.tabs.general.library-groups.description": {
-    "message": "Kirjaston ryhmät sallivat sinun järjestää instanssisi eri osioihin kirjastossasi."
+    "message": "Kirjaston ryhmГ¤t sallivat sinun jГ¤rjestГ¤Г¤ instanssisi eri osioihin kirjastossasi."
   },
   "instance.settings.tabs.general.library-groups.enter-name": {
-    "message": "Syötä ryhmän nimi"
+    "message": "SyГ¶tГ¤ ryhmГ¤n nimi"
   },
   "instance.settings.tabs.general.name": {
     "message": "Nimi"
@@ -255,25 +444,25 @@
     "message": "Mukautetut aloitustoiminnot"
   },
   "instance.settings.tabs.hooks.description": {
-    "message": "Koukut antavat edistyneiden käyttäjien suorittaa tiettyjä järjestelmä komentoja pelin käynnistystä ennen ja sen jälkeen."
+    "message": "Koukut antavat edistyneiden kГ¤yttГ¤jien suorittaa tiettyjГ¤ jГ¤rjestelmГ¤ komentoja pelin kГ¤ynnistystГ¤ ennen ja sen jГ¤lkeen."
   },
   "instance.settings.tabs.hooks.post-exit": {
-    "message": "Sulkemisen jälkeen"
+    "message": "Sulkemisen jГ¤lkeen"
   },
   "instance.settings.tabs.hooks.post-exit.description": {
-    "message": "Suoritetaan pelin sulkeutumisen jälkeen."
+    "message": "Suoritetaan pelin sulkeutumisen jГ¤lkeen."
   },
   "instance.settings.tabs.hooks.post-exit.enter": {
-    "message": "Syötä sulkemisen jälkeinen komento..."
+    "message": "SyГ¶tГ¤ sulkemisen jГ¤lkeinen komento..."
   },
   "instance.settings.tabs.hooks.pre-launch": {
-    "message": "Ennen käynnistystä"
+    "message": "Ennen kГ¤ynnistystГ¤"
   },
   "instance.settings.tabs.hooks.pre-launch.description": {
-    "message": "Suoritetaan ennen instanssin käynnistystä."
+    "message": "Suoritetaan ennen instanssin kГ¤ynnistystГ¤."
   },
   "instance.settings.tabs.hooks.pre-launch.enter": {
-    "message": "Syötä ennen käynnistystä komento..."
+    "message": "SyГ¶tГ¤ ennen kГ¤ynnistystГ¤ komento..."
   },
   "instance.settings.tabs.hooks.title": {
     "message": "Pelin laukaisu koukut"
@@ -282,154 +471,22 @@
     "message": "Wrapper"
   },
   "instance.settings.tabs.hooks.wrapper.description": {
-    "message": "Wrapper komento Minecraftin käynnistämiseksi."
+    "message": "Wrapper komento Minecraftin kГ¤ynnistГ¤miseksi."
   },
   "instance.settings.tabs.hooks.wrapper.enter": {
-    "message": "Syötä wrapper komento..."
+    "message": "SyГ¶tГ¤ wrapper komento..."
   },
   "instance.settings.tabs.installation": {
     "message": "Asennus"
   },
-  "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "{platform} {version} Minecraft versiolle {game_version} on jo asennettu"
-  },
-  "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "Vanilla {game_version} on jo asennettu"
-  },
-  "instance.settings.tabs.installation.change-version.button": {
-    "message": "Vaihda versiota"
-  },
-  "instance.settings.tabs.installation.change-version.button.install": {
-    "message": "Asenna"
-  },
-  "instance.settings.tabs.installation.change-version.button.installing": {
-    "message": "Asennetaan"
-  },
-  "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "Noudetaan modipaketin versioita"
-  },
-  "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "Asennetaan uutta versiota"
-  },
-  "instance.settings.tabs.installation.currently-installed": {
-    "message": "Asennettuna"
-  },
-  "instance.settings.tabs.installation.debug-information": {
-    "message": "Virheenkorjaus informaatio:"
-  },
-  "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "Noudetaan modipaketin tietoja"
-  },
-  "instance.settings.tabs.installation.game-version": {
-    "message": "Peli versio"
-  },
-  "instance.settings.tabs.installation.install": {
-    "message": "Asenna"
-  },
-  "instance.settings.tabs.installation.install.in-progress": {
-    "message": "Asennus käynnissä"
-  },
   "instance.settings.tabs.installation.loader-version": {
     "message": "{loader} versio"
-  },
-  "instance.settings.tabs.installation.minecraft-version": {
-    "message": "Minecraft {version}"
-  },
-  "instance.settings.tabs.installation.no-connection": {
-    "message": "Ei voida noutaa linkatun modipaketin tietoja. Tarkista internet yhteytesi."
-  },
-  "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader} ei ole saatavilla Minecraft versiolle {version}. Kokeile toista modi lataajaa."
-  },
-  "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "Tämä instanssi on linkitetty modipakettiin, mutta modipakettia ei löydetty Modrinthista."
-  },
-  "instance.settings.tabs.installation.platform": {
-    "message": "Alusta"
-  },
-  "instance.settings.tabs.installation.reinstall.button": {
-    "message": "Asenna modipaketti uudelleen"
-  },
-  "instance.settings.tabs.installation.reinstall.button.reinstalling": {
-    "message": "Asennetaan modipakettia uudelleen"
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "Uudelleen asentaminen palauttaa kaiken asennetun tai muokatun sisällön siihen muotoon missä se on modipaketissa poistaen kaikki modit ja muun sisällön mitä olet lisännyt alkuperäisen asennuksen päälle. Tämä saattaa korjata odottamatonta käytöstä mikäli instanssia on muokattu mutta jos maailmasi ovat nyt riippuvaisia lisätystä sisällöstä se saattaa rikkoa olemassa olevia maailmoja."
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "Haluatko varmasti asentaa tämän instanssin uudelleen?"
-  },
-  "instance.settings.tabs.installation.reinstall.description": {
-    "message": "Palauttaa instanssin sisällön alkuperäiseen muotoonsa poistaen kaikki modit tai muun sisällön mitä olet lisännyt alkuperäisen modipaketin päälle."
-  },
-  "instance.settings.tabs.installation.reinstall.title": {
-    "message": "Asenna modipaketti uudelleen"
-  },
-  "instance.settings.tabs.installation.repair.button": {
-    "message": "Korjaa"
-  },
-  "instance.settings.tabs.installation.repair.button.repairing": {
-    "message": "Korjataan"
-  },
-  "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "Korjaaminen uudelleen asentaa Minecraftin riippuvuuksia ja tarkistaa korruptiota varten. Tämä saattaa ratkaista ongelmia jos pelisi ei käynnisty launcheriin liittyvien virheiden takia mutta ei ratkaise ongelmia tai kaatumisia liittyen ladattuihin modeihin."
-  },
-  "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "Korjaa instanssi?"
-  },
-  "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "Korjaus käynnissä"
-  },
-  "instance.settings.tabs.installation.reset-selections": {
-    "message": "Palauta nykyiseen"
-  },
-  "instance.settings.tabs.installation.show-all-versions": {
-    "message": "Näytä kaikki versiot"
-  },
-  "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "vaihda versiota"
-  },
-  "instance.settings.tabs.installation.tooltip.action.install": {
-    "message": "asenna"
-  },
-  "instance.settings.tabs.installation.tooltip.action.reinstall": {
-    "message": "asenna uudelleen"
-  },
-  "instance.settings.tabs.installation.tooltip.action.repair": {
-    "message": "korjaa"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "Et voi {action} asentaessa"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
-    "message": "Toimintoa {action} ei voida suorittaa offline tilassa"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "Et voi {action} korjatessa"
-  },
-  "instance.settings.tabs.installation.unknown-version": {
-    "message": "(tuntematon versio)"
-  },
-  "instance.settings.tabs.installation.unlink.button": {
-    "message": "Poista instanssin linkitys"
-  },
-  "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "Jos jatkat et voi uudelleen linkata sitä ilman että luot täysin uuden instanssin. Et vastaanota enää modipaketti päivityksiä ja siitä tulee normaali."
-  },
-  "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "Oletko varma että haluat poistaa tämän instanssin linkityksen?"
-  },
-  "instance.settings.tabs.installation.unlink.description": {
-    "message": "Tämä instanssi on linkitetty modipakettin joka tarkoittaa että modeja ei voida päivittää etkä voi vaihtaa lataaja tai Minecraft versiota. Linkityksen poistaminen katkaisee pysyvästi yhteyden instanssin ja modipaketin välillä."
-  },
-  "instance.settings.tabs.installation.unlink.title": {
-    "message": "Poista linkitys modipakettiin"
   },
   "instance.settings.tabs.java": {
     "message": "Java ja muisti"
   },
   "instance.settings.tabs.java.environment-variables": {
-    "message": "Ympäristö muuttujat"
+    "message": "YmpГ¤ristГ¶ muuttujat"
   },
   "instance.settings.tabs.java.hooks": {
     "message": "Koukut"
@@ -450,43 +507,40 @@
     "message": "Mukautetut ikkuna asetukset"
   },
   "instance.settings.tabs.window.fullscreen": {
-    "message": "Koko näyttö"
+    "message": "Koko nГ¤yttГ¶"
   },
   "instance.settings.tabs.window.fullscreen.description": {
-    "message": "Saa peli käynnistymään koko näytön tilassa kun käynnistetty (käyttäen options.txt)."
+    "message": "Saa peli kГ¤ynnistymГ¤Г¤n koko nГ¤ytГ¶n tilassa kun kГ¤ynnistetty (kГ¤yttГ¤en options.txt)."
   },
   "instance.settings.tabs.window.height": {
     "message": "Korkeus"
   },
   "instance.settings.tabs.window.height.description": {
-    "message": "Peli ikkunan korkeus käynnistäessä."
+    "message": "Peli ikkunan korkeus kГ¤ynnistГ¤essГ¤."
   },
   "instance.settings.tabs.window.height.enter": {
-    "message": "Syötä korkeus..."
+    "message": "SyГ¶tГ¤ korkeus..."
   },
   "instance.settings.tabs.window.width": {
     "message": "Leveys"
   },
   "instance.settings.tabs.window.width.description": {
-    "message": "Peli ikkunan leveys käynnistäessä."
+    "message": "Peli ikkunan leveys kГ¤ynnistГ¤essГ¤."
   },
   "instance.settings.tabs.window.width.enter": {
-    "message": "Syötä leveys..."
+    "message": "SyГ¶tГ¤ leveys..."
   },
   "instance.worlds.a_minecraft_server": {
     "message": "Minecraft palvelin"
   },
   "instance.worlds.cant_connect": {
-    "message": "Palvelimeen ei voida yhdistää"
+    "message": "Palvelimeen ei voida yhdistГ¤Г¤"
   },
   "instance.worlds.copy_address": {
     "message": "Kopioi osoite"
   },
   "instance.worlds.dont_show_on_home": {
-    "message": "Älä näytä koti näkymässä"
-  },
-  "instance.worlds.filter.available": {
-    "message": "Saatavilla"
+    "message": "Г„lГ¤ nГ¤ytГ¤ koti nГ¤kymГ¤ssГ¤"
   },
   "instance.worlds.game_already_open": {
     "message": "Instanssi on jo avattu"
@@ -497,29 +551,26 @@
   "instance.worlds.incompatible_server": {
     "message": "Palvelin on yhteensopimaton"
   },
+  "instance.worlds.linked_server": {
+    "message": "Palvelimen projektin hallinnoima"
+  },
   "instance.worlds.no_contact": {
-    "message": "Palvelimeen ei saatu yhteyttä"
+    "message": "Palvelimeen ei saatu yhteyttГ¤"
   },
   "instance.worlds.no_server_quick_play": {
-    "message": "Voit hypätä suoraan palvelimille vain versioilla Minecraft Alpha 1.0.5+"
+    "message": "Voit hypГ¤tГ¤ suoraan palvelimille vain versioilla Minecraft Alpha 1.0.5+"
   },
   "instance.worlds.no_singleplayer_quick_play": {
-    "message": "Voit hypätä suoraan yksinpeli maailmoihin vain versioilla Minecraft 1.20+"
+    "message": "Voit hypГ¤tГ¤ suoraan yksinpeli maailmoihin vain versioilla Minecraft 1.20+"
   },
   "instance.worlds.play_instance": {
     "message": "Pelaa instanssia"
   },
-  "instance.worlds.type.server": {
-    "message": "Palvelin"
-  },
-  "instance.worlds.type.singleplayer": {
-    "message": "Yksinpeli"
-  },
   "instance.worlds.view_instance": {
-    "message": "Näytä instanssi"
+    "message": "NГ¤ytГ¤ instanssi"
   },
   "instance.worlds.world_in_use": {
-    "message": "Maailma on käytössä"
+    "message": "Maailma on kГ¤ytГ¶ssГ¤"
   },
   "search.filter.locked.instance": {
     "message": "Annettu instanssin toimesta"
@@ -531,6 +582,18 @@
     "message": "Lataajan antaa instanssi"
   },
   "search.filter.locked.instance.sync": {
-    "message": "Synkkaa instanssin kanssa"
+    "message": "Synkronoi instanssin kanssa"
+  },
+  "search.filter.locked.server": {
+    "message": "Palvelimen tarjoama"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "Voit lisГ¤tГ¤ vain paikallisia modeja palvelin instanssiin"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "Peliversio on palvelimen tarjoama"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "Modialusta on palvelimen tarjoama"
   }
 }

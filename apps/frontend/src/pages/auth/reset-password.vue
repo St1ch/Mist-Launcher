@@ -7,20 +7,18 @@
 					{{ formatMessage(methodChoiceMessages.description) }}
 				</p>
 
-				<div class="iconified-input">
-					<label for="email" hidden>
-						{{ formatMessage(commonMessages.emailUsernameLabel) }}
-					</label>
-					<MailIcon />
-					<input
-						id="email"
-						v-model="email"
-						type="text"
-						autocomplete="username"
-						class="auth-form__input"
-						:placeholder="formatMessage(commonMessages.emailLabel)"
-					/>
-				</div>
+				<label for="email" hidden>
+					{{ formatMessage(commonMessages.emailUsernameLabel) }}
+				</label>
+				<StyledInput
+					id="email"
+					v-model="email"
+					:icon="MailIcon"
+					type="text"
+					autocomplete="username"
+					:placeholder="formatMessage(commonMessages.emailLabel)"
+					wrapper-class="w-full"
+				/>
 
 				<HCaptcha v-if="globals?.captcha_enabled" ref="captcha" v-model="token" />
 
@@ -35,33 +33,29 @@
 			<template v-else-if="step === 'passed_challenge'">
 				<p>{{ formatMessage(postChallengeMessages.description) }}</p>
 
-				<div class="iconified-input">
-					<label for="password" hidden>{{ formatMessage(commonMessages.passwordLabel) }}</label>
-					<KeyIcon />
-					<input
-						id="password"
-						v-model="newPassword"
-						type="password"
-						autocomplete="new-password"
-						class="auth-form__input"
-						:placeholder="formatMessage(commonMessages.passwordLabel)"
-					/>
-				</div>
+				<label for="password" hidden>{{ formatMessage(commonMessages.passwordLabel) }}</label>
+				<StyledInput
+					id="password"
+					v-model="newPassword"
+					:icon="KeyIcon"
+					type="password"
+					autocomplete="new-password"
+					:placeholder="formatMessage(commonMessages.passwordLabel)"
+					wrapper-class="w-full"
+				/>
 
-				<div class="iconified-input">
-					<label for="confirm-password" hidden>
-						{{ formatMessage(commonMessages.passwordLabel) }}
-					</label>
-					<KeyIcon />
-					<input
-						id="confirm-password"
-						v-model="confirmNewPassword"
-						type="password"
-						autocomplete="new-password"
-						class="auth-form__input"
-						:placeholder="formatMessage(postChallengeMessages.confirmPasswordLabel)"
-					/>
-				</div>
+				<label for="confirm-password" hidden>
+					{{ formatMessage(commonMessages.passwordLabel) }}
+				</label>
+				<StyledInput
+					id="confirm-password"
+					v-model="confirmNewPassword"
+					:icon="KeyIcon"
+					type="password"
+					autocomplete="new-password"
+					:placeholder="formatMessage(postChallengeMessages.confirmPasswordLabel)"
+					wrapper-class="w-full"
+				/>
 
 				<button class="auth-form__input btn btn-primary continue-btn" @click="changePassword">
 					{{ formatMessage(postChallengeMessages.action) }}
@@ -72,10 +66,19 @@
 </template>
 <script setup>
 import { KeyIcon, MailIcon, SendIcon } from '@modrinth/assets'
-import { commonMessages, defineMessages, injectNotificationManager, useVIntl } from '@modrinth/ui'
+import {
+	commonMessages,
+	defineMessages,
+	injectModrinthClient,
+	injectNotificationManager,
+	StyledInput,
+	useVIntl,
+} from '@modrinth/ui'
+import { useQuery } from '@tanstack/vue-query'
 
 import HCaptcha from '@/components/ui/HCaptcha.vue'
 
+const client = injectModrinthClient()
 const { addNotification } = injectNotificationManager()
 const { formatMessage } = useVIntl()
 
@@ -162,13 +165,16 @@ if (route.query.flow) {
 
 const captcha = ref()
 
-const { data: globals } = await useAsyncData('auth-globals', async () => {
-	try {
-		return await useBaseFetch('globals', { internal: true })
-	} catch (err) {
-		console.error('Error fetching globals:', err)
-		return { captcha_enabled: true }
-	}
+const { data: globals } = useQuery({
+	queryKey: ['auth-globals'],
+	queryFn: async () => {
+		try {
+			return await client.labrinth.globals_internal.get()
+		} catch (err) {
+			console.error('Error fetching globals:', err)
+			return { captcha_enabled: true, tax_compliance_thresholds: {} }
+		}
+	},
 })
 
 const email = ref('')
@@ -177,12 +183,9 @@ const token = ref('')
 async function recovery() {
 	startLoading()
 	try {
-		await useBaseFetch('auth/password/reset', {
-			method: 'POST',
-			body: {
-				username: email.value,
-				challenge: token.value,
-			},
+		await client.labrinth.auth_v2.resetPasswordBegin({
+			username: email.value,
+			challenge: token.value,
 		})
 
 		addNotification({
@@ -207,12 +210,9 @@ const confirmNewPassword = ref('')
 async function changePassword() {
 	startLoading()
 	try {
-		await useBaseFetch('auth/password', {
-			method: 'PATCH',
-			body: {
-				new_password: newPassword.value,
-				flow: route.query.flow,
-			},
+		await client.labrinth.auth_v2.changePassword({
+			new_password: newPassword.value,
+			flow: route.query.flow,
 		})
 
 		addNotification({

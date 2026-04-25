@@ -1,5 +1,6 @@
 <template>
 	<div>
+		<ConfirmLeaveModal ref="confirmLeaveModal" />
 		<section class="universal-card">
 			<h2 class="label__title size-card-header">License</h2>
 			<p class="label__description">
@@ -71,16 +72,16 @@
 				</label>
 
 				<div class="w-1/2">
-					<input
+					<StyledInput
 						id="license-url"
 						v-model="current.licenseUrl"
 						type="url"
-						maxlength="2048"
+						:maxlength="2048"
 						:placeholder="
 							current.license?.friendly !== 'Custom' ? `License URL (optional)` : `License URL`
 						"
 						:disabled="!hasPermission || licenseId === 'LicenseRef-Unknown'"
-						class="w-full"
+						wrapper-class="w-full"
 					/>
 				</div>
 			</div>
@@ -104,23 +105,21 @@
 				</label>
 
 				<div class="input-stack w-1/2">
-					<input
+					<StyledInput
 						v-if="!current.nonSpdxLicense"
 						id="license-spdx"
 						v-model="current.license.short"
-						class="w-full"
-						type="text"
-						maxlength="128"
+						wrapper-class="w-full"
+						:maxlength="128"
 						placeholder="SPDX identifier"
 						:disabled="!hasPermission"
 					/>
-					<input
+					<StyledInput
 						v-else
 						id="license-name"
 						v-model="current.license.short"
-						class="w-full"
-						type="text"
-						maxlength="128"
+						wrapper-class="w-full"
+						:maxlength="128"
 						placeholder="License name"
 						:disabled="!hasPermission"
 					/>
@@ -156,9 +155,12 @@
 <script setup lang="ts">
 import {
 	Checkbox,
+	ConfirmLeaveModal,
 	DropdownSelect,
 	injectProjectPageContext,
+	StyledInput,
 	UnsavedChangesPopup,
+	usePageLeaveSafety,
 	useSavable,
 } from '@modrinth/ui'
 import {
@@ -195,7 +197,7 @@ function getInitialLicense() {
 	)
 }
 
-const { saved, current, saving, reset, save } = useSavable(
+const { saved, current, saving, hasChanges, reset, save } = useSavable(
 	() => ({
 		license: getInitialLicense(),
 		licenseUrl: project.value.license.url ?? '',
@@ -219,6 +221,8 @@ const { saved, current, saving, reset, save } = useSavable(
 		await patchProject(payload)
 	},
 )
+
+const { confirmLeaveModal } = usePageLeaveSafety(hasChanges)
 
 const hasPermission = computed(() => {
 	return (currentMember.value?.permissions ?? 0) & TeamMemberPermission.EDIT_DETAILS

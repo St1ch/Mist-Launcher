@@ -1,21 +1,33 @@
-<template>
-	<div class="flex h-full w-full flex-col">
-		<NuxtPage :route="route" :server="props.server" />
-	</div>
-</template>
-
 <script setup lang="ts">
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
+import {
+	injectModrinthClient,
+	injectModrinthServerContext,
+	ServersManageContentPage,
+} from '@modrinth/ui'
+import { useQueryClient } from '@tanstack/vue-query'
 
-const route = useNativeRoute()
+const client = injectModrinthClient()
+const { server, serverId, worldId } = injectModrinthServerContext()
+const queryClient = useQueryClient()
 
-const props = defineProps<{
-	server: ModrinthServer
-}>()
-
-const data = computed(() => props.server.general)
+if (worldId.value) {
+	try {
+		await queryClient.ensureQueryData({
+			queryKey: ['content', 'list', 'v1', serverId],
+			queryFn: () =>
+				client.archon.content_v1.getAddons(serverId, worldId.value!, { from_modpack: false }),
+			staleTime: 30_000,
+		})
+	} catch {
+		// Let mounted layouts' useQuery surface errors; do not fail route setup.
+	}
+}
 
 useHead({
-	title: `Content - ${data.value?.name ?? 'Server'} - Modrinth`,
+	title: `Content - ${server.value?.name ?? 'Server'} - Modrinth`,
 })
 </script>
+
+<template>
+	<ServersManageContentPage />
+</template>

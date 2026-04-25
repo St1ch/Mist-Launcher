@@ -5,6 +5,186 @@
   "app.auth-servers.unreachable.header": {
     "message": "Nem lehet elГ©rni a hitelesГ­tГ©si kiszolgГЎlГіkat"
   },
+  "app.browse.add-server-to-instance": {
+    "message": "Szerver hozzáadása a profilhoz"
+  },
+  "app.browse.add-servers-to-instance": {
+    "message": "Szerverek hozzáadása a profilodhoz"
+  },
+  "app.browse.add-to-instance": {
+    "message": "Hozzáadás a profilhoz"
+  },
+  "app.browse.add-to-instance-name": {
+    "message": "Hozzáadás ehhez: {instanceName}"
+  },
+  "app.browse.added": {
+    "message": "Hozzáadva"
+  },
+  "app.browse.already-added": {
+    "message": "Már hozzá van adva"
+  },
+  "app.browse.discover-content": {
+    "message": "Tartalom böngészése"
+  },
+  "app.browse.discover-servers": {
+    "message": "Szerverek böngészése"
+  },
+  "app.browse.hide-added-servers": {
+    "message": "Hozzáadott szerverek elrejtése"
+  },
+  "app.browse.hide-installed-content": {
+    "message": "A telepített tartalmak elrejtése"
+  },
+  "app.browse.install-content-to-instance": {
+    "message": "Tartalom letöltése a profilhoz"
+  },
+  "app.export-modal.description-placeholder": {
+    "message": "Írd be a modcsomag leírását..."
+  },
+  "app.export-modal.export-button": {
+    "message": "Exportálás"
+  },
+  "app.export-modal.header": {
+    "message": "Modcsomag exportálása"
+  },
+  "app.export-modal.modpack-name-label": {
+    "message": "A modcsomag neve"
+  },
+  "app.export-modal.modpack-name-placeholder": {
+    "message": "A modcsomag neve"
+  },
+  "app.export-modal.select-files-label": {
+    "message": "Válaszd ki a csomagba felveendő fájlokat és mappákat"
+  },
+  "app.export-modal.version-number-label": {
+    "message": "Verziószám"
+  },
+  "app.export-modal.version-number-placeholder": {
+    "message": "1.0.0"
+  },
+  "app.instance.confirm-delete.admonition-body": {
+    "message": "Az profilodhoz tartozó összes adat véglegesen törlődik, beleértve a világokat, a beállításokat és az összes telepített tartalmat."
+  },
+  "app.instance.confirm-delete.admonition-header": {
+    "message": "Ezt a műveletet nem lehet visszavonni"
+  },
+  "app.instance.confirm-delete.delete-button": {
+    "message": "Profil törlése"
+  },
+  "app.instance.confirm-delete.header": {
+    "message": "Profil törlése"
+  },
+  "app.instance.modpack-already-installed.body": {
+    "message": "Ez a modcsomag már telepítve van a(z) <bold>{instanceName}</bold> profilban. Biztosan duplikálni szeretnéd?"
+  },
+  "app.instance.modpack-already-installed.create": {
+    "message": "Létrehozás"
+  },
+  "app.instance.modpack-already-installed.header": {
+    "message": "A modcsomag már telepítve van"
+  },
+  "app.instance.modpack-already-installed.instance": {
+    "message": "Profil"
+  },
+  "app.instance.mods.content-type-project": {
+    "message": "projekt"
+  },
+  "app.instance.mods.project-was-added": {
+    "message": " „{name}” hozzá lett adva"
+  },
+  "app.instance.mods.projects-were-added": {
+    "message": "{count} projekt került hozzáadásra"
+  },
+  "app.instance.mods.share-text": {
+    "message": "Nézd meg, milyen projekteket használok a modcsomagomban!"
+  },
+  "app.instance.mods.share-title": {
+    "message": "Modcsomag-tartalmak megosztása"
+  },
+  "app.instance.mods.successfully-uploaded": {
+    "message": "Sikeresen feltöltve"
+  },
+  "app.instance.worlds.add-server": {
+    "message": "Szerver hozzáadása"
+  },
+  "app.instance.worlds.browse-servers": {
+    "message": "Szerverek böngészése"
+  },
+  "app.instance.worlds.delete-world-description": {
+    "message": "'{name}' **véglegesen törlődik**, és azt semmilyen módon nem lehet majd helyreállítani."
+  },
+  "app.instance.worlds.delete-world-title": {
+    "message": "Biztosan véglegesen törölni szeretnéd ezt a világot?"
+  },
+  "app.instance.worlds.filter-modded": {
+    "message": "Modolt"
+  },
+  "app.instance.worlds.filter-offline": {
+    "message": "Offline"
+  },
+  "app.instance.worlds.filter-online": {
+    "message": "Online"
+  },
+  "app.instance.worlds.filter-vanilla": {
+    "message": "Vanilla"
+  },
+  "app.instance.worlds.no-worlds-description": {
+    "message": "Kezdéshez adj hozzá egy szervert, vagy böngéssz"
+  },
+  "app.instance.worlds.no-worlds-heading": {
+    "message": "Nincs szerver vagy világ"
+  },
+  "app.instance.worlds.remove-server-description": {
+    "message": "'{name}' eltávolításra kerül a listádról, beleértve a játékon belülieket is. Ezt a lépést nem tudod visszavonni."
+  },
+  "app.instance.worlds.remove-server-description-with-address": {
+    "message": "'{name}' ({address}) eltávolításra kerül a listádról, beleértve a játékon belülieket is. Ezt a lépést nem tudod visszavonni."
+  },
+  "app.instance.worlds.remove-server-title": {
+    "message": "Biztosan el akarod távolítani ezt: {name}?"
+  },
+  "app.instance.worlds.search-worlds-placeholder": {
+    "message": "Keresés {count} világ között..."
+  },
+  "app.instance.worlds.this-server": {
+    "message": "ez a szerver"
+  },
+  "app.modal.install-to-play.content-required": {
+    "message": "Szükséges tartalom"
+  },
+  "app.modal.install-to-play.header": {
+    "message": "Telepítés a játékhoz"
+  },
+  "app.modal.install-to-play.install-button": {
+    "message": "Telepítés"
+  },
+  "app.modal.install-to-play.mod-count": {
+    "message": "{count} mod"
+  },
+  "app.modal.install-to-play.required-modpack": {
+    "message": "Szükséges modcsomag"
+  },
+  "app.modal.install-to-play.server-requires-mods": {
+    "message": "Ehhez a szerverhez modok szükségesek a játékhoz. Kattints a Telepítés gombra, hogy telepítsd a szükséges fájlokat a Modrinth-ról, majd indítsd el közvetlenül a szervert."
+  },
+  "app.modal.install-to-play.shared-instance": {
+    "message": "Megosztott profil"
+  },
+  "app.modal.install-to-play.shared-server-instance": {
+    "message": "Megosztott szerverprofil"
+  },
+  "app.modal.install-to-play.view-contents": {
+    "message": "Tartalom megtekintése"
+  },
+  "app.modal.update-to-play.header": {
+    "message": "Frissítsd a játékhoz"
+  },
+  "app.modal.update-to-play.update-required": {
+    "message": "Frissítés szükséges"
+  },
+  "app.modal.update-to-play.update-required-description": {
+    "message": "\nFrissítés szükséges ehhez: {name}. Kérjük, frissíts a legújabb verzióra a játék elindításához"
+  },
   "app.settings.developer-mode-enabled": {
     "message": "FejlesztЕ‘i mГіd bekapcsolva."
   },
@@ -16,9 +196,6 @@
   },
   "app.settings.tabs.default-instance-options": {
     "message": "AlapГ©rtelmezett profil beГЎllГ­tГЎsok"
-  },
-  "app.settings.tabs.feature-flags": {
-    "message": "FunkciГіjelzЕ‘k"
   },
   "app.settings.tabs.java-installations": {
     "message": "TelepГ­tett Java pГ©ldГЎnyok"
@@ -32,38 +209,32 @@
   "app.settings.tabs.resource-management": {
     "message": "ErЕ‘forrГЎskezelГ©s"
   },
-  "app.update-toast.body": {
-    "message": "A Mist Launcher v{version} telepГ­tГ©sre kГ©sz! FrissГ­tГ©shez indГ­tsa Гєjra a programot, vagy zГЎrja be a Mist Launcher alkalmazГЎst, Г©s a frissГ­tГ©s automatikusan megtГ¶rtГ©nik."
+  "app.update-popup.body": {
+    "message": "A Mist Launcher v{version} telepítésre kész! Frissítéshez Töltsd újra az oldalt, vagy a Mist Launcher bezárásakor automatikusan frissül."
   },
-  "app.update-toast.body.download-complete": {
-    "message": "A Mist Launcher v{version} letГ¶ltГ©se befejezЕ‘dГ¶tt. FrissГ­tГ©shez indГ­tsa Гєjra az alkalmazГЎst, vagy zГЎrja be a Mist Launcher alkalmazГЎst, Г©s a frissГ­tГ©s automatikusan megtГ¶rtГ©nik."
+  "app.update-popup.body.download-complete": {
+    "message": "A Mist Launcher v{version} letöltése befejeződött. Frissítéshez Töltsd újra az oldalt, vagy a Mist Launcher bezárásakor automatikusan frissül."
   },
-  "app.update-toast.body.linux": {
-    "message": "A Modrinth alkalmazГЎs v{version} elГ©rhetЕ‘. HasznГЎld a csomagkezelЕ‘det a legГєjabb funkciГіk Г©s hibajavГ­tГЎsok telepГ­tГ©sГ©hez!"
+  "app.update-popup.body.linux": {
+    "message": "A Mist Launcher v{version} elérhető. Használd a csomagkezelőt a legújabb funkciók és javítások frissítéséhez!"
   },
-  "app.update-toast.body.metered": {
-    "message": "A Mist Launcher v{version} mГЎr elГ©rhetЕ‘! Mivel dГ­jkГ¶teles hГЎlГіzaton vagy, Г­gy nem tГ¶ltГ¶ttГјk le automatikusan."
+  "app.update-popup.body.metered": {
+    "message": "A Mist Launcher v{version} már elérhető! Mivel mérhető hálózaton vagy, nem töltöttük le automatikusan."
   },
-  "app.update-toast.changelog": {
-    "message": "VГЎltoztatГЎsok"
+  "app.update-popup.changelog": {
+    "message": "Változásnapló"
   },
-  "app.update-toast.download": {
-    "message": "LetГ¶ltГ©s ({size})"
+  "app.update-popup.download": {
+    "message": "Letöltés ({size})"
   },
-  "app.update-toast.download-page": {
-    "message": "LetГ¶ltГ©s"
+  "app.update-popup.download-complete": {
+    "message": "Sikeres letöltés"
   },
-  "app.update-toast.downloading": {
-    "message": "LetГ¶ltГ©s..."
+  "app.update-popup.reload": {
+    "message": "Újratöltés"
   },
-  "app.update-toast.reload": {
-    "message": "ГљjratГ¶ltГ©s"
-  },
-  "app.update-toast.title": {
-    "message": "FrissГ­tГ©sek elГ©rhetЕ‘ek"
-  },
-  "app.update-toast.title.download-complete": {
-    "message": "LetГ¶ltГ©s befejezve"
+  "app.update-popup.title": {
+    "message": "Frissítés elérhető"
   },
   "app.update.complete-toast.text": {
     "message": "Kattints ide a vГЎltozГЎsok megtekintГ©sГ©hez."
@@ -79,6 +250,24 @@
   },
   "app.update.reload-to-update": {
     "message": "A telepГ­tГ©shez ГєjraindГ­tГЎs szГјksГ©ges"
+  },
+  "app.world.server-modal.placeholder-address": {
+    "message": "pelda.modrinth.gg"
+  },
+  "app.world.server-modal.select-an-option": {
+    "message": "Válassz egy lehetőséget"
+  },
+  "app.world.world-item.incompatible-version": {
+    "message": "Inkompatibilis verzió: {version}"
+  },
+  "app.world.world-item.not-played-yet": {
+    "message": "Még nem játszottál"
+  },
+  "app.world.world-item.offline": {
+    "message": "Offline"
+  },
+  "app.world.world-item.players-online": {
+    "message": "{count} online"
   },
   "friends.action.add-friend": {
     "message": "BarГЎt hozzГЎadГЎsa"
@@ -179,11 +368,11 @@
   "instance.edit-world.title": {
     "message": "VilГЎg szerkesztГ©se"
   },
-  "instance.filter.disabled": {
-    "message": "Letiltott projektek"
+  "instance.files.adding-files": {
+    "message": "Fájlok hozzáadása ({completed}/{total})"
   },
-  "instance.filter.updates-available": {
-    "message": "FrissГ­tГ©sek elГ©rhetЕ‘ek"
+  "instance.files.save-as": {
+    "message": "Mentés másként..."
   },
   "instance.server-modal.address": {
     "message": "CГ­m"
@@ -293,140 +482,8 @@
   "instance.settings.tabs.installation": {
     "message": "TelepГ­tГ©s"
   },
-  "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "{platform} {version} a Minecraft {game_version} verziГіjГЎhoz mГЎr telepГ­tve van"
-  },
-  "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "A vanilla {game_version} mГЎr telepГ­tve van"
-  },
-  "instance.settings.tabs.installation.change-version.button": {
-    "message": "VerziГіvГЎltГЎs"
-  },
-  "instance.settings.tabs.installation.change-version.button.install": {
-    "message": "TelepГ­tГ©s"
-  },
-  "instance.settings.tabs.installation.change-version.button.installing": {
-    "message": "TelepГ­tГ©s folyamatban"
-  },
-  "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "Modpack verziГіinak lekГ©rГ©se"
-  },
-  "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "Гљj verziГі telepГ­tГ©se"
-  },
-  "instance.settings.tabs.installation.currently-installed": {
-    "message": "Jelenleg telepГ­tve"
-  },
-  "instance.settings.tabs.installation.debug-information": {
-    "message": "Debug informГЎciГі:"
-  },
-  "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "Modpack rГ©szleteinek lekГ©rГ©se"
-  },
-  "instance.settings.tabs.installation.game-version": {
-    "message": "JГЎtГ©k verziГіja"
-  },
-  "instance.settings.tabs.installation.install": {
-    "message": "TelepГ­tГ©s"
-  },
-  "instance.settings.tabs.installation.install.in-progress": {
-    "message": "TelepГ­tГ©s folyamatban"
-  },
   "instance.settings.tabs.installation.loader-version": {
     "message": "{loader} verziГі"
-  },
-  "instance.settings.tabs.installation.minecraft-version": {
-    "message": "Minecraft {version}"
-  },
-  "instance.settings.tabs.installation.no-connection": {
-    "message": "Nem lehetsГ©ges a csatolt modpack rГ©szleteit lekГ©rdezni. KГ©rlek nГ©zd meg az internetkapcsolatod."
-  },
-  "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader} nem elГ©rhetЕ‘ a Minecraft {version} verziГіjГЎhoz. PrГіbГЎlj meg egy mГЎsik modbetГ¶ltЕ‘t."
-  },
-  "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "A profilod linkelve van egy Modrinth modcsomaghoz, de a modcsomag nem talГЎlhatГі Modrinth-on."
-  },
-  "instance.settings.tabs.installation.platform": {
-    "message": "Platform"
-  },
-  "instance.settings.tabs.installation.reinstall.button": {
-    "message": "Modpack ГєjratelepГ­tГ©se"
-  },
-  "instance.settings.tabs.installation.reinstall.button.reinstalling": {
-    "message": "Modpack ГєjratelepГ­tГ©se"
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "Az ГєjratelepГ­tГ©s visszaГЎllГ­tja az Г¶sszes telepГ­tett vagy mГіdosГ­tott tartalmat a modcsomag ГЎltal biztosГ­tott ГЎllapotra, eltГЎvolГ­tva az eredeti telepГ­tГ©shez hozzГЎadott modokat vagy tartalmakat. Ez megoldhatja a vГЎratlan hibГЎkat, de fontos tudni hogyha hasznГЎlsz vilГЎgokat amelyekben utГіlagosan hozzГЎadott tartalom van, azok a vilГЎgok elromolhatnak."
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "Biztosan szeretnГ©d ГєjratelepГ­teni ezt a profilt?"
-  },
-  "instance.settings.tabs.installation.reinstall.description": {
-    "message": "VisszaГЎllГ­tja a profilod tartalmГЎt az eredeti ГЎllapotГЎba, eltГЎvolГ­tva az eredeti modpackhez hozzГЎadott Г¶sszes modot Г©s tartalmat."
-  },
-  "instance.settings.tabs.installation.reinstall.title": {
-    "message": "Modpack ГєjratelepГ­tГ©se"
-  },
-  "instance.settings.tabs.installation.repair.button": {
-    "message": "JavГ­tГЎs"
-  },
-  "instance.settings.tabs.installation.repair.button.repairing": {
-    "message": "JavГ­tГЎs folyamatban"
-  },
-  "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "A javГ­tГЎs ГєjratelepГ­ti a Minecraft alapjГЎt Г©s ellenЕ‘rzi, hogy nincs-e sГ©rГјlГ©s. Ez megoldhatja a problГ©mГЎkat, ha a jГЎtГ©k nem az indГ­tГіval kapcsolatos hibГЎk miatt nem indul el, de nem oldja meg a telepГ­tett modokkal kapcsolatos problГ©mГЎkat vagy Г¶sszeomlГЎsokat."
-  },
-  "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "Profil javГ­tГЎsa?"
-  },
-  "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "JavГ­tГЎs folyamatban"
-  },
-  "instance.settings.tabs.installation.reset-selections": {
-    "message": "VisszaГЎllГ­tГЎs az aktuГЎlis ГЎllapotra"
-  },
-  "instance.settings.tabs.installation.show-all-versions": {
-    "message": "Г–sszes verziГі mutatГЎsa"
-  },
-  "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "verziГі vГЎltГЎs"
-  },
-  "instance.settings.tabs.installation.tooltip.action.install": {
-    "message": "telepГ­tГ©s"
-  },
-  "instance.settings.tabs.installation.tooltip.action.reinstall": {
-    "message": "ГєjratelepГ­tГ©s"
-  },
-  "instance.settings.tabs.installation.tooltip.action.repair": {
-    "message": "javГ­tГЎs"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "Nem lehet {action}-t vГ©grehajtani telepГ­tГ©s kГ¶zben"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
-    "message": "Offline ГЎllapotban nem lehet {action}-t vГ©grehajtani"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "Nem lehet {action}-t vГ©grehajtani javГ­tГЎs kГ¶zben"
-  },
-  "instance.settings.tabs.installation.unknown-version": {
-    "message": "(ismeretlen verziГі)"
-  },
-  "instance.settings.tabs.installation.unlink.button": {
-    "message": "Profil levГЎlasztГЎsa"
-  },
-  "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "Ha folytatod, akkor nem tudod Гєjra Г¶sszekapcsolni anГ©lkГјl, hogy egy teljesen Гєj profilt hoznГЎl lГ©tre. TГ¶bbГ© nem fogja megkapni a modcsomag frissГ­tГ©seit, Г©s normГЎl ГЎllapotba kerГјl."
-  },
-  "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "Biztosan le szeretnГ©d vГЎlasztani ezt a profilt?"
-  },
-  "instance.settings.tabs.installation.unlink.description": {
-    "message": "Ez az profil egy modcsomaghoz van kapcsolva, ami azt jelenti, hogy a modok nem frissГ­thetЕ‘ek, Г©s nem lehet megvГЎltoztatni a modbetГ¶ltЕ‘t vagy a Minecraft verziГіt. A kapcsolГіdГЎs megszГјntetГ©se vГ©glegesen levГЎlasztja ezt a profilt a modcsomagrГіl."
-  },
-  "instance.settings.tabs.installation.unlink.title": {
-    "message": "ModcsomagrГіl valГі levГЎlasztГЎs"
   },
   "instance.settings.tabs.java": {
     "message": "Java Г©s memГіria"
@@ -465,7 +522,7 @@
     "message": "A jГЎtГ©k ablakГЎnak magassГЎga indГ­tГЎskor."
   },
   "instance.settings.tabs.window.height.enter": {
-    "message": "MagassГЎg megadГЎsa..."
+    "message": "Magaság megadása..."
   },
   "instance.settings.tabs.window.width": {
     "message": "SzГ©lessГ©g"
@@ -488,9 +545,6 @@
   "instance.worlds.dont_show_on_home": {
     "message": "Ne mutasd a kezdЕ‘lapon"
   },
-  "instance.worlds.filter.available": {
-    "message": "ElГ©rhetЕ‘"
-  },
   "instance.worlds.game_already_open": {
     "message": "A profil mГЎr meg van nyitva"
   },
@@ -498,10 +552,13 @@
     "message": "Hardcore mГіd"
   },
   "instance.worlds.incompatible_server": {
-    "message": "A Szerver nem kompatibilis"
+    "message": "A szerver nem kompatibilis"
+  },
+  "instance.worlds.linked_server": {
+    "message": "Szerverprojekt által kezelt"
   },
   "instance.worlds.no_contact": {
-    "message": "Nem lehet kapcsolatot lГ©tesГ­teni a szerverrel"
+    "message": "A szerverrel nem lehet kapcsolatot létesíteni"
   },
   "instance.worlds.no_server_quick_play": {
     "message": "Csak Minecraft Alpha 1.0.5+-tГіl tudsz egybЕ‘l szerverhez csatlakozni"
@@ -511,12 +568,6 @@
   },
   "instance.worlds.play_instance": {
     "message": "JГЎtГ©k a profillal"
-  },
-  "instance.worlds.type.server": {
-    "message": "Szerver"
-  },
-  "instance.worlds.type.singleplayer": {
-    "message": "EgyjГЎtГ©kosmГіd"
   },
   "instance.worlds.view_instance": {
     "message": "Profil megtekintГ©se"
@@ -531,9 +582,21 @@
     "message": "A jГЎtГ©kverziГі a profil ГЎltal van megadva"
   },
   "search.filter.locked.instance-loader.title": {
-    "message": "A modbetГ¶ltЕ‘ a profil ГЎltal van megadva"
+    "message": "A betöltő a profil által van megadva"
   },
   "search.filter.locked.instance.sync": {
-    "message": "Profil szinkronizГЎlГЎsa"
+    "message": "Profil szinkronizálása"
+  },
+  "search.filter.locked.server": {
+    "message": "A szerver által van megadva"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "Csak kliensoldali modok adhatók hozzá a szerverprofilhoz"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "A játékverziót a szerver biztosítja"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "A betöltőt a szerver biztosítja"
   }
 }

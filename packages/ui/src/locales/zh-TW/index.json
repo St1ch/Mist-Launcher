@@ -1,162 +1,270 @@
-{
+﻿{
   "affiliate.create.button": {
-    "defaultMessage": "建立聯盟連結"
+    "defaultMessage": "е»єз«‹иЃЇз›џйЂЈзµђ"
   },
   "affiliate.create.header": {
-    "defaultMessage": "建立新的聯盟代碼"
+    "defaultMessage": "е»єз«‹ж–°зљ„иЃЇз›џд»Јзўј"
   },
   "affiliate.create.title.description": {
-    "defaultMessage": "為你的聯盟連結命名，以便你知道流量的來源了！"
+    "defaultMessage": "з‚єдЅ зљ„иЃЇз›џйЂЈзµђе‘ЅеђЌпјЊд»ҐдѕїдЅ зџҐйЃ“жµЃй‡Џзљ„дѕ†жєђдє†пјЃ"
   },
   "affiliate.create.title.label": {
-    "defaultMessage": "聯盟連結的標題"
+    "defaultMessage": "иЃЇз›џйЂЈзµђзљ„жЁ™йЎЊ"
   },
   "affiliate.create.title.placeholder": {
-    "defaultMessage": "例如：YouTube"
+    "defaultMessage": "дѕ‹е¦‚пјљYouTube"
   },
   "affiliate.create.user.description": {
-    "defaultMessage": "欲建立聯盟代碼的使用者名稱"
+    "defaultMessage": "ж¬Іе»єз«‹иЃЇз›џд»Јзўјзљ„дЅїз”ЁиЂ…еђЌзЁ±"
   },
   "affiliate.create.user.placeholder": {
-    "defaultMessage": "輸入使用者名稱..."
+    "defaultMessage": "ијёе…ҐдЅїз”ЁиЂ…еђЌзЁ±..."
   },
   "affiliate.createdBy": {
-    "defaultMessage": "由 {user} 建立"
+    "defaultMessage": "з”± {user} е»єз«‹"
   },
   "affiliate.creating.button": {
-    "defaultMessage": "正在建立聯盟連結..."
+    "defaultMessage": "ж­ЈењЁе»єз«‹иЃЇз›џйЂЈзµђ..."
   },
   "affiliate.revoke": {
-    "defaultMessage": "撤銷聯盟連結"
+    "defaultMessage": "ж’¤йЉ·иЃЇз›џйЂЈзµђ"
   },
   "affiliate.viewAnalytics": {
-    "defaultMessage": "檢視數據分析"
+    "defaultMessage": "жЄўи¦–ж•ёж“ље€†жћђ"
+  },
+  "app.server-settings.failed-to-load-server": {
+    "defaultMessage": "з„Ўжі•иј‰е…ҐдјєжњЌе™ЁиЁ­е®љ"
+  },
+  "badge.alpha": {
+    "defaultMessage": "Alpha з‰€"
   },
   "badge.beta": {
-    "defaultMessage": "Beta 版"
+    "defaultMessage": "Beta з‰€"
   },
   "badge.beta-release": {
-    "defaultMessage": "Beta 版發布"
+    "defaultMessage": "Beta з‰€з™јеёѓ"
   },
   "badge.new": {
-    "defaultMessage": "新功能"
+    "defaultMessage": "ж–°еЉџиѓЅ"
+  },
+  "billing.resubscribe-modal.cancel": {
+    "defaultMessage": "еЏ–ж¶€"
+  },
+  "billing.resubscribe-modal.cpus": {
+    "defaultMessage": "{sharedCpus} еЂ‹е…±з”Ё CPU"
+  },
+  "billing.resubscribe-modal.description": {
+    "defaultMessage": "дЅ еЌіе°‡й‡Ќж–°иЁ‚й–± <server-name>{serverName}</server-name>гЂ‚дЅ зљ„иЁ‚й–±е°‡жњѓй‡Ќж–°е•џз”ЁпјЊдё”дјєжњЌе™Ёе°‡жЊЃзєЊеџ·иЎЊдёЌдё­ж–·гЂ‚"
+  },
+  "billing.resubscribe-modal.error.text": {
+    "defaultMessage": "з”±ж–јз„Ўжі•иј‰е…ҐиЁ‚й–±и©ізґ°иі‡иЁЉпјЊе› ж­¤з„Ўжі•й‡Ќж–°иЁ‚й–±гЂ‚"
+  },
+  "billing.resubscribe-modal.error.title": {
+    "defaultMessage": "йЊЇиЄ¤"
+  },
+  "billing.resubscribe-modal.failed-load": {
+    "defaultMessage": "з„Ўжі•иј‰е…ҐиЁ‚й–±и©ізґ°иі‡иЁЉгЂ‚"
+  },
+  "billing.resubscribe-modal.interval.five-days": {
+    "defaultMessage": "пјЏ5 е¤©"
+  },
+  "billing.resubscribe-modal.interval.monthly": {
+    "defaultMessage": "пјЏжњ€"
+  },
+  "billing.resubscribe-modal.interval.quarterly": {
+    "defaultMessage": "пјЏе­Ј"
+  },
+  "billing.resubscribe-modal.interval.yearly": {
+    "defaultMessage": "пјЏе№ґ"
+  },
+  "billing.resubscribe-modal.next-charge": {
+    "defaultMessage": "дё‹дёЂж¬Ўж‰Јж¬ѕж—Ґжњџз‚є <charge-date>{date}</charge-date>гЂ‚"
+  },
+  "billing.resubscribe-modal.plan-label": {
+    "defaultMessage": "ж–№жЎ€"
+  },
+  "billing.resubscribe-modal.ram": {
+    "defaultMessage": "{ramGb} GB иЁж†¶й«”"
+  },
+  "billing.resubscribe-modal.resubscribe": {
+    "defaultMessage": "й‡Ќж–°иЁ‚й–±"
+  },
+  "billing.resubscribe-modal.storage": {
+    "defaultMessage": "{storageGb} GB е„Іе­з©єй–“"
+  },
+  "billing.resubscribe-modal.title": {
+    "defaultMessage": "й‡Ќж–°иЁ‚й–±дјєжњЌе™Ё"
   },
   "button.accept": {
-    "defaultMessage": "接受"
+    "defaultMessage": "жЋҐеЏ—"
   },
   "button.affiliate-links": {
-    "defaultMessage": "聯盟連結"
+    "defaultMessage": "иЃЇз›џйЂЈзµђ"
   },
   "button.analytics": {
-    "defaultMessage": "數據分析"
+    "defaultMessage": "ж•ёж“ље€†жћђ"
   },
   "button.back": {
-    "defaultMessage": "返回"
+    "defaultMessage": "иї”е›ћ"
   },
   "button.cancel": {
-    "defaultMessage": "取消"
+    "defaultMessage": "еЏ–ж¶€"
+  },
+  "button.change-version": {
+    "defaultMessage": "и®Љж›ґз‰€жњ¬"
   },
   "button.clear": {
-    "defaultMessage": "清除"
+    "defaultMessage": "жё…й™¤"
   },
   "button.close": {
-    "defaultMessage": "關閉"
+    "defaultMessage": "й—њй–‰"
   },
   "button.continue": {
-    "defaultMessage": "繼續"
+    "defaultMessage": "з№јзєЊ"
+  },
+  "button.copy-filename": {
+    "defaultMessage": "и¤‡иЈЅжЄ”жЎ€еђЌзЁ±"
+  },
+  "button.copy-full-path": {
+    "defaultMessage": "и¤‡иЈЅе®Њж•ґи·Їеѕ‘"
   },
   "button.copy-id": {
-    "defaultMessage": "複製 ID"
+    "defaultMessage": "и¤‡иЈЅ ID"
+  },
+  "button.copy-link": {
+    "defaultMessage": "и¤‡иЈЅйЂЈзµђ"
   },
   "button.copy-permalink": {
-    "defaultMessage": "複製永久連結"
+    "defaultMessage": "и¤‡иЈЅж°ёд№…йЂЈзµђ"
   },
   "button.create-a-project": {
-    "defaultMessage": "建立專案"
+    "defaultMessage": "е»єз«‹е°€жЎ€"
   },
   "button.decline": {
-    "defaultMessage": "拒絕"
+    "defaultMessage": "ж‹’зµ•"
+  },
+  "button.disable": {
+    "defaultMessage": "еЃњз”Ё"
   },
   "button.download": {
-    "defaultMessage": "下載"
+    "defaultMessage": "дё‹иј‰"
   },
   "button.downloading": {
-    "defaultMessage": "下載中"
+    "defaultMessage": "дё‹иј‰дё­"
   },
   "button.edit": {
-    "defaultMessage": "編輯"
+    "defaultMessage": "з·ЁијЇ"
+  },
+  "button.enable": {
+    "defaultMessage": "е•џз”Ё"
+  },
+  "button.extract": {
+    "defaultMessage": "и§ЈеЈ“зё®"
   },
   "button.follow": {
-    "defaultMessage": "追蹤"
+    "defaultMessage": "иїЅи№¤"
+  },
+  "button.hide-snapshots": {
+    "defaultMessage": "йљ±и—Џеї«з…§з‰€жњ¬"
   },
   "button.max": {
-    "defaultMessage": "最大值"
+    "defaultMessage": "жњЂе¤§еЂј"
   },
   "button.more-options": {
-    "defaultMessage": "更多選項"
+    "defaultMessage": "ж›ґе¤љйЃёй …"
+  },
+  "button.move": {
+    "defaultMessage": "з§»е‹•"
   },
   "button.next": {
-    "defaultMessage": "下一步"
+    "defaultMessage": "дё‹дёЂж­Ґ"
   },
   "button.open-folder": {
-    "defaultMessage": "開啟資料夾"
+    "defaultMessage": "й–‹е•џиі‡ж–™е¤ѕ"
+  },
+  "button.open-in-folder": {
+    "defaultMessage": "ењЁиі‡ж–™е¤ѕдё­й–‹е•џ"
   },
   "button.play": {
-    "defaultMessage": "遊玩"
+    "defaultMessage": "йЃЉзЋ©"
   },
   "button.refresh": {
-    "defaultMessage": "重新整理"
+    "defaultMessage": "й‡Ќж–°ж•ґзђ†"
+  },
+  "button.reinstall-modpack": {
+    "defaultMessage": "й‡Ќж–°е®‰иЈќжЁЎзµ„еЊ…"
   },
   "button.remove": {
-    "defaultMessage": "移除"
+    "defaultMessage": "з§»й™¤"
   },
   "button.remove-image": {
-    "defaultMessage": "移除圖片"
+    "defaultMessage": "з§»й™¤ењ–з‰‡"
+  },
+  "button.rename": {
+    "defaultMessage": "й‡Ќж–°е‘ЅеђЌ"
+  },
+  "button.repair": {
+    "defaultMessage": "дї®еѕ©"
+  },
+  "button.repairing": {
+    "defaultMessage": "дї®еѕ©дё­......"
   },
   "button.report": {
-    "defaultMessage": "檢舉"
+    "defaultMessage": "жЄўи€‰"
   },
   "button.reset": {
-    "defaultMessage": "重設"
+    "defaultMessage": "й‡ЌиЁ­"
+  },
+  "button.reset-server": {
+    "defaultMessage": "й‡ЌиЁ­дјєжњЌе™Ё"
   },
   "button.retry": {
-    "defaultMessage": "重試"
+    "defaultMessage": "й‡Ќи©¦"
   },
   "button.save": {
-    "defaultMessage": "儲存"
+    "defaultMessage": "е„Іе­"
   },
   "button.save-changes": {
-    "defaultMessage": "儲存變更"
+    "defaultMessage": "е„Іе­и®Љж›ґ"
   },
   "button.saving": {
-    "defaultMessage": "儲存中"
+    "defaultMessage": "е„Іе­дё­"
+  },
+  "button.show-all-versions": {
+    "defaultMessage": "йЎЇз¤єж‰Ђжњ‰з‰€жњ¬"
+  },
+  "button.show-file": {
+    "defaultMessage": "йЎЇз¤єжЄ”жЎ€"
   },
   "button.sign-in": {
-    "defaultMessage": "登入"
+    "defaultMessage": "з™»е…Ґ"
   },
   "button.sign-out": {
-    "defaultMessage": "登出"
+    "defaultMessage": "з™»е‡є"
   },
   "button.sign-up": {
-    "defaultMessage": "註冊"
+    "defaultMessage": "иЁ»е†Љ"
   },
   "button.stop": {
-    "defaultMessage": "停止"
+    "defaultMessage": "еЃњж­ў"
+  },
+  "button.switch-version": {
+    "defaultMessage": "е€‡жЏ›з‰€жњ¬"
   },
   "button.unfollow": {
-    "defaultMessage": "取消追蹤"
+    "defaultMessage": "еЏ–ж¶€иїЅи№¤"
+  },
+  "button.unlink-modpack": {
+    "defaultMessage": "еЏ–ж¶€йЂЈзµђжЁЎзµ„еЊ…"
   },
   "button.update": {
-    "defaultMessage": "更新"
+    "defaultMessage": "ж›ґж–°"
   },
   "button.upload-image": {
-    "defaultMessage": "上傳圖片"
+    "defaultMessage": "дёЉе‚іењ–з‰‡"
   },
   "changelog.justNow": {
-    "defaultMessage": "現在"
-  },
-  "changelog.product.api": {
-    "defaultMessage": "API"
+    "defaultMessage": "зЏѕењЁ"
   },
   "changelog.product.app": {
     "defaultMessage": "App"
@@ -165,448 +273,1528 @@
     "defaultMessage": "Hosting"
   },
   "changelog.product.web": {
-    "defaultMessage": "網站"
+    "defaultMessage": "е№іеЏ°"
   },
   "collections.label.private": {
-    "defaultMessage": "私人"
+    "defaultMessage": "з§Ѓдєє"
+  },
+  "content.confirm-bulk-update.admonition-body": {
+    "defaultMessage": "дЅ зўєе®љи¦Ѓе°‡йЂ™ {count} ж›ґж–°и‡іжњЂж–°зљ„з›ёе®№з‰€жњ¬е—Ћпјџе»єи­°дЅ йЂђдёЂйЂІиЎЊж›ґж–°гЂ‚"
+  },
+  "content.confirm-bulk-update.admonition-header": {
+    "defaultMessage": "ж›ґж–°и­¦е‘Љ"
+  },
+  "content.confirm-bulk-update.header": {
+    "defaultMessage": "ж›ґж–°е°€жЎ€"
+  },
+  "content.confirm-bulk-update.shift-click-hint": {
+    "defaultMessage": "жЊ‰дЅЏ Shift йЌµдё¦й»ћйЃёгЂЊе…ЁйѓЁж›ґж–°гЂЌпјЊеЌіеЏЇењЁж—ҐеѕЊи·ійЃЋйЂ™й …зўєиЄЌж­Ґй©џгЂ‚"
+  },
+  "content.confirm-bulk-update.update-button": {
+    "defaultMessage": "ж›ґж–° {count} еЂ‹е°€жЎ€"
+  },
+  "content.confirm-deletion.admonition-body": {
+    "defaultMessage": "е€Єй™¤жЁЎзµ„еЏЇиѓЅжњѓе°ЌдЅ зљ„дё–з•ЊйЂ ж€ђж°ёд№…жЂ§еЅ±йџїпјЊдё¦ењЁй‡Ќж–°иј‰е…Ґж™‚е°Ћи‡ґе…§е®№йЃєе¤±ж€–з™јз”џйќћй ђжњџзљ„е•ЏйЎЊгЂ‚"
+  },
+  "content.confirm-deletion.admonition-header": {
+    "defaultMessage": "е€Єй™¤и­¦е‘Љ"
+  },
+  "content.confirm-deletion.delete-button": {
+    "defaultMessage": "е€Єй™¤ {count} еЂ‹{itemType}"
+  },
+  "content.confirm-deletion.header": {
+    "defaultMessage": "е€Єй™¤{itemType}"
+  },
+  "content.confirm-modpack-update.admonition-body": {
+    "defaultMessage": "{action, select, downgrade {й™Ќзґљ} other {ж›ґж–°}}еЏЇиѓЅжњѓе°Ћи‡ґз›ёе®№жЂ§е•ЏйЎЊгЂ‚дЅ йЎЌе¤–ж–°еўћи‡іжЁЎзµ„еЊ…зљ„жЁЎзµ„ж€–е…§е®№е°‡дїќз•™пјЊдЅ†еЏЇиѓЅи€‡ж–°з‰€жњ¬дёЌз›ёе®№гЂ‚"
+  },
+  "content.confirm-modpack-update.admonition-header": {
+    "defaultMessage": "{action, select, downgrade {й™Ќзґљ} other {ж›ґж–°}}и­¦е‘Љ"
+  },
+  "content.confirm-modpack-update.confirm-button": {
+    "defaultMessage": "{action, select, downgrade {й™Ќзґљ} other {ж›ґж–°}}жЁЎзµ„еЊ…"
+  },
+  "content.confirm-modpack-update.header": {
+    "defaultMessage": "{action, select, downgrade {й™Ќзґљ} other {ж›ґж–°}}жЁЎзµ„еЊ…"
+  },
+  "content.confirm-unlink.admonition-body": {
+    "defaultMessage": "жЁЎзµ„и€‡е…§е®№е°‡и€‡дЅ йЎЌе¤–ж–°еўћи‡іжЁЎзµ„еЊ…зљ„е…§е®№еђ€дЅµпјЊдё”е°‡дёЌе†ЌжЋҐж”¶ж›ґж–°гЂ‚"
+  },
+  "content.confirm-unlink.admonition-header": {
+    "defaultMessage": "еЏ–ж¶€йЂЈзµђжЁЎзµ„еЊ…"
+  },
+  "content.confirm-unlink.header": {
+    "defaultMessage": "еЏ–ж¶€йЂЈзµђжЁЎзµ„еЊ…"
+  },
+  "content.confirm-unlink.unlink-button": {
+    "defaultMessage": "еЏ–ж¶€йЂЈзµђ"
+  },
+  "content.diff-modal.added-count": {
+    "defaultMessage": "е·Іж–°еўћ {count} еЂ‹"
+  },
+  "content.diff-modal.diff-type.added": {
+    "defaultMessage": "е·Іж–°еўћпј€з›ёдѕќй …пј‰"
+  },
+  "content.diff-modal.diff-type.removed": {
+    "defaultMessage": "е·ІеЃњз”Ё"
+  },
+  "content.diff-modal.diff-type.updated": {
+    "defaultMessage": "е·Іж›ґж–°"
+  },
+  "content.diff-modal.removed-count": {
+    "defaultMessage": "е·Із§»й™¤ {count} еЂ‹"
+  },
+  "content.diff-modal.unknown-content-body": {
+    "defaultMessage": "дЅ дјєжњЌе™ЁдёЉзљ„йѓЁе€†е…§е®№з„Ўжі•йЂІиЎЊе€†жћђпјЊдё”еЏЇиѓЅжњѓеЏ—е€°йЂ™й …и®Љж›ґзљ„еЅ±йџїгЂ‚"
+  },
+  "content.diff-modal.updated-count": {
+    "defaultMessage": "е·Іж›ґж–° {count} еЂ‹"
+  },
+  "content.inline-backup.backing-up": {
+    "defaultMessage": "ж­ЈењЁе»єз«‹е‚™д»Ѕ..."
+  },
+  "content.inline-backup.backup-complete": {
+    "defaultMessage": "е·Іж€ђеЉџе»єз«‹е‚™д»Ѕ"
+  },
+  "content.inline-backup.backup-failed": {
+    "defaultMessage": "з„Ўжі•е»єз«‹е‚™д»ЅпјЊдЅ†ж‚Ёд»ЌеЏЇз№јзєЊж“ЌдЅњгЂ‚"
+  },
+  "content.inline-backup.backup-in-progress": {
+    "defaultMessage": "е‚™д»Ѕж­ЈењЁйЂІиЎЊдё­пјЊе»єи­°з­‰еЂ™е®Њж€ђеѕЊе†Ќеџ·иЎЊж­¤е‹•дЅњгЂ‚"
+  },
+  "content.inline-backup.backup-takes-a-while": {
+    "defaultMessage": "е»єз«‹е‚™д»ЅеЏЇиѓЅйњЂиЂ—ж™‚ж•ёе€†йђпјЊи¦–дјєжњЌе™Ёе¤§е°ЏиЂЊе®љгЂ‚"
+  },
+  "content.inline-backup.create-backup": {
+    "defaultMessage": "е»єз«‹е‚™д»Ѕ"
+  },
+  "content.inline-backup.shift-click-hint": {
+    "defaultMessage": "жЊ‰дЅЏ Shift йЌµдё¦й»ћйЃёд»Ґи·ійЃЋзўєиЄЌгЂ‚"
+  },
+  "content.inline-backup.warning-body": {
+    "defaultMessage": "ж€‘еЂ‘е»єи­°ењЁз№јзєЊж“ЌдЅње‰Ќе…€е»єз«‹е‚™д»ЅпјЊд»ҐдѕїењЁз™јз”џе•ЏйЎЊж™‚й‚„еЋџдЅ зљ„{type, select, server {дё–з•Њ} other {еЇ¦дѕ‹}}гЂ‚"
+  },
+  "content.modpack-card.content-hint-description": {
+    "defaultMessage": "дЅ жЁЎзµ„еЊ…зљ„е…§е®№зЏѕењЁеЏЇд»ҐењЁйЂ™иЈЎж‰ѕе€°дє†пјЃ"
+  },
+  "content.modpack-card.content-hint-title": {
+    "defaultMessage": "жЁЎзµ„еЊ…е…§е®№е·Із§»е‹•"
+  },
+  "content.modpack-card.dismiss-hint": {
+    "defaultMessage": "дёЌе†ЌйЎЇз¤є"
+  },
+  "content.page-layout.additional-content": {
+    "defaultMessage": "йЎЌе¤–е…§е®№"
+  },
+  "content.page-layout.browse-content": {
+    "defaultMessage": "зЂЏи¦Ѕе…§е®№"
+  },
+  "content.page-layout.busy-description": {
+    "defaultMessage": "и«‹еѕ…ж“ЌдЅње®Њж€ђеѕЊе†ЌйЂІиЎЊз·ЁијЇгЂ‚"
+  },
+  "content.page-layout.empty.hint": {
+    "defaultMessage": "зЂЏи¦Ѕж€–дёЉе‚і {contentType} еЌіеЏЇй–‹е§‹"
+  },
+  "content.page-layout.empty.modpack-hint": {
+    "defaultMessage": "ењЁйЂ™еЂ‹жЁЎзµ„еЊ…д№‹дёЉж–°еўћйЎЌе¤–е…§е®№"
+  },
+  "content.page-layout.empty.no-content-installed": {
+    "defaultMessage": "жњЄе®‰иЈќе…§е®№"
+  },
+  "content.page-layout.empty.no-extra-content-installed": {
+    "defaultMessage": "жњЄе®‰иЈќйЎЌе¤–е…§е®№"
+  },
+  "content.page-layout.failed-to-load": {
+    "defaultMessage": "з„Ўжі•иј‰е…Ґе…§е®№"
+  },
+  "content.page-layout.loading": {
+    "defaultMessage": "ж­ЈењЁиј‰е…Ґе…§е®№..."
+  },
+  "content.page-layout.no-content-found": {
+    "defaultMessage": "ж‰ѕдёЌе€°е…§е®№гЂ‚"
+  },
+  "content.page-layout.please-wait": {
+    "defaultMessage": "и«‹зЁЌеЂ™"
+  },
+  "content.page-layout.search-placeholder": {
+    "defaultMessage": "жђње°‹ {count} еЂ‹{contentType}..."
+  },
+  "content.page-layout.share.file-names": {
+    "defaultMessage": "жЄ”жЎ€еђЌзЁ±"
+  },
+  "content.page-layout.share.label": {
+    "defaultMessage": "е€†дє«"
+  },
+  "content.page-layout.share.markdown-links": {
+    "defaultMessage": "Markdown йЂЈзµђ"
+  },
+  "content.page-layout.share.project-links": {
+    "defaultMessage": "е°€жЎ€йЂЈзµђ"
+  },
+  "content.page-layout.share.project-names": {
+    "defaultMessage": "е°€жЎ€еђЌзЁ±"
+  },
+  "content.page-layout.sort.alphabetical": {
+    "defaultMessage": "е­—жЇЌй †еєЏ"
+  },
+  "content.page-layout.sort.date-added-newest": {
+    "defaultMessage": "жњЂж–°ењЁе‰Ќ"
+  },
+  "content.page-layout.sort.date-added-oldest": {
+    "defaultMessage": "жњЂи€ЉењЁе‰Ќ"
+  },
+  "content.page-layout.sort.label": {
+    "defaultMessage": "жЋ’еєЏдѕќж“љпјљ{mode}"
+  },
+  "content.page-layout.update-all": {
+    "defaultMessage": "ж›ґж–°е…ЁйѓЁ"
+  },
+  "content.page-layout.upload-files": {
+    "defaultMessage": "дёЉе‚іжЄ”жЎ€"
+  },
+  "content.page-layout.uploading-files": {
+    "defaultMessage": "ж­ЈењЁдёЉе‚іжЄ”жЎ€ ({completed}/{total})"
+  },
+  "content.selection-bar.all-already-disabled": {
+    "defaultMessage": "ж‰Ђжњ‰е·ІйЃёж“‡зљ„е…§е®№е·Із¶“еЃњз”Ё"
+  },
+  "content.selection-bar.all-already-enabled": {
+    "defaultMessage": "ж‰Ђжњ‰е·ІйЃёж“‡зљ„е…§е®№е·Із¶“е•џз”Ё"
+  },
+  "content.selection-bar.bulk.deleting": {
+    "defaultMessage": "ж­ЈењЁе€Єй™¤ {progress}/{total} {contentType}..."
+  },
+  "content.selection-bar.bulk.deleting-waiting": {
+    "defaultMessage": "ж­ЈењЁе€Єй™¤{contentType}..."
+  },
+  "content.selection-bar.bulk.disabling": {
+    "defaultMessage": "ж­ЈењЁеЃњз”Ё {progress}/{total} {contentType}..."
+  },
+  "content.selection-bar.bulk.disabling-waiting": {
+    "defaultMessage": "ж­ЈењЁеЃњз”Ё{contentType}..."
+  },
+  "content.selection-bar.bulk.enabling": {
+    "defaultMessage": "ж­ЈењЁе•џз”Ё {progress}/{total} {contentType}..."
+  },
+  "content.selection-bar.bulk.enabling-waiting": {
+    "defaultMessage": "ж­ЈењЁе•џз”Ё{contentType}..."
+  },
+  "content.selection-bar.bulk.updating": {
+    "defaultMessage": "ж­ЈењЁдёЉе‚і {progress}/{total} {contentType}..."
+  },
+  "content.selection-bar.bulk.updating-waiting": {
+    "defaultMessage": "ж­ЈењЁдёЉе‚і{contentType}..."
+  },
+  "content.selection-bar.selected-count": {
+    "defaultMessage": "е·ІйЃёеЏ– {count} еЂ‹{contentType}"
+  },
+  "content.selection-bar.selected-count-simple": {
+    "defaultMessage": "е·ІйЃёеЏ– {count, number} еЂ‹й …з›®"
+  },
+  "files.conflict-modal.header": {
+    "defaultMessage": "и§ЈеЈ“зё®ж‘и¦Ѓ"
+  },
+  "files.conflict-modal.overwrite-button": {
+    "defaultMessage": "и¦†еЇ«"
+  },
+  "files.conflict-modal.overwrite-many-warning": {
+    "defaultMessage": "и‹ҐдЅ з№јзєЊеџ·иЎЊи§ЈеЈ“зё®пјЊе°‡жњ‰и¶…йЃЋ 100 еЂ‹жЄ”жЎ€иў«и¦†еЇ«пј›д»Ґдё‹е€—е‡єйѓЁе€†жЄ”жЎ€гЂ‚"
+  },
+  "files.conflict-modal.overwrite-warning": {
+    "defaultMessage": "дё‹е€— {count} еЂ‹жЄ”жЎ€е·Іе­ењЁж–јдЅ зљ„дјєжњЌе™ЁдёЉпјЊи‹ҐдЅ з№јзєЊеџ·иЎЊи§ЈеЈ“зё®пјЊйЂ™дє›жЄ”жЎ€е°‡иў«и¦†еЇ«гЂ‚"
+  },
+  "files.conflict-modal.overwritten-count": {
+    "defaultMessage": "е°‡и¦†еЇ« {count} еЂ‹жЄ”жЎ€"
+  },
+  "files.conflict-modal.overwritten-label": {
+    "defaultMessage": "е°‡и¦†еЇ«"
+  },
+  "files.conflict-modal.warning-header": {
+    "defaultMessage": "жЄ”жЎ€е°‡иў«и¦†еЇ«"
+  },
+  "files.create-modal.create-button": {
+    "defaultMessage": "е»єз«‹{type, select, directory {иі‡ж–™е¤ѕ} other {жЄ”жЎ€}}"
+  },
+  "files.create-modal.header": {
+    "defaultMessage": "е»єз«‹{type, select, directory {иі‡ж–™е¤ѕ} other {жЄ”жЎ€}}"
+  },
+  "files.create-modal.placeholder-directory": {
+    "defaultMessage": "дѕ‹е¦‚пјљmy-folder"
+  },
+  "files.create-modal.placeholder-file": {
+    "defaultMessage": "дѕ‹е¦‚пјљconfig.yml"
+  },
+  "files.delete-modal.deleting-name": {
+    "defaultMessage": "ж­ЈењЁе€Єй™¤гЂЊ{name}гЂЌ"
+  },
+  "files.delete-modal.header": {
+    "defaultMessage": "е€Єй™¤жЄ”жЎ€"
+  },
+  "files.delete-modal.warning": {
+    "defaultMessage": "{type, select, directory {йЂ™еЂ‹иі‡ж–™е¤ѕеЏЉе…¶ж‰Ђжњ‰е…§е®№е°‡иў«ж°ёд№…е€Єй™¤гЂ‚ж­¤е‹•дЅњз„Ўжі•еѕ©еЋџгЂ‚} other {йЂ™еЂ‹жЄ”жЎ€е°‡иў«ж°ёд№…е€Єй™¤гЂ‚ж­¤е‹•дЅњз„Ўжі•еѕ©еЋџгЂ‚}}"
+  },
+  "files.editor.failed-to-open-text": {
+    "defaultMessage": "з„Ўжі•иј‰е…ҐжЄ”жЎ€е…§е®№гЂ‚"
+  },
+  "files.editor.failed-to-open-title": {
+    "defaultMessage": "з„Ўжі•й–‹е•џжЄ”жЎ€"
+  },
+  "files.editor.failed-to-share-text": {
+    "defaultMessage": "з„Ўжі•дёЉе‚іи‡і mclo.gsгЂ‚"
+  },
+  "files.editor.failed-to-share-title": {
+    "defaultMessage": "з„Ўжі•е€†дє«жЄ”жЎ€"
+  },
+  "files.editor.file-saved-text": {
+    "defaultMessage": "дЅ зљ„жЄ”жЎ€е·Іе„Іе­гЂ‚"
+  },
+  "files.editor.file-saved-title": {
+    "defaultMessage": "е·Іе„Іе­жЄ”жЎ€"
+  },
+  "files.editor.find-close": {
+    "defaultMessage": "й—њй–‰"
+  },
+  "files.editor.find-in-file": {
+    "defaultMessage": "е°‹ж‰ѕ"
+  },
+  "files.editor.find-match-count": {
+    "defaultMessage": "{current}/{total}"
+  },
+  "files.editor.find-next-match": {
+    "defaultMessage": "дё‹дёЂеЂ‹з›ёз¬¦й …"
+  },
+  "files.editor.find-no-results": {
+    "defaultMessage": "жІ’жњ‰зµђжћњ"
+  },
+  "files.editor.find-previous-match": {
+    "defaultMessage": "дёЉдёЂе ґз›ёз¬¦й …"
+  },
+  "files.editor.find-toggle-replace": {
+    "defaultMessage": "е€‡жЏ›ж›їжЏ›"
+  },
+  "files.editor.log-url-copied-text": {
+    "defaultMessage": "дЅ зљ„иЁйЊ„жЄ”з¶ІеќЂе·Іи¤‡иЈЅе€°е‰ЄиІјз°їгЂ‚"
+  },
+  "files.editor.log-url-copied-title": {
+    "defaultMessage": "иЁйЊ„жЄ”з¶ІеќЂе·Іи¤‡иЈЅ"
+  },
+  "files.editor.replace": {
+    "defaultMessage": "еЏ–д»Ј"
+  },
+  "files.editor.replace-all": {
+    "defaultMessage": "еЏ–д»Је…ЁйѓЁ"
+  },
+  "files.editor.replace-in-file": {
+    "defaultMessage": "еЏ–д»Ј"
+  },
+  "files.editor.save-failed-text": {
+    "defaultMessage": "з„Ўжі•е„Іе­жЄ”жЎ€гЂ‚"
+  },
+  "files.editor.save-failed-title": {
+    "defaultMessage": "е„Іе­е¤±ж•—"
+  },
+  "files.error.go-to-home": {
+    "defaultMessage": "е‰ЌеѕЂе®¶иі‡ж–™е¤ѕ"
+  },
+  "files.error.try-again": {
+    "defaultMessage": "е†Ќи©¦дёЂж¬Ў"
+  },
+  "files.image_viewer.image_too_large": {
+    "defaultMessage": "ењ–з‰‡йЃЋе¤§з„Ўжі•й ђи¦Ѕ (жњЂе¤§ {maxDimension}x{maxDimension} еѓЏзґ )"
+  },
+  "files.image_viewer.invalid_image": {
+    "defaultMessage": "ењ–з‰‡жЄ”жЎ€з„Ўж•€ж€–е…§е®№з‚єз©єгЂ‚"
+  },
+  "files.image_viewer.load_failed": {
+    "defaultMessage": "з„Ўжі•иј‰е…Ґењ–з‰‡"
+  },
+  "files.image_viewer.reset_zoom": {
+    "defaultMessage": "й‡ЌиЁ­зё®ж”ѕ"
+  },
+  "files.image_viewer.viewed_image_alt": {
+    "defaultMessage": "е·ІжЄўи¦–ењ–з‰‡"
+  },
+  "files.image_viewer.zoom_in": {
+    "defaultMessage": "ж”ѕе¤§"
+  },
+  "files.image_viewer.zoom_out": {
+    "defaultMessage": "зё®е°Џ"
+  },
+  "files.layout.busy-warning": {
+    "defaultMessage": "дЅњжҐ­йЂІиЎЊдё­пјЊе·ІеЃњз”ЁжЄ”жЎ€ж“ЌдЅњеЉџиѓЅгЂ‚"
+  },
+  "files.layout.dry-run-failed-text": {
+    "defaultMessage": "еџ·иЎЊжЁЎж“¬жё¬и©¦ж™‚з™јз”џйЊЇиЄ¤"
+  },
+  "files.layout.dry-run-failed-title": {
+    "defaultMessage": "жЁЎж“¬жё¬и©¦е¤±ж•—"
+  },
+  "files.layout.empty-folder-description": {
+    "defaultMessage": "жІ’жњ‰д»»дЅ•жЄ”жЎ€ж€–иі‡ж–™е¤ѕ"
+  },
+  "files.layout.empty-folder-title": {
+    "defaultMessage": "ж­¤иі‡ж–™е¤ѕжЇз©єзљ„"
+  },
+  "files.layout.error-message": {
+    "defaultMessage": "и©Іиі‡ж–™е¤ѕеЏЇиѓЅдёЌе­ењЁ"
+  },
+  "files.layout.error-title": {
+    "defaultMessage": "з„Ўжі•иј‰е…ҐжЄ”жЎ€"
+  },
+  "files.layout.extraction-started-title": {
+    "defaultMessage": "и§ЈеЈ“зё®е·Ій–‹е§‹"
+  },
+  "files.layout.selected-count": {
+    "defaultMessage": "е·ІйЃёж“‡ {count} еЂ‹"
+  },
+  "files.layout.unsaved-changes": {
+    "defaultMessage": "ж‚Ёжњ‰жњЄе„Іе­зљ„и®Љж›ґ"
+  },
+  "files.move-modal.current-location": {
+    "defaultMessage": "з›®е‰ЌдЅЌзЅ®"
+  },
+  "files.move-modal.destination-path": {
+    "defaultMessage": "з›®жЁ™и·Їеѕ‘"
+  },
+  "files.move-modal.destination-placeholder": {
+    "defaultMessage": "дѕ‹е¦‚пјљ/my-folder"
+  },
+  "files.move-modal.header": {
+    "defaultMessage": "{type, select, directory {з§»е‹•иі‡ж–™е¤ѕ} other {з§»е‹•жЄ”жЎ€}}"
+  },
+  "files.navbar.back-to-home": {
+    "defaultMessage": "е›ће€°й¦–й Ѓ"
+  },
+  "files.navbar.breadcrumb-navigation": {
+    "defaultMessage": "йєµеЊ…е±‘е°Ћи¦Ѕ"
+  },
+  "files.navbar.create-new": {
+    "defaultMessage": "е»єз«‹ж–°зљ„..."
+  },
+  "files.navbar.file-navigation": {
+    "defaultMessage": "жЄ”жЎ€е°Ћи¦Ѕ"
+  },
+  "files.navbar.find-in-file": {
+    "defaultMessage": "ењЁжЄ”жЎ€дё­е°‹ж‰ѕ"
+  },
+  "files.navbar.home": {
+    "defaultMessage": "й¦–й Ѓ"
+  },
+  "files.navbar.install-curseforge-pack": {
+    "defaultMessage": "е®‰иЈќ CurseForge ж•ґеђ€еЊ…"
+  },
+  "files.navbar.new-file": {
+    "defaultMessage": "ж–°жЄ”жЎ€"
+  },
+  "files.navbar.new-folder": {
+    "defaultMessage": "ж–°иі‡ж–™е¤ѕ"
+  },
+  "files.navbar.search-files": {
+    "defaultMessage": "жђње°‹жЄ”жЎ€"
+  },
+  "files.navbar.share-to-mclogs": {
+    "defaultMessage": "е€†дє«и‡і mclo.gs"
+  },
+  "files.navbar.upload-file": {
+    "defaultMessage": "дёЉе‚іжЄ”жЎ€"
+  },
+  "files.navbar.upload-from-zip": {
+    "defaultMessage": "еѕћ .zip жЄ”жЎ€дёЉе‚і"
+  },
+  "files.navbar.upload-from-zip-url": {
+    "defaultMessage": "еѕћ .zip з¶ІеќЂдёЉе‚і"
+  },
+  "files.operations.extracted": {
+    "defaultMessage": "е·Іи§ЈеЈ“зё® {size}"
+  },
+  "files.operations.extracting": {
+    "defaultMessage": "ж­ЈењЁи§ЈеЈ“зё® {source}"
+  },
+  "files.operations.failed": {
+    "defaultMessage": "е¤±ж•—"
+  },
+  "files.operations.modpack-from-url": {
+    "defaultMessage": "дѕ†и‡Єз¶ІеќЂзљ„ж•ґеђ€еЊ…"
+  },
+  "files.rename-modal.header": {
+    "defaultMessage": "й‡Ќж–°е‘ЅеђЌ {name}"
+  },
+  "files.rename-modal.new-name-label": {
+    "defaultMessage": "ж–°еђЌзЁ±"
+  },
+  "files.row.item-count": {
+    "defaultMessage": "{count, plural, one {# еЂ‹й …з›®} other {# еЂ‹й …з›®}}"
+  },
+  "files.table-header.created": {
+    "defaultMessage": "е»єз«‹ж™‚й–“"
+  },
+  "files.table-header.modified": {
+    "defaultMessage": "дї®ж”№ж™‚й–“"
+  },
+  "files.table-header.name": {
+    "defaultMessage": "еђЌзЁ±"
+  },
+  "files.table-header.size": {
+    "defaultMessage": "е¤§е°Џ"
+  },
+  "files.unsaved-changes-modal.body": {
+    "defaultMessage": "ж‚Ёжњ‰жњЄе„Іе­зљ„и®Љж›ґпјЊе¦‚жћњй›ўй–‹е°‡жњѓйЃєе¤±гЂ‚й›ўй–‹е‰Ќи¦Ѓе„Іе­е—Ћпјџ"
+  },
+  "files.unsaved-changes-modal.discard": {
+    "defaultMessage": "жЌЁжЈ„"
+  },
+  "files.unsaved-changes-modal.header": {
+    "defaultMessage": "жњЄе„Іе­зљ„и®Љж›ґ"
+  },
+  "files.upload-dropdown.cancelled": {
+    "defaultMessage": "е·ІеЏ–ж¶€"
+  },
+  "files.upload-dropdown.failed-file-exists": {
+    "defaultMessage": "е¤±ж•— - жЄ”жЎ€е·Іе­ењЁ"
+  },
+  "files.upload-dropdown.failed-generic": {
+    "defaultMessage": "е¤±ж•— - {error}"
+  },
+  "files.upload-dropdown.failed-incorrect-type": {
+    "defaultMessage": "е¤±ж•— - жЄ”жЎ€йЎћећ‹дёЌж­Јзўє"
+  },
+  "files.upload-dropdown.failed-to-upload": {
+    "defaultMessage": "дёЉе‚і {fileName} е¤±ж•—"
+  },
+  "files.upload-dropdown.file": {
+    "defaultMessage": "жЄ”жЎ€"
+  },
+  "files.upload-dropdown.file-uploads": {
+    "defaultMessage": "{fileType} дёЉе‚і"
+  },
+  "files.upload-dropdown.incorrect-file-type": {
+    "defaultMessage": "дёЉе‚ізљ„жЄ”жЎ€йЎћећ‹дёЌж­Јзўє"
+  },
+  "files.upload-dropdown.unexpected-error": {
+    "defaultMessage": "з™јз”џйќћй ђжњџзљ„йЊЇиЄ¤"
+  },
+  "files.upload-dropdown.uploads-left": {
+    "defaultMessage": "е‰©й¤ {count} еЂ‹"
+  },
+  "files.upload.drag-and-drop.drop-to-upload": {
+    "defaultMessage": "е°‡ {type, select, undefined {жЄ”жЎ€} other {{type}}} ж‹–ж›іе€°йЂ™иЈЎд»ҐдёЉе‚і"
+  },
+  "files.validation.name-invalid-directory": {
+    "defaultMessage": "еђЌзЁ±еЏЄиѓЅеЊ…еђ«и‹±ж•ёе­—гЂЃз ґжЉи™џгЂЃеє•з·љж€–з©єж ј"
+  },
+  "files.validation.name-invalid-file": {
+    "defaultMessage": "еђЌзЁ±еЏЄиѓЅеЊ…еђ«и‹±ж•ёе­—гЂЃз ґжЉи™џгЂЃеє•з·љгЂЃй»ћж€–з©єж ј"
+  },
+  "files.validation.name-label": {
+    "defaultMessage": "еђЌзЁ±"
+  },
+  "files.validation.name-required": {
+    "defaultMessage": "еђЌзЁ±з‚єеї…еЎ«й …з›®"
+  },
+  "files.zip-url-modal.backup-name": {
+    "defaultMessage": "е®‰иЈќ CurseForge ж•ґеђ€еЊ…"
+  },
+  "files.zip-url-modal.cf-header": {
+    "defaultMessage": "е®‰иЈќ CurseForge ж•ґеђ€еЊ…"
+  },
+  "files.zip-url-modal.cf-not-found-text": {
+    "defaultMessage": "ењЁи©Із¶ІеќЂж‰ѕдёЌе€° CurseForge ж•ґеђ€еЊ…"
+  },
+  "files.zip-url-modal.cf-not-found-title": {
+    "defaultMessage": "ж‰ѕдёЌе€° CurseForge ж•ґеђ€еЊ…"
+  },
+  "files.zip-url-modal.enter-link": {
+    "defaultMessage": "ијёе…ҐйЂЈзµђ"
+  },
+  "files.zip-url-modal.error-cf-url": {
+    "defaultMessage": "з¶ІеќЂеї…й €жЇ CurseForge ж•ґеђ€еЊ…з‰€жњ¬з¶ІеќЂ"
+  },
+  "files.zip-url-modal.error-url-invalid": {
+    "defaultMessage": "з¶ІеќЂеї…й €жњ‰ж•€"
+  },
+  "files.zip-url-modal.error-url-required": {
+    "defaultMessage": "з¶ІеќЂз‚єеї…еЎ«й …з›®"
+  },
+  "files.zip-url-modal.install-button": {
+    "defaultMessage": "е®‰иЈќ"
+  },
+  "files.zip-url-modal.install-failed-title": {
+    "defaultMessage": "е®‰иЈќе¤±ж•—"
+  },
+  "files.zip-url-modal.step-copy-description": {
+    "defaultMessage": "и¤‡иЈЅз‰€жњ¬й Ѓйќўз¶ІеќЂдё¦иІје€°дё‹ж–№"
+  },
+  "files.zip-url-modal.step-copy-title": {
+    "defaultMessage": "и¤‡иЈЅз¶ІеќЂ"
+  },
+  "files.zip-url-modal.step-find-description": {
+    "defaultMessage": "зЂЏи¦Ѕ CurseForge дё¦ж‰ѕе€°ж‚Ёжѓіи¦Ѓзљ„ж•ґеђ€еЊ…"
+  },
+  "files.zip-url-modal.step-find-title": {
+    "defaultMessage": "е°‹ж‰ѕж•ґеђ€еЊ…"
+  },
+  "files.zip-url-modal.step-select-description": {
+    "defaultMessage": "е‰ЌеѕЂгЂЊжЄ”жЎ€гЂЌе€†й Ѓдё¦йЃёж“‡и¦Ѓе®‰иЈќзљ„з‰€жњ¬"
+  },
+  "files.zip-url-modal.step-select-title": {
+    "defaultMessage": "йЃёж“‡з‰€жњ¬"
+  },
+  "files.zip-url-modal.unknown-error": {
+    "defaultMessage": "з™јз”џжњЄзџҐйЊЇиЄ¤"
+  },
+  "files.zip-url-modal.zip-description": {
+    "defaultMessage": "и¤‡иЈЅдё¦иІјдёЉ .zip жЄ”жЎ€зљ„з›ґжЋҐдё‹иј‰з¶ІеќЂ"
+  },
+  "files.zip-url-modal.zip-header": {
+    "defaultMessage": "ж­ЈењЁеѕћз¶ІеќЂдёЉе‚і .zip е…§е®№"
   },
   "form.label.address-line": {
-    "defaultMessage": "地址行 1"
+    "defaultMessage": "ењ°еќЂиЎЊ 1"
   },
   "form.label.address-line-2": {
-    "defaultMessage": "地址行 2（可選）"
+    "defaultMessage": "ењ°еќЂиЎЊ 2пј€еЏЇйЃёпј‰"
   },
   "form.label.amount": {
-    "defaultMessage": "金額"
+    "defaultMessage": "й‡‘йЎЌ"
   },
   "form.label.bank-name": {
-    "defaultMessage": "銀行名稱"
+    "defaultMessage": "йЉЂиЎЊеђЌзЁ±"
   },
   "form.label.business-name": {
-    "defaultMessage": "企業名稱"
+    "defaultMessage": "дјЃжҐ­еђЌзЁ±"
   },
   "form.label.city": {
-    "defaultMessage": "城市"
+    "defaultMessage": "еџЋеё‚"
   },
   "form.label.country": {
-    "defaultMessage": "國家或地區"
+    "defaultMessage": "ењ‹е®¶ж€–ењ°еЌЂ"
   },
   "form.label.date-of-birth": {
-    "defaultMessage": "出生日期"
+    "defaultMessage": "е‡єз”џж—Ґжњџ"
   },
   "form.label.email": {
-    "defaultMessage": "電子郵件"
+    "defaultMessage": "й›»е­ђйѓµд»¶"
   },
   "form.label.first-name": {
-    "defaultMessage": "名字"
+    "defaultMessage": "еђЌе­—"
   },
   "form.label.last-name": {
-    "defaultMessage": "姓氏"
+    "defaultMessage": "е§“ж°Џ"
   },
   "form.label.postal-code": {
-    "defaultMessage": "郵遞區號"
+    "defaultMessage": "йѓµйЃћеЌЂи™џ"
   },
   "form.label.state-province": {
-    "defaultMessage": "縣市／省／州"
+    "defaultMessage": "зёЈеё‚пјЏзњЃпјЏе·ћ"
   },
   "form.placeholder.address": {
-    "defaultMessage": "輸入地址"
+    "defaultMessage": "ијёе…Ґењ°еќЂ"
   },
   "form.placeholder.address-2": {
-    "defaultMessage": "公寓、套房等"
+    "defaultMessage": "е…¬еЇ“гЂЃеҐ—ж€їз­‰"
   },
   "form.placeholder.amount": {
-    "defaultMessage": "輸入金額"
+    "defaultMessage": "ијёе…Ґй‡‘йЎЌ"
   },
   "form.placeholder.bank-name": {
-    "defaultMessage": "輸入銀行名稱"
+    "defaultMessage": "ијёе…ҐйЉЂиЎЊеђЌзЁ±"
   },
   "form.placeholder.bank-name-dropdown": {
-    "defaultMessage": "選擇銀行名稱"
+    "defaultMessage": "йЃёж“‡йЉЂиЎЊеђЌзЁ±"
   },
   "form.placeholder.business-name": {
-    "defaultMessage": "輸入企業名稱"
+    "defaultMessage": "ијёе…ҐдјЃжҐ­еђЌзЁ±"
   },
   "form.placeholder.city": {
-    "defaultMessage": "輸入城市"
+    "defaultMessage": "ијёе…ҐеџЋеё‚"
   },
   "form.placeholder.country": {
-    "defaultMessage": "選擇國家或地區"
+    "defaultMessage": "йЃёж“‡ењ‹е®¶ж€–ењ°еЌЂ"
   },
   "form.placeholder.email": {
-    "defaultMessage": "輸入電子郵件地址"
+    "defaultMessage": "ијёе…Ґй›»е­ђйѓµд»¶ењ°еќЂ"
   },
   "form.placeholder.first-name": {
-    "defaultMessage": "輸入名字"
+    "defaultMessage": "ијёе…ҐеђЌе­—"
   },
   "form.placeholder.last-name": {
-    "defaultMessage": "輸入姓氏"
+    "defaultMessage": "ијёе…Ґе§“ж°Џ"
   },
   "form.placeholder.postal-code": {
-    "defaultMessage": "輸入郵遞區號"
+    "defaultMessage": "ијёе…ҐйѓµйЃћеЌЂи™џ"
   },
   "form.placeholder.state": {
-    "defaultMessage": "輸入縣市／省／州"
+    "defaultMessage": "ијёе…ҐзёЈеё‚пјЏзњЃпјЏе·ћ"
   },
   "header.category.category": {
-    "defaultMessage": "類別"
+    "defaultMessage": "йЎће€Ґ"
   },
   "header.category.feature": {
-    "defaultMessage": "功能"
+    "defaultMessage": "еЉџиѓЅ"
+  },
+  "header.category.minecraft-server-community": {
+    "defaultMessage": "з¤ѕзѕ¤"
+  },
+  "header.category.minecraft-server-features": {
+    "defaultMessage": "з‰№и‰І"
+  },
+  "header.category.minecraft-server-gameplay": {
+    "defaultMessage": "йЃЉж€ІзЋ©жі•"
+  },
+  "header.category.minecraft-server-meta": {
+    "defaultMessage": "иЁ­е®љи€‡ж©џе€¶"
   },
   "header.category.performance-impact": {
-    "defaultMessage": "效能影響"
+    "defaultMessage": "ж•€иѓЅеЅ±йџї"
   },
   "header.category.resolutions": {
-    "defaultMessage": "解析度"
+    "defaultMessage": "и§Јжћђеє¦"
+  },
+  "hosting.content.failed-to-bulk-delete": {
+    "defaultMessage": "з„Ўжі•е€Єй™¤е…§е®№"
+  },
+  "hosting.content.failed-to-bulk-disable": {
+    "defaultMessage": "з„Ўжі•еЃњз”Ёе…§е®№"
+  },
+  "hosting.content.failed-to-bulk-enable": {
+    "defaultMessage": "з„Ўжі•е•џз”Ёе…§е®№"
+  },
+  "hosting.content.failed-to-bulk-update": {
+    "defaultMessage": "з„Ўжі•ж›ґж–°е…§е®№"
+  },
+  "hosting.content.failed-to-load-modpack-content": {
+    "defaultMessage": "з„Ўжі•иј‰е…ҐжЁЎзµ„еЊ…е…§е®№"
+  },
+  "hosting.content.failed-to-load-versions": {
+    "defaultMessage": "з„Ўжі•иј‰е…Ґз‰€жњ¬"
+  },
+  "hosting.content.failed-to-remove": {
+    "defaultMessage": "з„Ўжі•з§»й™¤е…§е®№"
+  },
+  "hosting.content.failed-to-toggle": {
+    "defaultMessage": "з„Ўжі•е€‡жЏ›гЂЊ{name}гЂЌ"
+  },
+  "hosting.content.failed-to-unlink": {
+    "defaultMessage": "з„Ўжі•еЏ–ж¶€йЂЈзµђжЁЎзµ„еЊ…"
+  },
+  "hosting.content.failed-to-update": {
+    "defaultMessage": "з„Ўжі•ж›ґж–°"
+  },
+  "hosting.content.failed-to-upload": {
+    "defaultMessage": "з„Ўжі•ж›ґж–°жЄ”жЎ€"
+  },
+  "hosting.loader.failed-to-change-version": {
+    "defaultMessage": "з„Ўжі•и®Љж›ґжЁЎзµ„еЊ…з‰€жњ¬"
+  },
+  "hosting.loader.failed-to-load-versions": {
+    "defaultMessage": "з„Ўжі•иј‰е…Ґз‰€жњ¬"
+  },
+  "hosting.loader.failed-to-reinstall": {
+    "defaultMessage": "з„Ўжі•й‡Ќж–°е®‰иЈќжЁЎзµ„еЊ…"
+  },
+  "hosting.loader.failed-to-repair": {
+    "defaultMessage": "з„Ўжі•дї®еѕ©дјєжњЌе™Ё"
+  },
+  "hosting.loader.failed-to-reset-to-onboarding": {
+    "defaultMessage": "з„Ўжі•е°‡дјєжњЌе™Ёй‡ЌиЁ­з‚єе€ќе§‹иЁ­е®љз‹Ђж…‹"
+  },
+  "hosting.loader.failed-to-save-settings": {
+    "defaultMessage": "з„Ўжі•е„Іе­е®‰иЈќиЁ­е®љ"
+  },
+  "hosting.loader.failed-to-unlink": {
+    "defaultMessage": "з„Ўжі•еЏ–ж¶€йЂЈзµђжЁЎзµ„еЊ…"
+  },
+  "hosting.loader.loader-version": {
+    "defaultMessage": "{loader, select, null {иј‰е…Ґе™Ё} other {{loader}}} з‰€жњ¬"
+  },
+  "hosting.loader.repair-started-text": {
+    "defaultMessage": "дЅ зљ„дјєжњЌе™Ёе®‰иЈќе·Ідї®еѕ©е®Њз•ўгЂ‚"
+  },
+  "hosting.loader.repair-started-title": {
+    "defaultMessage": "дї®еѕ©е®Њж€ђ"
+  },
+  "hosting.loader.reset-server": {
+    "defaultMessage": "й‡ЌиЁ­дјєжњЌе™Ё"
+  },
+  "hosting.loader.reset-server-description": {
+    "defaultMessage": "е°‡е€Єй™¤дЅ дјєжњЌе™ЁдёЉзљ„ж‰Ђжњ‰иі‡ж–™пјЊеЊ…ж‹¬дЅ зљ„дё–з•ЊгЂЃжЁЎзµ„д»ҐеЏЉиЁ­е®љжЄ”гЂ‚е‚™д»Ѕе°‡дїќз•™пјЊдё¦еЏЇдѕ›й‚„еЋџгЂ‚"
+  },
+  "hosting.loader.reset-to-onboarding-button": {
+    "defaultMessage": "й‡ЌиЁ­з‚єе€ќе§‹иЁ­е®љ"
+  },
+  "hosting.loader.reset-to-onboarding-modal-description": {
+    "defaultMessage": "ж­¤ж“ЌдЅње°‡дЅїдјєжњЌе™Ёе›ће€°е€ќе§‹иЁ­е®љжµЃзЁ‹пјЊд»Ґдѕїй‡Ќж–°е®Њж€ђиЁ­е®љгЂ‚ж‚Ёзўєе®љи¦Ѓз№јзєЊе—Ћпјџ"
+  },
+  "hosting.loader.reset-to-onboarding-modal-title": {
+    "defaultMessage": "й‡ЌиЁ­з‚єе€ќе§‹иЁ­е®љ"
+  },
+  "hosting.loader.reset-to-onboarding-success-description": {
+    "defaultMessage": "дјєжњЌе™Ёе·Іе›ће€°е€ќе§‹иЁ­е®љжµЃзЁ‹гЂ‚"
+  },
+  "hosting.loader.reset-to-onboarding-success-title": {
+    "defaultMessage": "дјєжњЌе™Ёе·Ій‡ЌиЁ­з‚єе€ќе§‹иЁ­е®љз‹Ђж…‹"
+  },
+  "hosting.loader.support-options-title": {
+    "defaultMessage": "ж”ЇжЏґйЃёй …"
   },
   "hosting.specs.burst": {
-    "defaultMessage": "最高可爆發至 {cpus} 個 CPU"
+    "defaultMessage": "жњЂй«еЏЇз€†з™ји‡і {cpus} еЂ‹ CPU"
   },
   "hosting.specs.burst.tooltip": {
-    "defaultMessage": "CPU 突發技術可讓你的伺服器暫時調用額外執行緒，幫助緩解 TPS 波動。按這裡查看更多資訊。"
+    "defaultMessage": "CPU зЄЃз™јжЉЂиЎ“еЏЇи®“дЅ зљ„дјєжњЌе™Ёжљ«ж™‚дЅїз”ЁйЎЌе¤–еџ·иЎЊз·’пјЊе№«еЉ©з·©и§Ј TPS жіўе‹•гЂ‚жЊ‰йЂ™иЈЎжџҐзњ‹ж›ґе¤љиі‡иЁЉгЂ‚"
   },
   "hosting.specs.gb-ram": {
-    "defaultMessage": "{ram} GB 記憶體"
+    "defaultMessage": "{ram} GB иЁж†¶й«”"
   },
   "hosting.specs.gb-storage": {
-    "defaultMessage": "{storage} GB 儲存空間"
+    "defaultMessage": "{storage} GB е„Іе­з©єй–“"
   },
   "hosting.specs.shared-cpus": {
-    "defaultMessage": "{cpus} 共享 CPU"
+    "defaultMessage": "{cpus} еЂ‹е…±з”Ё CPU"
   },
   "icon-select.edit": {
-    "defaultMessage": "編輯圖示"
+    "defaultMessage": "з·ЁијЇењ–з¤є"
   },
   "icon-select.remove": {
-    "defaultMessage": "移除圖示"
+    "defaultMessage": "з§»й™¤ењ–з¤є"
   },
   "icon-select.replace": {
-    "defaultMessage": "取代圖示"
+    "defaultMessage": "еЏ–д»Јењ–з¤є"
   },
   "icon-select.select": {
-    "defaultMessage": "選擇圖示"
+    "defaultMessage": "йЃёж“‡ењ–з¤є"
+  },
+  "input.search-version.placeholder": {
+    "defaultMessage": "жђње°‹з‰€жњ¬..."
   },
   "input.search.placeholder": {
-    "defaultMessage": "搜尋..."
+    "defaultMessage": "жђње°‹..."
+  },
+  "input.select-version.placeholder": {
+    "defaultMessage": "йЃёж“‡з‰€жњ¬"
   },
   "input.view.gallery": {
-    "defaultMessage": "圖庫檢視"
+    "defaultMessage": "ењ–еє«жЄўи¦–"
   },
   "input.view.grid": {
-    "defaultMessage": "格狀檢視"
+    "defaultMessage": "ж јз‹ЂжЄўи¦–"
   },
   "input.view.list": {
-    "defaultMessage": "清單檢視"
+    "defaultMessage": "жё…е–®жЄўи¦–"
+  },
+  "installation-settings.aria.select-game-version": {
+    "defaultMessage": "йЃёж“‡йЃЉж€Із‰€жњ¬"
+  },
+  "installation-settings.aria.select-loader-version": {
+    "defaultMessage": "йЃёж“‡ {loader} з‰€жњ¬"
+  },
+  "installation-settings.aria.select-platform": {
+    "defaultMessage": "йЃёж“‡е№іи‡є"
+  },
+  "installation-settings.confirm-version-change": {
+    "defaultMessage": "зўєе®љ"
+  },
+  "installation-settings.confirm-version-change-description": {
+    "defaultMessage": "и®Љж›ґз‚є {gameVersion} е°‡жњѓдї®ж”№дЅ дјєжњЌе™ЁдёЉзљ„дё‹е€—е…§е®№гЂ‚"
+  },
+  "installation-settings.confirm-version-change-header": {
+    "defaultMessage": "жЄўи¦–е…§е®№и®Љж›ґ"
+  },
+  "installation-settings.edit-installation.title": {
+    "defaultMessage": "з·ЁијЇе®‰иЈќ"
+  },
+  "installation-settings.edit.warning-instance": {
+    "defaultMessage": "ж€‘еЂ‘дёЌе»єи­°ењЁе®‰иЈќе…§е®№еѕЊдї®ж”№е®‰иЈќиЁ­е®љгЂ‚и‹ҐдЅ д»Ќжѓідї®ж”№пјЊи«‹е‹™еї…и¬№ж…ЋпјЊе› з‚єйЂ™еЏЇиѓЅжњѓе°Ћи‡ґе•ЏйЎЊгЂ‚"
+  },
+  "installation-settings.edit.warning-server": {
+    "defaultMessage": "ж€‘еЂ‘дёЌе»єи­°ењЁе®‰иЈќе…§е®№еѕЊдї®ж”№е®‰иЈќиЁ­е®љгЂ‚и‹ҐдЅ жѓійЂІиЎЊи®Љж›ґпјЊи«‹й‡ЌиЁ­дЅ зљ„дјєжњЌе™ЁгЂ‚"
+  },
+  "installation-settings.incompatible-content.auto-fix-button": {
+    "defaultMessage": "и‡Єе‹•дї®еѕ©"
+  },
+  "installation-settings.incompatible-content.change-loader-button": {
+    "defaultMessage": "и®Љж›ґиј‰е…Ґе™Ё"
+  },
+  "installation-settings.incompatible-content.disable-conflicts-button": {
+    "defaultMessage": "еЃњз”ЁиЎќзЄЃй …з›®"
+  },
+  "installation-settings.incompatible-content.game-version-warning-body": {
+    "defaultMessage": "и®Љж›ґйЃЉж€Із‰€жњ¬ж™‚пјЊж€‘еЂ‘еЏЇд»ҐеЃњз”ЁдёЌз›ёе®№зљ„е·Іе®‰иЈќе…§е®№пјЊж€–жЇе—и©¦и§Јж±єз›ёе®№жЂ§е•ЏйЎЊгЂ‚"
+  },
+  "installation-settings.incompatible-content.game-version-warning-title": {
+    "defaultMessage": "дёЌз›ёе®№и­¦е‘Љ"
+  },
+  "installation-settings.incompatible-content.header": {
+    "defaultMessage": "е®‰иЈќдє†дёЌз›ёе®№зљ„е…§е®№"
+  },
+  "installation-settings.incompatible-content.loader-change-body": {
+    "defaultMessage": "и®Љж›ґиј‰е…Ґе™Ёж™‚пјЊж‰Ђжњ‰е·Іе®‰иЈќзљ„е…§е®№йѓЅе°‡иў«еЃњз”ЁгЂ‚ж€‘еЂ‘е»єи­°ж”№з‚єй‡ЌиЁ­дЅ зљ„дјєжњЌе™ЁгЂ‚"
+  },
+  "installation-settings.incompatible-content.loader-change-title": {
+    "defaultMessage": "и®Љж›ґиј‰е…Ґе™Ёе…·жњ‰з ґеЈћжЂ§"
+  },
+  "installation-settings.linked-instance.title": {
+    "defaultMessage": "е·ІйЂЈзµђзљ„{projectType, select, server {дјєжњЌе™Ёе°€жЎ€} other {жЁЎзµ„еЊ…}}"
+  },
+  "installation-settings.loader-version": {
+    "defaultMessage": "{loader} з‰€жњ¬"
+  },
+  "installation-settings.platform-lock-tooltip": {
+    "defaultMessage": "дЅ йњЂи¦Ѓй‡ЌиЁ­дјєжњЌе™Ёж‰ЌиѓЅе€‡жЏ›иј‰е…Ґе™ЁгЂ‚"
+  },
+  "installation-settings.reinstall-modpack.description": {
+    "defaultMessage": "й‡Ќж–°е®‰иЈќжЁЎзµ„еЊ…жњѓе°‡{type, select, server {дјєжњЌе™Ё} other {еЇ¦дѕ‹}}е…§е®№й‡ЌиЁ­з‚єеЋџе§‹з‹Ђж…‹пјЊдЅ ж–°еўћзљ„ж‰Ђжњ‰жЁЎзµ„ж€–е…§е®№йѓЅе°‡иў«з§»й™¤гЂ‚"
+  },
+  "installation-settings.reinstall-modpack.title": {
+    "defaultMessage": "й‡Ќж–°е®‰иЈќжЁЎзµ„еЊ…"
+  },
+  "installation-settings.reinstalling-modpack": {
+    "defaultMessage": "ж­ЈењЁй‡Ќж–°е®‰иЈќжЁЎзµ„еЊ…"
+  },
+  "installation-settings.removed-incompatible": {
+    "defaultMessage": "е·Із§»й™¤пј€дёЌз›ёе®№пј‰"
+  },
+  "installation-settings.repair.instance-description": {
+    "defaultMessage": "й‡Ќж–°е®‰иЈќ Minecraft зљ„еї…и¦Ѓе…ѓд»¶дё¦жЄўжџҐжЄ”жЎ€жЇеђ¦жђЌжЇЂгЂ‚йЂ™ж€–иЁ±иѓЅдї®еѕ©дЅ зљ„йЃЉж€Іе› е•џе‹•е™Ёе‡єйЊЇиЂЊж‰“дёЌй–‹зљ„е•ЏйЎЊгЂ‚"
+  },
+  "installation-settings.repair.instance-title": {
+    "defaultMessage": "дї®еѕ©еЇ¦дѕ‹"
+  },
+  "installation-settings.repair.server-description": {
+    "defaultMessage": "ењЁдїќз•™йЃЉж€Іе…§е®№зљ„жѓ…жіЃдё‹пјЊй‡Ќж–°е®‰иЈќиј‰е…Ґе™Ёи€‡ Minecraft зљ„еї…и¦Ѓе…ѓд»¶гЂ‚йЂ™ж€–иЁ±иѓЅдї®еѕ©дЅ дјєжњЌе™Ёз„Ўжі•ж­Јеёёе•џе‹•зљ„е•ЏйЎЊгЂ‚"
+  },
+  "installation-settings.repair.server-title": {
+    "defaultMessage": "дї®еѕ©дјєжњЌе™Ё"
+  },
+  "installation-settings.saving": {
+    "defaultMessage": "е„Іе­дё­..."
+  },
+  "installation-settings.search-game-version": {
+    "defaultMessage": "жђње°‹йЃЉж€Із‰€жњ¬..."
+  },
+  "installation-settings.unlink": {
+    "defaultMessage": "еЏ–ж¶€йЂЈзµђ"
+  },
+  "installation-settings.unlink.description": {
+    "defaultMessage": "еЏ–ж¶€йЂЈзµђе°‡ж°ёд№…е€‡ж–·ж­¤{type, select, server {дјєжњЌе™Ё} other {еЇ¦дѕ‹}}и€‡{projectType, select, server {дјєжњЌе™Ё} other {жЁЎзµ„еЊ…}}е°€жЎ€зљ„йЂЈзµђгЂ‚йЂ™и®“дЅ еЏЇд»Ґж›ґж”№иј‰е…Ґе™Ёи€‡ Minecraft з‰€жњ¬пјЊдЅ†дЅ е°‡з„Ўжі•ж”¶е€°жњЄдѕ†зљ„ж›ґж–°гЂ‚"
+  },
+  "installation-settings.verifying": {
+    "defaultMessage": "й©—и­‰дё­..."
+  },
+  "instance.confirm-reinstall.admonition-body": {
+    "defaultMessage": "й‡Ќж–°е®‰иЈќе°‡жњѓжЉЉж‰Ђжњ‰е·Іе®‰иЈќж€–дї®ж”№йЃЋзљ„е…§е®№пјЊй‡ЌиЁ­е›ћжЁЎзµ„еЊ…еЋџе§‹зљ„з‹Ђж…‹гЂ‚йЂ™е°‡жњѓз§»й™¤ж‰Ђжњ‰дЅ ењЁеЋџе§‹е®‰иЈќдёЉйЎЌе¤–ж·»еЉ зљ„жЁЎзµ„ж€–е…§е®№гЂ‚"
+  },
+  "instance.confirm-reinstall.admonition-header": {
+    "defaultMessage": "й‡Ќж–°е®‰иЈќи­¦е‘Љ"
+  },
+  "instance.confirm-reinstall.header": {
+    "defaultMessage": "й‡Ќж–°е®‰иЈќжЁЎзµ„еЊ…"
+  },
+  "instance.confirm-reinstall.reinstall-button": {
+    "defaultMessage": "й‡Ќж–°е®‰иЈќжЁЎзµ„еЊ…"
+  },
+  "instance.confirm-repair.body": {
+    "defaultMessage": "дї®еѕ©еЇ¦дѕ‹жњѓењЁдїќз•™йЃЉж€Іе…§е®№зљ„жѓ…жіЃдё‹пјЊй‡Ќж–°е®‰иЈќиј‰е…Ґе™Ёи€‡ Minecraft зљ„еї…и¦Ѓе…ѓд»¶гЂ‚йЂ™ж€–иЁ±иѓЅдї®еѕ©дЅ {type, select, server {дјєжњЌе™Ёз„Ўжі•ж­Јеёёе•џе‹•зљ„е•ЏйЎЊ} other {зљ„йЃЉж€Іе› е•џе‹•е™Ёе‡єйЊЇиЂЊж‰“дёЌй–‹зљ„е•ЏйЎЊ}}гЂ‚"
+  },
+  "instance.confirm-repair.header": {
+    "defaultMessage": "дї®еѕ©{type, select, server {дјєжњЌе™Ё} other {еЇ¦дѕ‹}}"
+  },
+  "instance.confirm-repair.repair-button": {
+    "defaultMessage": "дї®еѕ©"
   },
   "instance.worlds.game_mode.adventure": {
-    "defaultMessage": "冒險模式"
+    "defaultMessage": "е†’йљЄжЁЎејЏ"
   },
   "instance.worlds.game_mode.creative": {
-    "defaultMessage": "創造模式"
+    "defaultMessage": "е‰µйЂ жЁЎејЏ"
   },
   "instance.worlds.game_mode.spectator": {
-    "defaultMessage": "旁觀者模式"
+    "defaultMessage": "ж—Ѓи§ЂиЂ…жЁЎејЏ"
   },
   "instance.worlds.game_mode.survival": {
-    "defaultMessage": "生存模式"
+    "defaultMessage": "з”џе­жЁЎејЏ"
   },
   "instance.worlds.game_mode.unknown": {
-    "defaultMessage": "未知的遊戲模式"
+    "defaultMessage": "жњЄзџҐзљ„йЃЉж€ІжЁЎејЏ"
   },
-  "instances.modpack-card.unlink": {
-    "defaultMessage": "解除連結模組包"
+  "instances.confirm-leave-modal.body": {
+    "defaultMessage": "жЄ”жЎ€й‚„ењЁдёЉе‚ідё­пјЊй›ўй–‹ж­¤й Ѓйќўе°‡еЏ–ж¶€дёЉе‚іпјЊдё¦дё”дЅ ж‰ЂеЃљзљ„и®Љж›ґеЏЇиѓЅжњѓйЃєе¤±гЂ‚"
+  },
+  "instances.confirm-leave-modal.upload-in-progress": {
+    "defaultMessage": "ж­ЈењЁеџ·иЎЊдёЉе‚ідЅњжҐ­"
+  },
+  "instances.content-install.compatible-count": {
+    "defaultMessage": "{count} еЂ‹з›ёе®№еЇ¦дѕ‹"
+  },
+  "instances.content-install.existing-tab": {
+    "defaultMessage": "е·Іжњ‰еЇ¦дѕ‹"
+  },
+  "instances.content-install.game-version-placeholder": {
+    "defaultMessage": "йЃёж“‡йЃЉж€Із‰€жњ¬"
+  },
+  "instances.content-install.header": {
+    "defaultMessage": "е®‰иЈќе°€жЎ€"
+  },
+  "instances.content-install.install-button": {
+    "defaultMessage": "е®‰иЈќ"
+  },
+  "instances.content-install.installed-badge": {
+    "defaultMessage": "е·Іе®‰иЈќ"
+  },
+  "instances.content-install.instance-type": {
+    "defaultMessage": "еЇ¦дѕ‹йЎћећ‹"
+  },
+  "instances.content-install.loader-label": {
+    "defaultMessage": "иј‰е…Ґе™Ё"
+  },
+  "instances.content-install.name-label": {
+    "defaultMessage": "еђЌзЁ±"
+  },
+  "instances.content-install.name-placeholder": {
+    "defaultMessage": "ијёе…ҐеЇ¦дѕ‹еђЌзЁ±"
+  },
+  "instances.content-install.new-tab": {
+    "defaultMessage": "ж–°зљ„еЇ¦дѕ‹"
+  },
+  "instances.content-install.no-instances": {
+    "defaultMessage": "ж‰ѕдёЌе€°з›ёе®№зљ„еЇ¦дѕ‹"
+  },
+  "instances.content-install.remove-icon": {
+    "defaultMessage": "з§»й™¤ењ–з¤є"
+  },
+  "instances.content-install.search-placeholder": {
+    "defaultMessage": "жђње°‹еЇ¦дѕ‹"
+  },
+  "instances.content-install.select-icon": {
+    "defaultMessage": "йЃёж“‡ењ–з¤є"
+  },
+  "instances.modpack-content-modal.empty-description": {
+    "defaultMessage": "йЂ™еЂ‹жЁЎзµ„еЊ…дёЌеЊ…еђ«д»»дЅ•йЎЌе¤–е…§е®№гЂ‚"
+  },
+  "instances.modpack-content-modal.empty-title": {
+    "defaultMessage": "ж‰ѕдёЌе€°е…§е®№"
+  },
+  "instances.modpack-content-modal.header": {
+    "defaultMessage": "жЁЎзµ„еЊ…е…§е®№"
+  },
+  "instances.modpack-content-modal.loading": {
+    "defaultMessage": "ж­ЈењЁиј‰е…Ґе…§е®№..."
+  },
+  "instances.modpack-content-modal.no-results": {
+    "defaultMessage": "жІ’жњ‰е°€жЎ€з¬¦еђ€дЅ зљ„жђње°‹е­—и©ћгЂ‚"
+  },
+  "instances.modpack-content-modal.search-placeholder": {
+    "defaultMessage": "жђње°‹ {count, number} еЂ‹е°€жЎ€"
   },
   "instances.updater-modal.badge.current": {
-    "defaultMessage": "目前"
+    "defaultMessage": "з›®е‰Ќ"
   },
   "instances.updater-modal.badge.incompatible": {
-    "defaultMessage": "不相容"
+    "defaultMessage": "дёЌз›ёе®№"
   },
   "instances.updater-modal.downgrade-to": {
-    "defaultMessage": "降級到 v{version}"
+    "defaultMessage": "й™Ќзґље€° {version}"
   },
   "instances.updater-modal.header": {
-    "defaultMessage": "更新版本"
+    "defaultMessage": "ж›ґж–°з‰€жњ¬"
+  },
+  "instances.updater-modal.header-modpack": {
+    "defaultMessage": "е€‡жЏ›жЁЎзµ„еЊ…з‰€жњ¬"
+  },
+  "instances.updater-modal.header-switch": {
+    "defaultMessage": "е€‡жЏ›з‰€жњ¬"
   },
   "instances.updater-modal.hide-incompatible": {
-    "defaultMessage": "隱藏不相容項目"
+    "defaultMessage": "йљ±и—ЏдёЌз›ёе®№й …з›®"
+  },
+  "instances.updater-modal.loading-changelog": {
+    "defaultMessage": "ж­ЈењЁиј‰е…Ґж›ґж–°ж—ҐиЄЊ..."
+  },
+  "instances.updater-modal.loading-versions": {
+    "defaultMessage": "ж­ЈењЁиј‰е…Ґз‰€жњ¬..."
   },
   "instances.updater-modal.no-changelog": {
-    "defaultMessage": "這個版本沒有提供更新日誌。"
+    "defaultMessage": "йЂ™еЂ‹з‰€жњ¬жІ’жњ‰жЏђдѕ›ж›ґж–°ж—ҐиЄЊгЂ‚"
   },
   "instances.updater-modal.no-versions": {
-    "defaultMessage": "找不到版本"
+    "defaultMessage": "ж‰ѕдёЌе€°з‰€жњ¬"
   },
   "instances.updater-modal.search-placeholder": {
-    "defaultMessage": "搜尋版本..."
+    "defaultMessage": "жђње°‹з‰€жњ¬..."
   },
   "instances.updater-modal.select-version": {
-    "defaultMessage": "選擇版本以查看更新日誌"
+    "defaultMessage": "йЃёж“‡з‰€жњ¬д»ҐжџҐзњ‹ж›ґж–°ж—ҐиЄЊ"
   },
   "instances.updater-modal.show-incompatible": {
-    "defaultMessage": "顯示不相容項目"
+    "defaultMessage": "йЎЇз¤єдёЌз›ёе®№й …з›®"
+  },
+  "instances.updater-modal.switch-to": {
+    "defaultMessage": "е€‡жЏ›е€° {version}"
   },
   "instances.updater-modal.update-to": {
-    "defaultMessage": "更新到 v{version}"
+    "defaultMessage": "ж›ґж–°е€° {version}"
   },
-  "instances.updater-modal.warning.app": {
-    "defaultMessage": "我們無法保證更新對於你的實例是安全的。請檢閱所有中間版本的更新日誌，並考慮進行備份。"
+  "instances.updater-modal.warning-app": {
+    "defaultMessage": "ж›ґж–°еЏЇиѓЅжњѓе°Ћи‡ґеЇ¦дѕ‹жђЌеЈћгЂ‚и«‹е…€жџҐзњ‹з‰€жњ¬ж›ґж–°ж—ҐиЄЊдё¦е‚™д»ЅгЂ‚"
   },
-  "instances.updater-modal.warning.web": {
-    "defaultMessage": "我們無法保證更新對於你的世界是安全的。請檢閱所有中間版本的更新日誌，並考慮進行備份。"
+  "instances.updater-modal.warning-web": {
+    "defaultMessage": "ж›ґж–°еЏЇиѓЅжњѓе°Ћи‡ґдё–з•ЊжђЌеЈћгЂ‚и«‹е…€жџҐзњ‹з‰€жњ¬ж›ґж–°ж—ҐиЄЊдё¦е‚™д»ЅгЂ‚"
   },
   "label.actions": {
-    "defaultMessage": "動作"
+    "defaultMessage": "е‹•дЅњ"
   },
   "label.available": {
-    "defaultMessage": "可用餘額 {amount}。"
+    "defaultMessage": "еЏЇз”Ёй¤йЎЌ {amount}гЂ‚"
   },
   "label.changelog": {
-    "defaultMessage": "更新日誌"
+    "defaultMessage": "ж›ґж–°ж—ҐиЄЊ"
   },
   "label.changes-saved": {
-    "defaultMessage": "變更已儲存"
+    "defaultMessage": "и®Љж›ґе·Іе„Іе­"
+  },
+  "label.client-depends-warning": {
+    "defaultMessage": "ж­¤жЁЎзµ„дѕќиіґе®ўж€¶з«ЇжЁЎзµ„пјЊе•џе‹•дјєжњЌе™Ёж™‚еЏЇиѓЅжњѓйЂ ж€ђе•ЏйЎЊ"
+  },
+  "label.client-only-warning": {
+    "defaultMessage": "ж­¤з‚єз”Ёж€¶з«ЇжЁЎзµ„пјЊе•џе‹•дјєжњЌе™Ёж™‚еЏЇиѓЅжњѓе°Ћи‡ґе•ЏйЎЊ"
+  },
+  "label.client-retained-warning": {
+    "defaultMessage": "йЂ™жЇдёЂеЂ‹дЅњз‚єдѕќиіґй …е®‰иЈќзљ„е®ўж€¶з«ЇжЁЎзµ„пјЊе•џе‹•дјєжњЌе™Ёж™‚еЏЇиѓЅжњѓйЂ ж€ђе•ЏйЎЊ"
   },
   "label.collections": {
-    "defaultMessage": "收藏"
+    "defaultMessage": "ж”¶и—Џ"
   },
   "label.confirm-password": {
-    "defaultMessage": "確認密碼"
+    "defaultMessage": "зўєиЄЌеЇ†зўј"
   },
   "label.content": {
-    "defaultMessage": "內容"
+    "defaultMessage": "е…§е®№"
+  },
+  "label.copied-filename": {
+    "defaultMessage": "е·Іи¤‡иЈЅжЄ”жЎ€еђЌзЁ±"
+  },
+  "label.copied-path": {
+    "defaultMessage": "е·Іи¤‡иЈЅи·Їеѕ‘"
+  },
+  "label.create-failed": {
+    "defaultMessage": "е»єз«‹е¤±ж•—"
   },
   "label.created-ago": {
-    "defaultMessage": "建立時間：{ago}"
+    "defaultMessage": "е»єз«‹ж™‚й–“пјљ{ago}"
   },
   "label.dashboard": {
-    "defaultMessage": "資訊主頁"
+    "defaultMessage": "иі‡иЁЉдё»й Ѓ"
   },
   "label.delete": {
-    "defaultMessage": "刪除"
+    "defaultMessage": "е€Єй™¤"
+  },
+  "label.delete-failed": {
+    "defaultMessage": "е€Єй™¤е¤±ж•—"
+  },
+  "label.delete-immediately": {
+    "defaultMessage": "з«‹еЌіе€Єй™¤"
   },
   "label.description": {
-    "defaultMessage": "描述"
+    "defaultMessage": "жЏЏиї°"
   },
   "label.details": {
-    "defaultMessage": "詳細資訊"
+    "defaultMessage": "и©ізґ°иі‡иЁЉ"
+  },
+  "label.done": {
+    "defaultMessage": "е®Њж€ђ"
+  },
+  "label.download-failed": {
+    "defaultMessage": "дё‹иј‰е¤±ж•—"
   },
   "label.email": {
-    "defaultMessage": "電子郵件地址"
+    "defaultMessage": "й›»е­ђйѓµд»¶ењ°еќЂ"
   },
   "label.email-username": {
-    "defaultMessage": "電子郵件地址或使用者名稱"
+    "defaultMessage": "й›»е­ђйѓµд»¶ењ°еќЂж€–дЅїз”ЁиЂ…еђЌзЁ±"
   },
   "label.error": {
-    "defaultMessage": "錯誤"
+    "defaultMessage": "йЊЇиЄ¤"
+  },
+  "label.extract-failed": {
+    "defaultMessage": "и§ЈеЈ“зё®е¤±ж•—"
   },
   "label.filter-by": {
-    "defaultMessage": "篩選依據"
+    "defaultMessage": "зЇ©йЃёдѕќж“љ"
   },
   "label.followed-projects": {
-    "defaultMessage": "追蹤的專案"
+    "defaultMessage": "иїЅи№¤зљ„е°€жЎ€"
+  },
+  "label.game-version": {
+    "defaultMessage": "йЃЉж€Із‰€жњ¬"
+  },
+  "label.installation-info": {
+    "defaultMessage": "е®‰иЈќиі‡иЁЉ"
+  },
+  "label.installed-modpack": {
+    "defaultMessage": "е·Іе®‰иЈќжЁЎзµ„еЊ…"
+  },
+  "label.installing": {
+    "defaultMessage": "е®‰иЈќдё­..."
   },
   "label.loading": {
-    "defaultMessage": "載入中..."
+    "defaultMessage": "иј‰е…Ґдё­..."
   },
   "label.moderation": {
-    "defaultMessage": "管理"
+    "defaultMessage": "з®Ўзђ†"
+  },
+  "label.modpack": {
+    "defaultMessage": "жЁЎзµ„еЊ…"
+  },
+  "label.move-failed": {
+    "defaultMessage": "з§»е‹•е¤±ж•—"
   },
   "label.no": {
-    "defaultMessage": "否"
+    "defaultMessage": "еђ¦"
   },
   "label.no-items": {
-    "defaultMessage": "沒有項目"
+    "defaultMessage": "жІ’жњ‰й …з›®"
   },
   "label.notifications": {
-    "defaultMessage": "通知"
+    "defaultMessage": "йЂљзџҐ"
   },
   "label.or": {
-    "defaultMessage": "或"
+    "defaultMessage": "ж€–"
   },
   "label.password": {
-    "defaultMessage": "密碼"
+    "defaultMessage": "еЇ†зўј"
+  },
+  "label.plan-custom": {
+    "defaultMessage": "и‡ЄиЁ‚"
+  },
+  "label.plan-large": {
+    "defaultMessage": "е¤§ећ‹"
+  },
+  "label.plan-medium": {
+    "defaultMessage": "дё­ећ‹"
+  },
+  "label.plan-small": {
+    "defaultMessage": "е°Џећ‹"
+  },
+  "label.plan-unknown": {
+    "defaultMessage": "жњЄзџҐ"
+  },
+  "label.platform": {
+    "defaultMessage": "е№іи‡є"
   },
   "label.played": {
-    "defaultMessage": "遊玩時長：{time}"
+    "defaultMessage": "йЃЉзЋ©ж™‚й•·пјљ{ago}"
   },
   "label.project": {
-    "defaultMessage": "專案"
+    "defaultMessage": "е°€жЎ€"
   },
   "label.public": {
-    "defaultMessage": "公開"
+    "defaultMessage": "е…¬й–‹"
   },
   "label.rejected": {
-    "defaultMessage": "已拒絕"
+    "defaultMessage": "е·Іж‹’зµ•"
+  },
+  "label.rename-failed": {
+    "defaultMessage": "й‡Ќж–°е‘ЅеђЌе¤±ж•—"
   },
   "label.rewards-program-terms-agreement": {
-    "defaultMessage": "我同意《<terms-link>獎勵計畫條款</terms-link>》"
+    "defaultMessage": "ж€‘еђЊж„ЏгЂЉ<terms-link>зЌЋе‹µиЁ€з•«жўќж¬ѕ</terms-link>гЂ‹"
   },
   "label.saved": {
-    "defaultMessage": "已儲存"
+    "defaultMessage": "е·Іе„Іе­"
   },
   "label.scopes": {
-    "defaultMessage": "權限範圍"
+    "defaultMessage": "ж¬Љй™ђзЇ„ењЌ"
   },
   "label.search": {
-    "defaultMessage": "搜尋"
+    "defaultMessage": "жђње°‹"
+  },
+  "label.select-all": {
+    "defaultMessage": "йЃёж“‡е…ЁйѓЁ"
+  },
+  "label.selection-actions": {
+    "defaultMessage": "йЃёж“‡е‹•дЅњ"
   },
   "label.server": {
-    "defaultMessage": "伺服器"
+    "defaultMessage": "дјєжњЌе™Ё"
   },
   "label.servers": {
-    "defaultMessage": "伺服器"
+    "defaultMessage": "дјєжњЌе™Ё"
   },
   "label.settings": {
-    "defaultMessage": "設定"
+    "defaultMessage": "иЁ­е®љ"
   },
   "label.singleplayer": {
-    "defaultMessage": "單人遊戲"
+    "defaultMessage": "е–®дєєйЃЉж€І"
   },
   "label.sort-by": {
-    "defaultMessage": "排序依據"
+    "defaultMessage": "жЋ’еєЏдѕќж“љпјљ"
   },
   "label.success": {
-    "defaultMessage": "成功"
+    "defaultMessage": "ж€ђеЉџ"
   },
   "label.title": {
-    "defaultMessage": "標題"
+    "defaultMessage": "жЁ™йЎЊ"
+  },
+  "label.unknown": {
+    "defaultMessage": "жњЄзџҐ"
   },
   "label.unlisted": {
-    "defaultMessage": "不公開"
+    "defaultMessage": "дёЌе…¬й–‹"
   },
   "label.update-available": {
-    "defaultMessage": "有可用的更新"
+    "defaultMessage": "жњ‰еЏЇз”Ёзљ„ж›ґж–°"
+  },
+  "label.updating": {
+    "defaultMessage": "ж›ґж–°дё­..."
+  },
+  "label.upload-failed": {
+    "defaultMessage": "дёЉе‚іе¤±ж•—"
   },
   "label.username": {
-    "defaultMessage": "使用者名稱"
+    "defaultMessage": "дЅїз”ЁиЂ…еђЌзЁ±"
   },
   "label.version": {
-    "defaultMessage": "版本"
+    "defaultMessage": "з‰€жњ¬"
   },
   "label.visibility": {
-    "defaultMessage": "瀏覽權限"
+    "defaultMessage": "зЂЏи¦Ѕж¬Љй™ђ"
   },
   "label.visit-your-profile": {
-    "defaultMessage": "瀏覽個人檔案"
+    "defaultMessage": "зЂЏи¦ЅеЂ‹дєєжЄ”жЎ€"
   },
   "label.yes": {
-    "defaultMessage": "是"
+    "defaultMessage": "жЇ"
+  },
+  "locale.cs-CZ": {
+    "defaultMessage": "жЌ·е…‹ж–‡"
+  },
+  "locale.da-DK": {
+    "defaultMessage": "дё№йєҐж–‡"
+  },
+  "locale.de-CH": {
+    "defaultMessage": "еѕ·ж–‡пј€з‘ћеЈ«пј‰"
+  },
+  "locale.de-DE": {
+    "defaultMessage": "еѕ·ж–‡пј€еѕ·ењ‹пј‰"
+  },
+  "locale.en-US": {
+    "defaultMessage": "и‹±ж–‡пј€зѕЋењ‹пј‰"
+  },
+  "locale.es-419": {
+    "defaultMessage": "иҐїзЏ­з‰™ж–‡пј€ж‹‰дёЃзѕЋжґІпј‰"
+  },
+  "locale.es-ES": {
+    "defaultMessage": "иҐїзЏ­з‰™ж–‡пј€иҐїзЏ­з‰™пј‰"
+  },
+  "locale.fi-FI": {
+    "defaultMessage": "иЉ¬и­ж–‡"
+  },
+  "locale.fil-PH": {
+    "defaultMessage": "иЏІеѕ‹иі“ж–‡"
+  },
+  "locale.fr-FR": {
+    "defaultMessage": "жі•ж–‡"
+  },
+  "locale.he-IL": {
+    "defaultMessage": "еёЊдјЇдѕ†ж–‡"
+  },
+  "locale.hu-HU": {
+    "defaultMessage": "еЊ€з‰™е€©ж–‡"
+  },
+  "locale.id-ID": {
+    "defaultMessage": "еЌ°е°јж–‡"
+  },
+  "locale.it-IT": {
+    "defaultMessage": "зѕ©е¤§е€©ж–‡пј€зѕ©е¤§е€©пј‰"
+  },
+  "locale.ja-JP": {
+    "defaultMessage": "ж—Ґж–‡"
+  },
+  "locale.ko-KR": {
+    "defaultMessage": "йџ“ж–‡"
+  },
+  "locale.ms-MY": {
+    "defaultMessage": "й¦¬дѕ†ж–‡"
+  },
+  "locale.nl-NL": {
+    "defaultMessage": "иЌ·и­ж–‡"
+  },
+  "locale.no-NO": {
+    "defaultMessage": "ж›ёйќўжЊЄеЁЃж–‡"
+  },
+  "locale.pl-PL": {
+    "defaultMessage": "жіўи­ж–‡"
+  },
+  "locale.pt-BR": {
+    "defaultMessage": "и‘Ўиђ„з‰™ж–‡пј€е·ґиҐїпј‰"
+  },
+  "locale.pt-PT": {
+    "defaultMessage": "и‘Ўиђ„з‰™ж–‡пј€и‘Ўиђ„з‰™пј‰"
+  },
+  "locale.ro-RO": {
+    "defaultMessage": "зѕ…й¦¬е°јдєћж–‡"
+  },
+  "locale.ru-RU": {
+    "defaultMessage": "дї„ж–‡"
+  },
+  "locale.sr-CS": {
+    "defaultMessage": "еЎћз€ѕз¶­дєћж–‡пј€ж‹‰дёЃпј‰"
+  },
+  "locale.sv-SE": {
+    "defaultMessage": "з‘ће…ёж–‡"
+  },
+  "locale.th-TH": {
+    "defaultMessage": "жі°ж–‡"
+  },
+  "locale.tr-TR": {
+    "defaultMessage": "ењџиЂіе…¶ж–‡"
+  },
+  "locale.uk-UA": {
+    "defaultMessage": "зѓЏе…‹и­ж–‡"
+  },
+  "locale.vi-VN": {
+    "defaultMessage": "и¶ЉеЌ—ж–‡"
+  },
+  "locale.zh-CN": {
+    "defaultMessage": "з°Ўй«”дё­ж–‡"
+  },
+  "locale.zh-TW": {
+    "defaultMessage": "ж­Јй«”дё­ж–‡"
   },
   "modal.add-payment-method.action": {
-    "defaultMessage": "新增付款方式"
+    "defaultMessage": "ж–°еўћд»ж¬ѕж–№ејЏ"
   },
   "modal.add-payment-method.title": {
-    "defaultMessage": "正在新增付款方式"
+    "defaultMessage": "ж­ЈењЁж–°еўћд»ж¬ѕж–№ејЏ"
+  },
+  "modal.open-in-app.benefit.install": {
+    "defaultMessage": "и‡Єе‹•е®‰иЈќж‰ЂйњЂе…§е®№"
+  },
+  "modal.open-in-app.benefit.launch": {
+    "defaultMessage": "з›ґжЋҐе•џе‹•йЃЉж€Ідё¦еЉ е…ҐдјєжњЌе™Ё"
+  },
+  "modal.open-in-app.benefit.update": {
+    "defaultMessage": "з•¶дјєжњЌе™Ёи®Ље‹•ж™‚пјЊз¶­жЊЃжЄ”жЎ€з‚єжњЂж–°з‹Ђж…‹"
+  },
+  "modal.open-in-app.get-app": {
+    "defaultMessage": "еЏ–еѕ— Mist Launcher"
+  },
+  "modal.open-in-app.opening-automatically": {
+    "defaultMessage": "Mist Launcher е°‡и‡Єе‹•й–‹е•џ..."
+  },
+  "modal.open-in-app.title": {
+    "defaultMessage": "ж­ЈењЁй–‹е•џ Mist Launcher"
+  },
+  "modal.open-in-app.why-use": {
+    "defaultMessage": "з‚єдЅ•дЅїз”Ё Mist Launcher"
   },
   "notification.error.title": {
-    "defaultMessage": "發生錯誤"
+    "defaultMessage": "з™јз”џйЊЇиЄ¤"
   },
   "omorphia.component.badge.label.accepted": {
-    "defaultMessage": "已接受"
+    "defaultMessage": "е·ІжЋҐеЏ—"
   },
   "omorphia.component.badge.label.approved": {
-    "defaultMessage": "已核准"
+    "defaultMessage": "е·Іж ёе‡†"
   },
   "omorphia.component.badge.label.archived": {
-    "defaultMessage": "已封存"
+    "defaultMessage": "е·Іе°Ѓе­"
   },
   "omorphia.component.badge.label.closed": {
-    "defaultMessage": "已關閉"
+    "defaultMessage": "е·Ій—њй–‰"
   },
   "omorphia.component.badge.label.creator": {
-    "defaultMessage": "創作者"
+    "defaultMessage": "е‰µдЅњиЂ…"
   },
   "omorphia.component.badge.label.draft": {
-    "defaultMessage": "草稿"
+    "defaultMessage": "иЌ‰зЁї"
   },
   "omorphia.component.badge.label.failed": {
-    "defaultMessage": "失敗"
+    "defaultMessage": "е¤±ж•—"
   },
   "omorphia.component.badge.label.listed": {
-    "defaultMessage": "公開"
+    "defaultMessage": "е…¬й–‹"
   },
   "omorphia.component.badge.label.moderator": {
-    "defaultMessage": "審查員"
+    "defaultMessage": "з®Ўзђ†е“Ў"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Modrinth 團隊"
+    "defaultMessage": "Modrinth ењйљЉ"
   },
   "omorphia.component.badge.label.pending": {
-    "defaultMessage": "待處理"
+    "defaultMessage": "еѕ…и™•зђ†"
   },
   "omorphia.component.badge.label.private": {
-    "defaultMessage": "私人"
+    "defaultMessage": "з§Ѓдєє"
   },
   "omorphia.component.badge.label.processed": {
-    "defaultMessage": "已處理"
+    "defaultMessage": "е·Іи™•зђ†"
   },
   "omorphia.component.badge.label.rejected": {
-    "defaultMessage": "已拒絕"
+    "defaultMessage": "е·Іж‹’зµ•"
   },
   "omorphia.component.badge.label.returned": {
-    "defaultMessage": "已退回"
+    "defaultMessage": "е·ІйЂЂе›ћ"
   },
   "omorphia.component.badge.label.safe": {
-    "defaultMessage": "通過"
+    "defaultMessage": "йЂљйЃЋ"
   },
   "omorphia.component.badge.label.scheduled": {
-    "defaultMessage": "已排定"
+    "defaultMessage": "е·ІжЋ’е®љ"
   },
   "omorphia.component.badge.label.under-review": {
-    "defaultMessage": "審核中"
+    "defaultMessage": "еЇ©жџҐдё­"
   },
   "omorphia.component.badge.label.unlisted": {
-    "defaultMessage": "不公開"
+    "defaultMessage": "дёЌе…¬й–‹"
   },
   "omorphia.component.badge.label.unsafe": {
-    "defaultMessage": "不通過"
+    "defaultMessage": "дёЌйЂљйЃЋ"
   },
   "omorphia.component.badge.label.withheld": {
-    "defaultMessage": "已隱藏"
+    "defaultMessage": "е·Іж“±зЅ®"
   },
   "omorphia.component.copy.action.copy": {
-    "defaultMessage": "將程式碼複製到剪貼簿"
+    "defaultMessage": "е°‡зЁ‹ејЏзўји¤‡иЈЅе€°е‰ЄиІјз°ї"
   },
   "omorphia.component.environment-indicator.label.client": {
-    "defaultMessage": "用戶端"
+    "defaultMessage": "з”Ёж€¶з«Ї"
   },
   "omorphia.component.environment-indicator.label.client-and-server": {
-    "defaultMessage": "用戶端與伺服器端"
+    "defaultMessage": "з”Ёж€¶з«Їи€‡дјєжњЌе™Ёз«Ї"
   },
   "omorphia.component.environment-indicator.label.client-or-server": {
-    "defaultMessage": "用戶端或伺服器端"
+    "defaultMessage": "з”Ёж€¶з«Їж€–дјєжњЌе™Ёз«Ї"
   },
   "omorphia.component.environment-indicator.label.server": {
-    "defaultMessage": "伺服器端"
+    "defaultMessage": "дјєжњЌе™Ёз«Ї"
   },
   "omorphia.component.environment-indicator.label.type": {
     "defaultMessage": "{type}"
   },
   "omorphia.component.environment-indicator.label.unsupported": {
-    "defaultMessage": "不支援"
+    "defaultMessage": "дёЌж”ЇжЏґ"
   },
   "payment-method.amazon_pay": {
     "defaultMessage": "Amazon Pay"
   },
   "payment-method.amex": {
-    "defaultMessage": "美國運通"
+    "defaultMessage": "зѕЋењ‹йЃ‹йЂљ"
   },
   "payment-method.card_display": {
-    "defaultMessage": "{card_brand}（末四碼 {last_four}）"
+    "defaultMessage": "{card_brand}пј€жњ«е››зўј {last_four}пј‰"
   },
   "payment-method.cashapp": {
     "defaultMessage": "Cash App"
   },
   "payment-method.charity": {
-    "defaultMessage": "慈善"
+    "defaultMessage": "ж…€е–„ж©џж§‹"
   },
   "payment-method.charity-plural": {
-    "defaultMessage": "慈善機構"
+    "defaultMessage": "ж…€е–„ж©џж§‹"
   },
   "payment-method.diners": {
-    "defaultMessage": "大來卡"
+    "defaultMessage": "е¤§дѕ†еЌЎ"
   },
   "payment-method.discover": {
     "defaultMessage": "Discover"
@@ -615,406 +1803,730 @@
     "defaultMessage": "EFTPOS"
   },
   "payment-method.gift-card": {
-    "defaultMessage": "禮品卡"
+    "defaultMessage": "з¦®е“ЃеЌЎ"
   },
   "payment-method.gift-card-plural": {
-    "defaultMessage": "禮品卡"
+    "defaultMessage": "з¦®е“ЃеЌЎ"
   },
   "payment-method.jcb": {
     "defaultMessage": "JCB"
   },
   "payment-method.mastercard": {
-    "defaultMessage": "萬事達卡"
+    "defaultMessage": "иђ¬дє‹йЃ”еЌЎ"
   },
   "payment-method.paypal": {
     "defaultMessage": "PayPal"
   },
   "payment-method.paypal_international": {
-    "defaultMessage": "PayPal 國際"
+    "defaultMessage": "PayPal ењ‹йљ›"
   },
   "payment-method.unionpay": {
-    "defaultMessage": "銀聯"
+    "defaultMessage": "йЉЂиЃЇ"
   },
   "payment-method.unknown": {
-    "defaultMessage": "未知的付款方式"
+    "defaultMessage": "жњЄзџҐзљ„д»ж¬ѕж–№ејЏ"
   },
   "payment-method.venmo": {
     "defaultMessage": "Venmo"
   },
   "payment-method.virtual-visa": {
-    "defaultMessage": "虛擬 Visa 卡"
+    "defaultMessage": "и™›ж“¬ Visa еЌЎ"
   },
   "payment-method.virtual-visa-plural": {
-    "defaultMessage": "虛擬 Visa 卡"
+    "defaultMessage": "и™›ж“¬ Visa еЌЎ"
   },
   "payment-method.visa": {
     "defaultMessage": "Visa"
   },
+  "project-card.date.published.tooltip": {
+    "defaultMessage": "з™јеёѓж™‚й–“пјљ{date}"
+  },
+  "project-card.date.updated.tooltip": {
+    "defaultMessage": "ж›ґж–°ж™‚й–“пјљ{date}"
+  },
   "project-card.environment.client": {
-    "defaultMessage": "用戶端"
+    "defaultMessage": "з”Ёж€¶з«Ї"
   },
   "project-card.environment.client-and-server": {
-    "defaultMessage": "用戶端與伺服器端"
+    "defaultMessage": "з”Ёж€¶з«Їи€‡дјєжњЌе™Ёз«Ї"
   },
   "project-card.environment.client-or-server": {
-    "defaultMessage": "用戶端或伺服器端"
+    "defaultMessage": "з”Ёж€¶з«Їж€–дјєжњЌе™Ёз«Ї"
   },
   "project-card.environment.server": {
-    "defaultMessage": "伺服器"
+    "defaultMessage": "дјєжњЌе™Ё"
   },
   "project-type.all": {
-    "defaultMessage": "全部"
+    "defaultMessage": "е…ЁйѓЁ"
   },
   "project-type.datapack.capital": {
-    "defaultMessage": "{count, plural, other {資料包}}"
+    "defaultMessage": "{count, plural, other {иі‡ж–™еЊ…}}"
   },
   "project-type.datapack.category": {
-    "defaultMessage": "資料包"
+    "defaultMessage": "иі‡ж–™еЊ…"
   },
   "project-type.datapack.lowercase": {
-    "defaultMessage": "{count, plural, other {資料包}}"
+    "defaultMessage": "{count, plural, other {иі‡ж–™еЊ…}}"
   },
   "project-type.mod.capital": {
-    "defaultMessage": "{count, plural, other {模組}}"
+    "defaultMessage": "{count, plural, other {жЁЎзµ„}}"
   },
   "project-type.mod.category": {
-    "defaultMessage": "模組"
+    "defaultMessage": "жЁЎзµ„"
   },
   "project-type.mod.lowercase": {
-    "defaultMessage": "{count, plural, other {模組}}"
+    "defaultMessage": "{count, plural, other {жЁЎзµ„}}"
   },
   "project-type.modpack.capital": {
-    "defaultMessage": "{count, plural, other {模組包}}"
+    "defaultMessage": "{count, plural, other {жЁЎзµ„еЊ…}}"
   },
   "project-type.modpack.category": {
-    "defaultMessage": "模組包"
+    "defaultMessage": "жЁЎзµ„еЊ…"
   },
   "project-type.modpack.lowercase": {
-    "defaultMessage": "{count, plural, other {模組包}}"
+    "defaultMessage": "{count, plural, other {жЁЎзµ„еЊ…}}"
   },
   "project-type.plugin.capital": {
-    "defaultMessage": "{count, plural, other {插件}}"
+    "defaultMessage": "{count, plural, other {жЏ’д»¶}}"
   },
   "project-type.plugin.category": {
-    "defaultMessage": "插件"
+    "defaultMessage": "жЏ’д»¶"
   },
   "project-type.plugin.lowercase": {
-    "defaultMessage": "{count, plural, other {插件}}"
+    "defaultMessage": "{count, plural, other {жЏ’д»¶}}"
   },
   "project-type.project.capital": {
-    "defaultMessage": "專案"
+    "defaultMessage": "е°€жЎ€"
   },
   "project-type.project.category": {
-    "defaultMessage": "專案"
+    "defaultMessage": "е°€жЎ€"
   },
   "project-type.project.lowercase": {
-    "defaultMessage": "個 {count, plural, one {專案} other {專案}}"
+    "defaultMessage": "еЂ‹ {count, plural, one {е°€жЎ€} other {е°€жЎ€}}"
   },
   "project-type.resourcepack.capital": {
-    "defaultMessage": "{count, plural, other {資源包}}"
+    "defaultMessage": "{count, plural, other {иі‡жєђеЊ…}}"
   },
   "project-type.resourcepack.category": {
-    "defaultMessage": "資源包"
+    "defaultMessage": "иі‡жєђеЊ…"
   },
   "project-type.resourcepack.lowercase": {
-    "defaultMessage": "{count, plural, other {資源包}}"
+    "defaultMessage": "{count, plural, other {иі‡жєђеЊ…}}"
   },
   "project-type.server.capital": {
-    "defaultMessage": "{count, plural, one {伺服器} other {伺服器}}"
+    "defaultMessage": "{count, plural, one {дјєжњЌе™Ё} other {дјєжњЌе™Ё}}"
   },
   "project-type.server.category": {
-    "defaultMessage": "伺服器"
+    "defaultMessage": "дјєжњЌе™Ё"
   },
   "project-type.server.lowercase": {
-    "defaultMessage": "個 {count, plural, one {伺服器} other {伺服器}}"
+    "defaultMessage": "еЂ‹ {count, plural, one {дјєжњЌе™Ё} other {дјєжњЌе™Ё}}"
   },
   "project-type.shader.capital": {
-    "defaultMessage": "{count, plural, other {光影包}}"
+    "defaultMessage": "{count, plural, other {е…‰еЅ±еЊ…}}"
   },
   "project-type.shader.category": {
-    "defaultMessage": "光影包"
+    "defaultMessage": "е…‰еЅ±еЊ…"
   },
   "project-type.shader.lowercase": {
-    "defaultMessage": "{count, plural, other {光影包}}"
+    "defaultMessage": "{count, plural, other {е…‰еЅ±еЊ…}}"
   },
   "project.about.compatibility.environments": {
-    "defaultMessage": "支援環境"
+    "defaultMessage": "ж”ЇжЏґз’°еўѓ"
   },
   "project.about.compatibility.environments.client-and-server": {
-    "defaultMessage": "用戶端與伺服器端"
+    "defaultMessage": "з”Ёж€¶з«Їи€‡дјєжњЌе™Ёз«Ї"
   },
   "project.about.compatibility.environments.client-side": {
-    "defaultMessage": "用戶端"
+    "defaultMessage": "з”Ёж€¶з«Ї"
   },
   "project.about.compatibility.environments.dedicated-servers-only": {
-    "defaultMessage": "僅限專用伺服器"
+    "defaultMessage": "еѓ…й™ђе°€з”ЁдјєжњЌе™Ё"
   },
   "project.about.compatibility.environments.server-side": {
-    "defaultMessage": "伺服器端"
+    "defaultMessage": "дјєжњЌе™Ёз«Ї"
   },
   "project.about.compatibility.environments.singleplayer": {
-    "defaultMessage": "單人遊戲"
+    "defaultMessage": "е–®дєєйЃЉж€І"
   },
   "project.about.compatibility.environments.singleplayer-only": {
-    "defaultMessage": "僅限單人遊戲"
+    "defaultMessage": "еѓ…й™ђе–®дєєйЃЉж€І"
   },
   "project.about.compatibility.game.minecraftJava": {
-    "defaultMessage": "Minecraft Java 版"
+    "defaultMessage": "Minecraft Java з‰€"
   },
   "project.about.compatibility.platforms": {
-    "defaultMessage": "平台"
+    "defaultMessage": "е№іи‡є"
   },
   "project.about.compatibility.title": {
-    "defaultMessage": "相容性"
+    "defaultMessage": "з›ёе®№жЂ§"
+  },
+  "project.about.creators.organization": {
+    "defaultMessage": "зµ„з№”"
   },
   "project.about.creators.owner": {
-    "defaultMessage": "專案擁有者"
+    "defaultMessage": "е°€жЎ€ж“Ѓжњ‰иЂ…"
   },
   "project.about.creators.title": {
-    "defaultMessage": "創作者"
+    "defaultMessage": "е‰µдЅњиЂ…"
   },
   "project.about.details.created": {
-    "defaultMessage": "建立時間：{date}"
+    "defaultMessage": "е»єз«‹ж™‚й–“пјљ{date}"
   },
   "project.about.details.licensed": {
-    "defaultMessage": "授權條款：{license}"
+    "defaultMessage": "жЋ€ж¬Љжўќж¬ѕпјљ{license}"
   },
   "project.about.details.published": {
-    "defaultMessage": "發布時間：{date}"
+    "defaultMessage": "з™јеёѓж™‚й–“пјљ{date}"
   },
   "project.about.details.submitted": {
-    "defaultMessage": "提交時間：{date}"
+    "defaultMessage": "жЏђдє¤ж™‚й–“пјљ{date}"
   },
   "project.about.details.updated": {
-    "defaultMessage": "更新時間：{date}"
+    "defaultMessage": "ж›ґж–°ж™‚й–“пјљ{date}"
   },
   "project.about.links.discord": {
-    "defaultMessage": "加入 Discord 伺服器"
+    "defaultMessage": "еЉ е…Ґ Discord дјєжњЌе™Ё"
   },
   "project.about.links.donate.bmac": {
     "defaultMessage": "Buy Me a Coffee"
   },
   "project.about.links.donate.generic": {
-    "defaultMessage": "贊助"
+    "defaultMessage": "иґЉеЉ©"
   },
   "project.about.links.donate.github": {
-    "defaultMessage": "GitHub Sponsors 贊助"
+    "defaultMessage": "GitHub Sponsors иґЉеЉ©"
   },
   "project.about.links.donate.kofi": {
-    "defaultMessage": "Ko-fi 贊助"
+    "defaultMessage": "Ko-fi иґЉеЉ©"
   },
   "project.about.links.donate.patreon": {
-    "defaultMessage": "Patreon 贊助"
+    "defaultMessage": "Patreon иґЉеЉ©"
   },
   "project.about.links.donate.paypal": {
-    "defaultMessage": "PayPal 贊助"
+    "defaultMessage": "PayPal иґЉеЉ©"
   },
   "project.about.links.issues": {
-    "defaultMessage": "回報問題"
+    "defaultMessage": "е›ће ±е•ЏйЎЊ"
+  },
+  "project.about.links.site": {
+    "defaultMessage": "е‰ЌеѕЂз¶Із«™"
   },
   "project.about.links.source": {
-    "defaultMessage": "檢視原始碼"
+    "defaultMessage": "жЄўи¦–еЋџе§‹зўј"
+  },
+  "project.about.links.store": {
+    "defaultMessage": "е‰ЌеѕЂе•†еє—й Ѓйќў"
   },
   "project.about.links.title": {
-    "defaultMessage": "相關連結"
+    "defaultMessage": "з›ёй—њйЂЈзµђ"
   },
   "project.about.links.wiki": {
-    "defaultMessage": "前往 wiki"
+    "defaultMessage": "е‰ЌеѕЂ wiki"
+  },
+  "project.about.server.address.tooltip": {
+    "defaultMessage": "и¤‡иЈЅ Java дјєжњЌе™ЁдЅЌеќЂ"
+  },
+  "project.about.server.copied": {
+    "defaultMessage": "е·Іи¤‡иЈЅпјЃ"
+  },
+  "project.about.server.copiedText": {
+    "defaultMessage": "е·Іе°‡дјєжњЌе™Ё IP дЅЌеќЂи¤‡иЈЅе€°е‰ЄиІјз°ї"
+  },
+  "project.about.server.downloadModpack": {
+    "defaultMessage": "дё‹иј‰жЁЎзµ„еЊ…"
+  },
+  "project.about.server.languages": {
+    "defaultMessage": "иЄћиЁЂ"
+  },
+  "project.about.server.recommendedVersion": {
+    "defaultMessage": "пј€жЋЁи–¦пј‰"
+  },
+  "project.about.server.region": {
+    "defaultMessage": "ењ°еЌЂ"
+  },
+  "project.about.server.requiredContent": {
+    "defaultMessage": "еї…йњЂе…§е®№"
+  },
+  "project.about.server.title": {
+    "defaultMessage": "дјєжњЌе™Ёи©ізґ°иі‡иЁЉ"
+  },
+  "project.about.tags.title": {
+    "defaultMessage": "жЁ™з±¤"
   },
   "project.download-count-tooltip": {
-    "defaultMessage": "{count} 次下載"
+    "defaultMessage": "дё‹иј‰ж¬Ўж•ёпјљ{count, number}"
   },
   "project.environment.client-and-server.description": {
-    "defaultMessage": "在用戶端與伺服器端皆具備部分功能。"
+    "defaultMessage": "з”Ёж€¶з«Їи€‡дјєжњЌе™Ёзљ†йњЂе®‰иЈќгЂ‚"
   },
   "project.environment.client-and-server.title": {
-    "defaultMessage": "用戶端與伺服器端，兩者皆須安裝"
+    "defaultMessage": "з”Ёж€¶з«Їи€‡дјєжњЌе™Ёз«ЇпјЊе…©иЂ…зљ†й €е®‰иЈќ"
   },
   "project.environment.client-only-server-optional.description": {
-    "defaultMessage": "在用戶端與伺服器端皆具備部分功能。"
+    "defaultMessage": "е¤§йѓЁе€†еЉџиѓЅдЅЌж–јз”Ёж€¶з«ЇпјЊдЅ†е®‰иЈќж–јдјєжњЌе™ЁеЏЇе•џз”Ёеўћеј·еЉџиѓЅгЂ‚"
   },
   "project.environment.client-only-server-optional.title": {
-    "defaultMessage": "用戶端與伺服器端，伺服器端為選用"
+    "defaultMessage": "з”Ёж€¶з«Їи€‡дјєжњЌе™Ёз«ЇпјЊдјєжњЌе™Ёз«Їз‚єйЃёз”Ё"
   },
   "project.environment.client-only.description": {
-    "defaultMessage": "所有功能皆在用戶端完成，並與原版伺服器相容。"
+    "defaultMessage": "ж‰Ђжњ‰еЉџиѓЅзљ†ењЁз”Ёж€¶з«Їе®Њж€ђпјЊдё¦и€‡еЋџз‰€дјєжњЌе™Ёз›ёе®№гЂ‚"
   },
   "project.environment.client-only.title": {
-    "defaultMessage": "僅限用戶端"
+    "defaultMessage": "еѓ…й™ђз”Ёж€¶з«Ї"
   },
   "project.environment.client-or-server-prefers-both.description": {
-    "defaultMessage": "在用戶端與伺服器端皆具備部分功能。"
+    "defaultMessage": "ењЁз”Ёж€¶з«Їи€‡дјєжњЌе™Ёз«Їзљ†жњ‰йѓЁе€†еЉџиѓЅгЂ‚е…©з«Їзљ†е®‰иЈќеЏЇжЏђдѕ›жњЂдЅій«”й©—гЂ‚"
   },
   "project.environment.client-or-server-prefers-both.title": {
-    "defaultMessage": "用戶端與伺服器端，兩者皆安裝時效果最佳"
+    "defaultMessage": "з”Ёж€¶з«Їи€‡дјєжњЌе™Ёз«ЇпјЊе…©иЂ…зљ†е®‰иЈќж™‚ж•€жћњжњЂдЅі"
   },
   "project.environment.client-or-server.description": {
-    "defaultMessage": "在用戶端與伺服器端皆具備部分功能。"
+    "defaultMessage": "ењЁз”Ёж€¶з«Їи€‡дјєжњЌе™Ёз«Їзљ†е…·е‚™йѓЁе€†еЉџиѓЅгЂ‚"
   },
   "project.environment.client-or-server.title": {
-    "defaultMessage": "用戶端與伺服器端，兩者皆為選用"
+    "defaultMessage": "з”Ёж€¶з«Їи€‡дјєжњЌе™Ёз«ЇпјЊе…©иЂ…зљ†з‚єйЃёз”Ё"
   },
   "project.environment.dedicated-server-only.description": {
-    "defaultMessage": "所有功能皆在伺服器端完成，並與原版用戶端相容。"
+    "defaultMessage": "ж‰Ђжњ‰еЉџиѓЅзљ†ењЁдјєжњЌе™Ёз«ЇйЃ‹дЅњпјЊдё¦и€‡еЋџз‰€з”Ёж€¶з«Їз›ёе®№гЂ‚еѓ…йЃ©з”Ёж–јзЌЁз«‹дјєжњЌе™ЁгЂ‚"
   },
   "project.environment.dedicated-server-only.title": {
-    "defaultMessage": "僅限伺服器端"
+    "defaultMessage": "еѓ…й™ђдјєжњЌе™Ёз«Ї"
   },
   "project.environment.server-only-client-optional.description": {
-    "defaultMessage": "在用戶端與伺服器端皆具備部分功能。"
+    "defaultMessage": "е¤§йѓЁе€†еЉџиѓЅдЅЌж–јдјєжњЌе™Ёз«ЇпјЊдЅ†е®‰иЈќж–јз”Ёж€¶з«ЇеЏЇе•џз”Ёеўћеј·еЉџиѓЅгЂ‚"
   },
   "project.environment.server-only-client-optional.title": {
-    "defaultMessage": "用戶端與伺服器端，用戶端為選用"
+    "defaultMessage": "з”Ёж€¶з«Їи€‡дјєжњЌе™Ёз«ЇпјЊз”Ёж€¶з«Їз‚єйЃёз”Ё"
   },
   "project.environment.server-only.description": {
-    "defaultMessage": "所有功能皆在伺服器端完成，並與原版用戶端相容。"
+    "defaultMessage": "ж‰Ђжњ‰еЉџиѓЅзљ†ењЁдјєжњЌе™Ёз«ЇйЃ‹дЅњпјЊдё”и€‡еЋџз‰€е®ўж€¶з«Їз›ёе®№гЂ‚дє¦йЃ©з”Ёж–је–®дєєйЃЉж€Ідё­зљ„е…§йѓЁдјєжњЌе™ЁгЂ‚"
   },
   "project.environment.server-only.title": {
-    "defaultMessage": "僅限伺服器端，亦可用於單人遊戲"
+    "defaultMessage": "еѓ…й™ђдјєжњЌе™Ёз«ЇпјЊдє¦еЏЇз”Ёж–је–®дєєйЃЉж€І"
   },
   "project.environment.singleplayer-only.description": {
-    "defaultMessage": "僅在單人遊戲或未連線至多人遊戲伺服器時運作。"
+    "defaultMessage": "еѓ…ењЁе–®дєєйЃЉж€Іж€–жњЄйЂЈз·љи‡іе¤љдєєйЃЉж€ІдјєжњЌе™Ёж™‚йЃ‹дЅњгЂ‚"
   },
   "project.environment.singleplayer-only.title": {
-    "defaultMessage": "僅限單人遊戲"
+    "defaultMessage": "еѓ…й™ђе–®дєєйЃЉж€І"
   },
   "project.environment.tag.not-applicable": {
-    "defaultMessage": "不適用"
+    "defaultMessage": "дёЌйЃ©з”Ё"
   },
   "project.environment.tag.unknown": {
-    "defaultMessage": "未知"
+    "defaultMessage": "жњЄзџҐ"
   },
   "project.environment.unknown.description": {
-    "defaultMessage": "無法確定此版本的執行環境。"
+    "defaultMessage": "з„Ўжі•зўєе®љж­¤з‰€жњ¬зљ„еџ·иЎЊз’°еўѓгЂ‚"
   },
   "project.environment.unknown.title": {
-    "defaultMessage": "未知的執行環境"
+    "defaultMessage": "жњЄзџҐзљ„еџ·иЎЊз’°еўѓ"
   },
   "project.follower-count-tooltip": {
-    "defaultMessage": "{count} 位追蹤者"
+    "defaultMessage": "{count, number} дЅЌиїЅи№¤иЂ…"
+  },
+  "project.online-player-count": {
+    "defaultMessage": "{count, number} дєєењЁз·љдёЉ"
+  },
+  "project.online-player-count.tooltip": {
+    "defaultMessage": "{count} дЅЌзЋ©е®¶ењЁз·љдёЉ"
+  },
+  "project.recent-plays": {
+    "defaultMessage": "{count} ж¬Ўиї‘жњџйЃЉзЋ©"
+  },
+  "project.recent-plays.tooltip": {
+    "defaultMessage": "йЃЋеЋ» 2 йЂ±е…§дѕ†и‡Є Modrinth зљ„ {count} ж¬ЎжњЂиї‘йЃЉзЋ©ж¬Ўж•ё"
+  },
+  "project.server.customModpackTooltip": {
+    "defaultMessage": "йЂ™еЂ‹е°€жЎ€з”Ёдє†дёЂеЂ‹и‡Єе®љзѕ©жЁЎзµ„еЊ…"
+  },
+  "project.server.language.af": {
+    "defaultMessage": "еЌ—йќћж–‡"
+  },
+  "project.server.language.am": {
+    "defaultMessage": "йїе§†е“€ж‹‰ж–‡"
+  },
+  "project.server.language.ar": {
+    "defaultMessage": "йїж‹‰дјЇж–‡"
+  },
+  "project.server.language.az": {
+    "defaultMessage": "дєћеЎћж‹њз„¶ж–‡"
+  },
+  "project.server.language.be": {
+    "defaultMessage": "з™Ѕдї„зѕ…ж–Їж–‡"
+  },
+  "project.server.language.bg": {
+    "defaultMessage": "дїќеЉ е€©дєћж–‡"
+  },
+  "project.server.language.bn": {
+    "defaultMessage": "е­џеЉ ж‹‰ж–‡"
+  },
+  "project.server.language.bs": {
+    "defaultMessage": "жіўеЈ«е°јдєћж–‡"
+  },
+  "project.server.language.ca": {
+    "defaultMessage": "еЉ жі°йљ†е°јдєћж–‡"
+  },
+  "project.server.language.cs": {
+    "defaultMessage": "жЌ·е…‹ж–‡"
+  },
+  "project.server.language.da": {
+    "defaultMessage": "дё№йєҐж–‡"
+  },
+  "project.server.language.de": {
+    "defaultMessage": "еѕ·ж–‡"
+  },
+  "project.server.language.el": {
+    "defaultMessage": "еёЊи‡ж–‡"
+  },
+  "project.server.language.en": {
+    "defaultMessage": "и‹±ж–‡"
+  },
+  "project.server.language.eo": {
+    "defaultMessage": "дё–з•ЊиЄћ"
+  },
+  "project.server.language.es": {
+    "defaultMessage": "иҐїзЏ­з‰™ж–‡"
+  },
+  "project.server.language.et": {
+    "defaultMessage": "ж„›жІ™е°јдєћж–‡"
+  },
+  "project.server.language.eu": {
+    "defaultMessage": "е·ґж–Їе…‹ж–‡"
+  },
+  "project.server.language.fa": {
+    "defaultMessage": "жіўж–Їж–‡"
+  },
+  "project.server.language.fi": {
+    "defaultMessage": "иЉ¬и­ж–‡"
+  },
+  "project.server.language.fr": {
+    "defaultMessage": "жі•ж–‡"
+  },
+  "project.server.language.ga": {
+    "defaultMessage": "ж„›з€ѕи­ж–‡"
+  },
+  "project.server.language.gl": {
+    "defaultMessage": "еЉ е€©иҐїдєћж–‡"
+  },
+  "project.server.language.he": {
+    "defaultMessage": "еёЊдјЇдѕ†ж–‡"
+  },
+  "project.server.language.hi": {
+    "defaultMessage": "еЌ°ењ°ж–‡"
+  },
+  "project.server.language.hr": {
+    "defaultMessage": "е…‹зѕ…еџѓиҐїдєћж–‡"
+  },
+  "project.server.language.hu": {
+    "defaultMessage": "еЊ€з‰™е€©ж–‡"
+  },
+  "project.server.language.hy": {
+    "defaultMessage": "дєћзѕЋе°јдєћж–‡"
+  },
+  "project.server.language.id": {
+    "defaultMessage": "еЌ°е°јж–‡"
+  },
+  "project.server.language.is": {
+    "defaultMessage": "е†°еі¶ж–‡"
+  },
+  "project.server.language.it": {
+    "defaultMessage": "зѕ©е¤§е€©ж–‡"
+  },
+  "project.server.language.ja": {
+    "defaultMessage": "ж—Ґж–‡"
+  },
+  "project.server.language.ka": {
+    "defaultMessage": "е–¬жІ»дєћж–‡"
+  },
+  "project.server.language.kk": {
+    "defaultMessage": "е“€и–©е…‹ж–‡"
+  },
+  "project.server.language.km": {
+    "defaultMessage": "й«жЈ‰ж–‡"
+  },
+  "project.server.language.kn": {
+    "defaultMessage": "еќЋй‚ЈйЃ”ж–‡"
+  },
+  "project.server.language.ko": {
+    "defaultMessage": "йџ“ж–‡"
+  },
+  "project.server.language.lo": {
+    "defaultMessage": "еЇ®ж–‡"
+  },
+  "project.server.language.lt": {
+    "defaultMessage": "з«‹й™¶е®›ж–‡"
+  },
+  "project.server.language.lv": {
+    "defaultMessage": "ж‹‰и„«з¶­дєћж–‡"
+  },
+  "project.server.language.mk": {
+    "defaultMessage": "й¦¬е…¶й “ж–‡"
+  },
+  "project.server.language.ml": {
+    "defaultMessage": "й¦¬дѕ†дєћж‹‰е§†ж–‡"
+  },
+  "project.server.language.mn": {
+    "defaultMessage": "и’™еЏ¤ж–‡"
+  },
+  "project.server.language.mr": {
+    "defaultMessage": "й¦¬ж‹‰жЏђж–‡"
+  },
+  "project.server.language.ms": {
+    "defaultMessage": "й¦¬дѕ†ж–‡"
+  },
+  "project.server.language.my": {
+    "defaultMessage": "з·¬з”ёж–‡"
+  },
+  "project.server.language.ne": {
+    "defaultMessage": "е°јжіЉз€ѕж–‡"
+  },
+  "project.server.language.nl": {
+    "defaultMessage": "иЌ·и­ж–‡"
+  },
+  "project.server.language.no": {
+    "defaultMessage": "жЊЄеЁЃж–‡"
+  },
+  "project.server.language.pa": {
+    "defaultMessage": "ж—ЃйЃ®ж™®ж–‡"
+  },
+  "project.server.language.pl": {
+    "defaultMessage": "жіўи­ж–‡"
+  },
+  "project.server.language.pt": {
+    "defaultMessage": "и‘Ўиђ„з‰™ж–‡"
+  },
+  "project.server.language.ro": {
+    "defaultMessage": "зѕ…й¦¬е°јдєћж–‡"
+  },
+  "project.server.language.ru": {
+    "defaultMessage": "дї„ж–‡"
+  },
+  "project.server.language.si": {
+    "defaultMessage": "еѓ§дјЅзѕ…ж–‡"
+  },
+  "project.server.language.sk": {
+    "defaultMessage": "ж–Їжґ›дјђе…‹ж–‡"
+  },
+  "project.server.language.sl": {
+    "defaultMessage": "ж–Їжґ›з¶­е°јдєћж–‡"
+  },
+  "project.server.language.sq": {
+    "defaultMessage": "йїз€ѕе·ґе°јдєћж–‡"
+  },
+  "project.server.language.sr": {
+    "defaultMessage": "еЎћз€ѕз¶­дєћж–‡"
+  },
+  "project.server.language.sv": {
+    "defaultMessage": "з‘ће…ёж–‡"
+  },
+  "project.server.language.sw": {
+    "defaultMessage": "ж–Їз“¦еёЊй‡Њж–‡"
+  },
+  "project.server.language.ta": {
+    "defaultMessage": "жі°з±із€ѕж–‡"
+  },
+  "project.server.language.te": {
+    "defaultMessage": "жі°з›§е›єж–‡"
+  },
+  "project.server.language.th": {
+    "defaultMessage": "жі°ж–‡"
+  },
+  "project.server.language.tl": {
+    "defaultMessage": "иЏІеѕ‹иі“ж–‡"
+  },
+  "project.server.language.tr": {
+    "defaultMessage": "ењџиЂіе…¶ж–‡"
+  },
+  "project.server.language.uk": {
+    "defaultMessage": "зѓЏе…‹и­ж–‡"
+  },
+  "project.server.language.ur": {
+    "defaultMessage": "зѓЏз€ѕйѓЅж–‡"
+  },
+  "project.server.language.uz": {
+    "defaultMessage": "зѓЏиЊІе€Ґе…‹ж–‡"
+  },
+  "project.server.language.vi": {
+    "defaultMessage": "и¶ЉеЌ—ж–‡"
+  },
+  "project.server.language.yo": {
+    "defaultMessage": "зґ„й­Їе·ґж–‡"
+  },
+  "project.server.language.zh": {
+    "defaultMessage": "дё­ж–‡"
+  },
+  "project.server.language.zu": {
+    "defaultMessage": "зҐ–й­Їж–‡"
+  },
+  "project.server.ping.ms": {
+    "defaultMessage": "{ping, number} жЇ«з§’"
+  },
+  "project.server.region.asia": {
+    "defaultMessage": "дєћжґІ"
+  },
+  "project.server.region.australia": {
+    "defaultMessage": "жѕіжґІ"
+  },
+  "project.server.region.europe": {
+    "defaultMessage": "ж­ђжґІ"
+  },
+  "project.server.region.middle_east": {
+    "defaultMessage": "дё­жќ±"
+  },
+  "project.server.region.russia": {
+    "defaultMessage": "дї„зѕ…ж–Ї"
+  },
+  "project.server.region.south_america": {
+    "defaultMessage": "еЌ—зѕЋжґІ"
+  },
+  "project.server.region.tooltip": {
+    "defaultMessage": "дјєжњЌе™ЁдЅЌж–ј{regionName}"
+  },
+  "project.server.region.us_east": {
+    "defaultMessage": "зѕЋењ‹жќ±йѓЁ"
+  },
+  "project.server.region.us_west": {
+    "defaultMessage": "зѕЋењ‹иҐїйѓЁ"
+  },
+  "project.server.status.offline": {
+    "defaultMessage": "й›ўз·љ"
+  },
+  "project.server.status.offline.tooltip": {
+    "defaultMessage": "дјєжњЌе™Ёе·Ій›ўз·љ"
+  },
+  "project.server.status.online": {
+    "defaultMessage": "з·љдёЉ"
   },
   "project.settings.analytics.title": {
-    "defaultMessage": "數據分析"
+    "defaultMessage": "ж•ёж“ље€†жћђ"
+  },
+  "project.settings.content.title": {
+    "defaultMessage": "е…§е®№"
   },
   "project.settings.description.title": {
-    "defaultMessage": "描述"
+    "defaultMessage": "жЏЏиї°"
   },
   "project.settings.environment.client_and_server.description": {
-    "defaultMessage": "在用戶端與伺服器端皆具備部分功能。"
+    "defaultMessage": "ењЁз”Ёж€¶з«Їи€‡дјєжњЌе™Ёз«Їзљ†е…·е‚™йѓЁе€†еЉџиѓЅгЂ‚"
   },
   "project.settings.environment.client_and_server.optional_both.title": {
-    "defaultMessage": "兩者可選，無論安裝在哪一端，運作方式皆相同"
+    "defaultMessage": "е…©иЂ…еЏЇйЃёпјЊз„Ўи«–е®‰иЈќењЁе“ЄдёЂз«ЇпјЊйЃ‹дЅњж–№ејЏзљ†з›ёеђЊ"
   },
   "project.settings.environment.client_and_server.optional_both_prefers_both.title": {
-    "defaultMessage": "兩者可選，在兩端皆安裝時效果最佳"
+    "defaultMessage": "е…©иЂ…еЏЇйЃёпјЊењЁе…©з«Їзљ†е®‰иЈќж™‚ж•€жћњжњЂдЅі"
   },
   "project.settings.environment.client_and_server.optional_client.title": {
-    "defaultMessage": "用戶端可選"
+    "defaultMessage": "з”Ёж€¶з«ЇеЏЇйЃё"
   },
   "project.settings.environment.client_and_server.optional_server.title": {
-    "defaultMessage": "伺服器端可選"
+    "defaultMessage": "дјєжњЌе™Ёз«ЇеЏЇйЃё"
   },
   "project.settings.environment.client_and_server.required_both.title": {
-    "defaultMessage": "兩者皆須"
+    "defaultMessage": "е…©иЂ…зљ†й €"
   },
   "project.settings.environment.client_and_server.title": {
-    "defaultMessage": "用戶端和伺服器端"
+    "defaultMessage": "з”Ёж€¶з«Їе’ЊдјєжњЌе™Ёз«Ї"
   },
   "project.settings.environment.client_only.description": {
-    "defaultMessage": "所有功能皆在用戶端完成，並與原版伺服器相容。"
+    "defaultMessage": "ж‰Ђжњ‰еЉџиѓЅзљ†ењЁз”Ёж€¶з«Їе®Њж€ђпјЊдё¦и€‡еЋџз‰€дјєжњЌе™Ёз›ёе®№гЂ‚"
   },
   "project.settings.environment.client_only.title": {
-    "defaultMessage": "僅限用戶端"
+    "defaultMessage": "еѓ…й™ђз”Ёж€¶з«Ї"
   },
   "project.settings.environment.notice.missing-env.description": {
-    "defaultMessage": "你的專案缺少環境詮釋資料，請從下方選擇適當的選項。"
+    "defaultMessage": "дЅ зљ„е°€жЎ€зјєе°‘з’°еўѓи©®й‡‹иі‡ж–™пјЊи«‹еѕћдё‹ж–№йЃёж“‡йЃ©з•¶зљ„йЃёй …гЂ‚"
   },
   "project.settings.environment.notice.missing-env.title": {
-    "defaultMessage": "請選擇你專案的環境"
+    "defaultMessage": "и«‹йЃёж“‡дЅ е°€жЎ€зљ„з’°еўѓ"
   },
   "project.settings.environment.notice.multiple-environments.description": {
-    "defaultMessage": "你的專案的不同版本已選取不同的環境，因此目前無法全域編輯。"
+    "defaultMessage": "дЅ зљ„е°€жЎ€зљ„дёЌеђЊз‰€жњ¬е·ІйЃёеЏ–дёЌеђЊзљ„з’°еўѓпјЊе› ж­¤з›®е‰Ќз„Ўжі•е…Ёеџџз·ЁијЇгЂ‚"
   },
   "project.settings.environment.notice.multiple-environments.title": {
-    "defaultMessage": "你的專案有多種環境"
+    "defaultMessage": "дЅ зљ„е°€жЎ€жњ‰е¤љзЁ®з’°еўѓ"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "我們剛剛對 Modrinth 的執行環境系統進行了全面更新，並提供了新的選項。請確定已選擇正確的選項，然後按一下「驗證」！"
+    "defaultMessage": "ж€‘еЂ‘е‰›е‰›е°Ќ Modrinth зљ„еџ·иЎЊз’°еўѓзі»зµ±йЂІиЎЊдє†е…Ёйќўж›ґж–°пјЊдё¦жЏђдѕ›дє†ж–°зљ„йЃёй …гЂ‚и«‹зўєе®ље·ІйЃёж“‡ж­Јзўєзљ„йЃёй …пјЊз„¶еѕЊжЊ‰дёЂдё‹гЂЊй©—и­‰гЂЌпјЃ"
   },
   "project.settings.environment.notice.review-options.title": {
-    "defaultMessage": "請審核以下選項"
+    "defaultMessage": "и«‹еЇ©жџҐд»Ґдё‹йЃёй …"
   },
   "project.settings.environment.notice.wrong-project-type.description": {
-    "defaultMessage": "只有模組或模組包專案才能擁有環境詮釋資料。"
+    "defaultMessage": "еЏЄжњ‰жЁЎзµ„ж€–жЁЎзµ„еЊ…е°€жЎ€ж‰ЌиѓЅж“Ѓжњ‰з’°еўѓи©®й‡‹иі‡ж–™гЂ‚"
   },
   "project.settings.environment.notice.wrong-project-type.title": {
-    "defaultMessage": "這個專案類型不支援環境詮釋資料"
+    "defaultMessage": "йЂ™еЂ‹е°€жЎ€йЎћећ‹дёЌж”ЇжЏґз’°еўѓи©®й‡‹иі‡ж–™"
   },
   "project.settings.environment.server_only.dedicated_only.title": {
-    "defaultMessage": "僅限專用伺服器"
+    "defaultMessage": "еѓ…й™ђе°€з”ЁдјєжњЌе™Ё"
   },
   "project.settings.environment.server_only.description": {
-    "defaultMessage": "所有功能皆在伺服器端完成，並與原版用戶端相容。"
+    "defaultMessage": "ж‰Ђжњ‰еЉџиѓЅзљ†ењЁдјєжњЌе™Ёз«Їе®Њж€ђпјЊдё¦и€‡еЋџз‰€з”Ёж€¶з«Їз›ёе®№гЂ‚"
   },
   "project.settings.environment.server_only.supports_singleplayer.title": {
-    "defaultMessage": "也在單人模式中運作"
+    "defaultMessage": "д№џењЁе–®дєєжЁЎејЏдё­йЃ‹дЅњ"
   },
   "project.settings.environment.server_only.title": {
-    "defaultMessage": "僅限伺服器端"
+    "defaultMessage": "еѓ…й™ђдјєжњЌе™Ёз«Ї"
   },
   "project.settings.environment.singleplayer.description": {
-    "defaultMessage": "僅在單人遊戲或未連線至多人遊戲伺服器時運作。"
+    "defaultMessage": "еѓ…ењЁе–®дєєйЃЉж€Іж€–жњЄйЂЈз·љи‡іе¤љдєєйЃЉж€ІдјєжњЌе™Ёж™‚йЃ‹дЅњгЂ‚"
   },
   "project.settings.environment.singleplayer.title": {
-    "defaultMessage": "僅限單人遊戲"
+    "defaultMessage": "еѓ…й™ђе–®дєєйЃЉж€І"
   },
   "project.settings.environment.suboption.accessibility-option-label": {
-    "defaultMessage": "{title}：{description}"
+    "defaultMessage": "{title}пјљ{description}"
   },
   "project.settings.environment.suboption.accessibility-suboption-group-label": {
-    "defaultMessage": "{option} 的子選項"
+    "defaultMessage": "{option} зљ„е­ђйЃёй …"
   },
   "project.settings.environment.title": {
-    "defaultMessage": "環境"
+    "defaultMessage": "з’°еўѓ"
   },
   "project.settings.environment.verification.verify-button": {
-    "defaultMessage": "驗證"
+    "defaultMessage": "й©—и­‰"
   },
   "project.settings.environment.verification.verify-text": {
-    "defaultMessage": "驗證這個專案的環境設定是否正確。"
+    "defaultMessage": "й©—и­‰йЂ™еЂ‹е°€жЎ€зљ„з’°еўѓиЁ­е®љжЇеђ¦ж­ЈзўєгЂ‚"
   },
   "project.settings.gallery.title": {
-    "defaultMessage": "圖庫"
+    "defaultMessage": "ењ–еє«"
   },
   "project.settings.general.title": {
-    "defaultMessage": "一般"
+    "defaultMessage": "дёЂи€¬"
   },
   "project.settings.license.title": {
-    "defaultMessage": "授權條款"
+    "defaultMessage": "жЋ€ж¬Љжўќж¬ѕ"
   },
   "project.settings.links.title": {
-    "defaultMessage": "連結"
+    "defaultMessage": "йЂЈзµђ"
   },
   "project.settings.members.title": {
-    "defaultMessage": "成員"
+    "defaultMessage": "ж€ђе“Ў"
   },
   "project.settings.notice.no-permission.description": {
-    "defaultMessage": "你沒有編輯這個設定的權限。"
+    "defaultMessage": "дЅ жІ’жњ‰з·ЁијЇйЂ™еЂ‹иЁ­е®љзљ„ж¬Љй™ђгЂ‚"
   },
   "project.settings.notice.no-permission.title": {
-    "defaultMessage": "沒有權限"
+    "defaultMessage": "жІ’жњ‰ж¬Љй™ђ"
+  },
+  "project.settings.server.title": {
+    "defaultMessage": "дјєжњЌе™Ё"
   },
   "project.settings.tags.title": {
-    "defaultMessage": "標籤"
+    "defaultMessage": "жЁ™з±¤"
   },
   "project.settings.upload.title": {
-    "defaultMessage": "上傳"
+    "defaultMessage": "дёЉе‚і"
   },
   "project.settings.versions.title": {
-    "defaultMessage": "版本"
+    "defaultMessage": "з‰€жњ¬"
   },
   "project.settings.view.title": {
-    "defaultMessage": "檢視"
+    "defaultMessage": "жЄўи¦–"
   },
   "project.versions.channel.alpha.symbol": {
     "defaultMessage": "A"
@@ -1026,508 +2538,961 @@
     "defaultMessage": "R"
   },
   "project.visibility.archived": {
-    "defaultMessage": "已封存"
+    "defaultMessage": "е·Іе°Ѓе­"
   },
   "project.visibility.draft": {
-    "defaultMessage": "草稿"
+    "defaultMessage": "иЌ‰зЁї"
   },
   "project.visibility.private": {
-    "defaultMessage": "私人"
+    "defaultMessage": "з§Ѓдєє"
   },
   "project.visibility.public": {
-    "defaultMessage": "公開"
+    "defaultMessage": "е…¬й–‹"
   },
   "project.visibility.rejected": {
-    "defaultMessage": "已拒絕"
+    "defaultMessage": "е·Іж‹’зµ•"
   },
   "project.visibility.scheduled": {
-    "defaultMessage": "已排定"
+    "defaultMessage": "е·ІжЋ’е®љ"
   },
   "project.visibility.under-review": {
-    "defaultMessage": "審核中"
+    "defaultMessage": "еЇ©жџҐдё­"
   },
   "project.visibility.unknown": {
-    "defaultMessage": "未知"
+    "defaultMessage": "жњЄзџҐ"
   },
   "project.visibility.unlisted": {
-    "defaultMessage": "不公開"
+    "defaultMessage": "дёЌе…¬й–‹"
   },
   "project.visibility.unlisted-by-staff": {
-    "defaultMessage": "由工作人員設為不公開"
+    "defaultMessage": "з”±е·ҐдЅњдєєе“ЎиЁ­з‚єдёЌе…¬й–‹"
   },
   "search.filter.locked.default": {
-    "defaultMessage": "篩選器已鎖定"
+    "defaultMessage": "зЇ©йЃёе™Ёе·ІйЋ–е®љ"
   },
   "search.filter.locked.default.description": {
-    "defaultMessage": "解鎖這個篩選器可能導致安裝不相容的內容。"
+    "defaultMessage": "и§ЈйЋ–йЂ™еЂ‹зЇ©йЃёе™ЁеЏЇиѓЅе°Ћи‡ґе®‰иЈќдёЌз›ёе®№зљ„е…§е®№гЂ‚"
   },
   "search.filter.locked.default.sync": {
-    "defaultMessage": "同步篩選器"
+    "defaultMessage": "еђЊж­ҐзЇ©йЃёе™Ё"
   },
   "search.filter.locked.default.title": {
-    "defaultMessage": "{type} 已鎖定"
+    "defaultMessage": "{type} е·ІйЋ–е®љ"
   },
   "search.filter.locked.default.unlock": {
-    "defaultMessage": "解鎖篩選器"
+    "defaultMessage": "и§ЈйЋ–зЇ©йЃёе™Ё"
   },
   "search.filter.option.exclusion.add.tooltip": {
-    "defaultMessage": "排除"
+    "defaultMessage": "жЋ’й™¤"
   },
   "search.filter.option.search.clear.aria_label": {
-    "defaultMessage": "清除搜尋"
+    "defaultMessage": "жё…й™¤жђње°‹"
   },
   "search.filter.option.search.placeholder": {
-    "defaultMessage": "搜尋..."
+    "defaultMessage": "жђње°‹..."
   },
   "search.filter.option.show_fewer": {
-    "defaultMessage": "只顯示部分內容"
+    "defaultMessage": "еЏЄйЎЇз¤єйѓЁе€†е…§е®№"
   },
   "search.filter.option.show_more": {
-    "defaultMessage": "顯示更多內容"
+    "defaultMessage": "йЎЇз¤єж›ґе¤ље…§е®№"
   },
   "search.filter_type.environment": {
-    "defaultMessage": "環境"
+    "defaultMessage": "з’°еўѓ"
   },
   "search.filter_type.environment.client": {
-    "defaultMessage": "用戶端"
+    "defaultMessage": "з”Ёж€¶з«Ї"
   },
   "search.filter_type.environment.server": {
-    "defaultMessage": "伺服器端"
+    "defaultMessage": "дјєжњЌе™Ёз«Ї"
   },
   "search.filter_type.game_version": {
-    "defaultMessage": "遊戲版本"
+    "defaultMessage": "йЃЉж€Із‰€жњ¬"
   },
   "search.filter_type.game_version.all_versions": {
-    "defaultMessage": "顯示所有版本"
+    "defaultMessage": "йЎЇз¤єж‰Ђжњ‰з‰€жњ¬"
   },
   "search.filter_type.license": {
-    "defaultMessage": "授權條款"
+    "defaultMessage": "жЋ€ж¬Љжўќж¬ѕ"
   },
   "search.filter_type.license.open_source": {
-    "defaultMessage": "開放原始碼"
+    "defaultMessage": "й–‹ж”ѕеЋџе§‹зўј"
   },
   "search.filter_type.mod_loader": {
-    "defaultMessage": "載入器"
+    "defaultMessage": "иј‰е…Ґе™Ё"
   },
   "search.filter_type.modpack_loader": {
-    "defaultMessage": "載入器"
+    "defaultMessage": "иј‰е…Ґе™Ё"
   },
   "search.filter_type.plugin_loader": {
-    "defaultMessage": "載入器"
+    "defaultMessage": "иј‰е…Ґе™Ё"
   },
   "search.filter_type.plugin_platform": {
-    "defaultMessage": "平台"
+    "defaultMessage": "е№іи‡є"
   },
   "search.filter_type.project_id": {
-    "defaultMessage": "專案 ID"
+    "defaultMessage": "е°€жЎ€ ID"
+  },
+  "search.filter_type.server_content_type": {
+    "defaultMessage": "йЎћећ‹"
+  },
+  "search.filter_type.server_language": {
+    "defaultMessage": "иЄћиЁЂ"
+  },
+  "search.filter_type.server_region": {
+    "defaultMessage": "ењ°еЌЂ"
+  },
+  "search.filter_type.server_status": {
+    "defaultMessage": "з‹Ђж…‹"
   },
   "search.filter_type.shader_loader": {
-    "defaultMessage": "載入器"
+    "defaultMessage": "иј‰е…Ґе™Ё"
+  },
+  "search.server_content_type.modpack": {
+    "defaultMessage": "жЁЎзµ„з‰€"
+  },
+  "search.server_content_type.vanilla": {
+    "defaultMessage": "еЋџз‰€"
+  },
+  "servers.backups.admonition.backup-failed.description": {
+    "defaultMessage": "е»єз«‹гЂЊ{backupName}гЂЌж™‚з™јз”џйЊЇиЄ¤гЂ‚и«‹е†Ќи©¦дёЂж¬ЎпјЊи‹Ґе•ЏйЎЊжЊЃзєЊз™јз”џпјЊи«‹иЃЇзµЎж”ЇжЏґењйљЉгЂ‚"
+  },
+  "servers.backups.admonition.backup-failed.title": {
+    "defaultMessage": "з„Ўжі•е‚™д»Ѕ"
+  },
+  "servers.backups.admonition.backup-queued.description": {
+    "defaultMessage": "{backupName} е·ІеЉ е…ҐдЅ‡е€—пјЊеЌіе°‡й–‹е§‹гЂ‚"
+  },
+  "servers.backups.admonition.backup-queued.title": {
+    "defaultMessage": "е‚™д»ЅдЅњжҐ­е·ІеЉ е…ҐдЅ‡е€—"
+  },
+  "servers.backups.admonition.creating-backup.description": {
+    "defaultMessage": "ж­ЈењЁз‚є {backupName} дїќе­дё–з•Њиі‡ж–™е’ЊдјєжњЌе™Ёй…ЌзЅ®гЂ‚йЂ™еЏЇиѓЅйњЂи¦Ѓе№ѕе€†йђгЂ‚"
+  },
+  "servers.backups.admonition.creating-backup.title": {
+    "defaultMessage": "ж­ЈењЁе»єз«‹е‚™д»Ѕ"
+  },
+  "servers.backups.admonition.fallback-name": {
+    "defaultMessage": "дЅ зљ„е‚™д»Ѕ"
+  },
+  "servers.backups.admonition.restore-failed.description": {
+    "defaultMessage": "й‚„еЋџгЂЊ{backupName}гЂЌж™‚з™јз”џйЊЇиЄ¤гЂ‚и«‹е†Ќи©¦дёЂж¬ЎпјЊи‹Ґе•ЏйЎЊжЊЃзєЊз™јз”џпјЊи«‹иЃЇзµЎж”ЇжЏґењйљЉгЂ‚"
+  },
+  "servers.backups.admonition.restore-failed.title": {
+    "defaultMessage": "з„Ўжі•еѕће‚™д»Ѕй‚„еЋџ"
+  },
+  "servers.backups.admonition.restore-queued.description": {
+    "defaultMessage": "еѕћ {backupName} й‚„еЋџе·ІеЉ е…ҐдЅ‡е€—пјЊеЌіе°‡й–‹е§‹гЂ‚"
+  },
+  "servers.backups.admonition.restore-queued.title": {
+    "defaultMessage": "е‚™д»Ѕй‚„еЋџдЅњжҐ­е·ІеЉ е…ҐдЅ‡е€—"
+  },
+  "servers.backups.admonition.restore-successful.description": {
+    "defaultMessage": "дЅ зљ„дјєжњЌе™Ёд»Ґй‚„еЋџи‡і {backupName} пјЊеЏЇд»Ґе•џе‹•дє†гЂ‚"
+  },
+  "servers.backups.admonition.restore-successful.title": {
+    "defaultMessage": "ж€ђеЉџеѕће‚™д»Ѕй‚„еЋџ"
+  },
+  "servers.backups.admonition.restoring-backup.description": {
+    "defaultMessage": "ж­ЈењЁеѕћ {backupName} й‚„еЋџдЅ зљ„дјєжњЌе™ЁгЂ‚йЂ™еЏЇиѓЅйњЂи¦Ѓе№ѕе€†йђгЂ‚"
+  },
+  "servers.backups.admonition.restoring-backup.title": {
+    "defaultMessage": "еѕће‚™д»Ѕй‚„еЋџ"
   },
   "servers.backups.item.auto": {
-    "defaultMessage": "自動備份"
+    "defaultMessage": "и‡Єе‹•е‚™д»Ѕ"
   },
   "servers.backups.item.backup-schedule": {
-    "defaultMessage": "備份排程"
-  },
-  "servers.backups.item.creating-backup": {
-    "defaultMessage": "正在建立備份..."
+    "defaultMessage": "е‚™д»ЅжЋ’зЁ‹"
   },
   "servers.backups.item.failed-to-create-backup": {
-    "defaultMessage": "建立備份失敗"
+    "defaultMessage": "е»єз«‹е‚™д»Ѕе¤±ж•—"
   },
   "servers.backups.item.failed-to-restore-backup": {
-    "defaultMessage": "從備份還原失敗"
+    "defaultMessage": "еѕће‚™д»Ѕй‚„еЋџе¤±ж•—"
   },
   "servers.backups.item.manual-backup": {
-    "defaultMessage": "手動備份"
-  },
-  "servers.backups.item.queued-for-backup": {
-    "defaultMessage": "備份排程"
-  },
-  "servers.backups.item.queued-for-restore": {
-    "defaultMessage": "還原排程"
+    "defaultMessage": "ж‰‹е‹•е‚™д»Ѕ"
   },
   "servers.backups.item.rename": {
-    "defaultMessage": "重新命名"
+    "defaultMessage": "й‡Ќж–°е‘ЅеђЌ"
   },
   "servers.backups.item.restore": {
-    "defaultMessage": "還原"
+    "defaultMessage": "й‚„еЋџ"
   },
-  "servers.backups.item.restoring-backup": {
-    "defaultMessage": "正在從備份還原..."
+  "servers.busy.backup-creating": {
+    "defaultMessage": "ж­ЈењЁе»єз«‹е‚™д»Ѕ"
+  },
+  "servers.busy.backup-restoring": {
+    "defaultMessage": "ж­ЈењЁй‚„еЋџе‚™д»Ѕ"
+  },
+  "servers.busy.installing": {
+    "defaultMessage": "ж­ЈењЁе®‰иЈќдјєжњЌе™Ё"
+  },
+  "servers.busy.syncing-content": {
+    "defaultMessage": "ж­ЈењЁеђЊж­Ґе…§е®№"
+  },
+  "servers.list-empty.already-have-server-label": {
+    "defaultMessage": "е·Із¶“жњ‰дјєжњЌе™Ёдє†е—Ћпјџ"
+  },
+  "servers.list-empty.learn-more-link": {
+    "defaultMessage": "ж·±е…Ґдє†и§Ј Modrinth Hosting"
+  },
+  "servers.list-empty.modrinth-hosting-label": {
+    "defaultMessage": "Modrinth Hosting"
+  },
+  "servers.list-empty.new-server-button": {
+    "defaultMessage": "е»єз«‹ж–°зљ„дјєжњЌе™Ё"
+  },
+  "servers.list-empty.no-servers-description": {
+    "defaultMessage": "е®‰иЈќжЁЎзµ„гЂЃй‚Ђи«‹еҐЅеЏ‹дё¦дёЂиµ·жљўзЋ©пјЊйЂ™дёЂе€‡йѓЅиѓЅењЁ Mist Launcher дё­иј•й¬†е®Њж€ђгЂ‚"
+  },
+  "servers.list-empty.no-servers-title": {
+    "defaultMessage": "з›®е‰Ќй‚„жІ’жњ‰дјєжњЌе™Ё"
+  },
+  "servers.list-empty.one-click-mod-installs-description": {
+    "defaultMessage": "жЊ‘йЃёдЅ е–њж„›зљ„жЁЎзµ„пјЊе‰©дё‹зљ„е°±дє¤зµ¦ж€‘еЂ‘и™•зђ†гЂ‚"
+  },
+  "servers.list-empty.one-click-mod-installs-title": {
+    "defaultMessage": "дёЂйЌµе®‰иЈќжЁЎзµ„"
+  },
+  "servers.list-empty.play-with-friends-description": {
+    "defaultMessage": "й‚Ђи«‹еҐЅеЏ‹дё¦з›ґжЋҐењЁ Mist Launcher дё­з‚єд»–еЂ‘е®Њж€ђиЁ­е®љгЂ‚"
+  },
+  "servers.list-empty.play-with-friends-title": {
+    "defaultMessage": "и€‡еҐЅеЏ‹еђЊжЁ‚"
+  },
+  "servers.list-empty.sign-in-button": {
+    "defaultMessage": "з™»е…Ґ"
+  },
+  "servers.list-empty.simple-setup-description": {
+    "defaultMessage": "иЁ­е®љдјєжњЌе™Ёе°±еѓЏе»єз«‹е–®дєєйЃЉж€Ідё–з•ЊдёЂжЁЈз°Ўе–®гЂ‚"
+  },
+  "servers.list-empty.simple-setup-title": {
+    "defaultMessage": "з°Ўе–®иЁ­е®љ"
+  },
+  "servers.listing.copied-label": {
+    "defaultMessage": "е·Іи¤‡иЈЅ"
+  },
+  "servers.listing.copy-code-tooltip": {
+    "defaultMessage": "е°‡д»Јзўји¤‡иЈЅе€°е‰ЄиІјз°ї"
+  },
+  "servers.listing.copy-id-label": {
+    "defaultMessage": "и¤‡иЈЅ ID"
+  },
+  "servers.listing.download-latest-backup-tooltip": {
+    "defaultMessage": "дё‹иј‰жњЂж–°е‚™д»Ѕ"
+  },
+  "servers.listing.manage-billing-label": {
+    "defaultMessage": "з®Ўзђ†еёіе‹™"
+  },
+  "servers.listing.new-label": {
+    "defaultMessage": "ж–°дјєжњЌе™Ё"
+  },
+  "servers.listing.notice.files-kept-for-download": {
+    "defaultMessage": "дЅ зљ„жЄ”жЎ€й‚„жњѓдїќз•™ <days-remaining>{daysRemaining} е¤©</days-remaining>гЂ‚и«‹ењЁжЄ”жЎ€иў«е€Єй™¤е‰ЌиЃЇзµЎж”ЇжЏґењйљЉд»ҐйЂІиЎЊдё‹иј‰гЂ‚"
+  },
+  "servers.listing.notice.files-preserved-after-cancellation": {
+    "defaultMessage": "еЏ–ж¶€жњЌе‹™еѕЊпјЊдЅ зљ„жЄ”жЎ€е°‡дїќз•™ 30 е¤©гЂ‚"
+  },
+  "servers.listing.notice.moderated": {
+    "defaultMessage": "з”±ж–јйЃ•еЏЌз®Ўзђ†и¦ЏзЇ„пјЊдЅ зљ„дјєжњЌе™Ёе·ІйЃ­еЃњж¬ЉгЂ‚"
+  },
+  "servers.listing.notice.pending-change": {
+    "defaultMessage": "дЅ зљ„дјєжњЌе™Ёе°‡ж–ј {formattedDate} {verb}з‚є {planSize} ж–№жЎ€гЂ‚"
+  },
+  "servers.listing.notice.provisioning": {
+    "defaultMessage": "ж€‘еЂ‘ж­ЈењЁз‚єдЅ иЁ­е®љдјєжњЌе™ЁпјЊи«‹зЁЌеЂ™гЂ‚йЂ™еЏЇиѓЅйњЂи¦Ѓй•·йЃ” 10 е€†йђгЂ‚"
+  },
+  "servers.listing.notice.subscription-cancelled": {
+    "defaultMessage": "дЅ зљ„иЁ‚й–±е·ІеЏ–ж¶€гЂ‚"
+  },
+  "servers.listing.notice.subscription-cancelled-on-date": {
+    "defaultMessage": "ж‚Ёзљ„иЁ‚й–±е·Іж–ј <date>{formattedDate}</date>еЏ–ж¶€гЂ‚"
+  },
+  "servers.listing.notice.subscription-cancelled-payment-failed": {
+    "defaultMessage": "з”±ж–јд»ж¬ѕе¤±ж•—пјЊж‚Ёзљ„иЁ‚й–±е·Іиў«еЏ–ж¶€гЂ‚"
+  },
+  "servers.listing.notice.subscription-cancelled-payment-failed-on-date": {
+    "defaultMessage": "з”±ж–јд»ж¬ѕе¤±ж•—пјЊж‚Ёзљ„иЁ‚й–±е·Іж–ј<date>{formattedDate}</date>еЏ–ж¶€гЂ‚"
+  },
+  "servers.listing.notice.subscription-set-to-cancel": {
+    "defaultMessage": "ж‚Ёзљ„иЁ‚й–±е°‡иў«еЏ–ж¶€гЂ‚"
+  },
+  "servers.listing.notice.subscription-set-to-cancel-on-date": {
+    "defaultMessage": "дЅ зљ„иЁ‚й–±иЁ­е®љж–ј <date>{formattedDate}</date> еЏ–ж¶€гЂ‚"
+  },
+  "servers.listing.notice.suspended": {
+    "defaultMessage": "ж‚Ёзљ„дјєжњЌе™Ёе·Іиў«жљ«еЃњгЂ‚и«‹иЃЇзµЎ Modrinth е®ўжњЌд»Ґдє†и§Јж›ґе¤љиі‡иЁЉгЂ‚"
+  },
+  "servers.listing.notice.upgrading": {
+    "defaultMessage": "ж‚Ёзљ„дјєжњЌе™ЁзЎ¬й«”ж­ЈењЁеЌ‡зґљпјЊеѕ€еї«е°±жњѓжЃўеѕ©дёЉз·љгЂ‚"
+  },
+  "servers.listing.resubscribe-label": {
+    "defaultMessage": "й‡Ќж–°иЁ‚й–±"
+  },
+  "servers.listing.server-icon-alt": {
+    "defaultMessage": "дјєжњЌе™Ёењ–з¤є"
+  },
+  "servers.listing.support-label": {
+    "defaultMessage": "е®ўжњЌ"
+  },
+  "servers.listing.using-project-label": {
+    "defaultMessage": "дЅїз”Ё {projectTitle}"
+  },
+  "servers.manage.checking-for-new-servers": {
+    "defaultMessage": "ж­ЈењЁжЄўжџҐж–°дјєжњЌе™ЁвЂ¦"
+  },
+  "servers.manage.confirm-leave.body": {
+    "defaultMessage": "ж–‡д»¶ж­ЈењЁдёЉе‚ідё­гЂ‚й›ўй–‹ж­¤й Ѓйќўе°‡еЏ–ж¶€дёЉе‚ігЂ‚"
+  },
+  "servers.manage.confirm-leave.upload-in-progress": {
+    "defaultMessage": "дёЉе‚ідё­"
+  },
+  "servers.manage.contact-support-button": {
+    "defaultMessage": "иЃЇзµЎ Modrinth е®ўжњЌ"
+  },
+  "servers.manage.error.alert-notice": {
+    "defaultMessage": "ж€‘еЂ‘зљ„зі»зµ±жњѓењЁе‡єзЏѕе•ЏйЎЊж™‚и‡Єе‹•йЂљзџҐењйљЉгЂ‚ж€‘еЂ‘ж­ЈењЁеЉЄеЉ›жЃўеѕ©зі»зµ±еЉџиѓЅгЂ‚"
+  },
+  "servers.manage.error.description": {
+    "defaultMessage": "ж€‘еЂ‘зљ„дјєжњЌе™ЁеЏЇиѓЅжљ«ж™‚ж•…йљњгЂ‚"
+  },
+  "servers.manage.error.details": {
+    "defaultMessage": "йЊЇиЄ¤и©ізґ°иі‡иЁЉпјљ"
+  },
+  "servers.manage.error.queue-notice": {
+    "defaultMessage": "е¦‚жћњж‚ЁжњЂиї‘иіјиІ·дє† Modrinth Hosting дјєжњЌе™ЁпјЊе®ѓз›®е‰Ќж­ЈењЁжЋ’йљЉз­‰еѕ…пјЊжє–е‚™е°±з·’еѕЊжњѓз«‹еЌійЎЇз¤єењЁж­¤и™•гЂ‚ <warning>и«‹е‹їе—и©¦иіјиІ·ж–°дјєжњЌе™ЁгЂ‚ </warning>"
+  },
+  "servers.manage.error.support-notice": {
+    "defaultMessage": "и‹ҐдЅ йњЂи¦Ѓй—њж–јдјєжњЌе™Ёз‹Ђж…‹зљ„е°€е±¬ж”ЇжЏґпјЊи«‹иЃЇзµЎ Modrinth е®ўжњЌгЂ‚"
+  },
+  "servers.manage.error.title": {
+    "defaultMessage": "з„Ўжі•иј‰е…ҐдјєжњЌе™Ё"
+  },
+  "servers.manage.handle-error.title": {
+    "defaultMessage": "з™јз”џйЊЇиЄ¤"
+  },
+  "servers.manage.new-server-button": {
+    "defaultMessage": "ж–°дјєжњЌе™Ё"
+  },
+  "servers.manage.no-servers-found": {
+    "defaultMessage": "ж‰ѕдёЌе€°дјєжњЌе™ЁгЂ‚"
+  },
+  "servers.manage.purchase-unavailable.text": {
+    "defaultMessage": "д»ж¬ѕиі‡иЁЉд»ЌењЁиј‰е…Ґдё­гЂ‚жє–е‚™е°±з·’еѕЊе°‡з«‹еЌій–‹е•џзµђеёій ЃйќўгЂ‚"
+  },
+  "servers.manage.purchase-unavailable.title": {
+    "defaultMessage": "з„Ўжі•иіјиІ·"
+  },
+  "servers.manage.reload-button": {
+    "defaultMessage": "й‡Ќж–°иј‰е…Ґ"
+  },
+  "servers.manage.resubscribe-error.text": {
+    "defaultMessage": "й‡Ќж–°иЁ‚й–±дЅ зљ„ Modrinth дјєжњЌе™Ёж™‚з™јз”џйЊЇиЄ¤гЂ‚"
+  },
+  "servers.manage.resubscribe-error.title": {
+    "defaultMessage": "й‡Ќж–°иЁ‚й–±ж™‚з™јз”џйЊЇиЄ¤"
+  },
+  "servers.manage.resubscribe-submitted.text": {
+    "defaultMessage": "и‹ҐдјєжњЌе™Ёз›®е‰Ќе·ІеЏ–ж¶€пјЊеЏЇиѓЅжњЂе¤љйњЂи¦Ѓ 10 е€†йђзљ„ж™‚й–“ж‰Ќжњѓе†Ќж¬Ўе—и©¦ж‰Јж¬ѕгЂ‚"
+  },
+  "servers.manage.resubscribe-submitted.title": {
+    "defaultMessage": "е·ІйЂЃе‡єй‡Ќж–°иЁ‚й–±и«‹ж±‚"
+  },
+  "servers.manage.resubscribe-success.text": {
+    "defaultMessage": "дјєжњЌе™Ёж–№жЎ€е·Ій‡Ќж–°иЁ‚й–±ж€ђеЉџ"
+  },
+  "servers.manage.resubscribe-success.title": {
+    "defaultMessage": "ж€ђеЉџ"
+  },
+  "servers.manage.search-placeholder": {
+    "defaultMessage": "жђње°‹ {count} {count, plural, other {еЂ‹дјєжњЌе™Ё}}..."
+  },
+  "servers.manage.servers-title": {
+    "defaultMessage": "Modrinth Hosting"
+  },
+  "servers.manage.settings-hint.description": {
+    "defaultMessage": "зЏѕењЁеЏЇд»ҐењЁйЂ™иЈЎж‰ѕе€°дјєжњЌе™ЁиЁ­е®љпјЃ"
+  },
+  "servers.manage.settings-hint.dismiss": {
+    "defaultMessage": "дёЌе†ЌйЎЇз¤є"
+  },
+  "servers.manage.settings-hint.title": {
+    "defaultMessage": "дЅ зљ„дјєжњЌе™ЁиЁ­е®ље·Із§»е‹•дЅЌзЅ®"
+  },
+  "servers.medal-listing.countdown.remaining": {
+    "defaultMessage": "е‰©й¤ <days-count>{days}</days-count> е¤© <hours-count>{hours}</hours-count> е°Џж™‚ <minutes-count>{minutes}</minutes-count> е€†йђ <seconds-count>{seconds}</seconds-count> з§’..."
+  },
+  "servers.medal-listing.new-server-label": {
+    "defaultMessage": "ж–°дјєжњЌе™Ё"
+  },
+  "servers.medal-listing.notice.medal-trial-ended": {
+    "defaultMessage": "дЅ зљ„ Medal дјєжњЌе™Ёи©¦з”Ёжњџе·ІзµђжќџпјЊдё”дјєжњЌе™Ёе·Іжљ«еЃњжњЌе‹™гЂ‚и«‹еЌ‡зґљд»Ґз№јзєЊдЅїз”ЁдЅ зљ„дјєжњЌе™ЁгЂ‚"
+  },
+  "servers.medal-listing.notice.suspended": {
+    "defaultMessage": "дЅ зљ„дјєжњЌе™Ёе·Іжљ«еЃњжњЌе‹™гЂ‚и«‹ж›ґж–°дЅ зљ„еёіе‹™иі‡иЁЉпјЊж€–иЃЇзµЎ Modrinth е®ўжњЌд»ҐеЏ–еѕ—ж›ґе¤љиі‡иЁЉгЂ‚"
+  },
+  "servers.medal-listing.notice.suspended-with-reason": {
+    "defaultMessage": "дЅ зљ„дјєжњЌе™Ёе·Іжљ«еЃњжњЌе‹™пјЊеЋџе› з‚єпјљ{reason}гЂ‚и«‹ж›ґж–°дЅ зљ„еёіе‹™иі‡иЁЉпјЊж€–иЃЇзµЎ Modrinth е®ўжњЌд»ҐеЏ–еѕ—ж›ґе¤љиі‡иЁЉгЂ‚"
+  },
+  "servers.medal-listing.notice.upgrading": {
+    "defaultMessage": "дЅ зљ„дјєжњЌе™ЁзЎ¬й«”з›®е‰Ќж­ЈењЁеЌ‡зґљдё­пјЊзЁЌеѕЊе°‡жЃўеѕ©дёЉз·љгЂ‚"
+  },
+  "servers.medal-listing.server-icon-alt": {
+    "defaultMessage": "дјєжњЌе™Ёењ–з¤є"
+  },
+  "servers.medal-listing.upgrade-button": {
+    "defaultMessage": "еЌ‡зґљ"
+  },
+  "servers.medal-listing.using-project-label": {
+    "defaultMessage": "ж­ЈењЁдЅїз”Ё {projectTitle}"
   },
   "servers.notice.dismiss": {
-    "defaultMessage": "撤銷"
+    "defaultMessage": "ж’¤йЉ·"
   },
   "servers.notice.dismissable": {
-    "defaultMessage": "可撤銷"
+    "defaultMessage": "еЏЇж’¤йЉ·"
   },
   "servers.notice.heading.attention": {
-    "defaultMessage": "注意"
+    "defaultMessage": "жіЁж„Џ"
   },
   "servers.notice.heading.info": {
-    "defaultMessage": "資訊"
+    "defaultMessage": "иі‡иЁЉ"
   },
   "servers.notice.level.critical.name": {
-    "defaultMessage": "重要"
+    "defaultMessage": "й‡Ќи¦Ѓ"
   },
   "servers.notice.level.info.name": {
-    "defaultMessage": "資訊"
+    "defaultMessage": "иі‡иЁЉ"
   },
   "servers.notice.level.survey.name": {
-    "defaultMessage": "問卷"
+    "defaultMessage": "е•ЏеЌ·"
   },
   "servers.notice.level.warn.name": {
-    "defaultMessage": "警告"
+    "defaultMessage": "и­¦е‘Љ"
   },
   "servers.notice.undismissable": {
-    "defaultMessage": "不可撤銷"
+    "defaultMessage": "дёЌеЏЇж’¤йЉ·"
+  },
+  "servers.purchase.notification.success.text": {
+    "defaultMessage": "дЅ е·Іж€ђеЉџе®Њж€ђ Modrinth Hosting зљ„иіјиІ·зЁ‹еєЏгЂ‚"
+  },
+  "servers.purchase.notification.success.title": {
+    "defaultMessage": "иіјиІ·ж€ђеЉџ"
   },
   "servers.purchase.step.payment.description": {
-    "defaultMessage": "你暫時還不會被收取費用。"
+    "defaultMessage": "дЅ жљ«ж™‚й‚„дёЌжњѓиў«ж”¶еЏ–иІ»з”ЁгЂ‚"
   },
   "servers.purchase.step.payment.prompt": {
-    "defaultMessage": "選擇一個付款方式"
+    "defaultMessage": "йЃёж“‡дёЂеЂ‹д»ж¬ѕж–№ејЏ"
   },
   "servers.purchase.step.payment.title": {
-    "defaultMessage": "付款方式"
+    "defaultMessage": "д»ж¬ѕж–№ејЏ"
   },
-  "servers.purchase.step.plan.billed": {
-    "defaultMessage": "按 {interval} 付款"
+  "servers.purchase.step.plan.billing-subtitle": {
+    "defaultMessage": "жњЌе‹™зЇ„ењЌйЃЌеЏЉеЊ—зѕЋгЂЃж­ђжґІи€‡жќ±еЌ—дєћгЂ‚"
   },
   "servers.purchase.step.plan.custom.desc": {
-    "defaultMessage": "根據你需要的規格挑選自訂方案。"
+    "defaultMessage": "ж №ж“љдЅ йњЂи¦Ѓзљ„и¦Џж јжЊ‘йЃёи‡ЄиЁ‚ж–№жЎ€гЂ‚"
+  },
+  "servers.purchase.step.plan.custom.heading": {
+    "defaultMessage": "зџҐйЃ“и‡Єе·±йњЂи¦Ѓд»Ђйєји¦Џж јпјџ"
   },
   "servers.purchase.step.plan.get-started": {
-    "defaultMessage": "立即開始"
+    "defaultMessage": "з«‹еЌій–‹е§‹"
+  },
+  "servers.purchase.step.plan.large": {
+    "defaultMessage": "е¤§ећ‹"
   },
   "servers.purchase.step.plan.large.desc": {
-    "defaultMessage": "適合 15 到 25 位玩家、大型模組包或重度模組環境。"
+    "defaultMessage": "йЃ©еђ€ 15 е€° 25 дЅЌзЋ©е®¶гЂЃе¤§ећ‹жЁЎзµ„еЊ…ж€–й‡Ќеє¦жЁЎзµ„з’°еўѓгЂ‚"
+  },
+  "servers.purchase.step.plan.medium": {
+    "defaultMessage": "дё­ећ‹"
   },
   "servers.purchase.step.plan.medium.desc": {
-    "defaultMessage": "適合 6 到 15 位玩家及多個模組。"
+    "defaultMessage": "йЃ©еђ€ 6 е€° 15 дЅЌзЋ©е®¶еЏЉе¤љеЂ‹жЁЎзµ„гЂ‚"
   },
   "servers.purchase.step.plan.most-popular": {
-    "defaultMessage": "最受歡迎"
-  },
-  "servers.purchase.step.plan.prompt": {
-    "defaultMessage": "挑選一個方案"
+    "defaultMessage": "жњЂеЏ—ж­ЎиїЋ"
   },
   "servers.purchase.step.plan.select": {
-    "defaultMessage": "選擇方案"
+    "defaultMessage": "йЃёж“‡ж–№жЎ€"
+  },
+  "servers.purchase.step.plan.small": {
+    "defaultMessage": "е°Џећ‹"
   },
   "servers.purchase.step.plan.small.desc": {
-    "defaultMessage": "適合 1 到 5 位好友及少量輕量模組。"
-  },
-  "servers.purchase.step.plan.subtitle": {
-    "defaultMessage": "選擇符合你需求的記憶體容量與規格。"
+    "defaultMessage": "йЃ©еђ€ 1 е€° 5 дЅЌеҐЅеЏ‹еЏЉе°‘й‡Џиј•й‡ЏжЁЎзµ„гЂ‚"
   },
   "servers.purchase.step.plan.title": {
-    "defaultMessage": "方案"
+    "defaultMessage": "ж–№жЎ€"
+  },
+  "servers.purchase.step.plan.your-current-plan": {
+    "defaultMessage": "дЅ зљ„з›®е‰Ќж–№жЎ€"
   },
   "servers.purchase.step.region.title": {
-    "defaultMessage": "地區"
+    "defaultMessage": "ењ°еЌЂ"
   },
   "servers.purchase.step.review.title": {
-    "defaultMessage": "再次確認"
+    "defaultMessage": "е†Ќж¬ЎзўєиЄЌ"
   },
   "servers.region.central-europe": {
-    "defaultMessage": "中歐"
+    "defaultMessage": "дё­ж­ђ"
   },
   "servers.region.custom.prompt": {
-    "defaultMessage": "你希望伺服器有多少記憶體？"
+    "defaultMessage": "дЅ еёЊжњ›дјєжњЌе™Ёжњ‰е¤ље°‘иЁж†¶й«”пјџ"
   },
   "servers.region.north-america": {
-    "defaultMessage": "北美洲"
+    "defaultMessage": "еЊ—зѕЋжґІ"
   },
   "servers.region.prompt": {
-    "defaultMessage": "你希望伺服器部署在何處？"
+    "defaultMessage": "дЅ еёЊжњ›дјєжњЌе™ЁйѓЁзЅІењЁдЅ•и™•пјџ"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "沒有想要的地區？<link>請告訴我們，你希望 Modrinth Hosting 接下來在哪裡提供服務！</link>"
+    "defaultMessage": "жІ’жњ‰жѓіи¦Ѓзљ„ењ°еЌЂпјџ<link>и«‹е‘ЉиЁґж€‘еЂ‘пјЊдЅ еёЊжњ› Modrinth Hosting жЋҐдё‹дѕ†ењЁе“ЄиЈЎжЏђдѕ›жњЌе‹™пјЃ</link>"
   },
   "servers.region.southeast-asia": {
-    "defaultMessage": "東南亞"
+    "defaultMessage": "жќ±еЌ—дєћ"
   },
   "servers.region.western-europe": {
-    "defaultMessage": "西歐"
+    "defaultMessage": "иҐїж­ђ"
+  },
+  "servers.setup.rate-limit.text": {
+    "defaultMessage": "дЅ зљ„ж“ЌдЅњйЃЋж–јй »з№ЃгЂ‚и«‹зЁЌеѕЊе†Ќи©¦гЂ‚"
+  },
+  "servers.setup.rate-limit.title": {
+    "defaultMessage": "з„Ўжі•й‡Ќж–°е®‰иЈќдјєжњЌе™Ё"
+  },
+  "servers.setup.reinstall-failed.text": {
+    "defaultMessage": "й‡Ќж–°е®‰иЈќж™‚з™јз”џйќћй ђжњџзљ„йЊЇиЄ¤гЂ‚и«‹зЁЌеѕЊе†Ќи©¦гЂ‚"
+  },
+  "servers.setup.reinstall-failed.title": {
+    "defaultMessage": "й‡Ќж–°е®‰иЈќе¤±ж•—"
+  },
+  "servers.setup.upload-warning": {
+    "defaultMessage": "дёЉе‚іж™‚и«‹е‹їй—њй–‰ж­¤й ЃйќўгЂ‚"
+  },
+  "servers.setup.uploading-modpack.header": {
+    "defaultMessage": "ж­ЈењЁдёЉе‚іжЁЎзµ„еЊ…"
   },
   "settings.account.title": {
-    "defaultMessage": "帳號和安全性"
+    "defaultMessage": "еёіи™џе’Ње®‰е…ЁжЂ§"
   },
   "settings.appearance.title": {
-    "defaultMessage": "外觀"
+    "defaultMessage": "е¤–и§Ђ"
   },
   "settings.applications.title": {
-    "defaultMessage": "你的應用程式"
+    "defaultMessage": "дЅ зљ„ж‡‰з”ЁзЁ‹ејЏ"
   },
   "settings.authorized-apps.title": {
-    "defaultMessage": "已授權的應用程式"
+    "defaultMessage": "е·ІжЋ€ж¬Љзљ„ж‡‰з”ЁзЁ‹ејЏ"
   },
   "settings.billing.title": {
-    "defaultMessage": "帳單及訂閱方案"
+    "defaultMessage": "еёіе–®еЏЉиЁ‚й–±ж–№жЎ€"
   },
   "settings.display.theme.dark": {
-    "defaultMessage": "深色"
+    "defaultMessage": "ж·±и‰І"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "依照偏好，設定這部裝置的 Modrinth 主題顏色。"
+    "defaultMessage": "дѕќз…§еЃЏеҐЅпјЊиЁ­е®љйЂ™йѓЁиЈќзЅ®зљ„ Modrinth дё»йЎЊйЎЏи‰ІгЂ‚"
   },
   "settings.display.theme.light": {
-    "defaultMessage": "淺色"
+    "defaultMessage": "ж·єи‰І"
   },
   "settings.display.theme.oled": {
     "defaultMessage": "OLED"
   },
   "settings.display.theme.preferred-dark-theme": {
-    "defaultMessage": "偏好深色主題"
+    "defaultMessage": "еЃЏеҐЅж·±и‰Ідё»йЎЊ"
   },
   "settings.display.theme.preferred-light-theme": {
-    "defaultMessage": "偏好淺色主題"
+    "defaultMessage": "еЃЏеҐЅж·єи‰Ідё»йЎЊ"
   },
   "settings.display.theme.retro": {
-    "defaultMessage": "復古"
+    "defaultMessage": "еѕ©еЏ¤"
   },
   "settings.display.theme.system": {
-    "defaultMessage": "與系統同步"
+    "defaultMessage": "и€‡зі»зµ±еђЊж­Ґ"
   },
   "settings.display.theme.title": {
-    "defaultMessage": "色彩主題"
+    "defaultMessage": "и‰ІеЅ©дё»йЎЊ"
+  },
+  "settings.feature-flags.title": {
+    "defaultMessage": "еЉџиѓЅжЁ™иЁ"
   },
   "settings.language.categories.default": {
-    "defaultMessage": "標準語言"
+    "defaultMessage": "жЁ™жє–иЄћиЁЂ"
   },
   "settings.language.categories.search-result": {
-    "defaultMessage": "搜尋結果"
+    "defaultMessage": "жђње°‹зµђжћњ"
   },
   "settings.language.description": {
-    "defaultMessage": "選擇你偏好的{platform}語言。翻譯由 <crowdin-link>Crowdin</crowdin-link> 上的志願者所貢獻。"
+    "defaultMessage": "йЃёж“‡дЅ еЃЏеҐЅзљ„{platform}иЄћиЁЂгЂ‚зї»и­Їз”± <crowdin-link>Crowdin</crowdin-link> дёЉзљ„еї—йЎиЂ…ж‰ЂиІўзЌ»гЂ‚"
   },
   "settings.language.languages.search-field.placeholder": {
-    "defaultMessage": "搜尋語言..."
+    "defaultMessage": "жђње°‹иЄћиЁЂ..."
   },
   "settings.language.languages.search-results-announcement": {
-    "defaultMessage": "{matches, plural, =0 {未搜尋到相關語言} other {有 # 個語言符合搜尋字詞}}"
+    "defaultMessage": "{matches, plural, =0 {жњЄжђње°‹е€°з›ёй—њиЄћиЁЂ} other {жњ‰ # еЂ‹иЄћиЁЂз¬¦еђ€жђње°‹е­—и©ћ}}"
   },
   "settings.language.languages.search.no-results": {
-    "defaultMessage": "沒有語言符合你的搜尋字詞。"
+    "defaultMessage": "жІ’жњ‰иЄћиЁЂз¬¦еђ€дЅ зљ„жђње°‹е­—и©ћгЂ‚"
   },
   "settings.language.platform.app": {
-    "defaultMessage": "應用程式"
+    "defaultMessage": "ж‡‰з”ЁзЁ‹ејЏ"
   },
   "settings.language.platform.site": {
-    "defaultMessage": "網站"
+    "defaultMessage": "з¶Із«™"
   },
   "settings.language.title": {
-    "defaultMessage": "語言"
+    "defaultMessage": "иЄћиЁЂ"
   },
   "settings.language.warning": {
-    "defaultMessage": "變更{platform}的語言後，若部分內容尚未提供翻譯，則會以英文顯示。{platform}目前尚未完全翻譯，因此，在某些語言下，部分內容仍可能以英文顯示。"
+    "defaultMessage": "и®Љж›ґ{platform}зљ„иЄћиЁЂеѕЊпјЊи‹ҐйѓЁе€†е…§е®№е°љжњЄжЏђдѕ›зї»и­ЇпјЊе‰‡жњѓд»Ґи‹±ж–‡йЎЇз¤єгЂ‚{platform}з›®е‰Ќе°љжњЄе®Ње…Ёзї»и­ЇпјЊе› ж­¤пјЊењЁжџђдє›иЄћиЁЂдё‹пјЊйѓЁе€†е…§е®№д»ЌеЏЇиѓЅд»Ґи‹±ж–‡йЎЇз¤єгЂ‚"
   },
   "settings.pats.title": {
-    "defaultMessage": "個人存取權杖"
+    "defaultMessage": "еЂ‹дєєе­еЏ–ж¬Љжќ–"
   },
   "settings.profile.title": {
-    "defaultMessage": "公開個人檔案"
+    "defaultMessage": "е…¬й–‹еЂ‹дєєжЄ”жЎ€"
   },
   "settings.sessions.title": {
-    "defaultMessage": "工作階段"
+    "defaultMessage": "е·ҐдЅњйљЋж®µ"
   },
   "tag.category.128x": {
-    "defaultMessage": "128×"
+    "defaultMessage": "128Г—"
   },
   "tag.category.16x": {
-    "defaultMessage": "16×"
+    "defaultMessage": "16Г—"
   },
   "tag.category.256x": {
-    "defaultMessage": "256×"
+    "defaultMessage": "256Г—"
   },
   "tag.category.32x": {
-    "defaultMessage": "32×"
+    "defaultMessage": "32Г—"
   },
   "tag.category.48x": {
-    "defaultMessage": "48×"
+    "defaultMessage": "48Г—"
   },
   "tag.category.512x+": {
-    "defaultMessage": "512× 以上"
+    "defaultMessage": "512Г— д»ҐдёЉ"
   },
   "tag.category.64x": {
-    "defaultMessage": "64×"
+    "defaultMessage": "64Г—"
   },
   "tag.category.8x-": {
-    "defaultMessage": "8× 以下"
+    "defaultMessage": "8Г— д»Ґдё‹"
   },
   "tag.category.adventure": {
-    "defaultMessage": "冒險"
+    "defaultMessage": "е†’йљЄ"
+  },
+  "tag.category.adventure-mode": {
+    "defaultMessage": "е†’йљЄжЁЎејЏ"
+  },
+  "tag.category.anarchy": {
+    "defaultMessage": "з„Ўж”їеєњ"
   },
   "tag.category.atmosphere": {
-    "defaultMessage": "大氣效果"
+    "defaultMessage": "е¤§ж°Јж•€жћњ"
   },
   "tag.category.audio": {
-    "defaultMessage": "音效"
+    "defaultMessage": "йџіж•€"
+  },
+  "tag.category.battle-royale": {
+    "defaultMessage": "е¤§йЂѓж®є"
+  },
+  "tag.category.bedwars": {
+    "defaultMessage": "еєЉж€°"
   },
   "tag.category.blocks": {
-    "defaultMessage": "方塊"
+    "defaultMessage": "ж–№еЎЉ"
   },
   "tag.category.bloom": {
-    "defaultMessage": "泛光"
+    "defaultMessage": "жі›е…‰"
+  },
+  "tag.category.bosses": {
+    "defaultMessage": "Boss"
   },
   "tag.category.cartoon": {
-    "defaultMessage": "卡通"
+    "defaultMessage": "еЌЎйЂљ"
   },
   "tag.category.challenging": {
-    "defaultMessage": "挑戰"
+    "defaultMessage": "жЊ‘ж€°"
+  },
+  "tag.category.classes": {
+    "defaultMessage": "иЃ·жҐ­"
   },
   "tag.category.colored-lighting": {
-    "defaultMessage": "彩色光照"
+    "defaultMessage": "еЅ©и‰Іе…‰з…§"
   },
   "tag.category.combat": {
-    "defaultMessage": "戰鬥"
+    "defaultMessage": "ж€°й¬Ґ"
+  },
+  "tag.category.competitive": {
+    "defaultMessage": "з«¶жЉЂ"
   },
   "tag.category.core-shaders": {
-    "defaultMessage": "核心著色器"
+    "defaultMessage": "ж ёеїѓи‘—и‰Іе™Ё"
+  },
+  "tag.category.creative-mode": {
+    "defaultMessage": "е‰µйЂ жЁЎејЏ"
+  },
+  "tag.category.creator-community": {
+    "defaultMessage": "е‰µдЅњиЂ…з¤ѕзѕ¤"
+  },
+  "tag.category.crossplay": {
+    "defaultMessage": "и·Ёе№іи‡є"
   },
   "tag.category.cursed": {
-    "defaultMessage": "邪門"
+    "defaultMessage": "й‚Єй–Ђ"
+  },
+  "tag.category.custom-content": {
+    "defaultMessage": "и‡ЄиЁ‚е…§е®№"
   },
   "tag.category.decoration": {
-    "defaultMessage": "裝飾"
+    "defaultMessage": "иЈќйЈѕ"
+  },
+  "tag.category.dungeons": {
+    "defaultMessage": "е‰Їжњ¬"
   },
   "tag.category.economy": {
-    "defaultMessage": "經濟"
+    "defaultMessage": "з¶“жїџ"
   },
   "tag.category.entities": {
-    "defaultMessage": "實體"
+    "defaultMessage": "еЇ¦й«”"
   },
   "tag.category.environment": {
-    "defaultMessage": "環境"
+    "defaultMessage": "з’°еўѓ"
   },
   "tag.category.equipment": {
-    "defaultMessage": "裝備"
+    "defaultMessage": "иЈќе‚™"
+  },
+  "tag.category.factions": {
+    "defaultMessage": "жґѕзі»"
   },
   "tag.category.fantasy": {
-    "defaultMessage": "奇幻"
+    "defaultMessage": "еҐ‡е№»"
   },
   "tag.category.foliage": {
-    "defaultMessage": "植被"
+    "defaultMessage": "ж¤Ќиў«"
   },
   "tag.category.fonts": {
-    "defaultMessage": "字型"
+    "defaultMessage": "е­—ећ‹"
   },
   "tag.category.food": {
-    "defaultMessage": "食物"
+    "defaultMessage": "йЈџз‰©"
   },
   "tag.category.game-mechanics": {
-    "defaultMessage": "遊戲機制"
+    "defaultMessage": "йЃЉж€Іж©џе€¶"
+  },
+  "tag.category.gens": {
+    "defaultMessage": "з”џж€ђе™Ё"
   },
   "tag.category.gui": {
     "defaultMessage": "GUI"
   },
+  "tag.category.hardcore-mode": {
+    "defaultMessage": "жҐµй™ђжЁЎејЏ"
+  },
   "tag.category.high": {
-    "defaultMessage": "高"
+    "defaultMessage": "й«"
   },
   "tag.category.items": {
-    "defaultMessage": "物品"
+    "defaultMessage": "з‰©е“Ѓ"
+  },
+  "tag.category.keep-inventory": {
+    "defaultMessage": "дїќз•™з‰©е“Ѓж¬„"
   },
   "tag.category.kitchen-sink": {
-    "defaultMessage": "大雜燴"
+    "defaultMessage": "ж°ґж§Ѕ"
+  },
+  "tag.category.kitpvp": {
+    "defaultMessage": "Kit PvP"
   },
   "tag.category.library": {
-    "defaultMessage": "程式庫"
+    "defaultMessage": "зЁ‹ејЏеє«"
+  },
+  "tag.category.lifesteal": {
+    "defaultMessage": "Lifesteal"
   },
   "tag.category.lightweight": {
-    "defaultMessage": "輕量"
+    "defaultMessage": "иј•й‡Џ"
   },
   "tag.category.locale": {
-    "defaultMessage": "在地化"
+    "defaultMessage": "ењЁењ°еЊ–"
   },
   "tag.category.low": {
-    "defaultMessage": "低"
+    "defaultMessage": "дЅЋ"
   },
   "tag.category.magic": {
-    "defaultMessage": "魔法"
+    "defaultMessage": "й­”жі•"
   },
   "tag.category.management": {
-    "defaultMessage": "管理"
+    "defaultMessage": "з®Ўзђ†"
+  },
+  "tag.category.media": {
+    "defaultMessage": "еЄ’й«”"
   },
   "tag.category.medium": {
-    "defaultMessage": "中"
+    "defaultMessage": "дё­"
+  },
+  "tag.category.microgames": {
+    "defaultMessage": "еѕ®ећ‹йЃЉж€І"
   },
   "tag.category.minigame": {
-    "defaultMessage": "小遊戲"
+    "defaultMessage": "е°ЏйЃЉж€І"
+  },
+  "tag.category.minigames": {
+    "defaultMessage": "е°ЏйЃЉж€І"
+  },
+  "tag.category.mmo": {
+    "defaultMessage": "MMO"
   },
   "tag.category.mobs": {
-    "defaultMessage": "生物"
+    "defaultMessage": "з”џз‰©"
   },
   "tag.category.modded": {
-    "defaultMessage": "模組支援"
+    "defaultMessage": "жЁЎзµ„ж”ЇжЏґ"
   },
   "tag.category.models": {
-    "defaultMessage": "模型"
+    "defaultMessage": "жЁЎећ‹"
   },
   "tag.category.multiplayer": {
-    "defaultMessage": "多人遊戲"
+    "defaultMessage": "е¤љдєєйЃЉж€І"
+  },
+  "tag.category.network": {
+    "defaultMessage": "зѕ¤зµ„дјєжњЌе™Ё"
+  },
+  "tag.category.offline-mode": {
+    "defaultMessage": "й›ўз·љжЁЎејЏ"
+  },
+  "tag.category.oneblock": {
+    "defaultMessage": "дёЂж јж–№еЎЉ"
+  },
+  "tag.category.op": {
+    "defaultMessage": "OP"
   },
   "tag.category.optimization": {
-    "defaultMessage": "最佳化"
+    "defaultMessage": "жњЂдЅіеЊ–"
+  },
+  "tag.category.parkour": {
+    "defaultMessage": "и·‘й…·"
   },
   "tag.category.path-tracing": {
-    "defaultMessage": "光線追蹤"
+    "defaultMessage": "е…‰з·љиїЅи№¤"
   },
   "tag.category.pbr": {
     "defaultMessage": "PBR"
   },
+  "tag.category.personal-worlds": {
+    "defaultMessage": "еЂ‹дєєдё–з•Њ"
+  },
+  "tag.category.plots": {
+    "defaultMessage": "ењ°еЎЉ"
+  },
+  "tag.category.pokemon": {
+    "defaultMessage": "еЇ¶еЏЇе¤ў"
+  },
   "tag.category.potato": {
-    "defaultMessage": "馬鈴薯"
+    "defaultMessage": "й¦¬й€ґи–Ї"
+  },
+  "tag.category.prison": {
+    "defaultMessage": "з›ЈзЌ„"
+  },
+  "tag.category.pve": {
+    "defaultMessage": "PvE"
+  },
+  "tag.category.pvp": {
+    "defaultMessage": "PvP"
+  },
+  "tag.category.questing": {
+    "defaultMessage": "д»»е‹™"
   },
   "tag.category.quests": {
-    "defaultMessage": "任務"
+    "defaultMessage": "д»»е‹™"
+  },
+  "tag.category.racing": {
+    "defaultMessage": "з«¶йЂџ"
   },
   "tag.category.realistic": {
-    "defaultMessage": "寫實"
+    "defaultMessage": "еЇ«еЇ¦"
+  },
+  "tag.category.recording-smp": {
+    "defaultMessage": "йЊ„еЅ± SMP"
   },
   "tag.category.reflections": {
-    "defaultMessage": "折射"
+    "defaultMessage": "жЉе°„"
+  },
+  "tag.category.roleplay": {
+    "defaultMessage": "и§’и‰Іж‰®жј”"
+  },
+  "tag.category.rpg": {
+    "defaultMessage": "и§’и‰Іж‰®жј”"
   },
   "tag.category.screenshot": {
-    "defaultMessage": "擷圖用"
+    "defaultMessage": "ж“·ењ–з”Ё"
   },
   "tag.category.semi-realistic": {
-    "defaultMessage": "半寫實"
+    "defaultMessage": "еЌЉеЇ«еЇ¦"
   },
   "tag.category.shadows": {
-    "defaultMessage": "陰影"
+    "defaultMessage": "й™°еЅ±"
   },
   "tag.category.simplistic": {
-    "defaultMessage": "簡約"
+    "defaultMessage": "з°Ўзґ„"
+  },
+  "tag.category.skyblock": {
+    "defaultMessage": "з©єеі¶з”џе­"
+  },
+  "tag.category.smp": {
+    "defaultMessage": "SMP"
   },
   "tag.category.social": {
-    "defaultMessage": "社交"
+    "defaultMessage": "з¤ѕдє¤"
   },
   "tag.category.storage": {
-    "defaultMessage": "儲存"
+    "defaultMessage": "е„Іе­"
+  },
+  "tag.category.survival-mode": {
+    "defaultMessage": "з”џе­жЁЎејЏ"
+  },
+  "tag.category.teams": {
+    "defaultMessage": "ењйљЉ"
+  },
+  "tag.category.technical": {
+    "defaultMessage": "жЉЂиЎ“жЂ§"
   },
   "tag.category.technology": {
-    "defaultMessage": "科技"
+    "defaultMessage": "з§‘жЉЂ"
   },
   "tag.category.themed": {
-    "defaultMessage": "特定主題"
+    "defaultMessage": "з‰№е®љдё»йЎЊ"
+  },
+  "tag.category.towns": {
+    "defaultMessage": "еџЋйЋ®"
   },
   "tag.category.transportation": {
-    "defaultMessage": "交通"
+    "defaultMessage": "дє¤йЂљ"
   },
   "tag.category.tweaks": {
-    "defaultMessage": "微調"
+    "defaultMessage": "еѕ®иЄї"
   },
   "tag.category.utility": {
-    "defaultMessage": "工具"
+    "defaultMessage": "е·Ґе…·"
   },
   "tag.category.vanilla-like": {
-    "defaultMessage": "原版風格"
+    "defaultMessage": "йЎћеЋџз‰€"
+  },
+  "tag.category.whitelisted": {
+    "defaultMessage": "з™ЅеђЌе–®"
+  },
+  "tag.category.world-resets": {
+    "defaultMessage": "дё–з•Њй‡ЌиЁ­"
   },
   "tag.category.worldgen": {
-    "defaultMessage": "世界生成"
+    "defaultMessage": "дё–з•Њз”џж€ђ"
   },
   "tag.loader.babric": {
     "defaultMessage": "Babric"
@@ -1545,7 +3510,7 @@
     "defaultMessage": "Canvas"
   },
   "tag.loader.datapack": {
-    "defaultMessage": "資料包"
+    "defaultMessage": "иі‡ж–™еЊ…"
   },
   "tag.loader.fabric": {
     "defaultMessage": "Fabric"
@@ -1557,7 +3522,7 @@
     "defaultMessage": "Forge"
   },
   "tag.loader.geyser": {
-    "defaultMessage": "Geyser 擴充功能"
+    "defaultMessage": "Geyser ж“ґе……еЉџиѓЅ"
   },
   "tag.loader.iris": {
     "defaultMessage": "Iris"
@@ -1572,13 +3537,13 @@
     "defaultMessage": "LiteLoader"
   },
   "tag.loader.minecraft": {
-    "defaultMessage": "資源包"
+    "defaultMessage": "иі‡жєђеЊ…"
   },
   "tag.loader.modloader": {
     "defaultMessage": "Risugami's ModLoader"
   },
   "tag.loader.mrpack": {
-    "defaultMessage": "模組包"
+    "defaultMessage": "жЁЎзµ„еЊ…"
   },
   "tag.loader.neoforge": {
     "defaultMessage": "NeoForge"
@@ -1611,7 +3576,7 @@
     "defaultMessage": "Sponge"
   },
   "tag.loader.vanilla": {
-    "defaultMessage": "原版著色器"
+    "defaultMessage": "еЋџз‰€и‘—и‰Іе™Ё"
   },
   "tag.loader.velocity": {
     "defaultMessage": "Velocity"
@@ -1619,11 +3584,23 @@
   "tag.loader.waterfall": {
     "defaultMessage": "Waterfall"
   },
-  "tooltip.date-at-time": {
-    "defaultMessage": "{date, date, long} {time, time, short}"
-  },
   "ui.component.unsaved-changes-popup.body": {
-    "defaultMessage": "你的變更尚未儲存。"
+    "defaultMessage": "дЅ зљ„и®Љж›ґе°љжњЄе„Іе­гЂ‚"
+  },
+  "ui.confirm-leave-modal.body": {
+    "defaultMessage": "ж‚Ёжњ‰жњЄе„Іе­зљ„и®Љж›ґпјЊе¦‚жћњй›ўй–‹ж­¤й Ѓйќўе°‡жњѓйЃєе¤±"
+  },
+  "ui.confirm-leave-modal.header": {
+    "defaultMessage": "ж‚Ёжњ‰жњЄе„Іе­зљ„и®Љж›ґ"
+  },
+  "ui.confirm-leave-modal.leave": {
+    "defaultMessage": "й›ўй–‹й Ѓйќў"
+  },
+  "ui.confirm-leave-modal.stay": {
+    "defaultMessage": "з•™ењЁй Ѓйќў"
+  },
+  "ui.confirm-leave-modal.title": {
+    "defaultMessage": "й›ўй–‹й Ѓйќўпјџ"
   }
 }
 

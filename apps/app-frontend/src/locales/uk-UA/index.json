@@ -5,20 +5,167 @@
   "app.auth-servers.unreachable.header": {
     "message": "РќРµ РІРґР°С”С‚СЊСЃСЏ Р·РІвЂ™СЏР·Р°С‚РёСЃСЏ Р·С– СЃРµСЂРІРµСЂР°РјРё Р°РІС‚РµРЅС‚РёС„С–РєР°С†С–С—"
   },
+  "app.browse.add-server-to-instance": {
+    "message": "Додати сервер до профілю"
+  },
+  "app.browse.add-servers-to-instance": {
+    "message": "Додати сервера до вашого профілю"
+  },
+  "app.browse.add-to-instance": {
+    "message": "Додати до профілю"
+  },
+  "app.browse.add-to-instance-name": {
+    "message": "Додати до «{instanceName}»"
+  },
+  "app.browse.added": {
+    "message": "Додано"
+  },
+  "app.browse.already-added": {
+    "message": "Уже додано"
+  },
+  "app.browse.discover-content": {
+    "message": "Дослідити вміст"
+  },
+  "app.browse.discover-servers": {
+    "message": "Дослідити сервера"
+  },
+  "app.browse.hide-added-servers": {
+    "message": "Сховати додані сервери"
+  },
+  "app.browse.hide-installed-content": {
+    "message": "Сховати встановлений уміст"
+  },
+  "app.browse.install-content-to-instance": {
+    "message": "Установити вміст в профіль"
+  },
+  "app.export-modal.description-placeholder": {
+    "message": "Уведіть опис збірки…"
+  },
+  "app.export-modal.export-button": {
+    "message": "Експортувати"
+  },
+  "app.export-modal.header": {
+    "message": "Експортувати збірку"
+  },
+  "app.export-modal.modpack-name-label": {
+    "message": "Назва збірки"
+  },
+  "app.export-modal.modpack-name-placeholder": {
+    "message": "Назва збірки"
+  },
+  "app.export-modal.select-files-label": {
+    "message": "Виберіть файли й теки, щоб додати їх до збірки"
+  },
+  "app.export-modal.version-number-label": {
+    "message": "Номер версії"
+  },
+  "app.export-modal.version-number-placeholder": {
+    "message": "1.0.0"
+  },
+  "app.instance.confirm-delete.admonition-body": {
+    "message": "Усі дані вашого профілю будуть видалені назавжди, включно з вашими світами, конфігураціями та усім встановленим контентом."
+  },
+  "app.instance.confirm-delete.admonition-header": {
+    "message": "Ця дія є незворотною"
+  },
+  "app.instance.confirm-delete.delete-button": {
+    "message": "Видалити профіль"
+  },
+  "app.instance.confirm-delete.header": {
+    "message": "Видалити профіль"
+  },
+  "app.instance.modpack-already-installed.body": {
+    "message": "Ця збірка вже встановлена в профілі <bold>«{instanceName}»</bold>. Ви впевнені, що хочете її скопіювати?"
+  },
+  "app.instance.modpack-already-installed.create": {
+    "message": "Створити"
+  },
+  "app.instance.modpack-already-installed.header": {
+    "message": "Збірку вже встановлено"
+  },
+  "app.instance.modpack-already-installed.instance": {
+    "message": "Профіль"
+  },
+  "app.instance.mods.content-type-project": {
+    "message": "проєкт"
+  },
+  "app.instance.mods.project-was-added": {
+    "message": "«{name}» було додано"
+  },
+  "app.instance.mods.projects-were-added": {
+    "message": "{count} проєктів було додано"
+  },
+  "app.instance.mods.share-text": {
+    "message": "Погляньте на проєкти, які я використовую у своїй збірці!"
+  },
+  "app.instance.mods.share-title": {
+    "message": "Поширення вмісту збірки"
+  },
+  "app.instance.mods.successfully-uploaded": {
+    "message": "Успішно вивантажено"
+  },
+  "app.instance.worlds.add-server": {
+    "message": "Додати сервер"
+  },
+  "app.instance.worlds.browse-servers": {
+    "message": "Переглянути сервера"
+  },
+  "app.instance.worlds.delete-world-description": {
+    "message": "«{name}» буде **назавжди видалено** й у вас не буде можливости відновлення."
+  },
+  "app.instance.worlds.delete-world-title": {
+    "message": "Ви впевнені, що хочете назавжди видалити цей світ?"
+  },
+  "app.instance.worlds.filter-modded": {
+    "message": "Модифікований"
+  },
+  "app.instance.worlds.filter-offline": {
+    "message": "Поза мережею"
+  },
+  "app.instance.worlds.filter-online": {
+    "message": "У мережі"
+  },
+  "app.instance.worlds.filter-vanilla": {
+    "message": "Ванільний"
+  },
+  "app.instance.worlds.no-worlds-description": {
+    "message": "Додати сервер або переглянути, щоб почати"
+  },
+  "app.instance.worlds.no-worlds-heading": {
+    "message": "Сервера або світи не додано"
+  },
+  "app.instance.worlds.remove-server-description": {
+    "message": "«{name}» буде видалено з вашого списку, включно в грі, і без можливости відновлення."
+  },
+  "app.instance.worlds.remove-server-description-with-address": {
+    "message": "«{name}» ({address}) буде видалено з вашого списку, включно в грі, і без можливости відновлення."
+  },
+  "app.instance.worlds.remove-server-title": {
+    "message": "Ви впевнені, що хочете видалити «{name}»?"
+  },
+  "app.instance.worlds.search-worlds-placeholder": {
+    "message": "Пошук {count} світів…"
+  },
+  "app.instance.worlds.this-server": {
+    "message": "цей сервер"
+  },
+  "app.modal.install-to-play.content-required": {
+    "message": "Потрібний уміст"
+  },
   "app.modal.install-to-play.header": {
-    "message": "Р’СЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ РґР»СЏ РіСЂРё"
+    "message": "Установлення для гри"
   },
   "app.modal.install-to-play.install-button": {
-    "message": "Р’СЃС‚Р°РЅРѕРІРёС‚Рё"
+    "message": "Установити"
   },
   "app.modal.install-to-play.mod-count": {
     "message": "{count, plural, one {# РјРѕРґ} few {# РјРѕРґР°} other {# РјРѕРґС–РІ}}"
   },
-  "app.modal.install-to-play.server-requires-mods": {
-    "message": "Р”Р»СЏ РіСЂРё РЅР° С†СЊРѕРјСѓ СЃРµСЂРІРµСЂС– РїРѕС‚СЂС–Р±РЅС– РјРѕРґРё. РќР°С‚РёСЃРЅС–С‚СЊ В«Р’СЃС‚Р°РЅРѕРІРёС‚РёВ», С‰РѕР± Р·Р°РІР°РЅС‚Р°Р¶РёС‚Рё РЅРµРѕР±С…С–РґРЅС– С„Р°Р№Р»Рё Р· Modrinth."
+  "app.modal.install-to-play.required-modpack": {
+    "message": "Потрібна збірка"
   },
-  "app.modal.install-to-play.shared-by-today": {
-    "message": "{name} РґС–Р»РёС‚СЊСЃСЏ С†РёРј РїСЂРѕС„С–Р»РµРј Р· РІР°РјРё."
+  "app.modal.install-to-play.server-requires-mods": {
+    "message": "Для гри на цьому сервері потрібні моди. Натисніть «Установити», щоб налаштувати необхідні файли з Modrinth, а потім запустіть безпосередньо на сервері."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "РџСЂРѕС„С–Р»СЊ"
@@ -26,35 +173,17 @@
   "app.modal.install-to-play.shared-server-instance": {
     "message": "РЎРµСЂРІРµСЂРЅРёР№ РїСЂРѕС„С–Р»СЊ"
   },
-  "app.modal.update-to-play.added-count": {
-    "message": "Р”РѕРґР°РЅРѕ {count}"
-  },
-  "app.modal.update-to-play.diff-type.added": {
-    "message": "Р”РѕРґР°РЅРѕ"
-  },
-  "app.modal.update-to-play.diff-type.removed": {
-    "message": "Р’РёРґР°Р»РµРЅРѕ"
-  },
-  "app.modal.update-to-play.diff-type.updated": {
-    "message": "РћРЅРѕРІР»РµРЅРѕ"
+  "app.modal.install-to-play.view-contents": {
+    "message": "Дивитися вміст"
   },
   "app.modal.update-to-play.header": {
     "message": "РћРЅРѕРІР»РµРЅРЅСЏ РїРµСЂРµРґ РіСЂРѕСЋ"
-  },
-  "app.modal.update-to-play.published-date": {
-    "message": "{date, date, long}"
-  },
-  "app.modal.update-to-play.removed-count": {
-    "message": "Р’РёРґР°Р»РµРЅРѕ {count}"
   },
   "app.modal.update-to-play.update-required": {
     "message": "РќРµРѕР±С…С–РґРЅРµ РѕРЅРѕРІР»РµРЅРЅСЏ"
   },
   "app.modal.update-to-play.update-required-description": {
     "message": "В«{name}В» РїРѕС‚СЂРµР±СѓС” РѕРЅРѕРІР»РµРЅРЅСЏ, С‰РѕР± РіСЂР°С‚Рё. Р‘СѓРґСЊ Р»Р°СЃРєР°, РѕРЅРѕРІС–С‚СЊ РіСЂСѓ РґРѕ РѕСЃС‚Р°РЅРЅСЊРѕС— РІРµСЂСЃС–С—, С‰РѕР± Р·Р°РїСѓСЃС‚РёС‚Рё С—С—."
-  },
-  "app.modal.update-to-play.updated-count": {
-    "message": "РћРЅРѕРІР»РµРЅРѕ {count}"
   },
   "app.settings.developer-mode-enabled": {
     "message": "РЈРІС–РјРєРЅРµРЅРѕ СЂРµР¶РёРј СЂРѕР·СЂРѕР±РЅРёРєР°."
@@ -68,9 +197,6 @@
   "app.settings.tabs.default-instance-options": {
     "message": "РЈСЃС‚Р°Р»РµРЅС– РЅР°Р»Р°С€С‚. РїСЂРѕС„С–Р»СЋ"
   },
-  "app.settings.tabs.feature-flags": {
-    "message": "РЎРїРµС†С–Р°Р»СЊРЅС– С„СѓРЅРєС†С–С—"
-  },
   "app.settings.tabs.java-installations": {
     "message": "Р†РЅСЃС‚Р°Р»СЏС†С–С— Java"
   },
@@ -83,38 +209,32 @@
   "app.settings.tabs.resource-management": {
     "message": "РљРµСЂСѓРІР°РЅРЅСЏ СЂРµСЃСѓСЂСЃР°РјРё"
   },
-  "app.update-toast.body": {
-    "message": "Mist Launcher v{version} РіРѕС‚РѕРІРёР№ РґРѕ РІСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ! РџРµСЂРµР·Р°РїСѓСЃС‚С–С‚СЊ, С‰РѕР± РѕРЅРѕРІРёС‚Рё Р·Р°СЂР°Р·. РђР±Рѕ, РѕРЅРѕРІР»РµРЅРЅСЏ Р±СѓРґРµ Р·РґС–Р№СЃРЅРµРЅРѕ Р°РІС‚РѕРјР°С‚РёС‡РЅРѕ, РєРѕР»Рё Р·Р°РєСЂРёС”С‚Рµ Mist Launcher."
+  "app.update-popup.body": {
+    "message": "Mist Launcher v{version} готовий до встановлення! Перезапустіть, щоб оновити зараз. Або, оновлення буде здійснено автоматично, коли закриєте застосунок Modrinth."
   },
-  "app.update-toast.body.download-complete": {
-    "message": "Mist Launcher v{version} Р·Р°РІР°РЅС‚Р°Р¶РµРЅРѕ. РџРµСЂРµР·Р°РїСѓСЃС‚С–С‚СЊ Р·Р°СЂР°Р·, С‰РѕР± РѕРЅРѕРІРёС‚Рё Р·Р°СЃС‚РѕСЃСѓРЅРѕРє, Р°Р±Рѕ РѕРЅРѕРІР»РµРЅРЅСЏ РІС–РґР±СѓРґРµС‚СЊСЃСЏ Р°РІС‚РѕРјР°С‚РёС‡РЅРѕ РїС–СЃР»СЏ Р·Р°РєСЂРёС‚С‚СЏ Mist Launcher."
+  "app.update-popup.body.download-complete": {
+    "message": "Mist Launcher v{version} завантажено. Перезапустіть зараз, щоб оновити його, або це відбудеться автоматично після закриття Mist Launcher."
   },
-  "app.update-toast.body.linux": {
-    "message": "Р”РѕСЃС‚СѓРїРЅР° РІРµСЂСЃС–СЏ Mist Launcher {version}. РЎРєРѕСЂРёСЃС‚Р°Р№С‚РµСЃСЏ РІР°С€РёРј РјРµРЅРµРґР¶РµСЂРѕРј РїР°РєРµС‚С–РІ, С‰РѕР± РѕС‚СЂРёРјР°С‚Рё РЅР°Р№РЅРѕРІС–С€С– С„СѓРЅРєС†С–С— С‚Р° РІРёРїСЂР°РІР»РµРЅРЅСЏ!"
+  "app.update-popup.body.linux": {
+    "message": "Mist Launcher v{version} вже доступно. Скористайтеся вашим менеджером пакетів, щоб отримати найновіші функції та виправлення!"
   },
-  "app.update-toast.body.metered": {
-    "message": "Р’РµСЂСЃС–СЏ {version} Mist Launcher РґРѕСЃС‚СѓРїРЅР° РґР»СЏ Р·Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ! РћСЃРєС–Р»СЊРєРё РІРё РЅР° Р»С–РјС–С‚РЅРѕРјСѓ Р·вЂ™С”РґРЅР°РЅРЅС–, РјРё РЅРµ Р·Р°РІР°РЅС‚Р°Р¶РёР»Рё С—С— Р°РІС‚РѕРјР°С‚РёС‡РЅРѕ."
+  "app.update-popup.body.metered": {
+    "message": "Mist Launcher v{version} доступний для завантаження! Оскільки ви на лімітному з’єднанні, ми не завантажили його автоматично."
   },
-  "app.update-toast.changelog": {
-    "message": "Р–СѓСЂРЅР°Р» Р·РјС–РЅ"
+  "app.update-popup.changelog": {
+    "message": "Журнал змін"
   },
-  "app.update-toast.download": {
-    "message": "Р—Р°РІР°РЅС‚Р°Р¶РёС‚Рё ({size})"
+  "app.update-popup.download": {
+    "message": "Завантажити ({size})"
   },
-  "app.update-toast.download-page": {
-    "message": "Р—Р°РІР°РЅС‚Р°Р¶РёС‚Рё"
+  "app.update-popup.download-complete": {
+    "message": "Завантаження завершено"
   },
-  "app.update-toast.downloading": {
-    "message": "Р—Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏвЂ¦"
+  "app.update-popup.reload": {
+    "message": "Перезавантажити"
   },
-  "app.update-toast.reload": {
-    "message": "РџРµСЂРµР·Р°РїСѓСЃС‚РёС‚Рё"
-  },
-  "app.update-toast.title": {
-    "message": "Р”РѕСЃС‚СѓРїРЅРµ РѕРЅРѕРІР»РµРЅРЅСЏ"
-  },
-  "app.update-toast.title.download-complete": {
-    "message": "Р—Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ Р·Р°РІРµСЂС€РµРЅРѕ"
+  "app.update-popup.title": {
+    "message": "Доступне оновлення"
   },
   "app.update.complete-toast.text": {
     "message": "РќР°С‚РёСЃРЅС–С‚СЊ С‚СѓС‚, С‰РѕР± РїРµСЂРµРіР»СЏРЅСѓС‚Рё Р¶СѓСЂРЅР°Р» Р·РјС–РЅ."
@@ -129,7 +249,25 @@
     "message": "Р—Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ РѕРЅРѕРІР»РµРЅРЅСЏ ({percent}%)"
   },
   "app.update.reload-to-update": {
-    "message": "РџРµСЂРµР·Р°РїСѓСЃС‚С–С‚СЊ, Р°Р±Рё РІСЃС‚Р°РЅРѕРІРёС‚Рё РѕРЅРѕРІР»РµРЅРЅСЏ"
+    "message": "Перезавантажте, щоб установити оновлення"
+  },
+  "app.world.server-modal.placeholder-address": {
+    "message": "example.modrinth.gg"
+  },
+  "app.world.server-modal.select-an-option": {
+    "message": "Виберіть опцію"
+  },
+  "app.world.world-item.incompatible-version": {
+    "message": "Несумісна версія {version}"
+  },
+  "app.world.world-item.not-played-yet": {
+    "message": "Ще не зіграно"
+  },
+  "app.world.world-item.offline": {
+    "message": "Поза мережею"
+  },
+  "app.world.world-item.players-online": {
+    "message": "{count} у мережі"
   },
   "friends.action.add-friend": {
     "message": "Р”РѕРґР°С‚Рё РґСЂСѓРіР°"
@@ -186,7 +324,7 @@
     "message": "РќРµРјР°С” РґСЂСѓР·С–РІ, СЏРєС– Р·Р±С–РіР°СЋС‚СЊСЃСЏ Р· В«{query}В»"
   },
   "friends.search-friends-placeholder": {
-    "message": "РЁСѓРєР°С‚Рё РґСЂСѓР·С–РІвЂ¦"
+    "message": "Пошук друзів…"
   },
   "friends.section.heading": {
     "message": "{title} вЂ” {count}"
@@ -230,11 +368,11 @@
   "instance.edit-world.title": {
     "message": "Р РµРґР°РіСѓРІР°С‚Рё СЃРІС–С‚"
   },
-  "instance.filter.disabled": {
-    "message": "Р’РёРјРєРЅРµРЅС– РїСЂРѕС”РєС‚Рё"
+  "instance.files.adding-files": {
+    "message": "Додавання файлів ({completed}/{total})"
   },
-  "instance.filter.updates-available": {
-    "message": "РћРЅРѕРІР»РµРЅРЅСЏ РґРѕСЃС‚СѓРїРЅС–"
+  "instance.files.save-as": {
+    "message": "Зберегти як…"
   },
   "instance.server-modal.address": {
     "message": "РђРґСЂРµСЃР°"
@@ -333,7 +471,7 @@
     "message": "Р“СѓРєРё Р·Р°РїСѓСЃРєСѓ РіСЂРё"
   },
   "instance.settings.tabs.hooks.wrapper": {
-    "message": "Р’СЂР°РїРїРµСЂ"
+    "message": "Обгортач"
   },
   "instance.settings.tabs.hooks.wrapper.description": {
     "message": "РћР±РіРѕСЂС‚Р°Р»СЊРЅР° РєРѕРјР°РЅРґР° РґР»СЏ Р·Р°РїСѓСЃРєСѓ Minecraft."
@@ -344,140 +482,8 @@
   "instance.settings.tabs.installation": {
     "message": "Р†РЅСЃС‚Р°Р»СЏС†С–СЏ"
   },
-  "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "{platform} {version} РґР»СЏ Minecraft {game_version} РІР¶Рµ РІСЃС‚Р°РЅРѕРІР»РµРЅРѕ"
-  },
-  "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "Р’Р°РЅС–Р»СЊРЅР° {game_version} РІР¶Рµ РІСЃС‚Р°РЅРѕРІР»РµРЅР°"
-  },
-  "instance.settings.tabs.installation.change-version.button": {
-    "message": "Р—РјС–РЅРёС‚Рё РІРµСЂСЃС–СЋ"
-  },
-  "instance.settings.tabs.installation.change-version.button.install": {
-    "message": "РЈСЃС‚Р°РЅРѕРІРёС‚Рё"
-  },
-  "instance.settings.tabs.installation.change-version.button.installing": {
-    "message": "РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ"
-  },
-  "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "РћС‚СЂРёРјР°РЅРЅСЏ РІРµСЂСЃС–Р№ Р·Р±С–СЂРєРё"
-  },
-  "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ РЅРѕРІРѕС— РІРµСЂСЃС–С—"
-  },
-  "instance.settings.tabs.installation.currently-installed": {
-    "message": "РќР°СЂР°Р·С– РІСЃС‚Р°РЅРѕРІР»РµРЅРѕ"
-  },
-  "instance.settings.tabs.installation.debug-information": {
-    "message": "Р†РЅС„РѕСЂРјР°С†С–СЏ РЅР°Р»Р°РіРѕРґР¶РµРЅРЅСЏ:"
-  },
-  "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "РћС‚СЂРёРјР°РЅРЅСЏ РґРµС‚Р°Р»РµР№ Р·Р±С–СЂРєРё"
-  },
-  "instance.settings.tabs.installation.game-version": {
-    "message": "Р’РµСЂСЃС–СЏ РіСЂРё"
-  },
-  "instance.settings.tabs.installation.install": {
-    "message": "РЈСЃС‚Р°РЅРѕРІРёС‚Рё"
-  },
-  "instance.settings.tabs.installation.install.in-progress": {
-    "message": "РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ С‚СЂРёРІР°С”"
-  },
   "instance.settings.tabs.installation.loader-version": {
     "message": "Р’РµСЂСЃС–СЏ {loader}"
-  },
-  "instance.settings.tabs.installation.minecraft-version": {
-    "message": "Minecraft {version}"
-  },
-  "instance.settings.tabs.installation.no-connection": {
-    "message": "РќРµ РІРґР°С”С‚СЊСЃСЏ РѕС‚СЂРёРјР°С‚Рё РґРµС‚Р°Р»С– РїРѕРІвЂ™СЏР·Р°РЅРѕС— Р·Р±С–СЂРєРё. Р‘СѓРґСЊ Р»Р°СЃРєР°, РїРµСЂРµРІС–СЂС‚Рµ РІР°С€Рµ Р·вЂ™С”РґРЅР°РЅРЅСЏ Р· С–РЅС‚РµСЂРЅРµС‚РѕРј."
-  },
-  "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader} РЅРµРґРѕСЃС‚СѓРїРЅРёР№ РґР»СЏ Minecraft {version}. РЎРїСЂРѕР±СѓР№С‚Рµ С–РЅС€РёР№ Р·Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡ РјРѕРґС–РІ."
-  },
-  "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "Р¦РµР№ РїСЂРѕС„С–Р»СЊ РїРѕРІвЂ™СЏР·Р°РЅРёР№ Р·С– Р·Р±С–СЂРєРѕСЋ, РїСЂРѕС‚Рµ СЃР°РјСѓ Р·Р±С–СЂРєСѓ РЅРµ РІРґР°Р»РѕСЃСЏ Р·РЅР°Р№С‚Рё РЅР° Modrinth."
-  },
-  "instance.settings.tabs.installation.platform": {
-    "message": "РџР»Р°С‚С„РѕСЂРјР°"
-  },
-  "instance.settings.tabs.installation.reinstall.button": {
-    "message": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІРёС‚Рё Р·Р±С–СЂРєСѓ"
-  },
-  "instance.settings.tabs.installation.reinstall.button.reinstalling": {
-    "message": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ Р·Р±С–СЂРєРё"
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ СЃРєРёРЅРµ РІРІРµСЃСЊ РґРѕРґР°РЅРёР№ Р°Р±Рѕ РјРѕРґРёС„С–РєРѕРІР°РЅРёР№ СѓРјС–СЃС‚ РґРѕ РЅР°РґР°РЅРѕРіРѕ Р·Р±С–СЂРєРѕСЋ, РїСЂРёР±РёСЂР°СЋС‡Рё Р±СѓРґСЊ-СЏРєС– РґРѕРґР°С‚РєРѕРІРѕ РІСЃС‚Р°РЅРѕРІР»РµРЅС– РІР°РјРё РјРѕРґРё С‡Рё РІРјС–СЃС‚. РЇРєС‰Рѕ РІРё Р·РјС–РЅСЋРІР°Р»Рё РїСЂРѕС„С–Р»СЊ, С†Рµ РјРѕР¶Рµ РІРёРїСЂР°РІРёС‚Рё РЅРµРїРµСЂРµРґР±Р°С‡СѓРІР°РЅСѓ РїРѕРІРµРґС–РЅРєСѓ, РѕРґРЅР°Рє, СЏРєС‰Рѕ РІР°С€С– СЃРІС–С‚Рё Р·Р°Р»РµР¶Р°С‚СЊ РІС–Рґ РґРѕРґР°С‚РєРѕРІРѕРіРѕ РІРјС–СЃС‚Сѓ, СЃРІС–С‚Рё РјРѕР¶СѓС‚СЊ РїРѕС€РєРѕРґРёС‚РёСЃСЏ."
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "Р’Рё РІРїРµРІРЅРµРЅС–, С‰Рѕ С…РѕС‡РµС‚Рµ РїРµСЂРµРІСЃС‚Р°РЅРѕРІРёС‚Рё С†РµР№ РїСЂРѕС„С–Р»СЊ?"
-  },
-  "instance.settings.tabs.installation.reinstall.description": {
-    "message": "РЎРєРёРґР°С” РІРјС–СЃС‚ РїСЂРѕС„С–Р»СЋ РґРѕ РїРѕС‡Р°С‚РєРѕРІРѕРіРѕ СЃС‚Р°РЅСѓ, РїСЂРёР±РёСЂР°СЋС‡Рё Р±СѓРґСЊ-СЏРєС– РјРѕРґРё С‡Рё РІРјС–СЃС‚, С‰Рѕ Р±СѓР»Рѕ РґРѕРґР°РЅРѕ РїРѕРІРµСЂС… РѕСЂРёРіС–РЅР°Р»СЊРЅРѕС— Р·Р±С–СЂРєРё."
-  },
-  "instance.settings.tabs.installation.reinstall.title": {
-    "message": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІРёС‚Рё Р·Р±С–СЂРєСѓ"
-  },
-  "instance.settings.tabs.installation.repair.button": {
-    "message": "РџРѕР»Р°РіРѕРґРёС‚Рё"
-  },
-  "instance.settings.tabs.installation.repair.button.repairing": {
-    "message": "Р›Р°РіРѕРґР¶РµРЅРЅСЏ"
-  },
-  "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "Р’С–РґРЅРѕРІР»РµРЅРЅСЏ РїРµСЂРµРІСЃС‚Р°РЅРѕРІР»СЋС” Р·Р°Р»РµР¶РЅРѕСЃС‚С– Minecraft С‚Р° РїРµСЂРµРІС–СЂСЏС” С—С… РЅР° РЅР°СЏРІРЅС–СЃС‚СЊ РїРѕС€РєРѕРґР¶РµРЅСЊ. Р¦Рµ РјРѕР¶Рµ СЂРѕР·РІвЂ™СЏР·Р°С‚Рё РїСЂРѕР±Р»РµРјРё, СЏРєС‰Рѕ РІР°С€Р° РіСЂР° РЅРµ Р·Р°РїСѓСЃРєР°С”С‚СЊСЃСЏ С‡РµСЂРµР· РїРѕРјРёР»РєРё Р·Р°РїСѓСЃРєР°С‡Р°, Р°Р»Рµ РЅРµ СЂРѕР·РІвЂ™СЏР¶Рµ РїСЂРѕР±Р»РµРјРё Р°Р±Рѕ Р·Р±РѕС—, РїРѕРІвЂ™СЏР·Р°РЅС– Р·С– РІСЃС‚Р°РЅРѕРІР»РµРЅРёРјРё РјРѕРґР°РјРё."
-  },
-  "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "Р’С–РґРЅРѕРІРёС‚Рё РїСЂРѕС„С–Р»СЊ?"
-  },
-  "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "Р›Р°РіРѕРґР¶РµРЅРЅСЏ С‚СЂРёРІР°С”"
-  },
-  "instance.settings.tabs.installation.reset-selections": {
-    "message": "РЎРєРёРЅСѓС‚Рё РґРѕ РїРѕС‚РѕС‡РЅРѕРіРѕ"
-  },
-  "instance.settings.tabs.installation.show-all-versions": {
-    "message": "РџРѕРєР°Р·Р°С‚Рё РІСЃС– РІРµСЂСЃС–С—"
-  },
-  "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "Р·РјС–РЅРёС‚Рё РІРµСЂСЃС–СЋ"
-  },
-  "instance.settings.tabs.installation.tooltip.action.install": {
-    "message": "СѓСЃС‚Р°РЅРѕРІРёС‚Рё"
-  },
-  "instance.settings.tabs.installation.tooltip.action.reinstall": {
-    "message": "РїРµСЂРµРІСЃС‚Р°РЅРѕРІРёС‚Рё"
-  },
-  "instance.settings.tabs.installation.tooltip.action.repair": {
-    "message": "РїРѕР»Р°РіРѕРґРёС‚Рё"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "РќРµРјРѕР¶Р»РёРІРѕ {action} РїС–Рґ С‡Р°СЃ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
-    "message": "РќРµРјРѕР¶Р»РёРІРѕ {action} Р±РµР· Р·вЂ™С”РґРЅР°РЅРЅСЏ Р· С–РЅС‚РµСЂРЅРµС‚РѕРј"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "РќРµРјРѕР¶Р»РёРІРѕ {action} РїС–Рґ С‡Р°СЃ Р»Р°РіРѕРґР¶РµРЅРЅСЏ"
-  },
-  "instance.settings.tabs.installation.unknown-version": {
-    "message": "(РЅРµРІС–РґРѕРјР° РІРµСЂСЃС–СЏ)"
-  },
-  "instance.settings.tabs.installation.unlink.button": {
-    "message": "Р’С–РґРІвЂ™СЏР·Р°С‚Рё РїСЂРѕС„С–Р»СЊ"
-  },
-  "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "РЇРєС‰Рѕ РІРё РїСЂРѕРґРѕРІР¶РёС‚Рµ, РІРё РЅРµ Р·РјРѕР¶РµС‚Рµ РїРѕРІС‚РѕСЂРЅРѕ РїС–РґРІвЂ™СЏР·Р°С‚Рё Р№РѕРіРѕ Р±РµР· СЃС‚РІРѕСЂРµРЅРЅСЏ РїРѕРІРЅС–СЃС‚СЋ РЅРѕРІРѕРіРѕ РїСЂРѕС„С–Р»СЋ. Р’Рё Р±С–Р»СЊС€Рµ РЅРµ Р±СѓРґРµС‚Рµ РѕС‚СЂРёРјСѓРІР°С‚Рё РѕРЅРѕРІР»РµРЅРЅСЏ Р·Р±С–СЂРєРё С‚Р° С†РµР№ РїСЂРѕС„С–Р»СЊ СЃС‚Р°РЅРµ Р·РІРёС‡Р°Р№РЅРёРј."
-  },
-  "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "Р’Рё РІРїРµРІРЅРµРЅС–, С‰Рѕ С…РѕС‡РµС‚Рµ РІС–РґРІвЂ™СЏР·Р°С‚Рё С†РµР№ РїСЂРѕС„С–Р»СЊ?"
-  },
-  "instance.settings.tabs.installation.unlink.description": {
-    "message": "Р¦РµР№ РїСЂРѕС„С–Р»СЊ РїРѕРІвЂ™СЏР·Р°РЅРёР№ Р·С– Р·Р±С–СЂРєРѕСЋ, С‚РѕР±С‚Рѕ, РЅРµ РјРѕР¶РЅР° РѕРЅРѕРІР»СЋРІР°С‚Рё РјРѕРґРё С‚Р° РЅРµ РјРѕР¶РЅР° Р·РјС–РЅСЋРІР°С‚Рё Р·Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡ С‡Рё РІРµСЂСЃС–СЋ Minecraft. Р’С–РґРІвЂ™СЏР·Р°РЅРЅСЏ РїСЂРёР·РІРµРґРµ РґРѕ РѕСЃС‚Р°С‚РѕС‡РЅРѕРіРѕ РІС–РґвЂ™С”РґРЅР°РЅРЅСЏ С†СЊРѕРіРѕ РїСЂРѕС„С–Р»СЋ РІС–Рґ Р·Р±С–СЂРєРё."
-  },
-  "instance.settings.tabs.installation.unlink.title": {
-    "message": "Р’С–РґРІвЂ™СЏР·Р°С‚Рё РІС–Рґ Р·Р±С–СЂРєРё"
   },
   "instance.settings.tabs.java": {
     "message": "Java С‚Р° РїР°РјвЂ™СЏС‚СЊ"
@@ -539,9 +545,6 @@
   "instance.worlds.dont_show_on_home": {
     "message": "РќРµ РїРѕРєР°Р·СѓРІР°С‚Рё РЅР° РіРѕР»РѕРІРЅС–Р№"
   },
-  "instance.worlds.filter.available": {
-    "message": "Р”РѕСЃС‚СѓРїРЅРѕ"
-  },
   "instance.worlds.game_already_open": {
     "message": "РџСЂРѕС„С–Р»СЊ РІР¶Рµ Р·Р°РїСѓС‰РµРЅРёР№"
   },
@@ -550,6 +553,9 @@
   },
   "instance.worlds.incompatible_server": {
     "message": "РЎРµСЂРІРµСЂ РЅРµСЃСѓРјС–СЃРЅРёР№"
+  },
+  "instance.worlds.linked_server": {
+    "message": "Керується серверним проєктом"
   },
   "instance.worlds.no_contact": {
     "message": "РќРµ РІРґР°Р»РѕСЃСЏ Р·РІвЂ™СЏР·Р°С‚РёСЃСЏ Р·С– СЃРµСЂРІРµСЂРѕРј"
@@ -562,12 +568,6 @@
   },
   "instance.worlds.play_instance": {
     "message": "Р“СЂР°С‚Рё Сѓ РїСЂРѕС„С–Р»СЊ"
-  },
-  "instance.worlds.type.server": {
-    "message": "РЎРµСЂРІРµСЂ"
-  },
-  "instance.worlds.type.singleplayer": {
-    "message": "Р“СЂР° РЅР°РѕРґРёРЅС†С–"
   },
   "instance.worlds.view_instance": {
     "message": "РџРµСЂРµРіР»СЏРЅСѓС‚Рё РїСЂРѕС„С–Р»СЊ"
@@ -585,6 +585,18 @@
     "message": "Р—Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡ РЅР°РґР°РЅРёР№ РїСЂРѕС„С–Р»РµРј"
   },
   "search.filter.locked.instance.sync": {
-    "message": "РЎРёРЅС…СЂРѕРЅС–Р·СѓРІР°С‚Рё Р· РїСЂРѕС„С–Р»РµРј"
+    "message": "Синхронізувати з профілем"
+  },
+  "search.filter.locked.server": {
+    "message": "Надано сервером"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "До профілю сервера можна додавати лише клієнтські моди"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "Версія гри надана сервером"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "Завантажувач наданий сервером"
   }
 }

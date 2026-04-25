@@ -1,38 +1,49 @@
 <script setup>
-import { AuthFeature, PanelVersionFeature, TauriModrinthClient } from '@modrinth/api-client'
+import {
+	AuthFeature,
+	NodeAuthFeature,
+	nodeAuthState,
+	PanelVersionFeature,
+	TauriModrinthClient,
+	VerboseLoggingFeature,
+} from '@modrinth/api-client'
 import {
 	CompassIcon,
 	DownloadIcon,
 	HomeIcon,
 	LeftArrowIcon,
 	LibraryIcon,
-	MaximizeIcon,
-	MinimizeIcon,
 	NotepadTextIcon,
 	PlusIcon,
 	RefreshCwIcon,
-	RestoreIcon,
 	RightArrowIcon,
-	ServerIcon,
+	ServerStackIcon,
 	SettingsIcon,
 	WorldIcon,
 	XIcon,
 } from '@modrinth/assets'
 import {
 	Admonition,
-	Avatar,
-	Button,
 	ButtonStyled,
 	commonMessages,
+	ContentInstallModal,
+	CreationFlowModal,
 	defineMessages,
+	I18nDebugPanel,
+	LoadingBar,
 	NotificationPanel,
+	PopupNotificationPanel,
 	ProgressSpinner,
+	provideModalBehavior,
 	provideModrinthClient,
 	provideNotificationManager,
 	providePageContext,
+	providePopupNotificationManager,
+	useDebugLogger,
 	useVIntl,
 } from '@modrinth/ui'
-import { renderString } from '@modrinth/utils'
+import { formatBytes, renderString } from '@modrinth/utils'
+import { useQuery, useQueryClient } from '@tanstack/vue-query'
 import { getVersion } from '@tauri-apps/api/app'
 import { invoke } from '@tauri-apps/api/core'
 import { getCurrentWindow } from '@tauri-apps/api/window'
@@ -44,29 +55,29 @@ import { computed, onMounted, onUnmounted, provide, ref, watch } from 'vue'
 import { RouterView, useRoute, useRouter } from 'vue-router'
 
 import mistLogo from '@/assets/mist-logo.png'
-import ModrinthLoadingIndicator from '@/components/LoadingIndicatorBar.vue'
 import AccountsCard from '@/components/ui/AccountsCard.vue'
 import Breadcrumbs from '@/components/ui/Breadcrumbs.vue'
 import ErrorModal from '@/components/ui/ErrorModal.vue'
+import AddServerToInstanceModal from '@/components/ui/install_flow/AddServerToInstanceModal.vue'
 import IncompatibilityWarningModal from '@/components/ui/install_flow/IncompatibilityWarningModal.vue'
-import InstallConfirmModal from '@/components/ui/install_flow/InstallConfirmModal.vue'
-import ModInstallModal from '@/components/ui/install_flow/ModInstallModal.vue'
-import InstanceCreationModal from '@/components/ui/InstanceCreationModal.vue'
+import MinecraftAuthErrorModal from '@/components/ui/minecraft-auth-error-modal/MinecraftAuthErrorModal.vue'
 import AppSettingsModal from '@/components/ui/modal/AppSettingsModal.vue'
+import InstallToPlayModal from '@/components/ui/modal/InstallToPlayModal.vue'
+import ModpackAlreadyInstalledModal from '@/components/ui/modal/ModpackAlreadyInstalledModal.vue'
+import UpdateToPlayModal from '@/components/ui/modal/UpdateToPlayModal.vue'
 import NavButton from '@/components/ui/NavButton.vue'
 import QuickInstanceSwitcher from '@/components/ui/QuickInstanceSwitcher.vue'
 import RunningAppBar from '@/components/ui/RunningAppBar.vue'
 import SplashScreen from '@/components/ui/SplashScreen.vue'
-import UpdateAvailableToast from '@/components/ui/UpdateAvailableToast.vue'
-import UpdateToast from '@/components/ui/UpdateToast.vue'
-import URLConfirmModal from '@/components/ui/URLConfirmModal.vue'
+import WindowControls from '@/components/ui/WindowControls.vue'
 import { useCheckDisableMouseover } from '@/composables/macCssFix.js'
-import { show_ads_window } from '@/helpers/ads.js'
-import { debugAnalytics, initAnalytics, optOutAnalytics, trackEvent } from '@/helpers/analytics'
-import { get_user } from '@/helpers/cache.js'
+import { config } from '@/config'
+import { hide_ads_window, init_ads_window, show_ads_window } from '@/helpers/ads.js'
+import { debugAnalytics, initAnalytics, trackEvent } from '@/helpers/analytics'
+import { get_version } from '@/helpers/cache.js'
 import { command_listener, warning_listener } from '@/helpers/events.js'
-import { useFetch } from '@/helpers/fetch.js'
 import { get as getCreds } from '@/helpers/mr_auth.ts'
+import { create_profile_and_install_from_file } from '@/helpers/pack'
 import { list } from '@/helpers/profile.js'
 import { get as getSettings, set as setSettings } from '@/helpers/settings.ts'
 import { get_opening_command, initialize_state } from '@/helpers/state'
@@ -79,16 +90,19 @@ import {
 	isNetworkMetered,
 } from '@/helpers/utils.js'
 import i18n from '@/i18n.config'
+import { createContentInstall, provideContentInstall } from '@/providers/content-install'
 import {
 	provideAppUpdateDownloadProgress,
 	subscribeToDownloadProgress,
 } from '@/providers/download-progress.ts'
+import { createServerInstall, provideServerInstall } from '@/providers/server-install'
+import { setupProviders } from '@/providers/setup'
+import { setupLoadingStateProvider } from '@/providers/setup/loading-state'
 import { useError } from '@/store/error.js'
-import { useInstall } from '@/store/install.js'
-import { useLoading, useTheming } from '@/store/state'
+import { useTheming } from '@/store/state'
 
-import { create_profile_and_install_from_file } from './helpers/pack'
 import { AppNotificationManager } from './providers/app-notifications'
+import { AppPopupNotificationManager } from './providers/app-popup-notifications'
 
 const themeStore = useTheming()
 
@@ -96,23 +110,60 @@ const notificationManager = new AppNotificationManager()
 provideNotificationManager(notificationManager)
 const { handleError, addNotification } = notificationManager
 
+const popupNotificationManager = new AppPopupNotificationManager()
+providePopupNotificationManager(popupNotificationManager)
+const { addPopupNotification } = popupNotificationManager
+
 const tauriApiClient = new TauriModrinthClient({
 	userAgent: `mist-launcher/${getVersion()} (offline-client)`,
+	labrinthBaseUrl: config.labrinthBaseUrl,
+	archonBaseUrl: config.archonBaseUrl,
 	features: [
+		new NodeAuthFeature({
+			getAuth: () => nodeAuthState.getAuth?.() ?? null,
+			refreshAuth: async () => {
+				if (nodeAuthState.refreshAuth) {
+					await nodeAuthState.refreshAuth()
+				}
+			},
+		}),
 		new AuthFeature({
-			token: async () => (await getCreds())?.session ?? null,
+			token: async () => (await getCreds())?.session,
 		}),
 		new PanelVersionFeature(),
+		new VerboseLoggingFeature(),
 	],
 })
 provideModrinthClient(tauriApiClient)
 providePageContext({
 	hierarchicalSidebarAvailable: ref(true),
 	showAds: ref(false),
+	featureFlags: {
+		serverRamAsBytesAlwaysOn: computed(() =>
+			themeStore.getFeatureFlag('server_ram_as_bytes_always_on'),
+		),
+	},
+	openExternalUrl: (url) => openUrl(url),
 })
-const availableSurvey = ref(false)
+provideModalBehavior({
+	noblur: computed(() => !themeStore.advancedRendering),
+	onShow: () => hide_ads_window(),
+	onHide: () => show_ads_window(),
+})
 
-const urlModal = ref(null)
+const {
+	installationModal,
+	fetchExistingInstanceNames,
+	handleCreate,
+	handleBrowseModpacks,
+	searchModpacks,
+	getProjectVersions,
+	setModpackAlreadyInstalledModal,
+	handleModpackDuplicateCreateAnyway,
+	handleModpackDuplicateGoToInstance,
+} = setupProviders(notificationManager)
+
+const availableSurvey = ref(false)
 
 const offline = ref(!navigator.onLine)
 window.addEventListener('offline', () => {
@@ -222,12 +273,11 @@ async function setupApp() {
 		isMaximized.value = await getCurrentWindow().isMaximized()
 	})
 
-	initAnalytics()
-	if (!telemetry) {
-		optOutAnalytics()
+	if (telemetry) {
+		initAnalytics()
+		if (dev) debugAnalytics()
+		trackEvent('Launched', { version, dev, onboarded })
 	}
-	if (dev) debugAnalytics()
-	trackEvent('Launched', { version, dev, onboarded })
 
 	if (!dev) document.addEventListener('contextmenu', (event) => event.preventDefault())
 
@@ -246,11 +296,7 @@ async function setupApp() {
 		}),
 	)
 
-	useFetch(
-		`https://api.modrinth.com/appCriticalAnnouncement.json?version=${version}`,
-		'criticalAnnouncements',
-		true,
-	)
+	fetch(`https://api.modrinth.com/appCriticalAnnouncement.json?version=${version}`)
 		.then((response) => response.json())
 		.then((res) => {
 			if (res && res.header && res.body) {
@@ -264,7 +310,6 @@ async function setupApp() {
 		})
 
 	get_opening_command().then(handleCommand)
-	fetchCredentials()
 
 	if (pending_update_toast_for_version !== null) {
 		const settings = await getSettings()
@@ -300,35 +345,156 @@ const handleClose = async () => {
 }
 
 const router = useRouter()
+const route = useRoute()
+
+const loading = setupLoadingStateProvider()
+loading.setEnabled(false)
+let initialLoadToken = loading.begin()
+let routerToken = null
+let suspenseToken = null
+
+let suspensePending = false
+
+const sidebarOverlayScrollbarsOptions = Object.freeze({
+	overflow: {
+		x: 'hidden',
+		y: 'scroll',
+	},
+})
+
+router.beforeEach(() => {
+	suspensePending = false
+	if (routerToken) loading.end(routerToken)
+	routerToken = loading.begin()
+})
 router.afterEach((to, from, failure) => {
 	trackEvent('PageView', {
 		path: to.path,
 		fromPath: from.path,
 		failed: failure,
 	})
+	setTimeout(() => {
+		if (!suspensePending && stateInitialized.value) {
+			if (initialLoadToken) {
+				loading.end(initialLoadToken)
+				initialLoadToken = null
+			}
+			if (routerToken) {
+				loading.end(routerToken)
+				routerToken = null
+			}
+		}
+	}, 100)
 })
-const route = useRoute()
 
-const loading = useLoading()
-loading.setEnabled(false)
+function onSuspensePending() {
+	suspensePending = true
+	if (suspenseToken) loading.end(suspenseToken)
+	suspenseToken = loading.begin()
+}
+
+function onSuspenseResolve() {
+	if (suspenseToken) {
+		loading.end(suspenseToken)
+		suspenseToken = null
+	}
+	if (routerToken) {
+		loading.end(routerToken)
+		routerToken = null
+	}
+}
+
+const queryClient = useQueryClient()
+
+watch(stateInitialized, (ready) => {
+	if (ready) {
+		if (initialLoadToken) {
+			loading.end(initialLoadToken)
+			initialLoadToken = null
+		}
+		if (routerToken) {
+			loading.end(routerToken)
+			routerToken = null
+		}
+
+		queryClient.prefetchQuery({
+			queryKey: ['servers'],
+			queryFn: async () => {
+				const response = await tauriApiClient.archon.servers_v0.list({ limit: 100 })
+				const hasMedalServers = response.servers.some((s) => s.is_medal)
+				if (hasMedalServers) {
+					const subscriptions = await tauriApiClient.labrinth.billing_internal.getSubscriptions()
+					for (const server of response.servers) {
+						if (server.is_medal) {
+							const sub = subscriptions.find((s) => s.metadata?.id === server.server_id)
+							if (sub) {
+								server.medal_expires = new Date(
+									new Date(sub.created).getTime() + 5 * 86400000,
+								).toISOString()
+							}
+						}
+					}
+				}
+				return response
+			},
+			staleTime: 30_000,
+		})
+		queryClient.prefetchQuery({
+			queryKey: ['billing', 'subscriptions'],
+			queryFn: () => tauriApiClient.labrinth.billing_internal.getSubscriptions(),
+			staleTime: 30_000,
+		})
+		queryClient.prefetchQuery({
+			queryKey: ['billing', 'payments'],
+			queryFn: () => tauriApiClient.labrinth.billing_internal.getPayments(),
+			staleTime: 30_000,
+		})
+	}
+})
 
 const error = useError()
 const errorModal = ref()
+const minecraftAuthErrorModal = ref()
 
-const install = useInstall()
+const contentInstall = createContentInstall({ router, handleError })
+provideContentInstall(contentInstall)
+const {
+	instances: contentInstallInstances,
+	compatibleLoaders: contentInstallLoaders,
+	gameVersions: contentInstallGameVersions,
+	loading: contentInstallLoading,
+	defaultTab: contentInstallDefaultTab,
+	preferredLoader: contentInstallPreferredLoader,
+	preferredGameVersion: contentInstallPreferredGameVersion,
+	releaseGameVersions: contentInstallReleaseGameVersions,
+	projectInfo: contentInstallProjectInfo,
+	handleInstallToInstance,
+	handleCreateAndInstall,
+	handleNavigate: handleContentInstallNavigate,
+	handleCancel: handleContentInstallCancel,
+	setContentInstallModal,
+	setModpackAlreadyInstalledModal: setContentInstallModpackAlreadyInstalledModal,
+	handleModpackDuplicateCreateAnyway: handleContentInstallModpackDuplicateCreateAnyway,
+	handleModpackDuplicateGoToInstance: handleContentInstallModpackDuplicateGoToInstance,
+	setIncompatibilityWarningModal: setContentIncompatibilityWarningModal,
+} = contentInstall
+
+const serverInstall = createServerInstall({ router, handleError, popupNotificationManager })
+provideServerInstall(serverInstall)
+const {
+	setInstallToPlayModal: setServerInstallToPlayModal,
+	setUpdateToPlayModal: setServerUpdateToPlayModal,
+	setAddServerToInstanceModal: setServerAddServerToInstanceModal,
+	playServerProject,
+} = serverInstall
+
 const modInstallModal = ref()
-const installConfirmModal = ref()
+const modpackAlreadyInstalledModal = ref()
+const contentInstallModpackAlreadyInstalledModal = ref()
+const addServerToInstanceModal = ref()
 const incompatibilityWarningModal = ref()
-
-const credentials = ref()
-
-async function fetchCredentials() {
-	const creds = await getCreds().catch(handleError)
-	if (creds && creds.user_id) {
-		creds.user = await get_user(creds.user_id).catch(handleError)
-	}
-	credentials.value = creds ?? null
-}
+const installToPlayModal = ref()
+const updateToPlayModal = ref()
 
 const sidebarToggled = ref(true)
 
@@ -345,10 +511,15 @@ onMounted(() => {
 	invoke('show_window')
 
 	error.setErrorModal(errorModal.value)
+	error.setMinecraftAuthErrorModal(minecraftAuthErrorModal.value)
 
-	install.setIncompatibilityWarningModal(incompatibilityWarningModal)
-	install.setInstallConfirmModal(installConfirmModal)
-	install.setModInstallModal(modInstallModal)
+	setContentIncompatibilityWarningModal(incompatibilityWarningModal.value)
+	setContentInstallModal(modInstallModal.value)
+	setContentInstallModpackAlreadyInstalledModal(contentInstallModpackAlreadyInstalledModal.value)
+	setModpackAlreadyInstalledModal(modpackAlreadyInstalledModal.value)
+	setServerAddServerToInstanceModal(addServerToInstanceModal.value)
+	setServerInstallToPlayModal(installToPlayModal.value)
+	setServerUpdateToPlayModal(updateToPlayModal.value)
 })
 
 const accounts = ref(null)
@@ -366,9 +537,22 @@ async function handleCommand(e) {
 				source: 'CreationModalFileDrop',
 			})
 		}
+	} else if (e.event === 'InstallServer') {
+		await router.push(`/project/${e.id}`)
+		await playServerProject(e.id).catch(handleError)
+	} else if (e.event === 'InstallVersion') {
+		const version = await get_version(e.id, 'must_revalidate').catch(handleError)
+		if (version) {
+			await contentInstall
+				.install(version.project_id, version.id, null, 'URLConfirmModal', undefined, undefined, {
+					showProjectInfo: true,
+				})
+				.catch(handleError)
+		}
 	} else {
-		// Other commands are URL-based (deep linking)
-		urlModal.value.show(e)
+		await contentInstall
+			.install(e.id, null, null, 'URLConfirmModal', undefined, undefined, { showProjectInfo: true })
+			.catch(handleError)
 	}
 }
 
@@ -384,14 +568,60 @@ const downloadPercent = computed(() => Math.trunc(appUpdateDownload.progress.val
 const metered = ref(true)
 const finishedDownloading = ref(false)
 const restarting = ref(false)
-const updateToastDismissed = ref(false)
 const availableUpdate = ref(null)
 const updateSize = ref(null)
 const updatesEnabled = ref(true)
+
+const updatePopupMessages = defineMessages({
+	updateAvailable: {
+		id: 'app.update-popup.title',
+		defaultMessage: 'Update available',
+	},
+	downloadComplete: {
+		id: 'app.update-popup.download-complete',
+		defaultMessage: 'Download complete',
+	},
+	body: {
+		id: 'app.update-popup.body',
+		defaultMessage:
+			'Mist Launcher v{version} is ready to install! Reload to update now, or automatically when you close Mist Launcher.',
+	},
+	meteredBody: {
+		id: 'app.update-popup.body.metered',
+		defaultMessage: `Mist Launcher v{version} is available now! Since you're on a metered network, we didn't automatically download it.`,
+	},
+	downloadedBody: {
+		id: 'app.update-popup.body.download-complete',
+		defaultMessage: `Mist Launcher v{version} has finished downloading. Reload to update now, or automatically when you close Mist Launcher.`,
+	},
+	linuxBody: {
+		id: 'app.update-popup.body.linux',
+		defaultMessage:
+			'Mist Launcher v{version} is available. Use your package manager to update for the latest features and fixes!',
+	},
+	reload: {
+		id: 'app.update-popup.reload',
+		defaultMessage: 'Reload',
+	},
+	download: {
+		id: 'app.update-popup.download',
+		defaultMessage: 'Download ({size})',
+	},
+	changelog: {
+		id: 'app.update-popup.changelog',
+		defaultMessage: 'Changelog',
+	},
+})
+
 async function checkUpdates() {
 	if (!(await areUpdatesEnabled())) {
 		console.log('Skipping update check as updates are disabled in this build or environment')
 		updatesEnabled.value = false
+
+		if (os.value === 'Linux' && !isDevEnvironment.value) {
+			checkLinuxUpdates()
+			setInterval(checkLinuxUpdates, 5 * 60 * 1000)
+		}
 		return
 	}
 
@@ -411,7 +641,6 @@ async function checkUpdates() {
 
 		appUpdateDownload.progress.value = 0
 		finishedDownloading.value = false
-		updateToastDismissed.value = false
 
 		console.log(`Update ${update.version} is available.`)
 
@@ -421,6 +650,28 @@ async function checkUpdates() {
 			downloadUpdate(update)
 		} else {
 			console.log(`Metered connection detected, not auto-downloading update.`)
+			getUpdateSize(update.rid).then((size) => {
+				updateSize.value = size
+				addPopupNotification({
+					title: formatMessage(updatePopupMessages.updateAvailable),
+					text: formatMessage(updatePopupMessages.meteredBody, { version: update.version }),
+					type: 'info',
+					autoCloseMs: null,
+					buttons: [
+						{
+							label: formatMessage(updatePopupMessages.download, {
+								size: formatBytes(updateSize.value ?? 0),
+							}),
+							action: () => downloadAvailableUpdate(),
+							color: 'brand',
+						},
+						{
+							label: formatMessage(updatePopupMessages.changelog),
+							action: () => openUrl('https://modrinth.com/news/changelog?filter=app'),
+						},
+					],
+				})
+			})
 		}
 
 		getUpdateSize(update.rid).then((size) => (updateSize.value = size))
@@ -437,8 +688,26 @@ async function checkUpdates() {
 	)
 }
 
-async function showUpdateToast() {
-	updateToastDismissed.value = false
+async function checkLinuxUpdates() {
+	try {
+		const [response, currentVersion] = await Promise.all([
+			fetch('https://launcher-files.modrinth.com/updates.json'),
+			getVersion(),
+		])
+		const updates = await response.json()
+		const latestVersion = updates?.version
+
+		if (latestVersion && latestVersion !== currentVersion) {
+			addPopupNotification({
+				title: formatMessage(updatePopupMessages.updateAvailable),
+				text: formatMessage(updatePopupMessages.linuxBody, { version: latestVersion }),
+				type: 'info',
+				autoCloseMs: null,
+			})
+		}
+	} catch (e) {
+		console.error('Failed to check for updates:', e)
+	}
 }
 
 async function downloadAvailableUpdate() {
@@ -464,6 +733,26 @@ async function downloadUpdate(versionToDownload) {
 				unlistenUpdateDownload = null
 			})
 			console.log('Finished downloading!')
+
+			addPopupNotification({
+				title: formatMessage(updatePopupMessages.downloadComplete),
+				text: formatMessage(updatePopupMessages.downloadedBody, {
+					version: versionToDownload.version,
+				}),
+				type: 'success',
+				autoCloseMs: null,
+				buttons: [
+					{
+						label: formatMessage(updatePopupMessages.reload),
+						action: () => installUpdate(),
+						color: 'brand',
+					},
+					{
+						label: formatMessage(updatePopupMessages.changelog),
+						action: () => openUrl('https://modrinth.com/news/changelog?filter=app'),
+					},
+				],
+			})
 		})
 		unlistenUpdateDownload = await subscribeToDownloadProgress(
 			appUpdateDownload,
@@ -630,6 +919,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 </script>
 
 <template>
+	<WindowControls />
 	<SplashScreen v-if="!stateFailed" ref="splashScreen" data-tauri-drag-region />
 	<div id="teleports"></div>
 	<div
@@ -637,25 +927,6 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 		class="app-grid-layout experimental-styles-within relative"
 		:class="{ 'disable-advanced-rendering': !themeStore.advancedRendering }"
 	>
-		<Suspense>
-			<Transition name="toast">
-				<UpdateToast
-					v-if="
-						!!availableUpdate &&
-						!updateToastDismissed &&
-						!restarting &&
-						(finishedDownloading || metered)
-					"
-					:version="availableUpdate.version"
-					:size="updateSize"
-					:metered="metered"
-					@close="updateToastDismissed = true"
-					@restart="installUpdate"
-					@download="downloadAvailableUpdate"
-				/>
-				<UpdateAvailableToast v-else-if="!updatesEnabled && os === 'Linux' && !isDevEnvironment" />
-			</Transition>
-		</Suspense>
 		<Transition name="fade">
 			<div
 				v-if="restarting"
@@ -674,9 +945,16 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 		<Suspense>
 			<AppSettingsModal ref="settingsModal" />
 		</Suspense>
-		<Suspense>
-			<InstanceCreationModal ref="installationModal" />
-		</Suspense>
+		<CreationFlowModal
+			ref="installationModal"
+			type="instance"
+			show-snapshot-toggle
+			:fetch-existing-instance-names="fetchExistingInstanceNames"
+			:search-modpacks="searchModpacks"
+			:get-project-versions="getProjectVersions"
+			@create="handleCreate"
+			@browse-modpacks="handleBrowseModpacks"
+		/>
 		<div
 			class="app-grid-navbar bg-bg-raised flex flex-col p-[0.5rem] pt-0 gap-[0.5rem] w-[--left-bar-width]"
 		>
@@ -685,13 +963,6 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			</NavButton>
 			<NavButton v-if="themeStore.featureFlags.worlds_tab" v-tooltip.right="'Worlds'" to="/worlds">
 				<WorldIcon />
-			</NavButton>
-			<NavButton
-				v-if="themeStore.featureFlags.servers_in_app"
-				v-tooltip.right="'Servers'"
-				to="/hosting/manage"
-			>
-				<ServerIcon />
 			</NavButton>
 			<NavButton
 				v-tooltip.right="'Discover content'"
@@ -704,6 +975,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			<NavButton
 				v-tooltip.right="'Library'"
 				to="/library"
+				:is-primary="(r) => r.path === '/library' || r.path === '/library'"
 				:is-subpage="
 					() =>
 						route.path.startsWith('/instance') ||
@@ -713,27 +985,28 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			>
 				<LibraryIcon />
 			</NavButton>
+			<NavButton
+				v-tooltip.right="'Modrinth Hosting'"
+				to="/hosting/manage"
+				:is-primary="(r) => r.path === '/hosting/manage' || r.path === '/hosting/manage/'"
+				:is-subpage="(r) => r.path.startsWith('/hosting/manage/') && r.path !== '/hosting/manage/'"
+			>
+				<ServerStackIcon />
+			</NavButton>
 			<div class="h-px w-6 mx-auto my-2 bg-surface-5"></div>
 			<suspense>
 				<QuickInstanceSwitcher />
 			</suspense>
 			<NavButton
 				v-tooltip.right="'Create new instance'"
-				:to="() => $refs.installationModal.show()"
+				:to="() => installationModal?.show()"
 				:disabled="offline"
 			>
 				<PlusIcon />
 			</NavButton>
 			<div class="flex flex-grow"></div>
 			<Transition name="nav-button-animated">
-				<div
-					v-if="
-						availableUpdate &&
-						updateToastDismissed &&
-						!restarting &&
-						(finishedDownloading || metered)
-					"
-				>
+				<div v-if="availableUpdate && !restarting && (finishedDownloading || metered)">
 					<NavButton
 						v-tooltip.right="
 							formatMessage(
@@ -747,13 +1020,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 								},
 							)
 						"
-						:to="
-							finishedDownloading
-								? installUpdate
-								: downloadProgress > 0 && downloadProgress < 1
-									? showUpdateToast
-									: downloadAvailableUpdate
-						"
+						:to="finishedDownloading ? installUpdate : downloadAvailableUpdate"
 					>
 						<ProgressSpinner
 							v-if="downloadProgress > 0 && downloadProgress < 1"
@@ -773,14 +1040,12 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			</NavButton>
 		</div>
 		<div data-tauri-drag-region class="app-grid-statusbar bg-bg-raised h-[--top-bar-height] flex">
-			<div data-tauri-drag-region class="flex p-3">
+			<div data-tauri-drag-region class="flex min-w-0 flex-1 overflow-hidden p-3">
 				<div data-tauri-drag-region class="mist-wordmark pointer-events-none">
 					<img :src="mistLogo" alt="" class="mist-wordmark-icon" />
-					<span data-tauri-drag-region class="mist-wordmark-title">
-						Launcher
-					</span>
+					<span data-tauri-drag-region class="mist-wordmark-title">Launcher</span>
 				</div>
-				<div data-tauri-drag-region class="flex items-center gap-1 ml-3">
+				<div data-tauri-drag-region class="flex shrink-0 items-center gap-1 ml-3">
 					<button
 						class="cursor-pointer p-0 m-0 text-contrast border-none outline-none bg-button-bg rounded-full flex items-center justify-center w-6 h-6 hover:brightness-75 transition-all"
 						@click="router.back()"
@@ -796,7 +1061,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 				</div>
 				<Breadcrumbs class="pt-[2px]" />
 			</div>
-			<section data-tauri-drag-region class="flex ml-auto items-center">
+			<section data-tauri-drag-region class="flex shrink-0 ml-auto items-center">
 				<ButtonStyled
 					v-if="!forceSidebar && themeStore.toggleSidebar"
 					:type="sidebarToggled ? 'standard' : 'transparent'"
@@ -815,22 +1080,6 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 						<RunningAppBar />
 					</Suspense>
 				</div>
-				<section v-if="!nativeDecorations" class="window-controls" data-tauri-drag-region-exclude>
-					<Button class="titlebar-button" icon-only @click="() => getCurrentWindow().minimize()">
-						<MinimizeIcon />
-					</Button>
-					<Button
-						class="titlebar-button"
-						icon-only
-						@click="() => getCurrentWindow().toggleMaximize()"
-					>
-						<RestoreIcon v-if="isMaximized" />
-						<MaximizeIcon v-else />
-					</Button>
-					<Button class="titlebar-button close" icon-only @click="handleClose">
-						<XIcon />
-					</Button>
-				</section>
 			</section>
 		</div>
 	</div>
@@ -866,14 +1115,14 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 				</div>
 			</transition>
 			<div
-				class="loading-indicator-container h-8 fixed z-50"
+				class="loading-indicator-container h-8 fixed z-50 pointer-events-none"
 				:style="{
 					top: 'calc(var(--top-bar-height))',
 					left: 'calc(var(--left-bar-width))',
 					width: 'calc(100% - var(--left-bar-width) - var(--right-bar-width))',
 				}"
 			>
-				<ModrinthLoadingIndicator />
+				<LoadingBar position="absolute" />
 			</div>
 			<div
 				v-if="themeStore.featureFlags.page_path"
@@ -901,21 +1150,25 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			</Admonition>
 			<RouterView v-slot="{ Component }">
 				<template v-if="Component">
-					<Suspense @pending="loading.startLoading()" @resolve="loading.stopLoading()">
+					<Suspense @pending="onSuspensePending" @resolve="onSuspenseResolve">
 						<component :is="Component"></component>
 					</Suspense>
 				</template>
 			</RouterView>
 		</div>
 		<div
-			class="app-sidebar mt-px shrink-0 flex flex-col border-0 border-l-[1px] border-[--brand-gradient-border] border-solid overflow-auto"
+			class="app-sidebar mt-px shrink-0 flex flex-col border-0 border-l-[1px] border-[--brand-gradient-border] border-solid"
+			:class="{ 'has-plus': hasPlus }"
 		>
-			<div class="app-sidebar-scrollable flex-grow shrink overflow-y-auto relative">
+			<div
+				v-overlay-scrollbars="sidebarOverlayScrollbarsOptions"
+				class="app-sidebar-scrollable flex-grow shrink relative"
+				:class="{ 'pb-12': !hasPlus }"
+				data-overlayscrollbars-initialize
+			>
 				<div id="sidebar-teleport-target" class="sidebar-teleport-content"></div>
 				<div class="sidebar-default-content" :class="{ 'sidebar-enabled': sidebarVisible }">
-					<div
-						class="p-4 pr-1 border-0 border-b-[1px] border-[--brand-gradient-border] border-solid"
-					>
+					<div class="p-4 border-0 border-b-[1px] border-[--brand-gradient-border] border-solid">
 						<h3 class="text-base text-primary font-medium m-0">Playing as</h3>
 						<suspense>
 							<AccountsCard ref="accounts" mode="small" />
@@ -925,81 +1178,44 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			</div>
 		</div>
 	</div>
-	<URLConfirmModal ref="urlModal" />
-	<NotificationPanel has-sidebar />
+	<I18nDebugPanel />
+	<NotificationPanel :has-sidebar="sidebarVisible" />
+	<PopupNotificationPanel :has-sidebar="sidebarVisible" />
 	<ErrorModal ref="errorModal" />
-	<ModInstallModal ref="modInstallModal" />
+	<MinecraftAuthErrorModal ref="minecraftAuthErrorModal" />
+	<ContentInstallModal
+		ref="modInstallModal"
+		:instances="contentInstallInstances"
+		:compatible-loaders="contentInstallLoaders"
+		:game-versions="contentInstallGameVersions"
+		:loading="contentInstallLoading"
+		:default-tab="contentInstallDefaultTab"
+		:preferred-loader="contentInstallPreferredLoader"
+		:preferred-game-version="contentInstallPreferredGameVersion"
+		:release-game-versions="contentInstallReleaseGameVersions"
+		:project-info="contentInstallProjectInfo"
+		@install="handleInstallToInstance"
+		@create-and-install="handleCreateAndInstall"
+		@navigate="handleContentInstallNavigate"
+		@cancel="handleContentInstallCancel"
+	/>
+	<ModpackAlreadyInstalledModal
+		ref="modpackAlreadyInstalledModal"
+		@create-anyway="handleModpackDuplicateCreateAnyway"
+		@go-to-instance="handleModpackDuplicateGoToInstance"
+	/>
+	<AddServerToInstanceModal ref="addServerToInstanceModal" />
 	<IncompatibilityWarningModal ref="incompatibilityWarningModal" />
-	<InstallConfirmModal ref="installConfirmModal" />
+	<ModpackAlreadyInstalledModal
+		ref="contentInstallModpackAlreadyInstalledModal"
+		@create-anyway="handleContentInstallModpackDuplicateCreateAnyway"
+		@go-to-instance="handleContentInstallModpackDuplicateGoToInstance"
+	/>
+	<InstallToPlayModal ref="installToPlayModal" />
+	<UpdateToPlayModal ref="updateToPlayModal" />
 </template>
 
 <style lang="scss" scoped>
-.window-controls {
-	z-index: 20;
-	display: none;
-	flex-direction: row;
-	align-items: center;
-
-	.titlebar-button {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		cursor: pointer;
-		transition: all ease-in-out 0.1s;
-		background-color: transparent;
-		color: var(--color-base);
-		height: 100%;
-		width: 3rem;
-		position: relative;
-		box-shadow: none;
-
-		&:last-child {
-			padding-right: 0.75rem;
-			width: 3.75rem;
-		}
-
-		svg {
-			width: 1.25rem;
-			height: 1.25rem;
-		}
-
-		&::before {
-			content: '';
-			border-radius: 999999px;
-			width: 3rem;
-			height: 3rem;
-			aspect-ratio: 1 / 1;
-			margin-block: auto;
-			position: absolute;
-			background-color: transparent;
-			scale: 0.9;
-			transition: all ease-in-out 0.2s;
-			z-index: -1;
-		}
-
-		&.close {
-			&:hover,
-			&:active {
-				color: var(--color-accent-contrast);
-
-				&::before {
-					background-color: var(--color-red);
-				}
-			}
-		}
-
-		&:hover,
-		&:active {
-			color: var(--color-contrast);
-
-			&::before {
-				background-color: var(--color-button-bg);
-				scale: 1;
-			}
-		}
-	}
-}
-
 .app-grid-layout,
 .app-contents {
 	--top-bar-height: 3rem;
@@ -1024,6 +1240,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 
 .app-grid-statusbar {
 	grid-area: status;
+	padding-right: var(--window-controls-width, 0px);
 }
 
 .mist-wordmark {
@@ -1149,36 +1366,13 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 	transform: translateY(10rem) scale(0.8) scaleY(1.6);
 }
 
-.toast-enter-active {
-	transition: opacity 0.25s linear;
-}
-
-.toast-enter-from,
-.toast-leave-to {
-	opacity: 0;
-}
-
 @media (prefers-reduced-motion: no-preference) {
-	.toast-enter-active,
 	.nav-button-animated-enter-active {
 		transition: all 0.5s cubic-bezier(0.15, 1.4, 0.64, 0.96);
 	}
 
-	.toast-leave-active,
 	.nav-button-animated-leave-active {
 		transition: all 0.25s ease;
-	}
-
-	.toast-enter-from {
-		scale: 0.5;
-		translate: 0 -10rem;
-		opacity: 0;
-	}
-
-	.toast-leave-to {
-		scale: 0.96;
-		translate: 20rem 0;
-		opacity: 0;
 	}
 
 	.nav-button-animated-enter-active {
@@ -1228,6 +1422,13 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 }
 </style>
 <style>
+.os-theme-dark,
+.os-theme-light {
+	--os-handle-bg: var(--color-scrollbar) !important;
+	--os-handle-bg-hover: var(--color-scrollbar) !important;
+	--os-handle-bg-active: var(--color-scrollbar) !important;
+}
+
 .mac {
 	.app-grid-statusbar {
 		padding-left: 5rem;
@@ -1239,12 +1440,8 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 		height: 2.5rem !important;
 	}
 
-	.window-controls {
-		display: flex !important;
-	}
-
 	.info-card {
-		right: 8rem;
+		right: 22rem;
 	}
 
 	.profile-card {
@@ -1252,4 +1449,3 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 	}
 }
 </style>
-<style src="vue-multiselect/dist/vue-multiselect.css"></style>

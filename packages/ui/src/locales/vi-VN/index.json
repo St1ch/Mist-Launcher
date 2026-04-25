@@ -1,486 +1,1746 @@
-{
+﻿{
   "affiliate.create.button": {
-    "defaultMessage": "Tạo liên kết affiliate"
+    "defaultMessage": "TбєЎo liГЄn kбєїt affiliate"
   },
   "affiliate.create.header": {
-    "defaultMessage": "Tạo mã affiliate mới"
+    "defaultMessage": "TбєЎo mГЈ affiliate mб»›i"
   },
   "affiliate.create.title.description": {
-    "defaultMessage": "Đặt tên cho liên kết affiliate để bạn biết người dùng đến từ đâu!"
+    "defaultMessage": "Дђбє·t tГЄn cho liГЄn kбєїt affiliate Д‘б»ѓ bбєЎn biбєїt ngЖ°б»ќi dГ№ng Д‘бєїn tб»« Д‘Гўu!"
   },
   "affiliate.create.title.label": {
-    "defaultMessage": "Tiêu đề liên kết affiliate"
+    "defaultMessage": "TiГЄu Д‘б»Ѓ liГЄn kбєїt affiliate"
   },
   "affiliate.create.title.placeholder": {
     "defaultMessage": "vd: YouTube"
   },
   "affiliate.create.user.description": {
-    "defaultMessage": "Tên người dùng mà bạn muốn tạo mã affiliate cho"
+    "defaultMessage": "TГЄn ngЖ°б»ќi dГ№ng mГ  bбєЎn muб»‘n tбєЎo mГЈ affiliate cho"
   },
   "affiliate.create.user.placeholder": {
-    "defaultMessage": "Nhập tên người dùng..."
+    "defaultMessage": "Nhбє­p tГЄn ngЖ°б»ќi dГ№ng..."
   },
   "affiliate.createdBy": {
-    "defaultMessage": "Được tạo bởi {user}"
+    "defaultMessage": "ДђЖ°б»Јc tбєЎo bб»џi {user}"
   },
   "affiliate.creating.button": {
-    "defaultMessage": "Đang tạo liên kết affiliate..."
+    "defaultMessage": "Дђang tбєЎo liГЄn kбєїt affiliate..."
   },
   "affiliate.revoke": {
-    "defaultMessage": "Thu hồi liên kết affiliate"
+    "defaultMessage": "Thu hб»“i liГЄn kбєїt affiliate"
   },
   "affiliate.viewAnalytics": {
-    "defaultMessage": "Xem phân tích"
+    "defaultMessage": "Xem phГўn tГ­ch"
+  },
+  "app.server-settings.failed-to-load-server": {
+    "defaultMessage": "KhГґng thб»ѓ tбєЈi cГ i Д‘бє·t mГЎy chб»§"
+  },
+  "badge.alpha": {
+    "defaultMessage": "Alpha"
   },
   "badge.beta": {
     "defaultMessage": "Beta"
   },
   "badge.beta-release": {
-    "defaultMessage": "Bản beta"
+    "defaultMessage": "BбєЈn beta"
   },
   "badge.new": {
-    "defaultMessage": "Mới"
+    "defaultMessage": "Mб»›i"
+  },
+  "billing.resubscribe-modal.cancel": {
+    "defaultMessage": "Hб»§y"
+  },
+  "billing.resubscribe-modal.cpus": {
+    "defaultMessage": "{sharedCpus} CPU chia sбє»"
+  },
+  "billing.resubscribe-modal.description": {
+    "defaultMessage": "BбєЎn chuбє©n bб»‹ Д‘Дѓng kГЅ lбєЎi <server-name> {serverName} </server-name>. GГіi Д‘Дѓng kГЅ cб»§a bбєЎn sбєЅ Д‘Ж°б»Јc kГ­ch hoбєЎt lбєЎi vГ  mГЎy chб»§ cб»§a bбєЎn sбєЅ tiбєїp tб»Ґc hoбєЎt Д‘б»™ng."
+  },
+  "billing.resubscribe-modal.error.text": {
+    "defaultMessage": "KhГґng thб»ѓ Д‘Дѓng kГЅ lбєЎi, lб»—i tбєЈi thГґng tin Д‘Дѓng kГЅ."
+  },
+  "billing.resubscribe-modal.error.title": {
+    "defaultMessage": "Lб»—i"
+  },
+  "billing.resubscribe-modal.failed-load": {
+    "defaultMessage": "Lб»—i tбєЈi thГґng tin Д‘Дѓng kГЅ."
+  },
+  "billing.resubscribe-modal.interval.five-days": {
+    "defaultMessage": "/5 ngГ y"
+  },
+  "billing.resubscribe-modal.interval.monthly": {
+    "defaultMessage": "/thГЎng"
+  },
+  "billing.resubscribe-modal.interval.quarterly": {
+    "defaultMessage": "/quГЅ"
+  },
+  "billing.resubscribe-modal.interval.yearly": {
+    "defaultMessage": "/nДѓm"
+  },
+  "billing.resubscribe-modal.next-charge": {
+    "defaultMessage": "Lбє§n thanh toГЎn tiбєїp theo sбєЅ lГ  vГ o <charge-date> {date} </charge-date>."
+  },
+  "billing.resubscribe-modal.plan-label": {
+    "defaultMessage": "GГіi"
+  },
+  "billing.resubscribe-modal.ram": {
+    "defaultMessage": "{ramGb} GB RAM"
+  },
+  "billing.resubscribe-modal.resubscribe": {
+    "defaultMessage": "ДђДѓng kГЅ lбєЎi"
+  },
+  "billing.resubscribe-modal.storage": {
+    "defaultMessage": "{storageGb} GB bб»™ nhб»›"
+  },
+  "button.accept": {
+    "defaultMessage": "ChбєҐp nhбє­n"
   },
   "button.affiliate-links": {
-    "defaultMessage": "Liên kết affiliate"
+    "defaultMessage": "LiГЄn kбєїt affiliate"
   },
   "button.analytics": {
-    "defaultMessage": "Phân tích"
+    "defaultMessage": "PhГўn tГ­ch"
   },
   "button.back": {
-    "defaultMessage": "Quay lại"
+    "defaultMessage": "Quay lбєЎi"
   },
   "button.cancel": {
-    "defaultMessage": "Huỷ"
+    "defaultMessage": "Huб»·"
+  },
+  "button.change-version": {
+    "defaultMessage": "Thay Д‘б»•i phiГЄn bбєЈn"
   },
   "button.clear": {
-    "defaultMessage": "Xoá"
+    "defaultMessage": "XoГЎ"
   },
   "button.close": {
-    "defaultMessage": "Đóng"
+    "defaultMessage": "ДђГіng"
   },
   "button.continue": {
-    "defaultMessage": "Tiếp tục"
+    "defaultMessage": "Tiбєїp tб»Ґc"
+  },
+  "button.copy-filename": {
+    "defaultMessage": "Sao chГ©p tГЄn tб»‡p"
+  },
+  "button.copy-full-path": {
+    "defaultMessage": "Sao chГ©p Д‘Ж°б»ќng dбє«n"
   },
   "button.copy-id": {
-    "defaultMessage": "Sao chép ID"
+    "defaultMessage": "Sao chГ©p ID"
+  },
+  "button.copy-link": {
+    "defaultMessage": "Sao chГ©p liГЄn kбєїt"
   },
   "button.copy-permalink": {
-    "defaultMessage": "Sao chép liên kết vĩnh viễn"
+    "defaultMessage": "Sao chГ©p liГЄn kбєїt cб»‘ Д‘б»‹nh"
   },
   "button.create-a-project": {
-    "defaultMessage": "Tạo dự án"
+    "defaultMessage": "TбєЎo dб»± ГЎn"
+  },
+  "button.decline": {
+    "defaultMessage": "Huб»· bб»Џ"
+  },
+  "button.disable": {
+    "defaultMessage": "VГґ hiб»‡u hoГЎ"
   },
   "button.download": {
-    "defaultMessage": "Tải xuống"
+    "defaultMessage": "TбєЈi xuб»‘ng"
   },
   "button.downloading": {
-    "defaultMessage": "Đang tải xuống"
+    "defaultMessage": "Дђang tбєЈi xuб»‘ng"
   },
   "button.edit": {
-    "defaultMessage": "Chỉnh sửa"
+    "defaultMessage": "Chб»‰nh sб»­a"
+  },
+  "button.enable": {
+    "defaultMessage": "KГ­ch hoбєЎt"
+  },
+  "button.extract": {
+    "defaultMessage": "GiбєЈi nГ©n"
   },
   "button.follow": {
-    "defaultMessage": "Theo dõi"
+    "defaultMessage": "Theo dГµi"
+  },
+  "button.hide-snapshots": {
+    "defaultMessage": "бєЁn cГЎc bбєЈn snapshot"
   },
   "button.max": {
-    "defaultMessage": "Tối đa"
+    "defaultMessage": "Tб»‘i Д‘a"
   },
   "button.more-options": {
-    "defaultMessage": "Thêm tùy chọn"
+    "defaultMessage": "TГ№y chб»Ќn"
+  },
+  "button.move": {
+    "defaultMessage": "Di chuyб»ѓn"
   },
   "button.next": {
-    "defaultMessage": "Tiếp theo"
+    "defaultMessage": "Tiбєїp theo"
   },
   "button.open-folder": {
-    "defaultMessage": "Mở thư mục"
+    "defaultMessage": "Mб»џ thЖ° mб»Ґc"
+  },
+  "button.open-in-folder": {
+    "defaultMessage": "Mб»џ thЖ° mб»Ґc"
   },
   "button.play": {
-    "defaultMessage": "Chơi"
+    "defaultMessage": "ChЖЎi"
   },
   "button.refresh": {
-    "defaultMessage": "Làm mới"
+    "defaultMessage": "LГ m mб»›i"
+  },
+  "button.reinstall-modpack": {
+    "defaultMessage": "CГ i Д‘бє·t lбєЎi modpack"
   },
   "button.remove": {
-    "defaultMessage": "Xoá"
+    "defaultMessage": "XoГЎ"
   },
   "button.remove-image": {
-    "defaultMessage": "Xóa ảnh"
+    "defaultMessage": "XГіa бєЈnh"
+  },
+  "button.rename": {
+    "defaultMessage": "Дђб»•i tГЄn"
+  },
+  "button.repair": {
+    "defaultMessage": "Sб»­a chб»­a"
+  },
+  "button.repairing": {
+    "defaultMessage": "Дђang sб»­a chб»Їa..."
   },
   "button.report": {
-    "defaultMessage": "Báo cáo"
+    "defaultMessage": "BГЎo cГЎo"
   },
   "button.reset": {
-    "defaultMessage": "Đặt lại"
+    "defaultMessage": "Дђбє·t lбєЎi"
+  },
+  "button.reset-server": {
+    "defaultMessage": "Khб»џi Д‘б»™ng lбєЎi mГЎy chб»§"
+  },
+  "button.retry": {
+    "defaultMessage": "Thб»­ lбєЎi"
   },
   "button.save": {
-    "defaultMessage": "Lưu"
+    "defaultMessage": "LЖ°u"
   },
   "button.save-changes": {
-    "defaultMessage": "Lưu thay đổi"
+    "defaultMessage": "LЖ°u thay Д‘б»•i"
   },
   "button.saving": {
-    "defaultMessage": "Đang lưu"
+    "defaultMessage": "Дђang lЖ°u"
+  },
+  "button.show-all-versions": {
+    "defaultMessage": "Hiб»ѓn thб»‹ tбєҐt cбєЈ cГЎc phiГЄn bбєЈn"
+  },
+  "button.show-file": {
+    "defaultMessage": "Hiб»‡n tб»‡p"
   },
   "button.sign-in": {
-    "defaultMessage": "Đăng nhập"
+    "defaultMessage": "ДђДѓng nhбє­p"
   },
   "button.sign-out": {
-    "defaultMessage": "Đăng xuất"
+    "defaultMessage": "ДђДѓng xuбєҐt"
   },
   "button.sign-up": {
-    "defaultMessage": "Đăng ký"
+    "defaultMessage": "ДђДѓng kГЅ"
   },
   "button.stop": {
-    "defaultMessage": "Dừng"
+    "defaultMessage": "Dб»«ng"
+  },
+  "button.switch-version": {
+    "defaultMessage": "Дђб»•i phiГЄn bбєЈn"
   },
   "button.unfollow": {
-    "defaultMessage": "Bỏ theo dõi"
+    "defaultMessage": "Bб»Џ theo dГµi"
+  },
+  "button.unlink-modpack": {
+    "defaultMessage": "Huб»· liГЄn kбєїt modpack"
+  },
+  "button.update": {
+    "defaultMessage": "Cбє­p nhбє­t"
   },
   "button.upload-image": {
-    "defaultMessage": "Tải ảnh lên"
+    "defaultMessage": "TбєЈi бєЈnh lГЄn"
   },
   "changelog.justNow": {
-    "defaultMessage": "Vừa xong"
-  },
-  "changelog.product.api": {
-    "defaultMessage": "API"
+    "defaultMessage": "Vб»«a xong"
   },
   "changelog.product.app": {
-    "defaultMessage": "Ứng dụng"
+    "defaultMessage": "б»Ёng dб»Ґng"
   },
   "changelog.product.hosting": {
     "defaultMessage": "Hosting"
   },
   "changelog.product.web": {
-    "defaultMessage": "Trang web"
+    "defaultMessage": "Nб»Ѓn tбєЈng"
+  },
+  "collections.label.private": {
+    "defaultMessage": "RiГЄng tЖ°"
+  },
+  "content.confirm-bulk-update.admonition-body": {
+    "defaultMessage": "BбєЎn cГі chбєЇc chбєЇn muб»‘n cбє­p nhбє­t {count, plural, one {# dб»± ГЎn} other {# dб»± ГЎn}} lГЄn phiГЄn bбєЈn tЖ°ЖЎng thГ­ch mб»›i nhбєҐt khГґng? Дђб»Ѓ xuбєҐt: BбєЎn nГЄn cбє­p nhбє­t tб»«ng cГЎi mб»™t."
+  },
+  "content.confirm-bulk-update.admonition-header": {
+    "defaultMessage": "CбєЈnh bГЎo cбє­p nhбє­t"
+  },
+  "content.confirm-bulk-update.header": {
+    "defaultMessage": "Cбє­p nhбє­t dб»± ГЎn"
+  },
+  "content.confirm-bulk-update.shift-click-hint": {
+    "defaultMessage": "Nhбє«n giб»Ї phГ­m Shift trong khi бєҐn \"Cбє­p nhбє­t tбєҐt cбєЈ\" Д‘б»ѓ bб»Џ qua bЖ°б»›c xГЎc nhбє­n."
+  },
+  "content.confirm-bulk-update.update-button": {
+    "defaultMessage": "Cбє­p nhбє­t {count, plural, one {# dб»± ГЎn} other {# dб»± ГЎn}}"
+  },
+  "content.confirm-deletion.admonition-body": {
+    "defaultMessage": "Viб»‡c xГіa mб»™t bбєЈn mod cГі thб»ѓ бєЈnh hЖ°б»џng vД©nh viб»…n Д‘бєїn thбєї giб»›i cб»§a bбєЎn, Д‘б»“ng thб»ќi cГі thб»ѓ gГўy thiбєїu hб»Ґt nб»™i dung hoбє·c phГЎt sinh cГЎc lб»—i khГґng mong muб»‘n khi tбєЈi lбєЎi thбєї giб»›i Д‘Гі."
+  },
+  "content.confirm-deletion.admonition-header": {
+    "defaultMessage": "CбєЈnh bГЎo trЖ°б»›c khi xoГЎ"
+  },
+  "content.confirm-deletion.delete-button": {
+    "defaultMessage": "XГіa {count} {itemType}{count, plural, other {}}"
+  },
+  "content.confirm-deletion.header": {
+    "defaultMessage": "XГіa {itemType} {count, plural, other {}}"
+  },
+  "content.confirm-modpack-update.admonition-body": {
+    "defaultMessage": "{action, select, downgrade {Viб»‡c hбєЎ phiГЄn bбєЈn} other {Viб»‡c cбє­p nhбє­t}} cГі thб»ѓ gГўy ra lб»—i tЖ°ЖЎng thГ­ch. Nhб»Їng mod mГ  bбєЎn thГЄm vГ o modpack sбєЅ Д‘Ж°б»Јc giб»Ї lбєЎi nhЖ°ng chГєng cГі thб»ѓ sбєЅ khГґng tЖ°ЖЎng thГ­ch vб»›i phiГЄn bбєЈn mб»›i cб»§a modpack."
+  },
+  "content.confirm-modpack-update.admonition-header": {
+    "defaultMessage": "CбєЈnh bГЎo {action, select, downgrade {hбєЎ phiГЄn bбєЈn} other {cбє­p nhбє­t}}"
+  },
+  "content.confirm-modpack-update.confirm-button": {
+    "defaultMessage": "{action, select, downgrade {HбєЎ phiГЄn bбєЈn} other {Cбє­p nhбє­t}} modpack"
+  },
+  "content.confirm-modpack-update.header": {
+    "defaultMessage": "{action, select, downgrade {HбєЎ phiГЄn bбєЈn} other {Cбє­p nhбє­t}} modpack"
+  },
+  "content.confirm-unlink.admonition-body": {
+    "defaultMessage": "CГЎc bбєЈn mod vГ  nб»™i dung sбєЅ Д‘Ж°б»Јc hб»Јp nhбєҐt vб»›i nhб»Їng gГ¬ bбєЎn Д‘ГЈ thГЄm vГ o modpack vГ  modpack sбєЅ ngб»«ng nhбє­n cГЎc bбєЈn cбє­p nhбє­t."
+  },
+  "content.confirm-unlink.admonition-header": {
+    "defaultMessage": "CбєЈnh bГЎo huб»· liГЄn kбєїt modpack"
+  },
+  "content.confirm-unlink.header": {
+    "defaultMessage": "Huб»· liГЄn kбєїt modpack"
+  },
+  "content.confirm-unlink.unlink-button": {
+    "defaultMessage": "Huб»· liГЄn kбєїt"
+  },
+  "content.diff-modal.added-count": {
+    "defaultMessage": "ДђГЈ thГЄm {count}"
+  },
+  "content.diff-modal.diff-type.added": {
+    "defaultMessage": "ДђГЈ thГЄm (phб»Ґ thuб»™c)"
+  },
+  "content.diff-modal.diff-type.removed": {
+    "defaultMessage": "ДђГЈ tбєЇt"
+  },
+  "content.diff-modal.diff-type.updated": {
+    "defaultMessage": "ДђГЈ cбє­p nhбє­t"
+  },
+  "content.diff-modal.removed-count": {
+    "defaultMessage": "ДђГЈ xoГЎ {count}"
+  },
+  "content.diff-modal.unknown-content-body": {
+    "defaultMessage": "Mб»™t sб»‘ nб»™i dung trГЄn mГЎy chб»§ cб»§a bбєЎn khГґng thб»ѓ phГўn tГ­ch Д‘Ж°б»Јc vГ  cГі thб»ѓ bб»‹ бєЈnh hЖ°б»џng bб»џi thay Д‘б»•i nГ y."
+  },
+  "content.diff-modal.updated-count": {
+    "defaultMessage": "{count} Д‘ГЈ Д‘Ж°б»Јc cбє­p nhбє­t"
+  },
+  "content.inline-backup.backing-up": {
+    "defaultMessage": "Дђang tбєЎo bбєЈn sao lЖ°u..."
+  },
+  "content.inline-backup.backup-complete": {
+    "defaultMessage": "BбєЈn sao lЖ°u Д‘ГЈ Д‘Ж°б»Јc tбєЎo thГ nh cГґng"
+  },
+  "content.inline-backup.backup-failed": {
+    "defaultMessage": "TбєЎo bбєЈn sao lЖ°u thбєҐt bбєЎi. BбєЎn vбє«n cГі thб»ѓ tiбєїp tб»Ґc."
+  },
+  "content.inline-backup.backup-in-progress": {
+    "defaultMessage": "QuГЎ trГ¬nh sao lЖ°u Д‘ang diб»…n ra, bбєЎn nГЄn Д‘б»Јi hoГ n tбєҐt trЖ°б»›c khi thб»±c hiб»‡n hГ nh Д‘б»™ng nГ y."
+  },
+  "content.inline-backup.backup-takes-a-while": {
+    "defaultMessage": "Viб»‡c tбєЎo backup cГі thб»ѓ mбєҐt vГ i phГєt tГ№y thuб»™c vГ o kГ­ch thЖ°б»›c server cб»§a bбєЎn."
+  },
+  "content.inline-backup.create-backup": {
+    "defaultMessage": "TбєЎo bбєЈn sao lЖ°u"
+  },
+  "content.inline-backup.shift-click-hint": {
+    "defaultMessage": "Giб»Ї nГєt Shift khi click Д‘б»ѓ bб»Џ qua xГЎc nhбє­n."
+  },
+  "content.inline-backup.warning-body": {
+    "defaultMessage": "ChГєng tГґi khuyГЄn bбєЎn nГЄn tбєЎo bбєЈn sao lЖ°u trЖ°б»›c khi tiбєїp tб»Ґc Д‘б»ѓ cГі thб»ѓ khГґi phб»Ґc {type, select, server {thбєї giб»›i} other {phiГЄn chЖЎi}} cб»§a mГ¬nh nбєїu cГі sб»± cб»‘ xбєЈy ra."
+  },
+  "content.modpack-card.content-hint-description": {
+    "defaultMessage": "Nб»™i dung modpack cб»§a bбєЎn hiб»‡n Д‘ГЈ cГі б»џ Д‘Гўy!"
+  },
+  "content.modpack-card.content-hint-title": {
+    "defaultMessage": "Nб»™i dung modpack Д‘ГЈ Д‘Ж°б»Јc di chuyб»ѓn"
+  },
+  "content.modpack-card.dismiss-hint": {
+    "defaultMessage": "KhГґng hiб»ѓn thб»‹ lбєЎi"
+  },
+  "content.page-layout.additional-content": {
+    "defaultMessage": "Mod bб»• sung"
+  },
+  "content.page-layout.browse-content": {
+    "defaultMessage": "ThГЄm mod"
+  },
+  "content.page-layout.busy-description": {
+    "defaultMessage": "Vui lГІng chб»ќ quГЎ trГ¬nh xб»­ lГЅ hoГ n tбєҐt trЖ°б»›c khi chб»‰nh sб»­a nб»™i dung."
+  },
+  "content.page-layout.empty.hint": {
+    "defaultMessage": "ThГЄm hoбє·c tбєЈi lГЄn {contentType} Д‘б»ѓ bбєЇt Д‘бє§u"
+  },
+  "content.page-layout.empty.modpack-hint": {
+    "defaultMessage": "ThГЄm mod vГ o modpack nГ y"
+  },
+  "content.page-layout.empty.no-content-installed": {
+    "defaultMessage": "ChЖ°a cГ i Д‘бє·t nб»™i dung nГ o"
+  },
+  "content.page-layout.empty.no-extra-content-installed": {
+    "defaultMessage": "ChЖ°a cГ i Д‘бє·t nб»™i dung bб»• sung nГ o"
+  },
+  "content.page-layout.failed-to-load": {
+    "defaultMessage": "KhГґng thб»ѓ tбєЈi nб»™i dung"
+  },
+  "content.page-layout.loading": {
+    "defaultMessage": "Дђang tбєЈi nб»™i dung..."
+  },
+  "content.page-layout.no-content-found": {
+    "defaultMessage": "KhГґng cГі nб»™i dung nГ o Д‘Ж°б»Јc tГ¬m thбєҐy."
+  },
+  "content.page-layout.please-wait": {
+    "defaultMessage": "Vui lГІng chб»ќ"
+  },
+  "content.page-layout.search-placeholder": {
+    "defaultMessage": "TГ¬m {count} {contentType}..."
+  },
+  "content.page-layout.share.file-names": {
+    "defaultMessage": "TГЄn tб»‡p"
+  },
+  "content.page-layout.share.label": {
+    "defaultMessage": "Chia sбє»"
+  },
+  "content.page-layout.share.markdown-links": {
+    "defaultMessage": "ДђЖ°б»ќng dбє«n Markdown"
+  },
+  "content.page-layout.share.project-links": {
+    "defaultMessage": "ДђЖ°б»ќng dбє«n dб»± ГЎn"
+  },
+  "content.page-layout.share.project-names": {
+    "defaultMessage": "TГЄn dб»± ГЎn"
+  },
+  "content.page-layout.sort.alphabetical": {
+    "defaultMessage": "Thб»© tб»± bбєЈng chб»Ї cГЎi"
+  },
+  "content.page-layout.sort.date-added-newest": {
+    "defaultMessage": "Mб»›i nhбєҐt"
+  },
+  "content.page-layout.sort.date-added-oldest": {
+    "defaultMessage": "CЕ© nhбєҐt"
+  },
+  "content.page-layout.sort.label": {
+    "defaultMessage": "SбєЇp xбєїp theo {mode}"
+  },
+  "content.page-layout.update-all": {
+    "defaultMessage": "Cбє­p nhбє­t tбєҐt cбєЈ"
+  },
+  "content.page-layout.upload-files": {
+    "defaultMessage": "TбєЈi tб»‡p lГЄn"
+  },
+  "content.page-layout.uploading-files": {
+    "defaultMessage": "Дђang tбєЈi tб»‡p lГЄn ({completed}/{total})"
+  },
+  "content.selection-bar.all-already-disabled": {
+    "defaultMessage": "TбєҐt cбєЈ nб»™i dung Д‘ГЈ chб»Ќn Д‘б»Ѓu Д‘ГЈ Д‘Ж°б»Јc tбєЇt"
+  },
+  "content.selection-bar.all-already-enabled": {
+    "defaultMessage": "TбєҐt cбєЈ nб»™i dung Д‘ГЈ chб»Ќn Д‘б»Ѓu Д‘ГЈ Д‘Ж°б»Јc bбє­t"
+  },
+  "content.selection-bar.bulk.deleting": {
+    "defaultMessage": "Дђang xГіa {progress}/{total} {contentType}..."
+  },
+  "content.selection-bar.bulk.deleting-waiting": {
+    "defaultMessage": "Дђang xГіa {contentType}..."
+  },
+  "content.selection-bar.bulk.disabling": {
+    "defaultMessage": "Дђang tбєЇt {progress}/{total} {contentType}..."
+  },
+  "content.selection-bar.bulk.disabling-waiting": {
+    "defaultMessage": "Дђang tбєЇt {contentType}..."
+  },
+  "content.selection-bar.bulk.enabling": {
+    "defaultMessage": "Дђang bбє­t {progress}/{total} {contentType}..."
+  },
+  "content.selection-bar.bulk.enabling-waiting": {
+    "defaultMessage": "Dang bбє­t {contentType}..."
+  },
+  "content.selection-bar.bulk.updating": {
+    "defaultMessage": "Дђang cбє­p nhбє­t {progress}/{total} {contentType}..."
+  },
+  "content.selection-bar.bulk.updating-waiting": {
+    "defaultMessage": "Дђang cбє­p nhбє­t {contentType}..."
+  },
+  "content.selection-bar.selected-count": {
+    "defaultMessage": "{count} {contentType} Д‘ГЈ Д‘Ж°б»Јc chб»Ќn"
+  },
+  "content.selection-bar.selected-count-simple": {
+    "defaultMessage": "{count, number} Д‘ГЈ Д‘Ж°б»Јc chб»Ќn"
+  },
+  "files.conflict-modal.header": {
+    "defaultMessage": "TГіm tбєЇt trГ­ch xuбєҐt"
+  },
+  "files.conflict-modal.overwrite-button": {
+    "defaultMessage": "Ghi Д‘ГЁ"
+  },
+  "files.conflict-modal.overwrite-many-warning": {
+    "defaultMessage": "HЖЎn 100 tб»‡p sбєЅ bб»‹ ghi Д‘ГЁ nбєїu bбєЎn tiбєїp tб»Ґc giбєЈi nГ©n; dЖ°б»›i Д‘Гўy lГ  mб»™t sб»‘ tб»‡p trong sб»‘ Д‘Гі."
+  },
+  "files.conflict-modal.overwrite-warning": {
+    "defaultMessage": "{count} tб»‡p sau Д‘Гўy Д‘ГЈ tб»“n tбєЎi trГЄn mГЎy chб»§ vГ  sбєЅ bб»‹ ghi Д‘ГЁ nбєїu bбєЎn tiбєїp tб»Ґc giбєЈi nГ©n."
+  },
+  "files.conflict-modal.overwritten-count": {
+    "defaultMessage": "{count} bб»‹ ghi Д‘ГЁ"
+  },
+  "files.conflict-modal.overwritten-label": {
+    "defaultMessage": "Ghi Д‘ГЁ"
+  },
+  "files.conflict-modal.warning-header": {
+    "defaultMessage": "Nhб»Їng tб»‡p sбєЅ bб»‹ ghi Д‘ГЁ"
+  },
+  "files.create-modal.create-button": {
+    "defaultMessage": "TбєЎo {type, select, directory {thЖ° mб»Ґc} other {tб»‡p}}"
+  },
+  "files.create-modal.header": {
+    "defaultMessage": "TбєЎo mб»™t {type, select, directory {thЖ° mб»Ґc} other {tб»‡p}}"
+  },
+  "files.create-modal.placeholder-directory": {
+    "defaultMessage": "v.d. thu-muc-cua-toi"
+  },
+  "files.create-modal.placeholder-file": {
+    "defaultMessage": "v.d. config.yml"
+  },
+  "files.delete-modal.deleting-name": {
+    "defaultMessage": "Дђang xoГЎ \"{name}\""
+  },
+  "files.delete-modal.header": {
+    "defaultMessage": "XoГЎ tб»‡p"
+  },
+  "files.delete-modal.warning": {
+    "defaultMessage": "{type, select, directory {ThЖ° mб»Ґc nГ y vГ  toГ n bб»™ nб»™i dung cб»§a nГі sбєЅ bб»‹ xoГЎ vД©nh viб»…n. HГ nh Д‘б»™ng nГ y mб»™t Д‘i khГґng trб»џ lбєЎi.} other {Tб»‡p nГ y sбєЅ bб»‹ xoГЎ vД©nh viб»…n. HГ nh Д‘б»™ng nГ y mб»™t Д‘i khГґng trб»џ lбєЎi.}}"
+  },
+  "files.editor.failed-to-open-text": {
+    "defaultMessage": "KhГґng thб»ѓ tбєЈi nб»™i dung tб»‡p."
+  },
+  "files.editor.failed-to-open-title": {
+    "defaultMessage": "KhГґng mб»џ tб»‡p Д‘Ж°б»Јc"
+  },
+  "files.editor.failed-to-share-text": {
+    "defaultMessage": "KhГґng thб»ѓ tбєЈi lГЄn mclo.gs."
+  },
+  "files.editor.failed-to-share-title": {
+    "defaultMessage": "KhГґng chia sбє» tб»‡p Д‘Ж°б»Јc"
+  },
+  "files.editor.file-saved-text": {
+    "defaultMessage": "Tб»‡p cб»§a bбєЎn Д‘ГЈ Д‘Ж°б»Јc lЖ°u lбєЎi."
+  },
+  "files.editor.file-saved-title": {
+    "defaultMessage": "Tб»‡p Д‘ГЈ Д‘Ж°б»Јc lЖ°u"
+  },
+  "files.editor.find-close": {
+    "defaultMessage": "ДђГіng"
+  },
+  "files.editor.find-in-file": {
+    "defaultMessage": "TГ¬m"
+  },
+  "files.editor.find-match-count": {
+    "defaultMessage": "{current} trГЄn {total}"
+  },
+  "files.editor.find-no-results": {
+    "defaultMessage": "KhГґng cГі kбєїt quбєЈ"
+  },
+  "files.editor.find-previous-match": {
+    "defaultMessage": "Nhб»Їng kбєїt quбєЈ trЖ°б»›c"
+  },
+  "files.editor.log-url-copied-text": {
+    "defaultMessage": "URL tб»‡p nhбє­t kГ­ cб»§a bбєЎn Д‘ГЈ Д‘Ж°б»Јc chГ©p vГ o bбєЈng tбєЎm."
+  },
+  "files.editor.log-url-copied-title": {
+    "defaultMessage": "ДђГЈ chГ©p URL nhбє­t kГ­"
+  },
+  "files.editor.replace": {
+    "defaultMessage": "Thay thбєї"
+  },
+  "files.editor.replace-all": {
+    "defaultMessage": "Thay thбєї tбєҐt cбєЈ"
+  },
+  "files.editor.replace-in-file": {
+    "defaultMessage": "Thay thбєї"
+  },
+  "files.editor.save-failed-text": {
+    "defaultMessage": "KhГґng lЖ°u tб»‡p nГ y Д‘Ж°б»Јc."
+  },
+  "files.editor.save-failed-title": {
+    "defaultMessage": "KhГґng lЖ°u Д‘Ж°б»Јc"
+  },
+  "files.error.go-to-home": {
+    "defaultMessage": "Quay vб»Ѓ thЖ° mб»Ґc gб»‘c"
+  },
+  "files.error.try-again": {
+    "defaultMessage": "Thб»­ lбєЎi"
+  },
+  "files.image_viewer.image_too_large": {
+    "defaultMessage": "Tб»‡p бєЈnh quГЎ lб»›n Д‘б»ѓ xem (tб»‘i Д‘a {maxDimension}x{maxDimension} pixels)"
+  },
+  "files.image_viewer.invalid_image": {
+    "defaultMessage": "Tб»‡p бєЈnh rб»—ng hoбє·c khГґng hб»Јp lб»‡."
+  },
+  "files.image_viewer.load_failed": {
+    "defaultMessage": "KhГґng thб»ѓ tбєЈi бєЈnh"
+  },
+  "files.image_viewer.reset_zoom": {
+    "defaultMessage": "Дђбє·t lбєЎi thu phГіng"
+  },
+  "files.image_viewer.viewed_image_alt": {
+    "defaultMessage": "HГ¬nh бєЈnh Д‘ГЈ xem"
+  },
+  "files.image_viewer.zoom_in": {
+    "defaultMessage": "PhГіng to"
+  },
+  "files.image_viewer.zoom_out": {
+    "defaultMessage": "Thu nhб»Џ"
+  },
+  "files.layout.busy-warning": {
+    "defaultMessage": "CГЎc thao tГЎc vб»›i tб»‡p sбєЅ bб»‹ vГґ hiб»‡u hГіa trong khi thao tГЎc Д‘ang diб»…n ra."
+  },
+  "files.layout.empty-folder-description": {
+    "defaultMessage": "KhГґng cГі tб»‡p hoбє·c thЖ° mб»Ґc nГ o."
+  },
+  "files.layout.empty-folder-title": {
+    "defaultMessage": "ThЖ° mб»Ґc trб»‘ng khГґng"
+  },
+  "files.layout.error-message": {
+    "defaultMessage": "ThЖ° mб»Ґc khГґng tб»“n tбєЎi."
+  },
+  "files.layout.error-title": {
+    "defaultMessage": "KhГґng thб»ѓ tбєЈi tб»‡p"
+  },
+  "files.layout.selected-count": {
+    "defaultMessage": "Д‘ГЈ chб»Ќn {count}"
+  },
+  "files.layout.unsaved-changes": {
+    "defaultMessage": "BбєЎn cГі thay Д‘б»•i chЖ°a Д‘Ж°б»Јc lЖ°u."
+  },
+  "files.move-modal.current-location": {
+    "defaultMessage": "Vб»‹ trГ­ hiб»‡n tбєЎi"
+  },
+  "files.move-modal.destination-path": {
+    "defaultMessage": "ДђЖ°б»ќng dбє«n Д‘Г­ch"
+  },
+  "files.move-modal.destination-placeholder": {
+    "defaultMessage": "v.d. /thu-muc-cua-toi"
+  },
+  "files.navbar.back-to-home": {
+    "defaultMessage": "Quay vб»Ѓ trang chб»§"
+  },
+  "files.navbar.create-new": {
+    "defaultMessage": "TбєЎo mб»›i..."
+  },
+  "files.navbar.home": {
+    "defaultMessage": "Trang chб»§"
+  },
+  "files.navbar.install-curseforge-pack": {
+    "defaultMessage": "CГ i Д‘бє·t modpack tб»« CurseForge"
+  },
+  "files.navbar.new-file": {
+    "defaultMessage": "Tб»‡p mб»›i"
+  },
+  "files.navbar.new-folder": {
+    "defaultMessage": "ThЖ° mб»Ґc mб»›i"
+  },
+  "files.navbar.search-files": {
+    "defaultMessage": "TГ¬m kiбєїm tб»‡p tin"
+  },
+  "files.navbar.share-to-mclogs": {
+    "defaultMessage": "Chia sбє» lГЄn mclo.gs"
+  },
+  "files.navbar.upload-file": {
+    "defaultMessage": "TбєЈi tб»‡p lГЄn"
+  },
+  "files.navbar.upload-from-zip": {
+    "defaultMessage": "TбєЈi lГЄn tб»« tб»‡p .zip"
+  },
+  "files.navbar.upload-from-zip-url": {
+    "defaultMessage": "TбєЈi lГЄn tб»« URL tб»‡p .zip"
+  },
+  "files.operations.extracted": {
+    "defaultMessage": "ДђГЈ giбєЈi nГ©n {size}"
+  },
+  "files.operations.extracting": {
+    "defaultMessage": "Дђang giбєЈi nГ©n {source}"
+  },
+  "files.operations.failed": {
+    "defaultMessage": "ThбєҐt bбєЎi"
+  },
+  "files.operations.modpack-from-url": {
+    "defaultMessage": "modpack tб»« URL"
+  },
+  "files.rename-modal.header": {
+    "defaultMessage": "Дђб»•i tГЄn {name}"
+  },
+  "files.rename-modal.new-name-label": {
+    "defaultMessage": "TГЄn mб»›i"
+  },
+  "files.row.item-count": {
+    "defaultMessage": "{count, plural, one {# mб»Ґc} other {# mб»Ґc}}"
+  },
+  "files.table-header.created": {
+    "defaultMessage": "Thб»ќi gian tбєЎo"
+  },
+  "files.table-header.modified": {
+    "defaultMessage": "Lбє§n chб»‰nh sб»­a cuб»‘i cГ№ng"
+  },
+  "files.table-header.name": {
+    "defaultMessage": "TГЄn"
+  },
+  "files.table-header.size": {
+    "defaultMessage": "KГ­ch thЖ°б»›c"
+  },
+  "files.unsaved-changes-modal.body": {
+    "defaultMessage": "BбєЎn cГі cГЎc thay Д‘б»•i chЖ°a Д‘Ж°б»Јc lЖ°u. ChГєng sбєЅ bб»‹ mбєҐt nбєїu bбєЎn rб»ќi khб»Џi trang nГ y. BбєЎn cГі muб»‘n lЖ°u lбєЎi trЖ°б»›c khГґng?"
+  },
+  "files.unsaved-changes-modal.discard": {
+    "defaultMessage": "Huб»· bб»Џ"
+  },
+  "files.unsaved-changes-modal.header": {
+    "defaultMessage": "Thay Д‘б»•i chЖ°a lЖ°u"
+  },
+  "files.upload-dropdown.cancelled": {
+    "defaultMessage": "ДђГЈ huб»·"
+  },
+  "files.upload-dropdown.failed-file-exists": {
+    "defaultMessage": "ThбєҐt bбєЎi - Tб»‡p Д‘ГЈ tб»“n tбєЎi"
+  },
+  "files.upload-dropdown.failed-generic": {
+    "defaultMessage": "ThбєҐt bбєЎi - {error}"
+  },
+  "files.upload-dropdown.failed-incorrect-type": {
+    "defaultMessage": "ThбєҐt bбєЎi - KhГґng Д‘Гєng loбєЎi tб»‡p"
+  },
+  "files.upload-dropdown.failed-to-upload": {
+    "defaultMessage": "QuГЎ trГ¬nh tбєЈi lГЄn tб»‡p {fileName} Д‘ГЈ thбєҐt bбєЎi"
+  },
+  "files.upload-dropdown.file": {
+    "defaultMessage": "Tб»‡p"
+  },
+  "files.upload-dropdown.file-uploads": {
+    "defaultMessage": "TбєЈi lГЄn"
+  },
+  "files.upload-dropdown.incorrect-file-type": {
+    "defaultMessage": "Sai Д‘б»‹nh dбєЎng khi tбєЈi lГЄn"
+  },
+  "files.upload-dropdown.unexpected-error": {
+    "defaultMessage": "ДђГЈ cГі lб»—i xбєЈy ra."
+  },
+  "files.upload-dropdown.uploads-left": {
+    "defaultMessage": "CГІn {count}"
+  },
+  "files.validation.name-label": {
+    "defaultMessage": "TГЄn"
+  },
+  "files.validation.name-required": {
+    "defaultMessage": "BбєЇt buб»™c phбєЈi cГі tГЄn."
+  },
+  "files.zip-url-modal.backup-name": {
+    "defaultMessage": "CГ i Д‘бє·t modpack cб»§a CurseForge"
+  },
+  "files.zip-url-modal.cf-header": {
+    "defaultMessage": "CГ i Д‘бє·t mб»™t modpack cб»§a CurseForge"
+  },
+  "files.zip-url-modal.cf-not-found-text": {
+    "defaultMessage": "KhГґng thб»ѓ tГ¬m modpack cб»§a CurseForge tб»« Д‘Ж°б»ќng dбє«n Д‘Гі."
+  },
+  "files.zip-url-modal.cf-not-found-title": {
+    "defaultMessage": "KhГґng thб»ѓ tГ¬m thбєҐy modpack tб»« CurseForge"
+  },
+  "files.zip-url-modal.enter-link": {
+    "defaultMessage": "Nhбє­p Д‘Ж°б»ќng dбє«n"
+  },
+  "files.zip-url-modal.error-cf-url": {
+    "defaultMessage": "URL phбєЈi lГ  URL phiГЄn bбєЈn cб»§a gГіi mod trГЄn CurseForge."
+  },
+  "files.zip-url-modal.error-url-invalid": {
+    "defaultMessage": "ДђЖ°б»ќng dбє«n phбєЈi khбєЈ dб»Ґng."
+  },
+  "files.zip-url-modal.error-url-required": {
+    "defaultMessage": "BбєЇt buб»™c cГі Д‘Ж°б»ќng dбє«n."
+  },
+  "files.zip-url-modal.install-button": {
+    "defaultMessage": "CГ i Д‘бє·t"
+  },
+  "files.zip-url-modal.install-failed-title": {
+    "defaultMessage": "CГ i Д‘бє·t thбєҐt bбєЎi"
+  },
+  "files.zip-url-modal.step-copy-title": {
+    "defaultMessage": "Sao chГ©p Д‘Ж°б»ќng dбє«n"
+  },
+  "files.zip-url-modal.step-find-description": {
+    "defaultMessage": "TГ¬m vГ  xГЎc Д‘б»‹nh vб»‹ trГ­ Modpack Curseforge mГ  bбєЎn muб»‘n."
+  },
+  "files.zip-url-modal.step-find-title": {
+    "defaultMessage": "TГ¬m modpack"
+  },
+  "files.zip-url-modal.step-select-description": {
+    "defaultMessage": "VГ o mб»Ґc \"Files\" vГ  chб»Ќn phiГЄn bбєЈn Д‘б»ѓ cГ i."
+  },
+  "files.zip-url-modal.step-select-title": {
+    "defaultMessage": "Chб»Ќn phiГЄn bбєЈn"
+  },
+  "files.zip-url-modal.unknown-error": {
+    "defaultMessage": "ДђГЈ xбєЈy ra lб»—i khГґng xГЎc Д‘б»‹nh"
+  },
+  "files.zip-url-modal.zip-description": {
+    "defaultMessage": "Sao chГ©p vГ  dГЎn dЖ°б»ќng dбє«n trб»±c tiбєїp cб»§a tб»‡p .zip."
+  },
+  "files.zip-url-modal.zip-header": {
+    "defaultMessage": "Дђang tбєЈi lГЄn nб»™i dung .zip tб»« Д‘Ж°б»ќng dбє«n"
   },
   "form.label.address-line": {
-    "defaultMessage": "Dòng địa chỉ"
+    "defaultMessage": "DГІng Д‘б»‹a chб»‰"
   },
   "form.label.address-line-2": {
-    "defaultMessage": "Dòng địa chỉ 2 (không bắt buộc)"
+    "defaultMessage": "DГІng Д‘б»‹a chб»‰ 2 (khГґng bбєЇt buб»™c)"
   },
   "form.label.amount": {
-    "defaultMessage": "Số tiền"
+    "defaultMessage": "Sб»‘ tiб»Ѓn"
   },
   "form.label.bank-name": {
-    "defaultMessage": "Tên ngân hàng"
+    "defaultMessage": "TГЄn ngГўn hГ ng"
   },
   "form.label.business-name": {
-    "defaultMessage": "Tên doanh nghiệp"
+    "defaultMessage": "TГЄn doanh nghiб»‡p"
   },
   "form.label.city": {
-    "defaultMessage": "Thành phố"
+    "defaultMessage": "ThГ nh phб»‘"
   },
   "form.label.country": {
-    "defaultMessage": "Quốc gia"
+    "defaultMessage": "Quб»‘c gia"
   },
   "form.label.date-of-birth": {
-    "defaultMessage": "Ngày sinh"
+    "defaultMessage": "NgГ y sinh"
   },
   "form.label.email": {
     "defaultMessage": "Email"
   },
   "form.label.first-name": {
-    "defaultMessage": "Tên"
+    "defaultMessage": "TГЄn"
   },
   "form.label.last-name": {
-    "defaultMessage": "Họ"
+    "defaultMessage": "Hб»Ќ"
   },
   "form.label.postal-code": {
-    "defaultMessage": "Mã bưu chính/ZIP"
+    "defaultMessage": "MГЈ bЖ°u chГ­nh/ZIP"
   },
   "form.label.state-province": {
-    "defaultMessage": "Bang/tỉnh"
+    "defaultMessage": "Bang/tб»‰nh"
   },
   "form.placeholder.address": {
-    "defaultMessage": "Nhập địa chỉ"
+    "defaultMessage": "Nhбє­p Д‘б»‹a chб»‰"
   },
   "form.placeholder.address-2": {
-    "defaultMessage": "Căn hộ, phòng, v.v."
+    "defaultMessage": "CДѓn hб»™, phГІng, v.v."
   },
   "form.placeholder.amount": {
-    "defaultMessage": "Nhập số tiền"
+    "defaultMessage": "Nhбє­p sб»‘ tiб»Ѓn"
   },
   "form.placeholder.bank-name": {
-    "defaultMessage": "Nhập tên ngân hàng"
+    "defaultMessage": "Nhбє­p tГЄn ngГўn hГ ng"
   },
   "form.placeholder.bank-name-dropdown": {
-    "defaultMessage": "Chọn tên ngân hàng"
+    "defaultMessage": "Chб»Ќn tГЄn ngГўn hГ ng"
   },
   "form.placeholder.business-name": {
-    "defaultMessage": "Nhập tên doanh nghiệp"
+    "defaultMessage": "Nhбє­p tГЄn doanh nghiб»‡p"
   },
   "form.placeholder.city": {
-    "defaultMessage": "Nhập thành phố"
+    "defaultMessage": "Nhбє­p thГ nh phб»‘"
   },
   "form.placeholder.country": {
-    "defaultMessage": "Chọn quốc gia"
+    "defaultMessage": "Chб»Ќn quб»‘c gia"
   },
   "form.placeholder.email": {
-    "defaultMessage": "Nhập địa chỉ email"
+    "defaultMessage": "Nhбє­p Д‘б»‹a chб»‰ email"
   },
   "form.placeholder.first-name": {
-    "defaultMessage": "Nhập tên"
+    "defaultMessage": "Nhбє­p tГЄn"
   },
   "form.placeholder.last-name": {
-    "defaultMessage": "Nhập họ"
+    "defaultMessage": "Nhбє­p hб»Ќ"
   },
   "form.placeholder.postal-code": {
-    "defaultMessage": "Nhập mã bưu chính"
+    "defaultMessage": "Nhбє­p mГЈ bЖ°u chГ­nh"
   },
   "form.placeholder.state": {
-    "defaultMessage": "Nhập bang/tỉnh"
+    "defaultMessage": "Nhбє­p bang/tб»‰nh"
+  },
+  "header.category.category": {
+    "defaultMessage": "LoбєЎi"
+  },
+  "header.category.feature": {
+    "defaultMessage": "TГ­nh nДѓng"
+  },
+  "header.category.minecraft-server-community": {
+    "defaultMessage": "Cб»™ng Д‘б»“ng"
+  },
+  "header.category.minecraft-server-features": {
+    "defaultMessage": "Nhiб»Ѓu tГ­nh nДѓng"
+  },
+  "header.category.minecraft-server-gameplay": {
+    "defaultMessage": "Lб»‘i chЖЎi"
+  },
+  "header.category.minecraft-server-meta": {
+    "defaultMessage": "Xu hЖ°б»›ng"
+  },
+  "header.category.performance-impact": {
+    "defaultMessage": "бєўnh hЖ°б»џng hiб»‡u suбєҐt"
+  },
+  "header.category.resolutions": {
+    "defaultMessage": "Дђб»™ phГўn giбєЈi"
+  },
+  "hosting.content.failed-to-bulk-delete": {
+    "defaultMessage": "KhГґng thб»ѓ xГіa nб»™i dung"
+  },
+  "hosting.content.failed-to-bulk-disable": {
+    "defaultMessage": "KhГґng thб»ѓ tбєЇt nб»™i dung"
+  },
+  "hosting.content.failed-to-bulk-enable": {
+    "defaultMessage": "KhГґng thб»ѓ bбє­t nб»™i dung"
+  },
+  "hosting.content.failed-to-bulk-update": {
+    "defaultMessage": "KhГґng thб»ѓ cбє­p nhбє­t nб»™i dung"
+  },
+  "hosting.content.failed-to-load-modpack-content": {
+    "defaultMessage": "KhГґng thб»ѓ tбєЈi nб»™i dung cб»§a modpack"
+  },
+  "hosting.content.failed-to-load-versions": {
+    "defaultMessage": "Lб»—i load phiГЄn bбєЈn"
+  },
+  "hosting.content.failed-to-remove": {
+    "defaultMessage": "KhГґng thб»ѓ xГіa nб»™i dung"
+  },
+  "hosting.content.failed-to-toggle": {
+    "defaultMessage": "Lб»—i khi chuyб»ѓn Д‘б»•i {name}"
+  },
+  "hosting.content.failed-to-unlink": {
+    "defaultMessage": "Hб»§y liГЄn kбєїt modpack thбєҐt bбєЎi"
+  },
+  "hosting.content.failed-to-update": {
+    "defaultMessage": "ThбєҐt bбєЎi trong khi cбє­p nhбє­t"
+  },
+  "hosting.content.failed-to-upload": {
+    "defaultMessage": "ThбєҐt bбєЎi trong viб»‡c tбєЈi file lГЄn"
+  },
+  "hosting.specs.burst": {
+    "defaultMessage": "TДѓng tб»‘c tб»‘i Д‘a lГЄn {cpus} CPU"
+  },
+  "hosting.specs.burst.tooltip": {
+    "defaultMessage": "TГ­nh nДѓng tДѓng tб»‘c CPU cho phГ©p mГЎy chб»§ cб»§a bбєЎn tбєЎm thб»ќi sб»­ dб»Ґng thГЄm cГЎc luб»“ng Д‘б»ѓ giГєp giбєЈm thiб»ѓu hiб»‡n tЖ°б»Јng tб»Ґt TPS. NhбєҐp Д‘б»ѓ xem chi tiбєїt."
   },
   "hosting.specs.gb-ram": {
     "defaultMessage": "{ram} GB RAM"
   },
   "hosting.specs.gb-storage": {
-    "defaultMessage": "{storage} GB dung lượng lưu trữ"
+    "defaultMessage": "{storage} GB bб»™ nhб»›"
   },
   "hosting.specs.shared-cpus": {
-    "defaultMessage": "{cpus} CPU dùng chung"
+    "defaultMessage": "{cpus} CPU dГ№ng chung"
   },
   "icon-select.edit": {
-    "defaultMessage": "Chỉnh sửa biểu tượng"
+    "defaultMessage": "Chб»‰nh sб»­a biб»ѓu tЖ°б»Јng"
   },
   "icon-select.remove": {
-    "defaultMessage": "Xoá biểu tượng"
+    "defaultMessage": "XoГЎ biб»ѓu tЖ°б»Јng"
   },
   "icon-select.replace": {
-    "defaultMessage": "Thay thế biểu tượng"
+    "defaultMessage": "Thay thбєї biб»ѓu tЖ°б»Јng"
   },
   "icon-select.select": {
-    "defaultMessage": "Chọn biểu tượng"
+    "defaultMessage": "Chб»Ќn biб»ѓu tЖ°б»Јng"
+  },
+  "input.search-version.placeholder": {
+    "defaultMessage": "Thay Д‘б»•i phiГЄn bбєЈn..."
   },
   "input.search.placeholder": {
-    "defaultMessage": "Tìm kiếm..."
+    "defaultMessage": "TГ¬m kiбєїm..."
+  },
+  "input.select-version.placeholder": {
+    "defaultMessage": "Chб»Ќn phiГЄn bбєЈn"
   },
   "input.view.gallery": {
-    "defaultMessage": "Chế độ xem dạng thư viện"
+    "defaultMessage": "Chбєї Д‘б»™ xem dбєЎng thЖ° viб»‡n"
   },
   "input.view.grid": {
-    "defaultMessage": "Chế độ xem dạng lưới"
+    "defaultMessage": "Chбєї Д‘б»™ xem dбєЎng lЖ°б»›i"
   },
   "input.view.list": {
-    "defaultMessage": "Chế độ xem dạng danh sách"
+    "defaultMessage": "Chбєї Д‘б»™ xem dбєЎng danh sГЎch"
+  },
+  "installation-settings.aria.select-game-version": {
+    "defaultMessage": "Chб»Ќn phiГЄn bбєЈn game"
+  },
+  "installation-settings.aria.select-loader-version": {
+    "defaultMessage": "Chб»Ќn phiГЄn bбєЈn {loader}"
+  },
+  "installation-settings.aria.select-platform": {
+    "defaultMessage": "Chб»Ќn mod loader"
+  },
+  "installation-settings.confirm-version-change": {
+    "defaultMessage": "XГЎc nhбє­n"
+  },
+  "installation-settings.confirm-version-change-description": {
+    "defaultMessage": "Viб»‡c thay Д‘б»•i sang phiГЄn bбєЈn {gameVersion} sбєЅ sб»­a Д‘б»•i cГЎc nб»™i dung sau trГЄn server cб»§a bбєЎn."
+  },
+  "installation-settings.confirm-version-change-header": {
+    "defaultMessage": "Xem lбєЎi thay Д‘б»•i nб»™i dung"
+  },
+  "installation-settings.edit-installation.title": {
+    "defaultMessage": "Chб»‰nh sб»­a cГ i Д‘бє·t"
+  },
+  "installation-settings.edit.warning-instance": {
+    "defaultMessage": "ChГєng tГґi khГґng khuyбєїn khГ­ch bбєЎn chб»‰nh sб»­a cГ i Д‘бє·t sau khi Д‘ГЈ cГ i Д‘бє·t nб»™i dung. Nбєїu bбєЎn muб»‘n thay Д‘б»•i chГєng, hГЈy cбє©n thбє­n vГ¬ Д‘iб»Ѓu nГ y cГі thб»ѓ gГўy ra lб»—i."
+  },
+  "installation-settings.edit.warning-server": {
+    "defaultMessage": "ChГєng tГґi khГґng khuyбєїn khГ­ch chб»‰nh sб»­a cГ i Д‘бє·t sau khi Д‘ГЈ cГ i Д‘бє·t nб»™i dung. Nбєїu bбєЎn muб»‘n thay Д‘б»•i chГєng, hГЈy khб»џi Д‘б»™ng lбєЎi mГЎy chб»§ cб»§a mГ¬nh."
+  },
+  "installation-settings.incompatible-content.auto-fix-button": {
+    "defaultMessage": "Tб»± Д‘б»™ng sб»­a"
+  },
+  "installation-settings.incompatible-content.disable-conflicts-button": {
+    "defaultMessage": "VГґ hiб»‡u quГЎ xung Д‘б»™t"
+  },
+  "installation-settings.incompatible-content.game-version-warning-title": {
+    "defaultMessage": "CбєЈnh bГЎo khГґng tЖ°ЖЎng thГ­ch"
+  },
+  "installation-settings.linked-instance.title": {
+    "defaultMessage": "ДђГЈ liГЄn kбєїt {projectType, select, server {dб»± ГЎn mГЎy chб»§} other {modpack}}"
+  },
+  "installation-settings.loader-version": {
+    "defaultMessage": "PhiГЄn bбєЈn {loader}"
+  },
+  "installation-settings.platform-lock-tooltip": {
+    "defaultMessage": "BбєЎn sбєЅ cбє§n khб»џi Д‘б»™ng lбєЎi mГЎy chб»§ Д‘б»ѓ Д‘б»•i mod loader."
+  },
+  "installation-settings.reinstall-modpack.description": {
+    "defaultMessage": "Viб»‡c cГ i Д‘бє·t lбєЎi modpack sбєЅ Д‘бє·t lбєЎi nб»™i dung cб»§a {type, select, server {mГЎy chб»§} other {phiГЄn chЖЎi}} vб»Ѓ trбєЎng thГЎi ban Д‘бє§u, Д‘б»“ng thб»ќi gб»Ў bб»Џ mб»Ќi mod hoбє·c nб»™i dung mГ  bбєЎn Д‘ГЈ thГЄm vГ o."
+  },
+  "installation-settings.reinstall-modpack.title": {
+    "defaultMessage": "CГ i Д‘бє·t lбєЎi modpack"
+  },
+  "installation-settings.reinstalling-modpack": {
+    "defaultMessage": "Дђang cГ i Д‘бє·t lбєЎi modpack"
+  },
+  "installation-settings.removed-incompatible": {
+    "defaultMessage": "ДђГЈ xoГЎ (khГґng tЖ°ЖЎng thГ­ch)"
+  },
+  "installation-settings.repair.instance-description": {
+    "defaultMessage": "CГ i Д‘бє·t lбєЎi cГЎc thГ nh phбє§n phб»Ґ thuб»™c cб»§a Minecraft vГ  kiб»ѓm tra tб»‡p tin lб»—i. Viб»‡c nГ y cГі thб»ѓ khбєЇc phб»Ґc cГЎc sб»± cб»‘ nбєїu game khГґng khб»џi chбєЎy Д‘Ж°б»Јc do lб»—i liГЄn quan Д‘бєїn launcher."
+  },
+  "installation-settings.repair.instance-title": {
+    "defaultMessage": "Sб»­a chб»Їa phiГЄn chЖЎi"
+  },
+  "installation-settings.repair.server-description": {
+    "defaultMessage": "CГ i Д‘бє·t lбєЎi trГ¬nh nбєЎp vГ  cГЎc thГ nh phбє§n phб»Ґ thuб»™c cб»§a Minecraft mГ  khГґng xГіa nб»™i dung cб»§a bбєЎn. Thao tГЎc nГ y cГі thб»ѓ khбєЇc phб»Ґc cГЎc sб»± cб»‘ nбєїu server cб»§a bбєЎn khГґng khб»џi Д‘б»™ng Д‘Гєng cГЎch."
+  },
+  "installation-settings.repair.server-title": {
+    "defaultMessage": "Sб»­a chб»Їa mГЎy chб»§"
+  },
+  "installation-settings.saving": {
+    "defaultMessage": "Дђang lЖ°u..."
+  },
+  "installation-settings.search-game-version": {
+    "defaultMessage": "TГ¬m kiбєїm phiГЄn bбєЈn trГІ chЖЎi..."
+  },
+  "installation-settings.unlink": {
+    "defaultMessage": "Huб»· liГЄn kбєїt"
+  },
+  "installation-settings.unlink.description": {
+    "defaultMessage": "Hб»§y liГЄn kбєїt sбєЅ ngбєЇt kбєїt nб»‘i vД©nh viб»…n {type, select, server {mГЎy chб»§} other {phiГЄn chЖЎi}} nГ y khб»Џi dб»± ГЎn {projectType, select, server {mГЎy chб»§} other {modpack}}, cho phГ©p bбєЎn thay Д‘б»•i trГ¬nh nбєЎp vГ  phiГЄn bбєЈn Minecraft, nhЖ°ng bбєЎn sбєЅ khГґng nhбє­n Д‘Ж°б»Јc cГЎc bбєЈn cбє­p nhбє­t trong tЖ°ЖЎng lai."
+  },
+  "installation-settings.verifying": {
+    "defaultMessage": "Дђang xГЎc minh..."
+  },
+  "instance.confirm-reinstall.admonition-body": {
+    "defaultMessage": "Viб»‡c cГ i Д‘бє·t lбєЎi sбєЅ Д‘бє·t lбєЎi toГ n bб»™ nб»™i dung Д‘ГЈ cГ i Д‘бє·t hoбє·c Д‘ГЈ chб»‰nh sб»­a vб»Ѓ trбєЎng thГЎi gб»‘c cб»§a modpack, Д‘б»“ng thб»ќi xГіa mб»Ќi mod hoбє·c nб»™i dung bбєЎn Д‘ГЈ thГЄm vГ o bбєЈn cГ i Д‘бє·t ban Д‘бє§u."
+  },
+  "instance.confirm-reinstall.admonition-header": {
+    "defaultMessage": "CбєЈnh bГЎo khi cГ i Д‘бє·t lбєЎi"
+  },
+  "instance.confirm-reinstall.header": {
+    "defaultMessage": "CГ i Д‘бє·t lбєЎi modpack"
+  },
+  "instance.confirm-reinstall.reinstall-button": {
+    "defaultMessage": "CГ i Д‘бє·t lбєЎi modpack"
+  },
+  "instance.confirm-repair.body": {
+    "defaultMessage": "Viб»‡c sб»­a chб»Їa sбєЅ cГ i Д‘бє·t lбєЎi trГ¬nh nбєЎp vГ  cГЎc phб»Ґ thuб»™c cб»§a Minecraft mГ  khГґng xГіa nб»™i dung cб»§a bбєЎn. Дђiб»Ѓu nГ y cГі thб»ѓ giбєЈi quyбєїt cГЎc sб»± cб»‘ nбєїu {type, select, server {mГЎy chб»§ khГґng khб»џi Д‘б»™ng Д‘Гєng cГЎch} other {trГІ chЖЎi khГґng khб»џi chбєЎy do lб»—i liГЄn quan Д‘бєїn trГ¬nh khб»џi chбєЎy}}."
+  },
+  "instance.confirm-repair.header": {
+    "defaultMessage": "Sб»­a {type, select, server {server} other {instance}}"
+  },
+  "instance.confirm-repair.repair-button": {
+    "defaultMessage": "Sб»­a"
   },
   "instance.worlds.game_mode.adventure": {
-    "defaultMessage": "Chế độ phiêu lưu"
+    "defaultMessage": "Chбєї Д‘б»™ phiГЄu lЖ°u"
   },
   "instance.worlds.game_mode.creative": {
-    "defaultMessage": "Chế độ sáng tạo"
+    "defaultMessage": "Chбєї Д‘б»™ sГЎng tбєЎo"
   },
   "instance.worlds.game_mode.spectator": {
-    "defaultMessage": "Chế độ khán giả"
+    "defaultMessage": "Chбєї Д‘б»™ khГЎn giбєЈ"
   },
   "instance.worlds.game_mode.survival": {
-    "defaultMessage": "Chế độ sinh tồn"
+    "defaultMessage": "Chбєї Д‘б»™ sinh tб»“n"
   },
   "instance.worlds.game_mode.unknown": {
-    "defaultMessage": "Chế độ chơi không xác định"
+    "defaultMessage": "Chбєї Д‘б»™ chЖЎi khГґng xГЎc Д‘б»‹nh"
+  },
+  "instances.confirm-leave-modal.body": {
+    "defaultMessage": "CГЎc file Д‘ang trong quГЎ trГ¬nh upload. Rб»ќi khб»Џi trang nГ y sбєЅ hб»§y upload vГ  mбєҐt cГЎc thay Д‘б»•i cб»§a bбєЎn."
+  },
+  "instances.confirm-leave-modal.upload-in-progress": {
+    "defaultMessage": "Дђang trong quГЎ trГ¬nh upload"
+  },
+  "instances.content-install.compatible-count": {
+    "defaultMessage": "TЖ°ЖЎng thГ­ch {count} cГЎi vб»›i {count, plural, other {instance}}"
+  },
+  "instances.content-install.existing-tab": {
+    "defaultMessage": "PhiГЄn chЖЎi cГі sбєµn"
+  },
+  "instances.content-install.game-version-placeholder": {
+    "defaultMessage": "Chб»Ќn phiГЄn bбєЈn game"
+  },
+  "instances.content-install.header": {
+    "defaultMessage": "CГ i Д‘бє·t dб»± ГЎn"
+  },
+  "instances.content-install.install-button": {
+    "defaultMessage": "CГ i Д‘бє·t"
+  },
+  "instances.content-install.installed-badge": {
+    "defaultMessage": "ДђГЈ cГ i Д‘бє·t"
+  },
+  "instances.content-install.instance-type": {
+    "defaultMessage": "LoбєЎi phiГЄn chЖЎi"
+  },
+  "instances.content-install.loader-label": {
+    "defaultMessage": "TrГ¬nh nбєЎp"
+  },
+  "instances.content-install.name-label": {
+    "defaultMessage": "TГЄn"
+  },
+  "instances.content-install.name-placeholder": {
+    "defaultMessage": "Nhбє­p tГЄn phiГЄn chЖЎi"
+  },
+  "instances.content-install.new-tab": {
+    "defaultMessage": "PhiГЄn chЖЎi mб»›i"
+  },
+  "instances.content-install.no-instances": {
+    "defaultMessage": "KhГґng tГ¬m thбєҐy phiГЄn chЖЎi tЖ°ЖЎng thГ­ch"
+  },
+  "instances.content-install.remove-icon": {
+    "defaultMessage": "XoГЎ biб»ѓu tЖ°б»Јng"
+  },
+  "instances.content-install.search-placeholder": {
+    "defaultMessage": "TГ¬m phiГЄn chЖЎi"
+  },
+  "instances.content-install.select-icon": {
+    "defaultMessage": "Chб»Ќn biб»ѓu tЖ°б»Јng"
+  },
+  "instances.modpack-content-modal.empty-description": {
+    "defaultMessage": "GГіi modpack nГ y khГґng bao gб»“m cГЎc nб»™i dung bб»• sung nГ o."
+  },
+  "instances.modpack-content-modal.empty-title": {
+    "defaultMessage": "KhГґng cГі nб»™i dung nГ o Д‘Ж°б»Јc tГ¬m thбєҐy"
+  },
+  "instances.modpack-content-modal.header": {
+    "defaultMessage": "Nб»™i dung modpack"
+  },
+  "instances.modpack-content-modal.loading": {
+    "defaultMessage": "Дђang tбєЈi nб»™i dung..."
+  },
+  "instances.modpack-content-modal.no-results": {
+    "defaultMessage": "KhГґng cГі dб»± ГЎn nГ o phГ№ hб»Јp vб»›i kбєїt quбєЈ tГ¬m kiбєїm."
+  },
+  "instances.modpack-content-modal.search-placeholder": {
+    "defaultMessage": "TГ¬m {count, number} {count, plural, one {project} other {projects}}"
+  },
+  "instances.updater-modal.badge.current": {
+    "defaultMessage": "Hiб»‡n tбєЎi"
+  },
+  "instances.updater-modal.badge.incompatible": {
+    "defaultMessage": "KhГґng tЖ°ЖЎng thГ­ch"
+  },
+  "instances.updater-modal.downgrade-to": {
+    "defaultMessage": "HбєЎ cбєҐp xuб»‘ng {version}"
+  },
+  "instances.updater-modal.header": {
+    "defaultMessage": "Cбє­p nhбє­t phiГЄn bбєЈn"
+  },
+  "instances.updater-modal.header-modpack": {
+    "defaultMessage": "Дђб»•i phiГЄn bбєЈn modpack"
+  },
+  "instances.updater-modal.header-switch": {
+    "defaultMessage": "Дђб»•i phiГЄn bбєЈn"
+  },
+  "instances.updater-modal.hide-incompatible": {
+    "defaultMessage": "бєЁn khГґng tЖ°ЖЎng thГ­ch"
+  },
+  "instances.updater-modal.loading-changelog": {
+    "defaultMessage": "Дђang tбєЈi nhбє­t kГЅ thay Д‘б»•i..."
+  },
+  "instances.updater-modal.loading-versions": {
+    "defaultMessage": "Дђang tбєЈi cГЎc phiГЄn bбєЈn..."
+  },
+  "instances.updater-modal.no-changelog": {
+    "defaultMessage": "KhГґng cГі nhбє­t kГЅ thay Д‘б»•i cho phiГЄn bбєЈn nГ y."
+  },
+  "instances.updater-modal.no-versions": {
+    "defaultMessage": "KhГґng tГ¬m thбєҐy phiГЄn bбєЈn nГ o"
+  },
+  "instances.updater-modal.search-placeholder": {
+    "defaultMessage": "TГ¬m phiГЄn bбєЈn..."
+  },
+  "instances.updater-modal.select-version": {
+    "defaultMessage": "Chб»Ќn mб»™t phiГЄn bбєЈn Д‘б»ѓ xem nhбє­t kГЅ thay Д‘б»•i"
+  },
+  "instances.updater-modal.show-incompatible": {
+    "defaultMessage": "Hiб»ѓn thб»‹ khГґng tЖ°ЖЎng thГ­ch"
+  },
+  "instances.updater-modal.switch-to": {
+    "defaultMessage": "Chuyб»ѓn sang {version}"
+  },
+  "instances.updater-modal.update-to": {
+    "defaultMessage": "Cбє­p nhбє­t lГЄn {version}"
+  },
+  "instances.updater-modal.warning-app": {
+    "defaultMessage": "Viб»‡c cбє­p nhбє­t cГі thб»ѓ gГўy lб»—i cho phiГЄn chЖЎi cб»§a bбєЎn. HГЈy kiб»ѓm tra nhбє­t kГЅ thay Д‘б»•i vГ  sao lЖ°u dб»Ї liб»‡u trЖ°б»›c khi thб»±c hiб»‡n."
+  },
+  "instances.updater-modal.warning-web": {
+    "defaultMessage": "Viб»‡c cбє­p nhбє­t cГі thб»ѓ gГўy lб»—i cho thбєї giб»›i cб»§a bбєЎn. HГЈy kiб»ѓm tra nhбє­t kГЅ thay Д‘б»•i vГ  sao lЖ°u dб»Ї liб»‡u trЖ°б»›c khi thб»±c hiб»‡n."
+  },
+  "label.actions": {
+    "defaultMessage": "HГ nh Д‘б»™ng"
   },
   "label.available": {
-    "defaultMessage": "{amount} khả dụng."
+    "defaultMessage": "{amount} khбєЈ dб»Ґng."
+  },
+  "label.changelog": {
+    "defaultMessage": "Nhбє­t kГЅ thay Д‘б»•i"
   },
   "label.changes-saved": {
-    "defaultMessage": "Đã lưu thay đổi"
+    "defaultMessage": "ДђГЈ lЖ°u thay Д‘б»•i"
+  },
+  "label.client-retained-warning": {
+    "defaultMessage": "ДђГўy lГ  mod phГ­a mГЎy khГЎch, Д‘Ж°б»Јc cГ i Д‘бє·t lГ m phбє§n phб»Ґ thuб»™c, vГ  cГі thб»ѓ gГўy ra vбєҐn Д‘б»Ѓ khi khб»џi Д‘б»™ng mГЎy chб»§ cб»§a bбєЎn"
   },
   "label.collections": {
-    "defaultMessage": "Bộ sưu tập"
+    "defaultMessage": "Bб»™ sЖ°u tбє­p"
+  },
+  "label.confirm-password": {
+    "defaultMessage": "XГЎc nhбє­n mбє­t khбє©u"
+  },
+  "label.content": {
+    "defaultMessage": "Nб»™i dung"
+  },
+  "label.copied-filename": {
+    "defaultMessage": "ДђГЈ sao chГ©p tГЄn tб»‡p"
+  },
+  "label.copied-path": {
+    "defaultMessage": "ДђГЈ sao chГ©p Д‘Ж°б»ќng dбє«n"
+  },
+  "label.create-failed": {
+    "defaultMessage": "TбєЎo file khГґng thГ nh cГґng"
   },
   "label.created-ago": {
-    "defaultMessage": "Đã tạo {ago}"
+    "defaultMessage": "ДђГЈ tбєЎo {ago}"
   },
   "label.dashboard": {
-    "defaultMessage": "Bảng điều khiển"
+    "defaultMessage": "BбєЈng Д‘iб»Ѓu khiб»ѓn"
   },
   "label.delete": {
-    "defaultMessage": "Xóa"
+    "defaultMessage": "XГіa"
+  },
+  "label.delete-failed": {
+    "defaultMessage": "XГіa khГґng thГ nh cГґng"
+  },
+  "label.delete-immediately": {
+    "defaultMessage": "XoГЎ ngay lбє­p tб»©c"
   },
   "label.description": {
-    "defaultMessage": "Mô tả"
+    "defaultMessage": "MГґ tбєЈ"
+  },
+  "label.details": {
+    "defaultMessage": "Chi tiбєїt"
+  },
+  "label.done": {
+    "defaultMessage": "ДђГЈ xong"
+  },
+  "label.download-failed": {
+    "defaultMessage": "TбєЈi xuб»‘ng khГґng thГ nh cГґng"
+  },
+  "label.email": {
+    "defaultMessage": "Email"
+  },
+  "label.email-username": {
+    "defaultMessage": "Дђб»‹a chб»‰ email hoбє·c tГЄn Д‘Дѓng nhбє­p"
   },
   "label.error": {
-    "defaultMessage": "Lỗi"
+    "defaultMessage": "Lб»—i"
+  },
+  "label.extract-failed": {
+    "defaultMessage": "GiбєЈi nГ©n khГґng thГ nh cГґng"
+  },
+  "label.filter-by": {
+    "defaultMessage": "Lб»Ќc theo"
   },
   "label.followed-projects": {
-    "defaultMessage": "Dự án đã theo dõi"
+    "defaultMessage": "Dб»± ГЎn Д‘ГЈ theo dГµi"
+  },
+  "label.game-version": {
+    "defaultMessage": "PhiГЄn bбєЈn trГІ chЖЎi"
+  },
+  "label.installation-info": {
+    "defaultMessage": "ThГґng tin cГ i Д‘бє·t"
+  },
+  "label.installed-modpack": {
+    "defaultMessage": "Modpack Д‘ГЈ cГ i Д‘бє·t"
+  },
+  "label.installing": {
+    "defaultMessage": "Дђang cГ i Д‘бє·t..."
   },
   "label.loading": {
-    "defaultMessage": "Đang tải..."
+    "defaultMessage": "Дђang tбєЈi..."
   },
   "label.moderation": {
-    "defaultMessage": "Kiểm duyệt"
+    "defaultMessage": "Kiб»ѓm duyб»‡t"
+  },
+  "label.modpack": {
+    "defaultMessage": "Modpack"
+  },
+  "label.move-failed": {
+    "defaultMessage": "Chuyб»ѓn khГґng thГ nh khГґng"
+  },
+  "label.no": {
+    "defaultMessage": "KhГґng"
+  },
+  "label.no-items": {
+    "defaultMessage": "KhГґng cГі mб»Ґc nГ o"
   },
   "label.notifications": {
-    "defaultMessage": "Thông báo"
+    "defaultMessage": "ThГґng bГЎo"
   },
   "label.or": {
-    "defaultMessage": "hoặc"
+    "defaultMessage": "hoбє·c"
   },
   "label.password": {
-    "defaultMessage": "Mật khẩu"
+    "defaultMessage": "Mбє­t khбє©u"
+  },
+  "label.plan-custom": {
+    "defaultMessage": "Tuб»і chб»‰nh"
+  },
+  "label.plan-large": {
+    "defaultMessage": "Lб»›n"
+  },
+  "label.plan-medium": {
+    "defaultMessage": "Trung bГ¬nh"
+  },
+  "label.plan-small": {
+    "defaultMessage": "Nhб»Џ"
+  },
+  "label.plan-unknown": {
+    "defaultMessage": "KhГґng rГµ"
+  },
+  "label.platform": {
+    "defaultMessage": "Mod loader"
   },
   "label.played": {
-    "defaultMessage": "Đã chơi {time}"
+    "defaultMessage": "ДђГЈ chЖЎi {ago}"
+  },
+  "label.project": {
+    "defaultMessage": "Dб»± ГЎn"
   },
   "label.public": {
-    "defaultMessage": "Công khai"
+    "defaultMessage": "CГґng khai"
   },
   "label.rejected": {
-    "defaultMessage": "Bị từ chối"
+    "defaultMessage": "Bб»‹ tб»« chб»‘i"
+  },
+  "label.rename-failed": {
+    "defaultMessage": "Дђб»•i tГЄn khГґng thГ nh cГґng"
   },
   "label.rewards-program-terms-agreement": {
-    "defaultMessage": "Tôi đồng ý với <terms-link>Điều Khoản Chương Trình Phần Thưởng</terms-link>"
+    "defaultMessage": "TГґi Д‘б»“ng ГЅ vб»›i <terms-link>Дђiб»Ѓu KhoбєЈn ChЖ°ЖЎng TrГ¬nh Phбє§n ThЖ°б»џng</terms-link>"
   },
   "label.saved": {
-    "defaultMessage": "Đã lưu"
+    "defaultMessage": "ДђГЈ lЖ°u"
   },
   "label.scopes": {
-    "defaultMessage": "Phạm vi"
+    "defaultMessage": "PhбєЎm vi"
+  },
+  "label.search": {
+    "defaultMessage": "TГ¬m kiбєїm"
+  },
+  "label.select-all": {
+    "defaultMessage": "Chб»Ќn tбєҐt cбєЈ"
+  },
+  "label.selection-actions": {
+    "defaultMessage": "HГ nh Д‘б»™ng lб»±a chб»Ќn"
   },
   "label.server": {
-    "defaultMessage": "Máy chủ"
+    "defaultMessage": "MГЎy chб»§"
   },
   "label.servers": {
-    "defaultMessage": "Máy chủ"
+    "defaultMessage": "MГЎy chб»§"
   },
   "label.settings": {
-    "defaultMessage": "Cài đặt"
+    "defaultMessage": "CГ i Д‘бє·t"
   },
   "label.singleplayer": {
-    "defaultMessage": "Chơi đơn"
+    "defaultMessage": "ChЖЎi Д‘ЖЎn"
+  },
+  "label.sort-by": {
+    "defaultMessage": "SбєЇp xбєїp theo: "
+  },
+  "label.success": {
+    "defaultMessage": "ThГ nh cГґng"
   },
   "label.title": {
-    "defaultMessage": "Tiêu đề"
+    "defaultMessage": "TiГЄu Д‘б»Ѓ"
+  },
+  "label.unknown": {
+    "defaultMessage": "KhГґng rГµ"
   },
   "label.unlisted": {
-    "defaultMessage": "Không công khai"
+    "defaultMessage": "KhГґng cГґng khai"
+  },
+  "label.update-available": {
+    "defaultMessage": "CГі cбє­p nhбє­t mб»›i"
+  },
+  "label.updating": {
+    "defaultMessage": "Дђang tбєЈi lГЄn..."
+  },
+  "label.upload-failed": {
+    "defaultMessage": "TбєЈi lГЄn thбєҐt bбєЎi"
+  },
+  "label.username": {
+    "defaultMessage": "TГЄn Д‘Дѓng nhбє­p"
+  },
+  "label.version": {
+    "defaultMessage": "PhiГЄn bбєЈn"
   },
   "label.visibility": {
-    "defaultMessage": "Khả năng hiển thị"
+    "defaultMessage": "KhбєЈ nДѓng hiб»ѓn thб»‹"
   },
   "label.visit-your-profile": {
-    "defaultMessage": "Xem hồ sơ của bạn"
+    "defaultMessage": "Xem hб»“ sЖЎ cб»§a bбєЎn"
+  },
+  "label.yes": {
+    "defaultMessage": "CГі"
+  },
+  "locale.cs-CZ": {
+    "defaultMessage": "Tiбєїng Cб»™ng hoГ  SГ©c"
+  },
+  "locale.da-DK": {
+    "defaultMessage": "Tiбєїng Дђan MбєЎch"
+  },
+  "locale.de-CH": {
+    "defaultMessage": "Tiбєїng Дђб»©c (Thб»Ґy SД©)"
+  },
+  "locale.de-DE": {
+    "defaultMessage": "Tiбєїng Дђб»©c (Дђб»©c)"
+  },
+  "locale.en-US": {
+    "defaultMessage": "Tiбєїng Anh (Hoa Kб»і)"
+  },
+  "locale.es-419": {
+    "defaultMessage": "Tiбєїng TГўy Ban Nha (Mб»№ Latinh)"
+  },
+  "locale.es-ES": {
+    "defaultMessage": "Tiбєїng TГўy Ban Nha (TГўy Ban Nha)"
+  },
+  "locale.fi-FI": {
+    "defaultMessage": "Tiбєїng Phбє§n Lan"
+  },
+  "locale.fil-PH": {
+    "defaultMessage": "Tiбєїng Philippines"
+  },
+  "locale.fr-FR": {
+    "defaultMessage": "Tiбєїng PhГЎp"
+  },
+  "locale.he-IL": {
+    "defaultMessage": "Tiбєїng Do ThГЎi"
+  },
+  "locale.hu-HU": {
+    "defaultMessage": "Tiбєїng Hungary"
+  },
+  "locale.id-ID": {
+    "defaultMessage": "Tiбєїng Indonesia"
+  },
+  "locale.it-IT": {
+    "defaultMessage": "Tiбєїng Гќ (Гќ)"
+  },
+  "locale.ja-JP": {
+    "defaultMessage": "Tiбєїng Nhбє­t"
+  },
+  "locale.ko-KR": {
+    "defaultMessage": "Tiбєїng HГ n"
+  },
+  "locale.ms-MY": {
+    "defaultMessage": "Tiбєїng Malaysia"
+  },
+  "locale.nl-NL": {
+    "defaultMessage": "Tiбєїng HГ  Lan"
+  },
+  "locale.no-NO": {
+    "defaultMessage": "Tiбєїng Na Uy Bokh-man"
+  },
+  "locale.pl-PL": {
+    "defaultMessage": "Tiбєїng Ba Lan"
+  },
+  "locale.pt-BR": {
+    "defaultMessage": "Tiбєїng Bб»“ ДђГ o Nha (Brazil)"
+  },
+  "locale.pt-PT": {
+    "defaultMessage": "Tiбєїng Bб»“ ДђГ o Nha (Bб»“ ДђГ o Nha)"
+  },
+  "locale.ro-RO": {
+    "defaultMessage": "Tiбєїng Romani"
+  },
+  "locale.ru-RU": {
+    "defaultMessage": "Tiбєїng Nga"
+  },
+  "locale.sr-CS": {
+    "defaultMessage": "Tiбєїng Serbia (Latin)"
+  },
+  "locale.sv-SE": {
+    "defaultMessage": "Tiбєїng Thб»Ґy Дђiб»ѓn"
+  },
+  "locale.th-TH": {
+    "defaultMessage": "Tiбєїng ThГЎi"
+  },
+  "locale.tr-TR": {
+    "defaultMessage": "Tiбєїng Thб»• NhД© Kб»і"
+  },
+  "locale.uk-UA": {
+    "defaultMessage": "Tiбєїng Ukraina"
+  },
+  "locale.vi-VN": {
+    "defaultMessage": "Tiбєїng Viб»‡t"
+  },
+  "locale.zh-CN": {
+    "defaultMessage": "Tiбєїng Trung (GiбєЈn thб»ѓ)"
+  },
+  "locale.zh-TW": {
+    "defaultMessage": "Tiбєїng Trung (Phб»“n thб»ѓ)"
   },
   "modal.add-payment-method.action": {
-    "defaultMessage": "Thêm phương thức thanh toán"
+    "defaultMessage": "ThГЄm phЖ°ЖЎng thб»©c thanh toГЎn"
   },
   "modal.add-payment-method.title": {
-    "defaultMessage": "Đang thêm phương thức thanh toán"
+    "defaultMessage": "Дђang thГЄm phЖ°ЖЎng thб»©c thanh toГЎn"
+  },
+  "modal.open-in-app.benefit.install": {
+    "defaultMessage": "Tб»± Д‘б»™ng cГ i Д‘бє·t cГЎc nб»™i dung cбє§n thiбєїt"
+  },
+  "modal.open-in-app.benefit.launch": {
+    "defaultMessage": "ДђГўm thбєіng vГ o server khi khб»џi Д‘б»™ng game"
+  },
+  "modal.open-in-app.benefit.update": {
+    "defaultMessage": "LuГґn cбє­p nhбє­t cГЎc file khi server thay Д‘б»•i"
+  },
+  "modal.open-in-app.get-app": {
+    "defaultMessage": "TбєЈi Mist Launcher"
+  },
+  "modal.open-in-app.opening-automatically": {
+    "defaultMessage": "Mist Launcher sбєЅ Д‘Ж°б»Јc tб»± Д‘б»™ng mб»џ..."
+  },
+  "modal.open-in-app.title": {
+    "defaultMessage": "Mб»џ Mist Launcher"
+  },
+  "modal.open-in-app.why-use": {
+    "defaultMessage": "TбєЎi sao nГЄn sб»­ dб»Ґng Mist Launcher"
   },
   "notification.error.title": {
-    "defaultMessage": "Đã xảy ra lỗi"
+    "defaultMessage": "ДђГЈ xбєЈy ra lб»—i"
   },
   "omorphia.component.badge.label.accepted": {
-    "defaultMessage": "Đã chấp nhận"
+    "defaultMessage": "ДђГЈ chбєҐp nhбє­n"
   },
   "omorphia.component.badge.label.approved": {
-    "defaultMessage": "Đã phê duyệt"
+    "defaultMessage": "ДђГЈ phГЄ duyб»‡t"
   },
   "omorphia.component.badge.label.archived": {
-    "defaultMessage": "Đã lưu trữ"
+    "defaultMessage": "ДђГЈ lЖ°u trб»Ї"
   },
   "omorphia.component.badge.label.closed": {
-    "defaultMessage": "Đã đóng"
+    "defaultMessage": "ДђГЈ Д‘Гіng"
   },
   "omorphia.component.badge.label.creator": {
-    "defaultMessage": "Tác giả"
+    "defaultMessage": "TГЎc giбєЈ"
   },
   "omorphia.component.badge.label.draft": {
-    "defaultMessage": "Nháp"
+    "defaultMessage": "NhГЎp"
   },
   "omorphia.component.badge.label.failed": {
-    "defaultMessage": "Thất bại"
+    "defaultMessage": "ThбєҐt bбєЎi"
   },
   "omorphia.component.badge.label.listed": {
-    "defaultMessage": "Công khai"
+    "defaultMessage": "CГґng khai"
   },
   "omorphia.component.badge.label.moderator": {
-    "defaultMessage": "Kiểm duyệt viên"
+    "defaultMessage": "Kiб»ѓm duyб»‡t viГЄn"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Đội Ngũ Modrinth"
+    "defaultMessage": "Дђб»™i NgЕ© Modrinth"
   },
   "omorphia.component.badge.label.pending": {
-    "defaultMessage": "Đang chờ"
+    "defaultMessage": "Дђang chб»ќ"
   },
   "omorphia.component.badge.label.private": {
-    "defaultMessage": "Riêng tư"
+    "defaultMessage": "RiГЄng tЖ°"
   },
   "omorphia.component.badge.label.processed": {
-    "defaultMessage": "Đã xử lý"
+    "defaultMessage": "ДђГЈ xб»­ lГЅ"
   },
   "omorphia.component.badge.label.rejected": {
-    "defaultMessage": "Bị từ chối"
+    "defaultMessage": "Bб»‹ tб»« chб»‘i"
   },
   "omorphia.component.badge.label.returned": {
-    "defaultMessage": "Đã trả lại"
+    "defaultMessage": "ДђГЈ trбєЈ lбєЎi"
   },
   "omorphia.component.badge.label.safe": {
-    "defaultMessage": "Đạt"
+    "defaultMessage": "ДђбєЎt"
   },
   "omorphia.component.badge.label.scheduled": {
-    "defaultMessage": "Đã lên lịch"
+    "defaultMessage": "ДђГЈ lГЄn lб»‹ch"
   },
   "omorphia.component.badge.label.under-review": {
-    "defaultMessage": "Đang được kiểm duyệt"
+    "defaultMessage": "Дђang Д‘Ж°б»Јc kiб»ѓm duyб»‡t"
   },
   "omorphia.component.badge.label.unlisted": {
-    "defaultMessage": "Không công khai"
+    "defaultMessage": "KhГґng cГґng khai"
   },
   "omorphia.component.badge.label.unsafe": {
-    "defaultMessage": "Không đạt"
+    "defaultMessage": "KhГґng Д‘бєЎt"
   },
   "omorphia.component.badge.label.withheld": {
-    "defaultMessage": "Bị giữ lại"
+    "defaultMessage": "Bб»‹ giб»Ї lбєЎi"
   },
   "omorphia.component.copy.action.copy": {
-    "defaultMessage": "Sao chép mã vào bảng nhớ tạm"
+    "defaultMessage": "Sao chГ©p mГЈ vГ o bбєЈng nhб»› tбєЎm"
   },
   "omorphia.component.environment-indicator.label.client": {
     "defaultMessage": "Client"
   },
   "omorphia.component.environment-indicator.label.client-and-server": {
-    "defaultMessage": "Client và server"
+    "defaultMessage": "Client vГ  server"
   },
   "omorphia.component.environment-indicator.label.client-or-server": {
-    "defaultMessage": "Client hoặc server"
+    "defaultMessage": "Client hoбє·c server"
   },
   "omorphia.component.environment-indicator.label.server": {
-    "defaultMessage": "Máy chủ"
+    "defaultMessage": "MГЎy chб»§"
   },
   "omorphia.component.environment-indicator.label.type": {
     "defaultMessage": "{type}"
   },
   "omorphia.component.environment-indicator.label.unsupported": {
-    "defaultMessage": "Không được hỗ trợ"
+    "defaultMessage": "KhГґng Д‘Ж°б»Јc hб»— trб»Ј"
+  },
+  "payment-method.amazon_pay": {
+    "defaultMessage": "Amazon Pay"
+  },
+  "payment-method.amex": {
+    "defaultMessage": "American Express"
+  },
+  "payment-method.card_display": {
+    "defaultMessage": "{card_brand} kбєїt thГєc trong {last_four}"
+  },
+  "payment-method.cashapp": {
+    "defaultMessage": "Cash App"
   },
   "payment-method.charity": {
-    "defaultMessage": "Từ thiện"
+    "defaultMessage": "Tб»« thiб»‡n"
   },
   "payment-method.charity-plural": {
-    "defaultMessage": "Từ thiện"
+    "defaultMessage": "Tб»« thiб»‡n"
+  },
+  "payment-method.diners": {
+    "defaultMessage": "Diners Club"
+  },
+  "payment-method.discover": {
+    "defaultMessage": "Discover"
+  },
+  "payment-method.eftpos": {
+    "defaultMessage": "EFTPOS"
   },
   "payment-method.gift-card": {
-    "defaultMessage": "Thẻ quà tặng"
+    "defaultMessage": "Thбє» quГ  tбє·ng"
   },
   "payment-method.gift-card-plural": {
-    "defaultMessage": "Thẻ quà tặng"
+    "defaultMessage": "Thбє» quГ  tбє·ng"
+  },
+  "payment-method.jcb": {
+    "defaultMessage": "JCB"
+  },
+  "payment-method.mastercard": {
+    "defaultMessage": "MasterCard"
+  },
+  "payment-method.paypal": {
+    "defaultMessage": "PayPal"
+  },
+  "payment-method.paypal_international": {
+    "defaultMessage": "PayPal Quб»‘c Tбєї"
+  },
+  "payment-method.unionpay": {
+    "defaultMessage": "UnionPay"
+  },
+  "payment-method.unknown": {
+    "defaultMessage": "PhЖ°ЖЎng thб»©c thanh toГЎn khГґng xГЎc Д‘б»‹nh"
   },
   "payment-method.venmo": {
     "defaultMessage": "Venmo"
   },
   "payment-method.virtual-visa": {
-    "defaultMessage": "Visa Ảo"
+    "defaultMessage": "Visa бєўo"
   },
   "payment-method.virtual-visa-plural": {
-    "defaultMessage": "Visa Ảo"
+    "defaultMessage": "Visa бєўo"
+  },
+  "payment-method.visa": {
+    "defaultMessage": "Visa"
+  },
+  "project-card.date.published.tooltip": {
+    "defaultMessage": "ДђЖ°б»Јc Д‘Дѓng vГ o {date}"
+  },
+  "project-card.date.updated.tooltip": {
+    "defaultMessage": "Cбє­p nhбє­t vГ o {date}"
+  },
+  "project-card.environment.client": {
+    "defaultMessage": "MГЎy khГЎch"
+  },
+  "project-card.environment.client-and-server": {
+    "defaultMessage": "MГЎy khГЎch vГ  mГЎy chб»§"
+  },
+  "project-card.environment.client-or-server": {
+    "defaultMessage": "MГЎy khГЎch hoбє·c mГЎy chб»§"
+  },
+  "project-card.environment.server": {
+    "defaultMessage": "MГЎy chб»§"
   },
   "project-type.all": {
-    "defaultMessage": "Tất cả"
+    "defaultMessage": "TбєҐt cбєЈ"
   },
   "project-type.datapack.capital": {
     "defaultMessage": "{count, plural, other {Data Pack}}"
@@ -518,29 +1778,32 @@
   "project-type.plugin.lowercase": {
     "defaultMessage": "{count, plural, other {plugin}}"
   },
+  "project-type.project.capital": {
+    "defaultMessage": "{count, plural, one {Dб»± ГЎn} other {Dб»± ГЎn}}"
+  },
   "project-type.project.category": {
-    "defaultMessage": "Dự án"
+    "defaultMessage": "Dб»± ГЎn"
   },
   "project-type.project.lowercase": {
-    "defaultMessage": "{count, plural, other {dự án}}"
+    "defaultMessage": "{count, plural, other {dб»± ГЎn}}"
   },
   "project-type.resourcepack.capital": {
-    "defaultMessage": "{count, plural, other {Gói tài nguyên}}"
+    "defaultMessage": "{count, plural, other {GГіi tГ i nguyГЄn}}"
   },
   "project-type.resourcepack.category": {
-    "defaultMessage": "Gói tài nguyên"
+    "defaultMessage": "GГіi tГ i nguyГЄn"
   },
   "project-type.resourcepack.lowercase": {
-    "defaultMessage": "{count, plural, other {gói tài nguyên}}"
+    "defaultMessage": "{count, plural, other {gГіi tГ i nguyГЄn}}"
   },
   "project-type.server.capital": {
-    "defaultMessage": "{count, plural, other {Máy chủ}}"
+    "defaultMessage": "{count, plural, other {MГЎy chб»§}}"
   },
   "project-type.server.category": {
-    "defaultMessage": "Máy chủ"
+    "defaultMessage": "MГЎy chб»§"
   },
   "project-type.server.lowercase": {
-    "defaultMessage": "{count, plural, other {máy chủ}}"
+    "defaultMessage": "{count, plural, other {mГЎy chб»§}}"
   },
   "project-type.shader.capital": {
     "defaultMessage": "{count, plural, other {Shader}}"
@@ -552,217 +1815,598 @@
     "defaultMessage": "{count, plural, other {shader}}"
   },
   "project.about.compatibility.environments": {
-    "defaultMessage": "Môi trường được hỗ trợ"
+    "defaultMessage": "MГґi trЖ°б»ќng Д‘Ж°б»Јc hб»— trб»Ј"
   },
   "project.about.compatibility.environments.client-and-server": {
-    "defaultMessage": "Máy khách và máy chủ"
+    "defaultMessage": "MГЎy khГЎch vГ  mГЎy chб»§"
   },
   "project.about.compatibility.environments.client-side": {
-    "defaultMessage": "Phía máy khách"
+    "defaultMessage": "PhГ­a mГЎy khГЎch"
   },
   "project.about.compatibility.environments.dedicated-servers-only": {
-    "defaultMessage": "Chỉ máy chủ chuyên dụng"
+    "defaultMessage": "Chб»‰ mГЎy chб»§ chuyГЄn dб»Ґng"
   },
   "project.about.compatibility.environments.server-side": {
-    "defaultMessage": "Phía máy chủ"
+    "defaultMessage": "PhГ­a mГЎy chб»§"
   },
   "project.about.compatibility.environments.singleplayer": {
-    "defaultMessage": "Chơi đơn"
+    "defaultMessage": "ChЖЎi Д‘ЖЎn"
   },
   "project.about.compatibility.environments.singleplayer-only": {
-    "defaultMessage": "Chỉ chơi đơn"
+    "defaultMessage": "Chб»‰ chЖЎi Д‘ЖЎn"
   },
   "project.about.compatibility.game.minecraftJava": {
     "defaultMessage": "Minecraft: Java Edition"
   },
   "project.about.compatibility.platforms": {
-    "defaultMessage": "Nền tảng"
+    "defaultMessage": "Nб»Ѓn tбєЈng"
   },
   "project.about.compatibility.title": {
-    "defaultMessage": "Tương thích"
+    "defaultMessage": "TЖ°ЖЎng thГ­ch"
+  },
+  "project.about.creators.organization": {
+    "defaultMessage": "Tб»• chб»©c"
   },
   "project.about.creators.owner": {
-    "defaultMessage": "Chủ dự án"
+    "defaultMessage": "Chб»§ dб»± ГЎn"
   },
   "project.about.creators.title": {
-    "defaultMessage": "Người tạo"
+    "defaultMessage": "NgЖ°б»ќi tбєЎo"
   },
   "project.about.details.created": {
-    "defaultMessage": "Tạo ngày {date}"
+    "defaultMessage": "TбєЎo ngГ y {date}"
   },
   "project.about.details.licensed": {
-    "defaultMessage": "Giấy phép {license}"
+    "defaultMessage": "GiбєҐy phГ©p {license}"
   },
   "project.about.details.published": {
-    "defaultMessage": "Xuất bản ngày {date}"
+    "defaultMessage": "XuбєҐt bбєЈn ngГ y {date}"
   },
   "project.about.details.submitted": {
-    "defaultMessage": "Gửi ngày {date}"
+    "defaultMessage": "Gб»­i ngГ y {date}"
   },
   "project.about.details.updated": {
-    "defaultMessage": "Cập nhật ngày {date}"
+    "defaultMessage": "Cбє­p nhбє­t ngГ y {date}"
   },
   "project.about.links.discord": {
-    "defaultMessage": "Tham gia máy chủ Discord"
+    "defaultMessage": "Tham gia mГЎy chб»§ Discord"
   },
   "project.about.links.donate.bmac": {
     "defaultMessage": "Buy Me a Coffee"
   },
   "project.about.links.donate.generic": {
-    "defaultMessage": "Ủng hộ"
+    "defaultMessage": "б»¦ng hб»™"
   },
   "project.about.links.donate.github": {
-    "defaultMessage": "Tài trợ trên GitHub"
+    "defaultMessage": "TГ i trб»Ј trГЄn GitHub"
   },
   "project.about.links.donate.kofi": {
-    "defaultMessage": "Ủng hộ trên Ko-fi"
+    "defaultMessage": "б»¦ng hб»™ trГЄn Ko-fi"
   },
   "project.about.links.donate.patreon": {
-    "defaultMessage": "Ủng hộ trên Patreon"
+    "defaultMessage": "б»¦ng hб»™ trГЄn Patreon"
   },
   "project.about.links.donate.paypal": {
-    "defaultMessage": "Ủng hộ trên PayPal"
+    "defaultMessage": "б»¦ng hб»™ trГЄn PayPal"
   },
   "project.about.links.issues": {
-    "defaultMessage": "Báo cáo lỗi"
+    "defaultMessage": "BГЎo cГЎo lб»—i"
+  },
+  "project.about.links.site": {
+    "defaultMessage": "Truy cбє­p trang web"
   },
   "project.about.links.source": {
-    "defaultMessage": "Xem nguồn"
+    "defaultMessage": "Xem nguб»“n"
+  },
+  "project.about.links.store": {
+    "defaultMessage": "Truy cбє­p trang cб»­a hГ ng"
   },
   "project.about.links.title": {
-    "defaultMessage": "Liên kết"
+    "defaultMessage": "LiГЄn kбєїt"
   },
   "project.about.links.wiki": {
     "defaultMessage": "Xem wiki"
   },
+  "project.about.server.address.tooltip": {
+    "defaultMessage": "Sao chГ©p Д‘б»‹a chб»‰ mГЎy chб»§ Java"
+  },
+  "project.about.server.copied": {
+    "defaultMessage": "ДђГЈ sao chГ©p!"
+  },
+  "project.about.server.copiedText": {
+    "defaultMessage": "ДђГЈ sao chГ©p Д‘б»‹a chб»‰ mГЎy chб»§ vГ o bб»™ nhб»› tбєЎm"
+  },
+  "project.about.server.downloadModpack": {
+    "defaultMessage": "TбєЈi modpack"
+  },
+  "project.about.server.languages": {
+    "defaultMessage": "NgГґn ngб»Ї"
+  },
+  "project.about.server.recommendedVersion": {
+    "defaultMessage": "(Дђб»Ѓ xuбєҐt)"
+  },
+  "project.about.server.region": {
+    "defaultMessage": "Khu vб»±c"
+  },
+  "project.about.server.requiredContent": {
+    "defaultMessage": "Nб»™i dung bбєЇt buб»™c"
+  },
+  "project.about.server.title": {
+    "defaultMessage": "Chi tiбєїt mГЎy chб»§"
+  },
+  "project.about.tags.title": {
+    "defaultMessage": "Thбє»"
+  },
+  "project.download-count-tooltip": {
+    "defaultMessage": "{count, number} {count, plural, one {lЖ°б»Јt tбєЈi xuб»‘ng} other {lЖ°б»Јt tбєЈi xuб»‘ng}}"
+  },
   "project.environment.client-and-server.description": {
-    "defaultMessage": "Có một số chức năng hoạt động trên cả client và server, dù chỉ ở mức độ một phần."
+    "defaultMessage": "YГЄu cбє§u cГ i Д‘бє·t trГЄn cбєЈ mГЎy khГЎch vГ  mГЎy chб»§."
   },
   "project.environment.client-and-server.title": {
-    "defaultMessage": "Máy khách và máy chủ, yêu cầu ở cả hai bên"
+    "defaultMessage": "MГЎy khГЎch vГ  mГЎy chб»§, yГЄu cбє§u б»џ cбєЈ hai bГЄn"
   },
   "project.environment.client-only-server-optional.description": {
-    "defaultMessage": "Có một số chức năng hoạt động trên cả client và server, dù chỉ ở mức độ một phần."
+    "defaultMessage": "Phбє§n lб»›n cГЎc tГ­nh nДѓng Д‘б»Ѓu nбє±m б»џ phГ­a mГЎy khГЎch, nhЖ°ng viб»‡c cГ i Д‘бє·t trГЄn mГЎy chб»§ sбєЅ mб»џ khГіa thГЄm cГЎc chб»©c nДѓng nГўng cao."
   },
   "project.environment.client-only-server-optional.title": {
-    "defaultMessage": "Máy khách và máy chủ, tùy chọn trên máy chủ"
+    "defaultMessage": "MГЎy khГЎch vГ  mГЎy chб»§, tГ№y chб»Ќn trГЄn mГЎy chб»§"
   },
   "project.environment.client-only.description": {
-    "defaultMessage": "Mọi chức năng đều chạy phía client và tương thích với server vanilla."
+    "defaultMessage": "Mб»Ќi chб»©c nДѓng Д‘б»Ѓu chбєЎy phГ­a client vГ  tЖ°ЖЎng thГ­ch vб»›i server vanilla."
   },
   "project.environment.client-only.title": {
-    "defaultMessage": "Chỉ phía client"
+    "defaultMessage": "Chб»‰ phГ­a client"
   },
   "project.environment.client-or-server-prefers-both.description": {
-    "defaultMessage": "Có một số chức năng hoạt động trên cả client và server, dù chỉ ở mức độ một phần."
+    "defaultMessage": "CГі mб»™t sб»‘ tГ­nh nДѓng hoбєЎt Д‘б»™ng trГЄn cбєЈ mГЎy khГЎch vГ  mГЎy chб»§, dГ№ cГі thб»ѓ chб»‰ lГ  mб»™t phбє§n. Viб»‡c cГ i Д‘бє·t trГЄn cбєЈ hai phГ­a sбєЅ mang lбєЎi trбєЈi nghiб»‡m tб»‘t nhбєҐt."
   },
   "project.environment.client-or-server-prefers-both.title": {
-    "defaultMessage": "Máy khách và máy chủ, hoạt động tốt nhất khi được cài trên cả hai bên"
+    "defaultMessage": "MГЎy khГЎch vГ  mГЎy chб»§, hoбєЎt Д‘б»™ng tб»‘t nhбєҐt khi Д‘Ж°б»Јc cГ i trГЄn cбєЈ hai bГЄn"
   },
   "project.environment.client-or-server.description": {
-    "defaultMessage": "Có một số chức năng hoạt động trên cả client và server, dù chỉ ở mức độ một phần."
+    "defaultMessage": "CГі mб»™t sб»‘ chб»©c nДѓng hoбєЎt Д‘б»™ng trГЄn cбєЈ client vГ  server, dГ№ chб»‰ б»џ mб»©c Д‘б»™ mб»™t phбє§n."
+  },
+  "project.environment.client-or-server.title": {
+    "defaultMessage": "MГЎy khГЎch vГ  mГЎy chб»§, khГґng bбєЇt buб»™c trГЄn cбєЈ hai"
   },
   "project.environment.dedicated-server-only.description": {
-    "defaultMessage": "Mọi chức năng đều chạy phía server và tương thích với client vanilla."
+    "defaultMessage": "Mб»Ќi tГ­nh nДѓng Д‘б»Ѓu Д‘Ж°б»Јc xб»­ lГЅ б»џ phГ­a mГЎy chб»§ vГ  tЖ°ЖЎng thГ­ch vб»›i cГЎc mГЎy khГЎch vanilla (bбєЈn gб»‘c). Chб»‰ hoбєЎt Д‘б»™ng trГЄn cГЎc mГЎy chб»§ chuyГЄn dб»Ґng."
   },
   "project.environment.dedicated-server-only.title": {
-    "defaultMessage": "Chỉ phía máy chủ"
+    "defaultMessage": "Chб»‰ phГ­a mГЎy chб»§"
   },
   "project.environment.server-only-client-optional.description": {
-    "defaultMessage": "Có một số chức năng hoạt động trên cả client và server, dù chỉ ở mức độ một phần."
+    "defaultMessage": "Phбє§n lб»›n chб»©c nДѓng hoбєЎt Д‘б»™ng trГЄn mГЎy chб»§, nhЖ°ng cГ i Д‘бє·t trГЄn mГЎy khГЎch sбєЅ giГєp tДѓng cЖ°б»ќng trбєЈi nghiб»‡m vГ  tГ­nh nДѓng."
+  },
+  "project.environment.server-only-client-optional.title": {
+    "defaultMessage": "MГЎy khГЎch vГ  mГЎy chб»§, khГґng bбєЇt buб»™c trГЄn mГЎy khГЎch"
   },
   "project.environment.server-only.description": {
-    "defaultMessage": "Mọi chức năng đều chạy phía server và tương thích với client vanilla."
+    "defaultMessage": "Mб»Ќi tГ­nh nДѓng Д‘б»Ѓu Д‘Ж°б»Јc xб»­ lГЅ б»џ phГ­a mГЎy chб»§ vГ  tЖ°ЖЎng thГ­ch hoГ n toГ n vб»›i cГЎc mГЎy khГЎch vanilla (bбєЈn gб»‘c). NgoГ i ra, mod cЕ©ng hoбєЎt Д‘б»™ng trГЄn mГЎy chб»§ nб»™i bб»™ б»џ chбєї Д‘б»™ chЖЎi Д‘ЖЎn."
+  },
+  "project.environment.server-only.title": {
+    "defaultMessage": "Chб»‰ mГЎy chб»§, cЕ©ng hoбєЎt Д‘б»™ng trong chбєї Д‘б»™ chЖЎi Д‘ЖЎn"
   },
   "project.environment.singleplayer-only.description": {
-    "defaultMessage": "Chức năng này chỉ hoạt động trong chế độ chơi đơn hoặc khi không kết nối với máy chủ nhiều người chơi."
+    "defaultMessage": "Chб»©c nДѓng nГ y chб»‰ hoбєЎt Д‘б»™ng trong chбєї Д‘б»™ chЖЎi Д‘ЖЎn hoбє·c khi khГґng kбєїt nб»‘i vб»›i mГЎy chб»§ nhiб»Ѓu ngЖ°б»ќi chЖЎi."
   },
   "project.environment.singleplayer-only.title": {
-    "defaultMessage": "Chỉ chơi đơn"
+    "defaultMessage": "Chб»‰ chЖЎi Д‘ЖЎn"
   },
   "project.environment.tag.not-applicable": {
     "defaultMessage": "N/A"
   },
   "project.environment.tag.unknown": {
-    "defaultMessage": "Không rõ"
+    "defaultMessage": "KhГґng rГµ"
   },
   "project.environment.unknown.description": {
-    "defaultMessage": "Môi trường cho phiên bản này chưa được xác định."
+    "defaultMessage": "MГґi trЖ°б»ќng cho phiГЄn bбєЈn nГ y chЖ°a Д‘Ж°б»Јc xГЎc Д‘б»‹nh."
   },
   "project.environment.unknown.title": {
-    "defaultMessage": "Môi trường không xác định"
+    "defaultMessage": "MГґi trЖ°б»ќng khГґng xГЎc Д‘б»‹nh"
+  },
+  "project.follower-count-tooltip": {
+    "defaultMessage": "{count, number} {count, plural, one {lЖ°б»Јt theo dГµi} other {lЖ°б»Јt theo dГµi}}"
+  },
+  "project.online-player-count": {
+    "defaultMessage": "{count, number} trб»±c tuyбєїn"
+  },
+  "project.online-player-count.tooltip": {
+    "defaultMessage": "{count} {countPlural, plural, one {ngЖ°б»ќi chЖЎi} other {ngЖ°б»ќi chЖЎi}} trб»±c tuyбєїn"
+  },
+  "project.recent-plays": {
+    "defaultMessage": "{count} {countPlural, plural, one {lЖ°б»Јt chЖЎi gбє§n Д‘Гўy} other {lЖ°б»Јt chЖЎi gбє§n Д‘Гўy}}"
+  },
+  "project.recent-plays.tooltip": {
+    "defaultMessage": "{count} {countPlural, plural, one {lЖ°б»Јt chЖЎi gбє§n Д‘Гўy} other {lЖ°б»Јt chЖЎi gбє§n Д‘Гўy}} tб»« Modrinth trong 2 tuбє§n vб»«a qua"
+  },
+  "project.server.customModpackTooltip": {
+    "defaultMessage": "Dб»± ГЎn nГ y cГі sб»­ dб»Ґng modpack tuб»і chб»‰nh"
+  },
+  "project.server.language.af": {
+    "defaultMessage": "Tiбєїng Nam Phi"
+  },
+  "project.server.language.am": {
+    "defaultMessage": "Tiбєїng Amharic"
+  },
+  "project.server.language.ar": {
+    "defaultMessage": "Tiбєїng бєў Rбє­p"
+  },
+  "project.server.language.az": {
+    "defaultMessage": "Tiбєїng Azeri"
+  },
+  "project.server.language.be": {
+    "defaultMessage": "Tiбєїng Belarus"
+  },
+  "project.server.language.bg": {
+    "defaultMessage": "Tiбєїng Bulgaria"
+  },
+  "project.server.language.bn": {
+    "defaultMessage": "Tiбєїng Bengal"
+  },
+  "project.server.language.bs": {
+    "defaultMessage": "Tiбєїng Bosnia"
+  },
+  "project.server.language.ca": {
+    "defaultMessage": "Tiбєїng Catalan"
+  },
+  "project.server.language.cs": {
+    "defaultMessage": "Tiбєїng SГ©c"
+  },
+  "project.server.language.da": {
+    "defaultMessage": "Tiбєїng Дђan MбєЎch"
+  },
+  "project.server.language.de": {
+    "defaultMessage": "Tiбєїng Дђб»©c"
+  },
+  "project.server.language.el": {
+    "defaultMessage": "Tiбєїng Hy LбєЎp"
+  },
+  "project.server.language.en": {
+    "defaultMessage": "Tiбєїng Anh"
+  },
+  "project.server.language.eo": {
+    "defaultMessage": "Quб»‘c tбєї ngб»Ї"
+  },
+  "project.server.language.es": {
+    "defaultMessage": "Tiбєїng TГўy Ban Nha"
+  },
+  "project.server.language.et": {
+    "defaultMessage": "Tiбєїng Et-tГґ-ni-a"
+  },
+  "project.server.language.eu": {
+    "defaultMessage": "Tiбєїng Basque"
+  },
+  "project.server.language.fa": {
+    "defaultMessage": "Tiбєїng Ba TЖ°"
+  },
+  "project.server.language.fi": {
+    "defaultMessage": "Tiбєїng Phбє§n Lan"
+  },
+  "project.server.language.fr": {
+    "defaultMessage": "Tiбєїng PhГЎp"
+  },
+  "project.server.language.ga": {
+    "defaultMessage": "Tiбєїng Ireland"
+  },
+  "project.server.language.gl": {
+    "defaultMessage": "Tiбєїng Galicia"
+  },
+  "project.server.language.he": {
+    "defaultMessage": "Tiбєїng Do ThГЎi"
+  },
+  "project.server.language.hi": {
+    "defaultMessage": "TiГЄМЃng Hin-Д‘i"
+  },
+  "project.server.language.hr": {
+    "defaultMessage": "Tiбєїng Croatia"
+  },
+  "project.server.language.hu": {
+    "defaultMessage": "Tiбєїng Hungary"
+  },
+  "project.server.language.hy": {
+    "defaultMessage": "Tiбєїng Armenia"
+  },
+  "project.server.language.id": {
+    "defaultMessage": "Indonesian"
+  },
+  "project.server.language.is": {
+    "defaultMessage": "Icelandic"
+  },
+  "project.server.language.it": {
+    "defaultMessage": "Italian"
+  },
+  "project.server.language.ja": {
+    "defaultMessage": "ж—Ґжњ¬иЄћ"
+  },
+  "project.server.language.ka": {
+    "defaultMessage": "Georgian"
+  },
+  "project.server.language.kk": {
+    "defaultMessage": "Kazakh"
+  },
+  "project.server.language.km": {
+    "defaultMessage": "Khmer"
+  },
+  "project.server.language.kn": {
+    "defaultMessage": "Kannada"
+  },
+  "project.server.language.ko": {
+    "defaultMessage": "Korean"
+  },
+  "project.server.language.lo": {
+    "defaultMessage": "Lao"
+  },
+  "project.server.language.lt": {
+    "defaultMessage": "Lithuanian"
+  },
+  "project.server.language.lv": {
+    "defaultMessage": "Latvian"
+  },
+  "project.server.language.mk": {
+    "defaultMessage": "Macedonian"
+  },
+  "project.server.language.ml": {
+    "defaultMessage": "Malayalam"
+  },
+  "project.server.language.mn": {
+    "defaultMessage": "Mongolian"
+  },
+  "project.server.language.mr": {
+    "defaultMessage": "Marathi"
+  },
+  "project.server.language.ms": {
+    "defaultMessage": "Malay"
+  },
+  "project.server.language.my": {
+    "defaultMessage": "Burmese"
+  },
+  "project.server.language.ne": {
+    "defaultMessage": "Nepali"
+  },
+  "project.server.language.nl": {
+    "defaultMessage": "Dutch"
+  },
+  "project.server.language.no": {
+    "defaultMessage": "Norwegian"
+  },
+  "project.server.language.pa": {
+    "defaultMessage": "Punjabi"
+  },
+  "project.server.language.pl": {
+    "defaultMessage": "Tiбєїng Ba Lan"
+  },
+  "project.server.language.pt": {
+    "defaultMessage": "Tiбєїng Bб»“ ДђГ o Nha"
+  },
+  "project.server.language.ro": {
+    "defaultMessage": "Tiбєїng Romani"
+  },
+  "project.server.language.ru": {
+    "defaultMessage": "Tiбєїng Nga"
+  },
+  "project.server.language.si": {
+    "defaultMessage": "Tiбєїng Sinhala"
+  },
+  "project.server.language.sk": {
+    "defaultMessage": "Tiбєїng Slovakia"
+  },
+  "project.server.language.sl": {
+    "defaultMessage": "Tiбєїng Slovenia"
+  },
+  "project.server.language.sq": {
+    "defaultMessage": "Tiбєїng Albania"
+  },
+  "project.server.language.sr": {
+    "defaultMessage": "Tiбєїng Serbia"
+  },
+  "project.server.language.sv": {
+    "defaultMessage": "Tiбєїng Thб»Ґy Дђiб»ѓn"
+  },
+  "project.server.language.sw": {
+    "defaultMessage": "Tiбєїng Swahili"
+  },
+  "project.server.language.ta": {
+    "defaultMessage": "Tiбєїng Tamil"
+  },
+  "project.server.language.te": {
+    "defaultMessage": "Tiбєїng Telugu"
+  },
+  "project.server.language.th": {
+    "defaultMessage": "Tiбєїng ThГЎi"
+  },
+  "project.server.language.tl": {
+    "defaultMessage": "Tiбєїng Philippines"
+  },
+  "project.server.language.tr": {
+    "defaultMessage": "Tiбєїng Thб»• NhД© Kб»і"
+  },
+  "project.server.language.uk": {
+    "defaultMessage": "Tiбєїng Ukraina"
+  },
+  "project.server.language.ur": {
+    "defaultMessage": "Tiбєїng Urdu"
+  },
+  "project.server.language.uz": {
+    "defaultMessage": "Tiбєїng Uzbek"
+  },
+  "project.server.language.vi": {
+    "defaultMessage": "Tiбєїng Viб»‡t"
+  },
+  "project.server.language.yo": {
+    "defaultMessage": "Tiбєїng Yoruba"
+  },
+  "project.server.language.zh": {
+    "defaultMessage": "Tiбєїng Trung"
+  },
+  "project.server.language.zu": {
+    "defaultMessage": "Tiбєїng Zulu"
+  },
+  "project.server.ping.ms": {
+    "defaultMessage": "{ping, number} ms"
+  },
+  "project.server.region.asia": {
+    "defaultMessage": "ChГўu ГЃ"
+  },
+  "project.server.region.australia": {
+    "defaultMessage": "Гљc"
+  },
+  "project.server.region.europe": {
+    "defaultMessage": "ChГўu Г‚u"
+  },
+  "project.server.region.middle_east": {
+    "defaultMessage": "Trung ДђГґng"
+  },
+  "project.server.region.russia": {
+    "defaultMessage": "Nga"
+  },
+  "project.server.region.south_america": {
+    "defaultMessage": "Nam Mб»№"
+  },
+  "project.server.region.tooltip": {
+    "defaultMessage": "MГЎy chб»§ Д‘Ж°б»Јc Д‘бє·t tбєЎi {regionName}"
+  },
+  "project.server.region.us_east": {
+    "defaultMessage": "PhГ­a ДђГґng Hoa Kб»і"
+  },
+  "project.server.region.us_west": {
+    "defaultMessage": "PhГ­a TГўy Hoa Kб»і"
+  },
+  "project.server.status.offline": {
+    "defaultMessage": "NgoбєЎi tuyбєїn"
+  },
+  "project.server.status.offline.tooltip": {
+    "defaultMessage": "MГЎy chб»§ Д‘ang ngoбєЎi tuyбєїn"
+  },
+  "project.server.status.online": {
+    "defaultMessage": "Trб»±c tuyбєїn"
   },
   "project.settings.analytics.title": {
-    "defaultMessage": "Phân tích"
+    "defaultMessage": "PhГўn tГ­ch"
+  },
+  "project.settings.content.title": {
+    "defaultMessage": "Nб»™i dung"
   },
   "project.settings.description.title": {
-    "defaultMessage": "Mô tả"
+    "defaultMessage": "MГґ tбєЈ"
   },
   "project.settings.environment.client_and_server.description": {
-    "defaultMessage": "Có một số chức năng hoạt động trên cả client và server, dù chỉ ở mức độ một phần."
+    "defaultMessage": "CГі mб»™t sб»‘ chб»©c nДѓng hoбєЎt Д‘б»™ng trГЄn cбєЈ client vГ  server, dГ№ chб»‰ б»џ mб»©c Д‘б»™ mб»™t phбє§n."
+  },
+  "project.settings.environment.client_and_server.optional_both.title": {
+    "defaultMessage": "KhГґng bбєЇt buб»™c cГ i trГЄn cбєЈ hai, hoбєЎt Д‘б»™ng nhЖ° nhau nбєїu Д‘Ж°б»Јc cГ i Д‘бє·t б»џ bбєҐt kб»і bГЄn nГ o"
+  },
+  "project.settings.environment.client_and_server.optional_both_prefers_both.title": {
+    "defaultMessage": "KhГґng bбєЇt buб»™c cho cбєЈ hai bГЄn, nhЖ°ng hoбєЎt Д‘б»™ng tб»‘t nhбєҐt khi Д‘Ж°б»Јc cГ i Д‘бє·t б»џ cбєЈ hai phГ­a"
   },
   "project.settings.environment.client_and_server.optional_client.title": {
-    "defaultMessage": "Tùy chọn trên máy khách"
+    "defaultMessage": "TГ№y chб»Ќn trГЄn mГЎy khГЎch"
   },
   "project.settings.environment.client_and_server.optional_server.title": {
-    "defaultMessage": "Tùy chọn trên máy chủ"
+    "defaultMessage": "TГ№y chб»Ќn trГЄn mГЎy chб»§"
   },
   "project.settings.environment.client_and_server.required_both.title": {
-    "defaultMessage": "Yêu cầu trên cả hai"
+    "defaultMessage": "YГЄu cбє§u trГЄn cбєЈ hai"
   },
   "project.settings.environment.client_and_server.title": {
-    "defaultMessage": "Client và server"
+    "defaultMessage": "Client vГ  server"
   },
   "project.settings.environment.client_only.description": {
-    "defaultMessage": "Mọi chức năng đều chạy phía client và tương thích với server vanilla."
+    "defaultMessage": "Mб»Ќi chб»©c nДѓng Д‘б»Ѓu chбєЎy phГ­a client vГ  tЖ°ЖЎng thГ­ch vб»›i server vanilla."
   },
   "project.settings.environment.client_only.title": {
-    "defaultMessage": "Chỉ phía client"
+    "defaultMessage": "Chб»‰ phГ­a client"
+  },
+  "project.settings.environment.notice.missing-env.description": {
+    "defaultMessage": "Dб»± ГЎn cб»§a bбєЎn Д‘ang thiбєїu thГґng tin vб»Ѓ mГґi trЖ°б»ќng, vui lГІng chб»Ќn tГ№y chб»Ќn phГ№ hб»Јp dЖ°б»›i Д‘Гўy."
+  },
+  "project.settings.environment.notice.missing-env.title": {
+    "defaultMessage": "Vui lГІng chб»Ќn mб»™t mГґi trЖ°б»ќng cho dб»± ГЎn cб»§a bбєЎn"
+  },
+  "project.settings.environment.notice.multiple-environments.description": {
+    "defaultMessage": "CГЎc phiГЄn bбєЈn khГЎc nhau trong dб»± ГЎn cб»§a bбєЎn Д‘ang Д‘Ж°б»Јc thiбєїt lбє­p cГЎc mГґi trЖ°б»ќng khГЎc nhau, vГ¬ vбє­y bбєЎn khГґng thб»ѓ chб»‰nh sб»­a chГєng mб»™t cГЎch Д‘б»“ng loбєЎt vГ o lГєc nГ y."
+  },
+  "project.settings.environment.notice.multiple-environments.title": {
+    "defaultMessage": "Project cб»§a bбєЎn cГі nhiб»Ѓu biбєїn mГґi trЖ°б»ќng"
+  },
+  "project.settings.environment.notice.review-options.description": {
+    "defaultMessage": "ChГєng tГґi vб»«a nГўng cбєҐp hб»‡ thб»‘ng MГґi trЖ°б»ќng trГЄn Modrinth vГ  hiб»‡n Д‘ГЈ cГі thГЄm cГЎc tГ№y chб»Ќn mб»›i. Vui lГІng Д‘бєЈm bбєЈo bбєЎn Д‘ГЈ chб»Ќn Д‘Гєng tГ№y chб»Ќn bГЄn dЖ°б»›i vГ  sau Д‘Гі nhбєҐp vГ o 'XГЎc nhбє­n' khi hoГ n tбєҐt!"
   },
   "project.settings.environment.notice.review-options.title": {
-    "defaultMessage": "Xin hãy xem lại các lựa chọn bên dưới"
+    "defaultMessage": "Xin hГЈy xem lбєЎi cГЎc lб»±a chб»Ќn bГЄn dЖ°б»›i"
+  },
+  "project.settings.environment.notice.wrong-project-type.description": {
+    "defaultMessage": "Chб»‰ cГЎc dб»± ГЎn mod hoбє·c modpack mб»›i cГі thб»ѓ cГі siГЄu dб»Ї liб»‡u vб»Ѓ mГґi trЖ°б»ќng."
+  },
+  "project.settings.environment.notice.wrong-project-type.title": {
+    "defaultMessage": "LoбєЎi dб»± ГЎn nГ y khГґng hб»— trб»Ј siГЄu dб»Ї liб»‡u vб»Ѓ mГґi trЖ°б»ќng"
+  },
+  "project.settings.environment.server_only.dedicated_only.title": {
+    "defaultMessage": "Chб»‰ mГЎy chб»§ chuyГЄn dб»Ґng"
+  },
+  "project.settings.environment.server_only.description": {
+    "defaultMessage": "TбєҐt cбєЈ chб»©c nДѓng Д‘б»Ѓu Д‘Ж°б»Јc thб»±c hiб»‡n б»џ phГ­a mГЎy chб»§ vГ  tЖ°ЖЎng thГ­ch vб»›i cГЎc mГЎy khГЎch vanilla."
   },
   "project.settings.environment.server_only.supports_singleplayer.title": {
-    "defaultMessage": "Cũng hoạt động được trong chế độ chơi đơn"
+    "defaultMessage": "CЕ©ng hoбєЎt Д‘б»™ng Д‘Ж°б»Јc trong chбєї Д‘б»™ chЖЎi Д‘ЖЎn"
   },
   "project.settings.environment.server_only.title": {
-    "defaultMessage": "Chỉ dành cho phía máy chủ"
+    "defaultMessage": "Chб»‰ dГ nh cho phГ­a mГЎy chб»§"
+  },
+  "project.settings.environment.singleplayer.description": {
+    "defaultMessage": "Chб»©c nДѓng nГ y chб»‰ hoбєЎt Д‘б»™ng trong chбєї Д‘б»™ chЖЎi Д‘ЖЎn hoбє·c khi khГґng kбєїt nб»‘i vб»›i mГЎy chб»§ nhiб»Ѓu ngЖ°б»ќi chЖЎi."
   },
   "project.settings.environment.singleplayer.title": {
-    "defaultMessage": "Chỉ dành cho chơi đơn"
+    "defaultMessage": "Chб»‰ dГ nh cho chЖЎi Д‘ЖЎn"
   },
   "project.settings.environment.suboption.accessibility-option-label": {
     "defaultMessage": "{title}: {description}"
   },
+  "project.settings.environment.suboption.accessibility-suboption-group-label": {
+    "defaultMessage": "Tuб»і chб»Ќn con cб»§a {option}"
+  },
+  "project.settings.environment.title": {
+    "defaultMessage": "MГґi trЖ°б»ќng"
+  },
   "project.settings.environment.verification.verify-button": {
-    "defaultMessage": "Xác nhận"
+    "defaultMessage": "XГЎc nhбє­n"
+  },
+  "project.settings.environment.verification.verify-text": {
+    "defaultMessage": "XГЎc minh thiбєїt lбє­p mГґi trЖ°б»ќng cho dб»± ГЎn nГ y."
   },
   "project.settings.gallery.title": {
-    "defaultMessage": "Thư viện"
+    "defaultMessage": "ThЖ° viб»‡n"
   },
   "project.settings.general.title": {
-    "defaultMessage": "Tổng quát"
+    "defaultMessage": "Tб»•ng quГЎt"
   },
   "project.settings.license.title": {
-    "defaultMessage": "Giấy phép"
+    "defaultMessage": "GiбєҐy phГ©p"
   },
   "project.settings.links.title": {
-    "defaultMessage": "Liên kết"
+    "defaultMessage": "LiГЄn kбєїt"
   },
   "project.settings.members.title": {
-    "defaultMessage": "Thành viên"
+    "defaultMessage": "ThГ nh viГЄn"
   },
   "project.settings.notice.no-permission.description": {
-    "defaultMessage": "Bạn không có quyền chỉnh sửa mục này"
+    "defaultMessage": "BбєЎn khГґng cГі quyб»Ѓn chб»‰nh sб»­a mб»Ґc nГ y"
   },
   "project.settings.notice.no-permission.title": {
-    "defaultMessage": "Không có quyền"
+    "defaultMessage": "KhГґng cГі quyб»Ѓn"
+  },
+  "project.settings.server.title": {
+    "defaultMessage": "MГЎy chб»§"
+  },
+  "project.settings.tags.title": {
+    "defaultMessage": "Thбє»"
   },
   "project.settings.upload.title": {
-    "defaultMessage": "Tải lên"
+    "defaultMessage": "TбєЈi lГЄn"
   },
   "project.settings.versions.title": {
-    "defaultMessage": "Các phiên bản"
+    "defaultMessage": "CГЎc phiГЄn bбєЈn"
   },
   "project.settings.view.title": {
     "defaultMessage": "Xem"
@@ -776,278 +2420,785 @@
   "project.versions.channel.release.symbol": {
     "defaultMessage": "R"
   },
+  "project.visibility.archived": {
+    "defaultMessage": "ДђГЈ lЖ°u trб»Ї"
+  },
   "project.visibility.draft": {
-    "defaultMessage": "Nháp"
+    "defaultMessage": "NhГЎp"
   },
   "project.visibility.private": {
-    "defaultMessage": "Riêng tư"
+    "defaultMessage": "RiГЄng tЖ°"
   },
   "project.visibility.public": {
-    "defaultMessage": "Công khai"
+    "defaultMessage": "CГґng khai"
   },
   "project.visibility.rejected": {
-    "defaultMessage": "Bị từ chối"
+    "defaultMessage": "Bб»‹ tб»« chб»‘i"
   },
   "project.visibility.scheduled": {
-    "defaultMessage": "Đã lên lịch"
+    "defaultMessage": "ДђГЈ lГЄn lб»‹ch"
   },
   "project.visibility.under-review": {
-    "defaultMessage": "Đang phê duyệt"
+    "defaultMessage": "Дђang phГЄ duyГЄМЈt"
   },
   "project.visibility.unknown": {
-    "defaultMessage": "Không rõ"
+    "defaultMessage": "KhГґng rГµ"
   },
   "project.visibility.unlisted": {
-    "defaultMessage": "Không công khai"
+    "defaultMessage": "KhГґng cГґng khai"
+  },
+  "project.visibility.unlisted-by-staff": {
+    "defaultMessage": "ДђГЈ bб»‹ бє©n bб»џi Д‘б»™i ngЕ© Modrinth"
   },
   "search.filter.locked.default": {
-    "defaultMessage": "Içime cin girdi"
+    "defaultMessage": "IГ§ime cin girdi"
+  },
+  "search.filter.locked.default.description": {
+    "defaultMessage": "Viб»‡c mб»џ khГіa bб»™ lб»Ќc nГ y cГі thб»ѓ cho phГ©p bбєЎn cГ i Д‘бє·t cГЎc nб»™i dung khГґng tЖ°ЖЎng thГ­ch."
   },
   "search.filter.locked.default.sync": {
-    "defaultMessage": "Sao lưu thư mục"
+    "defaultMessage": "Sao lЖ°u thЖ° mб»Ґc"
   },
   "search.filter.locked.default.title": {
-    "defaultMessage": "{type} đã bị khóa"
+    "defaultMessage": "{type} Д‘ГЈ bб»‹ khГіa"
   },
   "search.filter.locked.default.unlock": {
-    "defaultMessage": "Mở khoá bộ lọc"
+    "defaultMessage": "Mб»џ khoГЎ bб»™ lб»Ќc"
   },
   "search.filter.option.exclusion.add.tooltip": {
-    "defaultMessage": "Trừ"
+    "defaultMessage": "Trб»«"
   },
   "search.filter.option.search.clear.aria_label": {
-    "defaultMessage": "Xóa tìm kiếm"
+    "defaultMessage": "XГіa tГ¬m kiбєїm"
   },
   "search.filter.option.search.placeholder": {
-    "defaultMessage": "Tìm..."
+    "defaultMessage": "TГ¬m..."
   },
   "search.filter.option.show_fewer": {
-    "defaultMessage": "Hiển thị ít hơn"
+    "defaultMessage": "Hiб»ѓn thб»‹ Г­t hЖЎn"
   },
   "search.filter.option.show_more": {
-    "defaultMessage": "Hiển thị nhiều hơn"
+    "defaultMessage": "Hiб»ѓn thб»‹ nhiб»Ѓu hЖЎn"
   },
   "search.filter_type.environment": {
-    "defaultMessage": "Môi trường"
+    "defaultMessage": "MГґi trЖ°б»ќng"
   },
   "search.filter_type.environment.client": {
-    "defaultMessage": "Máy khách"
+    "defaultMessage": "MГЎy khГЎch"
   },
   "search.filter_type.environment.server": {
-    "defaultMessage": "Máy chủ"
+    "defaultMessage": "MГЎy chб»§"
   },
   "search.filter_type.game_version": {
-    "defaultMessage": "Phiên bản trò chơi"
+    "defaultMessage": "PhiГЄn bбєЈn trГІ chЖЎi"
   },
   "search.filter_type.game_version.all_versions": {
-    "defaultMessage": "Hiện tất cả phiên bản"
+    "defaultMessage": "Hiб»‡n tбєҐt cбєЈ phiГЄn bбєЈn"
   },
   "search.filter_type.license": {
-    "defaultMessage": "Giấy phép"
+    "defaultMessage": "GiбєҐy phГ©p"
   },
   "search.filter_type.license.open_source": {
-    "defaultMessage": "Mã nguồn mở"
+    "defaultMessage": "MГЈ nguб»“n mб»џ"
   },
   "search.filter_type.mod_loader": {
-    "defaultMessage": "Trình nạp"
+    "defaultMessage": "TrГ¬nh nбєЎp"
   },
   "search.filter_type.modpack_loader": {
-    "defaultMessage": "Trình nạp"
+    "defaultMessage": "TrГ¬nh nбєЎp"
   },
   "search.filter_type.plugin_loader": {
-    "defaultMessage": "Trình nạp"
+    "defaultMessage": "TrГ¬nh nбєЎp"
   },
   "search.filter_type.plugin_platform": {
-    "defaultMessage": "Nền tảng"
+    "defaultMessage": "Nб»Ѓn tбєЈng"
   },
   "search.filter_type.project_id": {
-    "defaultMessage": "ID dự án"
+    "defaultMessage": "ID dб»± ГЎn"
+  },
+  "search.filter_type.server_content_type": {
+    "defaultMessage": "LoбєЎi"
+  },
+  "search.filter_type.server_language": {
+    "defaultMessage": "NgГґn ngб»Ї"
+  },
+  "search.filter_type.server_region": {
+    "defaultMessage": "Khu vб»±c"
+  },
+  "search.filter_type.server_status": {
+    "defaultMessage": "TrбєЎng thГЎi"
   },
   "search.filter_type.shader_loader": {
-    "defaultMessage": "Trình nạp"
+    "defaultMessage": "TrГ¬nh nбєЎp"
+  },
+  "search.server_content_type.modpack": {
+    "defaultMessage": "Modded"
+  },
+  "search.server_content_type.vanilla": {
+    "defaultMessage": "Vanilla"
+  },
+  "servers.backups.admonition.backup-failed.description": {
+    "defaultMessage": "ДђГЈ cГі lб»—i xбєЈy ra khi tбєЎo {backupName}. Vui lГІng thб»­ lбєЎi hoбє·c liГЄn hб»‡ bб»™ phбє­n hб»— trб»Ј nбєїu lб»—i vбє«n tiбєїp diб»…n."
+  },
+  "servers.backups.admonition.backup-failed.title": {
+    "defaultMessage": "Sao lЖ°u thбєҐt bбєЎi"
+  },
+  "servers.backups.admonition.backup-queued.description": {
+    "defaultMessage": "{backupName} Д‘ГЈ Д‘Ж°б»Јc Д‘Ж°a vГ o hГ ng chб»ќ vГ  sбєЅ sб»›m bбєЇt Д‘бє§u."
+  },
+  "servers.backups.admonition.backup-queued.title": {
+    "defaultMessage": "Дђang chб»ќ sao lЖ°u"
+  },
+  "servers.backups.admonition.creating-backup.description": {
+    "defaultMessage": "Дђang lЖ°u dб»Ї liб»‡u thбєї giб»›i vГ  cбєҐu hГ¬nh mГЎy chб»§ cho {backupName}. QuГЎ trГ¬nh nГ y cГі thб»ѓ mбєҐt vГ i phГєt."
+  },
+  "servers.backups.admonition.creating-backup.title": {
+    "defaultMessage": "Дђang tбєЎo bбєЈn sao lЖ°u"
+  },
+  "servers.backups.admonition.fallback-name": {
+    "defaultMessage": "BбєЈn sao lЖ°u cб»§a bбєЎn"
+  },
+  "servers.backups.admonition.restore-failed.description": {
+    "defaultMessage": "ДђГЈ cГі lб»—i xбєЈy ra khi Д‘ang khГґi phб»Ґc tб»« bбєЈn sao lЖ°u {backupName}. Vui lГІng thб»­ lбєЎi hoбє·c liГЄn hб»‡ bб»™ phбє­n hб»— trб»Ј nбєїu lб»—i vбє«n tiбєїp diб»…n."
+  },
+  "servers.backups.admonition.restore-failed.title": {
+    "defaultMessage": "KhГґi phб»Ґc tб»« bбєЈn sao lЖ°u thбєҐt bбєЎi"
+  },
+  "servers.backups.admonition.restore-queued.description": {
+    "defaultMessage": "KhГґi phб»Ґc tб»« bбєЈn sao lЖ°u {backupName} Д‘ГЈ Д‘Ж°б»Јc Д‘Ж°a vГ o hГ ng chб»ќ vГ  sбєЅ sб»›m bбєЇt Д‘бє§u."
+  },
+  "servers.backups.admonition.restore-queued.title": {
+    "defaultMessage": "KhГґi phб»Ґc tб»« bбєЈn sao lЖ°u Д‘ГЈ Д‘Ж°б»Јc Д‘Ж°a vГ o hГ ng chб»ќ"
+  },
+  "servers.backups.admonition.restore-successful.description": {
+    "defaultMessage": "MГЎy chб»§ cб»§a bбєЎn Д‘ГЈ Д‘Ж°б»Јc khГґi phб»Ґc tб»« bбєЈn sao lЖ°u {backupName} vГ  sбєµn sГ ng Д‘б»ѓ khб»џi Д‘б»™ng."
+  },
+  "servers.backups.admonition.restore-successful.title": {
+    "defaultMessage": "KhГґi phб»Ґc tб»« bбєЈn sao lЖ°u thГ nh cГґng"
+  },
+  "servers.backups.admonition.restoring-backup.description": {
+    "defaultMessage": "Дђang khГґi phб»Ґc mГЎy chб»§ cб»§a bбєЎn tб»« bбєЈn sao lЖ°u {backupName}. Дђiб»Ѓu nГ y cГі thб»ѓ mбєҐt vГ i phГєt."
+  },
+  "servers.backups.admonition.restoring-backup.title": {
+    "defaultMessage": "Дђang khГґi phб»Ґc tб»« bбєЈn sao lЖ°u"
   },
   "servers.backups.item.auto": {
-    "defaultMessage": "Tự động"
+    "defaultMessage": "Tб»± Д‘б»™ng"
   },
   "servers.backups.item.backup-schedule": {
-    "defaultMessage": "Lịch sao lưu"
-  },
-  "servers.backups.item.creating-backup": {
-    "defaultMessage": "Đang tạo sao lưu"
+    "defaultMessage": "Lб»‹ch sao lЖ°u"
   },
   "servers.backups.item.failed-to-create-backup": {
-    "defaultMessage": "Tạo sao lưu thất bại"
+    "defaultMessage": "TбєЎo sao lЖ°u thбєҐt bбєЎi"
   },
   "servers.backups.item.failed-to-restore-backup": {
-    "defaultMessage": "Khôi phục từ sao lưu thất bại"
+    "defaultMessage": "KhГґi phб»Ґc tб»« sao lЖ°u thбєҐt bбєЎi"
   },
   "servers.backups.item.manual-backup": {
-    "defaultMessage": "Sao lưu thủ công"
+    "defaultMessage": "Sao lЖ°u thб»§ cГґng"
   },
   "servers.backups.item.rename": {
-    "defaultMessage": "Đổi tên"
+    "defaultMessage": "Дђб»•i tГЄn"
+  },
+  "servers.backups.item.restore": {
+    "defaultMessage": "KhГґi phб»Ґc"
   },
   "servers.notice.dismiss": {
-    "defaultMessage": "Bỏ qua"
+    "defaultMessage": "Bб»Џ qua"
   },
   "servers.notice.dismissable": {
-    "defaultMessage": "Có thể bỏ qua"
+    "defaultMessage": "CГі thб»ѓ bб»Џ qua"
   },
   "servers.notice.heading.attention": {
-    "defaultMessage": "Lưu ý"
+    "defaultMessage": "LЖ°u ГЅ"
   },
   "servers.notice.heading.info": {
-    "defaultMessage": "Thông tin"
+    "defaultMessage": "ThГґng tin"
+  },
+  "servers.notice.level.critical.name": {
+    "defaultMessage": "NghiГЄm trб»Ќng"
   },
   "servers.notice.level.info.name": {
-    "defaultMessage": "Thông tin"
+    "defaultMessage": "ThГґng tin"
   },
   "servers.notice.level.survey.name": {
-    "defaultMessage": "Khảo sát"
+    "defaultMessage": "KhбєЈo sГЎt"
   },
   "servers.notice.level.warn.name": {
-    "defaultMessage": "Cảnh báo"
+    "defaultMessage": "CбєЈnh bГЎo"
   },
   "servers.notice.undismissable": {
-    "defaultMessage": "Không thể bỏ qua"
+    "defaultMessage": "KhГґng thб»ѓ bб»Џ qua"
   },
   "servers.purchase.step.payment.description": {
-    "defaultMessage": "Bạn sẽ không bị tính phí."
+    "defaultMessage": "BбєЎn sбєЅ khГґng bб»‹ tГ­nh phГ­."
   },
   "servers.purchase.step.payment.prompt": {
-    "defaultMessage": "Chọn phương thức thanh toán"
+    "defaultMessage": "Chб»Ќn phЖ°ЖЎng thб»©c thanh toГЎn"
   },
   "servers.purchase.step.payment.title": {
-    "defaultMessage": "Phương thức thanh toán"
+    "defaultMessage": "PhЖ°ЖЎng thб»©c thanh toГЎn"
   },
-  "servers.purchase.step.plan.billed": {
-    "defaultMessage": "được thanh toán {interval}"
+  "servers.purchase.step.plan.custom.desc": {
+    "defaultMessage": "Chб»Ќn gГіi tГ№y chб»‰nh vб»›i Д‘Гєng nhб»Їng cбєҐu hГ¬nh bбєЎn cбє§n."
   },
   "servers.purchase.step.plan.get-started": {
-    "defaultMessage": "Bắt đầu"
+    "defaultMessage": "BбєЇt Д‘бє§u"
   },
   "servers.purchase.step.plan.large.desc": {
-    "defaultMessage": "Ý tưởng cho 15–25 người chơi, modpacks hoặc nặng về modding."
+    "defaultMessage": "Гќ tЖ°б»џng cho 15вЂ“25 ngЖ°б»ќi chЖЎi, modpacks hoбє·c nбє·ng vб»Ѓ modding."
   },
   "servers.purchase.step.plan.medium.desc": {
-    "defaultMessage": "Tốt cho 6–15 người chơi và nhiều mods khác nhau."
+    "defaultMessage": "Tб»‘t cho 6вЂ“15 ngЖ°б»ќi chЖЎi vГ  nhiб»Ѓu mods khГЎc nhau."
   },
   "servers.purchase.step.plan.most-popular": {
-    "defaultMessage": "Phổ biến nhất"
-  },
-  "servers.purchase.step.plan.prompt": {
-    "defaultMessage": "Chọn gói"
+    "defaultMessage": "Phб»• biбєїn nhбєҐt"
   },
   "servers.purchase.step.plan.select": {
-    "defaultMessage": "Chọn gói"
+    "defaultMessage": "Chб»Ќn gГіi"
   },
   "servers.purchase.step.plan.small.desc": {
-    "defaultMessage": "Hoàn hảo cho 1–5 người bạn với một vài mod nhẹ."
+    "defaultMessage": "HoГ n hбєЈo cho 1вЂ“5 ngЖ°б»ќi bбєЎn vб»›i mб»™t vГ i mod nhбє№."
   },
   "servers.purchase.step.plan.title": {
-    "defaultMessage": "Gói"
+    "defaultMessage": "GГіi"
   },
   "servers.purchase.step.region.title": {
-    "defaultMessage": "Khu vực"
+    "defaultMessage": "Khu vб»±c"
   },
   "servers.purchase.step.review.title": {
-    "defaultMessage": "Xem lại"
+    "defaultMessage": "Xem lбєЎi"
   },
   "servers.region.central-europe": {
-    "defaultMessage": "Trung Âu"
+    "defaultMessage": "Trung Г‚u"
   },
   "servers.region.custom.prompt": {
-    "defaultMessage": "Bạn muốn máy chủ mình có bao nhiêu dung lượng RAM?"
+    "defaultMessage": "BбєЎn muб»‘n mГЎy chб»§ mГ¬nh cГі bao nhiГЄu dung lЖ°б»Јng RAM?"
   },
   "servers.region.north-america": {
-    "defaultMessage": "Bắc Mỹ"
+    "defaultMessage": "BбєЇc Mб»№"
   },
   "servers.region.prompt": {
-    "defaultMessage": "Bạn muốn khu vực máy chủ của bạn được nằm ở đâu?"
+    "defaultMessage": "BбєЎn muб»‘n khu vб»±c mГЎy chб»§ cб»§a bбєЎn Д‘Ж°б»Јc nбє±m б»џ Д‘Гўu?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Khu vực không được liệt kê? <link>Hãy cho chúng tôi biết nơi mà bạn muốn Modrinth Hosting sẽ có trong tương lai!</link>"
+    "defaultMessage": "Khu vб»±c khГґng Д‘Ж°б»Јc liб»‡t kГЄ? <link>HГЈy cho chГєng tГґi biбєїt nЖЎi mГ  bбєЎn muб»‘n Modrinth Hosting sбєЅ cГі trong tЖ°ЖЎng lai!</link>"
   },
   "servers.region.southeast-asia": {
-    "defaultMessage": "Đông Nam Á"
+    "defaultMessage": "ДђГґng Nam ГЃ"
   },
   "servers.region.western-europe": {
-    "defaultMessage": "Tây Âu"
+    "defaultMessage": "TГўy Г‚u"
+  },
+  "servers.setup.rate-limit.text": {
+    "defaultMessage": "BбєЎn Д‘ang bб»‹ giб»›i hбєЎn lЖ°б»Јt truy cбє­p. Vui lГІng thб»­ lбєЎi sau."
+  },
+  "servers.setup.rate-limit.title": {
+    "defaultMessage": "KhГґng thб»ѓ cГ i Д‘бє·t lбєЎi mГЎy chб»§"
+  },
+  "servers.setup.reinstall-failed.text": {
+    "defaultMessage": "ДђГЈ xбєЈy ra lб»—i khГґng mong muб»‘n trong quГЎ trГ¬nh cГ i Д‘бє·t lбєЎi. Vui lГІng thб»­ lбєЎi sau."
+  },
+  "servers.setup.reinstall-failed.title": {
+    "defaultMessage": "Lб»—i cГ i Д‘бє·t lбєЎi"
+  },
+  "servers.setup.upload-warning": {
+    "defaultMessage": "Vui lГІng giб»Ї trang nГ y mб»џ cho Д‘бєїn khi quГЎ trГ¬nh tбєЈi lГЄn hoГ n tбєҐt."
+  },
+  "servers.setup.uploading-modpack.header": {
+    "defaultMessage": "Дђang tбєЈi lГЄn modpack"
   },
   "settings.account.title": {
-    "defaultMessage": "Tài khoản và bảo mật"
+    "defaultMessage": "TГ i khoбєЈn vГ  bбєЈo mбє­t"
   },
   "settings.appearance.title": {
-    "defaultMessage": "Giao diện"
+    "defaultMessage": "Giao diб»‡n"
   },
   "settings.applications.title": {
-    "defaultMessage": "Ứng dụng của bạn"
+    "defaultMessage": "б»Ёng dб»Ґng cб»§a bбєЎn"
   },
   "settings.authorized-apps.title": {
-    "defaultMessage": "Ứng dụng được ủy quyền"
+    "defaultMessage": "б»Ёng dб»Ґng Д‘Ж°б»Јc б»§y quyб»Ѓn"
   },
   "settings.billing.title": {
-    "defaultMessage": "Thanh toán và gói đăng ký"
+    "defaultMessage": "Thanh toГЎn vГ  gГіi Д‘Дѓng kГЅ"
   },
   "settings.display.theme.dark": {
-    "defaultMessage": "Tối"
+    "defaultMessage": "Tб»‘i"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Chọn màu nền ưa thích của bạn cho Modrinth trên thiết bị này."
+    "defaultMessage": "Chб»Ќn mГ u nб»Ѓn Ж°a thГ­ch cб»§a bбєЎn cho Modrinth trГЄn thiбєїt bб»‹ nГ y."
   },
   "settings.display.theme.light": {
-    "defaultMessage": "Sáng"
+    "defaultMessage": "SГЎng"
   },
   "settings.display.theme.oled": {
     "defaultMessage": "OLED"
   },
   "settings.display.theme.preferred-dark-theme": {
-    "defaultMessage": "Chủ đề tối được ưa thích"
+    "defaultMessage": "Chб»§ Д‘б»Ѓ tб»‘i Д‘Ж°б»Јc Ж°a thГ­ch"
   },
   "settings.display.theme.preferred-light-theme": {
-    "defaultMessage": "Chủ đề sáng được ưa thích"
+    "defaultMessage": "Chб»§ Д‘б»Ѓ sГЎng Д‘Ж°б»Јc Ж°a thГ­ch"
   },
   "settings.display.theme.retro": {
     "defaultMessage": "Retro"
   },
   "settings.display.theme.system": {
-    "defaultMessage": "Đồng bộ với hệ thống"
+    "defaultMessage": "Дђб»“ng bб»™ vб»›i hб»‡ thб»‘ng"
   },
   "settings.display.theme.title": {
-    "defaultMessage": "Màu chủ đề"
+    "defaultMessage": "MГ u chб»§ Д‘б»Ѓ"
   },
   "settings.language.categories.default": {
-    "defaultMessage": "Ngôn ngữ tiêu chuẩn"
+    "defaultMessage": "NgГґn ngб»Ї tiГЄu chuбє©n"
   },
   "settings.language.categories.search-result": {
-    "defaultMessage": "Kết quả tìm kiếm"
+    "defaultMessage": "Kбєїt quбєЈ tГ¬m kiбєїm"
   },
   "settings.language.description": {
-    "defaultMessage": "Chọn ngôn ngữ ưa thích của bạn cho {platform}. Các bản dịch được đóng góp bởi những tình nguyện viên trên <crowdin-link>Crowdin</crowdin-link>."
+    "defaultMessage": "Chб»Ќn ngГґn ngб»Ї Ж°a thГ­ch cб»§a bбєЎn cho {platform}. CГЎc bбєЈn dб»‹ch Д‘Ж°б»Јc Д‘Гіng gГіp bб»џi nhб»Їng tГ¬nh nguyб»‡n viГЄn trГЄn <crowdin-link>Crowdin</crowdin-link>."
   },
   "settings.language.languages.search-field.placeholder": {
-    "defaultMessage": "Tìm kiếm một ngôn ngữ..."
+    "defaultMessage": "TГ¬m kiбєїm mб»™t ngГґn ngб»Ї..."
   },
   "settings.language.languages.search-results-announcement": {
-    "defaultMessage": "{matches, plural, =0 {Không có ngôn ngữ nào} other {Có # ngôn ngữ}} khớp với tìm kiếm của bạn."
+    "defaultMessage": "{matches, plural, =0 {KhГґng cГі ngГґn ngб»Ї nГ o} other {CГі # ngГґn ngб»Ї}} khб»›p vб»›i tГ¬m kiбєїm cб»§a bбєЎn."
   },
   "settings.language.languages.search.no-results": {
-    "defaultMessage": "Không có ngôn ngữ phù hợp với tìm kiếm của bạn."
+    "defaultMessage": "KhГґng cГі ngГґn ngб»Ї phГ№ hб»Јp vб»›i tГ¬m kiбєїm cб»§a bбєЎn."
+  },
+  "settings.language.platform.app": {
+    "defaultMessage": "б»©ng dб»Ґng"
+  },
+  "settings.language.platform.site": {
+    "defaultMessage": "trang web"
   },
   "settings.language.title": {
-    "defaultMessage": "Ngôn ngữ"
+    "defaultMessage": "NgГґn ngб»Ї"
   },
   "settings.language.warning": {
-    "defaultMessage": "Thay đổi sang một số ngôn ngữ trên {platform} có thể sẽ khiến cho một số thứ được hiển thị bằng tiếng Anh do chưa được dịch đầy đủ."
+    "defaultMessage": "Thay Д‘б»•i sang mб»™t sб»‘ ngГґn ngб»Ї trГЄn {platform} cГі thб»ѓ sбєЅ khiбєїn cho mб»™t sб»‘ thб»© Д‘Ж°б»Јc hiб»ѓn thб»‹ bбє±ng tiбєїng Anh do chЖ°a Д‘Ж°б»Јc dб»‹ch Д‘бє§y Д‘б»§."
+  },
+  "settings.pats.title": {
+    "defaultMessage": "KhГіa truy cбє­p cГЎ nhГўn"
   },
   "settings.profile.title": {
-    "defaultMessage": "Hồ sơ công khai"
+    "defaultMessage": "Hб»“ sЖЎ cГґng khai"
   },
-  "tooltip.date-at-time": {
-    "defaultMessage": "{date, date, long} vào lúc {time, time, short}"
+  "settings.sessions.title": {
+    "defaultMessage": "PhiГЄn hoбєЎt Д‘б»™ng"
+  },
+  "tag.category.128x": {
+    "defaultMessage": "128x"
+  },
+  "tag.category.16x": {
+    "defaultMessage": "16x"
+  },
+  "tag.category.256x": {
+    "defaultMessage": "256x"
+  },
+  "tag.category.32x": {
+    "defaultMessage": "32x"
+  },
+  "tag.category.48x": {
+    "defaultMessage": "48x"
+  },
+  "tag.category.512x+": {
+    "defaultMessage": "512x hoбє·c lб»›n hЖЎn"
+  },
+  "tag.category.64x": {
+    "defaultMessage": "64x"
+  },
+  "tag.category.8x-": {
+    "defaultMessage": "8x hoбє·c thбєҐp hЖЎn"
+  },
+  "tag.category.adventure": {
+    "defaultMessage": "PhiГЄu lЖ°u"
+  },
+  "tag.category.adventure-mode": {
+    "defaultMessage": "Chбєї Д‘б»™ phiГЄu lЖ°u"
+  },
+  "tag.category.anarchy": {
+    "defaultMessage": "Hб»—n loбєЎn"
+  },
+  "tag.category.atmosphere": {
+    "defaultMessage": "MГґi trЖ°б»ќng"
+  },
+  "tag.category.audio": {
+    "defaultMessage": "Г‚m thanh"
+  },
+  "tag.category.battle-royale": {
+    "defaultMessage": "Battle Royale"
+  },
+  "tag.category.bedwars": {
+    "defaultMessage": "Bed Wars"
+  },
+  "tag.category.blocks": {
+    "defaultMessage": "Blocks"
+  },
+  "tag.category.bloom": {
+    "defaultMessage": "Bloom"
+  },
+  "tag.category.bosses": {
+    "defaultMessage": "Boss"
+  },
+  "tag.category.cartoon": {
+    "defaultMessage": "HoбєЎt hГ¬nh"
+  },
+  "tag.category.challenging": {
+    "defaultMessage": "Thб»­ thГЎch"
+  },
+  "tag.category.classes": {
+    "defaultMessage": "Lб»›p nhГўn vбє­t"
+  },
+  "tag.category.colored-lighting": {
+    "defaultMessage": "Дђa sбєЇc"
+  },
+  "tag.category.combat": {
+    "defaultMessage": "Chiбєїn Д‘бєҐu"
+  },
+  "tag.category.competitive": {
+    "defaultMessage": "CбєЎnh tranh"
+  },
+  "tag.category.core-shaders": {
+    "defaultMessage": "Core Shaders"
+  },
+  "tag.category.creative-mode": {
+    "defaultMessage": "Chбєї Д‘б»™ sГЎng tбєЎo"
+  },
+  "tag.category.creator-community": {
+    "defaultMessage": "NhГ  sГЎng tбєЎo cб»™ng Д‘б»“ng"
+  },
+  "tag.category.crossplay": {
+    "defaultMessage": "ChЖЎi chГ©o"
+  },
+  "tag.category.cursed": {
+    "defaultMessage": "Nguyб»Ѓn rб»§a"
+  },
+  "tag.category.custom-content": {
+    "defaultMessage": "Nб»™i dung tuб»і chб»‰nh"
+  },
+  "tag.category.decoration": {
+    "defaultMessage": "Trang trГ­"
+  },
+  "tag.category.dungeons": {
+    "defaultMessage": "Hбє§m ngб»Ґc"
+  },
+  "tag.category.economy": {
+    "defaultMessage": "Kinh tбєї"
+  },
+  "tag.category.entities": {
+    "defaultMessage": "Thб»±c thб»ѓ"
+  },
+  "tag.category.environment": {
+    "defaultMessage": "MГґi trЖ°б»ќng"
+  },
+  "tag.category.equipment": {
+    "defaultMessage": "Trang bб»‹"
+  },
+  "tag.category.factions": {
+    "defaultMessage": "Phe phГЎi"
+  },
+  "tag.category.fantasy": {
+    "defaultMessage": "GiбєЈ tЖ°б»џng"
+  },
+  "tag.category.foliage": {
+    "defaultMessage": "CГўy cб»‘i"
+  },
+  "tag.category.fonts": {
+    "defaultMessage": "PhГґng chб»Ї"
+  },
+  "tag.category.food": {
+    "defaultMessage": "Thб»©c Дѓn"
+  },
+  "tag.category.game-mechanics": {
+    "defaultMessage": "CЖЎ chбєї trГІ chЖЎi"
+  },
+  "tag.category.gui": {
+    "defaultMessage": "GUI"
+  },
+  "tag.category.hardcore-mode": {
+    "defaultMessage": "Chбєї Д‘б»™ siГЄu khГі"
+  },
+  "tag.category.high": {
+    "defaultMessage": "Cao"
+  },
+  "tag.category.items": {
+    "defaultMessage": "Vбє­t phбє©m"
+  },
+  "tag.category.keep-inventory": {
+    "defaultMessage": "Chбєїt khГґng mбєҐt Д‘б»“"
+  },
+  "tag.category.kitpvp": {
+    "defaultMessage": "Kit PvP"
+  },
+  "tag.category.library": {
+    "defaultMessage": "ThЖ° viб»‡n"
+  },
+  "tag.category.lifesteal": {
+    "defaultMessage": "Lifesteal"
+  },
+  "tag.category.lightweight": {
+    "defaultMessage": "Nhбє№"
+  },
+  "tag.category.locale": {
+    "defaultMessage": "NgГґn ngб»Ї"
+  },
+  "tag.category.low": {
+    "defaultMessage": "ThбєҐp"
+  },
+  "tag.category.magic": {
+    "defaultMessage": "PhГ©p thuбє­t"
+  },
+  "tag.category.management": {
+    "defaultMessage": "QuбєЈn lГЅ"
+  },
+  "tag.category.media": {
+    "defaultMessage": ""
+  },
+  "tag.category.medium": {
+    "defaultMessage": "Trung bГ¬nh"
+  },
+  "tag.category.minigame": {
+    "defaultMessage": "Minigame"
+  },
+  "tag.category.mmo": {
+    "defaultMessage": "MMO"
+  },
+  "tag.category.mobs": {
+    "defaultMessage": "Mob"
+  },
+  "tag.category.modded": {
+    "defaultMessage": "Modded"
+  },
+  "tag.category.models": {
+    "defaultMessage": "Model"
+  },
+  "tag.category.multiplayer": {
+    "defaultMessage": "Nhiб»Ѓu ngЖ°б»ќi chЖЎi"
+  },
+  "tag.category.network": {
+    "defaultMessage": "MбєЎng"
+  },
+  "tag.category.offline-mode": {
+    "defaultMessage": "Chбєї Д‘б»™ ngoбєЎi tuyбєїn"
+  },
+  "tag.category.oneblock": {
+    "defaultMessage": "Mб»™t Block"
+  },
+  "tag.category.op": {
+    "defaultMessage": "OP"
+  },
+  "tag.category.optimization": {
+    "defaultMessage": "Tб»‘i Ж°u hГіa"
+  },
+  "tag.category.parkour": {
+    "defaultMessage": "Parkour"
+  },
+  "tag.category.path-tracing": {
+    "defaultMessage": "Path Tracing"
+  },
+  "tag.category.pbr": {
+    "defaultMessage": "PBR"
+  },
+  "tag.category.pokemon": {
+    "defaultMessage": "PokГ©mon"
+  },
+  "tag.category.potato": {
+    "defaultMessage": "SiГЄu thбєҐp"
+  },
+  "tag.category.prison": {
+    "defaultMessage": "NhГ  tГ№"
+  },
+  "tag.category.pve": {
+    "defaultMessage": "PvE"
+  },
+  "tag.category.pvp": {
+    "defaultMessage": "PvP"
+  },
+  "tag.category.questing": {
+    "defaultMessage": "Hб»‡ thб»‘ng nhiб»‡m vб»Ґ"
+  },
+  "tag.category.quests": {
+    "defaultMessage": "Nhiб»‡m vб»Ґ"
+  },
+  "tag.category.racing": {
+    "defaultMessage": "Cuб»™c Д‘ua"
+  },
+  "tag.category.realistic": {
+    "defaultMessage": "ChГўn thб»±c"
+  },
+  "tag.category.reflections": {
+    "defaultMessage": "PhбєЈn chiбєїu"
+  },
+  "tag.category.roleplay": {
+    "defaultMessage": "Nhбє­p vai"
+  },
+  "tag.category.rpg": {
+    "defaultMessage": "RPG"
+  },
+  "tag.category.screenshot": {
+    "defaultMessage": "Chб»Ґp hГ¬nh"
+  },
+  "tag.category.semi-realistic": {
+    "defaultMessage": "BГЎn thб»±c tбєї"
+  },
+  "tag.category.shadows": {
+    "defaultMessage": "Дђб»• bГіng"
+  },
+  "tag.category.simplistic": {
+    "defaultMessage": "ДђЖЎn Д‘iб»‡u"
+  },
+  "tag.category.skyblock": {
+    "defaultMessage": "Skyblock"
+  },
+  "tag.category.smp": {
+    "defaultMessage": "SMP"
+  },
+  "tag.category.social": {
+    "defaultMessage": "Giap tiбєїp"
+  },
+  "tag.category.storage": {
+    "defaultMessage": "LЖ°u trб»Ї"
+  },
+  "tag.category.survival-mode": {
+    "defaultMessage": "Chбєї Д‘б»™ sinh tб»“n"
+  },
+  "tag.category.teams": {
+    "defaultMessage": "Team"
+  },
+  "tag.category.technical": {
+    "defaultMessage": "Kб»№ thuбє­t"
+  },
+  "tag.category.technology": {
+    "defaultMessage": "CГґng nghб»‡"
+  },
+  "tag.category.transportation": {
+    "defaultMessage": "Vбє­n chuyб»ѓn"
+  },
+  "tag.category.utility": {
+    "defaultMessage": "Tiб»‡n Г­ch"
+  },
+  "tag.category.vanilla-like": {
+    "defaultMessage": "NguyГЄn bбєЈn"
+  },
+  "tag.category.whitelisted": {
+    "defaultMessage": "YГЄu cбє§u xГ©t duyб»‡t"
+  },
+  "tag.category.world-resets": {
+    "defaultMessage": "Reset thбєї giб»›i"
+  },
+  "tag.category.worldgen": {
+    "defaultMessage": "CбєҐu tбєЎo thбєї giб»›i"
+  },
+  "tag.loader.babric": {
+    "defaultMessage": "Babric"
+  },
+  "tag.loader.bta-babric": {
+    "defaultMessage": "BTA (Babric)"
+  },
+  "tag.loader.bukkit": {
+    "defaultMessage": "Bukkit"
+  },
+  "tag.loader.bungeecord": {
+    "defaultMessage": "BungeeCord"
+  },
+  "tag.loader.canvas": {
+    "defaultMessage": "Canvas"
+  },
+  "tag.loader.datapack": {
+    "defaultMessage": "GГіi dб»Ї liб»‡u"
+  },
+  "tag.loader.fabric": {
+    "defaultMessage": "Fabric"
+  },
+  "tag.loader.folia": {
+    "defaultMessage": "Folia"
+  },
+  "tag.loader.forge": {
+    "defaultMessage": "Forge"
+  },
+  "tag.loader.geyser": {
+    "defaultMessage": "Tiб»‡n Г­ch mб»џ rб»™ng Geyser"
+  },
+  "tag.loader.iris": {
+    "defaultMessage": "Iris"
+  },
+  "tag.loader.java-agent": {
+    "defaultMessage": "Java Agent"
+  },
+  "tag.loader.legacy-fabric": {
+    "defaultMessage": "Legacy Fabric"
+  },
+  "tag.loader.liteloader": {
+    "defaultMessage": "LiteLoader"
+  },
+  "tag.loader.minecraft": {
+    "defaultMessage": "GГіi tГ i nguyГЄn"
+  },
+  "tag.loader.modloader": {
+    "defaultMessage": "Risugami's ModLoader"
+  },
+  "tag.loader.mrpack": {
+    "defaultMessage": "Modpack"
+  },
+  "tag.loader.neoforge": {
+    "defaultMessage": "NeoForge"
+  },
+  "tag.loader.nilloader": {
+    "defaultMessage": "NilLoader"
+  },
+  "tag.loader.optifine": {
+    "defaultMessage": "OptiFine"
+  },
+  "tag.loader.ornithe": {
+    "defaultMessage": "Ornithe"
+  },
+  "tag.loader.paper": {
+    "defaultMessage": "Paper"
+  },
+  "tag.loader.purpur": {
+    "defaultMessage": "Purpur"
+  },
+  "tag.loader.quilt": {
+    "defaultMessage": "Quilt"
+  },
+  "tag.loader.rift": {
+    "defaultMessage": "Rift"
+  },
+  "tag.loader.spigot": {
+    "defaultMessage": "Spigot"
+  },
+  "tag.loader.sponge": {
+    "defaultMessage": "Sponge"
+  },
+  "tag.loader.vanilla": {
+    "defaultMessage": "Shader Vanilla"
+  },
+  "tag.loader.velocity": {
+    "defaultMessage": "Velocity"
+  },
+  "tag.loader.waterfall": {
+    "defaultMessage": "Waterfall"
   },
   "ui.component.unsaved-changes-popup.body": {
-    "defaultMessage": "Bạn có những thay đổi chưa được lưu"
+    "defaultMessage": "BбєЎn cГі nhб»Їng thay Д‘б»•i chЖ°a Д‘Ж°б»Јc lЖ°u"
+  },
+  "ui.confirm-leave-modal.body": {
+    "defaultMessage": "BбєЎn cГі mб»™t sб»‘ thay Д‘б»•i chЖ°a Д‘Ж°б»Јc lЖ°u, vГ  nhб»Їng thay Д‘б»•i nГ y sбєЅ bб»‹ mбєҐt nбєїu bбєЎn rб»ќi khб»Џi trang nГ y."
+  },
+  "ui.confirm-leave-modal.header": {
+    "defaultMessage": "BбєЎn cГі mб»™t vГ i thay Д‘б»•i chЖ°a Д‘Ж°б»Јc lЖ°u"
+  },
+  "ui.confirm-leave-modal.leave": {
+    "defaultMessage": "Rб»ќi khб»Џi trang"
+  },
+  "ui.confirm-leave-modal.stay": {
+    "defaultMessage": "б»ћ lбєЎi trang nГ y"
+  },
+  "ui.confirm-leave-modal.title": {
+    "defaultMessage": "Rб»ќi khб»Џi trang nhГ©?"
   }
 }
 

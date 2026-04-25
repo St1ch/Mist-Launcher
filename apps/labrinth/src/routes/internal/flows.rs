@@ -8,6 +8,7 @@ use crate::database::models::flow_item::DBFlow;
 use crate::database::models::notification_item::NotificationBuilder;
 use crate::database::models::{DBUser, DBUserId};
 use crate::database::redis::RedisPool;
+use crate::env::ENV;
 use crate::file_hosting::{FileHost, FileHostPublicity};
 use crate::models::notifications::NotificationBody;
 use crate::models::pats::Scopes;
@@ -17,12 +18,11 @@ use crate::queue::session::AuthQueue;
 use crate::routes::ApiError;
 use crate::routes::internal::session::issue_session;
 use crate::util::captcha::check_hcaptcha;
-use crate::util::env::parse_strings_from_var;
 use crate::util::error::Context;
 use crate::util::ext::get_image_ext;
 use crate::util::img::upload_image_optimized;
 use crate::util::validate::validation_errors_to_string;
-use actix_web::web::{Data, Query, ServiceConfig, scope};
+use actix_web::web::{Data, Query};
 use actix_web::{HttpRequest, HttpResponse, delete, get, patch, post, web};
 use argon2::password_hash::SaltString;
 use argon2::{Argon2, PasswordHash, PasswordHasher, PasswordVerifier};
@@ -43,9 +43,9 @@ use tracing::info;
 use validator::Validate;
 use zxcvbn::Score;
 
-pub fn config(cfg: &mut ServiceConfig) {
+pub fn config(cfg: &mut utoipa_actix_web::service_config::ServiceConfig) {
     cfg.service(
-        scope("auth")
+        utoipa_actix_web::scope("/auth")
             .service(init)
             .service(auth_callback)
             .service(delete_auth_provider)
@@ -257,41 +257,41 @@ impl AuthProvider {
         &self,
         state: String,
     ) -> Result<String, AuthenticationError> {
-        let self_addr = dotenvy::var("SELF_ADDR")?;
+        let self_addr = &ENV.SELF_ADDR;
         let raw_redirect_uri = format!("{self_addr}/v2/auth/callback");
         let redirect_uri = urlencoding::encode(&raw_redirect_uri);
 
         Ok(match self {
             AuthProvider::GitHub => {
-                let client_id = dotenvy::var("GITHUB_CLIENT_ID")?;
+                let client_id = &ENV.GITHUB_CLIENT_ID;
 
                 format!(
                     "https://github.com/login/oauth/authorize?client_id={client_id}&prompt=select_account&state={state}&scope=read%3Auser%20user%3Aemail&redirect_uri={redirect_uri}",
                 )
             }
             AuthProvider::Discord => {
-                let client_id = dotenvy::var("DISCORD_CLIENT_ID")?;
+                let client_id = &ENV.DISCORD_CLIENT_ID;
 
                 format!(
                     "https://discord.com/api/oauth2/authorize?client_id={client_id}&state={state}&response_type=code&scope=identify%20email&redirect_uri={redirect_uri}"
                 )
             }
             AuthProvider::Microsoft => {
-                let client_id = dotenvy::var("MICROSOFT_CLIENT_ID")?;
+                let client_id = &ENV.MICROSOFT_CLIENT_ID;
 
                 format!(
                     "https://login.live.com/oauth20_authorize.srf?client_id={client_id}&response_type=code&scope=user.read&state={state}&prompt=select_account&redirect_uri={redirect_uri}"
                 )
             }
             AuthProvider::GitLab => {
-                let client_id = dotenvy::var("GITLAB_CLIENT_ID")?;
+                let client_id = &ENV.GITLAB_CLIENT_ID;
 
                 format!(
                     "https://gitlab.com/oauth/authorize?client_id={client_id}&state={state}&scope=read_user+profile+email&response_type=code&redirect_uri={redirect_uri}",
                 )
             }
             AuthProvider::Google => {
-                let client_id = dotenvy::var("GOOGLE_CLIENT_ID")?;
+                let client_id = &ENV.GOOGLE_CLIENT_ID;
 
                 format!(
                     "https://accounts.google.com/o/oauth2/v2/auth?client_id={}&state={}&scope={}&response_type=code&redirect_uri={}",
@@ -317,8 +317,8 @@ impl AuthProvider {
                 )
             }
             AuthProvider::PayPal => {
-                let api_url = dotenvy::var("PAYPAL_API_URL")?;
-                let client_id = dotenvy::var("PAYPAL_CLIENT_ID")?;
+                let api_url = &ENV.PAYPAL_API_URL;
+                let client_id = &ENV.PAYPAL_CLIENT_ID;
 
                 let auth_url = if api_url.contains("sandbox") {
                     "sandbox.paypal.com"
@@ -340,8 +340,7 @@ impl AuthProvider {
         &self,
         query: HashMap<String, String>,
     ) -> Result<String, AuthenticationError> {
-        let redirect_uri =
-            format!("{}/v2/auth/callback", dotenvy::var("SELF_ADDR")?);
+        let redirect_uri = format!("{}/v2/auth/callback", &ENV.SELF_ADDR);
 
         #[derive(Deserialize)]
         struct AccessToken {
@@ -353,8 +352,8 @@ impl AuthProvider {
                 let code = query
                     .get("code")
                     .ok_or_else(|| AuthenticationError::InvalidCredentials)?;
-                let client_id = dotenvy::var("GITHUB_CLIENT_ID")?;
-                let client_secret = dotenvy::var("GITHUB_CLIENT_SECRET")?;
+                let client_id = ENV.GITHUB_CLIENT_ID.as_str();
+                let client_secret = ENV.GITHUB_CLIENT_SECRET.as_str();
 
                 let url = format!(
                     "https://github.com/login/oauth/access_token?client_id={client_id}&client_secret={client_secret}&code={code}&redirect_uri={redirect_uri}"
@@ -374,12 +373,12 @@ impl AuthProvider {
                 let code = query
                     .get("code")
                     .ok_or_else(|| AuthenticationError::InvalidCredentials)?;
-                let client_id = dotenvy::var("DISCORD_CLIENT_ID")?;
-                let client_secret = dotenvy::var("DISCORD_CLIENT_SECRET")?;
+                let client_id = ENV.DISCORD_CLIENT_ID.as_str();
+                let client_secret = ENV.DISCORD_CLIENT_SECRET.as_str();
 
                 let mut map = HashMap::new();
-                map.insert("client_id", &*client_id);
-                map.insert("client_secret", &*client_secret);
+                map.insert("client_id", client_id);
+                map.insert("client_secret", client_secret);
                 map.insert("code", code);
                 map.insert("grant_type", "authorization_code");
                 map.insert("redirect_uri", &redirect_uri);
@@ -399,12 +398,12 @@ impl AuthProvider {
                 let code = query
                     .get("code")
                     .ok_or_else(|| AuthenticationError::InvalidCredentials)?;
-                let client_id = dotenvy::var("MICROSOFT_CLIENT_ID")?;
-                let client_secret = dotenvy::var("MICROSOFT_CLIENT_SECRET")?;
+                let client_id = ENV.MICROSOFT_CLIENT_ID.as_str();
+                let client_secret = ENV.MICROSOFT_CLIENT_SECRET.as_str();
 
                 let mut map = HashMap::new();
-                map.insert("client_id", &*client_id);
-                map.insert("client_secret", &*client_secret);
+                map.insert("client_id", client_id);
+                map.insert("client_secret", client_secret);
                 map.insert("code", code);
                 map.insert("grant_type", "authorization_code");
                 map.insert("redirect_uri", &redirect_uri);
@@ -424,12 +423,12 @@ impl AuthProvider {
                 let code = query
                     .get("code")
                     .ok_or_else(|| AuthenticationError::InvalidCredentials)?;
-                let client_id = dotenvy::var("GITLAB_CLIENT_ID")?;
-                let client_secret = dotenvy::var("GITLAB_CLIENT_SECRET")?;
+                let client_id = ENV.GITLAB_CLIENT_ID.as_str();
+                let client_secret = ENV.GITLAB_CLIENT_SECRET.as_str();
 
                 let mut map = HashMap::new();
-                map.insert("client_id", &*client_id);
-                map.insert("client_secret", &*client_secret);
+                map.insert("client_id", client_id);
+                map.insert("client_secret", client_secret);
                 map.insert("code", code);
                 map.insert("grant_type", "authorization_code");
                 map.insert("redirect_uri", &redirect_uri);
@@ -449,12 +448,12 @@ impl AuthProvider {
                 let code = query
                     .get("code")
                     .ok_or_else(|| AuthenticationError::InvalidCredentials)?;
-                let client_id = dotenvy::var("GOOGLE_CLIENT_ID")?;
-                let client_secret = dotenvy::var("GOOGLE_CLIENT_SECRET")?;
+                let client_id = ENV.GOOGLE_CLIENT_ID.as_str();
+                let client_secret = ENV.GOOGLE_CLIENT_SECRET.as_str();
 
                 let mut map = HashMap::new();
-                map.insert("client_id", &*client_id);
-                map.insert("client_secret", &*client_secret);
+                map.insert("client_id", client_id);
+                map.insert("client_secret", client_secret);
                 map.insert("code", code);
                 map.insert("grant_type", "authorization_code");
                 map.insert("redirect_uri", &redirect_uri);
@@ -529,9 +528,9 @@ impl AuthProvider {
                 let code = query
                     .get("code")
                     .ok_or_else(|| AuthenticationError::InvalidCredentials)?;
-                let api_url = dotenvy::var("PAYPAL_API_URL")?;
-                let client_id = dotenvy::var("PAYPAL_CLIENT_ID")?;
-                let client_secret = dotenvy::var("PAYPAL_CLIENT_SECRET")?;
+                let api_url = ENV.PAYPAL_API_URL.as_str();
+                let client_id = ENV.PAYPAL_CLIENT_ID.as_str();
+                let client_secret = ENV.PAYPAL_CLIENT_SECRET.as_str();
 
                 let mut map = HashMap::new();
                 map.insert("code", code.as_str());
@@ -580,9 +579,7 @@ impl AuthProvider {
                         .get("x-oauth-client-id")
                         .and_then(|x| x.to_str().ok());
 
-                    if client_id
-                        != Some(&*dotenvy::var("GITHUB_CLIENT_ID").unwrap())
-                    {
+                    if client_id != Some(ENV.GITHUB_CLIENT_ID.as_str()) {
                         return Err(AuthenticationError::InvalidClientId);
                     }
                 }
@@ -732,7 +729,7 @@ impl AuthProvider {
                 }
             }
             AuthProvider::Steam => {
-                let api_key = dotenvy::var("STEAM_API_KEY")?;
+                let api_key = &ENV.STEAM_API_KEY;
 
                 #[derive(Deserialize)]
                 struct SteamResponse {
@@ -797,7 +794,7 @@ impl AuthProvider {
                     pub country: String,
                 }
 
-                let api_url = dotenvy::var("PAYPAL_API_URL")?;
+                let api_url = &ENV.PAYPAL_API_URL;
 
                 let paypal_user: PayPalUser = reqwest::Client::new()
                     .get(format!(
@@ -1044,7 +1041,7 @@ impl AuthProvider {
     }
 }
 
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, utoipa::ToSchema)]
 pub struct AuthorizationInit {
     pub url: String,
     #[serde(default)]
@@ -1054,7 +1051,7 @@ pub struct AuthorizationInit {
     /// this will be set to the user's auth token from the frontend.
     pub auth_token: Option<String>,
 }
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, utoipa::ToSchema)]
 pub struct Authorization {
     pub code: String,
     pub state: String,
@@ -1062,7 +1059,15 @@ pub struct Authorization {
 
 // Init link takes us to GitHub API and calls back to callback endpoint with a code and state
 // http://localhost:8000/auth/init?url=https://modrinth.com
-#[get("init")]
+#[utoipa::path(
+    get,
+    operation_id = "authInit",
+    responses(
+        (status = 307, description = "Redirect to OAuth provider"),
+        (status = 400, description = "Invalid input")
+    )
+)]
+#[get("/init")]
 pub async fn init(
     req: HttpRequest,
     Query(info): Query<AuthorizationInit>, // callback url
@@ -1082,6 +1087,7 @@ pub async fn init(
             &**client,
             &redis,
             &session_queue,
+            false,
         )
         .await
         .ok()
@@ -1100,10 +1106,11 @@ pub async fn init(
     let url =
         url::Url::parse(&info.url).map_err(|_| AuthenticationError::Url)?;
 
-    let allowed_callback_urls =
-        parse_strings_from_var("ALLOWED_CALLBACK_URLS").unwrap_or_default();
     let domain = url.host_str().ok_or(AuthenticationError::Url)?;
-    if !allowed_callback_urls.iter().any(|x| domain.ends_with(x))
+    if !ENV
+        .ALLOWED_CALLBACK_URLS
+        .iter()
+        .any(|x| domain.ends_with(x))
         && domain != "modrinth.com"
     {
         return Err(AuthenticationError::Url);
@@ -1116,6 +1123,7 @@ pub async fn init(
             &**client,
             &redis,
             &session_queue,
+            false,
         )
         .await?
         .ok_or_else(|| AuthenticationError::InvalidCredentials)?;
@@ -1140,7 +1148,15 @@ pub async fn init(
         .json(serde_json::json!({ "url": url })))
 }
 
-#[get("callback")]
+#[utoipa::path(
+    get,
+    operation_id = "authCallback",
+    responses(
+        (status = 307, description = "Redirect with auth code"),
+        (status = 401, description = "Authentication failed")
+    )
+)]
+#[get("/callback")]
 pub async fn auth_callback(
     req: HttpRequest,
     Query(query): Query<HashMap<String, String>>,
@@ -1310,7 +1326,8 @@ pub async fn auth_callback(
             };
 
             let session =
-                issue_session(req, user_id, &mut transaction, &redis).await?;
+                issue_session(req, user_id, &mut transaction, &redis, None)
+                    .await?;
             transaction.commit().await?;
 
             let redirect_url = format!(
@@ -1335,12 +1352,22 @@ pub async fn auth_callback(
     Ok(res?)
 }
 
-#[derive(Deserialize)]
+#[derive(Deserialize, utoipa::ToSchema)]
 pub struct DeleteAuthProvider {
     pub provider: AuthProvider,
 }
 
-#[delete("provider")]
+#[utoipa::path(
+    delete,
+    operation_id = "deleteAuthProvider",
+    responses(
+        (status = 204, description = "Auth provider removed"),
+        (status = 400, description = "Invalid input"),
+        (status = 401, description = "Unauthorized")
+    ),
+    security(("bearer_auth" = ["USER_AUTH_WRITE"]))
+)]
+#[delete("/provider")]
 pub async fn delete_auth_provider(
     req: HttpRequest,
     pool: Data<PgPool>,
@@ -1396,9 +1423,9 @@ pub async fn delete_auth_provider(
 pub async fn check_sendy_subscription(
     email: &str,
 ) -> Result<bool, AuthenticationError> {
-    let url = dotenvy::var("SENDY_URL")?;
-    let id = dotenvy::var("SENDY_LIST_ID")?;
-    let api_key = dotenvy::var("SENDY_API_KEY")?;
+    let url = &ENV.SENDY_URL;
+    let id = &ENV.SENDY_LIST_ID;
+    let api_key = &ENV.SENDY_API_KEY;
 
     if url.is_empty() || url == "none" {
         tracing::info!(
@@ -1408,9 +1435,9 @@ pub async fn check_sendy_subscription(
     }
 
     let mut form = HashMap::new();
-    form.insert("api_key", &*api_key);
+    form.insert("api_key", api_key.as_str());
     form.insert("email", email);
-    form.insert("list_id", &*id);
+    form.insert("list_id", id.as_str());
 
     let client = reqwest::Client::new();
     let response = client
@@ -1424,7 +1451,7 @@ pub async fn check_sendy_subscription(
     Ok(response.trim() == "Subscribed")
 }
 
-#[derive(Deserialize, Validate)]
+#[derive(Deserialize, Validate, utoipa::ToSchema)]
 pub struct NewAccount {
     #[validate(length(min = 1, max = 39), regex(path = *crate::util::validate::RE_URL_SAFE))]
     pub username: String,
@@ -1436,7 +1463,15 @@ pub struct NewAccount {
     pub sign_up_newsletter: Option<bool>,
 }
 
-#[post("create")]
+#[utoipa::path(
+    post,
+    operation_id = "createAccountPassword",
+    responses(
+        (status = 200, description = "Account created"),
+        (status = 400, description = "Invalid input")
+    )
+)]
+#[post("/create")]
 pub async fn create_account_with_password(
     req: HttpRequest,
     pool: Data<PgPool>,
@@ -1535,7 +1570,8 @@ pub async fn create_account_with_password(
     .insert(&mut transaction)
     .await?;
 
-    let session = issue_session(req, user_id, &mut transaction, &redis).await?;
+    let session =
+        issue_session(req, user_id, &mut transaction, &redis, None).await?;
     let res = crate::models::sessions::Session::from(session, true, None);
 
     let mailbox: Mailbox = new_account.email.parse().map_err(|_| {
@@ -1564,7 +1600,7 @@ pub async fn create_account_with_password(
     Ok(HttpResponse::Ok().json(res))
 }
 
-#[derive(Deserialize, Validate)]
+#[derive(Deserialize, Validate, utoipa::ToSchema)]
 pub struct Login {
     #[serde(rename = "username")]
     pub username_or_email: String,
@@ -1572,7 +1608,15 @@ pub struct Login {
     pub challenge: String,
 }
 
-#[post("login")]
+#[utoipa::path(
+    post,
+    operation_id = "loginPassword",
+    responses(
+        (status = 200, description = "Login successful"),
+        (status = 401, description = "Invalid credentials")
+    )
+)]
+#[post("/login")]
 pub async fn login_password(
     req: HttpRequest,
     pool: Data<PgPool>,
@@ -1629,7 +1673,7 @@ pub async fn login_password(
     } else {
         let mut transaction = pool.begin().await?;
         let session =
-            issue_session(req, user.id, &mut transaction, &redis).await?;
+            issue_session(req, user.id, &mut transaction, &redis, None).await?;
         let res = crate::models::sessions::Session::from(session, true, None);
         transaction.commit().await?;
 
@@ -1637,7 +1681,7 @@ pub async fn login_password(
     }
 }
 
-#[derive(Deserialize, Validate)]
+#[derive(Deserialize, Validate, utoipa::ToSchema)]
 pub struct Login2FA {
     pub code: String,
     pub flow: String,
@@ -1722,7 +1766,15 @@ async fn validate_2fa_code(
     }
 }
 
-#[post("login/2fa")]
+#[utoipa::path(
+    post,
+    operation_id = "login2fa",
+    responses(
+        (status = 200, description = "2FA login successful"),
+        (status = 401, description = "Invalid credentials")
+    )
+)]
+#[post("/login/2fa")]
 pub async fn login_2fa(
     req: HttpRequest,
     pool: Data<PgPool>,
@@ -1759,7 +1811,7 @@ pub async fn login_2fa(
         DBFlow::remove(&login.flow, &redis).await?;
 
         let session =
-            issue_session(req, user_id, &mut transaction, &redis).await?;
+            issue_session(req, user_id, &mut transaction, &redis, None).await?;
         let res = crate::models::sessions::Session::from(session, true, None);
         transaction.commit().await?;
 
@@ -1771,7 +1823,16 @@ pub async fn login_2fa(
     }
 }
 
-#[post("2fa/get_secret")]
+#[utoipa::path(
+    post,
+    operation_id = "begin2faFlow",
+    responses(
+        (status = 200, description = "2FA secret generated"),
+        (status = 401, description = "Unauthorized")
+    ),
+    security(("bearer_auth" = []))
+)]
+#[post("/2fa/get_secret")]
 pub async fn begin_2fa_flow(
     req: HttpRequest,
     pool: Data<PgPool>,
@@ -1810,7 +1871,16 @@ pub async fn begin_2fa_flow(
     }
 }
 
-#[post("2fa")]
+#[utoipa::path(
+    post,
+    operation_id = "finish2faFlow",
+    responses(
+        (status = 200, description = "2FA enabled"),
+        (status = 401, description = "Unauthorized")
+    ),
+    security(("bearer_auth" = []))
+)]
+#[post("/2fa")]
 pub async fn finish_2fa_flow(
     req: HttpRequest,
     pool: Data<PgPool>,
@@ -1928,12 +1998,21 @@ pub async fn finish_2fa_flow(
     }
 }
 
-#[derive(Deserialize)]
+#[derive(Deserialize, utoipa::ToSchema)]
 pub struct Remove2FA {
     pub code: String,
 }
 
-#[delete("2fa")]
+#[utoipa::path(
+    delete,
+    operation_id = "remove2fa",
+    responses(
+        (status = 204, description = "2FA removed"),
+        (status = 401, description = "Unauthorized")
+    ),
+    security(("bearer_auth" = []))
+)]
+#[delete("/2fa")]
 pub async fn remove_2fa(
     req: HttpRequest,
     pool: Data<PgPool>,
@@ -1947,6 +2026,7 @@ pub async fn remove_2fa(
         &**pool,
         &redis,
         &session_queue,
+        false,
     )
     .await?
     .ok_or_else(|| AuthenticationError::InvalidCredentials)?;
@@ -2013,14 +2093,22 @@ pub async fn remove_2fa(
     Ok(HttpResponse::NoContent().finish())
 }
 
-#[derive(Deserialize)]
+#[derive(Deserialize, utoipa::ToSchema)]
 pub struct ResetPassword {
     #[serde(rename = "username")]
     pub username_or_email: String,
     pub challenge: String,
 }
 
-#[post("password/reset")]
+#[utoipa::path(
+    post,
+    operation_id = "resetPasswordBegin",
+    responses(
+        (status = 204, description = "Password reset email sent"),
+        (status = 400, description = "Invalid input")
+    )
+)]
+#[post("/password/reset")]
 pub async fn reset_password_begin(
     req: HttpRequest,
     pool: Data<PgPool>,
@@ -2108,14 +2196,24 @@ pub async fn reset_password_begin(
     Ok(HttpResponse::Ok().finish())
 }
 
-#[derive(Deserialize, Validate)]
+#[derive(Deserialize, Validate, utoipa::ToSchema)]
 pub struct ChangePassword {
     pub flow: Option<String>,
     pub old_password: Option<String>,
     pub new_password: Option<String>,
 }
 
-#[patch("password")]
+#[utoipa::path(
+    patch,
+    operation_id = "changePassword",
+    responses(
+        (status = 204, description = "Password changed"),
+        (status = 400, description = "Invalid input"),
+        (status = 401, description = "Unauthorized")
+    ),
+    security(("bearer_auth" = []))
+)]
+#[patch("/password")]
 pub async fn change_password(
     req: HttpRequest,
     pool: Data<PgPool>,
@@ -2152,6 +2250,7 @@ pub async fn change_password(
             &**pool,
             &redis,
             &session_queue,
+            false,
         )
         .await?
         .ok_or_else(|| AuthenticationError::InvalidCredentials)?;
@@ -2261,13 +2360,23 @@ pub async fn change_password(
     Ok(HttpResponse::Ok().finish())
 }
 
-#[derive(Deserialize, Validate)]
+#[derive(Deserialize, Validate, utoipa::ToSchema)]
 pub struct SetEmail {
     #[validate(email)]
     pub email: String,
 }
 
-#[patch("email")]
+#[utoipa::path(
+    patch,
+    operation_id = "setEmail",
+    responses(
+        (status = 204, description = "Email set"),
+        (status = 400, description = "Invalid input"),
+        (status = 401, description = "Unauthorized")
+    ),
+    security(("bearer_auth" = []))
+)]
+#[patch("/email")]
 pub async fn set_email(
     req: HttpRequest,
     pool: Data<PgPool>,
@@ -2376,7 +2485,16 @@ pub async fn set_email(
     Ok(HttpResponse::Ok().finish())
 }
 
-#[post("email/resend_verify")]
+#[utoipa::path(
+    post,
+    operation_id = "resendVerifyEmail",
+    responses(
+        (status = 204, description = "Verification email resent"),
+        (status = 401, description = "Unauthorized")
+    ),
+    security(("bearer_auth" = []))
+)]
+#[post("/email/resend_verify")]
 pub async fn resend_verify_email(
     req: HttpRequest,
     pool: Data<PgPool>,
@@ -2434,12 +2552,20 @@ pub async fn resend_verify_email(
     }
 }
 
-#[derive(Deserialize)]
+#[derive(Deserialize, utoipa::ToSchema)]
 pub struct VerifyEmail {
     pub flow: String,
 }
 
-#[post("email/verify")]
+#[utoipa::path(
+    post,
+    operation_id = "verifyEmail",
+    responses(
+        (status = 204, description = "Email verified"),
+        (status = 400, description = "Invalid input")
+    )
+)]
+#[post("/email/verify")]
 pub async fn verify_email(
     pool: Data<PgPool>,
     redis: Data<RedisPool>,
@@ -2494,7 +2620,16 @@ pub async fn verify_email(
     }
 }
 
-#[post("email/subscribe")]
+#[utoipa::path(
+    post,
+    operation_id = "subscribeNewsletter",
+    responses(
+        (status = 204, description = "Newsletter subscription toggled"),
+        (status = 401, description = "Unauthorized")
+    ),
+    security(("bearer_auth" = []))
+)]
+#[post("/email/subscribe")]
 pub async fn subscribe_newsletter(
     req: HttpRequest,
     pool: Data<PgPool>,
@@ -2531,7 +2666,16 @@ pub async fn subscribe_newsletter(
     Ok(HttpResponse::NoContent().finish())
 }
 
-#[get("email/subscribe")]
+#[utoipa::path(
+    get,
+    operation_id = "getNewsletterSubscriptionStatus",
+    responses(
+        (status = 200, description = "Subscription status"),
+        (status = 401, description = "Unauthorized")
+    ),
+    security(("bearer_auth" = []))
+)]
+#[get("/email/subscribe")]
 pub async fn get_newsletter_subscription_status(
     req: HttpRequest,
     pool: Data<PgPool>,

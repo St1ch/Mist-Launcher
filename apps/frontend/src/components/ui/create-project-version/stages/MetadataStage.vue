@@ -1,4 +1,12 @@
 <template>
+	<NavTabs
+		v-if="editingVersion"
+		mode="local"
+		:links="editTabLinks"
+		:active-index="0"
+		class="mb-2 border border-solid border-surface-5 shadow-none drop-shadow-none"
+		@tab-click="setEditTab"
+	/>
 	<div class="flex flex-col gap-6">
 		<div v-if="!editingVersion" class="flex flex-col gap-1">
 			<div class="flex items-center justify-between">
@@ -77,7 +85,13 @@
 						</TagItem>
 					</template>
 
-					<span v-if="!draftVersion.loaders.length">No loaders selected.</span>
+					<TagItem
+						v-if="!draftVersionLoaders.length && projectType === 'modpack'"
+						class="border !border-solid border-surface-5 hover:no-underline"
+					>
+						No mod loader
+					</TagItem>
+					<span v-else-if="!draftVersionLoaders.length">No loaders selected.</span>
 				</div>
 			</div>
 		</div>
@@ -196,6 +210,7 @@ import {
 	ENVIRONMENTS_COPY,
 	FormattedTag,
 	injectProjectPageContext,
+	NavTabs,
 	TagItem,
 	useVIntl,
 } from '@modrinth/ui'
@@ -223,6 +238,21 @@ const { projectV2 } = injectProjectPageContext()
 
 const generatedState = useGeneratedState()
 const loaders = computed(() => generatedState.value.loaders)
+
+const editTabs = [
+	{ label: 'Metadata', href: 'metadata', stage: 'metadata' },
+	{ label: 'Details', href: 'details', stage: 'add-details' },
+	{ label: 'Files', href: 'files', stage: 'add-files' },
+] as const
+
+const editTabLinks = editTabs.map(({ label, href }) => ({ label, href }))
+
+function setEditTab(index: number) {
+	const tab = editTabs[index]
+	if (!tab) return
+	modal.value?.setStage(tab.stage)
+}
+
 const isModpack = computed(() => projectType.value === 'modpack')
 const isResourcePack = computed(
 	() =>

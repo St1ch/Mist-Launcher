@@ -1,14 +1,15 @@
 use crate::auth::validate::get_user_record_from_bearer_token;
 use crate::database::PgPool;
 use crate::database::redis::RedisPool;
-use crate::models::analytics::Download;
+use crate::models::analytics::{Download, DownloadReason};
 use crate::models::ids::ProjectId;
 use crate::models::pats::Scopes;
 use crate::queue::analytics::AnalyticsQueue;
 use crate::queue::session::AuthQueue;
 use crate::routes::ApiError;
-use crate::search::SearchConfig;
+use crate::search::SearchBackend;
 use crate::util::date::get_current_tenths_of_ms;
+use crate::util::error::Context;
 use crate::util::guards::admin_key_guard;
 use actix_web::{HttpRequest, HttpResponse, patch, post, web};
 use serde::Deserialize;
@@ -16,15 +17,15 @@ use std::collections::HashMap;
 use std::net::Ipv4Addr;
 use std::sync::Arc;
 
-pub fn config(cfg: &mut web::ServiceConfig) {
+pub fn config(cfg: &mut utoipa_actix_web::service_config::ServiceConfig) {
     cfg.service(
-        web::scope("admin")
+        utoipa_actix_web::scope("/admin")
             .service(count_download)
             .service(force_reindex),
     );
 }
 
-#[derive(Deserialize)]
+#[derive(Deserialize, utoipa::ToSchema)]
 pub struct DownloadBody {
     pub url: String,
     pub project_id: ProjectId,
@@ -34,7 +35,26 @@ pub struct DownloadBody {
     pub headers: HashMap<String, String>,
 }
 
+/// Extra data attached to each download request, transmitted through the
+/// [`DOWNLOAD_META_HEADER`] header.
+#[derive(Debug, Clone, Deserialize)]
+pub struct DownloadMeta {
+    pub reason: DownloadReason,
+    pub game_version: String,
+    pub loader: String,
+}
+
+pub const DOWNLOAD_META_HEADER: &str = "modrinth-download-meta";
+
 // This is an internal route, cannot be used without key
+#[utoipa::path(
+    patch,
+    operation_id = "countDownload",
+    responses(
+        (status = 204, description = "Download counted successfully"),
+        (status = 400, description = "Invalid input")
+    )
+)]
 #[patch("/_count-download", guard = "admin_key_guard")]
 #[allow(clippy::too_many_arguments)]
 pub async fn count_download(
@@ -57,6 +77,7 @@ pub async fn count_download(
         &**pool,
         &redis,
         &session_queue,
+        false,
     )
     .await
     .ok()
@@ -108,6 +129,11 @@ pub async fn count_download(
     let ip = crate::util::ip::convert_to_ip_v6(&download_body.ip)
         .unwrap_or_else(|_| Ipv4Addr::new(127, 0, 0, 1).to_ipv6_mapped());
 
+    let meta = download_body
+        .headers
+        .get(DOWNLOAD_META_HEADER)
+        .and_then(|v| serde_json::from_str::<DownloadMeta>(v).ok());
+
     analytics_queue.add_download(Download {
         recorded: get_current_tenths_of_ms(),
         domain: url.host_str().unwrap_or_default().to_string(),
@@ -143,19 +169,32 @@ pub async fn count_download(
                     .contains(&&*x.0.to_lowercase())
             })
             .collect(),
+        reason: meta.as_ref().map(|m| m.reason),
+        game_version: meta.as_ref().map(|m| m.game_version.clone()),
+        loader: meta.as_ref().map(|m| m.loader.clone()),
     });
 
     Ok(HttpResponse::NoContent().body(""))
 }
 
+#[utoipa::path(
+    post,
+    operation_id = "forceReindex",
+    responses(
+        (status = 204, description = "Search index rebuilt successfully"),
+        (status = 401, description = "Unauthorized")
+    )
+)]
 #[post("/_force_reindex", guard = "admin_key_guard")]
 pub async fn force_reindex(
     pool: web::Data<PgPool>,
     redis: web::Data<RedisPool>,
-    config: web::Data<SearchConfig>,
+    search_backend: web::Data<dyn SearchBackend>,
 ) -> Result<HttpResponse, ApiError> {
-    use crate::search::indexing::index_projects;
     let redis = redis.get_ref();
-    index_projects(pool.as_ref().clone(), redis.clone(), &config).await?;
+    search_backend
+        .index_projects(pool.as_ref().clone(), redis.clone())
+        .await
+        .wrap_internal_err("failed to index projects")?;
     Ok(HttpResponse::NoContent().finish())
 }

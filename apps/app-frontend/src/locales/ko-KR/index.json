@@ -5,6 +5,153 @@
   "app.auth-servers.unreachable.header": {
     "message": "мќём¦ќ м„њлІ„м—ђ м—°кІ°н•  м€ м—†мЉµл‹€л‹¤"
   },
+  "app.browse.add-server-to-instance": {
+    "message": "인스턴스에 서버 추가"
+  },
+  "app.browse.add-servers-to-instance": {
+    "message": "인스턴스에 서버 추가"
+  },
+  "app.browse.add-to-instance": {
+    "message": "인스턴스에 추가"
+  },
+  "app.browse.add-to-instance-name": {
+    "message": "{instanceName}에 추가"
+  },
+  "app.browse.added": {
+    "message": "추가됨"
+  },
+  "app.browse.already-added": {
+    "message": "이미 추가됨"
+  },
+  "app.browse.discover-content": {
+    "message": "콘텐츠 탐색하기"
+  },
+  "app.browse.discover-servers": {
+    "message": "서버 탐색하기"
+  },
+  "app.browse.hide-added-servers": {
+    "message": "추가된 서버 숨기기"
+  },
+  "app.browse.hide-installed-content": {
+    "message": "설치된 콘텐츠 숨기기"
+  },
+  "app.browse.install-content-to-instance": {
+    "message": "인스턴스에 콘텐츠 설치"
+  },
+  "app.export-modal.description-placeholder": {
+    "message": "모드팩 설명 입력..."
+  },
+  "app.export-modal.export-button": {
+    "message": "내보내기"
+  },
+  "app.export-modal.header": {
+    "message": "모드팩 내보내기"
+  },
+  "app.export-modal.modpack-name-label": {
+    "message": "모드팩 이름"
+  },
+  "app.export-modal.modpack-name-placeholder": {
+    "message": "모드팩 이름"
+  },
+  "app.export-modal.select-files-label": {
+    "message": "팩에 포함할 파일과 폴더 선택"
+  },
+  "app.export-modal.version-number-label": {
+    "message": "버전 구분"
+  },
+  "app.export-modal.version-number-placeholder": {
+    "message": "1.0.0"
+  },
+  "app.instance.confirm-delete.admonition-body": {
+    "message": "인스턴스의 모든 데이터가 삭제됩니다. 세계 폴더, 설정 폴더 등 설치된 모든 컨텐츠가 포함됩니다."
+  },
+  "app.instance.confirm-delete.admonition-header": {
+    "message": "이 작업은 되돌릴 수 없습니다"
+  },
+  "app.instance.confirm-delete.delete-button": {
+    "message": "인스턴스 삭제"
+  },
+  "app.instance.confirm-delete.header": {
+    "message": "인스턴스 삭제"
+  },
+  "app.instance.modpack-already-installed.body": {
+    "message": "이 모드팩은 이미 <bold>{instanceName}</bold> 인스턴스에 설치되어 있습니다. 정말로 복제하시겠습니까?"
+  },
+  "app.instance.modpack-already-installed.create": {
+    "message": "생성"
+  },
+  "app.instance.modpack-already-installed.header": {
+    "message": "모드팩 이미 설치됨"
+  },
+  "app.instance.modpack-already-installed.instance": {
+    "message": "인스턴스"
+  },
+  "app.instance.mods.content-type-project": {
+    "message": "프로젝트"
+  },
+  "app.instance.mods.project-was-added": {
+    "message": "\"{name}\" 추가됨"
+  },
+  "app.instance.mods.projects-were-added": {
+    "message": "프로젝트 {count}개 추가됨"
+  },
+  "app.instance.mods.share-text": {
+    "message": "제 모드팩에 사용중인 프로젝트를 확인해 보세요!"
+  },
+  "app.instance.mods.share-title": {
+    "message": "모드팩 콘텐츠 공유"
+  },
+  "app.instance.mods.successfully-uploaded": {
+    "message": "업로드 성공"
+  },
+  "app.instance.worlds.add-server": {
+    "message": "서버 추가"
+  },
+  "app.instance.worlds.browse-servers": {
+    "message": "서버 탐색하기"
+  },
+  "app.instance.worlds.delete-world-description": {
+    "message": "'{name}'이(가) **영구적으로 삭제**되며, 복구할 수 없습니다."
+  },
+  "app.instance.worlds.delete-world-title": {
+    "message": "정말로 이 세계를 영구적으로 삭제하시겠습니까?"
+  },
+  "app.instance.worlds.filter-modded": {
+    "message": "수정됨"
+  },
+  "app.instance.worlds.filter-offline": {
+    "message": "오프라인"
+  },
+  "app.instance.worlds.filter-online": {
+    "message": "온라인"
+  },
+  "app.instance.worlds.filter-vanilla": {
+    "message": "바닐라"
+  },
+  "app.instance.worlds.no-worlds-description": {
+    "message": "서버를 추가하거나 탐색하여 시작"
+  },
+  "app.instance.worlds.no-worlds-heading": {
+    "message": "추가된 서버 또는 세계 없음"
+  },
+  "app.instance.worlds.remove-server-description": {
+    "message": "'{name}'이(가) 게임 내를 포함한 모든 목록에서 삭제되며, 복구할 수 없습니다."
+  },
+  "app.instance.worlds.remove-server-description-with-address": {
+    "message": "'{name}' ({address})이(가) 게임 내를 포함한 모든 목록에서 삭제되며, 복구할 수 없습니다."
+  },
+  "app.instance.worlds.remove-server-title": {
+    "message": "정말로 {name}을(를) 제거하시겠습니까?"
+  },
+  "app.instance.worlds.search-worlds-placeholder": {
+    "message": "{count}개의 세계 검색..."
+  },
+  "app.instance.worlds.this-server": {
+    "message": "이 서버"
+  },
+  "app.modal.install-to-play.content-required": {
+    "message": "콘텐츠 설치 필요"
+  },
   "app.modal.install-to-play.header": {
     "message": "м„¤м№н•кі  н”Њл €мќґ"
   },
@@ -14,11 +161,11 @@
   "app.modal.install-to-play.mod-count": {
     "message": "{count, plural, one {лЄЁл“њ #к°њ} other {лЄЁл“њ #к°њ}}"
   },
-  "app.modal.install-to-play.server-requires-mods": {
-    "message": "мќґ м„њлІ„м—ђм„њ н”Њл €мќґн•л ¤л©ґ лЄЁл“њк°Ђ н•„мљ”н•©л‹€л‹¤. м„¤м№лҐј л€Њлџ¬ Modrinthм—ђм„њ н•„мљ”н•њ нЊЊмќјмќ„ м„¤м •н•м„ёмљ”."
+  "app.modal.install-to-play.required-modpack": {
+    "message": "필요한 모드팩"
   },
-  "app.modal.install-to-play.shared-by-today": {
-    "message": "{name}мќґ(к°Ђ) м¤лЉ мќґ мќёмЉ¤н„ґмЉ¤лҐј кіµмњ н–€мЉµл‹€л‹¤."
+  "app.modal.install-to-play.server-requires-mods": {
+    "message": "이 서버를 플레이하려면 모드가 필요합니다. '설치'를 클릭하여 Modrinth에서 필수 파일을 내려받은 후, 서버에 바로 접속하세요."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "мќёмЉ¤н„ґмЉ¤ кіµмњ лђЁ"
@@ -26,35 +173,17 @@
   "app.modal.install-to-play.shared-server-instance": {
     "message": "м„њлІ„ мќёмЉ¤н„ґмЉ¤ кіµмњ лђЁ"
   },
-  "app.modal.update-to-play.added-count": {
-    "message": "{count} м¶”к°ЂлђЁ"
-  },
-  "app.modal.update-to-play.diff-type.added": {
-    "message": "м¶”к°ЂлђЁ"
-  },
-  "app.modal.update-to-play.diff-type.removed": {
-    "message": "м‚­м њлђЁ"
-  },
-  "app.modal.update-to-play.diff-type.updated": {
-    "message": "м—…лЌ°мќґнЉёлђЁ"
+  "app.modal.install-to-play.view-contents": {
+    "message": "구성 요소 보기"
   },
   "app.modal.update-to-play.header": {
     "message": "м—…лЌ°мќґнЉён•кі  н”Њл €мќґ"
-  },
-  "app.modal.update-to-play.published-date": {
-    "message": "{date, date, long}"
-  },
-  "app.modal.update-to-play.removed-count": {
-    "message": "{count} м‚­м њлђЁ"
   },
   "app.modal.update-to-play.update-required": {
     "message": "м—…лЌ°мќґнЉё н•„мљ”"
   },
   "app.modal.update-to-play.update-required-description": {
     "message": "{name}мќ„(лҐј) н”Њл €мќґн•л ¤л©ґ м—…лЌ°мќґнЉёк°Ђ н•„мљ”н•©л‹€л‹¤. кІЊмћ„мќ„ м‹¤н–‰н•л ¤л©ґ мµњм‹  лІ„м „мњјлЎњ м—…лЌ°мќґнЉён•ґ мЈјм„ёмљ”."
-  },
-  "app.modal.update-to-play.updated-count": {
-    "message": "{count} м—…лЌ°мќґнЉёлђЁ"
   },
   "app.settings.developer-mode-enabled": {
     "message": "к°њл°њмћђ лЄЁл“њк°Ђ н™њм„±н™”лђм—€мЉµл‹€л‹¤."
@@ -68,9 +197,6 @@
   "app.settings.tabs.default-instance-options": {
     "message": "кё°ліё мќёмЉ¤н„ґмЉ¤ мµм…"
   },
-  "app.settings.tabs.feature-flags": {
-    "message": "кё°лЉҐ н”Њлћк·ё"
-  },
   "app.settings.tabs.java-installations": {
     "message": "Java м„¤м№"
   },
@@ -83,38 +209,32 @@
   "app.settings.tabs.resource-management": {
     "message": "л¦¬м†ЊмЉ¤ кґЂл¦¬"
   },
-  "app.update-toast.body": {
-    "message": "Mist Launcher v{version}мќ„ м„¤м№н•  м¤Ђл№„к°Ђ м™„лЈЊлђм—€мЉµл‹€л‹¤! мѓ€лЎњкі м№Ён•к±°л‚ Mist Launcherмќ„ мў…лЈЊн•л©ґ мћђлЏ™мњјлЎњ м—…лЌ°мќґнЉёлђ©л‹€л‹¤."
+  "app.update-popup.body": {
+    "message": "Mist Launcher v{version}을 설치할 준비가 완료되었습니다! 새로고침하거나 Mist Launcher을 종료하면 자동으로 업데이트됩니다."
   },
-  "app.update-toast.body.download-complete": {
-    "message": "Mist Launcher v{version} л‹¤мљґлЎњл“њк°Ђ м™„лЈЊлђм—€мЉµл‹€л‹¤. мѓ€лЎњкі м№Ён•к±°л‚ Mist Launcherмќ„ мў…лЈЊн•л©ґ мћђлЏ™мњјлЎњ м—…лЌ°мќґнЉёлђ©л‹€л‹¤."
+  "app.update-popup.body.download-complete": {
+    "message": "Mist Launcher v{version} 다운로드가 완료되었습니다. 새로고침하거나 Mist Launcher을 종료하면 자동으로 업데이트됩니다."
   },
-  "app.update-toast.body.linux": {
-    "message": "Mist Launcher v{version} лІ„м „мќ„ м‚¬мљ©н•  м€ мћ€мЉµл‹€л‹¤. мµњм‹  кё°лЉҐкіј м¤лҐ м€м •мќ„ м Ѓмљ©н•л ¤л©ґ нЊЁн‚¤м§Ђ кґЂл¦¬мћђлҐј н†µн•ґ м—…лЌ°мќґнЉён•м„ёмљ”!"
+  "app.update-popup.body.linux": {
+    "message": "Mist Launcher v{version}을 사용할 수 있습니다. 최신 기능과 오류 수정을 적용하려면 패키지 관리자를 통해 업데이트하세요!"
   },
-  "app.update-toast.body.metered": {
-    "message": "Mist Launcher v{version}мќ„ м§Ђкё€ м‚¬мљ©н•  м€ мћ€мЉµл‹€л‹¤! лЌ°мќґн„° н†µм‹  м—°кІ°мќ„ м‚¬мљ© м¤‘мќґлЇЂлЎњ, мћђлЏ™мњјлЎњ л‹¤мљґлЎњл“њн•м§Ђ м•Љм•мЉµл‹€л‹¤."
+  "app.update-popup.body.metered": {
+    "message": "Mist Launcher v{version}을 지금 사용할 수 있습니다! 데이터 통신 연결을 사용 중이므로, 자동으로 다운로드하지 않았습니다."
   },
-  "app.update-toast.changelog": {
-    "message": "ліЂкІЅ л‚ґм—­"
+  "app.update-popup.changelog": {
+    "message": "변경 내역"
   },
-  "app.update-toast.download": {
-    "message": "({size}) л‹¤мљґлЎњл“њ"
+  "app.update-popup.download": {
+    "message": "다운로드 ({size})"
   },
-  "app.update-toast.download-page": {
-    "message": "л‹¤мљґлЎњл“њ"
+  "app.update-popup.download-complete": {
+    "message": "다운로드 완료"
   },
-  "app.update-toast.downloading": {
-    "message": "л‹¤мљґлЎњл“њ м¤‘..."
+  "app.update-popup.reload": {
+    "message": "새로고침"
   },
-  "app.update-toast.reload": {
-    "message": "мѓ€лЎњкі м№Ё"
-  },
-  "app.update-toast.title": {
-    "message": "м—…лЌ°мќґнЉё к°ЂлЉҐ"
-  },
-  "app.update-toast.title.download-complete": {
-    "message": "л‹¤мљґлЎњл“њ м™„лЈЊ"
+  "app.update-popup.title": {
+    "message": "업데이트 가능"
   },
   "app.update.complete-toast.text": {
     "message": "ліЂкІЅ л‚ґм—­мќ„ ліґл ¤л©ґ нЃґл¦­н•м„ёмљ”."
@@ -130,6 +250,24 @@
   },
   "app.update.reload-to-update": {
     "message": "мѓ€лЎњкі м№Ён•м—¬ м—…лЌ°мќґнЉё м„¤м№"
+  },
+  "app.world.server-modal.placeholder-address": {
+    "message": "example.modrinth.gg"
+  },
+  "app.world.server-modal.select-an-option": {
+    "message": "옵션 선택"
+  },
+  "app.world.world-item.incompatible-version": {
+    "message": "{version} 버전에 호환되지 않음"
+  },
+  "app.world.world-item.not-played-yet": {
+    "message": "플레이 안 함"
+  },
+  "app.world.world-item.offline": {
+    "message": "오프라인"
+  },
+  "app.world.world-item.players-online": {
+    "message": "{count}명 온라인"
   },
   "friends.action.add-friend": {
     "message": "м№њкµ¬ м¶”к°Ђ"
@@ -183,7 +321,7 @@
     "message": "лЊЂкё° м¤‘"
   },
   "friends.no-friends-match": {
-    "message": "\"{query}\" мќґл¦„кіј мќјм№н•лЉ” м№њкµ¬ м—†мќЊ"
+    "message": "\"{query}\"과(와) 일치하는 친구 없음"
   },
   "friends.search-friends-placeholder": {
     "message": "м№њкµ¬ кІЂмѓ‰ м¤‘..."
@@ -230,11 +368,11 @@
   "instance.edit-world.title": {
     "message": "м„ёкі„ нЋём§‘"
   },
-  "instance.filter.disabled": {
-    "message": "л№„н™њм„±н™”лђњ н”„лЎњм ќнЉё"
+  "instance.files.adding-files": {
+    "message": "파일 추가 중 ({completed}/{total})"
   },
-  "instance.filter.updates-available": {
-    "message": "м—…лЌ°мќґнЉё к°ЂлЉҐ"
+  "instance.files.save-as": {
+    "message": "다른 이름으로 저장..."
   },
   "instance.server-modal.address": {
     "message": "мЈјм†Њ"
@@ -282,7 +420,7 @@
     "message": "м•„мќґмЅ м њк±°"
   },
   "instance.settings.tabs.general.edit-icon.replace": {
-    "message": "м•„мќґмЅ лЊЂмІґ"
+    "message": "아이콘 교체"
   },
   "instance.settings.tabs.general.edit-icon.select": {
     "message": "м•„мќґмЅ м„ нѓќ"
@@ -344,140 +482,8 @@
   "instance.settings.tabs.installation": {
     "message": "м„¤м№"
   },
-  "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "Minecraft {game_version} {platform} {version} м„¤м№лђЁ"
-  },
-  "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "л°”л‹ђлќј {game_version} м„¤м№лђЁ"
-  },
-  "instance.settings.tabs.installation.change-version.button": {
-    "message": "лІ„м „ ліЂкІЅ"
-  },
-  "instance.settings.tabs.installation.change-version.button.install": {
-    "message": "м„¤м№"
-  },
-  "instance.settings.tabs.installation.change-version.button.installing": {
-    "message": "м„¤м№ м¤‘"
-  },
-  "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "лЄЁл“њнЊ© лІ„м „мќ„ к°Ђм ём¤лЉ” м¤‘"
-  },
-  "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "мѓ€ лІ„м „мќ„ м„¤м№н•лЉ” м¤‘"
-  },
-  "instance.settings.tabs.installation.currently-installed": {
-    "message": "н„мћ¬ м„¤м№лђЁ"
-  },
-  "instance.settings.tabs.installation.debug-information": {
-    "message": "л””лІ„к·ё м •ліґ:"
-  },
-  "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "лЄЁл“њнЊ© м„ёл¶Ђ м •ліґлҐј к°Ђм ём¤лЉ” м¤‘"
-  },
-  "instance.settings.tabs.installation.game-version": {
-    "message": "кІЊмћ„ лІ„м „"
-  },
-  "instance.settings.tabs.installation.install": {
-    "message": "м„¤м№"
-  },
-  "instance.settings.tabs.installation.install.in-progress": {
-    "message": "м„¤м№ м§„н–‰ м¤‘"
-  },
   "instance.settings.tabs.installation.loader-version": {
     "message": "{loader} лІ„м „"
-  },
-  "instance.settings.tabs.installation.minecraft-version": {
-    "message": "Minecraft {version}"
-  },
-  "instance.settings.tabs.installation.no-connection": {
-    "message": "м—°кІ°лђњ лЄЁл“њнЊ©мќ м„ёл¶Ђ м •ліґлҐј к°Ђм ём¬ м€ м—†мЉµл‹€л‹¤. мќён„°л„· м—°кІ° мѓЃнѓњлҐј н™•мќён•м„ёмљ”."
-  },
-  "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader}(мќЂ)лЉ” Minecraft {version}м—ђм„њ м‚¬мљ©н•  м€ м—†мЉµл‹€л‹¤. л‹¤лҐё лЄЁл“њ лЎњлЌ”лҐј м‚¬мљ©н•м„ёмљ”."
-  },
-  "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "мќґ мќёмЉ¤н„ґмЉ¤лЉ” лЄЁл“њнЊ©кіј м—°кІ°лђм–ґ мћ€м§Ђл§Њ, Modrinthм—ђм„њ лЄЁл“њнЊ©мќ„ м°ѕмќ„ м€ м—†мЉµл‹€л‹¤."
-  },
-  "instance.settings.tabs.installation.platform": {
-    "message": "н”Њлћ«нЏј"
-  },
-  "instance.settings.tabs.installation.reinstall.button": {
-    "message": "лЄЁл“њнЊ© мћ¬м„¤м№"
-  },
-  "instance.settings.tabs.installation.reinstall.button.reinstalling": {
-    "message": "лЄЁл“њнЊ© мћ¬м„¤м№ м¤‘"
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "мћ¬м„¤м№н•л©ґ м„¤м№ лђлЉ” м€м •лђњ лЄЁл“  мЅн…ђмё к°Ђ лЄЁл“њнЊ©м—ђм„њ м њкіµн•лЉ” мЅн…ђмё лЎњ мґ€кё°н™”лђл©°, кё°мЎґ нЊ©м—ђ м¶”к°Ђн•њ лЄЁл“њл‚ мЅн…ђмё лЉ” лЄЁл‘ђ м њк±°лђ©л‹€л‹¤. мќёмЉ¤н„ґмЉ¤м—ђ ліЂкІЅ м‚¬н•­мќґ мћ€лЉ” кІЅмљ° м€мѓЃм№ лЄ»н•њ лЏ™мћ‘мќЂ н•ґкІ°н•  м€ мћ€м§Ђл§Њ, н„мћ¬ м„ёкі„к°Ђ м¶”к°ЂлЎњ м„¤м№лђњ мЅн…ђмё м—ђ мќмЎґн•кі  мћ€л‹¤л©ґ кё°мЎґ м„ёкі„к°Ђ м†ђмѓЃлђ  м€ мћ€мЉµл‹€л‹¤."
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "м •л§ђлЎњ мќґ мќёмЉ¤н„ґмЉ¤лҐј л‹¤м‹њ м„¤м№н•м‹њкІ мЉµл‹€к№Њ?"
-  },
-  "instance.settings.tabs.installation.reinstall.description": {
-    "message": "мќёмЉ¤н„ґмЉ¤лҐј мґ€кё° мѓЃнѓњлЎњ ліµм›ђн•кі , м›ђліё лЄЁл“њнЊ©м—ђ м¶”к°Ђлђњ лЄЁл“њл‚ мЅн…ђмё лҐј лЄЁл‘ђ м њк±°н•©л‹€л‹¤."
-  },
-  "instance.settings.tabs.installation.reinstall.title": {
-    "message": "лЄЁл“њнЊ© мћ¬м„¤м№"
-  },
-  "instance.settings.tabs.installation.repair.button": {
-    "message": "ліµкµ¬"
-  },
-  "instance.settings.tabs.installation.repair.button.repairing": {
-    "message": "ліµкµ¬ м¤‘"
-  },
-  "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "ліµкµ¬ м‹њ Minecraft мќмЎґм„±мќ„ мћ¬м„¤м№н•кі  л¬ґкІ°м„±мќ„ кІЂм‚¬н•©л‹€л‹¤. лџ°мІ м¤лҐлЎњ мќён•ґ кІЊмћ„мќґ м‹¤н–‰лђм§Ђ м•Љмќ„ кІЅмљ° л¬ём њ н•ґкІ°м—ђ лЏ„м›Ђмќґ лђ  м€ мћ€м§Ђл§Њ, м„¤м№лђњ лЄЁл“њлЎњ мќён•њ м¤лҐл‚ м¶©лЏЊмќЂ н•ґкІ°лђм§Ђ м•ЉмЉµл‹€л‹¤."
-  },
-  "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "мќёмЉ¤н„ґмЉ¤лҐј ліµкµ¬н•м‹њкІ мЉµл‹€к№Њ?"
-  },
-  "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "ліµкµ¬ м§„н–‰ м¤‘"
-  },
-  "instance.settings.tabs.installation.reset-selections": {
-    "message": "н„мћ¬ мѓЃнѓњлЎњ лђлЏЊл¦¬кё°"
-  },
-  "instance.settings.tabs.installation.show-all-versions": {
-    "message": "лЄЁл“  лІ„м „ ліґмќґкё°"
-  },
-  "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "лІ„м „ ліЂкІЅ"
-  },
-  "instance.settings.tabs.installation.tooltip.action.install": {
-    "message": "м„¤м№"
-  },
-  "instance.settings.tabs.installation.tooltip.action.reinstall": {
-    "message": "мћ¬м„¤м№"
-  },
-  "instance.settings.tabs.installation.tooltip.action.repair": {
-    "message": "ліµкµ¬"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "м„¤м№ м¤‘м—ђлЉ” {action} н•  м€ м—†мќЊ"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
-    "message": "м¤н”„лќјмќё мѓЃнѓњм—ђм„њлЉ” {action} н•  м€ м—†мќЊ"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "ліµкµ¬ м¤‘м—ђлЉ” {action} н•  м€ м—†мќЊ"
-  },
-  "instance.settings.tabs.installation.unknown-version": {
-    "message": "(м•Њ м€ м—†лЉ” лІ„м „)"
-  },
-  "instance.settings.tabs.installation.unlink.button": {
-    "message": "мќёмЉ¤н„ґмЉ¤ м—°кІ° н•ґм њ"
-  },
-  "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "кі„м†Ќ м§„н–‰н•л©ґ мѓ€ мќёмЉ¤н„ґмЉ¤лҐј л§Њл“¤м§Ђ м•ЉлЉ” н•њ л‹¤м‹њ м—°кІ°н•  м€ м—†мЉµл‹€л‹¤. лђн•њ лЄЁл“њнЊ© м—…лЌ°мќґнЉёлҐј лЌ” мќґмѓЃ л°›мќ„ м€ м—†мњјл©°, мќјл° мќёмЉ¤н„ґмЉ¤лЎњ м „н™лђ©л‹€л‹¤."
-  },
-  "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "м •л§ђлЎњ мќґ мќёмЉ¤н„ґмЉ¤мќ м—°кІ°мќ„ н•ґм њн•м‹њкІ мЉµл‹€к№Њ?"
-  },
-  "instance.settings.tabs.installation.unlink.description": {
-    "message": "мќґ мќёмЉ¤н„ґмЉ¤лЉ” лЄЁл“њнЊ©м—ђ м—°кІ°лђм–ґ мћ€мњјлЇЂлЎњ, лЄЁл“њлҐј к°њлі„м ЃмњјлЎњ м—…лЌ°мќґнЉён•к±°л‚ лЄЁл“њ лЎњлЌ” л°Џ Minecraft лІ„м „мќ„ ліЂкІЅн•  м€ м—†мЉµл‹€л‹¤. м—°кІ°мќ„ н•ґм њн•л©ґ мќґ мќёмЉ¤н„ґмЉ¤лЉ” лЄЁл“њнЊ©кіј мЃкµ¬м ЃмњјлЎњ л¶„л¦¬лђ©л‹€л‹¤."
-  },
-  "instance.settings.tabs.installation.unlink.title": {
-    "message": "лЄЁл“њнЊ©м—ђм„њ м—°кІ° н•ґм њ"
   },
   "instance.settings.tabs.java": {
     "message": "Java л°Џ л©”лЄЁл¦¬"
@@ -539,9 +545,6 @@
   "instance.worlds.dont_show_on_home": {
     "message": "н™€м—ђм„њ м€Ёкё°кё°"
   },
-  "instance.worlds.filter.available": {
-    "message": "мќґмљ© к°ЂлЉҐ"
-  },
   "instance.worlds.game_already_open": {
     "message": "мќґлЇё м‹¤н–‰лђњ мќёмЉ¤н„ґмЉ¤"
   },
@@ -550,6 +553,9 @@
   },
   "instance.worlds.incompatible_server": {
     "message": "нён™лђм§Ђ м•ЉлЉ” м„њлІ„"
+  },
+  "instance.worlds.linked_server": {
+    "message": "서버 설정에 의해 관리됨"
   },
   "instance.worlds.no_contact": {
     "message": "м„њлІ„к°Ђ мќ‘л‹µн•м§Ђ м•ЉмќЊ"
@@ -562,12 +568,6 @@
   },
   "instance.worlds.play_instance": {
     "message": "мќёмЉ¤н„ґмЉ¤ н”Њл €мќґ"
-  },
-  "instance.worlds.type.server": {
-    "message": "м„њлІ„"
-  },
-  "instance.worlds.type.singleplayer": {
-    "message": "м‹±кёЂ н”Њл €мќґ"
   },
   "instance.worlds.view_instance": {
     "message": "мќёмЉ¤н„ґмЉ¤ ліґкё°"
@@ -585,6 +585,18 @@
     "message": "мќёмЉ¤н„ґмЉ¤к°Ђ лЎњлЌ”лҐј кґЂл¦¬н•©л‹€л‹¤"
   },
   "search.filter.locked.instance.sync": {
-    "message": "мќёмЉ¤н„ґмЉ¤м™Ђ лЏ™кё°н™”"
+    "message": "인스턴스와 동기화"
+  },
+  "search.filter.locked.server": {
+    "message": "서버에 의해 관리됨"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "서버 인스턴스에는 클라이언트 전용 모드만 추가할 수 있습니다"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "게임 버전이 서버에 의해 제공됩니다"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "로더가 서버에 의해 제공됩니다"
   }
 }

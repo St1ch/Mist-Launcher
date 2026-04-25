@@ -1,4 +1,12 @@
 <template>
+	<NavTabs
+		v-if="editingVersion"
+		mode="local"
+		:links="editTabLinks"
+		:active-index="1"
+		class="mb-4 border border-solid border-surface-5 shadow-none drop-shadow-none"
+		@tab-click="setEditTab"
+	/>
 	<div class="flex w-full flex-col gap-6">
 		<div class="flex flex-col gap-2">
 			<span class="font-semibold text-contrast">
@@ -16,26 +24,24 @@
 			<span class="font-semibold text-contrast">
 				Version number <span class="text-red">*</span>
 			</span>
-			<input
+			<StyledInput
 				id="version-number"
 				v-model="draftVersion.version_number"
 				:disabled="isUploading"
 				placeholder="Enter version number, e.g. 1.2.3-alpha.1"
-				type="text"
 				autocomplete="off"
-				maxlength="32"
+				:maxlength="32"
 			/>
 			<span> The version number differentiates this specific version from others. </span>
 		</div>
 		<div class="flex flex-col gap-2">
 			<span class="font-semibold text-contrast"> Version subtitle </span>
-			<input
+			<StyledInput
 				id="version-number"
 				v-model="draftVersion.name"
 				placeholder="Enter subtitle..."
-				type="text"
 				autocomplete="off"
-				maxlength="256"
+				:maxlength="256"
 				:disabled="isUploading"
 			/>
 		</div>
@@ -55,12 +61,26 @@
 </template>
 
 <script lang="ts" setup>
-import { Chips, MarkdownEditor } from '@modrinth/ui'
+import { Chips, MarkdownEditor, NavTabs, StyledInput } from '@modrinth/ui'
 
 import { useImageUpload } from '~/composables/image-upload.ts'
 import { injectManageVersionContext } from '~/providers/version/manage-version-modal'
 
-const { draftVersion, isUploading } = injectManageVersionContext()
+const { draftVersion, isUploading, editingVersion, modal } = injectManageVersionContext()
+
+const editTabs = [
+	{ label: 'Metadata', href: 'metadata', stage: 'metadata' },
+	{ label: 'Details', href: 'details', stage: 'add-details' },
+	{ label: 'Files', href: 'files', stage: 'add-files' },
+] as const
+
+const editTabLinks = editTabs.map(({ label, href }) => ({ label, href }))
+
+function setEditTab(index: number) {
+	const tab = editTabs[index]
+	if (!tab) return
+	modal.value?.setStage(tab.stage)
+}
 
 async function onImageUpload(file: File) {
 	const response = await useImageUpload(file, { context: 'version' })

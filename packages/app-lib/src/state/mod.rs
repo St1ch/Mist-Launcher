@@ -13,6 +13,9 @@ pub use self::dirs::*;
 mod profiles;
 pub use self::profiles::*;
 
+mod instances;
+pub use self::instances::*;
+
 mod settings;
 pub use self::settings::*;
 
@@ -71,9 +74,12 @@ pub struct State {
     /// Process manager
     pub process_manager: ProcessManager,
 
-    /// App identifier string (like com.modrinth.ModrinthApp)
-    pub app_identifier: String,
-
+    // NOTE: we explicitly must NOT store the app identifier in the state object,
+    // because creating the state object is fallible (e.g. database missing),
+    // but we rely on the app identifier to create the state (data dir).
+    //
+    // /// App identifier string (like com.modrinth.ModrinthApp)
+    // pub app_identifier: String,
     /// Friends socket
     pub friends_socket: FriendsSocket,
 
@@ -185,7 +191,7 @@ impl State {
             friends_socket,
             pool,
             file_watcher,
-            app_identifier,
+            // app_identifier,
         }))
     }
 }

@@ -5,14 +5,155 @@
   "app.auth-servers.unreachable.header": {
     "message": "PЕ™ipojenГ­ k autorizaДЌnГ­m serverЕЇm se nezdaЕ™ilo"
   },
+  "app.browse.add-server-to-instance": {
+    "message": "Přidat server do instance"
+  },
+  "app.browse.add-servers-to-instance": {
+    "message": "Přidat servery do instance"
+  },
+  "app.browse.add-to-instance": {
+    "message": "Přidat do instance"
+  },
+  "app.browse.add-to-instance-name": {
+    "message": "Přidat do {instanceName}"
+  },
+  "app.browse.added": {
+    "message": "Přidáno"
+  },
+  "app.browse.already-added": {
+    "message": "Už přidáno"
+  },
+  "app.browse.discover-content": {
+    "message": "Prozkoumat obsah"
+  },
+  "app.browse.discover-servers": {
+    "message": "Prozkoumat servery"
+  },
+  "app.browse.hide-added-servers": {
+    "message": "Skrýt přidané servery"
+  },
+  "app.browse.hide-installed-content": {
+    "message": "Skrýt nainstalovaný obsah"
+  },
+  "app.browse.install-content-to-instance": {
+    "message": "Nainstalovat obsah do instnce"
+  },
+  "app.export-modal.description-placeholder": {
+    "message": "Přidej popis modpacku..."
+  },
+  "app.export-modal.export-button": {
+    "message": "Exportovat"
+  },
+  "app.export-modal.header": {
+    "message": "Exportovat modpack"
+  },
+  "app.export-modal.modpack-name-label": {
+    "message": "Jméno Modpacku"
+  },
+  "app.export-modal.modpack-name-placeholder": {
+    "message": "Jméno modpacku"
+  },
+  "app.export-modal.select-files-label": {
+    "message": "Vybrat soubory a složky co zahrnout do modpacku"
+  },
+  "app.export-modal.version-number-label": {
+    "message": "Číslo verze"
+  },
+  "app.export-modal.version-number-placeholder": {
+    "message": "1.0.0"
+  },
+  "app.instance.confirm-delete.admonition-body": {
+    "message": "Všechna data z instance budou navždy smazána, včetně světů, nastavení a všeho ostatního."
+  },
+  "app.instance.confirm-delete.admonition-header": {
+    "message": "Tato akce nemůže být vrácena"
+  },
+  "app.instance.confirm-delete.delete-button": {
+    "message": "Odstranit instanci"
+  },
+  "app.instance.confirm-delete.header": {
+    "message": "Odstanit instanci"
+  },
+  "app.instance.modpack-already-installed.body": {
+    "message": "Tento modpack je už nainstalovaný v instanci <bold>{instanceName}</bold>. Opravdu ho chceš duplikovat?"
+  },
+  "app.instance.modpack-already-installed.create": {
+    "message": "Vytvořit"
+  },
+  "app.instance.modpack-already-installed.header": {
+    "message": "Modpack už je nainstalovaný"
+  },
+  "app.instance.modpack-already-installed.instance": {
+    "message": "Instance"
+  },
+  "app.instance.mods.content-type-project": {
+    "message": "projekt"
+  },
+  "app.instance.mods.project-was-added": {
+    "message": "\"{name}\" bylo přidáno"
+  },
+  "app.instance.mods.projects-were-added": {
+    "message": "{count} projektů bylo přidáno"
+  },
+  "app.instance.mods.share-text": {
+    "message": "Podívejte se na projekty co používám ve svém modpacku!"
+  },
+  "app.instance.mods.share-title": {
+    "message": "Sdílení obsahu modpacku"
+  },
+  "app.instance.mods.successfully-uploaded": {
+    "message": "Úspěšně nahráno"
+  },
+  "app.instance.worlds.add-server": {
+    "message": "Přidat server"
+  },
+  "app.instance.worlds.browse-servers": {
+    "message": "Procházet servery"
+  },
+  "app.instance.worlds.delete-world-description": {
+    "message": "\"{name}\" bude **navždy smazáno** a nebude způsob, jak to obnovit."
+  },
+  "app.instance.worlds.delete-world-title": {
+    "message": "Opravdu si jsi jistý, že chceš navždy smazat tenhle svět?"
+  },
+  "app.instance.worlds.filter-modded": {
+    "message": "Modováno"
+  },
+  "app.instance.worlds.filter-offline": {
+    "message": "Offline"
+  },
+  "app.instance.worlds.filter-online": {
+    "message": "Online"
+  },
+  "app.instance.worlds.filter-vanilla": {
+    "message": "Vanilla"
+  },
+  "app.instance.worlds.no-worlds-description": {
+    "message": "Přidej nebo procházej servery"
+  },
+  "app.instance.worlds.no-worlds-heading": {
+    "message": "Žádné servery nebo světy nebyly přidány"
+  },
+  "app.instance.worlds.remove-server-description": {
+    "message": "„{name}“ bude odstraněn z tvého seznamu, včetně hry, a nebude žádný způsob, jak ho obnovit."
+  },
+  "app.instance.worlds.remove-server-title": {
+    "message": "Opravdu chceš odstranit {name}?"
+  },
+  "app.instance.worlds.search-worlds-placeholder": {
+    "message": "Hledat ve světech {count}..."
+  },
+  "app.instance.worlds.this-server": {
+    "message": "tento server"
+  },
+  "app.modal.install-to-play.header": {
+    "message": "Nainstaluj ke hraní"
+  },
   "app.modal.install-to-play.install-button": {
     "message": "Instalovat"
   },
-  "app.modal.install-to-play.server-requires-mods": {
-    "message": "Tento server k hranГ­ vyЕѕaduje mГіdy. Klikni na instalovat pro zГ­skГЎnГ­ potЕ™ebnГЅch mГіdЕЇ z Modrinth."
-  },
-  "app.modal.install-to-play.shared-by-today": {
-    "message": "{name} dnes s vГЎmi sdГ­lel tuto instanci."
+  "app.modal.install-to-play.mod-count": {
+    "message": "{count, plural,one  {#mód} other  {#módy}}"
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "SdГ­lenГЎ instance"
@@ -20,17 +161,14 @@
   "app.modal.install-to-play.shared-server-instance": {
     "message": "SdГ­lenГЎ serverovГЎ instance"
   },
-  "app.modal.update-to-play.diff-type.added": {
-    "message": "PЕ™idГЎno"
-  },
-  "app.modal.update-to-play.diff-type.removed": {
-    "message": "OdebrГЎno"
-  },
-  "app.modal.update-to-play.diff-type.updated": {
-    "message": "AktualizovГЎno"
+  "app.modal.update-to-play.header": {
+    "message": "Updatuj ke hraní"
   },
   "app.modal.update-to-play.update-required": {
     "message": "Je vyЕѕadovГЎna aktualizace"
+  },
+  "app.modal.update-to-play.update-required-description": {
+    "message": "Je nutná aktualizace ke hraní {name}. Prosím updatuj na nejnovější verzi k spuštění hry."
   },
   "app.settings.developer-mode-enabled": {
     "message": "VГЅvojГЎЕ™skГЅ reЕѕim povolen."
@@ -44,9 +182,6 @@
   "app.settings.tabs.default-instance-options": {
     "message": "VГЅchozГ­ moЕѕnosti instance"
   },
-  "app.settings.tabs.feature-flags": {
-    "message": "Vlajky funkcГ­"
-  },
   "app.settings.tabs.java-installations": {
     "message": "Instalace Javy"
   },
@@ -59,38 +194,8 @@
   "app.settings.tabs.resource-management": {
     "message": "SprГЎva zdrojЕЇ"
   },
-  "app.update-toast.body": {
-    "message": "Aplikace Modrinth v{version} je pЕ™ipravena k instalaci! Nainstalujte aktualizaci nynГ­ nebo automaticky po zavЕ™enГ­ aplikace Modrinth."
-  },
-  "app.update-toast.body.download-complete": {
-    "message": "StahovГЎnГ­ aplikace Modrinth v{version} bylo dokonДЌeno. Nainstalujte aktualizaci nynГ­ nebo automaticky po zavЕ™enГ­ aplikace Modrinth."
-  },
-  "app.update-toast.body.linux": {
-    "message": "Mist Launcher v{version} je k dispozici. Aktualizujte pomocГ­ svГ©ho sprГЎvce balГ­ДЌkЕЇ, abyste zГ­skali nejnovД›jЕЎГ­ funkce a opravy!"
-  },
-  "app.update-toast.body.metered": {
-    "message": "Aplikace Modrinth v{version} je nynГ­ k dispozici! ProtoЕѕe jste v mД›Е™enГ© sГ­ti, nebyla staЕѕena automaticky."
-  },
-  "app.update-toast.changelog": {
-    "message": "Seznam zmД›n"
-  },
-  "app.update-toast.download": {
-    "message": "StahovГЎnГ­ ({size})"
-  },
-  "app.update-toast.download-page": {
-    "message": "StГЎhnout"
-  },
-  "app.update-toast.downloading": {
-    "message": "StahovГЎnГ­..."
-  },
-  "app.update-toast.reload": {
-    "message": "NaДЌГ­st znovu"
-  },
-  "app.update-toast.title": {
-    "message": "Aktualizace je k dispozici"
-  },
-  "app.update-toast.title.download-complete": {
-    "message": "StahovГЎnГ­ bylo dokonДЌeno"
+  "app.update-popup.download": {
+    "message": "Stáhnout ({size})"
   },
   "app.update.complete-toast.text": {
     "message": "KliknutГ­m sem zobrazГ­te seznam zmД›n."
@@ -111,7 +216,7 @@
     "message": "PЕ™idat pЕ™Г­tele"
   },
   "friends.action.view-friend-requests": {
-    "message": "{count} {count, plural, one {ЕѕГЎdost} few {ЕѕГЎdosti} other {ЕѕГЎdostГ­}} o pЕ™ГЎtelstvГ­"
+    "message": "{count} přátelé {count, plural, one {request} other {requests}}"
   },
   "friends.add-friend.submit": {
     "message": "Poslat ЕѕГЎdost o pЕ™ГЎtelstvГ­"
@@ -205,12 +310,6 @@
   },
   "instance.edit-world.title": {
     "message": "Upravit svД›t"
-  },
-  "instance.filter.disabled": {
-    "message": "VypnutГ© projekty"
-  },
-  "instance.filter.updates-available": {
-    "message": "K dispozice jsou aktualizace"
   },
   "instance.server-modal.address": {
     "message": "Adresa"
@@ -320,140 +419,8 @@
   "instance.settings.tabs.installation": {
     "message": "Instalace"
   },
-  "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "{platform} {version} pro Minecraft {game_version} jiЕѕ je nainstalovГЎna"
-  },
-  "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "Vanilla {game_version} jiЕѕ je nainstalovГЎna"
-  },
-  "instance.settings.tabs.installation.change-version.button": {
-    "message": "ZmД›nit verzi"
-  },
-  "instance.settings.tabs.installation.change-version.button.install": {
-    "message": "Instalovat"
-  },
-  "instance.settings.tabs.installation.change-version.button.installing": {
-    "message": "InstalovГЎnГ­"
-  },
-  "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "NaДЌГ­tГЎnГ­ verzГ­ modpacku"
-  },
-  "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "Instalace novГ© verze"
-  },
-  "instance.settings.tabs.installation.currently-installed": {
-    "message": "AktuГЎlnД› nainstalovГЎno"
-  },
-  "instance.settings.tabs.installation.debug-information": {
-    "message": "DebugovГ© informace:"
-  },
-  "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "NaДЌГ­tГЎnГ­ detailЕЇ modpacku"
-  },
-  "instance.settings.tabs.installation.game-version": {
-    "message": "Verze hry"
-  },
-  "instance.settings.tabs.installation.install": {
-    "message": "Instalovat"
-  },
-  "instance.settings.tabs.installation.install.in-progress": {
-    "message": "ProbГ­hГЎ instalace"
-  },
   "instance.settings.tabs.installation.loader-version": {
     "message": "{loader} verze"
-  },
-  "instance.settings.tabs.installation.minecraft-version": {
-    "message": "Minecraft {version}"
-  },
-  "instance.settings.tabs.installation.no-connection": {
-    "message": "Nelze naДЌГ­st podrobnosti o modpacku. ProsГ­m, zkontrolujte svГ© pЕ™ipojenГ­ k internetu."
-  },
-  "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader} nenГ­ dostupnГЅ pro Minecraft {version}. Zkuste jinГЅ mod loader."
-  },
-  "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "Tato instalace je pЕ™ipojenГЎ k modpacku, kterГЅ ake nebyl najit na Modrinthu."
-  },
-  "instance.settings.tabs.installation.platform": {
-    "message": "Platforma"
-  },
-  "instance.settings.tabs.installation.reinstall.button": {
-    "message": "PЕ™einstalovat modpack"
-  },
-  "instance.settings.tabs.installation.reinstall.button.reinstalling": {
-    "message": "PЕ™einstalovГЎvГЎnГ­ modpacku"
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "PЕ™einstalace resetuje veЕЎkerГЅ nainstalovanГЅ nebo upravenГЅ obsah kromД› toho, co poskytuje modpack, a odstranГ­ vЕЎechny mГіdy nebo obsah, kterГ© jste pЕ™idali do pЕЇvodnГ­ instalace. To mЕЇЕѕe opravit neoДЌekГЎvanГ© chyby, ale pokud vaЕЎe svД›ty zГЎvisejГ­ na doinstalovanГ©m obsahu, moЕѕnГЎ budou poЕЎkozeny."
-  },
-  "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "Opravdu si pЕ™ejete pЕ™einstalovat tuto instalaci?"
-  },
-  "instance.settings.tabs.installation.reinstall.description": {
-    "message": "ObnovГ­ obsah instance do pЕЇvodnГ­ho stavu a odstranГ­ vЕЎechny mody nebo obsah, kterГ© jste pЕ™idali nad pЕЇvodnГ­ modpack."
-  },
-  "instance.settings.tabs.installation.reinstall.title": {
-    "message": "PЕ™einstalovat modpack"
-  },
-  "instance.settings.tabs.installation.repair.button": {
-    "message": "Opravit"
-  },
-  "instance.settings.tabs.installation.repair.button.repairing": {
-    "message": "OpravovГЎno"
-  },
-  "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "Oprava pЕ™einstaluje zГЎvislosti Minecraftu a zkontroluje poЕЎkozenГ­. To mЕЇЕѕe vyЕ™eЕЎit problГ©my, pokud se hra nespustГ­ kvЕЇli chybГЎm souvisejГ­cГ­m s launcherem, ale nevyЕ™eЕЎГ­ to problГ©my nebo pГЎdy souvisejГ­cГ­ s nainstalovanГЅmi mody."
-  },
-  "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "Opravit instanci?"
-  },
-  "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "ProbГ­hГЎ oprava"
-  },
-  "instance.settings.tabs.installation.reset-selections": {
-    "message": "Resetovat na aktuГЎlnГ­"
-  },
-  "instance.settings.tabs.installation.show-all-versions": {
-    "message": "UkГЎzat vЕЎechny verze"
-  },
-  "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "zmД›nit verzi"
-  },
-  "instance.settings.tabs.installation.tooltip.action.install": {
-    "message": "Instalovat"
-  },
-  "instance.settings.tabs.installation.tooltip.action.reinstall": {
-    "message": "pЕ™einstalovat"
-  },
-  "instance.settings.tabs.installation.tooltip.action.repair": {
-    "message": "opravit"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "Nelze {action} pЕ™i instalaci"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
-    "message": "Nelze {action} kdyЕѕ offline"
-  },
-  "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "Nelze {action} pЕ™i opravД›"
-  },
-  "instance.settings.tabs.installation.unknown-version": {
-    "message": "(neznГЎmГЎ verze)"
-  },
-  "instance.settings.tabs.installation.unlink.button": {
-    "message": "Odpojit instanci"
-  },
-  "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "Pokud budete pokraДЌovat, nebudete ji moci znovu propojit bez vytvoЕ™enГ­ zcela novГ© instance. JiЕѕ nebudete dostГЎvat aktualizace modpacku a stane se z nД›j bД›ЕѕnГЎ instance."
-  },
-  "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "Opravdu si pЕ™ejete odpojit tuto instanci?"
-  },
-  "instance.settings.tabs.installation.unlink.description": {
-    "message": "Tato instance je pЕ™ipojena k modpacku, coЕѕ znamenГЎ, Еѕe mГіdy nemohou bГЅt aktualizovanГ© a nelze zmД›nit mod loader ani verze minecraftu. OdpojenГ­ permanentnД› rozvГЎЕѕe tuto instanci od modpacku."
-  },
-  "instance.settings.tabs.installation.unlink.title": {
-    "message": "Odpojit od modpacku"
   },
   "instance.settings.tabs.java": {
     "message": "Java a pamД›t"
@@ -515,9 +482,6 @@
   "instance.worlds.dont_show_on_home": {
     "message": "Nezobrazuje na domovskГ© strГЎnce"
   },
-  "instance.worlds.filter.available": {
-    "message": "DostupnГ©"
-  },
   "instance.worlds.game_already_open": {
     "message": "Instance je jiЕѕ otevЕ™enГЎ"
   },
@@ -534,16 +498,10 @@
     "message": "MЕЇЕѕeЕЎ rovnou skoДЌit na server pouze v Minecraftu Alpha 1.0.5+"
   },
   "instance.worlds.no_singleplayer_quick_play": {
-    "message": "MЕЇЕѕeЕЎ se rovnou pЕ™ipojit do svД›ta jednoho hrГЎДЌe pouze v Minecraftu 1.20+"
+    "message": "V Minecraftu 1.20+ se dá rovnou přeskočit pouze do singleplayerových světů"
   },
   "instance.worlds.play_instance": {
     "message": "HrГЎt instanci"
-  },
-  "instance.worlds.type.server": {
-    "message": "Server"
-  },
-  "instance.worlds.type.singleplayer": {
-    "message": "Hra pro jednoho hrГЎДЌe"
   },
   "instance.worlds.view_instance": {
     "message": "Zobrazit instanci"
@@ -558,9 +516,18 @@
     "message": "Verze hry je poskytnut instanci"
   },
   "search.filter.locked.instance-loader.title": {
-    "message": "SpouЕЎtД›ДЌ je poskytnut instanci"
+    "message": "Spouštěč je poskytnut instancí"
   },
   "search.filter.locked.instance.sync": {
-    "message": "SynchronizovГЎno z instancГ­"
+    "message": "Synchronizováno z instancí"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "Jen klientské mody mohou být přidány na server"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "Verzi hry poskytuje server"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "Loader zprostředkovává server"
   }
 }

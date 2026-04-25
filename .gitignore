@@ -64,7 +64,8 @@ generated
 app-playground-data/*
 
 .astro
-.claude
+.claude/*
+!.claude/skills/
 .letta
 
 # labrinth demo fixtures
@@ -77,3 +78,9 @@ storybook-static
 
 # frontend robots.txt
 apps/frontend/src/public/robots.txt
+
+# Oh My Code
+.omc/
+
+# Local dry-run output for scripts/build-theseus-release-notes.mjs
+/test_result.md

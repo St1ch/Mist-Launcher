@@ -12,9 +12,9 @@ use crate::models::pats::Scopes;
 use crate::models::teams::{OrganizationPermissions, ProjectPermissions};
 use crate::queue::session::AuthQueue;
 use crate::routes::ApiError;
-use actix_web::{HttpRequest, HttpResponse, web};
+use crate::util::error::Context;
+use actix_web::{HttpRequest, HttpResponse, get, web};
 use ariadne::ids::UserId;
-use eyre::eyre;
 use rust_decimal::Decimal;
 use serde::{Deserialize, Serialize};
 
@@ -40,7 +40,20 @@ pub fn config(cfg: &mut web::ServiceConfig) {
 // also the members of the organization's team if the project is associated with an organization
 // (Unlike team_members_get_project, which only returns the members of the project's team)
 // They can be differentiated by the "organization_permissions" field being null or not
-pub async fn team_members_get_project(
+#[utoipa::path]
+#[get("/{project_id}/members")]
+async fn team_members_get_project(
+    req: HttpRequest,
+    info: web::Path<(String,)>,
+    pool: web::Data<PgPool>,
+    redis: web::Data<RedisPool>,
+    session_queue: web::Data<AuthQueue>,
+) -> Result<HttpResponse, ApiError> {
+    team_members_get_project_internal(req, info, pool, redis, session_queue)
+        .await
+}
+
+pub async fn team_members_get_project_internal(
     req: HttpRequest,
     info: web::Path<(String,)>,
     pool: web::Data<PgPool>,
@@ -676,7 +689,7 @@ pub struct EditTeamMember {
 
 pub async fn edit_team_member(
     req: HttpRequest,
-    info: web::Path<(TeamId, UserId)>,
+    info: web::Path<(TeamId, String)>,
     pool: web::Data<PgPool>,
     edit_member: web::Json<EditTeamMember>,
     redis: web::Data<RedisPool>,
@@ -684,7 +697,12 @@ pub async fn edit_team_member(
 ) -> Result<HttpResponse, ApiError> {
     let ids = info.into_inner();
     let id = ids.0.into();
-    let user_id = ids.1.into();
+
+    let user_id = DBUser::get(&ids.1, &**pool, &redis)
+        .await
+        .wrap_internal_err("failed to fetch the specified user")?
+        .wrap_request_err("the specified user does not exist")?
+        .id;
 
     let current_user = get_user_from_headers(
         &req,
@@ -696,24 +714,21 @@ pub async fn edit_team_member(
     .await?
     .1;
 
-    let team_association =
-        DBTeam::get_association(id, &**pool).await?.ok_or_else(|| {
-            ApiError::InvalidInput(
-                "The team specified does not exist".to_string(),
-            )
-        })?;
+    let team_association = DBTeam::get_association(id, &**pool)
+        .await
+        .wrap_internal_err("failed to fetch the specified team")?
+        .wrap_request_err("the specified team does not exist")?;
     let member =
         DBTeamMember::get_from_user_id(id, current_user.id.into(), &**pool)
             .await?;
     let edit_member_db =
         DBTeamMember::get_from_user_id_pending(id, user_id, &**pool)
-            .await?
-            .ok_or_else(|| {
-                ApiError::Request(eyre!(
-                    "This member does not exist in this team - \
-                    the member must first be created via `POST`"
-                ))
-            })?;
+            .await
+            .wrap_internal_err("failed to fetch team member")?
+            .wrap_request_err(
+                "this member does not exist in this team - \
+				the member must first be created via `POST`",
+            )?;
 
     let mut transaction = pool.begin().await?;
 
@@ -891,7 +906,7 @@ pub async fn transfer_ownership(
             && project_item.inner.organization_id.is_some()
         {
             return Err(ApiError::InvalidInput(
-                    "You cannot transfer ownership of a project team that is owend by an organization"
+                    "You cannot transfer ownership of a project team that is owned by an organization"
                         .to_string(),
                 ));
         }
