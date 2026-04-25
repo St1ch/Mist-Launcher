@@ -1,4 +1,4 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
     "message": "Mahimong dili maabot karon ang mga Minecraft nga magsisilbi sa pagpamatuod. Susiha ang imong pagkakatay sa internet ug unya sulayi pag-usab."
   },
@@ -30,13 +30,13 @@
     "message": "Pagdumala sa kahinguhaan"
   },
   "app.update-toast.body": {
-    "message": "Andam na mataud ang Modrinth App v{version}! Sa pagpasibo karun pagkarga kausab, kun unya sa kinaugalingon kini sunod sa pagtak-op sa Modrinth App."
+    "message": "Andam na mataud ang Mist Launcher v{version}! Sa pagpasibo karun pagkarga kausab, kun unya sa kinaugalingon kini sunod sa pagtak-op sa Mist Launcher."
   },
   "app.update-toast.body.download-complete": {
-    "message": "Nahuman ang pagkarganug sa Modrinth App v{version}. Sa pagpasibo karun pagkarga kausab, kun unya sa kinaugalingon kini sunod sa pagtak-op sa Modrinth App."
+    "message": "Nahuman ang pagkarganug sa Mist Launcher v{version}. Sa pagpasibo karun pagkarga kausab, kun unya sa kinaugalingon kini sunod sa pagtak-op sa Mist Launcher."
   },
   "app.update-toast.body.metered": {
-    "message": "Magamit na karon ang Modrinth App v{version}! Wala namo karganugi daan kay inihap man ang imong pum-ot."
+    "message": "Magamit na karon ang Mist Launcher v{version}! Wala namo karganugi daan kay inihap man ang imong pum-ot."
   },
   "app.update-toast.changelog": {
     "message": "Talaan sa Kausaban"

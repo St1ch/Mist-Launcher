@@ -27,6 +27,13 @@ pub async fn begin_login() -> crate::Result<MinecraftLoginFlow> {
 }
 
 #[tracing::instrument]
+pub async fn create_offline_user(username: &str) -> crate::Result<Credentials> {
+    let state = State::get().await?;
+
+    crate::state::Credentials::create_offline(username, &state.pool).await
+}
+
+#[tracing::instrument]
 pub async fn finish_login(
     code: &str,
     flow: MinecraftLoginFlow,

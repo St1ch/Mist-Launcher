@@ -1,542 +1,542 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
-    "message": "ייתכן ששרתי האימות של Minecraft מושבתים כרגע. בדוק את חיבור האינטרנט שלך ונסה שוב מאוחר יותר."
+    "message": "Ч™Ч™ЧЄЧ›Чџ Ч©Ч©ЧЁЧЄЧ™ Ч”ЧђЧ™ЧћЧ•ЧЄ Ч©Чњ Minecraft ЧћЧ•Ч©Ч‘ЧЄЧ™Чќ Ч›ЧЁЧ’Чў. Ч‘Ч“Ч•Ч§ ЧђЧЄ Ч—Ч™Ч‘Ч•ЧЁ Ч”ЧђЧ™Ч ЧЧЁЧ Ч Ч©ЧњЧљ Ч•Ч ЧЎЧ” Ч©Ч•Ч‘ ЧћЧђЧ•Ч—ЧЁ Ч™Ч•ЧЄЧЁ."
   },
   "app.auth-servers.unreachable.header": {
-    "message": "לא ניתן לגשת לשרתי האימות"
+    "message": "ЧњЧђ Ч Ч™ЧЄЧџ ЧњЧ’Ч©ЧЄ ЧњЧ©ЧЁЧЄЧ™ Ч”ЧђЧ™ЧћЧ•ЧЄ"
   },
   "app.modal.install-to-play.header": {
-    "message": "הורד כדי לשחק"
+    "message": "Ч”Ч•ЧЁЧ“ Ч›Ч“Ч™ ЧњЧ©Ч—Ч§"
   },
   "app.modal.install-to-play.install-button": {
-    "message": "התקן"
+    "message": "Ч”ЧЄЧ§Чџ"
   },
   "app.modal.install-to-play.mod-count": {
-    "message": "{count, plural, one {מוד #} other {# מודים}}"
+    "message": "{count, plural, one {ЧћЧ•Ч“ #} other {# ЧћЧ•Ч“Ч™Чќ}}"
   },
   "app.modal.update-to-play.published-date": {
     "message": "{date, date, long}"
   },
   "app.settings.developer-mode-enabled": {
-    "message": "מצב מפתח מופעל."
+    "message": "ЧћЧ¦Ч‘ ЧћЧ¤ЧЄЧ— ЧћЧ•Ч¤ЧўЧњ."
   },
   "app.settings.downloading": {
-    "message": "מוריד גרסה {version}"
+    "message": "ЧћЧ•ЧЁЧ™Ч“ Ч’ЧЁЧЎЧ” {version}"
   },
   "app.settings.tabs.appearance": {
-    "message": "מראה"
+    "message": "ЧћЧЁЧђЧ”"
   },
   "app.settings.tabs.default-instance-options": {
-    "message": "אפשרויות ברירת מחדל של התקנה"
+    "message": "ЧђЧ¤Ч©ЧЁЧ•Ч™Ч•ЧЄ Ч‘ЧЁЧ™ЧЁЧЄ ЧћЧ—Ч“Чњ Ч©Чњ Ч”ЧЄЧ§Ч Ч”"
   },
   "app.settings.tabs.feature-flags": {
-    "message": "הגדרות ניסיוניות"
+    "message": "Ч”Ч’Ч“ЧЁЧ•ЧЄ Ч Ч™ЧЎЧ™Ч•Ч Ч™Ч•ЧЄ"
   },
   "app.settings.tabs.java-installations": {
-    "message": "התקנות ג'אווה"
+    "message": "Ч”ЧЄЧ§Ч Ч•ЧЄ Ч’'ЧђЧ•Ч•Ч”"
   },
   "app.settings.tabs.language": {
-    "message": "שפה"
+    "message": "Ч©Ч¤Ч”"
   },
   "app.settings.tabs.privacy": {
-    "message": "פרטיות"
+    "message": "Ч¤ЧЁЧЧ™Ч•ЧЄ"
   },
   "app.settings.tabs.resource-management": {
-    "message": "ניהול משאבים"
+    "message": "Ч Ч™Ч”Ч•Чњ ЧћЧ©ЧђЧ‘Ч™Чќ"
   },
   "app.update-toast.body": {
-    "message": "Modrinth App גרסה: {version} מוכנה להורדה!\nרענן כדי להוריד עכשיו, או באופן אוטומטי כאשר תסגור את האפליקציה."
+    "message": "Mist Launcher Ч’ЧЁЧЎЧ”: {version} ЧћЧ•Ч›Ч Ч” ЧњЧ”Ч•ЧЁЧ“Ч”!\nЧЁЧўЧ Чџ Ч›Ч“Ч™ ЧњЧ”Ч•ЧЁЧ™Ч“ ЧўЧ›Ч©Ч™Ч•, ЧђЧ• Ч‘ЧђЧ•Ч¤Чџ ЧђЧ•ЧЧ•ЧћЧЧ™ Ч›ЧђЧ©ЧЁ ЧЄЧЎЧ’Ч•ЧЁ ЧђЧЄ Ч”ЧђЧ¤ЧњЧ™Ч§Ч¦Ч™Ч”."
   },
   "app.update-toast.body.download-complete": {
-    "message": "Modrinth App גרסה {version} סיימה את תהליך ההורדה. רענן כדי לעדכן עכשיו, או באופן אוטומטי כאשר תסגור את האפליקציה."
+    "message": "Mist Launcher Ч’ЧЁЧЎЧ” {version} ЧЎЧ™Ч™ЧћЧ” ЧђЧЄ ЧЄЧ”ЧњЧ™Чљ Ч”Ч”Ч•ЧЁЧ“Ч”. ЧЁЧўЧ Чџ Ч›Ч“Ч™ ЧњЧўЧ“Ч›Чџ ЧўЧ›Ч©Ч™Ч•, ЧђЧ• Ч‘ЧђЧ•Ч¤Чџ ЧђЧ•ЧЧ•ЧћЧЧ™ Ч›ЧђЧ©ЧЁ ЧЄЧЎЧ’Ч•ЧЁ ЧђЧЄ Ч”ЧђЧ¤ЧњЧ™Ч§Ч¦Ч™Ч”."
   },
   "app.update-toast.body.metered": {
-    "message": "אפליקצית Modrinth גרסה {version} זמינה עכשיו! מכיוון שאתה משתמש בחיבור לפי שימוש, לא הורדנו אותה אוטומטית."
+    "message": "ЧђЧ¤ЧњЧ™Ч§Ч¦Ч™ЧЄ Modrinth Ч’ЧЁЧЎЧ” {version} Ч–ЧћЧ™Ч Ч” ЧўЧ›Ч©Ч™Ч•! ЧћЧ›Ч™Ч•Ч•Чџ Ч©ЧђЧЄЧ” ЧћЧ©ЧЄЧћЧ© Ч‘Ч—Ч™Ч‘Ч•ЧЁ ЧњЧ¤Ч™ Ч©Ч™ЧћЧ•Ч©, ЧњЧђ Ч”Ч•ЧЁЧ“Ч Ч• ЧђЧ•ЧЄЧ” ЧђЧ•ЧЧ•ЧћЧЧ™ЧЄ."
   },
   "app.update-toast.changelog": {
-    "message": "יומן שינויים"
+    "message": "Ч™Ч•ЧћЧџ Ч©Ч™Ч Ч•Ч™Ч™Чќ"
   },
   "app.update-toast.download": {
-    "message": "הורד ({size})"
+    "message": "Ч”Ч•ЧЁЧ“ ({size})"
   },
   "app.update-toast.downloading": {
-    "message": "מוריד..."
+    "message": "ЧћЧ•ЧЁЧ™Ч“..."
   },
   "app.update-toast.reload": {
-    "message": "רענן"
+    "message": "ЧЁЧўЧ Чџ"
   },
   "app.update-toast.title": {
-    "message": "עדכונים זמינים"
+    "message": "ЧўЧ“Ч›Ч•Ч Ч™Чќ Ч–ЧћЧ™Ч Ч™Чќ"
   },
   "app.update-toast.title.download-complete": {
-    "message": "הורדה הושלמה"
+    "message": "Ч”Ч•ЧЁЧ“Ч” Ч”Ч•Ч©ЧњЧћЧ”"
   },
   "app.update.complete-toast.text": {
-    "message": "לחץ כאן כדי לראות את יומן השינויים."
+    "message": "ЧњЧ—ЧҐ Ч›ЧђЧџ Ч›Ч“Ч™ ЧњЧЁЧђЧ•ЧЄ ЧђЧЄ Ч™Ч•ЧћЧџ Ч”Ч©Ч™Ч Ч•Ч™Ч™Чќ."
   },
   "app.update.complete-toast.title": {
-    "message": "גרסה {version} הותקנה בהצלחה!"
+    "message": "Ч’ЧЁЧЎЧ” {version} Ч”Ч•ЧЄЧ§Ч Ч” Ч‘Ч”Ч¦ЧњЧ—Ч”!"
   },
   "app.update.download-update": {
-    "message": "הורד עדכון"
+    "message": "Ч”Ч•ЧЁЧ“ ЧўЧ“Ч›Ч•Чџ"
   },
   "app.update.downloading-update": {
-    "message": "מוריד עדכון ({percent}%)"
+    "message": "ЧћЧ•ЧЁЧ™Ч“ ЧўЧ“Ч›Ч•Чџ ({percent}%)"
   },
   "app.update.reload-to-update": {
-    "message": "רענן בכדי להתקין את העדכונים"
+    "message": "ЧЁЧўЧ Чџ Ч‘Ч›Ч“Ч™ ЧњЧ”ЧЄЧ§Ч™Чџ ЧђЧЄ Ч”ЧўЧ“Ч›Ч•Ч Ч™Чќ"
   },
   "friends.action.add-friend": {
-    "message": "הוסף חבר"
+    "message": "Ч”Ч•ЧЎЧЈ Ч—Ч‘ЧЁ"
   },
   "friends.add-friend.submit": {
-    "message": "שלח בקשת חברות"
+    "message": "Ч©ЧњЧ— Ч‘Ч§Ч©ЧЄ Ч—Ч‘ЧЁЧ•ЧЄ"
   },
   "friends.add-friend.title": {
-    "message": "מוסיף חבר"
+    "message": "ЧћЧ•ЧЎЧ™ЧЈ Ч—Ч‘ЧЁ"
   },
   "friends.add-friend.username.description": {
-    "message": "זה יכול להיות שונה מהמשתמש מיינקראפט שלהם!"
+    "message": "Ч–Ч” Ч™Ч›Ч•Чњ ЧњЧ”Ч™Ч•ЧЄ Ч©Ч•Ч Ч” ЧћЧ”ЧћЧ©ЧЄЧћЧ© ЧћЧ™Ч™Ч Ч§ЧЁЧђЧ¤Ч Ч©ЧњЧ”Чќ!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "הכנס שם משתמש של Modrinth..."
+    "message": "Ч”Ч›Ч ЧЎ Ч©Чќ ЧћЧ©ЧЄЧћЧ© Ч©Чњ Modrinth..."
   },
   "friends.add-friend.username.title": {
-    "message": "מה השם משתמש של החבר שלך בModrinth?"
+    "message": "ЧћЧ” Ч”Ч©Чќ ЧћЧ©ЧЄЧћЧ© Ч©Чњ Ч”Ч—Ч‘ЧЁ Ч©ЧњЧљ Ч‘Modrinth?"
   },
   "friends.add-friends-to-share": {
-    "message": "<link>הוסף חברים</link> כדי לראות במה הם משחקים!"
+    "message": "<link>Ч”Ч•ЧЎЧЈ Ч—Ч‘ЧЁЧ™Чќ</link> Ч›Ч“Ч™ ЧњЧЁЧђЧ•ЧЄ Ч‘ЧћЧ” Ч”Чќ ЧћЧ©Ч—Ч§Ч™Чќ!"
   },
   "friends.friend.cancel-request": {
-    "message": "בטל בקשה"
+    "message": "Ч‘ЧЧњ Ч‘Ч§Ч©Ч”"
   },
   "friends.friend.remove-friend": {
-    "message": "הסר חבר"
+    "message": "Ч”ЧЎЧЁ Ч—Ч‘ЧЁ"
   },
   "friends.friend.request-sent": {
-    "message": "בקשת חברות נשלחה"
+    "message": "Ч‘Ч§Ч©ЧЄ Ч—Ч‘ЧЁЧ•ЧЄ Ч Ч©ЧњЧ—Ч”"
   },
   "friends.friend.view-profile": {
-    "message": "הצג פרופיל"
+    "message": "Ч”Ч¦Ч’ Ч¤ЧЁЧ•Ч¤Ч™Чњ"
   },
   "friends.heading": {
-    "message": "חברים"
+    "message": "Ч—Ч‘ЧЁЧ™Чќ"
   },
   "friends.heading.active": {
-    "message": "פעיל"
+    "message": "Ч¤ЧўЧ™Чњ"
   },
   "friends.heading.offline": {
-    "message": "לא מקוון"
+    "message": "ЧњЧђ ЧћЧ§Ч•Ч•Чџ"
   },
   "friends.heading.online": {
-    "message": "מחובר"
+    "message": "ЧћЧ—Ч•Ч‘ЧЁ"
   },
   "friends.heading.pending": {
-    "message": "ממתין"
+    "message": "ЧћЧћЧЄЧ™Чџ"
   },
   "friends.no-friends-match": {
-    "message": "אין חברים התואמים ל \"{query}\""
+    "message": "ЧђЧ™Чџ Ч—Ч‘ЧЁЧ™Чќ Ч”ЧЄЧ•ЧђЧћЧ™Чќ Чњ \"{query}\""
   },
   "friends.search-friends-placeholder": {
-    "message": "חפש חברים..."
+    "message": "Ч—Ч¤Ч© Ч—Ч‘ЧЁЧ™Чќ..."
   },
   "friends.section.heading": {
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>התחבר לחשבון Modrinth </link> כדי להוסיף חברים ולראות מה הם משחקים!"
+    "message": "<link>Ч”ЧЄЧ—Ч‘ЧЁ ЧњЧ—Ч©Ч‘Ч•Чџ Modrinth </link> Ч›Ч“Ч™ ЧњЧ”Ч•ЧЎЧ™ЧЈ Ч—Ч‘ЧЁЧ™Чќ Ч•ЧњЧЁЧђЧ•ЧЄ ЧћЧ” Ч”Чќ ЧћЧ©Ч—Ч§Ч™Чќ!"
   },
   "instance.add-server.add-and-play": {
-    "message": "הוסף ושחק"
+    "message": "Ч”Ч•ЧЎЧЈ Ч•Ч©Ч—Ч§"
   },
   "instance.add-server.add-server": {
-    "message": "הוסף שרת"
+    "message": "Ч”Ч•ЧЎЧЈ Ч©ЧЁЧЄ"
   },
   "instance.add-server.resource-pack.disabled": {
-    "message": "מושבת"
+    "message": "ЧћЧ•Ч©Ч‘ЧЄ"
   },
   "instance.add-server.resource-pack.enabled": {
-    "message": "מופעל"
+    "message": "ЧћЧ•Ч¤ЧўЧњ"
   },
   "instance.add-server.resource-pack.prompt": {
-    "message": "שאל"
+    "message": "Ч©ЧђЧњ"
   },
   "instance.add-server.title": {
-    "message": "הוסף שרת"
+    "message": "Ч”Ч•ЧЎЧЈ Ч©ЧЁЧЄ"
   },
   "instance.edit-server.title": {
-    "message": "ערוך שרת"
+    "message": "ЧўЧЁЧ•Чљ Ч©ЧЁЧЄ"
   },
   "instance.edit-world.hide-from-home": {
-    "message": "הסתר מדף הבית"
+    "message": "Ч”ЧЎЧЄЧЁ ЧћЧ“ЧЈ Ч”Ч‘Ч™ЧЄ"
   },
   "instance.edit-world.name": {
-    "message": "שם"
+    "message": "Ч©Чќ"
   },
   "instance.edit-world.placeholder-name": {
-    "message": "עולם מיינקראפט"
+    "message": "ЧўЧ•ЧњЧќ ЧћЧ™Ч™Ч Ч§ЧЁЧђЧ¤Ч"
   },
   "instance.edit-world.reset-icon": {
-    "message": "אפס סמל"
+    "message": "ЧђЧ¤ЧЎ ЧЎЧћЧњ"
   },
   "instance.edit-world.title": {
-    "message": "ערוך עולם"
+    "message": "ЧўЧЁЧ•Чљ ЧўЧ•ЧњЧќ"
   },
   "instance.filter.disabled": {
-    "message": "פרויקטים מושבתים"
+    "message": "Ч¤ЧЁЧ•Ч™Ч§ЧЧ™Чќ ЧћЧ•Ч©Ч‘ЧЄЧ™Чќ"
   },
   "instance.filter.updates-available": {
-    "message": "עדכונים זמינים"
+    "message": "ЧўЧ“Ч›Ч•Ч Ч™Чќ Ч–ЧћЧ™Ч Ч™Чќ"
   },
   "instance.server-modal.address": {
-    "message": "כתובת"
+    "message": "Ч›ЧЄЧ•Ч‘ЧЄ"
   },
   "instance.server-modal.name": {
-    "message": "שם"
+    "message": "Ч©Чќ"
   },
   "instance.server-modal.placeholder-name": {
-    "message": "שרת מיינקראפט"
+    "message": "Ч©ЧЁЧЄ ЧћЧ™Ч™Ч Ч§ЧЁЧђЧ¤Ч"
   },
   "instance.server-modal.resource-pack": {
-    "message": "חבילת משאבים"
+    "message": "Ч—Ч‘Ч™ЧњЧЄ ЧћЧ©ЧђЧ‘Ч™Чќ"
   },
   "instance.settings.tabs.general": {
-    "message": "כללי"
+    "message": "Ч›ЧњЧњЧ™"
   },
   "instance.settings.tabs.general.delete": {
-    "message": "מחק התקנה"
+    "message": "ЧћЧ—Ч§ Ч”ЧЄЧ§Ч Ч”"
   },
   "instance.settings.tabs.general.delete.button": {
-    "message": "מחק התקנה"
+    "message": "ЧћЧ—Ч§ Ч”ЧЄЧ§Ч Ч”"
   },
   "instance.settings.tabs.general.delete.description": {
-    "message": "מוחק לצמיתות את התקנה זו מהמכשיר שלך, כולל העולמות שלך, הגדרות, וכל התוכן המותקן. שים לב, לאחר מחיקת ההתקנה אין דרך להחזיר אותה."
+    "message": "ЧћЧ•Ч—Ч§ ЧњЧ¦ЧћЧ™ЧЄЧ•ЧЄ ЧђЧЄ Ч”ЧЄЧ§Ч Ч” Ч–Ч• ЧћЧ”ЧћЧ›Ч©Ч™ЧЁ Ч©ЧњЧљ, Ч›Ч•ЧњЧњ Ч”ЧўЧ•ЧњЧћЧ•ЧЄ Ч©ЧњЧљ, Ч”Ч’Ч“ЧЁЧ•ЧЄ, Ч•Ч›Чњ Ч”ЧЄЧ•Ч›Чџ Ч”ЧћЧ•ЧЄЧ§Чџ. Ч©Ч™Чќ ЧњЧ‘, ЧњЧђЧ—ЧЁ ЧћЧ—Ч™Ч§ЧЄ Ч”Ч”ЧЄЧ§Ч Ч” ЧђЧ™Чџ Ч“ЧЁЧљ ЧњЧ”Ч—Ч–Ч™ЧЁ ЧђЧ•ЧЄЧ”."
   },
   "instance.settings.tabs.general.deleting.button": {
-    "message": "מוחק..."
+    "message": "ЧћЧ•Ч—Ч§..."
   },
   "instance.settings.tabs.general.duplicate-button": {
-    "message": "שכפל"
+    "message": "Ч©Ч›Ч¤Чњ"
   },
   "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
-    "message": "לא ניתן לשכפל בזמן התקנה."
+    "message": "ЧњЧђ Ч Ч™ЧЄЧџ ЧњЧ©Ч›Ч¤Чњ Ч‘Ч–ЧћЧџ Ч”ЧЄЧ§Ч Ч”."
   },
   "instance.settings.tabs.general.duplicate-instance": {
-    "message": "שכפל התקנה"
+    "message": "Ч©Ч›Ч¤Чњ Ч”ЧЄЧ§Ч Ч”"
   },
   "instance.settings.tabs.general.duplicate-instance.description": {
-    "message": "יוצר עותק של התקנה זו, כולל עולמות, הגדרות, מודים, וכדומה."
+    "message": "Ч™Ч•Ч¦ЧЁ ЧўЧ•ЧЄЧ§ Ч©Чњ Ч”ЧЄЧ§Ч Ч” Ч–Ч•, Ч›Ч•ЧњЧњ ЧўЧ•ЧњЧћЧ•ЧЄ, Ч”Ч’Ч“ЧЁЧ•ЧЄ, ЧћЧ•Ч“Ч™Чќ, Ч•Ч›Ч“Ч•ЧћЧ”."
   },
   "instance.settings.tabs.general.edit-icon": {
-    "message": "ערוך סמל"
+    "message": "ЧўЧЁЧ•Чљ ЧЎЧћЧњ"
   },
   "instance.settings.tabs.general.edit-icon.remove": {
-    "message": "הסר סמל"
+    "message": "Ч”ЧЎЧЁ ЧЎЧћЧњ"
   },
   "instance.settings.tabs.general.edit-icon.replace": {
-    "message": "החלף סמל"
+    "message": "Ч”Ч—ЧњЧЈ ЧЎЧћЧњ"
   },
   "instance.settings.tabs.general.edit-icon.select": {
-    "message": "בחר סמל"
+    "message": "Ч‘Ч—ЧЁ ЧЎЧћЧњ"
   },
   "instance.settings.tabs.general.library-groups": {
-    "message": "קבוצות ספרייה"
+    "message": "Ч§Ч‘Ч•Ч¦Ч•ЧЄ ЧЎЧ¤ЧЁЧ™Ч™Ч”"
   },
   "instance.settings.tabs.general.library-groups.create": {
-    "message": "צור קבוצה חדשה"
+    "message": "Ч¦Ч•ЧЁ Ч§Ч‘Ч•Ч¦Ч” Ч—Ч“Ч©Ч”"
   },
   "instance.settings.tabs.general.library-groups.description": {
-    "message": "קבוצות ספרייה מאפשרות לך לארגן את ההתקנות שלך לחלקים שונים בספרייה שלך."
+    "message": "Ч§Ч‘Ч•Ч¦Ч•ЧЄ ЧЎЧ¤ЧЁЧ™Ч™Ч” ЧћЧђЧ¤Ч©ЧЁЧ•ЧЄ ЧњЧљ ЧњЧђЧЁЧ’Чџ ЧђЧЄ Ч”Ч”ЧЄЧ§Ч Ч•ЧЄ Ч©ЧњЧљ ЧњЧ—ЧњЧ§Ч™Чќ Ч©Ч•Ч Ч™Чќ Ч‘ЧЎЧ¤ЧЁЧ™Ч™Ч” Ч©ЧњЧљ."
   },
   "instance.settings.tabs.general.library-groups.enter-name": {
-    "message": "הכנס שם קבוצה"
+    "message": "Ч”Ч›Ч ЧЎ Ч©Чќ Ч§Ч‘Ч•Ч¦Ч”"
   },
   "instance.settings.tabs.general.name": {
-    "message": "שם"
+    "message": "Ч©Чќ"
   },
   "instance.settings.tabs.hooks": {
-    "message": "פעולות בעת הפעלה"
+    "message": "Ч¤ЧўЧ•ЧњЧ•ЧЄ Ч‘ЧўЧЄ Ч”Ч¤ЧўЧњЧ”"
   },
   "instance.settings.tabs.hooks.custom-hooks": {
-    "message": "פעולות בעת הפעלה מותאמות אישית"
+    "message": "Ч¤ЧўЧ•ЧњЧ•ЧЄ Ч‘ЧўЧЄ Ч”Ч¤ЧўЧњЧ” ЧћЧ•ЧЄЧђЧћЧ•ЧЄ ЧђЧ™Ч©Ч™ЧЄ"
   },
   "instance.settings.tabs.hooks.description": {
-    "message": "פעולות בעת הפעלה מאפשרות למשתמשים מתקדמים להריץ פקודות מערכת מסוימות לפני ואחרי שהמשחק מופעל."
+    "message": "Ч¤ЧўЧ•ЧњЧ•ЧЄ Ч‘ЧўЧЄ Ч”Ч¤ЧўЧњЧ” ЧћЧђЧ¤Ч©ЧЁЧ•ЧЄ ЧњЧћЧ©ЧЄЧћЧ©Ч™Чќ ЧћЧЄЧ§Ч“ЧћЧ™Чќ ЧњЧ”ЧЁЧ™ЧҐ Ч¤Ч§Ч•Ч“Ч•ЧЄ ЧћЧўЧЁЧ›ЧЄ ЧћЧЎЧ•Ч™ЧћЧ•ЧЄ ЧњЧ¤Ч Ч™ Ч•ЧђЧ—ЧЁЧ™ Ч©Ч”ЧћЧ©Ч—Ч§ ЧћЧ•Ч¤ЧўЧњ."
   },
   "instance.settings.tabs.hooks.post-exit": {
-    "message": "לאחר יציאה"
+    "message": "ЧњЧђЧ—ЧЁ Ч™Ч¦Ч™ЧђЧ”"
   },
   "instance.settings.tabs.hooks.post-exit.description": {
-    "message": "רץ לאחר שהמשחק נסגר."
+    "message": "ЧЁЧҐ ЧњЧђЧ—ЧЁ Ч©Ч”ЧћЧ©Ч—Ч§ Ч ЧЎЧ’ЧЁ."
   },
   "instance.settings.tabs.hooks.post-exit.enter": {
-    "message": "הכנס פקודה לאחר יציאה..."
+    "message": "Ч”Ч›Ч ЧЎ Ч¤Ч§Ч•Ч“Ч” ЧњЧђЧ—ЧЁ Ч™Ч¦Ч™ЧђЧ”..."
   },
   "instance.settings.tabs.hooks.pre-launch": {
-    "message": "טרום-הפעלה"
+    "message": "ЧЧЁЧ•Чќ-Ч”Ч¤ЧўЧњЧ”"
   },
   "instance.settings.tabs.hooks.pre-launch.description": {
-    "message": "מופעל לפני שההתקנה מופעלת."
+    "message": "ЧћЧ•Ч¤ЧўЧњ ЧњЧ¤Ч Ч™ Ч©Ч”Ч”ЧЄЧ§Ч Ч” ЧћЧ•Ч¤ЧўЧњЧЄ."
   },
   "instance.settings.tabs.hooks.pre-launch.enter": {
-    "message": "הכנס פקודה לפני ההפעלה..."
+    "message": "Ч”Ч›Ч ЧЎ Ч¤Ч§Ч•Ч“Ч” ЧњЧ¤Ч Ч™ Ч”Ч”Ч¤ЧўЧњЧ”..."
   },
   "instance.settings.tabs.hooks.title": {
-    "message": "פעולות הפעלה"
+    "message": "Ч¤ЧўЧ•ЧњЧ•ЧЄ Ч”Ч¤ЧўЧњЧ”"
   },
   "instance.settings.tabs.hooks.wrapper": {
-    "message": "מעטפת"
+    "message": "ЧћЧўЧЧ¤ЧЄ"
   },
   "instance.settings.tabs.hooks.wrapper.description": {
-    "message": "פקודת מעטפת להפעלת מיינקראפט."
+    "message": "Ч¤Ч§Ч•Ч“ЧЄ ЧћЧўЧЧ¤ЧЄ ЧњЧ”Ч¤ЧўЧњЧЄ ЧћЧ™Ч™Ч Ч§ЧЁЧђЧ¤Ч."
   },
   "instance.settings.tabs.hooks.wrapper.enter": {
-    "message": "הכנס פקודת מעטפת..."
+    "message": "Ч”Ч›Ч ЧЎ Ч¤Ч§Ч•Ч“ЧЄ ЧћЧўЧЧ¤ЧЄ..."
   },
   "instance.settings.tabs.installation": {
-    "message": "התקנה"
+    "message": "Ч”ЧЄЧ§Ч Ч”"
   },
   "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "{platform} {version} בשביל מיינקראפט {game_version} כבר מותקן"
+    "message": "{platform} {version} Ч‘Ч©Ч‘Ч™Чњ ЧћЧ™Ч™Ч Ч§ЧЁЧђЧ¤Ч {game_version} Ч›Ч‘ЧЁ ЧћЧ•ЧЄЧ§Чџ"
   },
   "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "וונילה {game_version} כבר מותקן"
+    "message": "Ч•Ч•Ч Ч™ЧњЧ” {game_version} Ч›Ч‘ЧЁ ЧћЧ•ЧЄЧ§Чџ"
   },
   "instance.settings.tabs.installation.change-version.button": {
-    "message": "שנה גרסה"
+    "message": "Ч©Ч Ч” Ч’ЧЁЧЎЧ”"
   },
   "instance.settings.tabs.installation.change-version.button.install": {
-    "message": "התקן"
+    "message": "Ч”ЧЄЧ§Чџ"
   },
   "instance.settings.tabs.installation.change-version.button.installing": {
-    "message": "מתקין"
+    "message": "ЧћЧЄЧ§Ч™Чџ"
   },
   "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "מאחזר גרסאות חבילת מודים"
+    "message": "ЧћЧђЧ—Ч–ЧЁ Ч’ЧЁЧЎЧђЧ•ЧЄ Ч—Ч‘Ч™ЧњЧЄ ЧћЧ•Ч“Ч™Чќ"
   },
   "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "מתקין גרסה חדשה"
+    "message": "ЧћЧЄЧ§Ч™Чџ Ч’ЧЁЧЎЧ” Ч—Ч“Ч©Ч”"
   },
   "instance.settings.tabs.installation.currently-installed": {
-    "message": "מותקן כעת"
+    "message": "ЧћЧ•ЧЄЧ§Чџ Ч›ЧўЧЄ"
   },
   "instance.settings.tabs.installation.debug-information": {
-    "message": "מידע ניפוי שגיאות:"
+    "message": "ЧћЧ™Ч“Чў Ч Ч™Ч¤Ч•Ч™ Ч©Ч’Ч™ЧђЧ•ЧЄ:"
   },
   "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "מאחזר פרטי חבילת מודים"
+    "message": "ЧћЧђЧ—Ч–ЧЁ Ч¤ЧЁЧЧ™ Ч—Ч‘Ч™ЧњЧЄ ЧћЧ•Ч“Ч™Чќ"
   },
   "instance.settings.tabs.installation.game-version": {
-    "message": "גרסת משחק"
+    "message": "Ч’ЧЁЧЎЧЄ ЧћЧ©Ч—Ч§"
   },
   "instance.settings.tabs.installation.install": {
-    "message": "התקן"
+    "message": "Ч”ЧЄЧ§Чџ"
   },
   "instance.settings.tabs.installation.install.in-progress": {
-    "message": "ההתקנה בתהליך"
+    "message": "Ч”Ч”ЧЄЧ§Ч Ч” Ч‘ЧЄЧ”ЧњЧ™Чљ"
   },
   "instance.settings.tabs.installation.loader-version": {
-    "message": "{loader} גרסה"
+    "message": "{loader} Ч’ЧЁЧЎЧ”"
   },
   "instance.settings.tabs.installation.minecraft-version": {
-    "message": "מיינקראפט {version}"
+    "message": "ЧћЧ™Ч™Ч Ч§ЧЁЧђЧ¤Ч {version}"
   },
   "instance.settings.tabs.installation.no-connection": {
-    "message": "לא ניתן לאחזר את פרטי חבילת המודים המקושרת. אנא בדוק את חיבור האינטרנט שלך."
+    "message": "ЧњЧђ Ч Ч™ЧЄЧџ ЧњЧђЧ—Ч–ЧЁ ЧђЧЄ Ч¤ЧЁЧЧ™ Ч—Ч‘Ч™ЧњЧЄ Ч”ЧћЧ•Ч“Ч™Чќ Ч”ЧћЧ§Ч•Ч©ЧЁЧЄ. ЧђЧ Чђ Ч‘Ч“Ч•Ч§ ЧђЧЄ Ч—Ч™Ч‘Ч•ЧЁ Ч”ЧђЧ™Ч ЧЧЁЧ Ч Ч©ЧњЧљ."
   },
   "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader} אינו זמין עבור מיינקראפט {version}. אנא נסה טוען מודים אחר."
+    "message": "{loader} ЧђЧ™Ч Ч• Ч–ЧћЧ™Чџ ЧўЧ‘Ч•ЧЁ ЧћЧ™Ч™Ч Ч§ЧЁЧђЧ¤Ч {version}. ЧђЧ Чђ Ч ЧЎЧ” ЧЧ•ЧўЧџ ЧћЧ•Ч“Ч™Чќ ЧђЧ—ЧЁ."
   },
   "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "התקנה זאת מקושרת לחבילת מודים, אך חבילת המודים לא נמצאה בModrinth-."
+    "message": "Ч”ЧЄЧ§Ч Ч” Ч–ЧђЧЄ ЧћЧ§Ч•Ч©ЧЁЧЄ ЧњЧ—Ч‘Ч™ЧњЧЄ ЧћЧ•Ч“Ч™Чќ, ЧђЧљ Ч—Ч‘Ч™ЧњЧЄ Ч”ЧћЧ•Ч“Ч™Чќ ЧњЧђ Ч ЧћЧ¦ЧђЧ” Ч‘Modrinth-."
   },
   "instance.settings.tabs.installation.platform": {
-    "message": "פלטפורמה"
+    "message": "Ч¤ЧњЧЧ¤Ч•ЧЁЧћЧ”"
   },
   "instance.settings.tabs.installation.reinstall.button": {
-    "message": "התקן מחדש את חבילת המודים"
+    "message": "Ч”ЧЄЧ§Чџ ЧћЧ—Ч“Ч© ЧђЧЄ Ч—Ч‘Ч™ЧњЧЄ Ч”ЧћЧ•Ч“Ч™Чќ"
   },
   "instance.settings.tabs.installation.reinstall.button.reinstalling": {
-    "message": "מתקין מחדש את חבילת המודים"
+    "message": "ЧћЧЄЧ§Ч™Чџ ЧћЧ—Ч“Ч© ЧђЧЄ Ч—Ч‘Ч™ЧњЧЄ Ч”ЧћЧ•Ч“Ч™Чќ"
   },
   "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "התקנה מחדש תאפס את כל התוכן המותקן או ששונה, ותחזיר אותו למצב שסופק על ידי חבילת המודים, תוך הסרת כל מוד או תוכן שהוספתם מעבר להתקנה המקורית. פעולה זו עשויה לתקן תקלות שנגרמו משינויים בהתקנה, אך אם העולמות שלכם תלויים בתוכן נוסף שהותקן, היא עלולה לשבש אותם."
+    "message": "Ч”ЧЄЧ§Ч Ч” ЧћЧ—Ч“Ч© ЧЄЧђЧ¤ЧЎ ЧђЧЄ Ч›Чњ Ч”ЧЄЧ•Ч›Чџ Ч”ЧћЧ•ЧЄЧ§Чџ ЧђЧ• Ч©Ч©Ч•Ч Ч”, Ч•ЧЄЧ—Ч–Ч™ЧЁ ЧђЧ•ЧЄЧ• ЧњЧћЧ¦Ч‘ Ч©ЧЎЧ•Ч¤Ч§ ЧўЧњ Ч™Ч“Ч™ Ч—Ч‘Ч™ЧњЧЄ Ч”ЧћЧ•Ч“Ч™Чќ, ЧЄЧ•Чљ Ч”ЧЎЧЁЧЄ Ч›Чњ ЧћЧ•Ч“ ЧђЧ• ЧЄЧ•Ч›Чџ Ч©Ч”Ч•ЧЎЧ¤ЧЄЧќ ЧћЧўЧ‘ЧЁ ЧњЧ”ЧЄЧ§Ч Ч” Ч”ЧћЧ§Ч•ЧЁЧ™ЧЄ. Ч¤ЧўЧ•ЧњЧ” Ч–Ч• ЧўЧ©Ч•Ч™Ч” ЧњЧЄЧ§Чџ ЧЄЧ§ЧњЧ•ЧЄ Ч©Ч Ч’ЧЁЧћЧ• ЧћЧ©Ч™Ч Ч•Ч™Ч™Чќ Ч‘Ч”ЧЄЧ§Ч Ч”, ЧђЧљ ЧђЧќ Ч”ЧўЧ•ЧњЧћЧ•ЧЄ Ч©ЧњЧ›Чќ ЧЄЧњЧ•Ч™Ч™Чќ Ч‘ЧЄЧ•Ч›Чџ Ч Ч•ЧЎЧЈ Ч©Ч”Ч•ЧЄЧ§Чџ, Ч”Ч™Чђ ЧўЧњЧ•ЧњЧ” ЧњЧ©Ч‘Ч© ЧђЧ•ЧЄЧќ."
   },
   "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "האם אתה בטוח שברצונך להתקין מחדש instance זה?"
+    "message": "Ч”ЧђЧќ ЧђЧЄЧ” Ч‘ЧЧ•Ч— Ч©Ч‘ЧЁЧ¦Ч•Ч Чљ ЧњЧ”ЧЄЧ§Ч™Чџ ЧћЧ—Ч“Ч© instance Ч–Ч”?"
   },
   "instance.settings.tabs.installation.reinstall.description": {
-    "message": "מאפס את התוכן שנמצא בהתקנה למצבו המקורי, תוך הסרת כל מוד או תוכן ששונה מעבר לחבילת המודים המקורית."
+    "message": "ЧћЧђЧ¤ЧЎ ЧђЧЄ Ч”ЧЄЧ•Ч›Чџ Ч©Ч ЧћЧ¦Чђ Ч‘Ч”ЧЄЧ§Ч Ч” ЧњЧћЧ¦Ч‘Ч• Ч”ЧћЧ§Ч•ЧЁЧ™, ЧЄЧ•Чљ Ч”ЧЎЧЁЧЄ Ч›Чњ ЧћЧ•Ч“ ЧђЧ• ЧЄЧ•Ч›Чџ Ч©Ч©Ч•Ч Ч” ЧћЧўЧ‘ЧЁ ЧњЧ—Ч‘Ч™ЧњЧЄ Ч”ЧћЧ•Ч“Ч™Чќ Ч”ЧћЧ§Ч•ЧЁЧ™ЧЄ."
   },
   "instance.settings.tabs.installation.reinstall.title": {
-    "message": "התקן מחדש חבילת מודים"
+    "message": "Ч”ЧЄЧ§Чџ ЧћЧ—Ч“Ч© Ч—Ч‘Ч™ЧњЧЄ ЧћЧ•Ч“Ч™Чќ"
   },
   "instance.settings.tabs.installation.repair.button": {
-    "message": "תיקון"
+    "message": "ЧЄЧ™Ч§Ч•Чџ"
   },
   "instance.settings.tabs.installation.repair.button.repairing": {
-    "message": "מתקן"
+    "message": "ЧћЧЄЧ§Чџ"
   },
   "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "התיקון מתקין מחדש את התלויות של מיינקראפט ובודק דברים מקולקלים. פעולה זו עשויה לפתור בעיות שמונעות את הפעלת המשחק עקב שגיאות הקשורות למשגר, אך לא תפתור בעיות או קריסות הקשורות למודים המותקנים."
+    "message": "Ч”ЧЄЧ™Ч§Ч•Чџ ЧћЧЄЧ§Ч™Чџ ЧћЧ—Ч“Ч© ЧђЧЄ Ч”ЧЄЧњЧ•Ч™Ч•ЧЄ Ч©Чњ ЧћЧ™Ч™Ч Ч§ЧЁЧђЧ¤Ч Ч•Ч‘Ч•Ч“Ч§ Ч“Ч‘ЧЁЧ™Чќ ЧћЧ§Ч•ЧњЧ§ЧњЧ™Чќ. Ч¤ЧўЧ•ЧњЧ” Ч–Ч• ЧўЧ©Ч•Ч™Ч” ЧњЧ¤ЧЄЧ•ЧЁ Ч‘ЧўЧ™Ч•ЧЄ Ч©ЧћЧ•Ч ЧўЧ•ЧЄ ЧђЧЄ Ч”Ч¤ЧўЧњЧЄ Ч”ЧћЧ©Ч—Ч§ ЧўЧ§Ч‘ Ч©Ч’Ч™ЧђЧ•ЧЄ Ч”Ч§Ч©Ч•ЧЁЧ•ЧЄ ЧњЧћЧ©Ч’ЧЁ, ЧђЧљ ЧњЧђ ЧЄЧ¤ЧЄЧ•ЧЁ Ч‘ЧўЧ™Ч•ЧЄ ЧђЧ• Ч§ЧЁЧ™ЧЎЧ•ЧЄ Ч”Ч§Ч©Ч•ЧЁЧ•ЧЄ ЧњЧћЧ•Ч“Ч™Чќ Ч”ЧћЧ•ЧЄЧ§Ч Ч™Чќ."
   },
   "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "לתקן את המכונה?"
+    "message": "ЧњЧЄЧ§Чџ ЧђЧЄ Ч”ЧћЧ›Ч•Ч Ч”?"
   },
   "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "תיקון בתהליך"
+    "message": "ЧЄЧ™Ч§Ч•Чџ Ч‘ЧЄЧ”ЧњЧ™Чљ"
   },
   "instance.settings.tabs.installation.reset-selections": {
-    "message": "אפס לגרסה הנוכחית"
+    "message": "ЧђЧ¤ЧЎ ЧњЧ’ЧЁЧЎЧ” Ч”Ч Ч•Ч›Ч—Ч™ЧЄ"
   },
   "instance.settings.tabs.installation.show-all-versions": {
-    "message": "הצג את כל הגרסאות"
+    "message": "Ч”Ч¦Ч’ ЧђЧЄ Ч›Чњ Ч”Ч’ЧЁЧЎЧђЧ•ЧЄ"
   },
   "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "שנה גרסה"
+    "message": "Ч©Ч Ч” Ч’ЧЁЧЎЧ”"
   },
   "instance.settings.tabs.installation.tooltip.action.install": {
-    "message": "התקן"
+    "message": "Ч”ЧЄЧ§Чџ"
   },
   "instance.settings.tabs.installation.tooltip.action.reinstall": {
-    "message": "התקן מחדש"
+    "message": "Ч”ЧЄЧ§Чџ ЧћЧ—Ч“Ч©"
   },
   "instance.settings.tabs.installation.tooltip.action.repair": {
-    "message": "תקן"
+    "message": "ЧЄЧ§Чџ"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "לא ניתן לבצע {action} בזמן ההתקנה"
+    "message": "ЧњЧђ Ч Ч™ЧЄЧџ ЧњЧ‘Ч¦Чў {action} Ч‘Ч–ЧћЧџ Ч”Ч”ЧЄЧ§Ч Ч”"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
-    "message": "לא ניתן לבצע {action} במצב לא מקוון"
+    "message": "ЧњЧђ Ч Ч™ЧЄЧџ ЧњЧ‘Ч¦Чў {action} Ч‘ЧћЧ¦Ч‘ ЧњЧђ ЧћЧ§Ч•Ч•Чџ"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "לא יכול {action} בזמן תיקון"
+    "message": "ЧњЧђ Ч™Ч›Ч•Чњ {action} Ч‘Ч–ЧћЧџ ЧЄЧ™Ч§Ч•Чџ"
   },
   "instance.settings.tabs.installation.unknown-version": {
-    "message": "(גרסה לא ידועה)"
+    "message": "(Ч’ЧЁЧЎЧ” ЧњЧђ Ч™Ч“Ч•ЧўЧ”)"
   },
   "instance.settings.tabs.installation.unlink.button": {
-    "message": "לבטל את הקישור של ההתקנה הזו"
+    "message": "ЧњЧ‘ЧЧњ ЧђЧЄ Ч”Ч§Ч™Ч©Ч•ЧЁ Ч©Чњ Ч”Ч”ЧЄЧ§Ч Ч” Ч”Ч–Ч•"
   },
   "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "אם תמשיך, לא תוכל לקשר אותה מחדש מבלי ליצור התקנה חדשה לחלוטין. לא תקבל עוד עדכונים לחבילת המודים, והיא תהפוך להתקנה רגילה."
+    "message": "ЧђЧќ ЧЄЧћЧ©Ч™Чљ, ЧњЧђ ЧЄЧ•Ч›Чњ ЧњЧ§Ч©ЧЁ ЧђЧ•ЧЄЧ” ЧћЧ—Ч“Ч© ЧћЧ‘ЧњЧ™ ЧњЧ™Ч¦Ч•ЧЁ Ч”ЧЄЧ§Ч Ч” Ч—Ч“Ч©Ч” ЧњЧ—ЧњЧ•ЧЧ™Чџ. ЧњЧђ ЧЄЧ§Ч‘Чњ ЧўЧ•Ч“ ЧўЧ“Ч›Ч•Ч Ч™Чќ ЧњЧ—Ч‘Ч™ЧњЧЄ Ч”ЧћЧ•Ч“Ч™Чќ, Ч•Ч”Ч™Чђ ЧЄЧ”Ч¤Ч•Чљ ЧњЧ”ЧЄЧ§Ч Ч” ЧЁЧ’Ч™ЧњЧ”."
   },
   "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "האם אתה בטוח שברצונך לנתק את הקישור ל-instance הזה?"
+    "message": "Ч”ЧђЧќ ЧђЧЄЧ” Ч‘ЧЧ•Ч— Ч©Ч‘ЧЁЧ¦Ч•Ч Чљ ЧњЧ ЧЄЧ§ ЧђЧЄ Ч”Ч§Ч™Ч©Ч•ЧЁ Чњ-instance Ч”Ч–Ч”?"
   },
   "instance.settings.tabs.installation.unlink.description": {
-    "message": "התקנה זאת מקושרת לחבילת מודים, מה שאומר שלא ניתן לעדכן מודים ולא ניתן לשנות את טוען המודים או את גרסת המיינקראפט. הניתוק יבטל לצמיתות את הקישור של התקנה זאת לחבילת המודים."
+    "message": "Ч”ЧЄЧ§Ч Ч” Ч–ЧђЧЄ ЧћЧ§Ч•Ч©ЧЁЧЄ ЧњЧ—Ч‘Ч™ЧњЧЄ ЧћЧ•Ч“Ч™Чќ, ЧћЧ” Ч©ЧђЧ•ЧћЧЁ Ч©ЧњЧђ Ч Ч™ЧЄЧџ ЧњЧўЧ“Ч›Чџ ЧћЧ•Ч“Ч™Чќ Ч•ЧњЧђ Ч Ч™ЧЄЧџ ЧњЧ©Ч Ч•ЧЄ ЧђЧЄ ЧЧ•ЧўЧџ Ч”ЧћЧ•Ч“Ч™Чќ ЧђЧ• ЧђЧЄ Ч’ЧЁЧЎЧЄ Ч”ЧћЧ™Ч™Ч Ч§ЧЁЧђЧ¤Ч. Ч”Ч Ч™ЧЄЧ•Ч§ Ч™Ч‘ЧЧњ ЧњЧ¦ЧћЧ™ЧЄЧ•ЧЄ ЧђЧЄ Ч”Ч§Ч™Ч©Ч•ЧЁ Ч©Чњ Ч”ЧЄЧ§Ч Ч” Ч–ЧђЧЄ ЧњЧ—Ч‘Ч™ЧњЧЄ Ч”ЧћЧ•Ч“Ч™Чќ."
   },
   "instance.settings.tabs.installation.unlink.title": {
-    "message": "נתק קישור מחבילת מודים"
+    "message": "Ч ЧЄЧ§ Ч§Ч™Ч©Ч•ЧЁ ЧћЧ—Ч‘Ч™ЧњЧЄ ЧћЧ•Ч“Ч™Чќ"
   },
   "instance.settings.tabs.java": {
-    "message": "ג'אווה וזיכרון"
+    "message": "Ч’'ЧђЧ•Ч•Ч” Ч•Ч–Ч™Ч›ЧЁЧ•Чџ"
   },
   "instance.settings.tabs.java.environment-variables": {
-    "message": "משתני סביבה"
+    "message": "ЧћЧ©ЧЄЧ Ч™ ЧЎЧ‘Ч™Ч‘Ч”"
   },
   "instance.settings.tabs.java.hooks": {
-    "message": "התחברויות"
+    "message": "Ч”ЧЄЧ—Ч‘ЧЁЧ•Ч™Ч•ЧЄ"
   },
   "instance.settings.tabs.java.java-arguments": {
-    "message": "ארגומנטים של ג'אווה"
+    "message": "ЧђЧЁЧ’Ч•ЧћЧ ЧЧ™Чќ Ч©Чњ Ч’'ЧђЧ•Ч•Ч”"
   },
   "instance.settings.tabs.java.java-installation": {
-    "message": "התקנת Java"
+    "message": "Ч”ЧЄЧ§Ч ЧЄ Java"
   },
   "instance.settings.tabs.java.java-memory": {
-    "message": "זיכרון מוקצה"
+    "message": "Ч–Ч™Ч›ЧЁЧ•Чџ ЧћЧ•Ч§Ч¦Ч”"
   },
   "instance.settings.tabs.window": {
-    "message": "חלון"
+    "message": "Ч—ЧњЧ•Чџ"
   },
   "instance.settings.tabs.window.custom-window-settings": {
-    "message": "הגדרות חלון מותאמות אישית"
+    "message": "Ч”Ч’Ч“ЧЁЧ•ЧЄ Ч—ЧњЧ•Чџ ЧћЧ•ЧЄЧђЧћЧ•ЧЄ ЧђЧ™Ч©Ч™ЧЄ"
   },
   "instance.settings.tabs.window.fullscreen": {
-    "message": "מסך מלא"
+    "message": "ЧћЧЎЧљ ЧћЧњЧђ"
   },
   "instance.settings.tabs.window.fullscreen.description": {
-    "message": "הגדר שהמשחק ייפתח במסך מלא בעת ההפעלה (באמצעות options.txt)."
+    "message": "Ч”Ч’Ч“ЧЁ Ч©Ч”ЧћЧ©Ч—Ч§ Ч™Ч™Ч¤ЧЄЧ— Ч‘ЧћЧЎЧљ ЧћЧњЧђ Ч‘ЧўЧЄ Ч”Ч”Ч¤ЧўЧњЧ” (Ч‘ЧђЧћЧ¦ЧўЧ•ЧЄ options.txt)."
   },
   "instance.settings.tabs.window.height": {
-    "message": "גובה"
+    "message": "Ч’Ч•Ч‘Ч”"
   },
   "instance.settings.tabs.window.height.description": {
-    "message": "גובה חלון המשחק בעת ההפעלה."
+    "message": "Ч’Ч•Ч‘Ч” Ч—ЧњЧ•Чџ Ч”ЧћЧ©Ч—Ч§ Ч‘ЧўЧЄ Ч”Ч”Ч¤ЧўЧњЧ”."
   },
   "instance.settings.tabs.window.height.enter": {
-    "message": "הכנס גובה..."
+    "message": "Ч”Ч›Ч ЧЎ Ч’Ч•Ч‘Ч”..."
   },
   "instance.settings.tabs.window.width": {
-    "message": "רוחב"
+    "message": "ЧЁЧ•Ч—Ч‘"
   },
   "instance.settings.tabs.window.width.description": {
-    "message": "רוחב חלון המשחק בעת ההפעלה."
+    "message": "ЧЁЧ•Ч—Ч‘ Ч—ЧњЧ•Чџ Ч”ЧћЧ©Ч—Ч§ Ч‘ЧўЧЄ Ч”Ч”Ч¤ЧўЧњЧ”."
   },
   "instance.settings.tabs.window.width.enter": {
-    "message": "הכנס רוחב..."
+    "message": "Ч”Ч›Ч ЧЎ ЧЁЧ•Ч—Ч‘..."
   },
   "instance.worlds.a_minecraft_server": {
-    "message": "שרת מיינקראפט"
+    "message": "Ч©ЧЁЧЄ ЧћЧ™Ч™Ч Ч§ЧЁЧђЧ¤Ч"
   },
   "instance.worlds.cant_connect": {
-    "message": "לא יכול להתחבר אל השרת"
+    "message": "ЧњЧђ Ч™Ч›Ч•Чњ ЧњЧ”ЧЄЧ—Ч‘ЧЁ ЧђЧњ Ч”Ч©ЧЁЧЄ"
   },
   "instance.worlds.copy_address": {
-    "message": "העתק כתובת"
+    "message": "Ч”ЧўЧЄЧ§ Ч›ЧЄЧ•Ч‘ЧЄ"
   },
   "instance.worlds.dont_show_on_home": {
-    "message": "אל תציג בדף הבית"
+    "message": "ЧђЧњ ЧЄЧ¦Ч™Ч’ Ч‘Ч“ЧЈ Ч”Ч‘Ч™ЧЄ"
   },
   "instance.worlds.filter.available": {
-    "message": "זמין"
+    "message": "Ч–ЧћЧ™Чџ"
   },
   "instance.worlds.game_already_open": {
-    "message": "התקנה כבר פתוחה"
+    "message": "Ч”ЧЄЧ§Ч Ч” Ч›Ч‘ЧЁ Ч¤ЧЄЧ•Ч—Ч”"
   },
   "instance.worlds.hardcore": {
-    "message": "מצב הארדקור"
+    "message": "ЧћЧ¦Ч‘ Ч”ЧђЧЁЧ“Ч§Ч•ЧЁ"
   },
   "instance.worlds.incompatible_server": {
-    "message": "שרת לא מתאים"
+    "message": "Ч©ЧЁЧЄ ЧњЧђ ЧћЧЄЧђЧ™Чќ"
   },
   "instance.worlds.no_contact": {
-    "message": "לא ניתן ליצור קשר עם השרת"
+    "message": "ЧњЧђ Ч Ч™ЧЄЧџ ЧњЧ™Ч¦Ч•ЧЁ Ч§Ч©ЧЁ ЧўЧќ Ч”Ч©ЧЁЧЄ"
   },
   "instance.worlds.no_server_quick_play": {
-    "message": "אתה יכול רק לקפוץ ישירות לשרתים מהגרסא אלפא 1.0.5 ואלך"
+    "message": "ЧђЧЄЧ” Ч™Ч›Ч•Чњ ЧЁЧ§ ЧњЧ§Ч¤Ч•ЧҐ Ч™Ч©Ч™ЧЁЧ•ЧЄ ЧњЧ©ЧЁЧЄЧ™Чќ ЧћЧ”Ч’ЧЁЧЎЧђ ЧђЧњЧ¤Чђ 1.0.5 Ч•ЧђЧњЧљ"
   },
   "instance.worlds.no_singleplayer_quick_play": {
-    "message": "אתה יכול לקפוץ ישירות לעולמות החל מהגרסא 1.20 ומעלה"
+    "message": "ЧђЧЄЧ” Ч™Ч›Ч•Чњ ЧњЧ§Ч¤Ч•ЧҐ Ч™Ч©Ч™ЧЁЧ•ЧЄ ЧњЧўЧ•ЧњЧћЧ•ЧЄ Ч”Ч—Чњ ЧћЧ”Ч’ЧЁЧЎЧђ 1.20 Ч•ЧћЧўЧњЧ”"
   },
   "instance.worlds.play_instance": {
-    "message": "שחק בהתקנה"
+    "message": "Ч©Ч—Ч§ Ч‘Ч”ЧЄЧ§Ч Ч”"
   },
   "instance.worlds.type.server": {
-    "message": "שרת"
+    "message": "Ч©ЧЁЧЄ"
   },
   "instance.worlds.type.singleplayer": {
-    "message": "שחקן יחיד"
+    "message": "Ч©Ч—Ч§Чџ Ч™Ч—Ч™Ч“"
   },
   "instance.worlds.view_instance": {
-    "message": "הצג התקנה"
+    "message": "Ч”Ч¦Ч’ Ч”ЧЄЧ§Ч Ч”"
   },
   "instance.worlds.world_in_use": {
-    "message": "עולם בשימוש"
+    "message": "ЧўЧ•ЧњЧќ Ч‘Ч©Ч™ЧћЧ•Ч©"
   },
   "search.filter.locked.instance": {
-    "message": "מסופק על ידי ההתקנה"
+    "message": "ЧћЧЎЧ•Ч¤Ч§ ЧўЧњ Ч™Ч“Ч™ Ч”Ч”ЧЄЧ§Ч Ч”"
   },
   "search.filter.locked.instance-game-version.title": {
-    "message": "גרסאת המשחק מסופקת על ידי ההתקנה"
+    "message": "Ч’ЧЁЧЎЧђЧЄ Ч”ЧћЧ©Ч—Ч§ ЧћЧЎЧ•Ч¤Ч§ЧЄ ЧўЧњ Ч™Ч“Ч™ Ч”Ч”ЧЄЧ§Ч Ч”"
   },
   "search.filter.locked.instance-loader.title": {
-    "message": "מטען מודים מסופק ע\"י ההתקן"
+    "message": "ЧћЧЧўЧџ ЧћЧ•Ч“Ч™Чќ ЧћЧЎЧ•Ч¤Ч§ Чў\"Ч™ Ч”Ч”ЧЄЧ§Чџ"
   },
   "search.filter.locked.instance.sync": {
-    "message": "סנכרן עם התקנה"
+    "message": "ЧЎЧ Ч›ЧЁЧџ ЧўЧќ Ч”ЧЄЧ§Ч Ч”"
   }
 }

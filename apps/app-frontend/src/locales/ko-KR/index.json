@@ -1,590 +1,590 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
-    "message": "Minecraft 인증 서버가 일시적으로 중단되었을 수 있습니다. 인터넷 연결을 확인한 후 나중에 다시 시도하세요."
+    "message": "Minecraft мќём¦ќ м„њлІ„к°Ђ мќјм‹њм ЃмњјлЎњ м¤‘л‹Ёлђм—€мќ„ м€ мћ€мЉµл‹€л‹¤. мќён„°л„· м—°кІ°мќ„ н™•мќён•њ н›„ л‚м¤‘м—ђ л‹¤м‹њ м‹њлЏ„н•м„ёмљ”."
   },
   "app.auth-servers.unreachable.header": {
-    "message": "인증 서버에 연결할 수 없습니다"
+    "message": "мќём¦ќ м„њлІ„м—ђ м—°кІ°н•  м€ м—†мЉµл‹€л‹¤"
   },
   "app.modal.install-to-play.header": {
-    "message": "설치하고 플레이"
+    "message": "м„¤м№н•кі  н”Њл €мќґ"
   },
   "app.modal.install-to-play.install-button": {
-    "message": "설치"
+    "message": "м„¤м№"
   },
   "app.modal.install-to-play.mod-count": {
-    "message": "{count, plural, one {모드 #개} other {모드 #개}}"
+    "message": "{count, plural, one {лЄЁл“њ #к°њ} other {лЄЁл“њ #к°њ}}"
   },
   "app.modal.install-to-play.server-requires-mods": {
-    "message": "이 서버에서 플레이하려면 모드가 필요합니다. 설치를 눌러 Modrinth에서 필요한 파일을 설정하세요."
+    "message": "мќґ м„њлІ„м—ђм„њ н”Њл €мќґн•л ¤л©ґ лЄЁл“њк°Ђ н•„мљ”н•©л‹€л‹¤. м„¤м№лҐј л€Њлџ¬ Modrinthм—ђм„њ н•„мљ”н•њ нЊЊмќјмќ„ м„¤м •н•м„ёмљ”."
   },
   "app.modal.install-to-play.shared-by-today": {
-    "message": "{name}이(가) 오늘 이 인스턴스를 공유했습니다."
+    "message": "{name}мќґ(к°Ђ) м¤лЉ мќґ мќёмЉ¤н„ґмЉ¤лҐј кіµмњ н–€мЉµл‹€л‹¤."
   },
   "app.modal.install-to-play.shared-instance": {
-    "message": "인스턴스 공유됨"
+    "message": "мќёмЉ¤н„ґмЉ¤ кіµмњ лђЁ"
   },
   "app.modal.install-to-play.shared-server-instance": {
-    "message": "서버 인스턴스 공유됨"
+    "message": "м„њлІ„ мќёмЉ¤н„ґмЉ¤ кіµмњ лђЁ"
   },
   "app.modal.update-to-play.added-count": {
-    "message": "{count} 추가됨"
+    "message": "{count} м¶”к°ЂлђЁ"
   },
   "app.modal.update-to-play.diff-type.added": {
-    "message": "추가됨"
+    "message": "м¶”к°ЂлђЁ"
   },
   "app.modal.update-to-play.diff-type.removed": {
-    "message": "삭제됨"
+    "message": "м‚­м њлђЁ"
   },
   "app.modal.update-to-play.diff-type.updated": {
-    "message": "업데이트됨"
+    "message": "м—…лЌ°мќґнЉёлђЁ"
   },
   "app.modal.update-to-play.header": {
-    "message": "업데이트하고 플레이"
+    "message": "м—…лЌ°мќґнЉён•кі  н”Њл €мќґ"
   },
   "app.modal.update-to-play.published-date": {
     "message": "{date, date, long}"
   },
   "app.modal.update-to-play.removed-count": {
-    "message": "{count} 삭제됨"
+    "message": "{count} м‚­м њлђЁ"
   },
   "app.modal.update-to-play.update-required": {
-    "message": "업데이트 필요"
+    "message": "м—…лЌ°мќґнЉё н•„мљ”"
   },
   "app.modal.update-to-play.update-required-description": {
-    "message": "{name}을(를) 플레이하려면 업데이트가 필요합니다. 게임을 실행하려면 최신 버전으로 업데이트해 주세요."
+    "message": "{name}мќ„(лҐј) н”Њл €мќґн•л ¤л©ґ м—…лЌ°мќґнЉёк°Ђ н•„мљ”н•©л‹€л‹¤. кІЊмћ„мќ„ м‹¤н–‰н•л ¤л©ґ мµњм‹  лІ„м „мњјлЎњ м—…лЌ°мќґнЉён•ґ мЈјм„ёмљ”."
   },
   "app.modal.update-to-play.updated-count": {
-    "message": "{count} 업데이트됨"
+    "message": "{count} м—…лЌ°мќґнЉёлђЁ"
   },
   "app.settings.developer-mode-enabled": {
-    "message": "개발자 모드가 활성화되었습니다."
+    "message": "к°њл°њмћђ лЄЁл“њк°Ђ н™њм„±н™”лђм—€мЉµл‹€л‹¤."
   },
   "app.settings.downloading": {
-    "message": "v{version} 다운로드 중"
+    "message": "v{version} л‹¤мљґлЎњл“њ м¤‘"
   },
   "app.settings.tabs.appearance": {
-    "message": "모양"
+    "message": "лЄЁм–‘"
   },
   "app.settings.tabs.default-instance-options": {
-    "message": "기본 인스턴스 옵션"
+    "message": "кё°ліё мќёмЉ¤н„ґмЉ¤ мµм…"
   },
   "app.settings.tabs.feature-flags": {
-    "message": "기능 플래그"
+    "message": "кё°лЉҐ н”Њлћк·ё"
   },
   "app.settings.tabs.java-installations": {
-    "message": "Java 설치"
+    "message": "Java м„¤м№"
   },
   "app.settings.tabs.language": {
-    "message": "언어"
+    "message": "м–ём–ґ"
   },
   "app.settings.tabs.privacy": {
-    "message": "개인정보"
+    "message": "к°њмќём •ліґ"
   },
   "app.settings.tabs.resource-management": {
-    "message": "리소스 관리"
+    "message": "л¦¬м†ЊмЉ¤ кґЂл¦¬"
   },
   "app.update-toast.body": {
-    "message": "Modrinth App v{version}을 설치할 준비가 완료되었습니다! 새로고침하거나 Modrinth App을 종료하면 자동으로 업데이트됩니다."
+    "message": "Mist Launcher v{version}мќ„ м„¤м№н•  м¤Ђл№„к°Ђ м™„лЈЊлђм—€мЉµл‹€л‹¤! мѓ€лЎњкі м№Ён•к±°л‚ Mist Launcherмќ„ мў…лЈЊн•л©ґ мћђлЏ™мњјлЎњ м—…лЌ°мќґнЉёлђ©л‹€л‹¤."
   },
   "app.update-toast.body.download-complete": {
-    "message": "Modrinth App v{version} 다운로드가 완료되었습니다. 새로고침하거나 Modrinth App을 종료하면 자동으로 업데이트됩니다."
+    "message": "Mist Launcher v{version} л‹¤мљґлЎњл“њк°Ђ м™„лЈЊлђм—€мЉµл‹€л‹¤. мѓ€лЎњкі м№Ён•к±°л‚ Mist Launcherмќ„ мў…лЈЊн•л©ґ мћђлЏ™мњјлЎњ м—…лЌ°мќґнЉёлђ©л‹€л‹¤."
   },
   "app.update-toast.body.linux": {
-    "message": "Modrinth App v{version} 버전을 사용할 수 있습니다. 최신 기능과 오류 수정을 적용하려면 패키지 관리자를 통해 업데이트하세요!"
+    "message": "Mist Launcher v{version} лІ„м „мќ„ м‚¬мљ©н•  м€ мћ€мЉµл‹€л‹¤. мµњм‹  кё°лЉҐкіј м¤лҐ м€м •мќ„ м Ѓмљ©н•л ¤л©ґ нЊЁн‚¤м§Ђ кґЂл¦¬мћђлҐј н†µн•ґ м—…лЌ°мќґнЉён•м„ёмљ”!"
   },
   "app.update-toast.body.metered": {
-    "message": "Modrinth App v{version}을 지금 사용할 수 있습니다! 데이터 통신 연결을 사용 중이므로, 자동으로 다운로드하지 않았습니다."
+    "message": "Mist Launcher v{version}мќ„ м§Ђкё€ м‚¬мљ©н•  м€ мћ€мЉµл‹€л‹¤! лЌ°мќґн„° н†µм‹  м—°кІ°мќ„ м‚¬мљ© м¤‘мќґлЇЂлЎњ, мћђлЏ™мњјлЎњ л‹¤мљґлЎњл“њн•м§Ђ м•Љм•мЉµл‹€л‹¤."
   },
   "app.update-toast.changelog": {
-    "message": "변경 내역"
+    "message": "ліЂкІЅ л‚ґм—­"
   },
   "app.update-toast.download": {
-    "message": "({size}) 다운로드"
+    "message": "({size}) л‹¤мљґлЎњл“њ"
   },
   "app.update-toast.download-page": {
-    "message": "다운로드"
+    "message": "л‹¤мљґлЎњл“њ"
   },
   "app.update-toast.downloading": {
-    "message": "다운로드 중..."
+    "message": "л‹¤мљґлЎњл“њ м¤‘..."
   },
   "app.update-toast.reload": {
-    "message": "새로고침"
+    "message": "мѓ€лЎњкі м№Ё"
   },
   "app.update-toast.title": {
-    "message": "업데이트 가능"
+    "message": "м—…лЌ°мќґнЉё к°ЂлЉҐ"
   },
   "app.update-toast.title.download-complete": {
-    "message": "다운로드 완료"
+    "message": "л‹¤мљґлЎњл“њ м™„лЈЊ"
   },
   "app.update.complete-toast.text": {
-    "message": "변경 내역을 보려면 클릭하세요."
+    "message": "ліЂкІЅ л‚ґм—­мќ„ ліґл ¤л©ґ нЃґл¦­н•м„ёмљ”."
   },
   "app.update.complete-toast.title": {
-    "message": "{version} 버전이 성공적으로 설치되었습니다!"
+    "message": "{version} лІ„м „мќґ м„±кіµм ЃмњјлЎњ м„¤м№лђм—€мЉµл‹€л‹¤!"
   },
   "app.update.download-update": {
-    "message": "업데이트 다운로드"
+    "message": "м—…лЌ°мќґнЉё л‹¤мљґлЎњл“њ"
   },
   "app.update.downloading-update": {
-    "message": "업데이트 다운로드 중 ({percent}%)"
+    "message": "м—…лЌ°мќґнЉё л‹¤мљґлЎњл“њ м¤‘ ({percent}%)"
   },
   "app.update.reload-to-update": {
-    "message": "새로고침하여 업데이트 설치"
+    "message": "мѓ€лЎњкі м№Ён•м—¬ м—…лЌ°мќґнЉё м„¤м№"
   },
   "friends.action.add-friend": {
-    "message": "친구 추가"
+    "message": "м№њкµ¬ м¶”к°Ђ"
   },
   "friends.action.view-friend-requests": {
-    "message": "{count}건의 친구 요청"
+    "message": "{count}к±ґмќ м№њкµ¬ мљ”мІ­"
   },
   "friends.add-friend.submit": {
-    "message": "친구 요청 보내기"
+    "message": "м№њкµ¬ мљ”мІ­ ліґл‚ґкё°"
   },
   "friends.add-friend.title": {
-    "message": "친구 추가 중"
+    "message": "м№њкµ¬ м¶”к°Ђ м¤‘"
   },
   "friends.add-friend.username.description": {
-    "message": "Minecraft 사용자명과 다를 수 있습니다!"
+    "message": "Minecraft м‚¬мљ©мћђлЄ…кіј л‹¤лҐј м€ мћ€мЉµл‹€л‹¤!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Modrinth 사용자명 입력..."
+    "message": "Modrinth м‚¬мљ©мћђлЄ… мћ…л Ґ..."
   },
   "friends.add-friend.username.title": {
-    "message": "친구의 Modrinth 사용자명이 무엇인가요?"
+    "message": "м№њкµ¬мќ Modrinth м‚¬мљ©мћђлЄ…мќґ л¬ґм—‡мќёк°Ђмљ”?"
   },
   "friends.add-friends-to-share": {
-    "message": "<link>친구 추가</link>를 통해 친구들이 무엇을 하는지 확인해 보세요!"
+    "message": "<link>м№њкµ¬ м¶”к°Ђ</link>лҐј н†µн•ґ м№њкµ¬л“¤мќґ л¬ґм—‡мќ„ н•лЉ”м§Ђ н™•мќён•ґ ліґм„ёмљ”!"
   },
   "friends.friend.cancel-request": {
-    "message": "요청 취소"
+    "message": "мљ”мІ­ м·Ём†Њ"
   },
   "friends.friend.remove-friend": {
-    "message": "친구 삭제"
+    "message": "м№њкµ¬ м‚­м њ"
   },
   "friends.friend.request-sent": {
-    "message": "친구 요청 전송됨"
+    "message": "м№њкµ¬ мљ”мІ­ м „м†ЎлђЁ"
   },
   "friends.friend.view-profile": {
-    "message": "프로필 보기"
+    "message": "н”„лЎњн•„ ліґкё°"
   },
   "friends.heading": {
-    "message": "친구"
+    "message": "м№њкµ¬"
   },
   "friends.heading.active": {
-    "message": "활동 중"
+    "message": "н™њлЏ™ м¤‘"
   },
   "friends.heading.offline": {
-    "message": "오프라인"
+    "message": "м¤н”„лќјмќё"
   },
   "friends.heading.online": {
-    "message": "온라인"
+    "message": "мЁлќјмќё"
   },
   "friends.heading.pending": {
-    "message": "대기 중"
+    "message": "лЊЂкё° м¤‘"
   },
   "friends.no-friends-match": {
-    "message": "\"{query}\" 이름과 일치하는 친구 없음"
+    "message": "\"{query}\" мќґл¦„кіј мќјм№н•лЉ” м№њкµ¬ м—†мќЊ"
   },
   "friends.search-friends-placeholder": {
-    "message": "친구 검색 중..."
+    "message": "м№њкµ¬ кІЂмѓ‰ м¤‘..."
   },
   "friends.section.heading": {
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Modrinth 계정으로 로그인</link>하여 친구를 추가하고 무엇을 플레이 중인지 확인하세요!"
+    "message": "<link>Modrinth кі„м •мњјлЎњ лЎњк·ёмќё</link>н•м—¬ м№њкµ¬лҐј м¶”к°Ђн•кі  л¬ґм—‡мќ„ н”Њл €мќґ м¤‘мќём§Ђ н™•мќён•м„ёмљ”!"
   },
   "instance.add-server.add-and-play": {
-    "message": "추가 후 플레이"
+    "message": "м¶”к°Ђ н›„ н”Њл €мќґ"
   },
   "instance.add-server.add-server": {
-    "message": "서버 추가"
+    "message": "м„њлІ„ м¶”к°Ђ"
   },
   "instance.add-server.resource-pack.disabled": {
-    "message": "비활성화"
+    "message": "л№„н™њм„±н™”"
   },
   "instance.add-server.resource-pack.enabled": {
-    "message": "활성화"
+    "message": "н™њм„±н™”"
   },
   "instance.add-server.resource-pack.prompt": {
-    "message": "물어보기"
+    "message": "л¬јм–ґліґкё°"
   },
   "instance.add-server.title": {
-    "message": "서버 추가"
+    "message": "м„њлІ„ м¶”к°Ђ"
   },
   "instance.edit-server.title": {
-    "message": "서버 편집"
+    "message": "м„њлІ„ нЋём§‘"
   },
   "instance.edit-world.hide-from-home": {
-    "message": "홈 화면에서 숨기기"
+    "message": "н™€ н™”л©ґм—ђм„њ м€Ёкё°кё°"
   },
   "instance.edit-world.name": {
-    "message": "이름"
+    "message": "мќґл¦„"
   },
   "instance.edit-world.placeholder-name": {
-    "message": "Minecraft 세계"
+    "message": "Minecraft м„ёкі„"
   },
   "instance.edit-world.reset-icon": {
-    "message": "아이콘 재설정"
+    "message": "м•„мќґмЅ мћ¬м„¤м •"
   },
   "instance.edit-world.title": {
-    "message": "세계 편집"
+    "message": "м„ёкі„ нЋём§‘"
   },
   "instance.filter.disabled": {
-    "message": "비활성화된 프로젝트"
+    "message": "л№„н™њм„±н™”лђњ н”„лЎњм ќнЉё"
   },
   "instance.filter.updates-available": {
-    "message": "업데이트 가능"
+    "message": "м—…лЌ°мќґнЉё к°ЂлЉҐ"
   },
   "instance.server-modal.address": {
-    "message": "주소"
+    "message": "мЈјм†Њ"
   },
   "instance.server-modal.name": {
-    "message": "이름"
+    "message": "мќґл¦„"
   },
   "instance.server-modal.placeholder-name": {
-    "message": "Minecraft 서버"
+    "message": "Minecraft м„њлІ„"
   },
   "instance.server-modal.resource-pack": {
-    "message": "리소스 팩"
+    "message": "л¦¬м†ЊмЉ¤ нЊ©"
   },
   "instance.settings.tabs.general": {
-    "message": "일반"
+    "message": "мќјл°"
   },
   "instance.settings.tabs.general.delete": {
-    "message": "인스턴스 삭제"
+    "message": "мќёмЉ¤н„ґмЉ¤ м‚­м њ"
   },
   "instance.settings.tabs.general.delete.button": {
-    "message": "인스턴스 삭제"
+    "message": "мќёмЉ¤н„ґмЉ¤ м‚­м њ"
   },
   "instance.settings.tabs.general.delete.description": {
-    "message": "세계, 설정, 설치된 모든 요소를 기기에서 완전히 삭제합니다. 삭제 후 인스턴스를 복구할 수 없으므로 주의하세요."
+    "message": "м„ёкі„, м„¤м •, м„¤м№лђњ лЄЁл“  мљ”м†ЊлҐј кё°кё°м—ђм„њ м™„м „нћ€ м‚­м њн•©л‹€л‹¤. м‚­м њ н›„ мќёмЉ¤н„ґмЉ¤лҐј ліµкµ¬н•  м€ м—†мњјлЇЂлЎњ мЈјмќн•м„ёмљ”."
   },
   "instance.settings.tabs.general.deleting.button": {
-    "message": "삭제 중..."
+    "message": "м‚­м њ м¤‘..."
   },
   "instance.settings.tabs.general.duplicate-button": {
-    "message": "복제"
+    "message": "ліµм њ"
   },
   "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
-    "message": "설치 중에는 복제할 수 없습니다."
+    "message": "м„¤м№ м¤‘м—ђлЉ” ліµм њн•  м€ м—†мЉµл‹€л‹¤."
   },
   "instance.settings.tabs.general.duplicate-instance": {
-    "message": "인스턴스 복제"
+    "message": "мќёмЉ¤н„ґмЉ¤ ліµм њ"
   },
   "instance.settings.tabs.general.duplicate-instance.description": {
-    "message": "인스턴스의 복사본을 생성합니다. 세계, 설정, 모드, 기타 등등도 함께 복사됩니다."
+    "message": "мќёмЉ¤н„ґмЉ¤мќ ліµм‚¬ліёмќ„ мѓќм„±н•©л‹€л‹¤. м„ёкі„, м„¤м •, лЄЁл“њ, кё°нѓЂ л“±л“±лЏ„ н•Ёк» ліµм‚¬лђ©л‹€л‹¤."
   },
   "instance.settings.tabs.general.edit-icon": {
-    "message": "아이콘 수정"
+    "message": "м•„мќґмЅ м€м •"
   },
   "instance.settings.tabs.general.edit-icon.remove": {
-    "message": "아이콘 제거"
+    "message": "м•„мќґмЅ м њк±°"
   },
   "instance.settings.tabs.general.edit-icon.replace": {
-    "message": "아이콘 대체"
+    "message": "м•„мќґмЅ лЊЂмІґ"
   },
   "instance.settings.tabs.general.edit-icon.select": {
-    "message": "아이콘 선택"
+    "message": "м•„мќґмЅ м„ нѓќ"
   },
   "instance.settings.tabs.general.library-groups": {
-    "message": "라이브러리 그룹"
+    "message": "лќјмќґлёЊлџ¬л¦¬ к·ёлЈ№"
   },
   "instance.settings.tabs.general.library-groups.create": {
-    "message": "새 그룹 만들기"
+    "message": "мѓ€ к·ёлЈ№ л§Њл“¤кё°"
   },
   "instance.settings.tabs.general.library-groups.description": {
-    "message": "라이브러리 그룹을 사용하면 인스턴스를 라이브러리 내 여러 섹션으로 나눠서 정리할 수 있습니다."
+    "message": "лќјмќґлёЊлџ¬л¦¬ к·ёлЈ№мќ„ м‚¬мљ©н•л©ґ мќёмЉ¤н„ґмЉ¤лҐј лќјмќґлёЊлџ¬л¦¬ л‚ґ м—¬лџ¬ м„№м…мњјлЎњ л‚л€ м„њ м •л¦¬н•  м€ мћ€мЉµл‹€л‹¤."
   },
   "instance.settings.tabs.general.library-groups.enter-name": {
-    "message": "그룹 이름 입력"
+    "message": "к·ёлЈ№ мќґл¦„ мћ…л Ґ"
   },
   "instance.settings.tabs.general.name": {
-    "message": "이름"
+    "message": "мќґл¦„"
   },
   "instance.settings.tabs.hooks": {
-    "message": "실행 후크"
+    "message": "м‹¤н–‰ н›„нЃ¬"
   },
   "instance.settings.tabs.hooks.custom-hooks": {
-    "message": "사용자 지정 실행 후크"
+    "message": "м‚¬мљ©мћђ м§Ђм • м‹¤н–‰ н›„нЃ¬"
   },
   "instance.settings.tabs.hooks.description": {
-    "message": "후크 기능을 사용하면 고급 사용자가 게임 실행 전후에 특정 시스템 명령을 실행할 수 있습니다."
+    "message": "н›„нЃ¬ кё°лЉҐмќ„ м‚¬мљ©н•л©ґ кі кё‰ м‚¬мљ©мћђк°Ђ кІЊмћ„ м‹¤н–‰ м „н›„м—ђ нЉ№м • м‹њмЉ¤н…њ лЄ…л №мќ„ м‹¤н–‰н•  м€ мћ€мЉµл‹€л‹¤."
   },
   "instance.settings.tabs.hooks.post-exit": {
-    "message": "종료 후"
+    "message": "мў…лЈЊ н›„"
   },
   "instance.settings.tabs.hooks.post-exit.description": {
-    "message": "게임이 꺼진 후 실행됩니다."
+    "message": "кІЊмћ„мќґ кєјм§„ н›„ м‹¤н–‰лђ©л‹€л‹¤."
   },
   "instance.settings.tabs.hooks.post-exit.enter": {
-    "message": "종료 후 명령어 입력..."
+    "message": "мў…лЈЊ н›„ лЄ…л №м–ґ мћ…л Ґ..."
   },
   "instance.settings.tabs.hooks.pre-launch": {
-    "message": "실행 전"
+    "message": "м‹¤н–‰ м „"
   },
   "instance.settings.tabs.hooks.pre-launch.description": {
-    "message": "인스턴스를 켜기 전에 실행됩니다."
+    "message": "мќёмЉ¤н„ґмЉ¤лҐј мјњкё° м „м—ђ м‹¤н–‰лђ©л‹€л‹¤."
   },
   "instance.settings.tabs.hooks.pre-launch.enter": {
-    "message": "실행 전 명령어 입력..."
+    "message": "м‹¤н–‰ м „ лЄ…л №м–ґ мћ…л Ґ..."
   },
   "instance.settings.tabs.hooks.title": {
-    "message": "게임 실행 후크"
+    "message": "кІЊмћ„ м‹¤н–‰ н›„нЃ¬"
   },
   "instance.settings.tabs.hooks.wrapper": {
-    "message": "래퍼"
+    "message": "лћнЌј"
   },
   "instance.settings.tabs.hooks.wrapper.description": {
-    "message": "Minecraft 실행을 위한 래퍼 명령어 입니다."
+    "message": "Minecraft м‹¤н–‰мќ„ мњ„н•њ лћнЌј лЄ…л №м–ґ мћ…л‹€л‹¤."
   },
   "instance.settings.tabs.hooks.wrapper.enter": {
-    "message": "래퍼 명령어 입력..."
+    "message": "лћнЌј лЄ…л №м–ґ мћ…л Ґ..."
   },
   "instance.settings.tabs.installation": {
-    "message": "설치"
+    "message": "м„¤м№"
   },
   "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "Minecraft {game_version} {platform} {version} 설치됨"
+    "message": "Minecraft {game_version} {platform} {version} м„¤м№лђЁ"
   },
   "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "바닐라 {game_version} 설치됨"
+    "message": "л°”л‹ђлќј {game_version} м„¤м№лђЁ"
   },
   "instance.settings.tabs.installation.change-version.button": {
-    "message": "버전 변경"
+    "message": "лІ„м „ ліЂкІЅ"
   },
   "instance.settings.tabs.installation.change-version.button.install": {
-    "message": "설치"
+    "message": "м„¤м№"
   },
   "instance.settings.tabs.installation.change-version.button.installing": {
-    "message": "설치 중"
+    "message": "м„¤м№ м¤‘"
   },
   "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "모드팩 버전을 가져오는 중"
+    "message": "лЄЁл“њнЊ© лІ„м „мќ„ к°Ђм ём¤лЉ” м¤‘"
   },
   "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "새 버전을 설치하는 중"
+    "message": "мѓ€ лІ„м „мќ„ м„¤м№н•лЉ” м¤‘"
   },
   "instance.settings.tabs.installation.currently-installed": {
-    "message": "현재 설치됨"
+    "message": "н„мћ¬ м„¤м№лђЁ"
   },
   "instance.settings.tabs.installation.debug-information": {
-    "message": "디버그 정보:"
+    "message": "л””лІ„к·ё м •ліґ:"
   },
   "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "모드팩 세부 정보를 가져오는 중"
+    "message": "лЄЁл“њнЊ© м„ёл¶Ђ м •ліґлҐј к°Ђм ём¤лЉ” м¤‘"
   },
   "instance.settings.tabs.installation.game-version": {
-    "message": "게임 버전"
+    "message": "кІЊмћ„ лІ„м „"
   },
   "instance.settings.tabs.installation.install": {
-    "message": "설치"
+    "message": "м„¤м№"
   },
   "instance.settings.tabs.installation.install.in-progress": {
-    "message": "설치 진행 중"
+    "message": "м„¤м№ м§„н–‰ м¤‘"
   },
   "instance.settings.tabs.installation.loader-version": {
-    "message": "{loader} 버전"
+    "message": "{loader} лІ„м „"
   },
   "instance.settings.tabs.installation.minecraft-version": {
     "message": "Minecraft {version}"
   },
   "instance.settings.tabs.installation.no-connection": {
-    "message": "연결된 모드팩의 세부 정보를 가져올 수 없습니다. 인터넷 연결 상태를 확인하세요."
+    "message": "м—°кІ°лђњ лЄЁл“њнЊ©мќ м„ёл¶Ђ м •ліґлҐј к°Ђм ём¬ м€ м—†мЉµл‹€л‹¤. мќён„°л„· м—°кІ° мѓЃнѓњлҐј н™•мќён•м„ёмљ”."
   },
   "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader}(은)는 Minecraft {version}에서 사용할 수 없습니다. 다른 모드 로더를 사용하세요."
+    "message": "{loader}(мќЂ)лЉ” Minecraft {version}м—ђм„њ м‚¬мљ©н•  м€ м—†мЉµл‹€л‹¤. л‹¤лҐё лЄЁл“њ лЎњлЌ”лҐј м‚¬мљ©н•м„ёмљ”."
   },
   "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "이 인스턴스는 모드팩과 연결되어 있지만, Modrinth에서 모드팩을 찾을 수 없습니다."
+    "message": "мќґ мќёмЉ¤н„ґмЉ¤лЉ” лЄЁл“њнЊ©кіј м—°кІ°лђм–ґ мћ€м§Ђл§Њ, Modrinthм—ђм„њ лЄЁл“њнЊ©мќ„ м°ѕмќ„ м€ м—†мЉµл‹€л‹¤."
   },
   "instance.settings.tabs.installation.platform": {
-    "message": "플랫폼"
+    "message": "н”Њлћ«нЏј"
   },
   "instance.settings.tabs.installation.reinstall.button": {
-    "message": "모드팩 재설치"
+    "message": "лЄЁл“њнЊ© мћ¬м„¤м№"
   },
   "instance.settings.tabs.installation.reinstall.button.reinstalling": {
-    "message": "모드팩 재설치 중"
+    "message": "лЄЁл“њнЊ© мћ¬м„¤м№ м¤‘"
   },
   "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "재설치하면 설치 또는 수정된 모든 콘텐츠가 모드팩에서 제공하는 콘텐츠로 초기화되며, 기존 팩에 추가한 모드나 콘텐츠는 모두 제거됩니다. 인스턴스에 변경 사항이 있는 경우 예상치 못한 동작은 해결할 수 있지만, 현재 세계가 추가로 설치된 콘텐츠에 의존하고 있다면 기존 세계가 손상될 수 있습니다."
+    "message": "мћ¬м„¤м№н•л©ґ м„¤м№ лђлЉ” м€м •лђњ лЄЁл“  мЅн…ђмё к°Ђ лЄЁл“њнЊ©м—ђм„њ м њкіµн•лЉ” мЅн…ђмё лЎњ мґ€кё°н™”лђл©°, кё°мЎґ нЊ©м—ђ м¶”к°Ђн•њ лЄЁл“њл‚ мЅн…ђмё лЉ” лЄЁл‘ђ м њк±°лђ©л‹€л‹¤. мќёмЉ¤н„ґмЉ¤м—ђ ліЂкІЅ м‚¬н•­мќґ мћ€лЉ” кІЅмљ° м€мѓЃм№ лЄ»н•њ лЏ™мћ‘мќЂ н•ґкІ°н•  м€ мћ€м§Ђл§Њ, н„мћ¬ м„ёкі„к°Ђ м¶”к°ЂлЎњ м„¤м№лђњ мЅн…ђмё м—ђ мќмЎґн•кі  мћ€л‹¤л©ґ кё°мЎґ м„ёкі„к°Ђ м†ђмѓЃлђ  м€ мћ€мЉµл‹€л‹¤."
   },
   "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "정말로 이 인스턴스를 다시 설치하시겠습니까?"
+    "message": "м •л§ђлЎњ мќґ мќёмЉ¤н„ґмЉ¤лҐј л‹¤м‹њ м„¤м№н•м‹њкІ мЉµл‹€к№Њ?"
   },
   "instance.settings.tabs.installation.reinstall.description": {
-    "message": "인스턴스를 초기 상태로 복원하고, 원본 모드팩에 추가된 모드나 콘텐츠를 모두 제거합니다."
+    "message": "мќёмЉ¤н„ґмЉ¤лҐј мґ€кё° мѓЃнѓњлЎњ ліµм›ђн•кі , м›ђліё лЄЁл“њнЊ©м—ђ м¶”к°Ђлђњ лЄЁл“њл‚ мЅн…ђмё лҐј лЄЁл‘ђ м њк±°н•©л‹€л‹¤."
   },
   "instance.settings.tabs.installation.reinstall.title": {
-    "message": "모드팩 재설치"
+    "message": "лЄЁл“њнЊ© мћ¬м„¤м№"
   },
   "instance.settings.tabs.installation.repair.button": {
-    "message": "복구"
+    "message": "ліµкµ¬"
   },
   "instance.settings.tabs.installation.repair.button.repairing": {
-    "message": "복구 중"
+    "message": "ліµкµ¬ м¤‘"
   },
   "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "복구 시 Minecraft 의존성을 재설치하고 무결성을 검사합니다. 런처 오류로 인해 게임이 실행되지 않을 경우 문제 해결에 도움이 될 수 있지만, 설치된 모드로 인한 오류나 충돌은 해결되지 않습니다."
+    "message": "ліµкµ¬ м‹њ Minecraft мќмЎґм„±мќ„ мћ¬м„¤м№н•кі  л¬ґкІ°м„±мќ„ кІЂм‚¬н•©л‹€л‹¤. лџ°мІ м¤лҐлЎњ мќён•ґ кІЊмћ„мќґ м‹¤н–‰лђм§Ђ м•Љмќ„ кІЅмљ° л¬ём њ н•ґкІ°м—ђ лЏ„м›Ђмќґ лђ  м€ мћ€м§Ђл§Њ, м„¤м№лђњ лЄЁл“њлЎњ мќён•њ м¤лҐл‚ м¶©лЏЊмќЂ н•ґкІ°лђм§Ђ м•ЉмЉµл‹€л‹¤."
   },
   "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "인스턴스를 복구하시겠습니까?"
+    "message": "мќёмЉ¤н„ґмЉ¤лҐј ліµкµ¬н•м‹њкІ мЉµл‹€к№Њ?"
   },
   "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "복구 진행 중"
+    "message": "ліµкµ¬ м§„н–‰ м¤‘"
   },
   "instance.settings.tabs.installation.reset-selections": {
-    "message": "현재 상태로 되돌리기"
+    "message": "н„мћ¬ мѓЃнѓњлЎњ лђлЏЊл¦¬кё°"
   },
   "instance.settings.tabs.installation.show-all-versions": {
-    "message": "모든 버전 보이기"
+    "message": "лЄЁл“  лІ„м „ ліґмќґкё°"
   },
   "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "버전 변경"
+    "message": "лІ„м „ ліЂкІЅ"
   },
   "instance.settings.tabs.installation.tooltip.action.install": {
-    "message": "설치"
+    "message": "м„¤м№"
   },
   "instance.settings.tabs.installation.tooltip.action.reinstall": {
-    "message": "재설치"
+    "message": "мћ¬м„¤м№"
   },
   "instance.settings.tabs.installation.tooltip.action.repair": {
-    "message": "복구"
+    "message": "ліµкµ¬"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "설치 중에는 {action} 할 수 없음"
+    "message": "м„¤м№ м¤‘м—ђлЉ” {action} н•  м€ м—†мќЊ"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
-    "message": "오프라인 상태에서는 {action} 할 수 없음"
+    "message": "м¤н”„лќјмќё мѓЃнѓњм—ђм„њлЉ” {action} н•  м€ м—†мќЊ"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "복구 중에는 {action} 할 수 없음"
+    "message": "ліµкµ¬ м¤‘м—ђлЉ” {action} н•  м€ м—†мќЊ"
   },
   "instance.settings.tabs.installation.unknown-version": {
-    "message": "(알 수 없는 버전)"
+    "message": "(м•Њ м€ м—†лЉ” лІ„м „)"
   },
   "instance.settings.tabs.installation.unlink.button": {
-    "message": "인스턴스 연결 해제"
+    "message": "мќёмЉ¤н„ґмЉ¤ м—°кІ° н•ґм њ"
   },
   "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "계속 진행하면 새 인스턴스를 만들지 않는 한 다시 연결할 수 없습니다. 또한 모드팩 업데이트를 더 이상 받을 수 없으며, 일반 인스턴스로 전환됩니다."
+    "message": "кі„м†Ќ м§„н–‰н•л©ґ мѓ€ мќёмЉ¤н„ґмЉ¤лҐј л§Њл“¤м§Ђ м•ЉлЉ” н•њ л‹¤м‹њ м—°кІ°н•  м€ м—†мЉµл‹€л‹¤. лђн•њ лЄЁл“њнЊ© м—…лЌ°мќґнЉёлҐј лЌ” мќґмѓЃ л°›мќ„ м€ м—†мњјл©°, мќјл° мќёмЉ¤н„ґмЉ¤лЎњ м „н™лђ©л‹€л‹¤."
   },
   "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "정말로 이 인스턴스의 연결을 해제하시겠습니까?"
+    "message": "м •л§ђлЎњ мќґ мќёмЉ¤н„ґмЉ¤мќ м—°кІ°мќ„ н•ґм њн•м‹њкІ мЉµл‹€к№Њ?"
   },
   "instance.settings.tabs.installation.unlink.description": {
-    "message": "이 인스턴스는 모드팩에 연결되어 있으므로, 모드를 개별적으로 업데이트하거나 모드 로더 및 Minecraft 버전을 변경할 수 없습니다. 연결을 해제하면 이 인스턴스는 모드팩과 영구적으로 분리됩니다."
+    "message": "мќґ мќёмЉ¤н„ґмЉ¤лЉ” лЄЁл“њнЊ©м—ђ м—°кІ°лђм–ґ мћ€мњјлЇЂлЎњ, лЄЁл“њлҐј к°њлі„м ЃмњјлЎњ м—…лЌ°мќґнЉён•к±°л‚ лЄЁл“њ лЎњлЌ” л°Џ Minecraft лІ„м „мќ„ ліЂкІЅн•  м€ м—†мЉµл‹€л‹¤. м—°кІ°мќ„ н•ґм њн•л©ґ мќґ мќёмЉ¤н„ґмЉ¤лЉ” лЄЁл“њнЊ©кіј мЃкµ¬м ЃмњјлЎњ л¶„л¦¬лђ©л‹€л‹¤."
   },
   "instance.settings.tabs.installation.unlink.title": {
-    "message": "모드팩에서 연결 해제"
+    "message": "лЄЁл“њнЊ©м—ђм„њ м—°кІ° н•ґм њ"
   },
   "instance.settings.tabs.java": {
-    "message": "Java 및 메모리"
+    "message": "Java л°Џ л©”лЄЁл¦¬"
   },
   "instance.settings.tabs.java.environment-variables": {
-    "message": "환경 변수"
+    "message": "н™кІЅ ліЂм€"
   },
   "instance.settings.tabs.java.hooks": {
-    "message": "후크"
+    "message": "н›„нЃ¬"
   },
   "instance.settings.tabs.java.java-arguments": {
-    "message": "Java 매개변수"
+    "message": "Java л§¤к°њліЂм€"
   },
   "instance.settings.tabs.java.java-installation": {
-    "message": "Java 설치"
+    "message": "Java м„¤м№"
   },
   "instance.settings.tabs.java.java-memory": {
-    "message": "할당된 메모리"
+    "message": "н• л‹№лђњ л©”лЄЁл¦¬"
   },
   "instance.settings.tabs.window": {
-    "message": "창"
+    "message": "м°Ѕ"
   },
   "instance.settings.tabs.window.custom-window-settings": {
-    "message": "창 맞춤 설정"
+    "message": "м°Ѕ л§ћм¶¤ м„¤м •"
   },
   "instance.settings.tabs.window.fullscreen": {
-    "message": "전체 화면"
+    "message": "м „мІґ н™”л©ґ"
   },
   "instance.settings.tabs.window.fullscreen.description": {
-    "message": "게임을 전체 화면으로 시작합니다. (options.txt 사용)"
+    "message": "кІЊмћ„мќ„ м „мІґ н™”л©ґмњјлЎњ м‹њмћ‘н•©л‹€л‹¤. (options.txt м‚¬мљ©)"
   },
   "instance.settings.tabs.window.height": {
-    "message": "높이"
+    "message": "л†’мќґ"
   },
   "instance.settings.tabs.window.height.description": {
-    "message": "게임 시작 시 창 높이입니다."
+    "message": "кІЊмћ„ м‹њмћ‘ м‹њ м°Ѕ л†’мќґмћ…л‹€л‹¤."
   },
   "instance.settings.tabs.window.height.enter": {
-    "message": "높이 입력..."
+    "message": "л†’мќґ мћ…л Ґ..."
   },
   "instance.settings.tabs.window.width": {
-    "message": "너비"
+    "message": "л„€л№„"
   },
   "instance.settings.tabs.window.width.description": {
-    "message": "게임 시작 시 창 너비입니다."
+    "message": "кІЊмћ„ м‹њмћ‘ м‹њ м°Ѕ л„€л№„мћ…л‹€л‹¤."
   },
   "instance.settings.tabs.window.width.enter": {
-    "message": "너비 입력..."
+    "message": "л„€л№„ мћ…л Ґ..."
   },
   "instance.worlds.a_minecraft_server": {
-    "message": "Minecraft 서버"
+    "message": "Minecraft м„њлІ„"
   },
   "instance.worlds.cant_connect": {
-    "message": "서버에 연결할 수 없음"
+    "message": "м„њлІ„м—ђ м—°кІ°н•  м€ м—†мќЊ"
   },
   "instance.worlds.copy_address": {
-    "message": "주소 복사"
+    "message": "мЈјм†Њ ліµм‚¬"
   },
   "instance.worlds.dont_show_on_home": {
-    "message": "홈에서 숨기기"
+    "message": "н™€м—ђм„њ м€Ёкё°кё°"
   },
   "instance.worlds.filter.available": {
-    "message": "이용 가능"
+    "message": "мќґмљ© к°ЂлЉҐ"
   },
   "instance.worlds.game_already_open": {
-    "message": "이미 실행된 인스턴스"
+    "message": "мќґлЇё м‹¤н–‰лђњ мќёмЉ¤н„ґмЉ¤"
   },
   "instance.worlds.hardcore": {
-    "message": "하드코어 모드"
+    "message": "н•л“њмЅ”м–ґ лЄЁл“њ"
   },
   "instance.worlds.incompatible_server": {
-    "message": "호환되지 않는 서버"
+    "message": "нён™лђм§Ђ м•ЉлЉ” м„њлІ„"
   },
   "instance.worlds.no_contact": {
-    "message": "서버가 응답하지 않음"
+    "message": "м„њлІ„к°Ђ мќ‘л‹µн•м§Ђ м•ЉмќЊ"
   },
   "instance.worlds.no_server_quick_play": {
-    "message": "Minecraft 알파 1.0.5 이후 버전에서만 서버에 바로 진입할 수 있습니다"
+    "message": "Minecraft м•ЊнЊЊ 1.0.5 мќґн›„ лІ„м „м—ђм„њл§Њ м„њлІ„м—ђ л°”лЎњ м§„мћ…н•  м€ мћ€мЉµл‹€л‹¤"
   },
   "instance.worlds.no_singleplayer_quick_play": {
-    "message": "Minecraft 1.20 이후 버전에서만 싱글플레이 세계로 바로 진입할 수 있습니다"
+    "message": "Minecraft 1.20 мќґн›„ лІ„м „м—ђм„њл§Њ м‹±кёЂн”Њл €мќґ м„ёкі„лЎњ л°”лЎњ м§„мћ…н•  м€ мћ€мЉµл‹€л‹¤"
   },
   "instance.worlds.play_instance": {
-    "message": "인스턴스 플레이"
+    "message": "мќёмЉ¤н„ґмЉ¤ н”Њл €мќґ"
   },
   "instance.worlds.type.server": {
-    "message": "서버"
+    "message": "м„њлІ„"
   },
   "instance.worlds.type.singleplayer": {
-    "message": "싱글 플레이"
+    "message": "м‹±кёЂ н”Њл €мќґ"
   },
   "instance.worlds.view_instance": {
-    "message": "인스턴스 보기"
+    "message": "мќёмЉ¤н„ґмЉ¤ ліґкё°"
   },
   "instance.worlds.world_in_use": {
-    "message": "사용 중인 세계"
+    "message": "м‚¬мљ© м¤‘мќё м„ёкі„"
   },
   "search.filter.locked.instance": {
-    "message": "인스턴스에서 관리"
+    "message": "мќёмЉ¤н„ґмЉ¤м—ђм„њ кґЂл¦¬"
   },
   "search.filter.locked.instance-game-version.title": {
-    "message": "인스턴스가 게임 버전을 관리합니다"
+    "message": "мќёмЉ¤н„ґмЉ¤к°Ђ кІЊмћ„ лІ„м „мќ„ кґЂл¦¬н•©л‹€л‹¤"
   },
   "search.filter.locked.instance-loader.title": {
-    "message": "인스턴스가 로더를 관리합니다"
+    "message": "мќёмЉ¤н„ґмЉ¤к°Ђ лЎњлЌ”лҐј кґЂл¦¬н•©л‹€л‹¤"
   },
   "search.filter.locked.instance.sync": {
-    "message": "인스턴스와 동기화"
+    "message": "мќёмЉ¤н„ґмЉ¤м™Ђ лЏ™кё°н™”"
   }
 }

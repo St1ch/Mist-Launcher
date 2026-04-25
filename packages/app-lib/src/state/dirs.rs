@@ -13,6 +13,8 @@ pub const CACHES_FOLDER_NAME: &str = "caches";
 pub const LAUNCHER_LOGS_FOLDER_NAME: &str = "launcher_logs";
 pub const PROFILES_FOLDER_NAME: &str = "profiles";
 pub const METADATA_FOLDER_NAME: &str = "meta";
+pub const STORAGE_NAMESPACE: &str = "MistLauncher";
+pub const STORAGE_ENV_VAR: &str = "MIST_LAUNCHER_CONFIG_DIR";
 
 #[derive(Debug)]
 pub struct DirectoryInfo {
@@ -32,9 +34,9 @@ impl DirectoryInfo {
 
     // Get the settings directory
     // init() is not needed for this function
-    pub fn initial_settings_dir_path(app_identifier: &str) -> Option<PathBuf> {
-        Self::env_path("THESEUS_CONFIG_DIR")
-            .or_else(|| Some(dirs::data_dir()?.join(app_identifier)))
+    pub fn initial_settings_dir_path(_app_identifier: &str) -> Option<PathBuf> {
+        Self::env_path(STORAGE_ENV_VAR)
+            .or_else(|| Some(dirs::data_dir()?.join(STORAGE_NAMESPACE)))
     }
 
     /// Get all paths needed for Theseus to operate properly

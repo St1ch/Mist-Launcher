@@ -4,7 +4,6 @@ import {
 	GameIcon,
 	GaugeIcon,
 	LanguagesIcon,
-	ModrinthIcon,
 	PaintbrushIcon,
 	ReportIcon,
 	SettingsIcon,
@@ -22,6 +21,7 @@ import { getVersion } from '@tauri-apps/api/app'
 import { platform as getOsPlatform, version as getOsVersion } from '@tauri-apps/plugin-os'
 import { computed, ref, watch } from 'vue'
 
+import mistLogo from '@/assets/mist-logo.png'
 import ModalWrapper from '@/components/ui/modal/ModalWrapper.vue'
 import AppearanceSettings from '@/components/ui/settings/AppearanceSettings.vue'
 import DefaultInstanceSettings from '@/components/ui/settings/DefaultInstanceSettings.vue'
@@ -182,10 +182,10 @@ const messages = defineMessages({
 							}"
 							@click="devModeCount"
 						>
-							<ModrinthIcon class="w-6 h-6" />
+							<img :src="mistLogo" alt="" class="w-6 h-6 rounded-md object-contain" />
 						</button>
 						<div>
-							<p class="m-0">Modrinth App {{ version }}</p>
+							<p class="m-0">Mist Launcher {{ version }}</p>
 							<p class="m-0">
 								<span v-if="osPlatform === 'macos'">macOS</span>
 								<span v-else class="capitalize">{{ osPlatform }}</span>

@@ -1,12 +1,12 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
-    "message": "Minecrafts autentiseringsservrar kan vara nere just nu. Kontrollera din internetanslutning och försök igen senare."
+    "message": "Minecrafts autentiseringsservrar kan vara nere just nu. Kontrollera din internetanslutning och fГ¶rsГ¶k igen senare."
   },
   "app.auth-servers.unreachable.header": {
-    "message": "Kan ej nå autentiseringsservrarna"
+    "message": "Kan ej nГҐ autentiseringsservrarna"
   },
   "app.settings.developer-mode-enabled": {
-    "message": "Utvecklarläge aktiverat."
+    "message": "UtvecklarlГ¤ge aktiverat."
   },
   "app.settings.downloading": {
     "message": "Ladda ner v{version}"
@@ -15,7 +15,7 @@
     "message": "Utseende"
   },
   "app.settings.tabs.default-instance-options": {
-    "message": "Standardinställningar för instanser"
+    "message": "StandardinstГ¤llningar fГ¶r instanser"
   },
   "app.settings.tabs.feature-flags": {
     "message": "Funktionsflaggor"
@@ -24,7 +24,7 @@
     "message": "Java-installationer"
   },
   "app.settings.tabs.language": {
-    "message": "Språk"
+    "message": "SprГҐk"
   },
   "app.settings.tabs.privacy": {
     "message": "Integritet"
@@ -33,19 +33,19 @@
     "message": "Resurshantering"
   },
   "app.update-toast.body": {
-    "message": "Modrinth App v{version} är redo att laddas ner! Ladda om för att uppdatera nu, eller automatiskt när du stänger Modrinth App."
+    "message": "Mist Launcher v{version} Г¤r redo att laddas ner! Ladda om fГ¶r att uppdatera nu, eller automatiskt nГ¤r du stГ¤nger Mist Launcher."
   },
   "app.update-toast.body.download-complete": {
-    "message": "Modrinth App v{version} har laddats ner. Ladda om för att uppdatera nu, eller automatiskt när du stänger Modrinth App."
+    "message": "Mist Launcher v{version} har laddats ner. Ladda om fГ¶r att uppdatera nu, eller automatiskt nГ¤r du stГ¤nger Mist Launcher."
   },
   "app.update-toast.body.linux": {
-    "message": "Modrinth App v{version} är tillgänglig. Använd din pakethanterare för att uppdatera och få tillgång till de senaste funktionerna och buggfixarna!"
+    "message": "Mist Launcher v{version} Г¤r tillgГ¤nglig. AnvГ¤nd din pakethanterare fГ¶r att uppdatera och fГҐ tillgГҐng till de senaste funktionerna och buggfixarna!"
   },
   "app.update-toast.body.metered": {
-    "message": "Modrinth App v{version} är nu tillgänglig! Eftersom du använder ett nätverk med datatrafikbegränsningar har vi inte laddat ner det automatiskt."
+    "message": "Mist Launcher v{version} Г¤r nu tillgГ¤nglig! Eftersom du anvГ¤nder ett nГ¤tverk med datatrafikbegrГ¤nsningar har vi inte laddat ner det automatiskt."
   },
   "app.update-toast.changelog": {
-    "message": "Ändringslogg"
+    "message": "Г„ndringslogg"
   },
   "app.update-toast.download": {
     "message": "Ladda ner ({size})"
@@ -60,13 +60,13 @@
     "message": "Ladda om"
   },
   "app.update-toast.title": {
-    "message": "Uppdatering tillgänglig"
+    "message": "Uppdatering tillgГ¤nglig"
   },
   "app.update-toast.title.download-complete": {
-    "message": "Nedladdning slutförd"
+    "message": "Nedladdning slutfГ¶rd"
   },
   "app.update.complete-toast.text": {
-    "message": "Tryck här för att visa ändringsloggen."
+    "message": "Tryck hГ¤r fГ¶r att visa Г¤ndringsloggen."
   },
   "app.update.complete-toast.title": {
     "message": "Version {version} har installerats!"
@@ -78,46 +78,46 @@
     "message": "Laddar ner uppdatering ({percent}%)"
   },
   "app.update.reload-to-update": {
-    "message": "Ladda om för att installera uppdatering"
+    "message": "Ladda om fГ¶r att installera uppdatering"
   },
   "friends.action.add-friend": {
-    "message": "Lägg till en vän"
+    "message": "LГ¤gg till en vГ¤n"
   },
   "friends.action.view-friend-requests": {
-    "message": "{count} vän{count, plural, one {förfrågan} other {förfrågningar}}"
+    "message": "{count} vГ¤n{count, plural, one {fГ¶rfrГҐgan} other {fГ¶rfrГҐgningar}}"
   },
   "friends.add-friend.submit": {
-    "message": "Skicka vänförfrågan"
+    "message": "Skicka vГ¤nfГ¶rfrГҐgan"
   },
   "friends.add-friend.title": {
-    "message": "Lägga till en vän"
+    "message": "LГ¤gga till en vГ¤n"
   },
   "friends.add-friend.username.description": {
-    "message": "Det kan vara annorlunda från deras Minecraft-användarnamn!"
+    "message": "Det kan vara annorlunda frГҐn deras Minecraft-anvГ¤ndarnamn!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Ange Modrinth-användarnamn..."
+    "message": "Ange Modrinth-anvГ¤ndarnamn..."
   },
   "friends.add-friend.username.title": {
-    "message": "Vad är din väns Modrinth-användarnamn?"
+    "message": "Vad Г¤r din vГ¤ns Modrinth-anvГ¤ndarnamn?"
   },
   "friends.add-friends-to-share": {
-    "message": "<link>Lägg till vänner</link> för att se vad de spelar!"
+    "message": "<link>LГ¤gg till vГ¤nner</link> fГ¶r att se vad de spelar!"
   },
   "friends.friend.cancel-request": {
-    "message": "Avbryt förfrågan"
+    "message": "Avbryt fГ¶rfrГҐgan"
   },
   "friends.friend.remove-friend": {
-    "message": "Ta bort vän"
+    "message": "Ta bort vГ¤n"
   },
   "friends.friend.request-sent": {
-    "message": "Vänförfrågan skickad"
+    "message": "VГ¤nfГ¶rfrГҐgan skickad"
   },
   "friends.friend.view-profile": {
     "message": "Visa profil"
   },
   "friends.heading": {
-    "message": "Vänner"
+    "message": "VГ¤nner"
   },
   "friends.heading.active": {
     "message": "Aktiva"
@@ -129,25 +129,25 @@
     "message": "Online"
   },
   "friends.heading.pending": {
-    "message": "Väntar"
+    "message": "VГ¤ntar"
   },
   "friends.no-friends-match": {
-    "message": "Inga vänner matchar ''{query}''"
+    "message": "Inga vГ¤nner matchar ''{query}''"
   },
   "friends.search-friends-placeholder": {
-    "message": "Sök efter vänner..."
+    "message": "SГ¶k efter vГ¤nner..."
   },
   "friends.section.heading": {
     "message": "{title}: {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Logga in på ett Modrinth-konto</link> för att lägga till vänner och se vad de spelar!"
+    "message": "<link>Logga in pГҐ ett Modrinth-konto</link> fГ¶r att lГ¤gga till vГ¤nner och se vad de spelar!"
   },
   "instance.add-server.add-and-play": {
-    "message": "Lägg till och spela"
+    "message": "LГ¤gg till och spela"
   },
   "instance.add-server.add-server": {
-    "message": "Lägg till server"
+    "message": "LГ¤gg till server"
   },
   "instance.add-server.resource-pack.disabled": {
     "message": "Avaktiverat"
@@ -156,34 +156,34 @@
     "message": "Aktiverat"
   },
   "instance.add-server.resource-pack.prompt": {
-    "message": "Fråga"
+    "message": "FrГҐga"
   },
   "instance.add-server.title": {
-    "message": "Lägg till en server"
+    "message": "LГ¤gg till en server"
   },
   "instance.edit-server.title": {
     "message": "Redigera server"
   },
   "instance.edit-world.hide-from-home": {
-    "message": "Göm från Hem sidan"
+    "message": "GГ¶m frГҐn Hem sidan"
   },
   "instance.edit-world.name": {
     "message": "Namn"
   },
   "instance.edit-world.placeholder-name": {
-    "message": "Minecraft värld"
+    "message": "Minecraft vГ¤rld"
   },
   "instance.edit-world.reset-icon": {
-    "message": "Återställ ikon"
+    "message": "Г…terstГ¤ll ikon"
   },
   "instance.edit-world.title": {
-    "message": "Redigera värld"
+    "message": "Redigera vГ¤rld"
   },
   "instance.filter.disabled": {
     "message": "Avaktiverade projekt"
   },
   "instance.filter.updates-available": {
-    "message": "Uppdateringar tillgängliga"
+    "message": "Uppdateringar tillgГ¤ngliga"
   },
   "instance.server-modal.address": {
     "message": "Adress"
@@ -198,7 +198,7 @@
     "message": "Resurs pack"
   },
   "instance.settings.tabs.general": {
-    "message": "Allmänt"
+    "message": "AllmГ¤nt"
   },
   "instance.settings.tabs.general.delete": {
     "message": "Radera instans"
@@ -207,7 +207,7 @@
     "message": "Radera instans"
   },
   "instance.settings.tabs.general.delete.description": {
-    "message": "Raderar permanent en instans från din enhet, inklusive dina världar, konfigurationer och allt installerat innehåll. Var försiktig, eftersom när du har raderat en instans går det inte att återställa den."
+    "message": "Raderar permanent en instans frГҐn din enhet, inklusive dina vГ¤rldar, konfigurationer och allt installerat innehГҐll. Var fГ¶rsiktig, eftersom nГ¤r du har raderat en instans gГҐr det inte att ГҐterstГ¤lla den."
   },
   "instance.settings.tabs.general.deleting.button": {
     "message": "Raderar..."
@@ -222,7 +222,7 @@
     "message": "Duplicera instans"
   },
   "instance.settings.tabs.general.duplicate-instance.description": {
-    "message": "Skapa en kopia av denna instans, inklusive världar, konfigurationer, mods och mera."
+    "message": "Skapa en kopia av denna instans, inklusive vГ¤rldar, konfigurationer, mods och mera."
   },
   "instance.settings.tabs.general.edit-icon": {
     "message": "Redigera ikon"
@@ -231,10 +231,10 @@
     "message": "Ta bort ikon"
   },
   "instance.settings.tabs.general.edit-icon.replace": {
-    "message": "Ändra ikon"
+    "message": "Г„ndra ikon"
   },
   "instance.settings.tabs.general.edit-icon.select": {
-    "message": "Välj ikon"
+    "message": "VГ¤lj ikon"
   },
   "instance.settings.tabs.general.library-groups": {
     "message": "Biblioteksgrupper"
@@ -243,7 +243,7 @@
     "message": "Skapa ny grupp"
   },
   "instance.settings.tabs.general.library-groups.description": {
-    "message": "Biblioteksgrupper tillåter dig att organisera dina instanser till olika sektioner i ditt bibliotek."
+    "message": "Biblioteksgrupper tillГҐter dig att organisera dina instanser till olika sektioner i ditt bibliotek."
   },
   "instance.settings.tabs.general.library-groups.enter-name": {
     "message": "Ange grupp namn"
@@ -258,34 +258,34 @@
     "message": "Egendefinierade startkrokar"
   },
   "instance.settings.tabs.hooks.description": {
-    "message": "Krokar gör det möjligt för avancerade användare att köra vissa systemkommandon före och efter att spelet startas."
+    "message": "Krokar gГ¶r det mГ¶jligt fГ¶r avancerade anvГ¤ndare att kГ¶ra vissa systemkommandon fГ¶re och efter att spelet startas."
   },
   "instance.settings.tabs.hooks.post-exit": {
     "message": "Efter avslut"
   },
   "instance.settings.tabs.hooks.post-exit.description": {
-    "message": "Kördes efter spelet stängdes."
+    "message": "KГ¶rdes efter spelet stГ¤ngdes."
   },
   "instance.settings.tabs.hooks.post-exit.enter": {
     "message": "Ange kommando efter avslut..."
   },
   "instance.settings.tabs.hooks.pre-launch": {
-    "message": "Före start"
+    "message": "FГ¶re start"
   },
   "instance.settings.tabs.hooks.pre-launch.description": {
-    "message": "Kördes innan instansen är startad."
+    "message": "KГ¶rdes innan instansen Г¤r startad."
   },
   "instance.settings.tabs.hooks.pre-launch.enter": {
-    "message": "Ange kommando före start..."
+    "message": "Ange kommando fГ¶re start..."
   },
   "instance.settings.tabs.hooks.title": {
-    "message": "Hooks för spelstart"
+    "message": "Hooks fГ¶r spelstart"
   },
   "instance.settings.tabs.hooks.wrapper": {
     "message": "Omslag"
   },
   "instance.settings.tabs.hooks.wrapper.description": {
-    "message": "Omslagskommando för att starta Minecraft."
+    "message": "Omslagskommando fГ¶r att starta Minecraft."
   },
   "instance.settings.tabs.hooks.wrapper.enter": {
     "message": "Ange omslagskommando..."
@@ -294,13 +294,13 @@
     "message": "Installation"
   },
   "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "{platform} {version} för Minecraft {game_version} är redan installerat"
+    "message": "{platform} {version} fГ¶r Minecraft {game_version} Г¤r redan installerat"
   },
   "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "Vanilla {game_version} är redan installerad"
+    "message": "Vanilla {game_version} Г¤r redan installerad"
   },
   "instance.settings.tabs.installation.change-version.button": {
-    "message": "Ändra version"
+    "message": "Г„ndra version"
   },
   "instance.settings.tabs.installation.change-version.button.install": {
     "message": "Installera"
@@ -309,19 +309,19 @@
     "message": "Installerar"
   },
   "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "Hämtar modpack-versioner"
+    "message": "HГ¤mtar modpack-versioner"
   },
   "instance.settings.tabs.installation.change-version.in-progress": {
     "message": "Installerar ny version"
   },
   "instance.settings.tabs.installation.currently-installed": {
-    "message": "För närvarande installerat"
+    "message": "FГ¶r nГ¤rvarande installerat"
   },
   "instance.settings.tabs.installation.debug-information": {
-    "message": "Felsökningsinformation:"
+    "message": "FelsГ¶kningsinformation:"
   },
   "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "Hämtar modpack-detaljer"
+    "message": "HГ¤mtar modpack-detaljer"
   },
   "instance.settings.tabs.installation.game-version": {
     "message": "Spelversion"
@@ -330,7 +330,7 @@
     "message": "Installera"
   },
   "instance.settings.tabs.installation.install.in-progress": {
-    "message": "Installation pågår"
+    "message": "Installation pГҐgГҐr"
   },
   "instance.settings.tabs.installation.loader-version": {
     "message": "{loader} version"
@@ -339,13 +339,13 @@
     "message": "Minecraft {version}"
   },
   "instance.settings.tabs.installation.no-connection": {
-    "message": "Kan inte hämta länkade modpack-detaljer. Vänligen kontrollera din internetanslutning."
+    "message": "Kan inte hГ¤mta lГ¤nkade modpack-detaljer. VГ¤nligen kontrollera din internetanslutning."
   },
   "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader} är inte tillgänglig för Minecraft {version}. Prova en annan modloader."
+    "message": "{loader} Г¤r inte tillgГ¤nglig fГ¶r Minecraft {version}. Prova en annan modloader."
   },
   "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "Denna instans är länkad till ett modpack, men modpacket kunde inte hittas på Modrinth."
+    "message": "Denna instans Г¤r lГ¤nkad till ett modpack, men modpacket kunde inte hittas pГҐ Modrinth."
   },
   "instance.settings.tabs.installation.platform": {
     "message": "Plattform"
@@ -357,13 +357,13 @@
     "message": "Ominstallerar modpack"
   },
   "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "Ominstallation kommer att återställa allt installerat eller modifierat innehåll till det som tillhandahålls av modpacket och ta bort eventuella mods eller innehåll som du har lagt till ovanpå den ursprungliga installationen. Detta kan åtgärda oväntat beteende om ändringar har gjorts i instansen, men om dina världar nu är beroende av ytterligare installerat innehåll kan det skada befintliga världar."
+    "message": "Ominstallation kommer att ГҐterstГ¤lla allt installerat eller modifierat innehГҐll till det som tillhandahГҐlls av modpacket och ta bort eventuella mods eller innehГҐll som du har lagt till ovanpГҐ den ursprungliga installationen. Detta kan ГҐtgГ¤rda ovГ¤ntat beteende om Г¤ndringar har gjorts i instansen, men om dina vГ¤rldar nu Г¤r beroende av ytterligare installerat innehГҐll kan det skada befintliga vГ¤rldar."
   },
   "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "Är du säker att du vill ominstallera denna instans?"
+    "message": "Г„r du sГ¤ker att du vill ominstallera denna instans?"
   },
   "instance.settings.tabs.installation.reinstall.description": {
-    "message": "Återställer instansens innehåll till dess ursprungliga tillstånd och tar bort eventuella mods eller innehåll som du har lagt till ovanpå det ursprungliga modpacket."
+    "message": "Г…terstГ¤ller instansens innehГҐll till dess ursprungliga tillstГҐnd och tar bort eventuella mods eller innehГҐll som du har lagt till ovanpГҐ det ursprungliga modpacket."
   },
   "instance.settings.tabs.installation.reinstall.title": {
     "message": "Ominstallera modpack"
@@ -375,22 +375,22 @@
     "message": "Reparerar"
   },
   "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "Reparation installerar om Minecraft-beroenden och kontrollerar efter korruption. Detta kan åtgärda problem om spelet inte startar på grund av launcher-relaterade fel, men löser inte problem eller krascher som är relaterade till installerade mods."
+    "message": "Reparation installerar om Minecraft-beroenden och kontrollerar efter korruption. Detta kan ГҐtgГ¤rda problem om spelet inte startar pГҐ grund av launcher-relaterade fel, men lГ¶ser inte problem eller krascher som Г¤r relaterade till installerade mods."
   },
   "instance.settings.tabs.installation.repair.confirm.title": {
     "message": "Reparera instans?"
   },
   "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "Reparation pågår"
+    "message": "Reparation pГҐgГҐr"
   },
   "instance.settings.tabs.installation.reset-selections": {
-    "message": "Återställ till nuvarande"
+    "message": "Г…terstГ¤ll till nuvarande"
   },
   "instance.settings.tabs.installation.show-all-versions": {
     "message": "Visa alla versioner"
   },
   "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "ändra version"
+    "message": "Г¤ndra version"
   },
   "instance.settings.tabs.installation.tooltip.action.install": {
     "message": "installera"
@@ -402,37 +402,37 @@
     "message": "reparera"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "Kan inte {action} medans installationen pågår"
+    "message": "Kan inte {action} medans installationen pГҐgГҐr"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
     "message": "Kan inte {action} medans offline"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "Kan inte {action} medans reparationen pågår"
+    "message": "Kan inte {action} medans reparationen pГҐgГҐr"
   },
   "instance.settings.tabs.installation.unknown-version": {
-    "message": "(okänd version)"
+    "message": "(okГ¤nd version)"
   },
   "instance.settings.tabs.installation.unlink.button": {
     "message": "Ta bort koppling till instans"
   },
   "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "Om du fortsätter kommer du inte kunna länka om den utan att skapa en helt ny instans. Du kommer inte längre att ta emot uppdateringar för modpacket och det kommer att bli en vanlig instans."
+    "message": "Om du fortsГ¤tter kommer du inte kunna lГ¤nka om den utan att skapa en helt ny instans. Du kommer inte lГ¤ngre att ta emot uppdateringar fГ¶r modpacket och det kommer att bli en vanlig instans."
   },
   "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "Är du säker att du vill ta bort koppling till denna instans?"
+    "message": "Г„r du sГ¤ker att du vill ta bort koppling till denna instans?"
   },
   "instance.settings.tabs.installation.unlink.description": {
-    "message": "Denna instans är kopplad till ett modpack, vilket innebär att mods inte kan uppdateras och mod-loader eller Minecraft version inte kan ändras. Att ta bort kopplingen kommer permanent att koppla bort denna instans från modpacket."
+    "message": "Denna instans Г¤r kopplad till ett modpack, vilket innebГ¤r att mods inte kan uppdateras och mod-loader eller Minecraft version inte kan Г¤ndras. Att ta bort kopplingen kommer permanent att koppla bort denna instans frГҐn modpacket."
   },
   "instance.settings.tabs.installation.unlink.title": {
-    "message": "Ta bort koppling från modpack"
+    "message": "Ta bort koppling frГҐn modpack"
   },
   "instance.settings.tabs.java": {
     "message": "Java och minne"
   },
   "instance.settings.tabs.java.environment-variables": {
-    "message": "Miljövariabler"
+    "message": "MiljГ¶variabler"
   },
   "instance.settings.tabs.java.hooks": {
     "message": "Hooks"
@@ -447,31 +447,31 @@
     "message": "Tilldelat minne"
   },
   "instance.settings.tabs.window": {
-    "message": "Fönster"
+    "message": "FГ¶nster"
   },
   "instance.settings.tabs.window.custom-window-settings": {
-    "message": "Anpassade fönsterinställningar"
+    "message": "Anpassade fГ¶nsterinstГ¤llningar"
   },
   "instance.settings.tabs.window.fullscreen": {
-    "message": "Helskärm"
+    "message": "HelskГ¤rm"
   },
   "instance.settings.tabs.window.fullscreen.description": {
-    "message": "Få spelet att starta i helskärm vid uppstart (använder options.txt)."
+    "message": "FГҐ spelet att starta i helskГ¤rm vid uppstart (anvГ¤nder options.txt)."
   },
   "instance.settings.tabs.window.height": {
-    "message": "Höjd"
+    "message": "HГ¶jd"
   },
   "instance.settings.tabs.window.height.description": {
-    "message": "Höjden på spel-fönstret vid uppstart."
+    "message": "HГ¶jden pГҐ spel-fГ¶nstret vid uppstart."
   },
   "instance.settings.tabs.window.height.enter": {
-    "message": "Ange höjd..."
+    "message": "Ange hГ¶jd..."
   },
   "instance.settings.tabs.window.width": {
     "message": "Bredd"
   },
   "instance.settings.tabs.window.width.description": {
-    "message": "Bredden på spel-fönstret vid uppstart."
+    "message": "Bredden pГҐ spel-fГ¶nstret vid uppstart."
   },
   "instance.settings.tabs.window.width.enter": {
     "message": "Ange bredd..."
@@ -486,28 +486,28 @@
     "message": "Kopiera adress"
   },
   "instance.worlds.dont_show_on_home": {
-    "message": "Visa inte på Startsidan"
+    "message": "Visa inte pГҐ Startsidan"
   },
   "instance.worlds.filter.available": {
-    "message": "Tillgängliga"
+    "message": "TillgГ¤ngliga"
   },
   "instance.worlds.game_already_open": {
-    "message": "Instans är redan öppen"
+    "message": "Instans Г¤r redan Г¶ppen"
   },
   "instance.worlds.hardcore": {
-    "message": "Hardcore läge"
+    "message": "Hardcore lГ¤ge"
   },
   "instance.worlds.incompatible_server": {
-    "message": "Servern är inkompatibel"
+    "message": "Servern Г¤r inkompatibel"
   },
   "instance.worlds.no_contact": {
     "message": "Servern kunde inte kontaktas"
   },
   "instance.worlds.no_server_quick_play": {
-    "message": "Du kan bara hoppa rakt in till servers på Minecraft Alfa 1.0.5+"
+    "message": "Du kan bara hoppa rakt in till servers pГҐ Minecraft Alfa 1.0.5+"
   },
   "instance.worlds.no_singleplayer_quick_play": {
-    "message": "Du kan bara hoppa rakt in till enspelarläge världar på Minecraft 1,20+"
+    "message": "Du kan bara hoppa rakt in till enspelarlГ¤ge vГ¤rldar pГҐ Minecraft 1,20+"
   },
   "instance.worlds.play_instance": {
     "message": "Spela instans"
@@ -516,22 +516,22 @@
     "message": "Server"
   },
   "instance.worlds.type.singleplayer": {
-    "message": "Enspelarläge"
+    "message": "EnspelarlГ¤ge"
   },
   "instance.worlds.view_instance": {
     "message": "Visa instans"
   },
   "instance.worlds.world_in_use": {
-    "message": "Värld används"
+    "message": "VГ¤rld anvГ¤nds"
   },
   "search.filter.locked.instance": {
-    "message": "Tillhandahållet av instansen"
+    "message": "TillhandahГҐllet av instansen"
   },
   "search.filter.locked.instance-game-version.title": {
-    "message": "Spel version är tillhandahållet av instansen"
+    "message": "Spel version Г¤r tillhandahГҐllet av instansen"
   },
   "search.filter.locked.instance-loader.title": {
-    "message": "Laddaren tillhandahålls av instansen"
+    "message": "Laddaren tillhandahГҐlls av instansen"
   },
   "search.filter.locked.instance.sync": {
     "message": "Synkronisera med instansen"

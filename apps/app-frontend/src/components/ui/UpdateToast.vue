@@ -34,7 +34,7 @@ const messages = defineMessages({
 	body: {
 		id: 'app.update-toast.body',
 		defaultMessage:
-			'Modrinth App v{version} is ready to install! Reload to update now, or automatically when you close Modrinth App.',
+			'Mist Launcher v{version} is ready to install! Reload to update now, or automatically when you close Mist Launcher.',
 	},
 	reload: {
 		id: 'app.update-toast.reload',
@@ -54,7 +54,7 @@ const messages = defineMessages({
 	},
 	meteredBody: {
 		id: 'app.update-toast.body.metered',
-		defaultMessage: `Modrinth App v{version} is available now! Since you're on a metered network, we didn't automatically download it.`,
+		defaultMessage: `Mist Launcher v{version} is available now! Since you're on a metered network, we didn't automatically download it.`,
 	},
 	downloadCompleteTitle: {
 		id: 'app.update-toast.title.download-complete',
@@ -62,7 +62,7 @@ const messages = defineMessages({
 	},
 	downloadedBody: {
 		id: 'app.update-toast.body.download-complete',
-		defaultMessage: `Modrinth App v{version} has finished downloading. Reload to update now, or automatically when you close Modrinth App.`,
+		defaultMessage: `Mist Launcher v{version} has finished downloading. Reload to update now, or automatically when you close Mist Launcher.`,
 	},
 })
 </script>

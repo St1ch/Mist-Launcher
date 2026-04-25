@@ -1,10 +1,10 @@
 # `@modrinth/assets`
 
-This package contains various assets used across the Modrinth platform, including icons, images, and branding materials.
+This package contains various assets used across Mist Launcher, including icons, images, and branding materials.
 
-Modrinth uses the [Lucide icon set](https://lucide.dev/) for its icons, which are automatically imported and exported in the `index.ts` file. This file is generated through the `pnpm run fix` command, which also ensures that all icons are consistent and correctly formatted.
+Mist Launcher uses the [Lucide icon set](https://lucide.dev/) for its icons, which are automatically imported and exported in the `index.ts` file. This file is generated through the `pnpm run fix` command, which also ensures that all icons are consistent and correctly formatted.
 
-The "Mr Rinth"/"Rinthbot" branding assets were created and given to Modrinth by [Devin (integrav)](https://github.com/intergrav) and are used across the platform. These assets are also included in this package.
+Legacy mascot export names are kept for compatibility, but they resolve to Mist-owned placeholder artwork in this fork.
 
 ## Adding New Assets
 

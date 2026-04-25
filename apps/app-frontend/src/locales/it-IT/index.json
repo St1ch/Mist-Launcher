@@ -1,6 +1,6 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
-    "message": "I server di autenticazione di Minecraft stanno riscontrando problemi. Controlla la tua connessione a Internet e riprova più tardi."
+    "message": "I server di autenticazione di Minecraft stanno riscontrando problemi. Controlla la tua connessione a Internet e riprova piГ№ tardi."
   },
   "app.auth-servers.unreachable.header": {
     "message": "Impossibile raggiungere i server di autenticazione"
@@ -57,7 +57,7 @@
     "message": "{count, plural, one {# aggiornamento} other {# aggiornamenti}}"
   },
   "app.settings.developer-mode-enabled": {
-    "message": "Modalità sviluppatore attiva."
+    "message": "ModalitГ  sviluppatore attiva."
   },
   "app.settings.downloading": {
     "message": "Scaricando v{version}"
@@ -69,7 +69,7 @@
     "message": "Opzioni d'istanza predefinite"
   },
   "app.settings.tabs.feature-flags": {
-    "message": "Flag di funzionalità"
+    "message": "Flag di funzionalitГ "
   },
   "app.settings.tabs.java-installations": {
     "message": "Installazioni Java"
@@ -84,19 +84,19 @@
     "message": "Gestione delle risorse"
   },
   "app.update-toast.body": {
-    "message": "Modrinth App v{version} è pronta per essere installata! Ricarica per aggiornare ora, o avverrà in automatico alla chiusura dell'app."
+    "message": "Mist Launcher v{version} ГЁ pronta per essere installata! Ricarica per aggiornare ora, o avverrГ  in automatico alla chiusura dell'app."
   },
   "app.update-toast.body.download-complete": {
-    "message": "Modrinth App v{version} è stata scaricata. Ricarica per aggiornare ora, o avverrà in automatico alla chiusura dell'app."
+    "message": "Mist Launcher v{version} ГЁ stata scaricata. Ricarica per aggiornare ora, o avverrГ  in automatico alla chiusura dell'app."
   },
   "app.update-toast.body.linux": {
-    "message": "Modrinth App v{version} è disponibile. Usa il tuo gestore di pacchetti per aggiornare e ricevere le novità più recenti!"
+    "message": "Mist Launcher v{version} ГЁ disponibile. Usa il tuo gestore di pacchetti per aggiornare e ricevere le novitГ  piГ№ recenti!"
   },
   "app.update-toast.body.metered": {
-    "message": "Modrinth App v{version} è ora disponibile! Poiché sei su una rete a consumo, non l'abbiamo scaricata automaticamente."
+    "message": "Mist Launcher v{version} ГЁ ora disponibile! PoichГ© sei su una rete a consumo, non l'abbiamo scaricata automaticamente."
   },
   "app.update-toast.changelog": {
-    "message": "Novità"
+    "message": "NovitГ "
   },
   "app.update-toast.download": {
     "message": "Scarica ({size})"
@@ -117,10 +117,10 @@
     "message": "Download completato"
   },
   "app.update.complete-toast.text": {
-    "message": "Consulta qui le ultime novità in inglese."
+    "message": "Consulta qui le ultime novitГ  in inglese."
   },
   "app.update.complete-toast.title": {
-    "message": "La versione {version} è stata installata con successo!"
+    "message": "La versione {version} ГЁ stata installata con successo!"
   },
   "app.update.download-update": {
     "message": "Scarica aggiornamento"
@@ -204,7 +204,7 @@
     "message": "No"
   },
   "instance.add-server.resource-pack.enabled": {
-    "message": "Sì"
+    "message": "SГ¬"
   },
   "instance.add-server.resource-pack.prompt": {
     "message": "Chiedi"
@@ -258,7 +258,7 @@
     "message": "Elimina istanza"
   },
   "instance.settings.tabs.general.delete.description": {
-    "message": "Elimina permanentemente un'istanza dal tuo dispositivo, compresi i tuoi mondi, file di configurazione e tutto il contenuto installato. Fai attenzione: eliminata un'istanza non c'è modo di recuperarla."
+    "message": "Elimina permanentemente un'istanza dal tuo dispositivo, compresi i tuoi mondi, file di configurazione e tutto il contenuto installato. Fai attenzione: eliminata un'istanza non c'ГЁ modo di recuperarla."
   },
   "instance.settings.tabs.general.deleting.button": {
     "message": "Eliminando..."
@@ -294,7 +294,7 @@
     "message": "Crea nuovo gruppo"
   },
   "instance.settings.tabs.general.library-groups.description": {
-    "message": "I gruppi della libreria ti permettono di organizzare le tue istanze in più sezioni nella tua libreria."
+    "message": "I gruppi della libreria ti permettono di organizzare le tue istanze in piГ№ sezioni nella tua libreria."
   },
   "instance.settings.tabs.general.library-groups.enter-name": {
     "message": "Inserisci il nome del gruppo"
@@ -345,10 +345,10 @@
     "message": "Installazione"
   },
   "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "{platform} {version} per Minecraft {game_version} è già installato"
+    "message": "{platform} {version} per Minecraft {game_version} ГЁ giГ  installato"
   },
   "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "Vanilla {game_version} è già installata"
+    "message": "Vanilla {game_version} ГЁ giГ  installata"
   },
   "instance.settings.tabs.installation.change-version.button": {
     "message": "Cambia versione"
@@ -393,10 +393,10 @@
     "message": "Impossibile ottenere i dettagli del pacchetto di mod collegato. Si prega di controllare la connessione a Internet."
   },
   "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader} non è disponibile per Minecraft {version}. Prova un altro loader."
+    "message": "{loader} non ГЁ disponibile per Minecraft {version}. Prova un altro loader."
   },
   "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "L'istanza è collegata a un pacchetto di mod, ma non è stato possibile trovarlo su Modrinth."
+    "message": "L'istanza ГЁ collegata a un pacchetto di mod, ma non ГЁ stato possibile trovarlo su Modrinth."
   },
   "instance.settings.tabs.installation.platform": {
     "message": "Piattaforma"
@@ -408,7 +408,7 @@
     "message": "Reinstallando pacchetto di mod"
   },
   "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "La reinstallazione resetterà tutto il contenuto installato o modificato a ciò che è fornito dal pacchetto di mod, rimuovendo ogni mod o contenuto che tu abbia aggiunto all'installazione originale. Questo potrebbe risolvere comportamenti inaspettati se ci sono state modifiche all'istanza, ma se ora i tuoi mondi dipendessero da contenuto aggiuntivo installato, essi verrebbero corrotti."
+    "message": "La reinstallazione resetterГ  tutto il contenuto installato o modificato a ciГІ che ГЁ fornito dal pacchetto di mod, rimuovendo ogni mod o contenuto che tu abbia aggiunto all'installazione originale. Questo potrebbe risolvere comportamenti inaspettati se ci sono state modifiche all'istanza, ma se ora i tuoi mondi dipendessero da contenuto aggiuntivo installato, essi verrebbero corrotti."
   },
   "instance.settings.tabs.installation.reinstall.confirm.title": {
     "message": "Vuoi davvero reinstallare questa istanza?"
@@ -426,7 +426,7 @@
     "message": "Riparando"
   },
   "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "La riparazione reinstalla le dipendenze di Minecraft e verifica eventuali corruzioni. Questo potrebbe risolvere problemi di avvio del gioco se dovuti a errori legati al launcher, ma non risolverà problemi o crash legati alle mod installate."
+    "message": "La riparazione reinstalla le dipendenze di Minecraft e verifica eventuali corruzioni. Questo potrebbe risolvere problemi di avvio del gioco se dovuti a errori legati al launcher, ma non risolverГ  problemi o crash legati alle mod installate."
   },
   "instance.settings.tabs.installation.repair.confirm.title": {
     "message": "Riparare l'istanza?"
@@ -468,13 +468,13 @@
     "message": "Scollega istanza"
   },
   "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "Procedendo non potrai più ricollegarla se non creando una nuova istanza da zero. Diventerà una normale installazione, per cui non riceverai più aggiornamenti dal pacchetto di mod."
+    "message": "Procedendo non potrai piГ№ ricollegarla se non creando una nuova istanza da zero. DiventerГ  una normale installazione, per cui non riceverai piГ№ aggiornamenti dal pacchetto di mod."
   },
   "instance.settings.tabs.installation.unlink.confirm.title": {
     "message": "Vuoi davvero scollegare questa istanza?"
   },
   "instance.settings.tabs.installation.unlink.description": {
-    "message": "Questa istanza è collegata a un pacchetto di mod, cioè le mod non possono essere aggiornate manualmente, e non puoi cambiare loader di mod né versione di Minecraft. Lo scollegamento disconnetterà definitivamente questa istanza dal pacchetto di mod."
+    "message": "Questa istanza ГЁ collegata a un pacchetto di mod, cioГЁ le mod non possono essere aggiornate manualmente, e non puoi cambiare loader di mod nГ© versione di Minecraft. Lo scollegamento disconnetterГ  definitivamente questa istanza dal pacchetto di mod."
   },
   "instance.settings.tabs.installation.unlink.title": {
     "message": "Scollega dal pacchetto di mod"
@@ -543,22 +543,22 @@
     "message": "Disponibile"
   },
   "instance.worlds.game_already_open": {
-    "message": "Istanza già aperta"
+    "message": "Istanza giГ  aperta"
   },
   "instance.worlds.hardcore": {
-    "message": "Modalità estrema"
+    "message": "ModalitГ  estrema"
   },
   "instance.worlds.incompatible_server": {
-    "message": "Server non è compatibile"
+    "message": "Server non ГЁ compatibile"
   },
   "instance.worlds.no_contact": {
     "message": "Impossibile contattare il server"
   },
   "instance.worlds.no_server_quick_play": {
-    "message": "È possibile avviare un server direttamente solo su Minecraft Alpha 1.0.5+"
+    "message": "Г€ possibile avviare un server direttamente solo su Minecraft Alpha 1.0.5+"
   },
   "instance.worlds.no_singleplayer_quick_play": {
-    "message": "È possibile avviare direttamente un mondo in giocatore singolo solo su Minecraft 1.20+"
+    "message": "Г€ possibile avviare direttamente un mondo in giocatore singolo solo su Minecraft 1.20+"
   },
   "instance.worlds.play_instance": {
     "message": "Gioca istanza"
@@ -573,16 +573,16 @@
     "message": "Mostra istanza"
   },
   "instance.worlds.world_in_use": {
-    "message": "Mondo già in uso"
+    "message": "Mondo giГ  in uso"
   },
   "search.filter.locked.instance": {
     "message": "Fornito dall'istanza"
   },
   "search.filter.locked.instance-game-version.title": {
-    "message": "La versione del gioco è fornita dall'istanza"
+    "message": "La versione del gioco ГЁ fornita dall'istanza"
   },
   "search.filter.locked.instance-loader.title": {
-    "message": "Il loader è fornito dall'istanza"
+    "message": "Il loader ГЁ fornito dall'istanza"
   },
   "search.filter.locked.instance.sync": {
     "message": "Sincronizza con l'istanza"

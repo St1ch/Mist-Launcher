@@ -4,7 +4,7 @@ use std::process::{Command, exit};
 use std::{env, fs};
 
 fn main() {
-    println!("cargo::rerun-if-changed=.env");
+    println!("cargo::rerun-if-changed=.env.prod");
     println!("cargo::rerun-if-changed=java/gradle");
     println!("cargo::rerun-if-changed=java/src");
     println!("cargo::rerun-if-changed=java/build.gradle.kts");
@@ -16,8 +16,17 @@ fn main() {
 }
 
 fn set_env() {
-    for (var_name, var_value) in
-        dotenvy::dotenv_iter().into_iter().flatten().flatten()
+    let env_path = env::var_os("MIST_APP_ENV_FILE")
+        .map(PathBuf::from)
+        .unwrap_or_else(|| PathBuf::from(".env.prod"));
+
+    println!("cargo::rerun-if-env-changed=MIST_APP_ENV_FILE");
+    println!("cargo::rerun-if-changed={}", env_path.display());
+
+    for (var_name, var_value) in dotenvy::from_path_iter(&env_path)
+        .into_iter()
+        .flatten()
+        .flatten()
     {
         if var_name == "DATABASE_URL" {
             // The sqlx database URL is a build-time detail that should not be exposed to the crate

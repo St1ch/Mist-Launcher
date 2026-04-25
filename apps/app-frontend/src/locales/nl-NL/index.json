@@ -1,4 +1,4 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
     "message": "Minecraft verificatie servers zijn mogelijk offline. Check je internetverbinding en probeer opnieuw later."
   },
@@ -33,13 +33,13 @@
     "message": "Bronnenbeheer"
   },
   "app.update-toast.body": {
-    "message": "Modrinth App v{version} is klaar om geïnstalleerd te worden! Herlaad om nu te updaten, of automatisch wanneer je de Modrinth App afsluit."
+    "message": "Mist Launcher v{version} is klaar om geГЇnstalleerd te worden! Herlaad om nu te updaten, of automatisch wanneer je de Mist Launcher afsluit."
   },
   "app.update-toast.body.download-complete": {
-    "message": "Modrinth App v{version} is klaar met downloaden. Herlaad om nu te updaten, of automatisch wanneer je de Modrinth App afsluit."
+    "message": "Mist Launcher v{version} is klaar met downloaden. Herlaad om nu te updaten, of automatisch wanneer je de Mist Launcher afsluit."
   },
   "app.update-toast.body.metered": {
-    "message": "Modrinth App v{version} is nu beschikbaar! Omdat je nu op een netwerk met datalimiet zit, is de download niet automatisch gestart."
+    "message": "Mist Launcher v{version} is nu beschikbaar! Omdat je nu op een netwerk met datalimiet zit, is de download niet automatisch gestart."
   },
   "app.update-toast.changelog": {
     "message": "Wijzigingenlogboek"
@@ -63,7 +63,7 @@
     "message": "Klik hier om het wijzigingenlogboek te bekijken."
   },
   "app.update.complete-toast.title": {
-    "message": "Versie {version} is succesvol geïnstalleerd!"
+    "message": "Versie {version} is succesvol geГЇnstalleerd!"
   },
   "app.update.download-update": {
     "message": "Download update"
@@ -201,7 +201,7 @@
     "message": "Verwijder instantie"
   },
   "instance.settings.tabs.general.delete.description": {
-    "message": "Verwijdert permanent een instantie van je apparaat, inclusief je werelden, instellingen en alle geïnstalleerde inhoud. Wees voorzichtig, zodra je een instantie verwijdert, is het niet meer mogelijk om deze te herstellen."
+    "message": "Verwijdert permanent een instantie van je apparaat, inclusief je werelden, instellingen en alle geГЇnstalleerde inhoud. Wees voorzichtig, zodra je een instantie verwijdert, is het niet meer mogelijk om deze te herstellen."
   },
   "instance.settings.tabs.general.deleting.button": {
     "message": "Verwijderen..."
@@ -216,7 +216,7 @@
     "message": "Instantie dupliceren"
   },
   "instance.settings.tabs.general.duplicate-instance.description": {
-    "message": "Creëert een kopie van deze instantie, inclusief werelden, instellingen, mods, etc."
+    "message": "CreГ«ert een kopie van deze instantie, inclusief werelden, instellingen, mods, etc."
   },
   "instance.settings.tabs.general.edit-icon": {
     "message": "Pictogram aanpassen"
@@ -234,7 +234,7 @@
     "message": "Bibliotheekgroepen"
   },
   "instance.settings.tabs.general.library-groups.create": {
-    "message": "Nieuwe groep creëren"
+    "message": "Nieuwe groep creГ«ren"
   },
   "instance.settings.tabs.general.library-groups.description": {
     "message": "Bibliotheekgroepen stellen je in staat om je instanties in verschillende secties in je bibliotheek te organiseren."
@@ -288,10 +288,10 @@
     "message": "Installatie"
   },
   "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "{platform} {version} voor Minecraft {game_version} is al geïnstalleerd"
+    "message": "{platform} {version} voor Minecraft {game_version} is al geГЇnstalleerd"
   },
   "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "Vanilla {game_version} is al geïnstalleerd"
+    "message": "Vanilla {game_version} is al geГЇnstalleerd"
   },
   "instance.settings.tabs.installation.change-version.button": {
     "message": "Verander versie"
@@ -309,7 +309,7 @@
     "message": "Nieuwe versie aan het installeren"
   },
   "instance.settings.tabs.installation.currently-installed": {
-    "message": "Huidig geïnstalleerd"
+    "message": "Huidig geГЇnstalleerd"
   },
   "instance.settings.tabs.installation.debug-information": {
     "message": "Fout opsporingsinformatie:"
@@ -351,7 +351,7 @@
     "message": "Modpack aan het herinstalleren"
   },
   "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "Het opnieuw installeren zal alle geïnstalleerde of gewijzigde inhoud resetten naar de inhoud die door de modpack wordt geleverd, en alle mods of inhoud die je bovenop de oorspronkelijke installatie hebt toegevoegd, verwijderen. Dit kan onverwacht gedrag oplossen als er wijzigingen zijn aangebracht in de instantie, maar als je werelden nu afhankelijk zijn van extra geïnstalleerde inhoud, kan dit bestaande werelden beschadigen."
+    "message": "Het opnieuw installeren zal alle geГЇnstalleerde of gewijzigde inhoud resetten naar de inhoud die door de modpack wordt geleverd, en alle mods of inhoud die je bovenop de oorspronkelijke installatie hebt toegevoegd, verwijderen. Dit kan onverwacht gedrag oplossen als er wijzigingen zijn aangebracht in de instantie, maar als je werelden nu afhankelijk zijn van extra geГЇnstalleerde inhoud, kan dit bestaande werelden beschadigen."
   },
   "instance.settings.tabs.installation.reinstall.confirm.title": {
     "message": "Ben je zeker dat je deze instantie wilt herinstalleren?"
@@ -369,7 +369,7 @@
     "message": "Repareren"
   },
   "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "Repareren installeert Minecraft-dependencies opnieuw en controleert op corruptie. Dit kan problemen oplossen als uw spel niet start vanwege problemen met de launcher, maar niet problemen of crashes oplossen die te maken hebben met geïnstalleerde mods."
+    "message": "Repareren installeert Minecraft-dependencies opnieuw en controleert op corruptie. Dit kan problemen oplossen als uw spel niet start vanwege problemen met de launcher, maar niet problemen of crashes oplossen die te maken hebben met geГЇnstalleerde mods."
   },
   "instance.settings.tabs.installation.repair.confirm.title": {
     "message": "Exemplaar repareren?"

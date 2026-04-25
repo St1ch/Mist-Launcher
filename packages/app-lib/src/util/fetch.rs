@@ -139,12 +139,14 @@ pub static REQWEST_CLIENT: LazyLock<reqwest::Client> = LazyLock::new(|| {
     headers.insert(reqwest::header::USER_AGENT, header);
     reqwest::Client::builder()
         .tcp_keepalive(Some(time::Duration::from_secs(10)))
+        .read_timeout(time::Duration::from_secs(30))
+        .timeout(time::Duration::from_secs(900))
         .default_headers(headers)
         .build()
         .expect("Reqwest Client Building Failed")
 });
 
-const FETCH_ATTEMPTS: usize = 2;
+const FETCH_ATTEMPTS: usize = 5;
 
 #[tracing::instrument(skip(semaphore))]
 pub async fn fetch(
@@ -254,9 +256,12 @@ pub async fn fetch_advanced(
                         let mut stream = resp.bytes_stream();
                         let mut bytes = Vec::new();
                         while let Some(item) = stream.next().await {
-                            let chunk = item.or(Err(ErrorKind::NoValueFor(
-                                "fetch bytes".to_string(),
-                            )))?;
+                            let chunk = item.map_err(|err| {
+                                ErrorKind::DownloadInterrupted {
+                                    url: url.to_string(),
+                                    reason: err.to_string(),
+                                }
+                            })?;
                             bytes.append(&mut chunk.to_vec());
                             emit_loading(
                                 bar,

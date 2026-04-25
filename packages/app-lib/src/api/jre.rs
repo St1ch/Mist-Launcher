@@ -70,7 +70,17 @@ pub async fn auto_install_java(java_version: u32) -> crate::Result<PathBuf> {
     }
 
     emit_loading(&loading_bar, 0.0, Some("Fetching java version"))?;
-    let packages = fetch_json::<Vec<Package>>(
+    let mut packages = Vec::new();
+    if std::env::consts::OS == "windows" && std::env::consts::ARCH == "x86_64"
+    {
+        packages.push(Package {
+            download_url: format!(
+                "https://api.adoptium.net/v3/binary/latest/{java_version}/ga/windows/x64/jre/hotspot/normal/eclipse?project=jdk"
+            ),
+            name: PathBuf::from(format!("temurin-{java_version}-jre.zip")),
+        });
+    }
+    packages.extend(fetch_json::<Vec<Package>>(
                 Method::GET,
                 &format!(
                     "https://api.azul.com/metadata/v1/zulu/packages?arch={}&java_version={}&os={}&archive_type=zip&javafx_bundled=false&java_package_type=jre&page_size=1",
@@ -80,21 +90,35 @@ pub async fn auto_install_java(java_version: u32) -> crate::Result<PathBuf> {
                 None,
                 &state.fetch_semaphore,
                 &state.pool,
-            ).await?;
+            ).await.unwrap_or_default());
     emit_loading(&loading_bar, 10.0, Some("Downloading java version"))?;
 
-    if let Some(download) = packages.first() {
-        let file = fetch_advanced(
-            Method::GET,
-            &download.download_url,
-            None,
-            None,
-            None,
-            Some((&loading_bar, 80.0)),
-            &state.fetch_semaphore,
-            &state.pool,
-        )
-        .await?;
+    let mut last_error = None;
+    for download in packages {
+        let file = match fetch_advanced(
+                Method::GET,
+                &download.download_url,
+                None,
+                None,
+                None,
+                Some((&loading_bar, 80.0)),
+                &state.fetch_semaphore,
+                &state.pool,
+            )
+            .await
+        {
+            Ok(file) => file,
+            Err(err) => {
+                tracing::warn!(
+                    "Failed to download Java {} from {}: {}",
+                    java_version,
+                    download.download_url,
+                    err
+                );
+                last_error = Some(err);
+                continue;
+            }
+        };
 
         let path = state.directories.java_versions_dir();
 
@@ -105,9 +129,13 @@ pub async fn auto_install_java(java_version: u32) -> crate::Result<PathBuf> {
                 ))
             })?;
 
+        let top_level_dir = archive
+            .file_names()
+            .find_map(|file| file.split('/').next().filter(|dir| !dir.is_empty()))
+            .map(ToOwned::to_owned);
+
         // removes the old installation of java
-        if let Some(file) = archive.file_names().next()
-            && let Some(dir) = file.split('/').next()
+        if let Some(dir) = top_level_dir.as_deref()
         {
             let path = path.join(dir);
 
@@ -123,14 +151,15 @@ pub async fn auto_install_java(java_version: u32) -> crate::Result<PathBuf> {
             ))
         })?;
         emit_loading(&loading_bar, 10.0, Some("Done extracting java"))?;
-        let mut base_path = path.join(
+        let install_dir = top_level_dir.unwrap_or_else(|| {
             download
                 .name
                 .file_stem()
                 .unwrap_or_default()
                 .to_string_lossy()
-                .to_string(),
-        );
+                .to_string()
+        });
+        let mut base_path = path.join(install_dir);
 
         #[cfg(target_os = "macos")]
         {
@@ -147,13 +176,18 @@ pub async fn auto_install_java(java_version: u32) -> crate::Result<PathBuf> {
             base_path = base_path.join("bin").join(jre::JAVA_BIN)
         }
 
-        Ok(base_path)
-    } else {
-        Err(crate::ErrorKind::LauncherError(format!(
-                    "No Java Version found for Java version {}, OS {}, and Architecture {}",
-                    java_version, std::env::consts::OS, std::env::consts::ARCH,
-                )).into())
+        return Ok(base_path);
     }
+
+    Err(last_error.unwrap_or_else(|| {
+        crate::ErrorKind::LauncherError(format!(
+            "No Java Version found for Java version {}, OS {}, and Architecture {}",
+            java_version,
+            std::env::consts::OS,
+            std::env::consts::ARCH,
+        ))
+        .into()
+    }))
 }
 
 // Validates JRE at a given at a given path

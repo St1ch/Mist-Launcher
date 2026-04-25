@@ -8,13 +8,11 @@
 	>
 		<Avatar
 			size="36px"
-			:src="
-				selectedAccount ? avatarUrl : 'https://launcher-files.modrinth.com/assets/steve_head.png'
-			"
+			:src="selectedAccount ? avatarUrl : defaultAvatar"
 		/>
 		<div class="flex flex-col w-full">
-			<span>{{ selectedAccount ? selectedAccount.profile.name : 'Select account' }}</span>
-			<span class="text-secondary text-xs">Minecraft account</span>
+			<span>{{ selectedAccount ? selectedAccount.profile.name : 'Create account' }}</span>
+			<span class="text-secondary text-xs">Offline Minecraft account</span>
 		</div>
 		<DropdownIcon class="w-5 h-5 shrink-0" />
 	</div>
@@ -29,10 +27,10 @@
 				<Avatar size="xs" :src="avatarUrl" />
 				<div>
 					<h4>{{ selectedAccount.profile.name }}</h4>
-					<p>Selected</p>
+					<p>Selected offline profile</p>
 				</div>
 				<Button
-					v-tooltip="'Log out'"
+					v-tooltip="'Remove account'"
 					icon-only
 					color="raised"
 					@click="logout(selectedAccount.profile.id)"
@@ -41,16 +39,23 @@
 				</Button>
 			</div>
 			<div v-else class="logged-out account">
-				<h4>Not signed in</h4>
-				<Button
-					v-tooltip="'Log in'"
-					:disabled="loginDisabled"
-					icon-only
-					color="primary"
-					@click="login()"
-				>
-					<LogInIcon v-if="!loginDisabled" />
+				<div>
+					<h4>No offline account</h4>
+					<p>Create one below to launch Minecraft</p>
+				</div>
+			</div>
+			<div class="create-account">
+				<input
+					v-model="newUsername"
+					type="text"
+					maxlength="16"
+					placeholder="Enter nickname"
+					@keyup.enter="createOfflineAccount"
+				/>
+				<Button :disabled="creatingAccount || newUsername.trim().length === 0" @click="createOfflineAccount">
+					<UserPlusIcon v-if="!creatingAccount" />
 					<SpinnerIcon v-else class="animate-spin" />
+					Add offline account
 				</Button>
 			</div>
 			<div v-if="displayAccounts.length > 0" class="account-group">
@@ -59,36 +64,30 @@
 						<Avatar :src="getAccountAvatarUrl(account)" class="icon" />
 						<p>{{ account.profile.name }}</p>
 					</Button>
-					<Button v-tooltip="'Log out'" icon-only @click="logout(account.profile.id)">
+					<Button v-tooltip="'Remove account'" icon-only @click="logout(account.profile.id)">
 						<TrashIcon />
 					</Button>
 				</div>
 			</div>
-			<Button v-if="accounts.length > 0" @click="login()">
-				<PlusIcon />
-				Add account
-			</Button>
 		</Card>
 	</transition>
 </template>
 
 <script setup>
-import { DropdownIcon, LogInIcon, PlusIcon, SpinnerIcon, TrashIcon } from '@modrinth/assets'
+import { DropdownIcon, SpinnerIcon, TrashIcon, UserPlusIcon } from '@modrinth/assets'
 import { Avatar, Button, Card, injectNotificationManager } from '@modrinth/ui'
 import { computed, onBeforeUnmount, onMounted, onUnmounted, ref } from 'vue'
 
 import { trackEvent } from '@/helpers/analytics'
 import {
+	create_offline_user,
 	get_default_user,
-	login as login_flow,
 	remove_user,
 	set_default_user,
 	users,
 } from '@/helpers/auth'
 import { process_listener } from '@/helpers/events'
-import { getPlayerHeadUrl } from '@/helpers/rendering/batch-skin-renderer.ts'
-import { get_available_skins } from '@/helpers/skins'
-import { handleSevereError } from '@/store/error.js'
+import defaultAvatar from '@/assets/mist-avatar.svg'
 
 const { handleError } = injectNotificationManager()
 
@@ -102,41 +101,18 @@ defineProps({
 
 const emit = defineEmits(['change'])
 
-const accounts = ref({})
-const loginDisabled = ref(false)
+const accounts = ref([])
 const defaultUser = ref()
-const equippedSkin = ref(null)
-const headUrlCache = ref(new Map())
+const newUsername = ref('')
+const creatingAccount = ref(false)
 
 async function refreshValues() {
 	defaultUser.value = await get_default_user().catch(handleError)
-	accounts.value = await users().catch(handleError)
-
-	try {
-		const skins = await get_available_skins()
-		equippedSkin.value = skins.find((skin) => skin.is_equipped)
-
-		if (equippedSkin.value) {
-			try {
-				const headUrl = await getPlayerHeadUrl(equippedSkin.value)
-				headUrlCache.value.set(equippedSkin.value.texture_key, headUrl)
-			} catch (error) {
-				console.warn('Failed to get head render for equipped skin:', error)
-			}
-		}
-	} catch {
-		equippedSkin.value = null
-	}
-}
-
-function setLoginDisabled(value) {
-	loginDisabled.value = value
+	accounts.value = (await users().catch(handleError)) ?? []
 }
 
 defineExpose({
 	refreshValues,
-	setLoginDisabled,
-	loginDisabled,
 })
 await refreshValues()
 
@@ -145,29 +121,13 @@ const displayAccounts = computed(() =>
 )
 
 const avatarUrl = computed(() => {
-	if (equippedSkin.value?.texture_key) {
-		const cachedUrl = headUrlCache.value.get(equippedSkin.value.texture_key)
-		if (cachedUrl) {
-			return cachedUrl
-		}
-		return `https://mc-heads.net/avatar/${equippedSkin.value.texture_key}/128`
-	}
 	if (selectedAccount.value?.profile?.id) {
 		return `https://mc-heads.net/avatar/${selectedAccount.value.profile.id}/128`
 	}
-	return 'https://launcher-files.modrinth.com/assets/steve_head.png'
+	return defaultAvatar
 })
 
 function getAccountAvatarUrl(account) {
-	if (
-		account.profile.id === selectedAccount.value?.profile?.id &&
-		equippedSkin.value?.texture_key
-	) {
-		const cachedUrl = headUrlCache.value.get(equippedSkin.value.texture_key)
-		if (cachedUrl) {
-			return cachedUrl
-		}
-	}
 	return `https://mc-heads.net/avatar/${account.profile.id}/128`
 }
 
@@ -181,17 +141,25 @@ async function setAccount(account) {
 	emit('change')
 }
 
-async function login() {
-	loginDisabled.value = true
-	const loggedIn = await login_flow().catch(handleSevereError)
-
-	if (loggedIn) {
-		await setAccount(loggedIn)
-		await refreshValues()
+async function createOfflineAccount() {
+	const username = newUsername.value.trim()
+	if (!username) {
+		return
 	}
 
-	trackEvent('AccountLogIn')
-	loginDisabled.value = false
+	creatingAccount.value = true
+
+	try {
+		const createdAccount = await create_offline_user(username).catch(handleError)
+		if (createdAccount) {
+			newUsername.value = ''
+			await refreshValues()
+			await setAccount(createdAccount)
+			trackEvent('AccountLogIn', { auth_type: 'offline' })
+		}
+	} finally {
+		creatingAccount.value = false
+	}
 }
 
 const logout = async (id) => {
@@ -327,6 +295,25 @@ onUnmounted(() => {
 	display: flex;
 	flex-direction: column;
 	gap: 0.5rem;
+}
+
+.create-account {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+
+	input {
+		background: var(--color-bg);
+		border: 1px solid var(--color-divider);
+		border-radius: var(--radius-md);
+		color: var(--color-contrast);
+		padding: 0.75rem 0.9rem;
+		outline: none;
+	}
+
+	input:focus {
+		border-color: var(--color-brand);
+	}
 }
 
 .option {

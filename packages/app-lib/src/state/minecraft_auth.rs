@@ -218,12 +218,65 @@ pub(super) static PROFILE_CACHE: Mutex<
 > = Mutex::const_new(HashMap::with_hasher(BuildHasherDefault::new()));
 
 impl Credentials {
+    pub fn is_offline(&self) -> bool {
+        self.refresh_token.is_empty()
+    }
+
+    pub async fn create_offline(
+        username: &str,
+        exec: impl sqlx::Executor<'_, Database = sqlx::Sqlite> + Copy,
+    ) -> crate::Result<Self> {
+        let username = username.trim();
+
+        if !(3..=16).contains(&username.len()) {
+            return Err(crate::ErrorKind::InputError(
+                "Offline nickname must be between 3 and 16 characters"
+                    .to_string(),
+            )
+            .as_error());
+        }
+
+        if !username
+            .chars()
+            .all(|char| char.is_ascii_alphanumeric() || char == '_')
+        {
+            return Err(crate::ErrorKind::InputError(
+                "Offline nickname may only contain letters, numbers, and underscores"
+                    .to_string(),
+            )
+            .as_error());
+        }
+
+        let credentials = Self {
+            offline_profile: MinecraftProfile {
+                id: Uuid::new_v3(
+                    &Uuid::NAMESPACE_OID,
+                    format!("OfflinePlayer:{username}").as_bytes(),
+                ),
+                name: username.to_string(),
+                ..MinecraftProfile::default()
+            },
+            access_token: "0".to_string(),
+            refresh_token: String::new(),
+            expires: Utc::now() + Duration::days(3650),
+            active: true,
+        };
+
+        credentials.upsert(exec).await?;
+
+        Ok(credentials)
+    }
+
     /// Refreshes the authentication tokens for this user if they are expired, or
     /// very close to expiration.
     async fn refresh(
         &mut self,
         exec: impl sqlx::Executor<'_, Database = sqlx::Sqlite> + Copy,
     ) -> crate::Result<()> {
+        if self.is_offline() {
+            return Ok(());
+        }
+
         // Use a margin of 5 minutes to give e.g. Minecraft and potentially
         // other operations that depend on a fresh token 5 minutes to complete
         // from now, and deal with some classes of clock skew
@@ -270,6 +323,10 @@ impl Credentials {
 
     #[tracing::instrument(skip(self))]
     pub async fn online_profile(&self) -> Option<Arc<MinecraftProfile>> {
+        if self.is_offline() {
+            return None;
+        }
+
         let mut profile_cache = PROFILE_CACHE.lock().await;
 
         loop {

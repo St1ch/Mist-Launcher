@@ -1,590 +1,590 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
-    "message": "Сервери автентифікації Minecraft можуть зараз не працювати. Перевірте з’єднання з інтернетом та спробуйте пізніше."
+    "message": "РЎРµСЂРІРµСЂРё Р°РІС‚РµРЅС‚РёС„С–РєР°С†С–С— Minecraft РјРѕР¶СѓС‚СЊ Р·Р°СЂР°Р· РЅРµ РїСЂР°С†СЋРІР°С‚Рё. РџРµСЂРµРІС–СЂС‚Рµ Р·вЂ™С”РґРЅР°РЅРЅСЏ Р· С–РЅС‚РµСЂРЅРµС‚РѕРј С‚Р° СЃРїСЂРѕР±СѓР№С‚Рµ РїС–Р·РЅС–С€Рµ."
   },
   "app.auth-servers.unreachable.header": {
-    "message": "Не вдається зв’язатися зі серверами автентифікації"
+    "message": "РќРµ РІРґР°С”С‚СЊСЃСЏ Р·РІвЂ™СЏР·Р°С‚РёСЃСЏ Р·С– СЃРµСЂРІРµСЂР°РјРё Р°РІС‚РµРЅС‚РёС„С–РєР°С†С–С—"
   },
   "app.modal.install-to-play.header": {
-    "message": "Встановлення для гри"
+    "message": "Р’СЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ РґР»СЏ РіСЂРё"
   },
   "app.modal.install-to-play.install-button": {
-    "message": "Встановити"
+    "message": "Р’СЃС‚Р°РЅРѕРІРёС‚Рё"
   },
   "app.modal.install-to-play.mod-count": {
-    "message": "{count, plural, one {# мод} few {# мода} other {# модів}}"
+    "message": "{count, plural, one {# РјРѕРґ} few {# РјРѕРґР°} other {# РјРѕРґС–РІ}}"
   },
   "app.modal.install-to-play.server-requires-mods": {
-    "message": "Для гри на цьому сервері потрібні моди. Натисніть «Встановити», щоб завантажити необхідні файли з Modrinth."
+    "message": "Р”Р»СЏ РіСЂРё РЅР° С†СЊРѕРјСѓ СЃРµСЂРІРµСЂС– РїРѕС‚СЂС–Р±РЅС– РјРѕРґРё. РќР°С‚РёСЃРЅС–С‚СЊ В«Р’СЃС‚Р°РЅРѕРІРёС‚РёВ», С‰РѕР± Р·Р°РІР°РЅС‚Р°Р¶РёС‚Рё РЅРµРѕР±С…С–РґРЅС– С„Р°Р№Р»Рё Р· Modrinth."
   },
   "app.modal.install-to-play.shared-by-today": {
-    "message": "{name} ділиться цим профілем з вами."
+    "message": "{name} РґС–Р»РёС‚СЊСЃСЏ С†РёРј РїСЂРѕС„С–Р»РµРј Р· РІР°РјРё."
   },
   "app.modal.install-to-play.shared-instance": {
-    "message": "Профіль"
+    "message": "РџСЂРѕС„С–Р»СЊ"
   },
   "app.modal.install-to-play.shared-server-instance": {
-    "message": "Серверний профіль"
+    "message": "РЎРµСЂРІРµСЂРЅРёР№ РїСЂРѕС„С–Р»СЊ"
   },
   "app.modal.update-to-play.added-count": {
-    "message": "Додано {count}"
+    "message": "Р”РѕРґР°РЅРѕ {count}"
   },
   "app.modal.update-to-play.diff-type.added": {
-    "message": "Додано"
+    "message": "Р”РѕРґР°РЅРѕ"
   },
   "app.modal.update-to-play.diff-type.removed": {
-    "message": "Видалено"
+    "message": "Р’РёРґР°Р»РµРЅРѕ"
   },
   "app.modal.update-to-play.diff-type.updated": {
-    "message": "Оновлено"
+    "message": "РћРЅРѕРІР»РµРЅРѕ"
   },
   "app.modal.update-to-play.header": {
-    "message": "Оновлення перед грою"
+    "message": "РћРЅРѕРІР»РµРЅРЅСЏ РїРµСЂРµРґ РіСЂРѕСЋ"
   },
   "app.modal.update-to-play.published-date": {
     "message": "{date, date, long}"
   },
   "app.modal.update-to-play.removed-count": {
-    "message": "Видалено {count}"
+    "message": "Р’РёРґР°Р»РµРЅРѕ {count}"
   },
   "app.modal.update-to-play.update-required": {
-    "message": "Необхідне оновлення"
+    "message": "РќРµРѕР±С…С–РґРЅРµ РѕРЅРѕРІР»РµРЅРЅСЏ"
   },
   "app.modal.update-to-play.update-required-description": {
-    "message": "«{name}» потребує оновлення, щоб грати. Будь ласка, оновіть гру до останньої версії, щоб запустити її."
+    "message": "В«{name}В» РїРѕС‚СЂРµР±СѓС” РѕРЅРѕРІР»РµРЅРЅСЏ, С‰РѕР± РіСЂР°С‚Рё. Р‘СѓРґСЊ Р»Р°СЃРєР°, РѕРЅРѕРІС–С‚СЊ РіСЂСѓ РґРѕ РѕСЃС‚Р°РЅРЅСЊРѕС— РІРµСЂСЃС–С—, С‰РѕР± Р·Р°РїСѓСЃС‚РёС‚Рё С—С—."
   },
   "app.modal.update-to-play.updated-count": {
-    "message": "Оновлено {count}"
+    "message": "РћРЅРѕРІР»РµРЅРѕ {count}"
   },
   "app.settings.developer-mode-enabled": {
-    "message": "Увімкнено режим розробника."
+    "message": "РЈРІС–РјРєРЅРµРЅРѕ СЂРµР¶РёРј СЂРѕР·СЂРѕР±РЅРёРєР°."
   },
   "app.settings.downloading": {
-    "message": "Завантаження v{version}"
+    "message": "Р—Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ v{version}"
   },
   "app.settings.tabs.appearance": {
-    "message": "Вигляд"
+    "message": "Р’РёРіР»СЏРґ"
   },
   "app.settings.tabs.default-instance-options": {
-    "message": "Усталені налашт. профілю"
+    "message": "РЈСЃС‚Р°Р»РµРЅС– РЅР°Р»Р°С€С‚. РїСЂРѕС„С–Р»СЋ"
   },
   "app.settings.tabs.feature-flags": {
-    "message": "Спеціальні функції"
+    "message": "РЎРїРµС†С–Р°Р»СЊРЅС– С„СѓРЅРєС†С–С—"
   },
   "app.settings.tabs.java-installations": {
-    "message": "Інсталяції Java"
+    "message": "Р†РЅСЃС‚Р°Р»СЏС†С–С— Java"
   },
   "app.settings.tabs.language": {
-    "message": "Мова"
+    "message": "РњРѕРІР°"
   },
   "app.settings.tabs.privacy": {
-    "message": "Конфіденційність"
+    "message": "РљРѕРЅС„С–РґРµРЅС†С–Р№РЅС–СЃС‚СЊ"
   },
   "app.settings.tabs.resource-management": {
-    "message": "Керування ресурсами"
+    "message": "РљРµСЂСѓРІР°РЅРЅСЏ СЂРµСЃСѓСЂСЃР°РјРё"
   },
   "app.update-toast.body": {
-    "message": "Modrinth App v{version} готовий до встановлення! Перезапустіть, щоб оновити зараз. Або, оновлення буде здійснено автоматично, коли закриєте Modrinth App."
+    "message": "Mist Launcher v{version} РіРѕС‚РѕРІРёР№ РґРѕ РІСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ! РџРµСЂРµР·Р°РїСѓСЃС‚С–С‚СЊ, С‰РѕР± РѕРЅРѕРІРёС‚Рё Р·Р°СЂР°Р·. РђР±Рѕ, РѕРЅРѕРІР»РµРЅРЅСЏ Р±СѓРґРµ Р·РґС–Р№СЃРЅРµРЅРѕ Р°РІС‚РѕРјР°С‚РёС‡РЅРѕ, РєРѕР»Рё Р·Р°РєСЂРёС”С‚Рµ Mist Launcher."
   },
   "app.update-toast.body.download-complete": {
-    "message": "Modrinth App v{version} завантажено. Перезапустіть зараз, щоб оновити застосунок, або оновлення відбудеться автоматично після закриття Modrinth App."
+    "message": "Mist Launcher v{version} Р·Р°РІР°РЅС‚Р°Р¶РµРЅРѕ. РџРµСЂРµР·Р°РїСѓСЃС‚С–С‚СЊ Р·Р°СЂР°Р·, С‰РѕР± РѕРЅРѕРІРёС‚Рё Р·Р°СЃС‚РѕСЃСѓРЅРѕРє, Р°Р±Рѕ РѕРЅРѕРІР»РµРЅРЅСЏ РІС–РґР±СѓРґРµС‚СЊСЃСЏ Р°РІС‚РѕРјР°С‚РёС‡РЅРѕ РїС–СЃР»СЏ Р·Р°РєСЂРёС‚С‚СЏ Mist Launcher."
   },
   "app.update-toast.body.linux": {
-    "message": "Доступна версія Modrinth App {version}. Скористайтеся вашим менеджером пакетів, щоб отримати найновіші функції та виправлення!"
+    "message": "Р”РѕСЃС‚СѓРїРЅР° РІРµСЂСЃС–СЏ Mist Launcher {version}. РЎРєРѕСЂРёСЃС‚Р°Р№С‚РµСЃСЏ РІР°С€РёРј РјРµРЅРµРґР¶РµСЂРѕРј РїР°РєРµС‚С–РІ, С‰РѕР± РѕС‚СЂРёРјР°С‚Рё РЅР°Р№РЅРѕРІС–С€С– С„СѓРЅРєС†С–С— С‚Р° РІРёРїСЂР°РІР»РµРЅРЅСЏ!"
   },
   "app.update-toast.body.metered": {
-    "message": "Версія {version} Modrinth App доступна для завантаження! Оскільки ви на лімітному з’єднанні, ми не завантажили її автоматично."
+    "message": "Р’РµСЂСЃС–СЏ {version} Mist Launcher РґРѕСЃС‚СѓРїРЅР° РґР»СЏ Р·Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ! РћСЃРєС–Р»СЊРєРё РІРё РЅР° Р»С–РјС–С‚РЅРѕРјСѓ Р·вЂ™С”РґРЅР°РЅРЅС–, РјРё РЅРµ Р·Р°РІР°РЅС‚Р°Р¶РёР»Рё С—С— Р°РІС‚РѕРјР°С‚РёС‡РЅРѕ."
   },
   "app.update-toast.changelog": {
-    "message": "Журнал змін"
+    "message": "Р–СѓСЂРЅР°Р» Р·РјС–РЅ"
   },
   "app.update-toast.download": {
-    "message": "Завантажити ({size})"
+    "message": "Р—Р°РІР°РЅС‚Р°Р¶РёС‚Рё ({size})"
   },
   "app.update-toast.download-page": {
-    "message": "Завантажити"
+    "message": "Р—Р°РІР°РЅС‚Р°Р¶РёС‚Рё"
   },
   "app.update-toast.downloading": {
-    "message": "Завантаження…"
+    "message": "Р—Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏвЂ¦"
   },
   "app.update-toast.reload": {
-    "message": "Перезапустити"
+    "message": "РџРµСЂРµР·Р°РїСѓСЃС‚РёС‚Рё"
   },
   "app.update-toast.title": {
-    "message": "Доступне оновлення"
+    "message": "Р”РѕСЃС‚СѓРїРЅРµ РѕРЅРѕРІР»РµРЅРЅСЏ"
   },
   "app.update-toast.title.download-complete": {
-    "message": "Завантаження завершено"
+    "message": "Р—Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ Р·Р°РІРµСЂС€РµРЅРѕ"
   },
   "app.update.complete-toast.text": {
-    "message": "Натисніть тут, щоб переглянути журнал змін."
+    "message": "РќР°С‚РёСЃРЅС–С‚СЊ С‚СѓС‚, С‰РѕР± РїРµСЂРµРіР»СЏРЅСѓС‚Рё Р¶СѓСЂРЅР°Р» Р·РјС–РЅ."
   },
   "app.update.complete-toast.title": {
-    "message": "Версію {version} успішно встановлено!"
+    "message": "Р’РµСЂСЃС–СЋ {version} СѓСЃРїС–С€РЅРѕ РІСЃС‚Р°РЅРѕРІР»РµРЅРѕ!"
   },
   "app.update.download-update": {
-    "message": "Завантажити оновлення"
+    "message": "Р—Р°РІР°РЅС‚Р°Р¶РёС‚Рё РѕРЅРѕРІР»РµРЅРЅСЏ"
   },
   "app.update.downloading-update": {
-    "message": "Завантаження оновлення ({percent}%)"
+    "message": "Р—Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ РѕРЅРѕРІР»РµРЅРЅСЏ ({percent}%)"
   },
   "app.update.reload-to-update": {
-    "message": "Перезапустіть, аби встановити оновлення"
+    "message": "РџРµСЂРµР·Р°РїСѓСЃС‚С–С‚СЊ, Р°Р±Рё РІСЃС‚Р°РЅРѕРІРёС‚Рё РѕРЅРѕРІР»РµРЅРЅСЏ"
   },
   "friends.action.add-friend": {
-    "message": "Додати друга"
+    "message": "Р”РѕРґР°С‚Рё РґСЂСѓРіР°"
   },
   "friends.action.view-friend-requests": {
-    "message": "{count} запит{count, plural, one { у} few {и в} many {ів у} other {у в}} друзі"
+    "message": "{count} Р·Р°РїРёС‚{count, plural, one { Сѓ} few {Рё РІ} many {С–РІ Сѓ} other {Сѓ РІ}} РґСЂСѓР·С–"
   },
   "friends.add-friend.submit": {
-    "message": "Надіслати запит у друзі"
+    "message": "РќР°РґС–СЃР»Р°С‚Рё Р·Р°РїРёС‚ Сѓ РґСЂСѓР·С–"
   },
   "friends.add-friend.title": {
-    "message": "Додавання друга"
+    "message": "Р”РѕРґР°РІР°РЅРЅСЏ РґСЂСѓРіР°"
   },
   "friends.add-friend.username.description": {
-    "message": "Може відрізнятися від його або її імені користувача Minecraft!"
+    "message": "РњРѕР¶Рµ РІС–РґСЂС–Р·РЅСЏС‚РёСЃСЏ РІС–Рґ Р№РѕРіРѕ Р°Р±Рѕ С—С— С–РјРµРЅС– РєРѕСЂРёСЃС‚СѓРІР°С‡Р° Minecraft!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Уведіть ім’я користувача…"
+    "message": "РЈРІРµРґС–С‚СЊ С–РјвЂ™СЏ РєРѕСЂРёСЃС‚СѓРІР°С‡Р°вЂ¦"
   },
   "friends.add-friend.username.title": {
-    "message": "Яке ім’я користувача Modrinth у вашого друга?"
+    "message": "РЇРєРµ С–РјвЂ™СЏ РєРѕСЂРёСЃС‚СѓРІР°С‡Р° Modrinth Сѓ РІР°С€РѕРіРѕ РґСЂСѓРіР°?"
   },
   "friends.add-friends-to-share": {
-    "message": "<link>Додайте друзів</link>, щоб бачити, у що вони грають!"
+    "message": "<link>Р”РѕРґР°Р№С‚Рµ РґСЂСѓР·С–РІ</link>, С‰РѕР± Р±Р°С‡РёС‚Рё, Сѓ С‰Рѕ РІРѕРЅРё РіСЂР°СЋС‚СЊ!"
   },
   "friends.friend.cancel-request": {
-    "message": "Скасувати запит"
+    "message": "РЎРєР°СЃСѓРІР°С‚Рё Р·Р°РїРёС‚"
   },
   "friends.friend.remove-friend": {
-    "message": "Видалити друга"
+    "message": "Р’РёРґР°Р»РёС‚Рё РґСЂСѓРіР°"
   },
   "friends.friend.request-sent": {
-    "message": "Запит у друзі надіслано"
+    "message": "Р—Р°РїРёС‚ Сѓ РґСЂСѓР·С– РЅР°РґС–СЃР»Р°РЅРѕ"
   },
   "friends.friend.view-profile": {
-    "message": "Переглянути профіль"
+    "message": "РџРµСЂРµРіР»СЏРЅСѓС‚Рё РїСЂРѕС„С–Р»СЊ"
   },
   "friends.heading": {
-    "message": "Друзі"
+    "message": "Р”СЂСѓР·С–"
   },
   "friends.heading.active": {
-    "message": "Активний"
+    "message": "РђРєС‚РёРІРЅРёР№"
   },
   "friends.heading.offline": {
-    "message": "Поза мережею"
+    "message": "РџРѕР·Р° РјРµСЂРµР¶РµСЋ"
   },
   "friends.heading.online": {
-    "message": "У мережі"
+    "message": "РЈ РјРµСЂРµР¶С–"
   },
   "friends.heading.pending": {
-    "message": "Очікується"
+    "message": "РћС‡С–РєСѓС”С‚СЊСЃСЏ"
   },
   "friends.no-friends-match": {
-    "message": "Немає друзів, які збігаються з «{query}»"
+    "message": "РќРµРјР°С” РґСЂСѓР·С–РІ, СЏРєС– Р·Р±С–РіР°СЋС‚СЊСЃСЏ Р· В«{query}В»"
   },
   "friends.search-friends-placeholder": {
-    "message": "Шукати друзів…"
+    "message": "РЁСѓРєР°С‚Рё РґСЂСѓР·С–РІвЂ¦"
   },
   "friends.section.heading": {
-    "message": "{title} — {count}"
+    "message": "{title} вЂ” {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Увійдіть в обліковий запис Modrinth</link>, щоб додати друзів і бачити, у що вони грають!"
+    "message": "<link>РЈРІС–Р№РґС–С‚СЊ РІ РѕР±Р»С–РєРѕРІРёР№ Р·Р°РїРёСЃ Modrinth</link>, С‰РѕР± РґРѕРґР°С‚Рё РґСЂСѓР·С–РІ С– Р±Р°С‡РёС‚Рё, Сѓ С‰Рѕ РІРѕРЅРё РіСЂР°СЋС‚СЊ!"
   },
   "instance.add-server.add-and-play": {
-    "message": "Додати та грати"
+    "message": "Р”РѕРґР°С‚Рё С‚Р° РіСЂР°С‚Рё"
   },
   "instance.add-server.add-server": {
-    "message": "Додати сервер"
+    "message": "Р”РѕРґР°С‚Рё СЃРµСЂРІРµСЂ"
   },
   "instance.add-server.resource-pack.disabled": {
-    "message": "Вимкнено"
+    "message": "Р’РёРјРєРЅРµРЅРѕ"
   },
   "instance.add-server.resource-pack.enabled": {
-    "message": "Увімкнено"
+    "message": "РЈРІС–РјРєРЅРµРЅРѕ"
   },
   "instance.add-server.resource-pack.prompt": {
-    "message": "Запитувати"
+    "message": "Р—Р°РїРёС‚СѓРІР°С‚Рё"
   },
   "instance.add-server.title": {
-    "message": "Додати сервер"
+    "message": "Р”РѕРґР°С‚Рё СЃРµСЂРІРµСЂ"
   },
   "instance.edit-server.title": {
-    "message": "Редагувати сервер"
+    "message": "Р РµРґР°РіСѓРІР°С‚Рё СЃРµСЂРІРµСЂ"
   },
   "instance.edit-world.hide-from-home": {
-    "message": "Не показувати на головній сторінці"
+    "message": "РќРµ РїРѕРєР°Р·СѓРІР°С‚Рё РЅР° РіРѕР»РѕРІРЅС–Р№ СЃС‚РѕСЂС–РЅС†С–"
   },
   "instance.edit-world.name": {
-    "message": "Назва"
+    "message": "РќР°Р·РІР°"
   },
   "instance.edit-world.placeholder-name": {
-    "message": "Світ Minecraft"
+    "message": "РЎРІС–С‚ Minecraft"
   },
   "instance.edit-world.reset-icon": {
-    "message": "Скинути значок"
+    "message": "РЎРєРёРЅСѓС‚Рё Р·РЅР°С‡РѕРє"
   },
   "instance.edit-world.title": {
-    "message": "Редагувати світ"
+    "message": "Р РµРґР°РіСѓРІР°С‚Рё СЃРІС–С‚"
   },
   "instance.filter.disabled": {
-    "message": "Вимкнені проєкти"
+    "message": "Р’РёРјРєРЅРµРЅС– РїСЂРѕС”РєС‚Рё"
   },
   "instance.filter.updates-available": {
-    "message": "Оновлення доступні"
+    "message": "РћРЅРѕРІР»РµРЅРЅСЏ РґРѕСЃС‚СѓРїРЅС–"
   },
   "instance.server-modal.address": {
-    "message": "Адреса"
+    "message": "РђРґСЂРµСЃР°"
   },
   "instance.server-modal.name": {
-    "message": "Назва"
+    "message": "РќР°Р·РІР°"
   },
   "instance.server-modal.placeholder-name": {
-    "message": "Сервер Minecraft"
+    "message": "РЎРµСЂРІРµСЂ Minecraft"
   },
   "instance.server-modal.resource-pack": {
-    "message": "Пакет ресурсів"
+    "message": "РџР°РєРµС‚ СЂРµСЃСѓСЂСЃС–РІ"
   },
   "instance.settings.tabs.general": {
-    "message": "Загальні"
+    "message": "Р—Р°РіР°Р»СЊРЅС–"
   },
   "instance.settings.tabs.general.delete": {
-    "message": "Видалити профіль"
+    "message": "Р’РёРґР°Р»РёС‚Рё РїСЂРѕС„С–Р»СЊ"
   },
   "instance.settings.tabs.general.delete.button": {
-    "message": "Видалити профіль"
+    "message": "Р’РёРґР°Р»РёС‚Рё РїСЂРѕС„С–Р»СЊ"
   },
   "instance.settings.tabs.general.delete.description": {
-    "message": "Назавжди видаляє профіль з вашого пристрою, включно з вашими світами, налаштуваннями та всім установленим умістом. Будьте обережні, після видалення, відновити профіль буде неможливо."
+    "message": "РќР°Р·Р°РІР¶РґРё РІРёРґР°Р»СЏС” РїСЂРѕС„С–Р»СЊ Р· РІР°С€РѕРіРѕ РїСЂРёСЃС‚СЂРѕСЋ, РІРєР»СЋС‡РЅРѕ Р· РІР°С€РёРјРё СЃРІС–С‚Р°РјРё, РЅР°Р»Р°С€С‚СѓРІР°РЅРЅСЏРјРё С‚Р° РІСЃС–Рј СѓСЃС‚Р°РЅРѕРІР»РµРЅРёРј СѓРјС–СЃС‚РѕРј. Р‘СѓРґСЊС‚Рµ РѕР±РµСЂРµР¶РЅС–, РїС–СЃР»СЏ РІРёРґР°Р»РµРЅРЅСЏ, РІС–РґРЅРѕРІРёС‚Рё РїСЂРѕС„С–Р»СЊ Р±СѓРґРµ РЅРµРјРѕР¶Р»РёРІРѕ."
   },
   "instance.settings.tabs.general.deleting.button": {
-    "message": "Видалення…"
+    "message": "Р’РёРґР°Р»РµРЅРЅСЏвЂ¦"
   },
   "instance.settings.tabs.general.duplicate-button": {
-    "message": "Клонувати"
+    "message": "РљР»РѕРЅСѓРІР°С‚Рё"
   },
   "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
-    "message": "Неможливо клонувати під час установлення."
+    "message": "РќРµРјРѕР¶Р»РёРІРѕ РєР»РѕРЅСѓРІР°С‚Рё РїС–Рґ С‡Р°СЃ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ."
   },
   "instance.settings.tabs.general.duplicate-instance": {
-    "message": "Клонувати профіль"
+    "message": "РљР»РѕРЅСѓРІР°С‚Рё РїСЂРѕС„С–Р»СЊ"
   },
   "instance.settings.tabs.general.duplicate-instance.description": {
-    "message": "Створює копію профілю, включно зі світами, налаштуваннями, модами тощо."
+    "message": "РЎС‚РІРѕСЂСЋС” РєРѕРїС–СЋ РїСЂРѕС„С–Р»СЋ, РІРєР»СЋС‡РЅРѕ Р·С– СЃРІС–С‚Р°РјРё, РЅР°Р»Р°С€С‚СѓРІР°РЅРЅСЏРјРё, РјРѕРґР°РјРё С‚РѕС‰Рѕ."
   },
   "instance.settings.tabs.general.edit-icon": {
-    "message": "Редагувати значок"
+    "message": "Р РµРґР°РіСѓРІР°С‚Рё Р·РЅР°С‡РѕРє"
   },
   "instance.settings.tabs.general.edit-icon.remove": {
-    "message": "Прибрати значок"
+    "message": "РџСЂРёР±СЂР°С‚Рё Р·РЅР°С‡РѕРє"
   },
   "instance.settings.tabs.general.edit-icon.replace": {
-    "message": "Замінити значок"
+    "message": "Р—Р°РјС–РЅРёС‚Рё Р·РЅР°С‡РѕРє"
   },
   "instance.settings.tabs.general.edit-icon.select": {
-    "message": "Вибрати значок"
+    "message": "Р’РёР±СЂР°С‚Рё Р·РЅР°С‡РѕРє"
   },
   "instance.settings.tabs.general.library-groups": {
-    "message": "Групи бібліотеки"
+    "message": "Р“СЂСѓРїРё Р±С–Р±Р»С–РѕС‚РµРєРё"
   },
   "instance.settings.tabs.general.library-groups.create": {
-    "message": "Створити нову групу"
+    "message": "РЎС‚РІРѕСЂРёС‚Рё РЅРѕРІСѓ РіСЂСѓРїСѓ"
   },
   "instance.settings.tabs.general.library-groups.description": {
-    "message": "Групи бібліотеки дозволяють вам упорядковувати профілі в різні секції у вашій бібліотеці."
+    "message": "Р“СЂСѓРїРё Р±С–Р±Р»С–РѕС‚РµРєРё РґРѕР·РІРѕР»СЏСЋС‚СЊ РІР°Рј СѓРїРѕСЂСЏРґРєРѕРІСѓРІР°С‚Рё РїСЂРѕС„С–Р»С– РІ СЂС–Р·РЅС– СЃРµРєС†С–С— Сѓ РІР°С€С–Р№ Р±С–Р±Р»С–РѕС‚РµС†С–."
   },
   "instance.settings.tabs.general.library-groups.enter-name": {
-    "message": "Уведіть назву групи"
+    "message": "РЈРІРµРґС–С‚СЊ РЅР°Р·РІСѓ РіСЂСѓРїРё"
   },
   "instance.settings.tabs.general.name": {
-    "message": "Назва"
+    "message": "РќР°Р·РІР°"
   },
   "instance.settings.tabs.hooks": {
-    "message": "Гуки запуску"
+    "message": "Р“СѓРєРё Р·Р°РїСѓСЃРєСѓ"
   },
   "instance.settings.tabs.hooks.custom-hooks": {
-    "message": "Користувацькі гуки запуску"
+    "message": "РљРѕСЂРёСЃС‚СѓРІР°С†СЊРєС– РіСѓРєРё Р·Р°РїСѓСЃРєСѓ"
   },
   "instance.settings.tabs.hooks.description": {
-    "message": "Гуки дозволяють досвідченим користувачам використовувати певні системні команди до та після запуску гри."
+    "message": "Р“СѓРєРё РґРѕР·РІРѕР»СЏСЋС‚СЊ РґРѕСЃРІС–РґС‡РµРЅРёРј РєРѕСЂРёСЃС‚СѓРІР°С‡Р°Рј РІРёРєРѕСЂРёСЃС‚РѕРІСѓРІР°С‚Рё РїРµРІРЅС– СЃРёСЃС‚РµРјРЅС– РєРѕРјР°РЅРґРё РґРѕ С‚Р° РїС–СЃР»СЏ Р·Р°РїСѓСЃРєСѓ РіСЂРё."
   },
   "instance.settings.tabs.hooks.post-exit": {
-    "message": "Після виходу"
+    "message": "РџС–СЃР»СЏ РІРёС…РѕРґСѓ"
   },
   "instance.settings.tabs.hooks.post-exit.description": {
-    "message": "Запускається після закриття гри."
+    "message": "Р—Р°РїСѓСЃРєР°С”С‚СЊСЃСЏ РїС–СЃР»СЏ Р·Р°РєСЂРёС‚С‚СЏ РіСЂРё."
   },
   "instance.settings.tabs.hooks.post-exit.enter": {
-    "message": "Уведіть команду, що виконуватиметься після виходу…"
+    "message": "РЈРІРµРґС–С‚СЊ РєРѕРјР°РЅРґСѓ, С‰Рѕ РІРёРєРѕРЅСѓРІР°С‚РёРјРµС‚СЊСЃСЏ РїС–СЃР»СЏ РІРёС…РѕРґСѓвЂ¦"
   },
   "instance.settings.tabs.hooks.pre-launch": {
-    "message": "Перед запуском"
+    "message": "РџРµСЂРµРґ Р·Р°РїСѓСЃРєРѕРј"
   },
   "instance.settings.tabs.hooks.pre-launch.description": {
-    "message": "Запускається перед відкриттям профілю."
+    "message": "Р—Р°РїСѓСЃРєР°С”С‚СЊСЃСЏ РїРµСЂРµРґ РІС–РґРєСЂРёС‚С‚СЏРј РїСЂРѕС„С–Р»СЋ."
   },
   "instance.settings.tabs.hooks.pre-launch.enter": {
-    "message": "Уведіть команду, що виконуватиметься перед запуском…"
+    "message": "РЈРІРµРґС–С‚СЊ РєРѕРјР°РЅРґСѓ, С‰Рѕ РІРёРєРѕРЅСѓРІР°С‚РёРјРµС‚СЊСЃСЏ РїРµСЂРµРґ Р·Р°РїСѓСЃРєРѕРјвЂ¦"
   },
   "instance.settings.tabs.hooks.title": {
-    "message": "Гуки запуску гри"
+    "message": "Р“СѓРєРё Р·Р°РїСѓСЃРєСѓ РіСЂРё"
   },
   "instance.settings.tabs.hooks.wrapper": {
-    "message": "Враппер"
+    "message": "Р’СЂР°РїРїРµСЂ"
   },
   "instance.settings.tabs.hooks.wrapper.description": {
-    "message": "Обгортальна команда для запуску Minecraft."
+    "message": "РћР±РіРѕСЂС‚Р°Р»СЊРЅР° РєРѕРјР°РЅРґР° РґР»СЏ Р·Р°РїСѓСЃРєСѓ Minecraft."
   },
   "instance.settings.tabs.hooks.wrapper.enter": {
-    "message": "Уведіть обгортальну команду…"
+    "message": "РЈРІРµРґС–С‚СЊ РѕР±РіРѕСЂС‚Р°Р»СЊРЅСѓ РєРѕРјР°РЅРґСѓвЂ¦"
   },
   "instance.settings.tabs.installation": {
-    "message": "Інсталяція"
+    "message": "Р†РЅСЃС‚Р°Р»СЏС†С–СЏ"
   },
   "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "{platform} {version} для Minecraft {game_version} вже встановлено"
+    "message": "{platform} {version} РґР»СЏ Minecraft {game_version} РІР¶Рµ РІСЃС‚Р°РЅРѕРІР»РµРЅРѕ"
   },
   "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "Ванільна {game_version} вже встановлена"
+    "message": "Р’Р°РЅС–Р»СЊРЅР° {game_version} РІР¶Рµ РІСЃС‚Р°РЅРѕРІР»РµРЅР°"
   },
   "instance.settings.tabs.installation.change-version.button": {
-    "message": "Змінити версію"
+    "message": "Р—РјС–РЅРёС‚Рё РІРµСЂСЃС–СЋ"
   },
   "instance.settings.tabs.installation.change-version.button.install": {
-    "message": "Установити"
+    "message": "РЈСЃС‚Р°РЅРѕРІРёС‚Рё"
   },
   "instance.settings.tabs.installation.change-version.button.installing": {
-    "message": "Установлення"
+    "message": "РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ"
   },
   "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "Отримання версій збірки"
+    "message": "РћС‚СЂРёРјР°РЅРЅСЏ РІРµСЂСЃС–Р№ Р·Р±С–СЂРєРё"
   },
   "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "Установлення нової версії"
+    "message": "РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ РЅРѕРІРѕС— РІРµСЂСЃС–С—"
   },
   "instance.settings.tabs.installation.currently-installed": {
-    "message": "Наразі встановлено"
+    "message": "РќР°СЂР°Р·С– РІСЃС‚Р°РЅРѕРІР»РµРЅРѕ"
   },
   "instance.settings.tabs.installation.debug-information": {
-    "message": "Інформація налагодження:"
+    "message": "Р†РЅС„РѕСЂРјР°С†С–СЏ РЅР°Р»Р°РіРѕРґР¶РµРЅРЅСЏ:"
   },
   "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "Отримання деталей збірки"
+    "message": "РћС‚СЂРёРјР°РЅРЅСЏ РґРµС‚Р°Р»РµР№ Р·Р±С–СЂРєРё"
   },
   "instance.settings.tabs.installation.game-version": {
-    "message": "Версія гри"
+    "message": "Р’РµСЂСЃС–СЏ РіСЂРё"
   },
   "instance.settings.tabs.installation.install": {
-    "message": "Установити"
+    "message": "РЈСЃС‚Р°РЅРѕРІРёС‚Рё"
   },
   "instance.settings.tabs.installation.install.in-progress": {
-    "message": "Установлення триває"
+    "message": "РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ С‚СЂРёРІР°С”"
   },
   "instance.settings.tabs.installation.loader-version": {
-    "message": "Версія {loader}"
+    "message": "Р’РµСЂСЃС–СЏ {loader}"
   },
   "instance.settings.tabs.installation.minecraft-version": {
     "message": "Minecraft {version}"
   },
   "instance.settings.tabs.installation.no-connection": {
-    "message": "Не вдається отримати деталі пов’язаної збірки. Будь ласка, перевірте ваше з’єднання з інтернетом."
+    "message": "РќРµ РІРґР°С”С‚СЊСЃСЏ РѕС‚СЂРёРјР°С‚Рё РґРµС‚Р°Р»С– РїРѕРІвЂ™СЏР·Р°РЅРѕС— Р·Р±С–СЂРєРё. Р‘СѓРґСЊ Р»Р°СЃРєР°, РїРµСЂРµРІС–СЂС‚Рµ РІР°С€Рµ Р·вЂ™С”РґРЅР°РЅРЅСЏ Р· С–РЅС‚РµСЂРЅРµС‚РѕРј."
   },
   "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader} недоступний для Minecraft {version}. Спробуйте інший завантажувач модів."
+    "message": "{loader} РЅРµРґРѕСЃС‚СѓРїРЅРёР№ РґР»СЏ Minecraft {version}. РЎРїСЂРѕР±СѓР№С‚Рµ С–РЅС€РёР№ Р·Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡ РјРѕРґС–РІ."
   },
   "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "Цей профіль пов’язаний зі збіркою, проте саму збірку не вдалося знайти на Modrinth."
+    "message": "Р¦РµР№ РїСЂРѕС„С–Р»СЊ РїРѕРІвЂ™СЏР·Р°РЅРёР№ Р·С– Р·Р±С–СЂРєРѕСЋ, РїСЂРѕС‚Рµ СЃР°РјСѓ Р·Р±С–СЂРєСѓ РЅРµ РІРґР°Р»РѕСЃСЏ Р·РЅР°Р№С‚Рё РЅР° Modrinth."
   },
   "instance.settings.tabs.installation.platform": {
-    "message": "Платформа"
+    "message": "РџР»Р°С‚С„РѕСЂРјР°"
   },
   "instance.settings.tabs.installation.reinstall.button": {
-    "message": "Перевстановити збірку"
+    "message": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІРёС‚Рё Р·Р±С–СЂРєСѓ"
   },
   "instance.settings.tabs.installation.reinstall.button.reinstalling": {
-    "message": "Перевстановлення збірки"
+    "message": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ Р·Р±С–СЂРєРё"
   },
   "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "Перевстановлення скине ввесь доданий або модифікований уміст до наданого збіркою, прибираючи будь-які додатково встановлені вами моди чи вміст. Якщо ви змінювали профіль, це може виправити непередбачувану поведінку, однак, якщо ваші світи залежать від додаткового вмісту, світи можуть пошкодитися."
+    "message": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ СЃРєРёРЅРµ РІРІРµСЃСЊ РґРѕРґР°РЅРёР№ Р°Р±Рѕ РјРѕРґРёС„С–РєРѕРІР°РЅРёР№ СѓРјС–СЃС‚ РґРѕ РЅР°РґР°РЅРѕРіРѕ Р·Р±С–СЂРєРѕСЋ, РїСЂРёР±РёСЂР°СЋС‡Рё Р±СѓРґСЊ-СЏРєС– РґРѕРґР°С‚РєРѕРІРѕ РІСЃС‚Р°РЅРѕРІР»РµРЅС– РІР°РјРё РјРѕРґРё С‡Рё РІРјС–СЃС‚. РЇРєС‰Рѕ РІРё Р·РјС–РЅСЋРІР°Р»Рё РїСЂРѕС„С–Р»СЊ, С†Рµ РјРѕР¶Рµ РІРёРїСЂР°РІРёС‚Рё РЅРµРїРµСЂРµРґР±Р°С‡СѓРІР°РЅСѓ РїРѕРІРµРґС–РЅРєСѓ, РѕРґРЅР°Рє, СЏРєС‰Рѕ РІР°С€С– СЃРІС–С‚Рё Р·Р°Р»РµР¶Р°С‚СЊ РІС–Рґ РґРѕРґР°С‚РєРѕРІРѕРіРѕ РІРјС–СЃС‚Сѓ, СЃРІС–С‚Рё РјРѕР¶СѓС‚СЊ РїРѕС€РєРѕРґРёС‚РёСЃСЏ."
   },
   "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "Ви впевнені, що хочете перевстановити цей профіль?"
+    "message": "Р’Рё РІРїРµРІРЅРµРЅС–, С‰Рѕ С…РѕС‡РµС‚Рµ РїРµСЂРµРІСЃС‚Р°РЅРѕРІРёС‚Рё С†РµР№ РїСЂРѕС„С–Р»СЊ?"
   },
   "instance.settings.tabs.installation.reinstall.description": {
-    "message": "Скидає вміст профілю до початкового стану, прибираючи будь-які моди чи вміст, що було додано поверх оригінальної збірки."
+    "message": "РЎРєРёРґР°С” РІРјС–СЃС‚ РїСЂРѕС„С–Р»СЋ РґРѕ РїРѕС‡Р°С‚РєРѕРІРѕРіРѕ СЃС‚Р°РЅСѓ, РїСЂРёР±РёСЂР°СЋС‡Рё Р±СѓРґСЊ-СЏРєС– РјРѕРґРё С‡Рё РІРјС–СЃС‚, С‰Рѕ Р±СѓР»Рѕ РґРѕРґР°РЅРѕ РїРѕРІРµСЂС… РѕСЂРёРіС–РЅР°Р»СЊРЅРѕС— Р·Р±С–СЂРєРё."
   },
   "instance.settings.tabs.installation.reinstall.title": {
-    "message": "Перевстановити збірку"
+    "message": "РџРµСЂРµРІСЃС‚Р°РЅРѕРІРёС‚Рё Р·Р±С–СЂРєСѓ"
   },
   "instance.settings.tabs.installation.repair.button": {
-    "message": "Полагодити"
+    "message": "РџРѕР»Р°РіРѕРґРёС‚Рё"
   },
   "instance.settings.tabs.installation.repair.button.repairing": {
-    "message": "Лагодження"
+    "message": "Р›Р°РіРѕРґР¶РµРЅРЅСЏ"
   },
   "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "Відновлення перевстановлює залежності Minecraft та перевіряє їх на наявність пошкоджень. Це може розв’язати проблеми, якщо ваша гра не запускається через помилки запускача, але не розв’яже проблеми або збої, пов’язані зі встановленими модами."
+    "message": "Р’С–РґРЅРѕРІР»РµРЅРЅСЏ РїРµСЂРµРІСЃС‚Р°РЅРѕРІР»СЋС” Р·Р°Р»РµР¶РЅРѕСЃС‚С– Minecraft С‚Р° РїРµСЂРµРІС–СЂСЏС” С—С… РЅР° РЅР°СЏРІРЅС–СЃС‚СЊ РїРѕС€РєРѕРґР¶РµРЅСЊ. Р¦Рµ РјРѕР¶Рµ СЂРѕР·РІвЂ™СЏР·Р°С‚Рё РїСЂРѕР±Р»РµРјРё, СЏРєС‰Рѕ РІР°С€Р° РіСЂР° РЅРµ Р·Р°РїСѓСЃРєР°С”С‚СЊСЃСЏ С‡РµСЂРµР· РїРѕРјРёР»РєРё Р·Р°РїСѓСЃРєР°С‡Р°, Р°Р»Рµ РЅРµ СЂРѕР·РІвЂ™СЏР¶Рµ РїСЂРѕР±Р»РµРјРё Р°Р±Рѕ Р·Р±РѕС—, РїРѕРІвЂ™СЏР·Р°РЅС– Р·С– РІСЃС‚Р°РЅРѕРІР»РµРЅРёРјРё РјРѕРґР°РјРё."
   },
   "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "Відновити профіль?"
+    "message": "Р’С–РґРЅРѕРІРёС‚Рё РїСЂРѕС„С–Р»СЊ?"
   },
   "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "Лагодження триває"
+    "message": "Р›Р°РіРѕРґР¶РµРЅРЅСЏ С‚СЂРёРІР°С”"
   },
   "instance.settings.tabs.installation.reset-selections": {
-    "message": "Скинути до поточного"
+    "message": "РЎРєРёРЅСѓС‚Рё РґРѕ РїРѕС‚РѕС‡РЅРѕРіРѕ"
   },
   "instance.settings.tabs.installation.show-all-versions": {
-    "message": "Показати всі версії"
+    "message": "РџРѕРєР°Р·Р°С‚Рё РІСЃС– РІРµСЂСЃС–С—"
   },
   "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "змінити версію"
+    "message": "Р·РјС–РЅРёС‚Рё РІРµСЂСЃС–СЋ"
   },
   "instance.settings.tabs.installation.tooltip.action.install": {
-    "message": "установити"
+    "message": "СѓСЃС‚Р°РЅРѕРІРёС‚Рё"
   },
   "instance.settings.tabs.installation.tooltip.action.reinstall": {
-    "message": "перевстановити"
+    "message": "РїРµСЂРµРІСЃС‚Р°РЅРѕРІРёС‚Рё"
   },
   "instance.settings.tabs.installation.tooltip.action.repair": {
-    "message": "полагодити"
+    "message": "РїРѕР»Р°РіРѕРґРёС‚Рё"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "Неможливо {action} під час установлення"
+    "message": "РќРµРјРѕР¶Р»РёРІРѕ {action} РїС–Рґ С‡Р°СЃ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅСЏ"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
-    "message": "Неможливо {action} без з’єднання з інтернетом"
+    "message": "РќРµРјРѕР¶Р»РёРІРѕ {action} Р±РµР· Р·вЂ™С”РґРЅР°РЅРЅСЏ Р· С–РЅС‚РµСЂРЅРµС‚РѕРј"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "Неможливо {action} під час лагодження"
+    "message": "РќРµРјРѕР¶Р»РёРІРѕ {action} РїС–Рґ С‡Р°СЃ Р»Р°РіРѕРґР¶РµРЅРЅСЏ"
   },
   "instance.settings.tabs.installation.unknown-version": {
-    "message": "(невідома версія)"
+    "message": "(РЅРµРІС–РґРѕРјР° РІРµСЂСЃС–СЏ)"
   },
   "instance.settings.tabs.installation.unlink.button": {
-    "message": "Відв’язати профіль"
+    "message": "Р’С–РґРІвЂ™СЏР·Р°С‚Рё РїСЂРѕС„С–Р»СЊ"
   },
   "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "Якщо ви продовжите, ви не зможете повторно підв’язати його без створення повністю нового профілю. Ви більше не будете отримувати оновлення збірки та цей профіль стане звичайним."
+    "message": "РЇРєС‰Рѕ РІРё РїСЂРѕРґРѕРІР¶РёС‚Рµ, РІРё РЅРµ Р·РјРѕР¶РµС‚Рµ РїРѕРІС‚РѕСЂРЅРѕ РїС–РґРІвЂ™СЏР·Р°С‚Рё Р№РѕРіРѕ Р±РµР· СЃС‚РІРѕСЂРµРЅРЅСЏ РїРѕРІРЅС–СЃС‚СЋ РЅРѕРІРѕРіРѕ РїСЂРѕС„С–Р»СЋ. Р’Рё Р±С–Р»СЊС€Рµ РЅРµ Р±СѓРґРµС‚Рµ РѕС‚СЂРёРјСѓРІР°С‚Рё РѕРЅРѕРІР»РµРЅРЅСЏ Р·Р±С–СЂРєРё С‚Р° С†РµР№ РїСЂРѕС„С–Р»СЊ СЃС‚Р°РЅРµ Р·РІРёС‡Р°Р№РЅРёРј."
   },
   "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "Ви впевнені, що хочете відв’язати цей профіль?"
+    "message": "Р’Рё РІРїРµРІРЅРµРЅС–, С‰Рѕ С…РѕС‡РµС‚Рµ РІС–РґРІвЂ™СЏР·Р°С‚Рё С†РµР№ РїСЂРѕС„С–Р»СЊ?"
   },
   "instance.settings.tabs.installation.unlink.description": {
-    "message": "Цей профіль пов’язаний зі збіркою, тобто, не можна оновлювати моди та не можна змінювати завантажувач чи версію Minecraft. Відв’язання призведе до остаточного від’єднання цього профілю від збірки."
+    "message": "Р¦РµР№ РїСЂРѕС„С–Р»СЊ РїРѕРІвЂ™СЏР·Р°РЅРёР№ Р·С– Р·Р±С–СЂРєРѕСЋ, С‚РѕР±С‚Рѕ, РЅРµ РјРѕР¶РЅР° РѕРЅРѕРІР»СЋРІР°С‚Рё РјРѕРґРё С‚Р° РЅРµ РјРѕР¶РЅР° Р·РјС–РЅСЋРІР°С‚Рё Р·Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡ С‡Рё РІРµСЂСЃС–СЋ Minecraft. Р’С–РґРІвЂ™СЏР·Р°РЅРЅСЏ РїСЂРёР·РІРµРґРµ РґРѕ РѕСЃС‚Р°С‚РѕС‡РЅРѕРіРѕ РІС–РґвЂ™С”РґРЅР°РЅРЅСЏ С†СЊРѕРіРѕ РїСЂРѕС„С–Р»СЋ РІС–Рґ Р·Р±С–СЂРєРё."
   },
   "instance.settings.tabs.installation.unlink.title": {
-    "message": "Відв’язати від збірки"
+    "message": "Р’С–РґРІвЂ™СЏР·Р°С‚Рё РІС–Рґ Р·Р±С–СЂРєРё"
   },
   "instance.settings.tabs.java": {
-    "message": "Java та пам’ять"
+    "message": "Java С‚Р° РїР°РјвЂ™СЏС‚СЊ"
   },
   "instance.settings.tabs.java.environment-variables": {
-    "message": "Змінні середовища"
+    "message": "Р—РјС–РЅРЅС– СЃРµСЂРµРґРѕРІРёС‰Р°"
   },
   "instance.settings.tabs.java.hooks": {
-    "message": "Гуки"
+    "message": "Р“СѓРєРё"
   },
   "instance.settings.tabs.java.java-arguments": {
-    "message": "Аргументи Java"
+    "message": "РђСЂРіСѓРјРµРЅС‚Рё Java"
   },
   "instance.settings.tabs.java.java-installation": {
-    "message": "Інсталяції Java"
+    "message": "Р†РЅСЃС‚Р°Р»СЏС†С–С— Java"
   },
   "instance.settings.tabs.java.java-memory": {
-    "message": "Виділена пам’ять"
+    "message": "Р’РёРґС–Р»РµРЅР° РїР°РјвЂ™СЏС‚СЊ"
   },
   "instance.settings.tabs.window": {
-    "message": "Вікно"
+    "message": "Р’С–РєРЅРѕ"
   },
   "instance.settings.tabs.window.custom-window-settings": {
-    "message": "Користувацькі налаштування вікна"
+    "message": "РљРѕСЂРёСЃС‚СѓРІР°С†СЊРєС– РЅР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ РІС–РєРЅР°"
   },
   "instance.settings.tabs.window.fullscreen": {
-    "message": "Повний екран"
+    "message": "РџРѕРІРЅРёР№ РµРєСЂР°РЅ"
   },
   "instance.settings.tabs.window.fullscreen.description": {
-    "message": "Запускати гру в повноекранному режимі (за допомогою options.txt)."
+    "message": "Р—Р°РїСѓСЃРєР°С‚Рё РіСЂСѓ РІ РїРѕРІРЅРѕРµРєСЂР°РЅРЅРѕРјСѓ СЂРµР¶РёРјС– (Р·Р° РґРѕРїРѕРјРѕРіРѕСЋ options.txt)."
   },
   "instance.settings.tabs.window.height": {
-    "message": "Висота"
+    "message": "Р’РёСЃРѕС‚Р°"
   },
   "instance.settings.tabs.window.height.description": {
-    "message": "Висота ігрового вікна під час запуску."
+    "message": "Р’РёСЃРѕС‚Р° С–РіСЂРѕРІРѕРіРѕ РІС–РєРЅР° РїС–Рґ С‡Р°СЃ Р·Р°РїСѓСЃРєСѓ."
   },
   "instance.settings.tabs.window.height.enter": {
-    "message": "Уведіть висоту…"
+    "message": "РЈРІРµРґС–С‚СЊ РІРёСЃРѕС‚СѓвЂ¦"
   },
   "instance.settings.tabs.window.width": {
-    "message": "Ширина"
+    "message": "РЁРёСЂРёРЅР°"
   },
   "instance.settings.tabs.window.width.description": {
-    "message": "Ширина ігрового вікна під час запуску."
+    "message": "РЁРёСЂРёРЅР° С–РіСЂРѕРІРѕРіРѕ РІС–РєРЅР° РїС–Рґ С‡Р°СЃ Р·Р°РїСѓСЃРєСѓ."
   },
   "instance.settings.tabs.window.width.enter": {
-    "message": "Уведіть ширину…"
+    "message": "РЈРІРµРґС–С‚СЊ С€РёСЂРёРЅСѓвЂ¦"
   },
   "instance.worlds.a_minecraft_server": {
-    "message": "Сервер Minecraft"
+    "message": "РЎРµСЂРІРµСЂ Minecraft"
   },
   "instance.worlds.cant_connect": {
-    "message": "Неможливо під’єднатися до сервера"
+    "message": "РќРµРјРѕР¶Р»РёРІРѕ РїС–РґвЂ™С”РґРЅР°С‚РёСЃСЏ РґРѕ СЃРµСЂРІРµСЂР°"
   },
   "instance.worlds.copy_address": {
-    "message": "Скопіювати адресу"
+    "message": "РЎРєРѕРїС–СЋРІР°С‚Рё Р°РґСЂРµСЃСѓ"
   },
   "instance.worlds.dont_show_on_home": {
-    "message": "Не показувати на головній"
+    "message": "РќРµ РїРѕРєР°Р·СѓРІР°С‚Рё РЅР° РіРѕР»РѕРІРЅС–Р№"
   },
   "instance.worlds.filter.available": {
-    "message": "Доступно"
+    "message": "Р”РѕСЃС‚СѓРїРЅРѕ"
   },
   "instance.worlds.game_already_open": {
-    "message": "Профіль вже запущений"
+    "message": "РџСЂРѕС„С–Р»СЊ РІР¶Рµ Р·Р°РїСѓС‰РµРЅРёР№"
   },
   "instance.worlds.hardcore": {
-    "message": "Режим гардкору"
+    "message": "Р РµР¶РёРј РіР°СЂРґРєРѕСЂСѓ"
   },
   "instance.worlds.incompatible_server": {
-    "message": "Сервер несумісний"
+    "message": "РЎРµСЂРІРµСЂ РЅРµСЃСѓРјС–СЃРЅРёР№"
   },
   "instance.worlds.no_contact": {
-    "message": "Не вдалося зв’язатися зі сервером"
+    "message": "РќРµ РІРґР°Р»РѕСЃСЏ Р·РІвЂ™СЏР·Р°С‚РёСЃСЏ Р·С– СЃРµСЂРІРµСЂРѕРј"
   },
   "instance.worlds.no_server_quick_play": {
-    "message": "Запускатися у сервери напряму можливо лише починаючи з версії Minecraft Alpha 1.0.5"
+    "message": "Р—Р°РїСѓСЃРєР°С‚РёСЃСЏ Сѓ СЃРµСЂРІРµСЂРё РЅР°РїСЂСЏРјСѓ РјРѕР¶Р»РёРІРѕ Р»РёС€Рµ РїРѕС‡РёРЅР°СЋС‡Рё Р· РІРµСЂСЃС–С— Minecraft Alpha 1.0.5"
   },
   "instance.worlds.no_singleplayer_quick_play": {
-    "message": "Запускатися у світи напряму можливо лише починаючи з версії Minecraft 1.20"
+    "message": "Р—Р°РїСѓСЃРєР°С‚РёСЃСЏ Сѓ СЃРІС–С‚Рё РЅР°РїСЂСЏРјСѓ РјРѕР¶Р»РёРІРѕ Р»РёС€Рµ РїРѕС‡РёРЅР°СЋС‡Рё Р· РІРµСЂСЃС–С— Minecraft 1.20"
   },
   "instance.worlds.play_instance": {
-    "message": "Грати у профіль"
+    "message": "Р“СЂР°С‚Рё Сѓ РїСЂРѕС„С–Р»СЊ"
   },
   "instance.worlds.type.server": {
-    "message": "Сервер"
+    "message": "РЎРµСЂРІРµСЂ"
   },
   "instance.worlds.type.singleplayer": {
-    "message": "Гра наодинці"
+    "message": "Р“СЂР° РЅР°РѕРґРёРЅС†С–"
   },
   "instance.worlds.view_instance": {
-    "message": "Переглянути профіль"
+    "message": "РџРµСЂРµРіР»СЏРЅСѓС‚Рё РїСЂРѕС„С–Р»СЊ"
   },
   "instance.worlds.world_in_use": {
-    "message": "Світ наразі використовується"
+    "message": "РЎРІС–С‚ РЅР°СЂР°Р·С– РІРёРєРѕСЂРёСЃС‚РѕРІСѓС”С‚СЊСЃСЏ"
   },
   "search.filter.locked.instance": {
-    "message": "Надано профілем"
+    "message": "РќР°РґР°РЅРѕ РїСЂРѕС„С–Р»РµРј"
   },
   "search.filter.locked.instance-game-version.title": {
-    "message": "Версія гри надана профілем"
+    "message": "Р’РµСЂСЃС–СЏ РіСЂРё РЅР°РґР°РЅР° РїСЂРѕС„С–Р»РµРј"
   },
   "search.filter.locked.instance-loader.title": {
-    "message": "Завантажувач наданий профілем"
+    "message": "Р—Р°РІР°РЅС‚Р°Р¶СѓРІР°С‡ РЅР°РґР°РЅРёР№ РїСЂРѕС„С–Р»РµРј"
   },
   "search.filter.locked.instance.sync": {
-    "message": "Синхронізувати з профілем"
+    "message": "РЎРёРЅС…СЂРѕРЅС–Р·СѓРІР°С‚Рё Р· РїСЂРѕС„С–Р»РµРј"
   }
 }

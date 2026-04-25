@@ -1,539 +1,539 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
-    "message": "Minecraft の認証サーバーは現在停止している可能性があります。インターネット接続を確認し、しばらくしてからもう一度お試しください。"
+    "message": "Minecraft гЃ®иЄЌиЁјг‚µгѓјгѓђгѓјгЃЇзЏѕењЁеЃњж­ўгЃ—гЃ¦гЃ„г‚‹еЏЇиѓЅжЂ§гЃЊгЃ‚г‚ЉгЃѕгЃ™гЂ‚г‚¤гѓіг‚їгѓјгѓЌгѓѓгѓ€жЋҐз¶љг‚’зўєиЄЌгЃ—гЂЃгЃ—гЃ°г‚‰гЃЏгЃ—гЃ¦гЃ‹г‚‰г‚‚гЃ†дёЂеє¦гЃЉи©¦гЃ—гЃЏгЃ гЃ•гЃ„гЂ‚"
   },
   "app.auth-servers.unreachable.header": {
-    "message": "認証サーバーにアクセスできません"
+    "message": "иЄЌиЁјг‚µгѓјгѓђгѓјгЃ«г‚ўг‚Їг‚»г‚№гЃ§гЃЌгЃѕгЃ›г‚“"
   },
   "app.settings.developer-mode-enabled": {
-    "message": "開発者モードがオンになっています。"
+    "message": "й–‹з™єиЂ…гѓўгѓјгѓ‰гЃЊг‚ЄгѓігЃ«гЃЄгЃЈгЃ¦гЃ„гЃѕгЃ™гЂ‚"
   },
   "app.settings.downloading": {
-    "message": "v{version}をダウンロード中"
+    "message": "v{version}г‚’гѓЂг‚¦гѓігѓ­гѓјгѓ‰дё­"
   },
   "app.settings.tabs.appearance": {
-    "message": "表示設定"
+    "message": "иЎЁз¤єиЁ­е®љ"
   },
   "app.settings.tabs.default-instance-options": {
-    "message": "インスタンスの基本設定"
+    "message": "г‚¤гѓіг‚№г‚їгѓіг‚№гЃ®еџєжњ¬иЁ­е®љ"
   },
   "app.settings.tabs.feature-flags": {
-    "message": "機能設定"
+    "message": "ж©џиѓЅиЁ­е®љ"
   },
   "app.settings.tabs.java-installations": {
-    "message": "Javaのインストール設定"
+    "message": "JavaгЃ®г‚¤гѓіг‚№гѓ€гѓјгѓ«иЁ­е®љ"
   },
   "app.settings.tabs.language": {
-    "message": "言語"
+    "message": "иЁЂиЄћ"
   },
   "app.settings.tabs.privacy": {
-    "message": "プライバシー設定"
+    "message": "гѓ—гѓ©г‚¤гѓђг‚·гѓјиЁ­е®љ"
   },
   "app.settings.tabs.resource-management": {
-    "message": "リソース管理"
+    "message": "гѓЄг‚Ѕгѓјг‚№з®Ўзђ†"
   },
   "app.update-toast.body": {
-    "message": "Modrinth App v{version}のインストールの準備ができました。再起動して今すぐ更新するか、アプリを閉じた際に自動で更新されます。"
+    "message": "Mist Launcher v{version}гЃ®г‚¤гѓіг‚№гѓ€гѓјгѓ«гЃ®жє–е‚™гЃЊгЃ§гЃЌгЃѕгЃ—гЃџгЂ‚е†Ќиµ·е‹•гЃ—гЃ¦д»ЉгЃ™гЃђж›ґж–°гЃ™г‚‹гЃ‹гЂЃг‚ўгѓ—гѓЄг‚’й–‰гЃгЃџйљ›гЃ«и‡Єе‹•гЃ§ж›ґж–°гЃ•г‚ЊгЃѕгЃ™гЂ‚"
   },
   "app.update-toast.body.download-complete": {
-    "message": "Modrinth App v{version}のダウンロードが完了しました。再起動して今すぐ更新するか、アプリを閉じた際に自動で更新されます。"
+    "message": "Mist Launcher v{version}гЃ®гѓЂг‚¦гѓігѓ­гѓјгѓ‰гЃЊе®Њдє†гЃ—гЃѕгЃ—гЃџгЂ‚е†Ќиµ·е‹•гЃ—гЃ¦д»ЉгЃ™гЃђж›ґж–°гЃ™г‚‹гЃ‹гЂЃг‚ўгѓ—гѓЄг‚’й–‰гЃгЃџйљ›гЃ«и‡Єе‹•гЃ§ж›ґж–°гЃ•г‚ЊгЃѕгЃ™гЂ‚"
   },
   "app.update-toast.body.linux": {
-    "message": "Modrinth App v{version} が利用可能です。最新の機能と修正プログラムを入手するには、パッケージマネージャーを使用して更新してください！"
+    "message": "Mist Launcher v{version} гЃЊе€©з”ЁеЏЇиѓЅгЃ§гЃ™гЂ‚жњЂж–°гЃ®ж©џиѓЅгЃЁдї®ж­Јгѓ—гѓ­г‚°гѓ©гѓ г‚’е…Ґж‰‹гЃ™г‚‹гЃ«гЃЇгЂЃгѓ‘гѓѓг‚±гѓјг‚ёгѓћгѓЌгѓјг‚ёгѓЈгѓјг‚’дЅїз”ЁгЃ—гЃ¦ж›ґж–°гЃ—гЃ¦гЃЏгЃ гЃ•гЃ„пјЃ"
   },
   "app.update-toast.body.metered": {
-    "message": "Modrinth App v{version}は今すぐダウンロードできます。従量課金制ネットワークを使用しているため自動ダウンロードはされていません。"
+    "message": "Mist Launcher v{version}гЃЇд»ЉгЃ™гЃђгѓЂг‚¦гѓігѓ­гѓјгѓ‰гЃ§гЃЌгЃѕгЃ™гЂ‚еѕ“й‡ЏиЄІй‡‘е€¶гѓЌгѓѓгѓ€гѓЇгѓјг‚Їг‚’дЅїз”ЁгЃ—гЃ¦гЃ„г‚‹гЃџг‚Ѓи‡Єе‹•гѓЂг‚¦гѓігѓ­гѓјгѓ‰гЃЇгЃ•г‚ЊгЃ¦гЃ„гЃѕгЃ›г‚“гЂ‚"
   },
   "app.update-toast.changelog": {
-    "message": "更新履歴"
+    "message": "ж›ґж–°е±Ґж­ґ"
   },
   "app.update-toast.download": {
-    "message": "ダウンロード ({size})"
+    "message": "гѓЂг‚¦гѓігѓ­гѓјгѓ‰ ({size})"
   },
   "app.update-toast.download-page": {
-    "message": "ダウンロード"
+    "message": "гѓЂг‚¦гѓігѓ­гѓјгѓ‰"
   },
   "app.update-toast.downloading": {
-    "message": "ダウンロード中..."
+    "message": "гѓЂг‚¦гѓігѓ­гѓјгѓ‰дё­..."
   },
   "app.update-toast.reload": {
-    "message": "再起動"
+    "message": "е†Ќиµ·е‹•"
   },
   "app.update-toast.title": {
-    "message": "アップデートが利用可能です"
+    "message": "г‚ўгѓѓгѓ—гѓ‡гѓјгѓ€гЃЊе€©з”ЁеЏЇиѓЅгЃ§гЃ™"
   },
   "app.update-toast.title.download-complete": {
-    "message": "ダウンロード完了"
+    "message": "гѓЂг‚¦гѓігѓ­гѓјгѓ‰е®Њдє†"
   },
   "app.update.complete-toast.text": {
-    "message": "クリックすると更新履歴を表示できます。"
+    "message": "г‚ЇгѓЄгѓѓг‚ЇгЃ™г‚‹гЃЁж›ґж–°е±Ґж­ґг‚’иЎЁз¤єгЃ§гЃЌгЃѕгЃ™гЂ‚"
   },
   "app.update.complete-toast.title": {
-    "message": "バージョン {version} が正常にインストールされました！"
+    "message": "гѓђгѓјг‚ёгѓ§гѓі {version} гЃЊж­ЈеёёгЃ«г‚¤гѓіг‚№гѓ€гѓјгѓ«гЃ•г‚ЊгЃѕгЃ—гЃџпјЃ"
   },
   "app.update.download-update": {
-    "message": "アップデートをダウンロード"
+    "message": "г‚ўгѓѓгѓ—гѓ‡гѓјгѓ€г‚’гѓЂг‚¦гѓігѓ­гѓјгѓ‰"
   },
   "app.update.downloading-update": {
-    "message": "アップデートをダウンロード中 ({percent}%)"
+    "message": "г‚ўгѓѓгѓ—гѓ‡гѓјгѓ€г‚’гѓЂг‚¦гѓігѓ­гѓјгѓ‰дё­ ({percent}%)"
   },
   "app.update.reload-to-update": {
-    "message": "再起動して今すぐ更新"
+    "message": "е†Ќиµ·е‹•гЃ—гЃ¦д»ЉгЃ™гЃђж›ґж–°"
   },
   "friends.action.add-friend": {
-    "message": "フレンドを追加"
+    "message": "гѓ•гѓ¬гѓігѓ‰г‚’иїЅеЉ "
   },
   "friends.action.view-friend-requests": {
-    "message": "{count}件の友達リクエスト"
+    "message": "{count}д»¶гЃ®еЏ‹йЃ”гѓЄг‚Їг‚Ёг‚№гѓ€"
   },
   "friends.add-friend.submit": {
-    "message": "フレンド申請を送信"
+    "message": "гѓ•гѓ¬гѓігѓ‰з”іи«‹г‚’йЂЃдїЎ"
   },
   "friends.add-friend.title": {
-    "message": "フレンドを追加中"
+    "message": "гѓ•гѓ¬гѓігѓ‰г‚’иїЅеЉ дё­"
   },
   "friends.add-friend.username.description": {
-    "message": "これはMinecraftユーザーネームと違う可能性があります！"
+    "message": "гЃ“г‚ЊгЃЇMinecraftгѓ¦гѓјг‚¶гѓјгѓЌгѓјгѓ гЃЁйЃ•гЃ†еЏЇиѓЅжЂ§гЃЊгЃ‚г‚ЉгЃѕгЃ™пјЃ"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Modrinthユーザーネームを入力..."
+    "message": "Modrinthгѓ¦гѓјг‚¶гѓјгѓЌгѓјгѓ г‚’е…ҐеЉ›..."
   },
   "friends.add-friend.username.title": {
-    "message": "あなたのフレンドのModrinthユーザー名は何ですか？"
+    "message": "гЃ‚гЃЄгЃџгЃ®гѓ•гѓ¬гѓігѓ‰гЃ®Modrinthгѓ¦гѓјг‚¶гѓјеђЌгЃЇдЅ•гЃ§гЃ™гЃ‹пјџ"
   },
   "friends.add-friends-to-share": {
-    "message": "<link>友達を追加</link>して、彼らが何をしているか見てみよう！"
+    "message": "<link>еЏ‹йЃ”г‚’иїЅеЉ </link>гЃ—гЃ¦гЂЃеЅјг‚‰гЃЊдЅ•г‚’гЃ—гЃ¦гЃ„г‚‹гЃ‹и¦‹гЃ¦гЃїг‚€гЃ†пјЃ"
   },
   "friends.friend.cancel-request": {
-    "message": "申請をキャンセル"
+    "message": "з”іи«‹г‚’г‚­гѓЈгѓіг‚»гѓ«"
   },
   "friends.friend.remove-friend": {
-    "message": "フレンドを削除"
+    "message": "гѓ•гѓ¬гѓігѓ‰г‚’е‰Љй™¤"
   },
   "friends.friend.request-sent": {
-    "message": "フレンド申請が送信されました"
+    "message": "гѓ•гѓ¬гѓігѓ‰з”іи«‹гЃЊйЂЃдїЎгЃ•г‚ЊгЃѕгЃ—гЃџ"
   },
   "friends.friend.view-profile": {
-    "message": "プロフィールを表示"
+    "message": "гѓ—гѓ­гѓ•г‚Јгѓјгѓ«г‚’иЎЁз¤є"
   },
   "friends.heading": {
-    "message": "フレンド"
+    "message": "гѓ•гѓ¬гѓігѓ‰"
   },
   "friends.heading.active": {
-    "message": "活動中"
+    "message": "жґ»е‹•дё­"
   },
   "friends.heading.offline": {
-    "message": "オフライン"
+    "message": "г‚Єгѓ•гѓ©г‚¤гѓі"
   },
   "friends.heading.online": {
-    "message": "オンライン"
+    "message": "г‚Єгѓігѓ©г‚¤гѓі"
   },
   "friends.heading.pending": {
-    "message": "保留中"
+    "message": "дїќз•™дё­"
   },
   "friends.no-friends-match": {
-    "message": "フレンド\"{query}\"は見つかりませんでした"
+    "message": "гѓ•гѓ¬гѓігѓ‰\"{query}\"гЃЇи¦‹гЃ¤гЃ‹г‚ЉгЃѕгЃ›г‚“гЃ§гЃ—гЃџ"
   },
   "friends.search-friends-placeholder": {
-    "message": "フレンドを検索…"
+    "message": "гѓ•гѓ¬гѓігѓ‰г‚’ж¤њзґўвЂ¦"
   },
   "friends.section.heading": {
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Modrinthアカウントにサインイン</link>して友達を追加し、彼らがプレイしているゲームをチェックしよう！"
+    "message": "<link>Modrinthг‚ўг‚«г‚¦гѓігѓ€гЃ«г‚µг‚¤гѓіг‚¤гѓі</link>гЃ—гЃ¦еЏ‹йЃ”г‚’иїЅеЉ гЃ—гЂЃеЅјг‚‰гЃЊгѓ—гѓ¬г‚¤гЃ—гЃ¦гЃ„г‚‹г‚Ігѓјгѓ г‚’гѓЃг‚§гѓѓг‚ЇгЃ—г‚€гЃ†пјЃ"
   },
   "instance.add-server.add-and-play": {
-    "message": "追加してプレイ"
+    "message": "иїЅеЉ гЃ—гЃ¦гѓ—гѓ¬г‚¤"
   },
   "instance.add-server.add-server": {
-    "message": "サーバーを追加する"
+    "message": "г‚µгѓјгѓђгѓјг‚’иїЅеЉ гЃ™г‚‹"
   },
   "instance.add-server.resource-pack.disabled": {
-    "message": "無効"
+    "message": "з„ЎеЉ№"
   },
   "instance.add-server.resource-pack.enabled": {
-    "message": "有効"
+    "message": "жњ‰еЉ№"
   },
   "instance.add-server.resource-pack.prompt": {
-    "message": "毎回確認"
+    "message": "жЇЋе›ћзўєиЄЌ"
   },
   "instance.add-server.title": {
-    "message": "サーバーの追加"
+    "message": "г‚µгѓјгѓђгѓјгЃ®иїЅеЉ "
   },
   "instance.edit-server.title": {
-    "message": "サーバーを編集する"
+    "message": "г‚µгѓјгѓђгѓјг‚’з·Ёй›†гЃ™г‚‹"
   },
   "instance.edit-world.hide-from-home": {
-    "message": "ホームページから非表示にする"
+    "message": "гѓ›гѓјгѓ гѓљгѓјг‚ёгЃ‹г‚‰йќћиЎЁз¤єгЃ«гЃ™г‚‹"
   },
   "instance.edit-world.name": {
-    "message": "名前"
+    "message": "еђЌе‰Ќ"
   },
   "instance.edit-world.placeholder-name": {
-    "message": "Mincraft ワールド"
+    "message": "Mincraft гѓЇгѓјгѓ«гѓ‰"
   },
   "instance.edit-world.reset-icon": {
-    "message": "アイコンをリセット"
+    "message": "г‚ўг‚¤г‚ігѓіг‚’гѓЄг‚»гѓѓгѓ€"
   },
   "instance.edit-world.title": {
-    "message": "ワールドを編集"
+    "message": "гѓЇгѓјгѓ«гѓ‰г‚’з·Ёй›†"
   },
   "instance.filter.disabled": {
-    "message": "無効なプロジェクト"
+    "message": "з„ЎеЉ№гЃЄгѓ—гѓ­г‚ёг‚§г‚Їгѓ€"
   },
   "instance.filter.updates-available": {
-    "message": "アップデートが可能"
+    "message": "г‚ўгѓѓгѓ—гѓ‡гѓјгѓ€гЃЊеЏЇиѓЅ"
   },
   "instance.server-modal.address": {
-    "message": "アドレス"
+    "message": "г‚ўгѓ‰гѓ¬г‚№"
   },
   "instance.server-modal.name": {
-    "message": "名前"
+    "message": "еђЌе‰Ќ"
   },
   "instance.server-modal.placeholder-name": {
-    "message": "Minecraftサーバー"
+    "message": "Minecraftг‚µгѓјгѓђгѓј"
   },
   "instance.server-modal.resource-pack": {
-    "message": "リソースパック"
+    "message": "гѓЄг‚Ѕгѓјг‚№гѓ‘гѓѓг‚Ї"
   },
   "instance.settings.tabs.general": {
-    "message": "一般"
+    "message": "дёЂи€¬"
   },
   "instance.settings.tabs.general.delete": {
-    "message": "インスタンスを削除"
+    "message": "г‚¤гѓіг‚№г‚їгѓіг‚№г‚’е‰Љй™¤"
   },
   "instance.settings.tabs.general.delete.button": {
-    "message": "インスタンスを削除"
+    "message": "г‚¤гѓіг‚№г‚їгѓіг‚№г‚’е‰Љй™¤"
   },
   "instance.settings.tabs.general.delete.description": {
-    "message": "デバイスからインスタンスを削除します。これらには、ワールド、設定、他、全てのインストール済みのファイルが含まれます。インスタンスを削除すると復元することはできません。"
+    "message": "гѓ‡гѓђг‚¤г‚№гЃ‹г‚‰г‚¤гѓіг‚№г‚їгѓіг‚№г‚’е‰Љй™¤гЃ—гЃѕгЃ™гЂ‚гЃ“г‚Њг‚‰гЃ«гЃЇгЂЃгѓЇгѓјгѓ«гѓ‰гЂЃиЁ­е®љгЂЃд»–гЂЃе…ЁгЃ¦гЃ®г‚¤гѓіг‚№гѓ€гѓјгѓ«жё€гЃїгЃ®гѓ•г‚Ўг‚¤гѓ«гЃЊеђ«гЃѕг‚ЊгЃѕгЃ™гЂ‚г‚¤гѓіг‚№г‚їгѓіг‚№г‚’е‰Љй™¤гЃ™г‚‹гЃЁеѕ©е…ѓгЃ™г‚‹гЃ“гЃЁгЃЇгЃ§гЃЌгЃѕгЃ›г‚“гЂ‚"
   },
   "instance.settings.tabs.general.deleting.button": {
-    "message": "削除中…"
+    "message": "е‰Љй™¤дё­вЂ¦"
   },
   "instance.settings.tabs.general.duplicate-button": {
-    "message": "複製"
+    "message": "и¤‡иЈЅ"
   },
   "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
-    "message": "インストール中に複製することはできません。"
+    "message": "г‚¤гѓіг‚№гѓ€гѓјгѓ«дё­гЃ«и¤‡иЈЅгЃ™г‚‹гЃ“гЃЁгЃЇгЃ§гЃЌгЃѕгЃ›г‚“гЂ‚"
   },
   "instance.settings.tabs.general.duplicate-instance": {
-    "message": "インスタンスを複製"
+    "message": "г‚¤гѓіг‚№г‚їгѓіг‚№г‚’и¤‡иЈЅ"
   },
   "instance.settings.tabs.general.duplicate-instance.description": {
-    "message": "ワールド、設定、Mod等を含めたインスタンスのコピーを作成します。"
+    "message": "гѓЇгѓјгѓ«гѓ‰гЂЃиЁ­е®љгЂЃModз­‰г‚’еђ«г‚ЃгЃџг‚¤гѓіг‚№г‚їгѓіг‚№гЃ®г‚ігѓ”гѓјг‚’дЅњж€ђгЃ—гЃѕгЃ™гЂ‚"
   },
   "instance.settings.tabs.general.edit-icon": {
-    "message": "アイコンを編集"
+    "message": "г‚ўг‚¤г‚ігѓіг‚’з·Ёй›†"
   },
   "instance.settings.tabs.general.edit-icon.remove": {
-    "message": "アイコンを削除"
+    "message": "г‚ўг‚¤г‚ігѓіг‚’е‰Љй™¤"
   },
   "instance.settings.tabs.general.edit-icon.replace": {
-    "message": "アイコンを置き換え"
+    "message": "г‚ўг‚¤г‚ігѓіг‚’зЅ®гЃЌжЏ›гЃ€"
   },
   "instance.settings.tabs.general.edit-icon.select": {
-    "message": "アイコンを選択"
+    "message": "г‚ўг‚¤г‚ігѓіг‚’йЃёжЉћ"
   },
   "instance.settings.tabs.general.library-groups": {
-    "message": "ライブラリグループ"
+    "message": "гѓ©г‚¤гѓ–гѓ©гѓЄг‚°гѓ«гѓјгѓ—"
   },
   "instance.settings.tabs.general.library-groups.create": {
-    "message": "新しいグループを作成"
+    "message": "ж–°гЃ—гЃ„г‚°гѓ«гѓјгѓ—г‚’дЅњж€ђ"
   },
   "instance.settings.tabs.general.library-groups.description": {
-    "message": "ライブラリグループを使用することで、インスタンスをライブラリ内で整理することができます。"
+    "message": "гѓ©г‚¤гѓ–гѓ©гѓЄг‚°гѓ«гѓјгѓ—г‚’дЅїз”ЁгЃ™г‚‹гЃ“гЃЁгЃ§гЂЃг‚¤гѓіг‚№г‚їгѓіг‚№г‚’гѓ©г‚¤гѓ–гѓ©гѓЄе†…гЃ§ж•ґзђ†гЃ™г‚‹гЃ“гЃЁгЃЊгЃ§гЃЌгЃѕгЃ™гЂ‚"
   },
   "instance.settings.tabs.general.library-groups.enter-name": {
-    "message": "グループ名を入力"
+    "message": "г‚°гѓ«гѓјгѓ—еђЌг‚’е…ҐеЉ›"
   },
   "instance.settings.tabs.general.name": {
-    "message": "名前"
+    "message": "еђЌе‰Ќ"
   },
   "instance.settings.tabs.hooks": {
-    "message": "起動フック"
+    "message": "иµ·е‹•гѓ•гѓѓг‚Ї"
   },
   "instance.settings.tabs.hooks.custom-hooks": {
-    "message": "カスタム起動フック"
+    "message": "г‚«г‚№г‚їгѓ иµ·е‹•гѓ•гѓѓг‚Ї"
   },
   "instance.settings.tabs.hooks.description": {
-    "message": "フックを使用して、ゲームの起動前後にシステムコマンドを実行するようにできます。"
+    "message": "гѓ•гѓѓг‚Їг‚’дЅїз”ЁгЃ—гЃ¦гЂЃг‚Ігѓјгѓ гЃ®иµ·е‹•е‰ЌеѕЊгЃ«г‚·г‚№гѓ†гѓ г‚ігѓћгѓігѓ‰г‚’е®џиЎЊгЃ™г‚‹г‚€гЃ†гЃ«гЃ§гЃЌгЃѕгЃ™гЂ‚"
   },
   "instance.settings.tabs.hooks.post-exit": {
-    "message": "終了後"
+    "message": "зµ‚дє†еѕЊ"
   },
   "instance.settings.tabs.hooks.post-exit.description": {
-    "message": "ゲームが閉じられた後に実行されます。"
+    "message": "г‚Ігѓјгѓ гЃЊй–‰гЃг‚‰г‚ЊгЃџеѕЊгЃ«е®џиЎЊгЃ•г‚ЊгЃѕгЃ™гЂ‚"
   },
   "instance.settings.tabs.hooks.post-exit.enter": {
-    "message": "終了後のコマンドを入力"
+    "message": "зµ‚дє†еѕЊгЃ®г‚ігѓћгѓігѓ‰г‚’е…ҐеЉ›"
   },
   "instance.settings.tabs.hooks.pre-launch": {
-    "message": "起動前"
+    "message": "иµ·е‹•е‰Ќ"
   },
   "instance.settings.tabs.hooks.pre-launch.description": {
-    "message": "ゲームが起動する前に実行されます。"
+    "message": "г‚Ігѓјгѓ гЃЊиµ·е‹•гЃ™г‚‹е‰ЌгЃ«е®џиЎЊгЃ•г‚ЊгЃѕгЃ™гЂ‚"
   },
   "instance.settings.tabs.hooks.pre-launch.enter": {
-    "message": "起動前のコマンドを入力"
+    "message": "иµ·е‹•е‰ЌгЃ®г‚ігѓћгѓігѓ‰г‚’е…ҐеЉ›"
   },
   "instance.settings.tabs.hooks.title": {
-    "message": "ゲーム起動フック"
+    "message": "г‚Ігѓјгѓ иµ·е‹•гѓ•гѓѓг‚Ї"
   },
   "instance.settings.tabs.hooks.wrapper": {
-    "message": "ラッパー"
+    "message": "гѓ©гѓѓгѓ‘гѓј"
   },
   "instance.settings.tabs.hooks.wrapper.description": {
-    "message": "Minecraftを起動用のラッパーコマンド。"
+    "message": "Minecraftг‚’иµ·е‹•з”ЁгЃ®гѓ©гѓѓгѓ‘гѓјг‚ігѓћгѓігѓ‰гЂ‚"
   },
   "instance.settings.tabs.hooks.wrapper.enter": {
-    "message": "ラッパーのコマンドを入力…"
+    "message": "гѓ©гѓѓгѓ‘гѓјгЃ®г‚ігѓћгѓігѓ‰г‚’е…ҐеЉ›вЂ¦"
   },
   "instance.settings.tabs.installation": {
-    "message": "インストール"
+    "message": "г‚¤гѓіг‚№гѓ€гѓјгѓ«"
   },
   "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "Minecraft {game_version} の {platform} {version} はすでにインストールされています"
+    "message": "Minecraft {game_version} гЃ® {platform} {version} гЃЇгЃ™гЃ§гЃ«г‚¤гѓіг‚№гѓ€гѓјгѓ«гЃ•г‚ЊгЃ¦гЃ„гЃѕгЃ™"
   },
   "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "Vanilla {game_version} はすでにインストールされています"
+    "message": "Vanilla {game_version} гЃЇгЃ™гЃ§гЃ«г‚¤гѓіг‚№гѓ€гѓјгѓ«гЃ•г‚ЊгЃ¦гЃ„гЃѕгЃ™"
   },
   "instance.settings.tabs.installation.change-version.button": {
-    "message": "バージョンを変更"
+    "message": "гѓђгѓјг‚ёгѓ§гѓіг‚’е¤‰ж›ґ"
   },
   "instance.settings.tabs.installation.change-version.button.install": {
-    "message": "インストール"
+    "message": "г‚¤гѓіг‚№гѓ€гѓјгѓ«"
   },
   "instance.settings.tabs.installation.change-version.button.installing": {
-    "message": "インストール中"
+    "message": "г‚¤гѓіг‚№гѓ€гѓјгѓ«дё­"
   },
   "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "ModPackのバージョンを取得しています"
+    "message": "ModPackгЃ®гѓђгѓјг‚ёгѓ§гѓіг‚’еЏ–еѕ—гЃ—гЃ¦гЃ„гЃѕгЃ™"
   },
   "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "新しいバージョンをインストール中"
+    "message": "ж–°гЃ—гЃ„гѓђгѓјг‚ёгѓ§гѓіг‚’г‚¤гѓіг‚№гѓ€гѓјгѓ«дё­"
   },
   "instance.settings.tabs.installation.currently-installed": {
-    "message": "インストール済"
+    "message": "г‚¤гѓіг‚№гѓ€гѓјгѓ«жё€"
   },
   "instance.settings.tabs.installation.debug-information": {
-    "message": "デバッグ情報："
+    "message": "гѓ‡гѓђгѓѓг‚°жѓ…е ±пјљ"
   },
   "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "ModPackの情報を取得しています"
+    "message": "ModPackгЃ®жѓ…е ±г‚’еЏ–еѕ—гЃ—гЃ¦гЃ„гЃѕгЃ™"
   },
   "instance.settings.tabs.installation.game-version": {
-    "message": "ゲームバージョン"
+    "message": "г‚Ігѓјгѓ гѓђгѓјг‚ёгѓ§гѓі"
   },
   "instance.settings.tabs.installation.install": {
-    "message": "インストール"
+    "message": "г‚¤гѓіг‚№гѓ€гѓјгѓ«"
   },
   "instance.settings.tabs.installation.install.in-progress": {
-    "message": "インストール中"
+    "message": "г‚¤гѓіг‚№гѓ€гѓјгѓ«дё­"
   },
   "instance.settings.tabs.installation.loader-version": {
-    "message": "{loader} バージョン"
+    "message": "{loader} гѓђгѓјг‚ёгѓ§гѓі"
   },
   "instance.settings.tabs.installation.minecraft-version": {
     "message": "Minecraft {version}"
   },
   "instance.settings.tabs.installation.no-connection": {
-    "message": "リンクされたModpackの情報が取得できませんでした。インターネット接続を確認してください。"
+    "message": "гѓЄгѓіг‚ЇгЃ•г‚ЊгЃџModpackгЃ®жѓ…е ±гЃЊеЏ–еѕ—гЃ§гЃЌгЃѕгЃ›г‚“гЃ§гЃ—гЃџгЂ‚г‚¤гѓіг‚їгѓјгѓЌгѓѓгѓ€жЋҐз¶љг‚’зўєиЄЌгЃ—гЃ¦гЃЏгЃ гЃ•гЃ„гЂ‚"
   },
   "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader}はMinecraft {version}で使用できません。別のローダーを選択してください。"
+    "message": "{loader}гЃЇMinecraft {version}гЃ§дЅїз”ЁгЃ§гЃЌгЃѕгЃ›г‚“гЂ‚е€ҐгЃ®гѓ­гѓјгѓЂгѓјг‚’йЃёжЉћгЃ—гЃ¦гЃЏгЃ гЃ•гЃ„гЂ‚"
   },
   "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "このインスタンスはModpackにリンクされていますが、ModrinthではModpackが見つかりません。"
+    "message": "гЃ“гЃ®г‚¤гѓіг‚№г‚їгѓіг‚№гЃЇModpackгЃ«гѓЄгѓіг‚ЇгЃ•г‚ЊгЃ¦гЃ„гЃѕгЃ™гЃЊгЂЃModrinthгЃ§гЃЇModpackгЃЊи¦‹гЃ¤гЃ‹г‚ЉгЃѕгЃ›г‚“гЂ‚"
   },
   "instance.settings.tabs.installation.platform": {
-    "message": "プラットフォーム"
+    "message": "гѓ—гѓ©гѓѓгѓ€гѓ•г‚©гѓјгѓ "
   },
   "instance.settings.tabs.installation.reinstall.button": {
-    "message": "Modpackを再インストール"
+    "message": "Modpackг‚’е†Ќг‚¤гѓіг‚№гѓ€гѓјгѓ«"
   },
   "instance.settings.tabs.installation.reinstall.button.reinstalling": {
-    "message": "Modpackを再インストール中"
+    "message": "Modpackг‚’е†Ќг‚¤гѓіг‚№гѓ€гѓјгѓ«дё­"
   },
   "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "再インストールすると、全てのコンテンツがModpackで提供される内容にリセットされ、元のコンテンツに追加されたMod等やコンテンツは全て削除されます。インスタンスに変更を加えていた場合、予期せぬ動作が修正がされる場合がありますが、ワールドが追加でインストールされたコンテンツに依存している場合、既存のワールドで動かなくなる可能性があります。"
+    "message": "е†Ќг‚¤гѓіг‚№гѓ€гѓјгѓ«гЃ™г‚‹гЃЁгЂЃе…ЁгЃ¦гЃ®г‚ігѓігѓ†гѓігѓ„гЃЊModpackгЃ§жЏђдѕ›гЃ•г‚Њг‚‹е†…е®№гЃ«гѓЄг‚»гѓѓгѓ€гЃ•г‚ЊгЂЃе…ѓгЃ®г‚ігѓігѓ†гѓігѓ„гЃ«иїЅеЉ гЃ•г‚ЊгЃџModз­‰г‚„г‚ігѓігѓ†гѓігѓ„гЃЇе…ЁгЃ¦е‰Љй™¤гЃ•г‚ЊгЃѕгЃ™гЂ‚г‚¤гѓіг‚№г‚їгѓіг‚№гЃ«е¤‰ж›ґг‚’еЉ гЃ€гЃ¦гЃ„гЃџе ґеђ€гЂЃдє€жњџгЃ›гЃ¬е‹•дЅњгЃЊдї®ж­ЈгЃЊгЃ•г‚Њг‚‹е ґеђ€гЃЊгЃ‚г‚ЉгЃѕгЃ™гЃЊгЂЃгѓЇгѓјгѓ«гѓ‰гЃЊиїЅеЉ гЃ§г‚¤гѓіг‚№гѓ€гѓјгѓ«гЃ•г‚ЊгЃџг‚ігѓігѓ†гѓігѓ„гЃ«дѕќе­гЃ—гЃ¦гЃ„г‚‹е ґеђ€гЂЃж—ўе­гЃ®гѓЇгѓјгѓ«гѓ‰гЃ§е‹•гЃ‹гЃЄгЃЏгЃЄг‚‹еЏЇиѓЅжЂ§гЃЊгЃ‚г‚ЉгЃѕгЃ™гЂ‚"
   },
   "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "本当にインスタンスを再インストールしますか？"
+    "message": "жњ¬еЅ“гЃ«г‚¤гѓіг‚№г‚їгѓіг‚№г‚’е†Ќг‚¤гѓіг‚№гѓ€гѓјгѓ«гЃ—гЃѕгЃ™гЃ‹пјџ"
   },
   "instance.settings.tabs.installation.reinstall.description": {
-    "message": "インスタンスの状態をもとの状態にリセットし、元のModpackに追加されたModやコンテンツ等を削除します。"
+    "message": "г‚¤гѓіг‚№г‚їгѓіг‚№гЃ®зЉ¶ж…‹г‚’г‚‚гЃЁгЃ®зЉ¶ж…‹гЃ«гѓЄг‚»гѓѓгѓ€гЃ—гЂЃе…ѓгЃ®ModpackгЃ«иїЅеЉ гЃ•г‚ЊгЃџModг‚„г‚ігѓігѓ†гѓігѓ„з­‰г‚’е‰Љй™¤гЃ—гЃѕгЃ™гЂ‚"
   },
   "instance.settings.tabs.installation.reinstall.title": {
-    "message": "Modpackを再インストール"
+    "message": "Modpackг‚’е†Ќг‚¤гѓіг‚№гѓ€гѓјгѓ«"
   },
   "instance.settings.tabs.installation.repair.button": {
-    "message": "修復"
+    "message": "дї®еѕ©"
   },
   "instance.settings.tabs.installation.repair.button.repairing": {
-    "message": "修復中"
+    "message": "дї®еѕ©дё­"
   },
   "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "修復を行うと、Minecraftの依存関係が再インストールされ、破損がないかのチェックが行われます。ランチャー関連の問題の場合は、修復によって解決する可能性がありますが、インストール済みのModに関する問題は解決されません。"
+    "message": "дї®еѕ©г‚’иЎЊгЃ†гЃЁгЂЃMinecraftгЃ®дѕќе­й–ўдї‚гЃЊе†Ќг‚¤гѓіг‚№гѓ€гѓјгѓ«гЃ•г‚ЊгЂЃз ґжђЌгЃЊгЃЄгЃ„гЃ‹гЃ®гѓЃг‚§гѓѓг‚ЇгЃЊиЎЊг‚Џг‚ЊгЃѕгЃ™гЂ‚гѓ©гѓігѓЃгѓЈгѓјй–ўйЂЈгЃ®е•ЏйЎЊгЃ®е ґеђ€гЃЇгЂЃдї®еѕ©гЃ«г‚€гЃЈгЃ¦и§Јж±єгЃ™г‚‹еЏЇиѓЅжЂ§гЃЊгЃ‚г‚ЉгЃѕгЃ™гЃЊгЂЃг‚¤гѓіг‚№гѓ€гѓјгѓ«жё€гЃїгЃ®ModгЃ«й–ўгЃ™г‚‹е•ЏйЎЊгЃЇи§Јж±єгЃ•г‚ЊгЃѕгЃ›г‚“гЂ‚"
   },
   "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "インスタンスを修復しますか？"
+    "message": "г‚¤гѓіг‚№г‚їгѓіг‚№г‚’дї®еѕ©гЃ—гЃѕгЃ™гЃ‹пјџ"
   },
   "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "修復中"
+    "message": "дї®еѕ©дё­"
   },
   "instance.settings.tabs.installation.reset-selections": {
-    "message": "現在の状態にリセット"
+    "message": "зЏѕењЁгЃ®зЉ¶ж…‹гЃ«гѓЄг‚»гѓѓгѓ€"
   },
   "instance.settings.tabs.installation.show-all-versions": {
-    "message": "全てのバージョンを表示"
+    "message": "е…ЁгЃ¦гЃ®гѓђгѓјг‚ёгѓ§гѓіг‚’иЎЁз¤є"
   },
   "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "バージョンを変更"
+    "message": "гѓђгѓјг‚ёгѓ§гѓіг‚’е¤‰ж›ґ"
   },
   "instance.settings.tabs.installation.tooltip.action.install": {
-    "message": "インストール"
+    "message": "г‚¤гѓіг‚№гѓ€гѓјгѓ«"
   },
   "instance.settings.tabs.installation.tooltip.action.reinstall": {
-    "message": "再インストール"
+    "message": "е†Ќг‚¤гѓіг‚№гѓ€гѓјгѓ«"
   },
   "instance.settings.tabs.installation.tooltip.action.repair": {
-    "message": "修復"
+    "message": "дї®еѕ©"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "インストール中に{action}することはできません"
+    "message": "г‚¤гѓіг‚№гѓ€гѓјгѓ«дё­гЃ«{action}гЃ™г‚‹гЃ“гЃЁгЃЇгЃ§гЃЌгЃѕгЃ›г‚“"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
-    "message": "オフラインの時に{action}することはできません"
+    "message": "г‚Єгѓ•гѓ©г‚¤гѓігЃ®ж™‚гЃ«{action}гЃ™г‚‹гЃ“гЃЁгЃЇгЃ§гЃЌгЃѕгЃ›г‚“"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "修復中に{action}することはできません"
+    "message": "дї®еѕ©дё­гЃ«{action}гЃ™г‚‹гЃ“гЃЁгЃЇгЃ§гЃЌгЃѕгЃ›г‚“"
   },
   "instance.settings.tabs.installation.unknown-version": {
-    "message": "(不明なバージョン)"
+    "message": "(дёЌжЋгЃЄгѓђгѓјг‚ёгѓ§гѓі)"
   },
   "instance.settings.tabs.installation.unlink.button": {
-    "message": "インスタンスのリンク解除"
+    "message": "г‚¤гѓіг‚№г‚їгѓіг‚№гЃ®гѓЄгѓіг‚Їи§Јй™¤"
   },
   "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "この操作を行うと、新しいインスタンスを作らなければ再びリンクすることはできなくなります。通常のインスタンスになるので、modpackのバージョンアップは利用できなくなります。"
+    "message": "гЃ“гЃ®ж“ЌдЅњг‚’иЎЊгЃ†гЃЁгЂЃж–°гЃ—гЃ„г‚¤гѓіг‚№г‚їгѓіг‚№г‚’дЅњг‚‰гЃЄгЃ‘г‚ЊгЃ°е†ЌгЃігѓЄгѓіг‚ЇгЃ™г‚‹гЃ“гЃЁгЃЇгЃ§гЃЌгЃЄгЃЏгЃЄг‚ЉгЃѕгЃ™гЂ‚йЂљеёёгЃ®г‚¤гѓіг‚№г‚їгѓіг‚№гЃ«гЃЄг‚‹гЃ®гЃ§гЂЃmodpackгЃ®гѓђгѓјг‚ёгѓ§гѓіг‚ўгѓѓгѓ—гЃЇе€©з”ЁгЃ§гЃЌгЃЄгЃЏгЃЄг‚ЉгЃѕгЃ™гЂ‚"
   },
   "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "本当にインスタンスのリンクを解除しますか？"
+    "message": "жњ¬еЅ“гЃ«г‚¤гѓіг‚№г‚їгѓіг‚№гЃ®гѓЄгѓіг‚Їг‚’и§Јй™¤гЃ—гЃѕгЃ™гЃ‹пјџ"
   },
   "instance.settings.tabs.installation.unlink.description": {
-    "message": "このインスタンスはmodpackにリンクされているので、modやmodローダー、Minecraftのバージョンを変更することはできません。リンクを解除するとこのインスタンスとmodpackは永久に分離されます。"
+    "message": "гЃ“гЃ®г‚¤гѓіг‚№г‚їгѓіг‚№гЃЇmodpackгЃ«гѓЄгѓіг‚ЇгЃ•г‚ЊгЃ¦гЃ„г‚‹гЃ®гЃ§гЂЃmodг‚„modгѓ­гѓјгѓЂгѓјгЂЃMinecraftгЃ®гѓђгѓјг‚ёгѓ§гѓіг‚’е¤‰ж›ґгЃ™г‚‹гЃ“гЃЁгЃЇгЃ§гЃЌгЃѕгЃ›г‚“гЂ‚гѓЄгѓіг‚Їг‚’и§Јй™¤гЃ™г‚‹гЃЁгЃ“гЃ®г‚¤гѓіг‚№г‚їгѓіг‚№гЃЁmodpackгЃЇж°ёд№…гЃ«е€†й›ўгЃ•г‚ЊгЃѕгЃ™гЂ‚"
   },
   "instance.settings.tabs.installation.unlink.title": {
-    "message": "modpackとのリンクを解除する"
+    "message": "modpackгЃЁгЃ®гѓЄгѓіг‚Їг‚’и§Јй™¤гЃ™г‚‹"
   },
   "instance.settings.tabs.java": {
-    "message": "Javaとメモリ"
+    "message": "JavaгЃЁгѓЎгѓўгѓЄ"
   },
   "instance.settings.tabs.java.environment-variables": {
-    "message": "環境変数"
+    "message": "з’°еўѓе¤‰ж•°"
   },
   "instance.settings.tabs.java.hooks": {
-    "message": "フック"
+    "message": "гѓ•гѓѓг‚Ї"
   },
   "instance.settings.tabs.java.java-arguments": {
-    "message": "Java コマンドライン引数"
+    "message": "Java г‚ігѓћгѓігѓ‰гѓ©г‚¤гѓіеј•ж•°"
   },
   "instance.settings.tabs.java.java-installation": {
-    "message": "Javaのインストール"
+    "message": "JavaгЃ®г‚¤гѓіг‚№гѓ€гѓјгѓ«"
   },
   "instance.settings.tabs.java.java-memory": {
-    "message": "メモリ割り当て量"
+    "message": "гѓЎгѓўгѓЄе‰Іг‚ЉеЅ“гЃ¦й‡Џ"
   },
   "instance.settings.tabs.window": {
-    "message": "ウィンドウ"
+    "message": "г‚¦г‚Јгѓігѓ‰г‚¦"
   },
   "instance.settings.tabs.window.custom-window-settings": {
-    "message": "カスタムウィンドウ設定"
+    "message": "г‚«г‚№г‚їгѓ г‚¦г‚Јгѓігѓ‰г‚¦иЁ­е®љ"
   },
   "instance.settings.tabs.window.fullscreen": {
-    "message": "フルスクリーン"
+    "message": "гѓ•гѓ«г‚№г‚ЇгѓЄгѓјгѓі"
   },
   "instance.settings.tabs.window.fullscreen.description": {
-    "message": "起動時に全画面で起動するようにします。(options.txtを使用)"
+    "message": "иµ·е‹•ж™‚гЃ«е…Ёз”»йќўгЃ§иµ·е‹•гЃ™г‚‹г‚€гЃ†гЃ«гЃ—гЃѕгЃ™гЂ‚(options.txtг‚’дЅїз”Ё)"
   },
   "instance.settings.tabs.window.height": {
-    "message": "高さ"
+    "message": "й«гЃ•"
   },
   "instance.settings.tabs.window.height.description": {
-    "message": "起動時のゲームウィンドウの高さ。"
+    "message": "иµ·е‹•ж™‚гЃ®г‚Ігѓјгѓ г‚¦г‚Јгѓігѓ‰г‚¦гЃ®й«гЃ•гЂ‚"
   },
   "instance.settings.tabs.window.height.enter": {
-    "message": "高さを入力…"
+    "message": "й«гЃ•г‚’е…ҐеЉ›вЂ¦"
   },
   "instance.settings.tabs.window.width": {
-    "message": "幅"
+    "message": "е№…"
   },
   "instance.settings.tabs.window.width.description": {
-    "message": "起動時のゲームウィンドウの幅。"
+    "message": "иµ·е‹•ж™‚гЃ®г‚Ігѓјгѓ г‚¦г‚Јгѓігѓ‰г‚¦гЃ®е№…гЂ‚"
   },
   "instance.settings.tabs.window.width.enter": {
-    "message": "幅を入力…"
+    "message": "е№…г‚’е…ҐеЉ›вЂ¦"
   },
   "instance.worlds.a_minecraft_server": {
-    "message": "Minecraftサーバー"
+    "message": "Minecraftг‚µгѓјгѓђгѓј"
   },
   "instance.worlds.cant_connect": {
-    "message": "サーバーに接続できません"
+    "message": "г‚µгѓјгѓђгѓјгЃ«жЋҐз¶љгЃ§гЃЌгЃѕгЃ›г‚“"
   },
   "instance.worlds.copy_address": {
-    "message": "アドレスをコピー"
+    "message": "г‚ўгѓ‰гѓ¬г‚№г‚’г‚ігѓ”гѓј"
   },
   "instance.worlds.dont_show_on_home": {
-    "message": "ホームに表示しない"
+    "message": "гѓ›гѓјгѓ гЃ«иЎЁз¤єгЃ—гЃЄгЃ„"
   },
   "instance.worlds.filter.available": {
-    "message": "利用可能"
+    "message": "е€©з”ЁеЏЇиѓЅ"
   },
   "instance.worlds.game_already_open": {
-    "message": "インスタンスは既に開いています"
+    "message": "г‚¤гѓіг‚№г‚їгѓіг‚№гЃЇж—ўгЃ«й–‹гЃ„гЃ¦гЃ„гЃѕгЃ™"
   },
   "instance.worlds.hardcore": {
-    "message": "ハードコアモード"
+    "message": "гѓЏгѓјгѓ‰г‚іг‚ўгѓўгѓјгѓ‰"
   },
   "instance.worlds.incompatible_server": {
-    "message": "サーバーに互換性がありません"
+    "message": "г‚µгѓјгѓђгѓјгЃ«дє’жЏ›жЂ§гЃЊгЃ‚г‚ЉгЃѕгЃ›г‚“"
   },
   "instance.worlds.no_contact": {
-    "message": "サーバーに接続できませんでした"
+    "message": "г‚µгѓјгѓђгѓјгЃ«жЋҐз¶љгЃ§гЃЌгЃѕгЃ›г‚“гЃ§гЃ—гЃџ"
   },
   "instance.worlds.no_server_quick_play": {
-    "message": "サーバーに直接入ることができるのはMinecraft Alpha 1.0.5以降です"
+    "message": "г‚µгѓјгѓђгѓјгЃ«з›ґжЋҐе…Ґг‚‹гЃ“гЃЁгЃЊгЃ§гЃЌг‚‹гЃ®гЃЇMinecraft Alpha 1.0.5д»Ґй™ЌгЃ§гЃ™"
   },
   "instance.worlds.no_singleplayer_quick_play": {
-    "message": "Minecraft 1.20以降はシングルプレイヤーワールドのみに直接入ることができます"
+    "message": "Minecraft 1.20д»Ґй™ЌгЃЇг‚·гѓіг‚°гѓ«гѓ—гѓ¬г‚¤гѓ¤гѓјгѓЇгѓјгѓ«гѓ‰гЃ®гЃїгЃ«з›ґжЋҐе…Ґг‚‹гЃ“гЃЁгЃЊгЃ§гЃЌгЃѕгЃ™"
   },
   "instance.worlds.play_instance": {
-    "message": "インスタンスを起動"
+    "message": "г‚¤гѓіг‚№г‚їгѓіг‚№г‚’иµ·е‹•"
   },
   "instance.worlds.type.server": {
-    "message": "サーバー"
+    "message": "г‚µгѓјгѓђгѓј"
   },
   "instance.worlds.type.singleplayer": {
-    "message": "シングルプレイ"
+    "message": "г‚·гѓіг‚°гѓ«гѓ—гѓ¬г‚¤"
   },
   "instance.worlds.view_instance": {
-    "message": "インスタンスを表示する"
+    "message": "г‚¤гѓіг‚№г‚їгѓіг‚№г‚’иЎЁз¤єгЃ™г‚‹"
   },
   "instance.worlds.world_in_use": {
-    "message": "ワールドは使用中"
+    "message": "гѓЇгѓјгѓ«гѓ‰гЃЇдЅїз”Ёдё­"
   },
   "search.filter.locked.instance": {
-    "message": "インスタンスより提供"
+    "message": "г‚¤гѓіг‚№г‚їгѓіг‚№г‚€г‚ЉжЏђдѕ›"
   },
   "search.filter.locked.instance-game-version.title": {
-    "message": "ゲームバージョンはインスタンスより提供"
+    "message": "г‚Ігѓјгѓ гѓђгѓјг‚ёгѓ§гѓігЃЇг‚¤гѓіг‚№г‚їгѓіг‚№г‚€г‚ЉжЏђдѕ›"
   },
   "search.filter.locked.instance-loader.title": {
-    "message": "ローダーはインスタンスにより提供"
+    "message": "гѓ­гѓјгѓЂгѓјгЃЇг‚¤гѓіг‚№г‚їгѓіг‚№гЃ«г‚€г‚ЉжЏђдѕ›"
   },
   "search.filter.locked.instance.sync": {
-    "message": "インスタンスと同期"
+    "message": "г‚¤гѓіг‚№г‚їгѓіг‚№гЃЁеђЊжњџ"
   }
 }

@@ -1,0 +1,17 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<radialGradient id="empty-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(128 130) rotate(90) scale(106)">
+			<stop stop-color="#8FFFD2" stop-opacity="0.32" />
+			<stop offset="1" stop-color="#8FFFD2" stop-opacity="0" />
+		</radialGradient>
+		<linearGradient id="empty-mist" x1="128" y1="54" x2="128" y2="190" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#D6FFE9" />
+			<stop offset="0.45" stop-color="#8FFFD2" />
+			<stop offset="1" stop-color="#45D9B4" />
+		</linearGradient>
+	</defs>
+	<circle cx="128" cy="128" r="112" fill="url(#empty-glow)" />
+	<path d="M128 196C117 162 101 140 77 120C60 106 52 88 56 68C65 90 86 94 99 118C108 133 115 149 128 171C141 149 148 133 157 118C170 94 191 90 200 68C204 88 196 106 179 120C155 140 139 162 128 196Z" fill="url(#empty-mist)" />
+	<path d="M74 185C49 162 43 131 63 108C61 129 82 136 89 156C94 168 88 179 74 185Z" fill="url(#empty-mist)" opacity="0.82" />
+	<path d="M182 185C207 162 213 131 193 108C195 129 174 136 167 156C162 168 168 179 182 185Z" fill="url(#empty-mist)" opacity="0.82" />
+</svg>

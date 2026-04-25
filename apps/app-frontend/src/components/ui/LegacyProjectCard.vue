@@ -7,6 +7,8 @@ import relativeTime from 'dayjs/plugin/relativeTime'
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
 
+import mistCardBg from '@/assets/mist-card-bg.svg'
+
 dayjs.extend(relativeTime)
 
 const router = useRouter()
@@ -64,11 +66,7 @@ const toTransparent = computed(() => {
 			class="w-full aspect-[2/1] bg-cover bg-center bg-no-repeat"
 			:style="{
 				'background-color': (project.featured_gallery ?? project.gallery[0]) ? null : toColor,
-				'background-image': `url(${
-					project.featured_gallery ??
-					project.gallery[0] ??
-					'https://launcher-files.modrinth.com/assets/maze-bg.png'
-				})`,
+				'background-image': `url(${project.featured_gallery ?? project.gallery[0] ?? mistCardBg})`,
 			}"
 		>
 			<div

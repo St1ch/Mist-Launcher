@@ -1,4 +1,4 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
     "message": "Pelayan pengesahan Minecraft mungkin sedang tergendala sekarang. Periksa sambungan internet anda dan cuba lagi nanti."
   },
@@ -84,16 +84,16 @@
     "message": "Pengurusan sumber"
   },
   "app.update-toast.body": {
-    "message": "Modrinth App v{version} sudah bersedia untuk dipasang! Muat semula untuk kemas kini sekarang, atau kemas kini secara automatik apabila anda menutup Modrinth App."
+    "message": "Mist Launcher v{version} sudah bersedia untuk dipasang! Muat semula untuk kemas kini sekarang, atau kemas kini secara automatik apabila anda menutup Mist Launcher."
   },
   "app.update-toast.body.download-complete": {
-    "message": "Modrinth App v{version} sudah selesai dipasang! Muat semula untuk kemas kini sekarang, atau kemas kini secara automatik apabila anda menutup Modrinth App."
+    "message": "Mist Launcher v{version} sudah selesai dipasang! Muat semula untuk kemas kini sekarang, atau kemas kini secara automatik apabila anda menutup Mist Launcher."
   },
   "app.update-toast.body.linux": {
-    "message": "Modrinth App v{version} tersedia. Gunakan pengurus pakej anda untuk mengemas kini dan mendapatkan ciri-ciri dan pembetulan terkini!"
+    "message": "Mist Launcher v{version} tersedia. Gunakan pengurus pakej anda untuk mengemas kini dan mendapatkan ciri-ciri dan pembetulan terkini!"
   },
   "app.update-toast.body.metered": {
-    "message": "Modrinth App v{version} kini tersedia! Memandangkan anda sedang menggunakan rangkaian bermeter, kami tidak memuat turunnya secara automatik."
+    "message": "Mist Launcher v{version} kini tersedia! Memandangkan anda sedang menggunakan rangkaian bermeter, kami tidak memuat turunnya secara automatik."
   },
   "app.update-toast.changelog": {
     "message": "Log perubahan"

@@ -1,4 +1,4 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
     "message": "Maaaring hindi maaabot ang mga Minecraft na pansilbi sa pagpapatunay sa ngayon. Tingnan mo ang hugpong mo sa internet at muling subukan mamaya."
   },
@@ -30,13 +30,13 @@
     "message": "Pamamahala ng mapagkukunan"
   },
   "app.update-toast.body": {
-    "message": "Handa nang maikabit ang Modrinth App v{version}. Muling dalhin upang maisapanahon, o pagkusaan sa pagpinid ng Modrinth App."
+    "message": "Handa nang maikabit ang Mist Launcher v{version}. Muling dalhin upang maisapanahon, o pagkusaan sa pagpinid ng Mist Launcher."
   },
   "app.update-toast.body.download-complete": {
-    "message": "Tapos nang maidalamba ang Modrinth App v{version}. Muling dalhin upang maisapanahon, o pagkusaan sa pagpinid ng Modrinth App."
+    "message": "Tapos nang maidalamba ang Mist Launcher v{version}. Muling dalhin upang maisapanahon, o pagkusaan sa pagpinid ng Mist Launcher."
   },
   "app.update-toast.body.metered": {
-    "message": "Magagamit na ngayon ang Modrinth App v{version}! Hindi namin dinalamba kaagad dahil bilang ang inyong kabalagan."
+    "message": "Magagamit na ngayon ang Mist Launcher v{version}! Hindi namin dinalamba kaagad dahil bilang ang inyong kabalagan."
   },
   "app.update-toast.changelog": {
     "message": "Tala ng Pagbabago"

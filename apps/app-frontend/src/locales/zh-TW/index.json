@@ -1,590 +1,590 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
-    "message": "Minecraft 驗證伺服器現在可能無法使用。請檢查你的網路連線，並稍後再試。"
+    "message": "Minecraft й©—и­‰дјєжњЌе™ЁзЏѕењЁеЏЇиѓЅз„Ўжі•дЅїз”ЁгЂ‚и«‹жЄўжџҐдЅ зљ„з¶Іи·ЇйЂЈз·љпјЊдё¦зЁЌеѕЊе†Ќи©¦гЂ‚"
   },
   "app.auth-servers.unreachable.header": {
-    "message": "無法連線到驗證伺服器"
+    "message": "з„Ўжі•йЂЈз·ље€°й©—и­‰дјєжњЌе™Ё"
   },
   "app.modal.install-to-play.header": {
-    "message": "安裝以遊玩"
+    "message": "е®‰иЈќд»ҐйЃЉзЋ©"
   },
   "app.modal.install-to-play.install-button": {
-    "message": "安裝"
+    "message": "е®‰иЈќ"
   },
   "app.modal.install-to-play.mod-count": {
-    "message": "{count} 個模組"
+    "message": "{count} еЂ‹жЁЎзµ„"
   },
   "app.modal.install-to-play.server-requires-mods": {
-    "message": "這個伺服器需要模組才能遊玩。請點選安裝，以從 Modrinth 設定所需的檔案。"
+    "message": "йЂ™еЂ‹дјєжњЌе™ЁйњЂи¦ЃжЁЎзµ„ж‰ЌиѓЅйЃЉзЋ©гЂ‚и«‹й»ћйЃёе®‰иЈќпјЊд»Ґеѕћ Modrinth иЁ­е®љж‰ЂйњЂзљ„жЄ”жЎ€гЂ‚"
   },
   "app.modal.install-to-play.shared-by-today": {
-    "message": "{name} 今天與你共用了這個實例。"
+    "message": "{name} д»Ље¤©и€‡дЅ е…±з”Ёдє†йЂ™еЂ‹еЇ¦дѕ‹гЂ‚"
   },
   "app.modal.install-to-play.shared-instance": {
-    "message": "共用實例"
+    "message": "е…±з”ЁеЇ¦дѕ‹"
   },
   "app.modal.install-to-play.shared-server-instance": {
-    "message": "共用伺服器實例"
+    "message": "е…±з”ЁдјєжњЌе™ЁеЇ¦дѕ‹"
   },
   "app.modal.update-to-play.added-count": {
-    "message": "新增了 {count} 個"
+    "message": "ж–°еўћдє† {count} еЂ‹"
   },
   "app.modal.update-to-play.diff-type.added": {
-    "message": "已新增"
+    "message": "е·Іж–°еўћ"
   },
   "app.modal.update-to-play.diff-type.removed": {
-    "message": "已移除"
+    "message": "е·Із§»й™¤"
   },
   "app.modal.update-to-play.diff-type.updated": {
-    "message": "已更新"
+    "message": "е·Іж›ґж–°"
   },
   "app.modal.update-to-play.header": {
-    "message": "更新以遊玩"
+    "message": "ж›ґж–°д»ҐйЃЉзЋ©"
   },
   "app.modal.update-to-play.published-date": {
     "message": "{date, date, long}"
   },
   "app.modal.update-to-play.removed-count": {
-    "message": "移除了 {count} 個"
+    "message": "з§»й™¤дє† {count} еЂ‹"
   },
   "app.modal.update-to-play.update-required": {
-    "message": "需要更新"
+    "message": "йњЂи¦Ѓж›ґж–°"
   },
   "app.modal.update-to-play.update-required-description": {
-    "message": "需要更新才能遊玩「{name}」。請更新至最新版本以啟動遊戲。"
+    "message": "йњЂи¦Ѓж›ґж–°ж‰ЌиѓЅйЃЉзЋ©гЂЊ{name}гЂЌгЂ‚и«‹ж›ґж–°и‡іжњЂж–°з‰€жњ¬д»Ґе•џе‹•йЃЉж€ІгЂ‚"
   },
   "app.modal.update-to-play.updated-count": {
-    "message": "更新了 {count} 個"
+    "message": "ж›ґж–°дє† {count} еЂ‹"
   },
   "app.settings.developer-mode-enabled": {
-    "message": "開發人員模式已啟用。"
+    "message": "й–‹з™јдєєе“ЎжЁЎејЏе·Іе•џз”ЁгЂ‚"
   },
   "app.settings.downloading": {
-    "message": "正在下載 v{version}"
+    "message": "ж­ЈењЁдё‹иј‰ v{version}"
   },
   "app.settings.tabs.appearance": {
-    "message": "外觀"
+    "message": "е¤–и§Ђ"
   },
   "app.settings.tabs.default-instance-options": {
-    "message": "預設實例選項"
+    "message": "й ђиЁ­еЇ¦дѕ‹йЃёй …"
   },
   "app.settings.tabs.feature-flags": {
-    "message": "功能開關"
+    "message": "еЉџиѓЅй–‹й—њ"
   },
   "app.settings.tabs.java-installations": {
-    "message": "Java 安裝"
+    "message": "Java е®‰иЈќ"
   },
   "app.settings.tabs.language": {
-    "message": "語言"
+    "message": "иЄћиЁЂ"
   },
   "app.settings.tabs.privacy": {
-    "message": "隱私"
+    "message": "йљ±з§Ѓ"
   },
   "app.settings.tabs.resource-management": {
-    "message": "資源管理"
+    "message": "иі‡жєђз®Ўзђ†"
   },
   "app.update-toast.body": {
-    "message": "Modrinth App v{version} 安裝已準備就緒！重新載入立即更新，或是在你關閉 Modrinth App 時自動更新。"
+    "message": "Mist Launcher v{version} е®‰иЈќе·Іжє–е‚™е°±з·’пјЃй‡Ќж–°иј‰е…Ґз«‹еЌіж›ґж–°пјЊж€–жЇењЁдЅ й—њй–‰ Mist Launcher ж™‚и‡Єе‹•ж›ґж–°гЂ‚"
   },
   "app.update-toast.body.download-complete": {
-    "message": "Modrinth App v{version} 已完成下載。重新載入立即更新，或是在你關閉 Modrinth App 時自動更新。"
+    "message": "Mist Launcher v{version} е·Іе®Њж€ђдё‹иј‰гЂ‚й‡Ќж–°иј‰е…Ґз«‹еЌіж›ґж–°пјЊж€–жЇењЁдЅ й—њй–‰ Mist Launcher ж™‚и‡Єе‹•ж›ґж–°гЂ‚"
   },
   "app.update-toast.body.linux": {
-    "message": "Modrinth App v{version} 現已推出。請使用您的套件管理員進行更新，以取得最新的功能與修正！"
+    "message": "Mist Launcher v{version} зЏѕе·ІжЋЁе‡єгЂ‚и«‹дЅїз”Ёж‚Ёзљ„еҐ—д»¶з®Ўзђ†е“ЎйЂІиЎЊж›ґж–°пјЊд»ҐеЏ–еѕ—жњЂж–°зљ„еЉџиѓЅи€‡дї®ж­ЈпјЃ"
   },
   "app.update-toast.body.metered": {
-    "message": "Modrinth App v{version} 現已推出！由於你正使用計量付費的網路，我們沒有自動下載它。"
+    "message": "Mist Launcher v{version} зЏѕе·ІжЋЁе‡єпјЃз”±ж–јдЅ ж­ЈдЅїз”ЁиЁ€й‡Џд»иІ»зљ„з¶Іи·ЇпјЊж€‘еЂ‘жІ’жњ‰и‡Єе‹•дё‹иј‰е®ѓгЂ‚"
   },
   "app.update-toast.changelog": {
-    "message": "更新日誌"
+    "message": "ж›ґж–°ж—ҐиЄЊ"
   },
   "app.update-toast.download": {
-    "message": "下載 ({size})"
+    "message": "дё‹иј‰ ({size})"
   },
   "app.update-toast.download-page": {
-    "message": "下載"
+    "message": "дё‹иј‰"
   },
   "app.update-toast.downloading": {
-    "message": "下載中..."
+    "message": "дё‹иј‰дё­..."
   },
   "app.update-toast.reload": {
-    "message": "重新載入"
+    "message": "й‡Ќж–°иј‰е…Ґ"
   },
   "app.update-toast.title": {
-    "message": "有可用的更新"
+    "message": "жњ‰еЏЇз”Ёзљ„ж›ґж–°"
   },
   "app.update-toast.title.download-complete": {
-    "message": "下載完成"
+    "message": "дё‹иј‰е®Њж€ђ"
   },
   "app.update.complete-toast.text": {
-    "message": "按這裡查看更新日誌。"
+    "message": "жЊ‰йЂ™иЈЎжџҐзњ‹ж›ґж–°ж—ҐиЄЊгЂ‚"
   },
   "app.update.complete-toast.title": {
-    "message": "版本 {version} 已成功安裝！"
+    "message": "з‰€жњ¬ {version} е·Іж€ђеЉџе®‰иЈќпјЃ"
   },
   "app.update.download-update": {
-    "message": "下載更新"
+    "message": "дё‹иј‰ж›ґж–°"
   },
   "app.update.downloading-update": {
-    "message": "正在下載更新 ({percent}%)"
+    "message": "ж­ЈењЁдё‹иј‰ж›ґж–° ({percent}%)"
   },
   "app.update.reload-to-update": {
-    "message": "重新載入即可安裝更新"
+    "message": "й‡Ќж–°иј‰е…ҐеЌіеЏЇе®‰иЈќж›ґж–°"
   },
   "friends.action.add-friend": {
-    "message": "新增好友"
+    "message": "ж–°еўћеҐЅеЏ‹"
   },
   "friends.action.view-friend-requests": {
-    "message": "{count} 個好友邀請"
+    "message": "{count} еЂ‹еҐЅеЏ‹й‚Ђи«‹"
   },
   "friends.add-friend.submit": {
-    "message": "送出好友邀請"
+    "message": "йЂЃе‡єеҐЅеЏ‹й‚Ђи«‹"
   },
   "friends.add-friend.title": {
-    "message": "新增好友"
+    "message": "ж–°еўћеҐЅеЏ‹"
   },
   "friends.add-friend.username.description": {
-    "message": "這可能與對方的 Minecraft 使用者名稱不同！"
+    "message": "йЂ™еЏЇиѓЅи€‡е°Ќж–№зљ„ Minecraft дЅїз”ЁиЂ…еђЌзЁ±дёЌеђЊпјЃ"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "輸入 Modrinth 使用者名稱..."
+    "message": "ијёе…Ґ Modrinth дЅїз”ЁиЂ…еђЌзЁ±..."
   },
   "friends.add-friend.username.title": {
-    "message": "你好友的 Modrinth 使用者名稱是什麼？"
+    "message": "дЅ еҐЅеЏ‹зљ„ Modrinth дЅїз”ЁиЂ…еђЌзЁ±жЇд»Ђйєјпјџ"
   },
   "friends.add-friends-to-share": {
-    "message": "<link>新增好友</link>即可查看他們正在玩什麼！"
+    "message": "<link>ж–°еўћеҐЅеЏ‹</link>еЌіеЏЇжџҐзњ‹д»–еЂ‘ж­ЈењЁзЋ©д»ЂйєјпјЃ"
   },
   "friends.friend.cancel-request": {
-    "message": "取消請求"
+    "message": "еЏ–ж¶€и«‹ж±‚"
   },
   "friends.friend.remove-friend": {
-    "message": "移除好友"
+    "message": "з§»й™¤еҐЅеЏ‹"
   },
   "friends.friend.request-sent": {
-    "message": "已送出好友邀請"
+    "message": "е·ІйЂЃе‡єеҐЅеЏ‹й‚Ђи«‹"
   },
   "friends.friend.view-profile": {
-    "message": "查看個人檔案"
+    "message": "жџҐзњ‹еЂ‹дєєжЄ”жЎ€"
   },
   "friends.heading": {
-    "message": "好友"
+    "message": "еҐЅеЏ‹"
   },
   "friends.heading.active": {
-    "message": "活躍中"
+    "message": "жґ»иєЌдё­"
   },
   "friends.heading.offline": {
-    "message": "離線"
+    "message": "й›ўз·љ"
   },
   "friends.heading.online": {
-    "message": "線上"
+    "message": "з·љдёЉ"
   },
   "friends.heading.pending": {
-    "message": "待處理"
+    "message": "еѕ…и™•зђ†"
   },
   "friends.no-friends-match": {
-    "message": "沒有符合「{query}」的好友"
+    "message": "жІ’жњ‰з¬¦еђ€гЂЊ{query}гЂЌзљ„еҐЅеЏ‹"
   },
   "friends.search-friends-placeholder": {
-    "message": "搜尋好友..."
+    "message": "жђње°‹еҐЅеЏ‹..."
   },
   "friends.section.heading": {
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>登入 Modrinth 帳號</link>即可新增好友並查看他們正在玩什麼！"
+    "message": "<link>з™»е…Ґ Modrinth еёіи™џ</link>еЌіеЏЇж–°еўћеҐЅеЏ‹дё¦жџҐзњ‹д»–еЂ‘ж­ЈењЁзЋ©д»ЂйєјпјЃ"
   },
   "instance.add-server.add-and-play": {
-    "message": "新增並遊玩"
+    "message": "ж–°еўћдё¦йЃЉзЋ©"
   },
   "instance.add-server.add-server": {
-    "message": "新增伺服器"
+    "message": "ж–°еўћдјєжњЌе™Ё"
   },
   "instance.add-server.resource-pack.disabled": {
-    "message": "已停用"
+    "message": "е·ІеЃњз”Ё"
   },
   "instance.add-server.resource-pack.enabled": {
-    "message": "已啟用"
+    "message": "е·Іе•џз”Ё"
   },
   "instance.add-server.resource-pack.prompt": {
-    "message": "提示"
+    "message": "жЏђз¤є"
   },
   "instance.add-server.title": {
-    "message": "新增伺服器"
+    "message": "ж–°еўћдјєжњЌе™Ё"
   },
   "instance.edit-server.title": {
-    "message": "編輯伺服器"
+    "message": "з·ЁијЇдјєжњЌе™Ё"
   },
   "instance.edit-world.hide-from-home": {
-    "message": "從首頁隱藏"
+    "message": "еѕћй¦–й Ѓйљ±и—Џ"
   },
   "instance.edit-world.name": {
-    "message": "名稱"
+    "message": "еђЌзЁ±"
   },
   "instance.edit-world.placeholder-name": {
-    "message": "Minecraft 世界"
+    "message": "Minecraft дё–з•Њ"
   },
   "instance.edit-world.reset-icon": {
-    "message": "重設圖示"
+    "message": "й‡ЌиЁ­ењ–з¤є"
   },
   "instance.edit-world.title": {
-    "message": "編輯世界"
+    "message": "з·ЁијЇдё–з•Њ"
   },
   "instance.filter.disabled": {
-    "message": "已停用的專案"
+    "message": "е·ІеЃњз”Ёзљ„е°€жЎ€"
   },
   "instance.filter.updates-available": {
-    "message": "有可用的更新"
+    "message": "жњ‰еЏЇз”Ёзљ„ж›ґж–°"
   },
   "instance.server-modal.address": {
-    "message": "位址"
+    "message": "дЅЌеќЂ"
   },
   "instance.server-modal.name": {
-    "message": "名稱"
+    "message": "еђЌзЁ±"
   },
   "instance.server-modal.placeholder-name": {
-    "message": "Minecraft 伺服器"
+    "message": "Minecraft дјєжњЌе™Ё"
   },
   "instance.server-modal.resource-pack": {
-    "message": "資源包"
+    "message": "иі‡жєђеЊ…"
   },
   "instance.settings.tabs.general": {
-    "message": "一般"
+    "message": "дёЂи€¬"
   },
   "instance.settings.tabs.general.delete": {
-    "message": "刪除實例"
+    "message": "е€Єй™¤еЇ¦дѕ‹"
   },
   "instance.settings.tabs.general.delete.button": {
-    "message": "刪除實例"
+    "message": "е€Єй™¤еЇ¦дѕ‹"
   },
   "instance.settings.tabs.general.delete.description": {
-    "message": "這將從裝置上永久刪除實例，包含你的世界、設定與所有已安裝內容。請注意，一旦刪除，將無法復原。"
+    "message": "йЂ™е°‡еѕћиЈќзЅ®дёЉж°ёд№…е€Єй™¤еЇ¦дѕ‹пјЊеЊ…еђ«дЅ зљ„дё–з•ЊгЂЃиЁ­е®љи€‡ж‰Ђжњ‰е·Іе®‰иЈќе…§е®№гЂ‚и«‹жіЁж„ЏпјЊдёЂж—¦е€Єй™¤пјЊе°‡з„Ўжі•еѕ©еЋџгЂ‚"
   },
   "instance.settings.tabs.general.deleting.button": {
-    "message": "刪除中..."
+    "message": "е€Єй™¤дё­..."
   },
   "instance.settings.tabs.general.duplicate-button": {
-    "message": "複製"
+    "message": "и¤‡иЈЅ"
   },
   "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
-    "message": "安裝時無法複製。"
+    "message": "е®‰иЈќж™‚з„Ўжі•и¤‡иЈЅгЂ‚"
   },
   "instance.settings.tabs.general.duplicate-instance": {
-    "message": "複製實例"
+    "message": "и¤‡иЈЅеЇ¦дѕ‹"
   },
   "instance.settings.tabs.general.duplicate-instance.description": {
-    "message": "建立這個實例的副本，包含世界、設定、模組等。"
+    "message": "е»єз«‹йЂ™еЂ‹еЇ¦дѕ‹зљ„е‰Їжњ¬пјЊеЊ…еђ«дё–з•ЊгЂЃиЁ­е®љгЂЃжЁЎзµ„з­‰гЂ‚"
   },
   "instance.settings.tabs.general.edit-icon": {
-    "message": "編輯圖示"
+    "message": "з·ЁијЇењ–з¤є"
   },
   "instance.settings.tabs.general.edit-icon.remove": {
-    "message": "移除圖示"
+    "message": "з§»й™¤ењ–з¤є"
   },
   "instance.settings.tabs.general.edit-icon.replace": {
-    "message": "取代圖示"
+    "message": "еЏ–д»Јењ–з¤є"
   },
   "instance.settings.tabs.general.edit-icon.select": {
-    "message": "選擇圖示"
+    "message": "йЃёж“‡ењ–з¤є"
   },
   "instance.settings.tabs.general.library-groups": {
-    "message": "實例庫群組"
+    "message": "еЇ¦дѕ‹еє«зѕ¤зµ„"
   },
   "instance.settings.tabs.general.library-groups.create": {
-    "message": "建立新的群組"
+    "message": "е»єз«‹ж–°зљ„зѕ¤зµ„"
   },
   "instance.settings.tabs.general.library-groups.description": {
-    "message": "實例庫群組讓你可以將實例整理到實例庫中的不同分類。"
+    "message": "еЇ¦дѕ‹еє«зѕ¤зµ„и®“дЅ еЏЇд»Ґе°‡еЇ¦дѕ‹ж•ґзђ†е€°еЇ¦дѕ‹еє«дё­зљ„дёЌеђЊе€†йЎћгЂ‚"
   },
   "instance.settings.tabs.general.library-groups.enter-name": {
-    "message": "輸入群組名稱"
+    "message": "ијёе…Ґзѕ¤зµ„еђЌзЁ±"
   },
   "instance.settings.tabs.general.name": {
-    "message": "名稱"
+    "message": "еђЌзЁ±"
   },
   "instance.settings.tabs.hooks": {
-    "message": "啟動掛勾"
+    "message": "е•џе‹•жЋ›е‹ѕ"
   },
   "instance.settings.tabs.hooks.custom-hooks": {
-    "message": "自訂啟動掛勾"
+    "message": "и‡ЄиЁ‚е•џе‹•жЋ›е‹ѕ"
   },
   "instance.settings.tabs.hooks.description": {
-    "message": "掛勾讓進階使用者能在遊戲啟動前和啟動後執行特定的系統命令。"
+    "message": "жЋ›е‹ѕи®“йЂІйљЋдЅїз”ЁиЂ…иѓЅењЁйЃЉж€Іе•џе‹•е‰Ќе’Ње•џе‹•еѕЊеџ·иЎЊз‰№е®љзљ„зі»зµ±е‘Ѕд»¤гЂ‚"
   },
   "instance.settings.tabs.hooks.post-exit": {
-    "message": "結束後執行"
+    "message": "зµђжќџеѕЊеџ·иЎЊ"
   },
   "instance.settings.tabs.hooks.post-exit.description": {
-    "message": "遊戲關閉後執行。"
+    "message": "йЃЉж€Ій—њй–‰еѕЊеџ·иЎЊгЂ‚"
   },
   "instance.settings.tabs.hooks.post-exit.enter": {
-    "message": "輸入結束後指令..."
+    "message": "ијёе…ҐзµђжќџеѕЊжЊ‡д»¤..."
   },
   "instance.settings.tabs.hooks.pre-launch": {
-    "message": "啟動前"
+    "message": "е•џе‹•е‰Ќ"
   },
   "instance.settings.tabs.hooks.pre-launch.description": {
-    "message": "實例啟動前執行。"
+    "message": "еЇ¦дѕ‹е•џе‹•е‰Ќеџ·иЎЊгЂ‚"
   },
   "instance.settings.tabs.hooks.pre-launch.enter": {
-    "message": "輸入啟動前指令..."
+    "message": "ијёе…Ґе•џе‹•е‰ЌжЊ‡д»¤..."
   },
   "instance.settings.tabs.hooks.title": {
-    "message": "遊戲啟動掛勾"
+    "message": "йЃЉж€Іе•џе‹•жЋ›е‹ѕ"
   },
   "instance.settings.tabs.hooks.wrapper": {
-    "message": "包裝指令"
+    "message": "еЊ…иЈќжЊ‡д»¤"
   },
   "instance.settings.tabs.hooks.wrapper.description": {
-    "message": "用於啟動 Minecraft 的包裝指令。"
+    "message": "з”Ёж–је•џе‹• Minecraft зљ„еЊ…иЈќжЊ‡д»¤гЂ‚"
   },
   "instance.settings.tabs.hooks.wrapper.enter": {
-    "message": "輸入包裝指令..."
+    "message": "ијёе…ҐеЊ…иЈќжЊ‡д»¤..."
   },
   "instance.settings.tabs.installation": {
-    "message": "安裝"
+    "message": "е®‰иЈќ"
   },
   "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "適用於 Minecraft {game_version} 的 {platform} {version} 已經安裝"
+    "message": "йЃ©з”Ёж–ј Minecraft {game_version} зљ„ {platform} {version} е·Із¶“е®‰иЈќ"
   },
   "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "原版 {game_version} 已經安裝"
+    "message": "еЋџз‰€ {game_version} е·Із¶“е®‰иЈќ"
   },
   "instance.settings.tabs.installation.change-version.button": {
-    "message": "變更版本"
+    "message": "и®Љж›ґз‰€жњ¬"
   },
   "instance.settings.tabs.installation.change-version.button.install": {
-    "message": "安裝"
+    "message": "е®‰иЈќ"
   },
   "instance.settings.tabs.installation.change-version.button.installing": {
-    "message": "安裝中"
+    "message": "е®‰иЈќдё­"
   },
   "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "正在取得模組包版本"
+    "message": "ж­ЈењЁеЏ–еѕ—жЁЎзµ„еЊ…з‰€жњ¬"
   },
   "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "正在安裝新版本"
+    "message": "ж­ЈењЁе®‰иЈќж–°з‰€жњ¬"
   },
   "instance.settings.tabs.installation.currently-installed": {
-    "message": "目前已安裝"
+    "message": "з›®е‰Ќе·Іе®‰иЈќ"
   },
   "instance.settings.tabs.installation.debug-information": {
-    "message": "除錯資訊："
+    "message": "й™¤йЊЇиі‡иЁЉпјљ"
   },
   "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "正在取得模組詳細資訊"
+    "message": "ж­ЈењЁеЏ–еѕ—жЁЎзµ„и©ізґ°иі‡иЁЉ"
   },
   "instance.settings.tabs.installation.game-version": {
-    "message": "遊戲版本"
+    "message": "йЃЉж€Із‰€жњ¬"
   },
   "instance.settings.tabs.installation.install": {
-    "message": "安裝"
+    "message": "е®‰иЈќ"
   },
   "instance.settings.tabs.installation.install.in-progress": {
-    "message": "安裝中"
+    "message": "е®‰иЈќдё­"
   },
   "instance.settings.tabs.installation.loader-version": {
-    "message": "{loader} 版本"
+    "message": "{loader} з‰€жњ¬"
   },
   "instance.settings.tabs.installation.minecraft-version": {
     "message": "Minecraft {version}"
   },
   "instance.settings.tabs.installation.no-connection": {
-    "message": "無法取得連結模組包的詳細資訊。請檢查你的網路連線。"
+    "message": "з„Ўжі•еЏ–еѕ—йЂЈзµђжЁЎзµ„еЊ…зљ„и©ізґ°иі‡иЁЉгЂ‚и«‹жЄўжџҐдЅ зљ„з¶Іи·ЇйЂЈз·љгЂ‚"
   },
   "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader} 不適用於 Minecraft {version}。請嘗試其他模組載入器。"
+    "message": "{loader} дёЌйЃ©з”Ёж–ј Minecraft {version}гЂ‚и«‹е—и©¦е…¶д»–жЁЎзµ„иј‰е…Ґе™ЁгЂ‚"
   },
   "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "這個實例已連結至一個模組包，但該模組包無法在 Modrinth 上找到。"
+    "message": "йЂ™еЂ‹еЇ¦дѕ‹е·ІйЂЈзµђи‡ідёЂеЂ‹жЁЎзµ„еЊ…пјЊдЅ†и©ІжЁЎзµ„еЊ…з„Ўжі•ењЁ Modrinth дёЉж‰ѕе€°гЂ‚"
   },
   "instance.settings.tabs.installation.platform": {
-    "message": "平台"
+    "message": "е№іеЏ°"
   },
   "instance.settings.tabs.installation.reinstall.button": {
-    "message": "重新安裝模組包"
+    "message": "й‡Ќж–°е®‰иЈќжЁЎзµ„еЊ…"
   },
   "instance.settings.tabs.installation.reinstall.button.reinstalling": {
-    "message": "正在重新安裝模組包"
+    "message": "ж­ЈењЁй‡Ќж–°е®‰иЈќжЁЎзµ„еЊ…"
   },
   "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "重新安裝會將所有已安裝或已修改的內容，重設為模組包所提供的內容，並移除你在原始安裝基礎上額外新增的模組或內容。這可能會修復實例在變更後產生的非預期行為，但如果你的世界現在依賴額外安裝的內容，可能會導致現有世界損毀。"
+    "message": "й‡Ќж–°е®‰иЈќжњѓе°‡ж‰Ђжњ‰е·Іе®‰иЈќж€–е·Ідї®ж”№зљ„е…§е®№пјЊй‡ЌиЁ­з‚єжЁЎзµ„еЊ…ж‰ЂжЏђдѕ›зљ„е…§е®№пјЊдё¦з§»й™¤дЅ ењЁеЋџе§‹е®‰иЈќеџєз¤ЋдёЉйЎЌе¤–ж–°еўћзљ„жЁЎзµ„ж€–е…§е®№гЂ‚йЂ™еЏЇиѓЅжњѓдї®еѕ©еЇ¦дѕ‹ењЁи®Љж›ґеѕЊз”ўз”џзљ„йќћй ђжњџиЎЊз‚єпјЊдЅ†е¦‚жћњдЅ зљ„дё–з•ЊзЏѕењЁдѕќиіґйЎЌе¤–е®‰иЈќзљ„е…§е®№пјЊеЏЇиѓЅжњѓе°Ћи‡ґзЏѕжњ‰дё–з•ЊжђЌжЇЂгЂ‚"
   },
   "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "你確定要重新安裝這個實例嗎？"
+    "message": "дЅ зўєе®љи¦Ѓй‡Ќж–°е®‰иЈќйЂ™еЂ‹еЇ¦дѕ‹е—Ћпјџ"
   },
   "instance.settings.tabs.installation.reinstall.description": {
-    "message": "將實例的內容重設為原始狀態，並移除任何在原始模組包之外額外新增的模組或內容。"
+    "message": "е°‡еЇ¦дѕ‹зљ„е…§е®№й‡ЌиЁ­з‚єеЋџе§‹з‹Ђж…‹пјЊдё¦з§»й™¤д»»дЅ•ењЁеЋџе§‹жЁЎзµ„еЊ…д№‹е¤–йЎЌе¤–ж–°еўћзљ„жЁЎзµ„ж€–е…§е®№гЂ‚"
   },
   "instance.settings.tabs.installation.reinstall.title": {
-    "message": "重新安裝模組包"
+    "message": "й‡Ќж–°е®‰иЈќжЁЎзµ„еЊ…"
   },
   "instance.settings.tabs.installation.repair.button": {
-    "message": "修復"
+    "message": "дї®еѕ©"
   },
   "instance.settings.tabs.installation.repair.button.repairing": {
-    "message": "修復中"
+    "message": "дї®еѕ©дё­"
   },
   "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "修復功能會重新安裝 Minecraft 的相依檔案，並檢查檔案是否損毀。這或許能解決因啟動器相關錯誤而導致遊戲無法啟動的問題，但無法解決與已安裝模組相關的問題或崩潰。"
+    "message": "дї®еѕ©еЉџиѓЅжњѓй‡Ќж–°е®‰иЈќ Minecraft зљ„з›ёдѕќжЄ”жЎ€пјЊдё¦жЄўжџҐжЄ”жЎ€жЇеђ¦жђЌжЇЂгЂ‚йЂ™ж€–иЁ±иѓЅи§Јж±єе› е•џе‹•е™Ёз›ёй—њйЊЇиЄ¤иЂЊе°Ћи‡ґйЃЉж€Із„Ўжі•е•џе‹•зљ„е•ЏйЎЊпјЊдЅ†з„Ўжі•и§Јж±єи€‡е·Іе®‰иЈќжЁЎзµ„з›ёй—њзљ„е•ЏйЎЊж€–еґ©жЅ°гЂ‚"
   },
   "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "是否要修復實例？"
+    "message": "жЇеђ¦и¦Ѓдї®еѕ©еЇ¦дѕ‹пјџ"
   },
   "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "修復中"
+    "message": "дї®еѕ©дё­"
   },
   "instance.settings.tabs.installation.reset-selections": {
-    "message": "重設為目前版本"
+    "message": "й‡ЌиЁ­з‚єз›®е‰Ќз‰€жњ¬"
   },
   "instance.settings.tabs.installation.show-all-versions": {
-    "message": "顯示所有版本"
+    "message": "йЎЇз¤єж‰Ђжњ‰з‰€жњ¬"
   },
   "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "變更版本"
+    "message": "и®Љж›ґз‰€жњ¬"
   },
   "instance.settings.tabs.installation.tooltip.action.install": {
-    "message": "安裝"
+    "message": "е®‰иЈќ"
   },
   "instance.settings.tabs.installation.tooltip.action.reinstall": {
-    "message": "重新安裝"
+    "message": "й‡Ќж–°е®‰иЈќ"
   },
   "instance.settings.tabs.installation.tooltip.action.repair": {
-    "message": "修復"
+    "message": "дї®еѕ©"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "安裝時無法{action}"
+    "message": "е®‰иЈќж™‚з„Ўжі•{action}"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
-    "message": "離線時無法{action}"
+    "message": "й›ўз·љж™‚з„Ўжі•{action}"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "修復時無法{action}"
+    "message": "дї®еѕ©ж™‚з„Ўжі•{action}"
   },
   "instance.settings.tabs.installation.unknown-version": {
-    "message": "（未知的版本）"
+    "message": "пј€жњЄзџҐзљ„з‰€жњ¬пј‰"
   },
   "instance.settings.tabs.installation.unlink.button": {
-    "message": "解除實例連結"
+    "message": "и§Јй™¤еЇ¦дѕ‹йЂЈзµђ"
   },
   "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "如果繼續操作，你將無法在不建立全新實例的情況下重新連結它。你將不再收到模組包更新，而且它將成為一個普通實例。"
+    "message": "е¦‚жћњз№јзєЊж“ЌдЅњпјЊдЅ е°‡з„Ўжі•ењЁдёЌе»єз«‹е…Ёж–°еЇ¦дѕ‹зљ„жѓ…жіЃдё‹й‡Ќж–°йЂЈзµђе®ѓгЂ‚дЅ е°‡дёЌе†Ќж”¶е€°жЁЎзµ„еЊ…ж›ґж–°пјЊиЂЊдё”е®ѓе°‡ж€ђз‚єдёЂеЂ‹ж™®йЂљеЇ¦дѕ‹гЂ‚"
   },
   "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "你確定要解除連結這個實例嗎？"
+    "message": "дЅ зўєе®љи¦Ѓи§Јй™¤йЂЈзµђйЂ™еЂ‹еЇ¦дѕ‹е—Ћпјџ"
   },
   "instance.settings.tabs.installation.unlink.description": {
-    "message": "這個實例已連結至一個模組包，這表示模組無法更新，你也無法變更模組載入器或 Minecraft 版本。解除連結將會永久中斷這個實例與模組包之間的關係。"
+    "message": "йЂ™еЂ‹еЇ¦дѕ‹е·ІйЂЈзµђи‡ідёЂеЂ‹жЁЎзµ„еЊ…пјЊйЂ™иЎЁз¤єжЁЎзµ„з„Ўжі•ж›ґж–°пјЊдЅ д№џз„Ўжі•и®Љж›ґжЁЎзµ„иј‰е…Ґе™Ёж€– Minecraft з‰€жњ¬гЂ‚и§Јй™¤йЂЈзµђе°‡жњѓж°ёд№…дё­ж–·йЂ™еЂ‹еЇ¦дѕ‹и€‡жЁЎзµ„еЊ…д№‹й–“зљ„й—њдї‚гЂ‚"
   },
   "instance.settings.tabs.installation.unlink.title": {
-    "message": "從模組包解除連結"
+    "message": "еѕћжЁЎзµ„еЊ…и§Јй™¤йЂЈзµђ"
   },
   "instance.settings.tabs.java": {
-    "message": "Java 和記憶體"
+    "message": "Java е’ЊиЁж†¶й«”"
   },
   "instance.settings.tabs.java.environment-variables": {
-    "message": "環境變數"
+    "message": "з’°еўѓи®Љж•ё"
   },
   "instance.settings.tabs.java.hooks": {
-    "message": "掛勾"
+    "message": "жЋ›е‹ѕ"
   },
   "instance.settings.tabs.java.java-arguments": {
-    "message": "Java 參數"
+    "message": "Java еЏѓж•ё"
   },
   "instance.settings.tabs.java.java-installation": {
-    "message": "Java 安裝"
+    "message": "Java е®‰иЈќ"
   },
   "instance.settings.tabs.java.java-memory": {
-    "message": "記憶體配置"
+    "message": "иЁж†¶й«”й…ЌзЅ®"
   },
   "instance.settings.tabs.window": {
-    "message": "視窗"
+    "message": "и¦–зЄ—"
   },
   "instance.settings.tabs.window.custom-window-settings": {
-    "message": "自訂視窗設定"
+    "message": "и‡ЄиЁ‚и¦–зЄ—иЁ­е®љ"
   },
   "instance.settings.tabs.window.fullscreen": {
-    "message": "全螢幕"
+    "message": "е…Ёићўе№•"
   },
   "instance.settings.tabs.window.fullscreen.description": {
-    "message": "使遊戲啟動時進入全螢幕模式（透過 options.txt）。"
+    "message": "дЅїйЃЉж€Іе•џе‹•ж™‚йЂІе…Ґе…Ёићўе№•жЁЎејЏпј€йЂЏйЃЋ options.txtпј‰гЂ‚"
   },
   "instance.settings.tabs.window.height": {
-    "message": "高度"
+    "message": "й«еє¦"
   },
   "instance.settings.tabs.window.height.description": {
-    "message": "遊戲啟動時的視窗高度。"
+    "message": "йЃЉж€Іе•џе‹•ж™‚зљ„и¦–зЄ—й«еє¦гЂ‚"
   },
   "instance.settings.tabs.window.height.enter": {
-    "message": "輸入高度..."
+    "message": "ијёе…Ґй«еє¦..."
   },
   "instance.settings.tabs.window.width": {
-    "message": "寬度"
+    "message": "еЇ¬еє¦"
   },
   "instance.settings.tabs.window.width.description": {
-    "message": "遊戲啟動時的視窗寬度。"
+    "message": "йЃЉж€Іе•џе‹•ж™‚зљ„и¦–зЄ—еЇ¬еє¦гЂ‚"
   },
   "instance.settings.tabs.window.width.enter": {
-    "message": "輸入寬度..."
+    "message": "ијёе…ҐеЇ¬еє¦..."
   },
   "instance.worlds.a_minecraft_server": {
-    "message": "Minecraft 伺服器"
+    "message": "Minecraft дјєжњЌе™Ё"
   },
   "instance.worlds.cant_connect": {
-    "message": "無法連線到伺服器"
+    "message": "з„Ўжі•йЂЈз·ље€°дјєжњЌе™Ё"
   },
   "instance.worlds.copy_address": {
-    "message": "複製位址"
+    "message": "и¤‡иЈЅдЅЌеќЂ"
   },
   "instance.worlds.dont_show_on_home": {
-    "message": "不要在首頁顯示"
+    "message": "дёЌи¦ЃењЁй¦–й ЃйЎЇз¤є"
   },
   "instance.worlds.filter.available": {
-    "message": "可用"
+    "message": "еЏЇз”Ё"
   },
   "instance.worlds.game_already_open": {
-    "message": "實例已經開啟"
+    "message": "еЇ¦дѕ‹е·Із¶“й–‹е•џ"
   },
   "instance.worlds.hardcore": {
-    "message": "極限模式"
+    "message": "жҐµй™ђжЁЎејЏ"
   },
   "instance.worlds.incompatible_server": {
-    "message": "伺服器不相容"
+    "message": "дјєжњЌе™ЁдёЌз›ёе®№"
   },
   "instance.worlds.no_contact": {
-    "message": "伺服器沒有回應"
+    "message": "дјєжњЌе™ЁжІ’жњ‰е›ћж‡‰"
   },
   "instance.worlds.no_server_quick_play": {
-    "message": "你只能在 Minecraft Alpha 1.0.5 以上版本直接加入伺服器"
+    "message": "дЅ еЏЄиѓЅењЁ Minecraft Alpha 1.0.5 д»ҐдёЉз‰€жњ¬з›ґжЋҐеЉ е…ҐдјєжњЌе™Ё"
   },
   "instance.worlds.no_singleplayer_quick_play": {
-    "message": "你只能在 Minecraft 1.20 以上版本直接進入單人遊戲世界"
+    "message": "дЅ еЏЄиѓЅењЁ Minecraft 1.20 д»ҐдёЉз‰€жњ¬з›ґжЋҐйЂІе…Ґе–®дєєйЃЉж€Ідё–з•Њ"
   },
   "instance.worlds.play_instance": {
-    "message": "遊戲實例"
+    "message": "йЃЉж€ІеЇ¦дѕ‹"
   },
   "instance.worlds.type.server": {
-    "message": "伺服器"
+    "message": "дјєжњЌе™Ё"
   },
   "instance.worlds.type.singleplayer": {
-    "message": "單人遊戲"
+    "message": "е–®дєєйЃЉж€І"
   },
   "instance.worlds.view_instance": {
-    "message": "檢視實例"
+    "message": "жЄўи¦–еЇ¦дѕ‹"
   },
   "instance.worlds.world_in_use": {
-    "message": "世界正在使用中"
+    "message": "дё–з•Њж­ЈењЁдЅїз”Ёдё­"
   },
   "search.filter.locked.instance": {
-    "message": "由該實例提供"
+    "message": "з”±и©ІеЇ¦дѕ‹жЏђдѕ›"
   },
   "search.filter.locked.instance-game-version.title": {
-    "message": "遊戲版本由實例提供"
+    "message": "йЃЉж€Із‰€жњ¬з”±еЇ¦дѕ‹жЏђдѕ›"
   },
   "search.filter.locked.instance-loader.title": {
-    "message": "載入器版本由實例提供"
+    "message": "иј‰е…Ґе™Ёз‰€жњ¬з”±еЇ¦дѕ‹жЏђдѕ›"
   },
   "search.filter.locked.instance.sync": {
-    "message": "與實例同步"
+    "message": "и€‡еЇ¦дѕ‹еђЊж­Ґ"
   }
 }

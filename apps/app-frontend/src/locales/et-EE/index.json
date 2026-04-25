@@ -1,18 +1,18 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
-    "message": "Minecrafti autentimiserverid võivad praegu all olla. Kontrolli oma internetiühendust ja proovi hiljem uuesti."
+    "message": "Minecrafti autentimiserverid vГµivad praegu all olla. Kontrolli oma internetiГјhendust ja proovi hiljem uuesti."
   },
   "app.settings.developer-mode-enabled": {
-    "message": "Arendajarežiim sisse lülitatud."
+    "message": "ArendajareЕѕiim sisse lГјlitatud."
   },
   "app.settings.tabs.appearance": {
-    "message": "Välimus"
+    "message": "VГ¤limus"
   },
   "app.settings.tabs.default-instance-options": {
     "message": "Vaikimisi instantsi valikud"
   },
   "app.settings.tabs.feature-flags": {
-    "message": "Funktsioonimärgid"
+    "message": "FunktsioonimГ¤rgid"
   },
   "app.settings.tabs.java-installations": {
     "message": "Java installatsioonid"
@@ -24,22 +24,22 @@
     "message": "Ressursside haldus"
   },
   "app.update-toast.body": {
-    "message": "Modrinth App v{version} on valmis installimiseks! Uuendamiseks taaskäivitage kohe või automaatselt, kui sulgeted Modritnth App."
+    "message": "Mist Launcher v{version} on valmis installimiseks! Uuendamiseks taaskГ¤ivitage kohe vГµi automaatselt, kui sulgeted Modritnth App."
   },
   "instance.add-server.add-and-play": {
-    "message": "Lisa ja mängi"
+    "message": "Lisa ja mГ¤ngi"
   },
   "instance.add-server.add-server": {
     "message": "Lisa server"
   },
   "instance.add-server.resource-pack.disabled": {
-    "message": "Väljas"
+    "message": "VГ¤ljas"
   },
   "instance.add-server.resource-pack.enabled": {
     "message": "Sees"
   },
   "instance.add-server.resource-pack.prompt": {
-    "message": "Küsi"
+    "message": "KГјsi"
   },
   "instance.add-server.title": {
     "message": "Lisa server"
@@ -48,7 +48,7 @@
     "message": "Muuda server"
   },
   "instance.edit-world.hide-from-home": {
-    "message": "Peida koduleheküljelt"
+    "message": "Peida kodulehekГјljelt"
   },
   "instance.edit-world.name": {
     "message": "Nimi"
@@ -57,7 +57,7 @@
     "message": "Minecrafti maailm"
   },
   "instance.edit-world.reset-icon": {
-    "message": "Lähtesta ikoon"
+    "message": "LГ¤htesta ikoon"
   },
   "instance.edit-world.title": {
     "message": "Muuda maailm"
@@ -81,7 +81,7 @@
     "message": "Ressursipakk"
   },
   "instance.settings.tabs.general": {
-    "message": "Üldised"
+    "message": "Гњldised"
   },
   "instance.settings.tabs.general.delete": {
     "message": "Kustuta instants"
@@ -90,7 +90,7 @@
     "message": "Kustuta instants"
   },
   "instance.settings.tabs.general.delete.description": {
-    "message": "Kustutab instantsi seadmest alatiselt, sealhulgas maailmad, konfiguratsioonid ja kogu paigaldatud sisu. Ole ettevaatlik, kuna instantsi kustutamisel ei ole seda enam võimalik taastada."
+    "message": "Kustutab instantsi seadmest alatiselt, sealhulgas maailmad, konfiguratsioonid ja kogu paigaldatud sisu. Ole ettevaatlik, kuna instantsi kustutamisel ei ole seda enam vГµimalik taastada."
   },
   "instance.settings.tabs.general.deleting.button": {
     "message": "Kustutab..."
@@ -99,7 +99,7 @@
     "message": "Dubleeri"
   },
   "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
-    "message": "Pole võimalik dubleerida paigaldamisel."
+    "message": "Pole vГµimalik dubleerida paigaldamisel."
   },
   "instance.settings.tabs.general.duplicate-instance": {
     "message": "Dubleeri instants"
@@ -108,6 +108,6 @@
     "message": "Nimi"
   },
   "instance.settings.title": {
-    "message": "Sätted"
+    "message": "SГ¤tted"
   }
 }

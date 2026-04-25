@@ -1,4 +1,4 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
     "message": "Minecraft authentication servers may be down right now. Check your internet connection and try again later."
   },
@@ -84,16 +84,16 @@
     "message": "Resource management"
   },
   "app.update-toast.body": {
-    "message": "Modrinth App v{version} is ready to install! Reload to update now, or automatically when you close Modrinth App."
+    "message": "Mist Launcher v{version} is ready to install! Reload to update now, or automatically when you close Mist Launcher."
   },
   "app.update-toast.body.download-complete": {
-    "message": "Modrinth App v{version} has finished downloading. Reload to update now, or automatically when you close Modrinth App."
+    "message": "Mist Launcher v{version} has finished downloading. Reload to update now, or automatically when you close Mist Launcher."
   },
   "app.update-toast.body.linux": {
-    "message": "Modrinth App v{version} is available. Use your package manager to update for the latest features and fixes!"
+    "message": "Mist Launcher v{version} is available. Use your package manager to update for the latest features and fixes!"
   },
   "app.update-toast.body.metered": {
-    "message": "Modrinth App v{version} is available now! Since you're on a metered network, we didn't automatically download it."
+    "message": "Mist Launcher v{version} is available now! Since you're on a metered network, we didn't automatically download it."
   },
   "app.update-toast.changelog": {
     "message": "Changelog"

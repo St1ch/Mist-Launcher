@@ -1,323 +1,323 @@
-{
+﻿{
   "app.modal.install-to-play.header": {
-    "message": "ติดตั้งเพื่อเล่น"
+    "message": "аё•аёґаё”аё•аё±а№‰аё‡а№Ђаёћаё·а№€аё­а№ЂаёҐа№€аё™"
   },
   "app.modal.install-to-play.install-button": {
-    "message": "ติดตั้ง"
+    "message": "аё•аёґаё”аё•аё±а№‰аё‡"
   },
   "app.modal.update-to-play.added-count": {
-    "message": "{count}เพิ่มแล้ว"
+    "message": "{count}а№Ђаёћаёґа№€аёЎа№ЃаёҐа№‰аё§"
   },
   "app.modal.update-to-play.diff-type.added": {
-    "message": "เพิ่มแล้ว"
+    "message": "а№Ђаёћаёґа№€аёЎа№ЃаёҐа№‰аё§"
   },
   "app.modal.update-to-play.diff-type.removed": {
-    "message": "ลบทิ้งแล้ว"
+    "message": "аёҐаёљаё—аёґа№‰аё‡а№ЃаёҐа№‰аё§"
   },
   "app.modal.update-to-play.diff-type.updated": {
-    "message": "อัปเดตแล้ว"
+    "message": "аё­аё±аё›а№Ђаё”аё•а№ЃаёҐа№‰аё§"
   },
   "app.modal.update-to-play.header": {
-    "message": "อัปเดตเพื่อเล่น"
+    "message": "аё­аё±аё›а№Ђаё”аё•а№Ђаёћаё·а№€аё­а№ЂаёҐа№€аё™"
   },
   "app.modal.update-to-play.removed-count": {
-    "message": "{count}ลบออกแล้ว"
+    "message": "{count}аёҐаёљаё­аё­аёЃа№ЃаёҐа№‰аё§"
   },
   "app.modal.update-to-play.update-required": {
-    "message": "ต้องมีการอัปเดต"
+    "message": "аё•а№‰аё­аё‡аёЎаёµаёЃаёІаёЈаё­аё±аё›а№Ђаё”аё•"
   },
   "app.modal.update-to-play.update-required-description": {
-    "message": "ต้องอัปเดตอย่างหนึ่งเพื่อเล่น {name}. โปรดอัปเดตให้เป็นเวอร์ชั่นล่าสุดเพื่อเปิดเกมใ"
+    "message": "аё•а№‰аё­аё‡аё­аё±аё›а№Ђаё”аё•аё­аёўа№€аёІаё‡аё«аё™аё¶а№€аё‡а№Ђаёћаё·а№€аё­а№ЂаёҐа№€аё™ {name}. а№‚аё›аёЈаё”аё­аё±аё›а№Ђаё”аё•а№ѓаё«а№‰а№Ђаё›а№‡аё™а№Ђаё§аё­аёЈа№ЊаёЉаё±а№€аё™аёҐа№€аёІаёЄаёёаё”а№Ђаёћаё·а№€аё­а№Ђаё›аёґаё”а№ЂаёЃаёЎа№ѓ"
   },
   "app.modal.update-to-play.updated-count": {
-    "message": "{count}อัปเดตแล้ว"
+    "message": "{count}аё­аё±аё›а№Ђаё”аё•а№ЃаёҐа№‰аё§"
   },
   "app.settings.developer-mode-enabled": {
-    "message": "กำลังอยู่ในโหมดผู้พัฒนา"
+    "message": "аёЃаёіаёҐаё±аё‡аё­аёўаё№а№€а№ѓаё™а№‚аё«аёЎаё”аёњаё№а№‰аёћаё±аё’аё™аёІ"
   },
   "app.settings.downloading": {
-    "message": "ดาวน์โหลด เวอร์ชั่น{version}"
+    "message": "аё”аёІаё§аё™а№Ња№‚аё«аёҐаё” а№Ђаё§аё­аёЈа№ЊаёЉаё±а№€аё™{version}"
   },
   "app.settings.tabs.appearance": {
-    "message": "รูปลักษณ์"
+    "message": "аёЈаё№аё›аёҐаё±аёЃаё©аё“а№Њ"
   },
   "app.settings.tabs.default-instance-options": {
-    "message": "ตัวเลือกอินสแตนซ์เริ่มต้น"
+    "message": "аё•аё±аё§а№ЂаёҐаё·аё­аёЃаё­аёґаё™аёЄа№Ѓаё•аё™аё‹а№Ња№ЂаёЈаёґа№€аёЎаё•а№‰аё™"
   },
   "app.settings.tabs.feature-flags": {
-    "message": "ระบบควบคุมการเปิดใช้งานฟีเจอร์"
+    "message": "аёЈаё°аёљаёљаё„аё§аёљаё„аёёаёЎаёЃаёІаёЈа№Ђаё›аёґаё”а№ѓаёЉа№‰аё‡аёІаё™аёџаёµа№Ђаё€аё­аёЈа№Њ"
   },
   "app.settings.tabs.java-installations": {
-    "message": "การจัดการ Java ที่ติดตั้ง"
+    "message": "аёЃаёІаёЈаё€аё±аё”аёЃаёІаёЈ Java аё—аёµа№€аё•аёґаё”аё•аё±а№‰аё‡"
   },
   "app.settings.tabs.language": {
-    "message": "ภาษา"
+    "message": "аё аёІаё©аёІ"
   },
   "app.settings.tabs.privacy": {
-    "message": "ความเป็นส่วนตัว"
+    "message": "аё„аё§аёІаёЎа№Ђаё›а№‡аё™аёЄа№€аё§аё™аё•аё±аё§"
   },
   "app.settings.tabs.resource-management": {
-    "message": "การจัดการทรัพยากร"
+    "message": "аёЃаёІаёЈаё€аё±аё”аёЃаёІаёЈаё—аёЈаё±аёћаёўаёІаёЃаёЈ"
   },
   "app.update-toast.body": {
-    "message": "Modrinth App v{version} พร้อมติดตั้งแล้ว! รีโหลดเพื่ออัปเดตทันที หรือจะอัปเดตอัตโนมัติเมื่อคุณปิดแอป"
+    "message": "Mist Launcher v{version} аёћаёЈа№‰аё­аёЎаё•аёґаё”аё•аё±а№‰аё‡а№ЃаёҐа№‰аё§! аёЈаёµа№‚аё«аёҐаё”а№Ђаёћаё·а№€аё­аё­аё±аё›а№Ђаё”аё•аё—аё±аё™аё—аёµ аё«аёЈаё·аё­аё€аё°аё­аё±аё›а№Ђаё”аё•аё­аё±аё•а№‚аё™аёЎаё±аё•аёґа№ЂаёЎаё·а№€аё­аё„аёёаё“аё›аёґаё”а№Ѓаё­аё›"
   },
   "app.update-toast.body.download-complete": {
-    "message": "Modrinth App v{version} ดาวน์โหลดเสร็จแล้ว! รีโหลดเพื่ออัปเดตทันที หรือจะอัปเดตอัตโนมัติเมื่อคุณปิดแอป"
+    "message": "Mist Launcher v{version} аё”аёІаё§аё™а№Ња№‚аё«аёҐаё”а№ЂаёЄаёЈа№‡аё€а№ЃаёҐа№‰аё§! аёЈаёµа№‚аё«аёҐаё”а№Ђаёћаё·а№€аё­аё­аё±аё›а№Ђаё”аё•аё—аё±аё™аё—аёµ аё«аёЈаё·аё­аё€аё°аё­аё±аё›а№Ђаё”аё•аё­аё±аё•а№‚аё™аёЎаё±аё•аёґа№ЂаёЎаё·а№€аё­аё„аёёаё“аё›аёґаё”а№Ѓаё­аё›"
   },
   "app.update-toast.body.linux": {
-    "message": "แอป Modrinth v{version} มีให้อัปเดตแล้ว. ใช้ Package Manager ของคุณเพื่ออัปเดตให้มีฟีเจอร์ใหม่และแก้ไข!"
+    "message": "а№Ѓаё­аё› Modrinth v{version} аёЎаёµа№ѓаё«а№‰аё­аё±аё›а№Ђаё”аё•а№ЃаёҐа№‰аё§. а№ѓаёЉа№‰ Package Manager аё‚аё­аё‡аё„аёёаё“а№Ђаёћаё·а№€аё­аё­аё±аё›а№Ђаё”аё•а№ѓаё«а№‰аёЎаёµаёџаёµа№Ђаё€аё­аёЈа№Ња№ѓаё«аёЎа№€а№ЃаёҐаё°а№ЃаёЃа№‰а№„аё‚!"
   },
   "app.update-toast.body.metered": {
-    "message": "Modrinth App v{version} พร้อมให้ดาวน์โหลดแล้ว! เนื่องจากคุณกำลังใช้งานเครือข่ายที่มีการคิดค่าใช้จ่ายตามปริมาณข้อมูล ระบบจึงไม่ได้ดาวน์โหลดอัตโนมัติ"
+    "message": "Mist Launcher v{version} аёћаёЈа№‰аё­аёЎа№ѓаё«а№‰аё”аёІаё§аё™а№Ња№‚аё«аёҐаё”а№ЃаёҐа№‰аё§! а№Ђаё™аё·а№€аё­аё‡аё€аёІаёЃаё„аёёаё“аёЃаёіаёҐаё±аё‡а№ѓаёЉа№‰аё‡аёІаё™а№Ђаё„аёЈаё·аё­аё‚а№€аёІаёўаё—аёµа№€аёЎаёµаёЃаёІаёЈаё„аёґаё”аё„а№€аёІа№ѓаёЉа№‰аё€а№€аёІаёўаё•аёІаёЎаё›аёЈаёґаёЎаёІаё“аё‚а№‰аё­аёЎаё№аёҐ аёЈаё°аёљаёљаё€аё¶аё‡а№„аёЎа№€а№„аё”а№‰аё”аёІаё§аё™а№Ња№‚аё«аёҐаё”аё­аё±аё•а№‚аё™аёЎаё±аё•аёґ"
   },
   "app.update-toast.changelog": {
-    "message": "บันทึกการเปลี่ยนแปลง"
+    "message": "аёљаё±аё™аё—аё¶аёЃаёЃаёІаёЈа№Ђаё›аёҐаёµа№€аёўаё™а№Ѓаё›аёҐаё‡"
   },
   "app.update-toast.download": {
-    "message": "ดาวน์โหลด ({size})"
+    "message": "аё”аёІаё§аё™а№Ња№‚аё«аёҐаё” ({size})"
   },
   "app.update-toast.download-page": {
-    "message": "ดาวน์โหลด"
+    "message": "аё”аёІаё§аё™а№Ња№‚аё«аёҐаё”"
   },
   "app.update-toast.downloading": {
-    "message": "กำลังดาวน์โหลด...."
+    "message": "аёЃаёіаёҐаё±аё‡аё”аёІаё§аё™а№Ња№‚аё«аёҐаё”...."
   },
   "app.update-toast.reload": {
-    "message": "รีโหลด"
+    "message": "аёЈаёµа№‚аё«аёҐаё”"
   },
   "app.update-toast.title": {
-    "message": "อัพเดตพร้อมแล้ว"
+    "message": "аё­аё±аёћа№Ђаё”аё•аёћаёЈа№‰аё­аёЎа№ЃаёҐа№‰аё§"
   },
   "app.update-toast.title.download-complete": {
-    "message": "ดาวน์โหลดเรียบร้อยแล้ว"
+    "message": "аё”аёІаё§аё™а№Ња№‚аё«аёҐаё”а№ЂаёЈаёµаёўаёљаёЈа№‰аё­аёўа№ЃаёҐа№‰аё§"
   },
   "app.update.complete-toast.text": {
-    "message": "คลิกที่นี่เพื่อดูบันทึกการเปลี่ยนแปลง"
+    "message": "аё„аёҐаёґаёЃаё—аёµа№€аё™аёµа№€а№Ђаёћаё·а№€аё­аё”аё№аёљаё±аё™аё—аё¶аёЃаёЃаёІаёЈа№Ђаё›аёҐаёµа№€аёўаё™а№Ѓаё›аёҐаё‡"
   },
   "app.update.complete-toast.title": {
-    "message": "เวอร์ชั่น {version} ถูกติดตั้งแล้ว"
+    "message": "а№Ђаё§аё­аёЈа№ЊаёЉаё±а№€аё™ {version} аё–аё№аёЃаё•аёґаё”аё•аё±а№‰аё‡а№ЃаёҐа№‰аё§"
   },
   "app.update.download-update": {
-    "message": "ดาวน์โหลดอัพเดต"
+    "message": "аё”аёІаё§аё™а№Ња№‚аё«аёҐаё”аё­аё±аёћа№Ђаё”аё•"
   },
   "app.update.downloading-update": {
-    "message": "ดาวน์โหลดอัพเดตไปแล้ว ({percent}%)"
+    "message": "аё”аёІаё§аё™а№Ња№‚аё«аёҐаё”аё­аё±аёћа№Ђаё”аё•а№„аё›а№ЃаёҐа№‰аё§ ({percent}%)"
   },
   "app.update.reload-to-update": {
-    "message": "รีโหลดเพื่อติดตั้งอัพเดต"
+    "message": "аёЈаёµа№‚аё«аёҐаё”а№Ђаёћаё·а№€аё­аё•аёґаё”аё•аё±а№‰аё‡аё­аё±аёћа№Ђаё”аё•"
   },
   "friends.action.add-friend": {
-    "message": "เพิ่มเพื่อน"
+    "message": "а№Ђаёћаёґа№€аёЎа№Ђаёћаё·а№€аё­аё™"
   },
   "friends.add-friend.submit": {
-    "message": "ส่งคำขอเป็นเพื่อน"
+    "message": "аёЄа№€аё‡аё„аёіаё‚аё­а№Ђаё›а№‡аё™а№Ђаёћаё·а№€аё­аё™"
   },
   "friends.add-friend.title": {
-    "message": "กำลังเพิ่มเพื่อน"
+    "message": "аёЃаёіаёҐаё±аё‡а№Ђаёћаёґа№€аёЎа№Ђаёћаё·а№€аё­аё™"
   },
   "friends.add-friend.username.description": {
-    "message": "อาจจะแตกต่างกับชื่อใน Minecraft"
+    "message": "аё­аёІаё€аё€аё°а№Ѓаё•аёЃаё•а№€аёІаё‡аёЃаё±аёљаёЉаё·а№€аё­а№ѓаё™ Minecraft"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "ใส่ชื่อบน Modrinth"
+    "message": "а№ѓаёЄа№€аёЉаё·а№€аё­аёљаё™ Modrinth"
   },
   "friends.add-friend.username.title": {
-    "message": "เพื่อนของคุณมีชื่อบน Modrinth ว่าอะไร"
+    "message": "а№Ђаёћаё·а№€аё­аё™аё‚аё­аё‡аё„аёёаё“аёЎаёµаёЉаё·а№€аё­аёљаё™ Modrinth аё§а№€аёІаё­аё°а№„аёЈ"
   },
   "friends.add-friends-to-share": {
-    "message": "<link>เพิ่มเพื่อน</link> เพื่อเห็นว่าพวกเขากำลังเล่นอะไรอยู่!"
+    "message": "<link>а№Ђаёћаёґа№€аёЎа№Ђаёћаё·а№€аё­аё™</link> а№Ђаёћаё·а№€аё­а№Ђаё«а№‡аё™аё§а№€аёІаёћаё§аёЃа№Ђаё‚аёІаёЃаёіаёҐаё±аё‡а№ЂаёҐа№€аё™аё­аё°а№„аёЈаё­аёўаё№а№€!"
   },
   "friends.friend.cancel-request": {
-    "message": "ยกเลิกคำขอ"
+    "message": "аёўаёЃа№ЂаёҐаёґаёЃаё„аёіаё‚аё­"
   },
   "friends.friend.remove-friend": {
-    "message": "ลบเพื่อน"
+    "message": "аёҐаёља№Ђаёћаё·а№€аё­аё™"
   },
   "friends.friend.request-sent": {
-    "message": "ส่งคำขอเป็นเพื่อนแล้ว"
+    "message": "аёЄа№€аё‡аё„аёіаё‚аё­а№Ђаё›а№‡аё™а№Ђаёћаё·а№€аё­аё™а№ЃаёҐа№‰аё§"
   },
   "friends.friend.view-profile": {
-    "message": "ดูโปรไฟล์"
+    "message": "аё”аё№а№‚аё›аёЈа№„аёџаёҐа№Њ"
   },
   "friends.heading": {
-    "message": "เพื่อน"
+    "message": "а№Ђаёћаё·а№€аё­аё™"
   },
   "friends.heading.active": {
-    "message": "ออนไลน์"
+    "message": "аё­аё­аё™а№„аёҐаё™а№Њ"
   },
   "friends.heading.offline": {
-    "message": "ออฟไลน์"
+    "message": "аё­аё­аёџа№„аёҐаё™а№Њ"
   },
   "friends.heading.online": {
-    "message": "ออฟไลน์"
+    "message": "аё­аё­аёџа№„аёҐаё™а№Њ"
   },
   "friends.no-friends-match": {
-    "message": "ไม่มีเพื่อนชื่อว่า \"{query}\""
+    "message": "а№„аёЎа№€аёЎаёµа№Ђаёћаё·а№€аё­аё™аёЉаё·а№€аё­аё§а№€аёІ \"{query}\""
   },
   "friends.search-friends-placeholder": {
-    "message": "ค้นหาเพื่อน"
+    "message": "аё„а№‰аё™аё«аёІа№Ђаёћаё·а№€аё­аё™"
   },
   "friends.section.heading": {
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>ล็อกอินเข้าบัญชี Modrinth</link> เพื่อเพิ่มเพื่อนและเห็นว่าพวกเขากำลังเล่นอะไรอยู่!"
+    "message": "<link>аёҐа№‡аё­аёЃаё­аёґаё™а№Ђаё‚а№‰аёІаёљаё±аёЌаёЉаёµ Modrinth</link> а№Ђаёћаё·а№€аё­а№Ђаёћаёґа№€аёЎа№Ђаёћаё·а№€аё­аё™а№ЃаёҐаё°а№Ђаё«а№‡аё™аё§а№€аёІаёћаё§аёЃа№Ђаё‚аёІаёЃаёіаёҐаё±аё‡а№ЂаёҐа№€аё™аё­аё°а№„аёЈаё­аёўаё№а№€!"
   },
   "instance.add-server.add-and-play": {
-    "message": "เพิ่มและเล่นทันที"
+    "message": "а№Ђаёћаёґа№€аёЎа№ЃаёҐаё°а№ЂаёҐа№€аё™аё—аё±аё™аё—аёµ"
   },
   "instance.add-server.add-server": {
-    "message": "เพิ่มเซิร์ฟเวอร์"
+    "message": "а№Ђаёћаёґа№€аёЎа№Ђаё‹аёґаёЈа№Њаёџа№Ђаё§аё­аёЈа№Њ"
   },
   "instance.add-server.resource-pack.disabled": {
-    "message": "ปิดการใช้งาน"
+    "message": "аё›аёґаё”аёЃаёІаёЈа№ѓаёЉа№‰аё‡аёІаё™"
   },
   "instance.add-server.resource-pack.enabled": {
-    "message": "เปิดการใช้งาน"
+    "message": "а№Ђаё›аёґаё”аёЃаёІаёЈа№ѓаёЉа№‰аё‡аёІаё™"
   },
   "instance.add-server.resource-pack.prompt": {
-    "message": "แสดงตัวเลือก"
+    "message": "а№ЃаёЄаё”аё‡аё•аё±аё§а№ЂаёҐаё·аё­аёЃ"
   },
   "instance.add-server.title": {
-    "message": "เพิ่มเซิร์ฟเวอร์"
+    "message": "а№Ђаёћаёґа№€аёЎа№Ђаё‹аёґаёЈа№Њаёџа№Ђаё§аё­аёЈа№Њ"
   },
   "instance.edit-server.title": {
-    "message": "แก้ไขเซิร์ฟเวอร์"
+    "message": "а№ЃаёЃа№‰а№„аё‚а№Ђаё‹аёґаёЈа№Њаёџа№Ђаё§аё­аёЈа№Њ"
   },
   "instance.edit-world.hide-from-home": {
-    "message": "ซ่อนจากหน้าแรก"
+    "message": "аё‹а№€аё­аё™аё€аёІаёЃаё«аё™а№‰аёІа№ЃаёЈаёЃ"
   },
   "instance.edit-world.name": {
-    "message": "ชื่อ"
+    "message": "аёЉаё·а№€аё­"
   },
   "instance.edit-world.placeholder-name": {
-    "message": "โลก Minecraft"
+    "message": "а№‚аёҐаёЃ Minecraft"
   },
   "instance.edit-world.reset-icon": {
-    "message": "รีเซ็ตรูปตัวอย่าง"
+    "message": "аёЈаёµа№Ђаё‹а№‡аё•аёЈаё№аё›аё•аё±аё§аё­аёўа№€аёІаё‡"
   },
   "instance.edit-world.title": {
-    "message": "แก้ไขโลก"
+    "message": "а№ЃаёЃа№‰а№„аё‚а№‚аёҐаёЃ"
   },
   "instance.filter.disabled": {
-    "message": "ปิดโปรเจ็ค"
+    "message": "аё›аёґаё”а№‚аё›аёЈа№Ђаё€а№‡аё„"
   },
   "instance.filter.updates-available": {
-    "message": "พบอัพเดท"
+    "message": "аёћаёљаё­аё±аёћа№Ђаё”аё—"
   },
   "instance.server-modal.address": {
-    "message": "ที่อยู่เซิร์ฟเวอร์"
+    "message": "аё—аёµа№€аё­аёўаё№а№€а№Ђаё‹аёґаёЈа№Њаёџа№Ђаё§аё­аёЈа№Њ"
   },
   "instance.server-modal.name": {
-    "message": "ชื่อ"
+    "message": "аёЉаё·а№€аё­"
   },
   "instance.server-modal.placeholder-name": {
-    "message": "ชื่อเซิร์ฟเวอร์"
+    "message": "аёЉаё·а№€аё­а№Ђаё‹аёґаёЈа№Њаёџа№Ђаё§аё­аёЈа№Њ"
   },
   "instance.server-modal.resource-pack": {
-    "message": "รีซอร์ซแพ็ก"
+    "message": "аёЈаёµаё‹аё­аёЈа№Њаё‹а№Ѓаёћа№‡аёЃ"
   },
   "instance.settings.tabs.general": {
-    "message": "ทั่วไป"
+    "message": "аё—аё±а№€аё§а№„аё›"
   },
   "instance.settings.tabs.general.delete": {
-    "message": "ลบอินสแตนซ์"
+    "message": "аёҐаёљаё­аёґаё™аёЄа№Ѓаё•аё™аё‹а№Њ"
   },
   "instance.settings.tabs.general.delete.button": {
-    "message": "ลบอินสแตนซ์"
+    "message": "аёҐаёљаё­аёґаё™аёЄа№Ѓаё•аё™аё‹а№Њ"
   },
   "instance.settings.tabs.general.delete.description": {
-    "message": "ลบอินสแตนซ์ออกจากอุปกรณ์ของคุณอย่างถาวร รวมถึงโลก การตั้งค่า และเนื้อหาทั้งหมดที่ติดตั้งไว้ โปรดระมัดระวัง เนื่องจากเมื่อถูกลบแล้วจะไม่สามารถกู้คืนได้อีก"
+    "message": "аёҐаёљаё­аёґаё™аёЄа№Ѓаё•аё™аё‹а№Њаё­аё­аёЃаё€аёІаёЃаё­аёёаё›аёЃаёЈаё“а№Њаё‚аё­аё‡аё„аёёаё“аё­аёўа№€аёІаё‡аё–аёІаё§аёЈ аёЈаё§аёЎаё–аё¶аё‡а№‚аёҐаёЃ аёЃаёІаёЈаё•аё±а№‰аё‡аё„а№€аёІ а№ЃаёҐаё°а№Ђаё™аё·а№‰аё­аё«аёІаё—аё±а№‰аё‡аё«аёЎаё”аё—аёµа№€аё•аёґаё”аё•аё±а№‰аё‡а№„аё§а№‰ а№‚аё›аёЈаё”аёЈаё°аёЎаё±аё”аёЈаё°аё§аё±аё‡ а№Ђаё™аё·а№€аё­аё‡аё€аёІаёЃа№ЂаёЎаё·а№€аё­аё–аё№аёЃаёҐаёља№ЃаёҐа№‰аё§аё€аё°а№„аёЎа№€аёЄаёІаёЎаёІаёЈаё–аёЃаё№а№‰аё„аё·аё™а№„аё”а№‰аё­аёµаёЃ"
   },
   "instance.settings.tabs.general.deleting.button": {
-    "message": "กำลังลบ..."
+    "message": "аёЃаёіаёҐаё±аё‡аёҐаёљ..."
   },
   "instance.settings.tabs.general.duplicate-button": {
-    "message": "ทำซ้ำ"
+    "message": "аё—аёіаё‹а№‰аёі"
   },
   "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
-    "message": "ไม่สามารถทำซ้ำได้ขณะติดตั้ง"
+    "message": "а№„аёЎа№€аёЄаёІаёЎаёІаёЈаё–аё—аёіаё‹а№‰аёіа№„аё”а№‰аё‚аё“аё°аё•аёґаё”аё•аё±а№‰аё‡"
   },
   "instance.settings.tabs.general.duplicate-instance": {
-    "message": "สร้างสำเนาอินสแตนซ์"
+    "message": "аёЄаёЈа№‰аёІаё‡аёЄаёіа№Ђаё™аёІаё­аёґаё™аёЄа№Ѓаё•аё™аё‹а№Њ"
   },
   "instance.settings.tabs.general.duplicate-instance.description": {
-    "message": "สร้างสำเนาของอินสแตนซ์นี้ รวมถึงโลก การตั้งค่า ม็อด และอื่นๆ"
+    "message": "аёЄаёЈа№‰аёІаё‡аёЄаёіа№Ђаё™аёІаё‚аё­аё‡аё­аёґаё™аёЄа№Ѓаё•аё™аё‹а№Њаё™аёµа№‰ аёЈаё§аёЎаё–аё¶аё‡а№‚аёҐаёЃ аёЃаёІаёЈаё•аё±а№‰аё‡аё„а№€аёІ аёЎа№‡аё­аё” а№ЃаёҐаё°аё­аё·а№€аё™а№†"
   },
   "instance.settings.tabs.general.edit-icon": {
-    "message": "แก้ไขไอคอน"
+    "message": "а№ЃаёЃа№‰а№„аё‚а№„аё­аё„аё­аё™"
   },
   "instance.settings.tabs.general.edit-icon.remove": {
-    "message": "ลบไอคอน"
+    "message": "аёҐаёља№„аё­аё„аё­аё™"
   },
   "instance.settings.tabs.general.edit-icon.replace": {
-    "message": "เปลี่ยนไอคอน"
+    "message": "а№Ђаё›аёҐаёµа№€аёўаё™а№„аё­аё„аё­аё™"
   },
   "instance.settings.tabs.general.edit-icon.select": {
-    "message": "เลือกรูปไอคอน"
+    "message": "а№ЂаёҐаё·аё­аёЃаёЈаё№аё›а№„аё­аё„аё­аё™"
   },
   "instance.settings.tabs.general.library-groups": {
-    "message": "การจัดกลุ่ม"
+    "message": "аёЃаёІаёЈаё€аё±аё”аёЃаёҐаёёа№€аёЎ"
   },
   "instance.settings.tabs.general.library-groups.create": {
-    "message": "สร้างกลุ่มใหม่"
+    "message": "аёЄаёЈа№‰аёІаё‡аёЃаёҐаёёа№€аёЎа№ѓаё«аёЎа№€"
   },
   "instance.settings.tabs.general.library-groups.description": {
-    "message": "กลุ่มไลบรารีช่วยให้คุณจัดระเบียบอินสแตนซ์ของคุณเป็นหมวดหมู่ต่างๆ ภายในไลบรารี"
+    "message": "аёЃаёҐаёёа№€аёЎа№„аёҐаёљаёЈаёІаёЈаёµаёЉа№€аё§аёўа№ѓаё«а№‰аё„аёёаё“аё€аё±аё”аёЈаё°а№Ђаёљаёµаёўаёљаё­аёґаё™аёЄа№Ѓаё•аё™аё‹а№Њаё‚аё­аё‡аё„аёёаё“а№Ђаё›а№‡аё™аё«аёЎаё§аё”аё«аёЎаё№а№€аё•а№€аёІаё‡а№† аё аёІаёўа№ѓаё™а№„аёҐаёљаёЈаёІаёЈаёµ"
   },
   "instance.settings.tabs.general.library-groups.enter-name": {
-    "message": "ใส่ชื่อกลุ่ม"
+    "message": "а№ѓаёЄа№€аёЉаё·а№€аё­аёЃаёҐаёёа№€аёЎ"
   },
   "instance.settings.tabs.general.name": {
-    "message": "ชื่อ"
+    "message": "аёЉаё·а№€аё­"
   },
   "instance.settings.tabs.hooks.custom-hooks": {
-    "message": "กำหนดเอง"
+    "message": "аёЃаёіаё«аё™аё”а№Ђаё­аё‡"
   },
   "instance.settings.tabs.installation": {
-    "message": "การติดตั้ง"
+    "message": "аёЃаёІаёЈаё•аёґаё”аё•аё±а№‰аё‡"
   },
   "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "{platform} {version} สำหรับ Minecraft {game_version} ติดตั้งไว้อยู่แล้ว"
+    "message": "{platform} {version} аёЄаёіаё«аёЈаё±аёљ Minecraft {game_version} аё•аёґаё”аё•аё±а№‰аё‡а№„аё§а№‰аё­аёўаё№а№€а№ЃаёҐа№‰аё§"
   },
   "instance.settings.tabs.installation.change-version.button": {
-    "message": "เปลี่ยนเวอร์ชั่น"
+    "message": "а№Ђаё›аёҐаёµа№€аёўаё™а№Ђаё§аё­аёЈа№ЊаёЉаё±а№€аё™"
   },
   "instance.settings.tabs.installation.change-version.button.install": {
-    "message": "ติดตั้ง"
+    "message": "аё•аёґаё”аё•аё±а№‰аё‡"
   },
   "instance.settings.tabs.installation.change-version.button.installing": {
-    "message": "กำลังติดตั้ง"
+    "message": "аёЃаёіаёҐаё±аё‡аё•аёґаё”аё•аё±а№‰аё‡"
   },
   "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "กำลังติดตั้งเวอร์ชั่นใหม่"
+    "message": "аёЃаёіаёҐаё±аё‡аё•аёґаё”аё•аё±а№‰аё‡а№Ђаё§аё­аёЈа№ЊаёЉаё±а№€аё™а№ѓаё«аёЎа№€"
   },
   "instance.settings.tabs.installation.currently-installed": {
-    "message": "ติดตั้งอยู่"
+    "message": "аё•аёґаё”аё•аё±а№‰аё‡аё­аёўаё№а№€"
   },
   "instance.settings.tabs.installation.game-version": {
-    "message": "เวอร์ชันของเกม"
+    "message": "а№Ђаё§аё­аёЈа№ЊаёЉаё±аё™аё‚аё­аё‡а№ЂаёЃаёЎ"
   },
   "instance.settings.tabs.installation.install": {
-    "message": "ติดตั้ง"
+    "message": "аё•аёґаё”аё•аё±а№‰аё‡"
   },
   "instance.settings.tabs.installation.install.in-progress": {
-    "message": "กำลังคิดตั้งอยู่"
+    "message": "аёЃаёіаёҐаё±аё‡аё„аёґаё”аё•аё±а№‰аё‡аё­аёўаё№а№€"
   },
   "instance.settings.tabs.installation.loader-version": {
-    "message": "เวอร์ชั่น {loader}"
+    "message": "а№Ђаё§аё­аёЈа№ЊаёЉаё±а№€аё™ {loader}"
   },
   "instance.settings.tabs.installation.repair.button": {
-    "message": "ซ่อมแซม"
+    "message": "аё‹а№€аё­аёЎа№Ѓаё‹аёЎ"
   },
   "instance.settings.tabs.installation.repair.button.repairing": {
-    "message": "กำลังซ่อมแซม"
+    "message": "аёЃаёіаёҐаё±аё‡аё‹а№€аё­аёЎа№Ѓаё‹аёЎ"
   },
   "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "ซ่อมแซมหรือไม่?"
+    "message": "аё‹а№€аё­аёЎа№Ѓаё‹аёЎаё«аёЈаё·аё­а№„аёЎа№€?"
   },
   "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "กำลังซ่อมแซมอยู่ในขณะนี้"
+    "message": "аёЃаёіаёҐаё±аё‡аё‹а№€аё­аёЎа№Ѓаё‹аёЎаё­аёўаё№а№€а№ѓаё™аё‚аё“аё°аё™аёµа№‰"
   }
 }

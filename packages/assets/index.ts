@@ -11,18 +11,9 @@ import './omorphia.scss'
 import _FourOhFourNotFound from './branding/404.svg?component'
 // Branding
 import _BrowserWindowSuccessIllustration from './branding/illustrations/browser-window-success.svg?component'
+import _MistMascot from './branding/mist-mascot.svg?url'
 import _ModrinthIcon from './branding/logo.svg?component'
 import _ModrinthPlusIcon from './branding/modrinth-plus.svg?component'
-import _AngryRinthbot from './branding/rinthbot/angry.webp'
-import _AnnoyedRinthbot from './branding/rinthbot/annoyed.webp'
-import _ConfusedRinthbot from './branding/rinthbot/confused.webp'
-import _ExcitedRinthbot from './branding/rinthbot/excited.webp'
-import _LaughingRinthbot from './branding/rinthbot/laughing.webp'
-import _SadRinthbot from './branding/rinthbot/sad.webp'
-import _SleepingRinthbot from './branding/rinthbot/sleeping.webp'
-import _SobbingRinthbot from './branding/rinthbot/sobbing.webp'
-import _ThinkingRinthbot from './branding/rinthbot/thinking.webp'
-import _WavingRinthbot from './branding/rinthbot/waving.webp'
 // External Icons
 import _AppleIcon from './external/apple.svg?component'
 import _BlueskyIcon from './external/bluesky.svg?component'
@@ -72,16 +63,16 @@ export const ModrinthIcon = _ModrinthIcon
 export const BrowserWindowSuccessIllustration = _BrowserWindowSuccessIllustration
 export const FourOhFourNotFound = _FourOhFourNotFound
 export const ModrinthPlusIcon = _ModrinthPlusIcon
-export const AngryRinthbot = _AngryRinthbot
-export const AnnoyedRinthbot = _AnnoyedRinthbot
-export const ConfusedRinthbot = _ConfusedRinthbot
-export const ExcitedRinthbot = _ExcitedRinthbot
-export const LaughingRinthbot = _LaughingRinthbot
-export const SadRinthbot = _SadRinthbot
-export const SleepingRinthbot = _SleepingRinthbot
-export const SobbingRinthbot = _SobbingRinthbot
-export const ThinkingRinthbot = _ThinkingRinthbot
-export const WavingRinthbot = _WavingRinthbot
+export const AngryRinthbot = _MistMascot
+export const AnnoyedRinthbot = _MistMascot
+export const ConfusedRinthbot = _MistMascot
+export const ExcitedRinthbot = _MistMascot
+export const LaughingRinthbot = _MistMascot
+export const SadRinthbot = _MistMascot
+export const SleepingRinthbot = _MistMascot
+export const SobbingRinthbot = _MistMascot
+export const ThinkingRinthbot = _MistMascot
+export const WavingRinthbot = _MistMascot
 export const PayPalColorIcon = _PayPalColorIcon
 export const VenmoColorIcon = _VenmoColorIcon
 export const DiscordColorIcon = _DiscordColorIcon

@@ -6,7 +6,7 @@ export const useFetch = async (url, item, isSilent) => {
 		const version = await getVersion()
 		return await fetch(url, {
 			method: 'GET',
-			headers: { 'User-Agent': `modrinth/theseus/${version} (support@modrinth.com)` },
+			headers: { 'User-Agent': `mist-launcher/${version} (offline-client)` },
 		})
 	} catch (err) {
 		if (!isSilent) {

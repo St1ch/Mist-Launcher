@@ -45,6 +45,12 @@ pub enum ErrorKind {
     #[error("Unable to read {0} from any source")]
     NoValueFor(String),
 
+    #[error("Download interrupted while reading {url}: {reason}")]
+    DownloadInterrupted {
+        url: String,
+        reason: String,
+    },
+
     #[error("Metadata error: {0}")]
     MetadataError(#[from] daedalus::Error),
 

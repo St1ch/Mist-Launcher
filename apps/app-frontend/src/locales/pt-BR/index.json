@@ -1,9 +1,9 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
-    "message": "Os servidores de autenticação do Minecraft podem estar indisponíveis no momento. Verifique sua conexão com a internet e tente novamente mais tarde."
+    "message": "Os servidores de autenticaГ§ГЈo do Minecraft podem estar indisponГ­veis no momento. Verifique sua conexГЈo com a internet e tente novamente mais tarde."
   },
   "app.auth-servers.unreachable.header": {
-    "message": "Não foi possível acessar os servidores de autenticação"
+    "message": "NГЈo foi possГ­vel acessar os servidores de autenticaГ§ГЈo"
   },
   "app.modal.install-to-play.header": {
     "message": "Instale para jogar"
@@ -15,16 +15,16 @@
     "message": "{count, plural, =0 {Nenhum mod} one {# mod} other {# mods}}\n"
   },
   "app.modal.install-to-play.server-requires-mods": {
-    "message": "Este servidor requer mods para jogar. Clique em Instalar para configurar os arquivos necessários a partir do Modrinth."
+    "message": "Este servidor requer mods para jogar. Clique em Instalar para configurar os arquivos necessГЎrios a partir do Modrinth."
   },
   "app.modal.install-to-play.shared-by-today": {
-    "message": "{name} compartilhou esta instância com você hoje."
+    "message": "{name} compartilhou esta instГўncia com vocГЄ hoje."
   },
   "app.modal.install-to-play.shared-instance": {
-    "message": "Instância compartilhada"
+    "message": "InstГўncia compartilhada"
   },
   "app.modal.install-to-play.shared-server-instance": {
-    "message": "Instância de servidor compartilhada"
+    "message": "InstГўncia de servidor compartilhada"
   },
   "app.modal.update-to-play.added-count": {
     "message": "{count} adicionado"
@@ -48,10 +48,10 @@
     "message": "{count} removido"
   },
   "app.modal.update-to-play.update-required": {
-    "message": "Atualização necessária"
+    "message": "AtualizaГ§ГЈo necessГЎria"
   },
   "app.modal.update-to-play.update-required-description": {
-    "message": "É necessária uma atualização para jogar {name}. Atualize para a versão mais recente para iniciar o jogo."
+    "message": "Г‰ necessГЎria uma atualizaГ§ГЈo para jogar {name}. Atualize para a versГЈo mais recente para iniciar o jogo."
   },
   "app.modal.update-to-play.updated-count": {
     "message": "{count} atualizado"
@@ -63,16 +63,16 @@
     "message": "Baixando v{version}"
   },
   "app.settings.tabs.appearance": {
-    "message": "Aparência"
+    "message": "AparГЄncia"
   },
   "app.settings.tabs.default-instance-options": {
-    "message": "Opções da instância"
+    "message": "OpГ§Гµes da instГўncia"
   },
   "app.settings.tabs.feature-flags": {
-    "message": "Sinalização de recursos"
+    "message": "SinalizaГ§ГЈo de recursos"
   },
   "app.settings.tabs.java-installations": {
-    "message": "Instalações do Java"
+    "message": "InstalaГ§Гµes do Java"
   },
   "app.settings.tabs.language": {
     "message": "Idioma"
@@ -84,19 +84,19 @@
     "message": "Gerenciamento de recursos"
   },
   "app.update-toast.body": {
-    "message": "O Modrinth App v{version} está pronto para ser instalado! Você pode recarregar para atualizar agora ou a atualização será feita automaticamente ao fechar o Modrinth App."
+    "message": "O Mist Launcher v{version} estГЎ pronto para ser instalado! VocГЄ pode recarregar para atualizar agora ou a atualizaГ§ГЈo serГЎ feita automaticamente ao fechar o Mist Launcher."
   },
   "app.update-toast.body.download-complete": {
-    "message": "O Modrinth App v{version} baixado. Recarregue para atualizar agora ou a atualização será aplicada automaticamente ao fechar o Modrinth App."
+    "message": "O Mist Launcher v{version} baixado. Recarregue para atualizar agora ou a atualizaГ§ГЈo serГЎ aplicada automaticamente ao fechar o Mist Launcher."
   },
   "app.update-toast.body.linux": {
-    "message": "O Modrinth App v{version} está disponível. Use seu gerenciador de pacotes para atualizar e obter os recursos e correções mais recentes!"
+    "message": "O Mist Launcher v{version} estГЎ disponГ­vel. Use seu gerenciador de pacotes para atualizar e obter os recursos e correГ§Гµes mais recentes!"
   },
   "app.update-toast.body.metered": {
-    "message": "O Modrinth App v{version} já está disponível! Como você está em uma rede limitada, não o baixamos automaticamente."
+    "message": "O Mist Launcher v{version} jГЎ estГЎ disponГ­vel! Como vocГЄ estГЎ em uma rede limitada, nГЈo o baixamos automaticamente."
   },
   "app.update-toast.changelog": {
-    "message": "Mudanças"
+    "message": "MudanГ§as"
   },
   "app.update-toast.download": {
     "message": "Baixar ({size})"
@@ -111,31 +111,31 @@
     "message": "Atualizar"
   },
   "app.update-toast.title": {
-    "message": "Atualização disponível"
+    "message": "AtualizaГ§ГЈo disponГ­vel"
   },
   "app.update-toast.title.download-complete": {
-    "message": "Download concluído"
+    "message": "Download concluГ­do"
   },
   "app.update.complete-toast.text": {
-    "message": "Clique aqui para ver as mudanças."
+    "message": "Clique aqui para ver as mudanГ§as."
   },
   "app.update.complete-toast.title": {
-    "message": "Versão {version} instalada!"
+    "message": "VersГЈo {version} instalada!"
   },
   "app.update.download-update": {
-    "message": "Baixar atualização"
+    "message": "Baixar atualizaГ§ГЈo"
   },
   "app.update.downloading-update": {
-    "message": "Baixando atualização ({percent}%)"
+    "message": "Baixando atualizaГ§ГЈo ({percent}%)"
   },
   "app.update.reload-to-update": {
-    "message": "Recarregue para instalar a atualização"
+    "message": "Recarregue para instalar a atualizaГ§ГЈo"
   },
   "friends.action.add-friend": {
     "message": "Adicionar um amigo"
   },
   "friends.action.view-friend-requests": {
-    "message": "{count, plural, =0 {Nenhuma solicitação de amizade} one {{count} solicitação de amizade} other {{count} solicitações de amizade}}"
+    "message": "{count, plural, =0 {Nenhuma solicitaГ§ГЈo de amizade} one {{count} solicitaГ§ГЈo de amizade} other {{count} solicitaГ§Гµes de amizade}}"
   },
   "friends.add-friend.submit": {
     "message": "Enviar amizade"
@@ -147,22 +147,22 @@
     "message": "Pode ser diferente do nome que ele usa no Minecraft!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Insira o nome de usuário..."
+    "message": "Insira o nome de usuГЎrio..."
   },
   "friends.add-friend.username.title": {
-    "message": "Qual o nome de usuário do seu amigo no Modrinth?"
+    "message": "Qual o nome de usuГЎrio do seu amigo no Modrinth?"
   },
   "friends.add-friends-to-share": {
-    "message": "<link>Adicione amigos</link> para ver o que eles estão jogando!"
+    "message": "<link>Adicione amigos</link> para ver o que eles estГЈo jogando!"
   },
   "friends.friend.cancel-request": {
-    "message": "Cancelar solicitação"
+    "message": "Cancelar solicitaГ§ГЈo"
   },
   "friends.friend.remove-friend": {
     "message": "Remover amigo"
   },
   "friends.friend.request-sent": {
-    "message": "Solicitação de amizade enviada"
+    "message": "SolicitaГ§ГЈo de amizade enviada"
   },
   "friends.friend.view-profile": {
     "message": "Ver perfil"
@@ -192,7 +192,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Inicie uma sessão com o Modrinth</link> para adicionar amigos e ver o que eles estão jogando!"
+    "message": "<link>Inicie uma sessГЈo com o Modrinth</link> para adicionar amigos e ver o que eles estГЈo jogando!"
   },
   "instance.add-server.add-and-play": {
     "message": "Adicionar e jogar"
@@ -216,7 +216,7 @@
     "message": "Editar servidor"
   },
   "instance.edit-world.hide-from-home": {
-    "message": "Esconder da página inicial"
+    "message": "Esconder da pГЎgina inicial"
   },
   "instance.edit-world.name": {
     "message": "Nome"
@@ -225,7 +225,7 @@
     "message": "Mundo de Minecraft"
   },
   "instance.edit-world.reset-icon": {
-    "message": "Redefinir ícone"
+    "message": "Redefinir Г­cone"
   },
   "instance.edit-world.title": {
     "message": "Editar mundo"
@@ -234,10 +234,10 @@
     "message": "Projetos desativados"
   },
   "instance.filter.updates-available": {
-    "message": "Atualizações disponíveis"
+    "message": "AtualizaГ§Гµes disponГ­veis"
   },
   "instance.server-modal.address": {
-    "message": "Endereço"
+    "message": "EndereГ§o"
   },
   "instance.server-modal.name": {
     "message": "Nome"
@@ -252,13 +252,13 @@
     "message": "Geral"
   },
   "instance.settings.tabs.general.delete": {
-    "message": "Excluir instância"
+    "message": "Excluir instГўncia"
   },
   "instance.settings.tabs.general.delete.button": {
-    "message": "Excluir instância"
+    "message": "Excluir instГўncia"
   },
   "instance.settings.tabs.general.delete.description": {
-    "message": "Exclui permanentemente uma instância do seu dispositivo, incluindo seus mundos, configurações e todo o conteúdo instalado. Tome cuidado, pois, uma vez excluída, a instância não poderá ser recuperada."
+    "message": "Exclui permanentemente uma instГўncia do seu dispositivo, incluindo seus mundos, configuraГ§Гµes e todo o conteГєdo instalado. Tome cuidado, pois, uma vez excluГ­da, a instГўncia nГЈo poderГЎ ser recuperada."
   },
   "instance.settings.tabs.general.deleting.button": {
     "message": "Excluindo..."
@@ -267,25 +267,25 @@
     "message": "Duplicar"
   },
   "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
-    "message": "Não foi possível duplicar durante a instalação."
+    "message": "NГЈo foi possГ­vel duplicar durante a instalaГ§ГЈo."
   },
   "instance.settings.tabs.general.duplicate-instance": {
-    "message": "Duplicar instância"
+    "message": "Duplicar instГўncia"
   },
   "instance.settings.tabs.general.duplicate-instance.description": {
-    "message": "Cria uma cópia desta instância, incluindo mundos, configurações, mods, etc."
+    "message": "Cria uma cГіpia desta instГўncia, incluindo mundos, configuraГ§Гµes, mods, etc."
   },
   "instance.settings.tabs.general.edit-icon": {
-    "message": "Editar ícone"
+    "message": "Editar Г­cone"
   },
   "instance.settings.tabs.general.edit-icon.remove": {
-    "message": "Remover ícone"
+    "message": "Remover Г­cone"
   },
   "instance.settings.tabs.general.edit-icon.replace": {
-    "message": "Substituir ícone"
+    "message": "Substituir Г­cone"
   },
   "instance.settings.tabs.general.edit-icon.select": {
-    "message": "Selecionar ícone"
+    "message": "Selecionar Г­cone"
   },
   "instance.settings.tabs.general.library-groups": {
     "message": "Grupos"
@@ -294,7 +294,7 @@
     "message": "Criar novo grupo"
   },
   "instance.settings.tabs.general.library-groups.description": {
-    "message": "Os grupos da biblioteca permitem que você organize suas instâncias em diferentes seções."
+    "message": "Os grupos da biblioteca permitem que vocГЄ organize suas instГўncias em diferentes seГ§Гµes."
   },
   "instance.settings.tabs.general.library-groups.enter-name": {
     "message": "Insira o nome do grupo"
@@ -303,34 +303,34 @@
     "message": "Nome"
   },
   "instance.settings.tabs.hooks": {
-    "message": "Ações de inicialização"
+    "message": "AГ§Гµes de inicializaГ§ГЈo"
   },
   "instance.settings.tabs.hooks.custom-hooks": {
-    "message": "Ações de inicialização personalizadas"
+    "message": "AГ§Гµes de inicializaГ§ГЈo personalizadas"
   },
   "instance.settings.tabs.hooks.description": {
-    "message": "Essas ações permitem que usuários mais experientes executem comandos do sistema antes e depois de inicializar o jogo."
+    "message": "Essas aГ§Гµes permitem que usuГЎrios mais experientes executem comandos do sistema antes e depois de inicializar o jogo."
   },
   "instance.settings.tabs.hooks.post-exit": {
     "message": "Ao sair"
   },
   "instance.settings.tabs.hooks.post-exit.description": {
-    "message": "Executado após o jogo fechar."
+    "message": "Executado apГіs o jogo fechar."
   },
   "instance.settings.tabs.hooks.post-exit.enter": {
-    "message": "Insira o comando a ser executado após o jogo fechar..."
+    "message": "Insira o comando a ser executado apГіs o jogo fechar..."
   },
   "instance.settings.tabs.hooks.pre-launch": {
-    "message": "Pré-inicialização"
+    "message": "PrГ©-inicializaГ§ГЈo"
   },
   "instance.settings.tabs.hooks.pre-launch.description": {
-    "message": "Executado antes que a instância seja inicializada."
+    "message": "Executado antes que a instГўncia seja inicializada."
   },
   "instance.settings.tabs.hooks.pre-launch.enter": {
-    "message": "Insira o comando a ser executado antes da inicialização..."
+    "message": "Insira o comando a ser executado antes da inicializaГ§ГЈo..."
   },
   "instance.settings.tabs.hooks.title": {
-    "message": "Ações de inicialização do jogo"
+    "message": "AГ§Гµes de inicializaГ§ГЈo do jogo"
   },
   "instance.settings.tabs.hooks.wrapper": {
     "message": "Comando auxiliar"
@@ -342,16 +342,16 @@
     "message": "Insira um comando..."
   },
   "instance.settings.tabs.installation": {
-    "message": "Instalação"
+    "message": "InstalaГ§ГЈo"
   },
   "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "{platform} {version} para o Minecraft {game_version} já está instalada"
+    "message": "{platform} {version} para o Minecraft {game_version} jГЎ estГЎ instalada"
   },
   "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "A versão padrão {game_version} já está instalada"
+    "message": "A versГЈo padrГЈo {game_version} jГЎ estГЎ instalada"
   },
   "instance.settings.tabs.installation.change-version.button": {
-    "message": "Alterar versão"
+    "message": "Alterar versГЈo"
   },
   "instance.settings.tabs.installation.change-version.button.install": {
     "message": "Instalar"
@@ -360,43 +360,43 @@
     "message": "Instalando"
   },
   "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "Buscando versões do pacote de mods"
+    "message": "Buscando versГµes do pacote de mods"
   },
   "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "Instalando nova versão"
+    "message": "Instalando nova versГЈo"
   },
   "instance.settings.tabs.installation.currently-installed": {
-    "message": "Versão instalada"
+    "message": "VersГЈo instalada"
   },
   "instance.settings.tabs.installation.debug-information": {
-    "message": "Informação de depuração:"
+    "message": "InformaГ§ГЈo de depuraГ§ГЈo:"
   },
   "instance.settings.tabs.installation.fetching-modpack-details": {
     "message": "Buscando detalhes do pacote de mods"
   },
   "instance.settings.tabs.installation.game-version": {
-    "message": "Versão do jogo"
+    "message": "VersГЈo do jogo"
   },
   "instance.settings.tabs.installation.install": {
     "message": "Instalar"
   },
   "instance.settings.tabs.installation.install.in-progress": {
-    "message": "Instalação em progresso"
+    "message": "InstalaГ§ГЈo em progresso"
   },
   "instance.settings.tabs.installation.loader-version": {
-    "message": "Versão do {loader}"
+    "message": "VersГЈo do {loader}"
   },
   "instance.settings.tabs.installation.minecraft-version": {
     "message": "Minecraft {version}"
   },
   "instance.settings.tabs.installation.no-connection": {
-    "message": "Não foi possível carregar detalhes do pacote de mods. Verifique sua conexão com a internet."
+    "message": "NГЈo foi possГ­vel carregar detalhes do pacote de mods. Verifique sua conexГЈo com a internet."
   },
   "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader} não está disponível para o Minecraft {version}. Tente outro carregador de mods."
+    "message": "{loader} nГЈo estГЎ disponГ­vel para o Minecraft {version}. Tente outro carregador de mods."
   },
   "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "Esta instância está vinculada a um pacote de mods, mas o pacote não foi encontrado no Modrinth."
+    "message": "Esta instГўncia estГЎ vinculada a um pacote de mods, mas o pacote nГЈo foi encontrado no Modrinth."
   },
   "instance.settings.tabs.installation.platform": {
     "message": "Plataforma"
@@ -408,13 +408,13 @@
     "message": "Reinstalando pacote de mods"
   },
   "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "A reinstalação redefinirá todo o conteúdo instalado ou modificado para o fornecido pelo pacote de mods, removendo quaisquer mods ou conteúdo que você tenha adicionado sobre a instalação original. Isso pode corrigir comportamentos inesperados se alterações tiverem sido feitas na instância, mas se seus mundos agora dependem do conteúdo adicional instalado, isso pode danificar mundos existentes."
+    "message": "A reinstalaГ§ГЈo redefinirГЎ todo o conteГєdo instalado ou modificado para o fornecido pelo pacote de mods, removendo quaisquer mods ou conteГєdo que vocГЄ tenha adicionado sobre a instalaГ§ГЈo original. Isso pode corrigir comportamentos inesperados se alteraГ§Гµes tiverem sido feitas na instГўncia, mas se seus mundos agora dependem do conteГєdo adicional instalado, isso pode danificar mundos existentes."
   },
   "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "Tem certeza de que deseja reinstalar esta instância?"
+    "message": "Tem certeza de que deseja reinstalar esta instГўncia?"
   },
   "instance.settings.tabs.installation.reinstall.description": {
-    "message": "Volta ao estado original da instância, removendo quaisquer mods ou conteúdo que você tenha adicionado além do que já havia no pacote de mods original."
+    "message": "Volta ao estado original da instГўncia, removendo quaisquer mods ou conteГєdo que vocГЄ tenha adicionado alГ©m do que jГЎ havia no pacote de mods original."
   },
   "instance.settings.tabs.installation.reinstall.title": {
     "message": "Reinstalar pacote de mods"
@@ -426,22 +426,22 @@
     "message": "Reparando"
   },
   "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "O reparo reinstala as dependências do Minecraft e verifica se há corrupção. Isso pode resolver problemas se o seu jogo não estiver iniciando devido a erros relacionados ao launcher, mas não resolverá problemas ou travamentos relacionados a mods instalados."
+    "message": "O reparo reinstala as dependГЄncias do Minecraft e verifica se hГЎ corrupГ§ГЈo. Isso pode resolver problemas se o seu jogo nГЈo estiver iniciando devido a erros relacionados ao launcher, mas nГЈo resolverГЎ problemas ou travamentos relacionados a mods instalados."
   },
   "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "Reparar instância?"
+    "message": "Reparar instГўncia?"
   },
   "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "Reparação em progresso"
+    "message": "ReparaГ§ГЈo em progresso"
   },
   "instance.settings.tabs.installation.reset-selections": {
-    "message": "Retornar ao padrão"
+    "message": "Retornar ao padrГЈo"
   },
   "instance.settings.tabs.installation.show-all-versions": {
-    "message": "Exibir todas as versões"
+    "message": "Exibir todas as versГµes"
   },
   "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "mudar a versão"
+    "message": "mudar a versГЈo"
   },
   "instance.settings.tabs.installation.tooltip.action.install": {
     "message": "instalar"
@@ -453,55 +453,55 @@
     "message": "reparar"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "Não é possível {action} durante a instalação"
+    "message": "NГЈo Г© possГ­vel {action} durante a instalaГ§ГЈo"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
-    "message": "Não é possível {action} enquanto estiver offline"
+    "message": "NГЈo Г© possГ­vel {action} enquanto estiver offline"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "Não é possível {action} enquanto repara"
+    "message": "NГЈo Г© possГ­vel {action} enquanto repara"
   },
   "instance.settings.tabs.installation.unknown-version": {
-    "message": "(versão desconhecida)"
+    "message": "(versГЈo desconhecida)"
   },
   "instance.settings.tabs.installation.unlink.button": {
-    "message": "Desvincular instância"
+    "message": "Desvincular instГўncia"
   },
   "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "Ao prosseguir, não será possível vincular novamente sem criar uma instância totalmente nova. Você não receberá mais atualizações do pacote de mods e ela se tornará uma instância normal."
+    "message": "Ao prosseguir, nГЈo serГЎ possГ­vel vincular novamente sem criar uma instГўncia totalmente nova. VocГЄ nГЈo receberГЎ mais atualizaГ§Гµes do pacote de mods e ela se tornarГЎ uma instГўncia normal."
   },
   "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "Tem certeza de que deseja desvincular esta instância?"
+    "message": "Tem certeza de que deseja desvincular esta instГўncia?"
   },
   "instance.settings.tabs.installation.unlink.description": {
-    "message": "Esta instância está vinculada a um pacote de mods, o que significa que mods não podem ser atualizados e você não pode alterar o carregador de mods ou a versão do Minecraft. Desvincular desconectará permanentemente esta instância do pacote de mods."
+    "message": "Esta instГўncia estГЎ vinculada a um pacote de mods, o que significa que mods nГЈo podem ser atualizados e vocГЄ nГЈo pode alterar o carregador de mods ou a versГЈo do Minecraft. Desvincular desconectarГЎ permanentemente esta instГўncia do pacote de mods."
   },
   "instance.settings.tabs.installation.unlink.title": {
     "message": "Desvincular do pacote de mods"
   },
   "instance.settings.tabs.java": {
-    "message": "Java e memória"
+    "message": "Java e memГіria"
   },
   "instance.settings.tabs.java.environment-variables": {
-    "message": "Variáveis de ambiente"
+    "message": "VariГЎveis de ambiente"
   },
   "instance.settings.tabs.java.hooks": {
-    "message": "Ações"
+    "message": "AГ§Гµes"
   },
   "instance.settings.tabs.java.java-arguments": {
     "message": "Argumentos do Java"
   },
   "instance.settings.tabs.java.java-installation": {
-    "message": "Instalação do Java"
+    "message": "InstalaГ§ГЈo do Java"
   },
   "instance.settings.tabs.java.java-memory": {
-    "message": "Memória alocada"
+    "message": "MemГіria alocada"
   },
   "instance.settings.tabs.window": {
     "message": "Janela"
   },
   "instance.settings.tabs.window.custom-window-settings": {
-    "message": "Configurações de janela personalizada"
+    "message": "ConfiguraГ§Гµes de janela personalizada"
   },
   "instance.settings.tabs.window.fullscreen": {
     "message": "Tela cheia"
@@ -531,37 +531,37 @@
     "message": "Servidor de Minecraft"
   },
   "instance.worlds.cant_connect": {
-    "message": "Não foi possível se conectar ao servidor"
+    "message": "NГЈo foi possГ­vel se conectar ao servidor"
   },
   "instance.worlds.copy_address": {
-    "message": "Copiar endereço"
+    "message": "Copiar endereГ§o"
   },
   "instance.worlds.dont_show_on_home": {
-    "message": "Não mostrar na tela inicial"
+    "message": "NГЈo mostrar na tela inicial"
   },
   "instance.worlds.filter.available": {
-    "message": "Disponível"
+    "message": "DisponГ­vel"
   },
   "instance.worlds.game_already_open": {
-    "message": "A instância já está aberta"
+    "message": "A instГўncia jГЎ estГЎ aberta"
   },
   "instance.worlds.hardcore": {
     "message": "Modo Intenso"
   },
   "instance.worlds.incompatible_server": {
-    "message": "Servidor incompatível"
+    "message": "Servidor incompatГ­vel"
   },
   "instance.worlds.no_contact": {
-    "message": "Não foi possível conectar-se ao servidor"
+    "message": "NГЈo foi possГ­vel conectar-se ao servidor"
   },
   "instance.worlds.no_server_quick_play": {
-    "message": "Você só pode entrar diretamente em servidores a partir do Minecraft 1.0.5"
+    "message": "VocГЄ sГі pode entrar diretamente em servidores a partir do Minecraft 1.0.5"
   },
   "instance.worlds.no_singleplayer_quick_play": {
-    "message": "Você só pode entrar diretamente em mundos de um jogador a partir do Minecraft 1.20"
+    "message": "VocГЄ sГі pode entrar diretamente em mundos de um jogador a partir do Minecraft 1.20"
   },
   "instance.worlds.play_instance": {
-    "message": "Jogar na instância"
+    "message": "Jogar na instГўncia"
   },
   "instance.worlds.type.server": {
     "message": "Servidor"
@@ -570,21 +570,21 @@
     "message": "Um jogador"
   },
   "instance.worlds.view_instance": {
-    "message": "Ver instância"
+    "message": "Ver instГўncia"
   },
   "instance.worlds.world_in_use": {
     "message": "Mundo em uso"
   },
   "search.filter.locked.instance": {
-    "message": "Fornecido pela instância"
+    "message": "Fornecido pela instГўncia"
   },
   "search.filter.locked.instance-game-version.title": {
-    "message": "A versão do jogo é fornecida pela instância"
+    "message": "A versГЈo do jogo Г© fornecida pela instГўncia"
   },
   "search.filter.locked.instance-loader.title": {
-    "message": "O carregador é fornecido pela instância"
+    "message": "O carregador Г© fornecido pela instГўncia"
   },
   "search.filter.locked.instance.sync": {
-    "message": "Sincronizar com a instância"
+    "message": "Sincronizar com a instГўncia"
   }
 }

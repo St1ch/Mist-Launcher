@@ -1,19 +1,13 @@
 <script setup>
 import { AuthFeature, PanelVersionFeature, TauriModrinthClient } from '@modrinth/api-client'
 import {
-	ArrowBigUpDashIcon,
-	ChangeSkinIcon,
 	CompassIcon,
 	DownloadIcon,
-	ExternalIcon,
 	HomeIcon,
 	LeftArrowIcon,
 	LibraryIcon,
-	LogInIcon,
-	LogOutIcon,
 	MaximizeIcon,
 	MinimizeIcon,
-	NewspaperIcon,
 	NotepadTextIcon,
 	PlusIcon,
 	RefreshCwIcon,
@@ -21,7 +15,6 @@ import {
 	RightArrowIcon,
 	ServerIcon,
 	SettingsIcon,
-	UserIcon,
 	WorldIcon,
 	XIcon,
 } from '@modrinth/assets'
@@ -32,18 +25,14 @@ import {
 	ButtonStyled,
 	commonMessages,
 	defineMessages,
-	NewsArticleCard,
 	NotificationPanel,
-	OverflowMenu,
 	ProgressSpinner,
 	provideModrinthClient,
 	provideNotificationManager,
 	providePageContext,
-	useDebugLogger,
 	useVIntl,
 } from '@modrinth/ui'
 import { renderString } from '@modrinth/utils'
-import { useQuery } from '@tanstack/vue-query'
 import { getVersion } from '@tauri-apps/api/app'
 import { invoke } from '@tauri-apps/api/core'
 import { getCurrentWindow } from '@tauri-apps/api/window'
@@ -54,20 +43,17 @@ import { $fetch } from 'ofetch'
 import { computed, onMounted, onUnmounted, provide, ref, watch } from 'vue'
 import { RouterView, useRoute, useRouter } from 'vue-router'
 
-import ModrinthAppLogo from '@/assets/modrinth_app.svg?component'
+import mistLogo from '@/assets/mist-logo.png'
 import ModrinthLoadingIndicator from '@/components/LoadingIndicatorBar.vue'
 import AccountsCard from '@/components/ui/AccountsCard.vue'
 import Breadcrumbs from '@/components/ui/Breadcrumbs.vue'
 import ErrorModal from '@/components/ui/ErrorModal.vue'
-import FriendsList from '@/components/ui/friends/FriendsList.vue'
 import IncompatibilityWarningModal from '@/components/ui/install_flow/IncompatibilityWarningModal.vue'
 import InstallConfirmModal from '@/components/ui/install_flow/InstallConfirmModal.vue'
 import ModInstallModal from '@/components/ui/install_flow/ModInstallModal.vue'
 import InstanceCreationModal from '@/components/ui/InstanceCreationModal.vue'
 import AppSettingsModal from '@/components/ui/modal/AppSettingsModal.vue'
-import AuthGrantFlowWaitModal from '@/components/ui/modal/AuthGrantFlowWaitModal.vue'
 import NavButton from '@/components/ui/NavButton.vue'
-import PromotionWrapper from '@/components/ui/PromotionWrapper.vue'
 import QuickInstanceSwitcher from '@/components/ui/QuickInstanceSwitcher.vue'
 import RunningAppBar from '@/components/ui/RunningAppBar.vue'
 import SplashScreen from '@/components/ui/SplashScreen.vue'
@@ -75,13 +61,12 @@ import UpdateAvailableToast from '@/components/ui/UpdateAvailableToast.vue'
 import UpdateToast from '@/components/ui/UpdateToast.vue'
 import URLConfirmModal from '@/components/ui/URLConfirmModal.vue'
 import { useCheckDisableMouseover } from '@/composables/macCssFix.js'
-import { hide_ads_window, init_ads_window, show_ads_window } from '@/helpers/ads.js'
+import { show_ads_window } from '@/helpers/ads.js'
 import { debugAnalytics, initAnalytics, optOutAnalytics, trackEvent } from '@/helpers/analytics'
-import { check_reachable } from '@/helpers/auth.js'
 import { get_user } from '@/helpers/cache.js'
 import { command_listener, warning_listener } from '@/helpers/events.js'
 import { useFetch } from '@/helpers/fetch.js'
-import { cancelLogin, get as getCreds, login, logout } from '@/helpers/mr_auth.ts'
+import { get as getCreds } from '@/helpers/mr_auth.ts'
 import { list } from '@/helpers/profile.js'
 import { get as getSettings, set as setSettings } from '@/helpers/settings.ts'
 import { get_opening_command, initialize_state } from '@/helpers/state'
@@ -103,8 +88,6 @@ import { useInstall } from '@/store/install.js'
 import { useLoading, useTheming } from '@/store/state'
 
 import { create_profile_and_install_from_file } from './helpers/pack'
-import { generateSkinPreviews } from './helpers/rendering/batch-skin-renderer'
-import { get_available_capes, get_available_skins } from './helpers/skins'
 import { AppNotificationManager } from './providers/app-notifications'
 
 const themeStore = useTheming()
@@ -114,10 +97,10 @@ provideNotificationManager(notificationManager)
 const { handleError, addNotification } = notificationManager
 
 const tauriApiClient = new TauriModrinthClient({
-	userAgent: `modrinth/theseus/${getVersion()} (support@modrinth.com)`,
+	userAgent: `mist-launcher/${getVersion()} (offline-client)`,
 	features: [
 		new AuthFeature({
-			token: async () => (await getCreds()).session,
+			token: async () => (await getCreds())?.session ?? null,
 		}),
 		new PanelVersionFeature(),
 	],
@@ -127,7 +110,6 @@ providePageContext({
 	hierarchicalSidebarAvailable: ref(true),
 	showAds: ref(false),
 })
-const news = ref([])
 const availableSurvey = ref(false)
 
 const urlModal = ref(null)
@@ -151,27 +133,6 @@ const stateInitialized = ref(false)
 const criticalErrorMessage = ref()
 
 const isMaximized = ref(false)
-
-const authUnreachableDebug = useDebugLogger('AuthReachableChecker')
-const authServerQuery = useQuery({
-	queryKey: ['authServerReachability'],
-	queryFn: async () => {
-		await check_reachable()
-		authUnreachableDebug('Auth servers are reachable')
-		return true
-	},
-	refetchInterval: 5 * 60 * 1000, // 5 minutes
-	retry: false,
-	refetchOnWindowFocus: false,
-})
-
-const authUnreachable = computed(() => {
-	if (authServerQuery.isError.value && !authServerQuery.isLoading.value) {
-		console.warn('Failed to reach auth servers', authServerQuery.error.value)
-		return true
-	}
-	return false
-})
 
 onMounted(async () => {
 	await useCheckDisableMouseover()
@@ -210,15 +171,6 @@ const messages = defineMessages({
 	downloadingUpdate: {
 		id: 'app.update.downloading-update',
 		defaultMessage: 'Downloading update ({percent}%)',
-	},
-	authUnreachableHeader: {
-		id: 'app.auth-servers.unreachable.header',
-		defaultMessage: 'Cannot reach authentication servers',
-	},
-	authUnreachableBody: {
-		id: 'app.auth-servers.unreachable.body',
-		defaultMessage:
-			'Minecraft authentication servers may be down right now. Check your internet connection and try again later.',
 	},
 })
 
@@ -311,34 +263,8 @@ async function setupApp() {
 			)
 		})
 
-	useFetch(`https://modrinth.com/news/feed/articles.json`, 'news', true)
-		.then((response) => response.json())
-		.then((res) => {
-			if (res && res.articles) {
-				// Format expected by NewsArticleCard component.
-				news.value = res.articles
-					.map((article) => ({
-						...article,
-						path: article.link,
-						thumbnail: article.thumbnail,
-						title: article.title,
-						summary: article.summary,
-						date: article.date,
-					}))
-					.slice(0, 4)
-			}
-		})
-
 	get_opening_command().then(handleCommand)
 	fetchCredentials()
-
-	try {
-		const skins = (await get_available_skins()) ?? []
-		const capes = (await get_available_capes()) ?? []
-		generateSkinPreviews(skins, capes)
-	} catch (error) {
-		console.warn('Failed to generate skin previews in app setup.', error)
-	}
 
 	if (pending_update_toast_for_version !== null) {
 		const settings = await getSettings()
@@ -396,8 +322,6 @@ const incompatibilityWarningModal = ref()
 
 const credentials = ref()
 
-const modrinthLoginFlowWaitModal = ref()
-
 async function fetchCredentials() {
 	const creds = await getCreds().catch(handleError)
 	if (creds && creds.user_id) {
@@ -405,40 +329,6 @@ async function fetchCredentials() {
 	}
 	credentials.value = creds ?? null
 }
-
-async function signIn() {
-	modrinthLoginFlowWaitModal.value.show()
-
-	try {
-		await login()
-		await fetchCredentials()
-	} catch (error) {
-		if (
-			typeof error === 'object' &&
-			typeof error['message'] === 'string' &&
-			error.message.includes('Login canceled')
-		) {
-			// Not really an error due to being a result of user interaction, show nothing
-		} else {
-			handleError(error)
-		}
-	} finally {
-		modrinthLoginFlowWaitModal.value.hide()
-	}
-}
-
-async function logOut() {
-	await logout().catch(handleError)
-	await fetchCredentials()
-}
-
-const MIDAS_BITFLAG = 1 << 0
-const hasPlus = computed(
-	() =>
-		credentials.value &&
-		credentials.value.user &&
-		(credentials.value.user.badges & MIDAS_BITFLAG) === MIDAS_BITFLAG,
-)
 
 const sidebarToggled = ref(true)
 
@@ -450,17 +340,6 @@ const forceSidebar = computed(
 	() => route.path.startsWith('/browse') || route.path.startsWith('/project'),
 )
 const sidebarVisible = computed(() => sidebarToggled.value || forceSidebar.value)
-const showAd = computed(
-	() => sidebarVisible.value && !hasPlus.value && credentials.value !== undefined,
-)
-
-watch(showAd, () => {
-	if (!showAd.value) {
-		hide_ads_window(true)
-	} else {
-		init_ads_window(true)
-	}
-})
 
 onMounted(() => {
 	invoke('show_window')
@@ -796,9 +675,6 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			<AppSettingsModal ref="settingsModal" />
 		</Suspense>
 		<Suspense>
-			<AuthGrantFlowWaitModal ref="modrinthLoginFlowWaitModal" @flow-cancel="cancelLogin" />
-		</Suspense>
-		<Suspense>
 			<InstanceCreationModal ref="installationModal" />
 		</Suspense>
 		<div
@@ -824,9 +700,6 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 				:is-subpage="(route) => route.path.startsWith('/project') && !route.query.i"
 			>
 				<CompassIcon />
-			</NavButton>
-			<NavButton v-tooltip.right="'Skins (Beta)'" to="/skins">
-				<ChangeSkinIcon />
 			</NavButton>
 			<NavButton
 				v-tooltip.right="'Library'"
@@ -898,44 +771,15 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			>
 				<SettingsIcon />
 			</NavButton>
-			<OverflowMenu
-				v-if="credentials"
-				v-tooltip.right="`Modrinth account`"
-				class="w-12 h-12 text-primary rounded-full flex items-center justify-center text-2xl transition-all bg-transparent hover:bg-button-bg hover:text-contrast border-0 cursor-pointer"
-				:options="[
-					{
-						id: 'view-profile',
-						action: () => openUrl('https://modrinth.com/user/' + credentials.user.username),
-					},
-					{
-						id: 'sign-out',
-						action: () => logOut(),
-						color: 'danger',
-					},
-				]"
-				placement="right-end"
-			>
-				<Avatar :src="credentials.user.avatar_url" alt="" size="32px" circle />
-				<template #view-profile>
-					<UserIcon />
-					<span class="inline-flex items-center gap-1">
-						Signed in as
-						<span class="inline-flex items-center gap-1 text-contrast font-semibold">
-							<Avatar :src="credentials.user.avatar_url" alt="" size="20px" circle />
-							{{ credentials.user.username }}
-						</span>
-					</span>
-					<ExternalIcon />
-				</template>
-				<template #sign-out> <LogOutIcon /> Sign out </template>
-			</OverflowMenu>
-			<NavButton v-else v-tooltip.right="'Sign in to a Modrinth account'" :to="() => signIn()">
-				<LogInIcon class="text-brand" />
-			</NavButton>
 		</div>
 		<div data-tauri-drag-region class="app-grid-statusbar bg-bg-raised h-[--top-bar-height] flex">
 			<div data-tauri-drag-region class="flex p-3">
-				<ModrinthAppLogo class="h-full w-auto text-contrast pointer-events-none" />
+				<div data-tauri-drag-region class="mist-wordmark pointer-events-none">
+					<img :src="mistLogo" alt="" class="mist-wordmark-icon" />
+					<span data-tauri-drag-region class="mist-wordmark-title">
+						Launcher
+					</span>
+				</div>
 				<div data-tauri-drag-region class="flex items-center gap-1 ml-3">
 					<button
 						class="cursor-pointer p-0 m-0 text-contrast border-none outline-none bg-button-bg rounded-full flex items-center justify-center w-6 h-6 hover:brightness-75 transition-all"
@@ -1004,12 +848,12 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 					v-if="availableSurvey"
 					class="w-[400px] z-20 fixed -bottom-12 pb-16 right-[--right-bar-width] mr-4 rounded-t-2xl card-shadow bg-bg-raised border-surface-5 border-[1px] border-solid border-b-0 p-4"
 				>
-					<h2 class="text-lg font-extrabold mt-0 mb-2">Hey there Modrinth user!</h2>
+					<h2 class="text-lg font-extrabold mt-0 mb-2">Hey there Mist user!</h2>
 					<p class="m-0 leading-tight">
-						Would you mind answering a few questions about your experience with Modrinth App?
+						Would you mind answering a few questions about your experience with Mist Launcher?
 					</p>
 					<p class="mt-3 mb-4 leading-tight">
-						This feedback will go directly to the Modrinth team and help guide future updates!
+						This feedback will go directly to the Mist Launcher team and help guide future updates!
 					</p>
 					<div class="flex gap-2">
 						<ButtonStyled color="brand">
@@ -1055,14 +899,6 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 					v-html="renderString(criticalErrorMessage.body ?? '')"
 				></div>
 			</Admonition>
-			<Admonition
-				v-if="authUnreachable"
-				type="warning"
-				:header="formatMessage(messages.authUnreachableHeader)"
-				class="m-6 mb-0"
-			>
-				{{ formatMessage(messages.authUnreachableBody) }}
-			</Admonition>
 			<RouterView v-slot="{ Component }">
 				<template v-if="Component">
 					<Suspense @pending="loading.startLoading()" @resolve="loading.stopLoading()">
@@ -1073,12 +909,8 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 		</div>
 		<div
 			class="app-sidebar mt-px shrink-0 flex flex-col border-0 border-l-[1px] border-[--brand-gradient-border] border-solid overflow-auto"
-			:class="{ 'has-plus': hasPlus }"
 		>
-			<div
-				class="app-sidebar-scrollable flex-grow shrink overflow-y-auto relative"
-				:class="{ 'pb-12': !hasPlus }"
-			>
+			<div class="app-sidebar-scrollable flex-grow shrink overflow-y-auto relative">
 				<div id="sidebar-teleport-target" class="sidebar-teleport-content"></div>
 				<div class="sidebar-default-content" :class="{ 'sidebar-enabled': sidebarVisible }">
 					<div
@@ -1089,42 +921,8 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 							<AccountsCard ref="accounts" mode="small" />
 						</suspense>
 					</div>
-					<div class="py-4 border-0 border-b-[1px] border-[--brand-gradient-border] border-solid">
-						<suspense>
-							<FriendsList
-								:credentials="credentials"
-								:sign-in="() => signIn()"
-								:refresh-credentials="fetchCredentials"
-							/>
-						</suspense>
-					</div>
-					<div v-if="news && news.length > 0" class="p-4 pr-1 flex flex-col items-center">
-						<h3 class="text-base mb-4 text-primary font-medium m-0 text-left w-full">News</h3>
-						<div class="space-y-4 flex flex-col items-center w-full">
-							<NewsArticleCard
-								v-for="(item, index) in news"
-								:key="`news-${index}`"
-								:article="item"
-							/>
-							<ButtonStyled color="brand" size="large">
-								<a href="https://modrinth.com/news" target="_blank" class="my-4">
-									<NewspaperIcon /> View all news
-								</a>
-							</ButtonStyled>
-						</div>
-					</div>
 				</div>
 			</div>
-			<template v-if="showAd">
-				<a
-					href="https://modrinth.plus?app"
-					class="absolute bottom-[250px] w-full flex justify-center items-center gap-1 px-4 py-3 text-purple font-medium hover:underline z-10"
-					target="_blank"
-				>
-					<ArrowBigUpDashIcon class="text-2xl" /> Upgrade to Modrinth+
-				</a>
-				<PromotionWrapper />
-			</template>
 		</div>
 	</div>
 	<URLConfirmModal ref="urlModal" />
@@ -1228,6 +1026,31 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 	grid-area: status;
 }
 
+.mist-wordmark {
+	display: flex;
+	align-items: center;
+	gap: 0.55rem;
+	height: 100%;
+	color: var(--color-contrast);
+	user-select: none;
+}
+
+.mist-wordmark-icon {
+	width: 2rem;
+	height: 2rem;
+	object-fit: contain;
+	border-radius: 0.45rem;
+	filter: drop-shadow(0 0 0.45rem rgba(143, 255, 210, 0.28));
+}
+
+.mist-wordmark-title {
+	font-size: 0.95rem;
+	font-weight: 850;
+	letter-spacing: 0.015em;
+	line-height: 1;
+	white-space: nowrap;
+}
+
 [data-tauri-drag-region-exclude] {
 	-webkit-app-region: no-drag;
 }
@@ -1270,27 +1093,8 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 	--color-divider-dark: var(--brand-gradient-border);
 }
 
-.app-sidebar::after {
-	content: '';
-	position: absolute;
-	bottom: 250px;
-	left: 0;
-	right: 0;
-	height: 5rem;
-	background: var(--brand-gradient-fade-out-color);
-	pointer-events: none;
-}
-
-.app-sidebar.has-plus::after {
-	display: none;
-}
-
 .disable-advanced-rendering {
 	.app-sidebar::before {
-		box-shadow: none;
-	}
-
-	&.app-contents::before {
 		box-shadow: none;
 	}
 }
@@ -1311,22 +1115,6 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 	height: 100%;
 	overflow: auto;
 	overflow-x: hidden;
-}
-
-.app-contents::before {
-	z-index: 1;
-	content: '';
-	position: fixed;
-	left: var(--left-bar-width);
-	top: var(--top-bar-height);
-	right: calc(-1 * var(--left-bar-width));
-	bottom: calc(-1 * var(--left-bar-width));
-	border-radius: var(--radius-xl);
-	box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1) inset;
-	border-color: var(--surface-5);
-	border-width: 1px;
-	border-style: solid;
-	pointer-events: none;
 }
 
 .sidebar-teleport-content {

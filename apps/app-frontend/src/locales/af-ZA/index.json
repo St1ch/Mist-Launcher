@@ -1,4 +1,4 @@
-{
+﻿{
   "app.settings.developer-mode-enabled": {
     "message": "Ontwikkelaarmodus geaktiveer."
   },
@@ -24,13 +24,13 @@
     "message": "Hulpbronbestuur"
   },
   "app.update-toast.body": {
-    "message": "Modrinth App v{version} is gereed om te installeer! Herlaai nou werk, of outomaties wanneer jy naby Modrinth App."
+    "message": "Mist Launcher v{version} is gereed om te installeer! Herlaai nou werk, of outomaties wanneer jy naby Mist Launcher."
   },
   "app.update-toast.body.download-complete": {
-    "message": "Modrinth App v{version} klaar afgelaai. Herlaai nou werk, of outomaties wanneer jy naby Modrinth App."
+    "message": "Mist Launcher v{version} klaar afgelaai. Herlaai nou werk, of outomaties wanneer jy naby Mist Launcher."
   },
   "app.update-toast.body.metered": {
-    "message": "Modrinth App v{version} is nou beskikbaar! Aangesien jy op'n gemeterde netwerk, ons het nie outomaties laai dit."
+    "message": "Mist Launcher v{version} is nou beskikbaar! Aangesien jy op'n gemeterde netwerk, ons het nie outomaties laai dit."
   },
   "app.update-toast.changelog": {
     "message": "Alle veranderinge"
@@ -54,7 +54,7 @@
     "message": "Klik hier om die veranderinge te sien."
   },
   "app.update.complete-toast.title": {
-    "message": "Weergawe {version} is suksesvol geïnstalleer!"
+    "message": "Weergawe {version} is suksesvol geГЇnstalleer!"
   },
   "app.update.download-update": {
     "message": "Laai die opdatering af"
@@ -93,13 +93,13 @@
     "message": "Naam"
   },
   "instance.edit-world.placeholder-name": {
-    "message": "Minecraft Wêreld"
+    "message": "Minecraft WГЄreld"
   },
   "instance.edit-world.reset-icon": {
     "message": "herstel ikoon"
   },
   "instance.edit-world.title": {
-    "message": "wêreld wysig"
+    "message": "wГЄreld wysig"
   },
   "instance.filter.disabled": {
     "message": "gestremde projekte"
@@ -129,10 +129,10 @@
     "message": "verwyder instansie"
   },
   "instance.settings.tabs.general.delete.description": {
-    "message": "Vee 'n instansie permanent van jou toestel uit, insluitend jou wêrelde, konfigurasies en alle geïnstalleerde inhoud. Wees versigtig, want sodra jy 'n instansie verwyder het, is daar geen manier om dit te herstel nie."
+    "message": "Vee 'n instansie permanent van jou toestel uit, insluitend jou wГЄrelde, konfigurasies en alle geГЇnstalleerde inhoud. Wees versigtig, want sodra jy 'n instansie verwyder het, is daar geen manier om dit te herstel nie."
   },
   "instance.settings.tabs.general.deleting.button": {
-    "message": "Vee tans uit …"
+    "message": "Vee tans uit вЂ¦"
   },
   "instance.settings.tabs.general.duplicate-button": {
     "message": "Duplikaat"
@@ -144,7 +144,7 @@
     "message": "Duplikaat instansie"
   },
   "instance.settings.tabs.general.duplicate-instance.description": {
-    "message": "Skep 'n kopie van hierdie instansie, insluitend wêrelde, konfigurasies, mods, ens."
+    "message": "Skep 'n kopie van hierdie instansie, insluitend wГЄrelde, konfigurasies, mods, ens."
   },
   "instance.settings.tabs.general.edit-icon": {
     "message": "Wwysig ikoon"
@@ -186,7 +186,7 @@
     "message": "Na-uitgang"
   },
   "instance.settings.tabs.hooks.post-exit.description": {
-    "message": "Het gehardloop nadat die wedstryd geëindig het."
+    "message": "Het gehardloop nadat die wedstryd geГ«indig het."
   },
   "instance.settings.tabs.hooks.post-exit.enter": {
     "message": "Voer die na-uitgang-opdrag in..."
@@ -213,10 +213,10 @@
     "message": "Installation"
   },
   "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "{platform} {version} vir Minecraft {game_version} reeds geïnstalleer"
+    "message": "{platform} {version} vir Minecraft {game_version} reeds geГЇnstalleer"
   },
   "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "Vanilla {game_version} reeds geïnstalleer"
+    "message": "Vanilla {game_version} reeds geГЇnstalleer"
   },
   "instance.settings.tabs.installation.change-version.button": {
     "message": "Verander weergawe"
@@ -234,7 +234,7 @@
     "message": "Installeer nuwe weergawe"
   },
   "instance.settings.tabs.installation.currently-installed": {
-    "message": "Huidiglik geïnstalleer"
+    "message": "Huidiglik geГЇnstalleer"
   },
   "instance.settings.tabs.installation.debug-information": {
     "message": "Ontfoutinligting:"
@@ -276,7 +276,7 @@
     "message": "Herinstalleer modpack weer"
   },
   "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "Herinstalleer sal alle geïnstalleerde of gewysigde inhoud terugstel na wat deur die modpack verskaf word, en enige mods of inhoud wat jy bo-op die oorspronklike installasie bygevoeg het, verwyder. Dit kan onverwagte gedrag regstel as veranderinge aan die instansie aangebring is, maar as jou wêrelde nou afhanklik is van addisionele geïnstalleerde inhoud, kan dit bestaande wêrelde breek."
+    "message": "Herinstalleer sal alle geГЇnstalleerde of gewysigde inhoud terugstel na wat deur die modpack verskaf word, en enige mods of inhoud wat jy bo-op die oorspronklike installasie bygevoeg het, verwyder. Dit kan onverwagte gedrag regstel as veranderinge aan die instansie aangebring is, maar as jou wГЄrelde nou afhanklik is van addisionele geГЇnstalleerde inhoud, kan dit bestaande wГЄrelde breek."
   },
   "instance.settings.tabs.installation.reinstall.confirm.title": {
     "message": "Wil u definitief hierdie instansie herinstalleer?"
@@ -294,7 +294,7 @@
     "message": "Herstel"
   },
   "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "Herstel herinstalleer Minecraft afhanklikhede en tjeks vir korrupsie. Dit kan probleme oplos as u speletjie nie begin nie weens foute wat verband hou met die lanseerder, maar dit sal nie probleme of ineenstortings wat verband hou met geïnstalleerde mods oplos nie."
+    "message": "Herstel herinstalleer Minecraft afhanklikhede en tjeks vir korrupsie. Dit kan probleme oplos as u speletjie nie begin nie weens foute wat verband hou met die lanseerder, maar dit sal nie probleme of ineenstortings wat verband hou met geГЇnstalleerde mods oplos nie."
   },
   "instance.settings.tabs.installation.repair.confirm.title": {
     "message": "Herstel geval?"

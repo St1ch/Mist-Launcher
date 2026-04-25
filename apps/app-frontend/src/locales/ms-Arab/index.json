@@ -1,4 +1,4 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
     "message": "Pelayan pengesahan Minecraft mungkin sedang tergendala sekarang. Periksa sambungan internet anda dan cuba lagi nanti."
   },
@@ -6,528 +6,528 @@
     "message": "Tidak dapat mencapai pelayan pengesahan"
   },
   "app.settings.developer-mode-enabled": {
-    "message": "مود ڤمباڠون دداياکن."
+    "message": "Щ…Щ€ШЇ Ъ¤Щ…ШЁШ§Ъ Щ€Щ† ШЇШЇШ§ЩЉШ§Ъ©Щ†."
   },
   "app.settings.downloading": {
-    "message": "سدڠ مموات تورون v{version}"
+    "message": "ШіШЇЪ  Щ…Щ…Щ€Ш§ШЄ ШЄЩ€Ш±Щ€Щ† v{version}"
   },
   "app.settings.tabs.appearance": {
-    "message": "تمڤيلن"
+    "message": "ШЄЩ…Ъ¤ЩЉЩ„Щ†"
   },
   "app.settings.tabs.default-instance-options": {
-    "message": "تتڤن لالاي ڤماسڠن"
+    "message": "ШЄШЄЪ¤Щ† Щ„Ш§Щ„Ш§ЩЉ Ъ¤Щ…Ш§ШіЪ Щ†"
   },
   "app.settings.tabs.feature-flags": {
-    "message": "ڤنتڤن چيري"
+    "message": "Ъ¤Щ†ШЄЪ¤Щ† Ъ†ЩЉШ±ЩЉ"
   },
   "app.settings.tabs.java-installations": {
-    "message": "ڤماسڠن جاۏا"
+    "message": "Ъ¤Щ…Ш§ШіЪ Щ† Ш¬Ш§ЫЏШ§"
   },
   "app.settings.tabs.privacy": {
-    "message": "ڤريۏاسي"
+    "message": "Ъ¤Ш±ЩЉЫЏШ§ШіЩЉ"
   },
   "app.settings.tabs.resource-management": {
-    "message": "ڤڠوروسن سومبر"
+    "message": "Ъ¤Ъ Щ€Ш±Щ€ШіЩ† ШіЩ€Щ…ШЁШ±"
   },
   "app.update-toast.body": {
-    "message": "Modrinth App v{version} سوده برسديا اونتوق دڤاسڠ! موات سمولا اونتوق کمس کيني سکارڠ⹁ اتاو کمس کيني سچارا اٴوتوماتيک اڤابيلا اندا منوتوڤ Modrinth App."
+    "message": "Mist Launcher v{version} ШіЩ€ШЇЩ‡ ШЁШ±ШіШЇЩЉШ§ Ш§Щ€Щ†ШЄЩ€Щ‚ ШЇЪ¤Ш§ШіЪ ! Щ…Щ€Ш§ШЄ ШіЩ…Щ€Щ„Ш§ Ш§Щ€Щ†ШЄЩ€Щ‚ Ъ©Щ…Ші Ъ©ЩЉЩ†ЩЉ ШіЪ©Ш§Ш±Ъ в№Ѓ Ш§ШЄШ§Щ€ Ъ©Щ…Ші Ъ©ЩЉЩ†ЩЉ ШіЪ†Ш§Ш±Ш§ Ш§ЩґЩ€ШЄЩ€Щ…Ш§ШЄЩЉЪ© Ш§Ъ¤Ш§ШЁЩЉЩ„Ш§ Ш§Щ†ШЇШ§ Щ…Щ†Щ€ШЄЩ€Ъ¤ Mist Launcher."
   },
   "app.update-toast.body.download-complete": {
-    "message": "Modrinth App v{version} سوده سلساي دڤاسڠ! موات سمولا اونتوق کمس کيني سکارڠ⹁ اتاو کمس کيني سچارا اٴوتوماتيک اڤابيلا اندا منوتوڤ Modrinth App."
+    "message": "Mist Launcher v{version} ШіЩ€ШЇЩ‡ ШіЩ„ШіШ§ЩЉ ШЇЪ¤Ш§ШіЪ ! Щ…Щ€Ш§ШЄ ШіЩ…Щ€Щ„Ш§ Ш§Щ€Щ†ШЄЩ€Щ‚ Ъ©Щ…Ші Ъ©ЩЉЩ†ЩЉ ШіЪ©Ш§Ш±Ъ в№Ѓ Ш§ШЄШ§Щ€ Ъ©Щ…Ші Ъ©ЩЉЩ†ЩЉ ШіЪ†Ш§Ш±Ш§ Ш§ЩґЩ€ШЄЩ€Щ…Ш§ШЄЩЉЪ© Ш§Ъ¤Ш§ШЁЩЉЩ„Ш§ Ш§Щ†ШЇШ§ Щ…Щ†Щ€ШЄЩ€Ъ¤ Mist Launcher."
   },
   "app.update-toast.body.metered": {
-    "message": "Modrinth App v{version} کيني ترسديا! ممندڠکن اندا سدڠ مڠݢوناکن رڠکاين برميتر⹁ کامي تيدق مموات تورونڽ سچارا اٴوتوماتيک."
+    "message": "Mist Launcher v{version} Ъ©ЩЉЩ†ЩЉ ШЄШ±ШіШЇЩЉШ§! Щ…Щ…Щ†ШЇЪ Ъ©Щ† Ш§Щ†ШЇШ§ ШіШЇЪ  Щ…Ъ ЭўЩ€Щ†Ш§Ъ©Щ† Ш±Ъ Ъ©Ш§ЩЉЩ† ШЁШ±Щ…ЩЉШЄШ±в№Ѓ Ъ©Ш§Щ…ЩЉ ШЄЩЉШЇЩ‚ Щ…Щ…Щ€Ш§ШЄ ШЄЩ€Ш±Щ€Щ†ЪЅ ШіЪ†Ш§Ш±Ш§ Ш§ЩґЩ€ШЄЩ€Щ…Ш§ШЄЩЉЪ©."
   },
   "app.update-toast.changelog": {
-    "message": "لوݢ ڤروبهن"
+    "message": "Щ„Щ€Эў Ъ¤Ш±Щ€ШЁЩ‡Щ†"
   },
   "app.update-toast.download": {
-    "message": "موات تورون ({size})"
+    "message": "Щ…Щ€Ш§ШЄ ШЄЩ€Ш±Щ€Щ† ({size})"
   },
   "app.update-toast.downloading": {
-    "message": "سدڠ مموات تورون..."
+    "message": "ШіШЇЪ  Щ…Щ…Щ€Ш§ШЄ ШЄЩ€Ш±Щ€Щ†..."
   },
   "app.update-toast.reload": {
-    "message": "موات سمولا"
+    "message": "Щ…Щ€Ш§ШЄ ШіЩ…Щ€Щ„Ш§"
   },
   "app.update-toast.title": {
-    "message": "کمس کيني ترسديا"
+    "message": "Ъ©Щ…Ші Ъ©ЩЉЩ†ЩЉ ШЄШ±ШіШЇЩЉШ§"
   },
   "app.update-toast.title.download-complete": {
-    "message": "موات تورون سلساي"
+    "message": "Щ…Щ€Ш§ШЄ ШЄЩ€Ш±Щ€Щ† ШіЩ„ШіШ§ЩЉ"
   },
   "app.update.complete-toast.text": {
-    "message": "کليک دسيني اونتوق مليهت لوݢ ڤروبهن."
+    "message": "Ъ©Щ„ЩЉЪ© ШЇШіЩЉЩ†ЩЉ Ш§Щ€Щ†ШЄЩ€Щ‚ Щ…Щ„ЩЉЩ‡ШЄ Щ„Щ€Эў Ъ¤Ш±Щ€ШЁЩ‡Щ†."
   },
   "app.update.complete-toast.title": {
-    "message": "ۏرسي {version} تله برجاي دڤاسڠ!"
+    "message": "ЫЏШ±ШіЩЉ {version} ШЄЩ„Щ‡ ШЁШ±Ш¬Ш§ЩЉ ШЇЪ¤Ш§ШіЪ !"
   },
   "app.update.download-update": {
-    "message": "موات تورون کمس کيني"
+    "message": "Щ…Щ€Ш§ШЄ ШЄЩ€Ш±Щ€Щ† Ъ©Щ…Ші Ъ©ЩЉЩ†ЩЉ"
   },
   "app.update.downloading-update": {
-    "message": "سدڠ مموات تورون کمس کيني ({percent}%)"
+    "message": "ШіШЇЪ  Щ…Щ…Щ€Ш§ШЄ ШЄЩ€Ш±Щ€Щ† Ъ©Щ…Ші Ъ©ЩЉЩ†ЩЉ ({percent}%)"
   },
   "app.update.reload-to-update": {
-    "message": "موات سمولا اونتوق مماسڠ کمس کيني"
+    "message": "Щ…Щ€Ш§ШЄ ШіЩ…Щ€Щ„Ш§ Ш§Щ€Щ†ШЄЩ€Щ‚ Щ…Щ…Ш§ШіЪ  Ъ©Щ…Ші Ъ©ЩЉЩ†ЩЉ"
   },
   "friends.action.add-friend": {
-    "message": "تمبه راکن"
+    "message": "ШЄЩ…ШЁЩ‡ Ш±Ш§Ъ©Щ†"
   },
   "friends.action.view-friend-requests": {
-    "message": "{count} {count, plural, other {ڤرمينتاٴن}} راکن"
+    "message": "{count} {count, plural, other {Ъ¤Ш±Щ…ЩЉЩ†ШЄШ§ЩґЩ†}} Ш±Ш§Ъ©Щ†"
   },
   "friends.add-friend.submit": {
-    "message": "هانتر ڤرمينتاٴن راکن"
+    "message": "Щ‡Ш§Щ†ШЄШ± Ъ¤Ш±Щ…ЩЉЩ†ШЄШ§ЩґЩ† Ш±Ш§Ъ©Щ†"
   },
   "friends.add-friend.title": {
-    "message": "منمبه راکن"
+    "message": "Щ…Щ†Щ…ШЁЩ‡ Ш±Ш§Ъ©Щ†"
   },
   "friends.add-friend.username.description": {
-    "message": "اي موڠکين بربيذا درڤد نام ڤڠݢونا ماٴينکرف‌ت مريک!"
+    "message": "Ш§ЩЉ Щ…Щ€Ъ Ъ©ЩЉЩ† ШЁШ±ШЁЩЉШ°Ш§ ШЇШ±Ъ¤ШЇ Щ†Ш§Щ… Ъ¤Ъ ЭўЩ€Щ†Ш§ Щ…Ш§ЩґЩЉЩ†Ъ©Ш±ЩЃвЂЊШЄ Щ…Ш±ЩЉЪ©!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "ماسوقکن نام ڤڠݢونا Modrinth..."
+    "message": "Щ…Ш§ШіЩ€Щ‚Ъ©Щ† Щ†Ш§Щ… Ъ¤Ъ ЭўЩ€Щ†Ш§ Modrinth..."
   },
   "friends.add-friend.username.title": {
-    "message": "اڤاکه نام ڤڠݢونا Modrinth راکن اندا؟"
+    "message": "Ш§Ъ¤Ш§Ъ©Щ‡ Щ†Ш§Щ… Ъ¤Ъ ЭўЩ€Щ†Ш§ Modrinth Ш±Ш§Ъ©Щ† Ш§Щ†ШЇШ§Шџ"
   },
   "friends.add-friends-to-share": {
-    "message": "<link>تمبه راکن</link> اونتوق مليهت اڤ يڠ مريک ماءينکن!"
+    "message": "<link>ШЄЩ…ШЁЩ‡ Ш±Ш§Ъ©Щ†</link> Ш§Щ€Щ†ШЄЩ€Щ‚ Щ…Щ„ЩЉЩ‡ШЄ Ш§Ъ¤ ЩЉЪ  Щ…Ш±ЩЉЪ© Щ…Ш§ШЎЩЉЩ†Ъ©Щ†!"
   },
   "friends.friend.cancel-request": {
-    "message": "بطلکن ڤرمينتاٴن"
+    "message": "ШЁШ·Щ„Ъ©Щ† Ъ¤Ш±Щ…ЩЉЩ†ШЄШ§ЩґЩ†"
   },
   "friends.friend.remove-friend": {
-    "message": "اليه کلوار راکن"
+    "message": "Ш§Щ„ЩЉЩ‡ Ъ©Щ„Щ€Ш§Ш± Ш±Ш§Ъ©Щ†"
   },
   "friends.friend.request-sent": {
-    "message": "ڤرمينتاٴن راکن تله دهانتر"
+    "message": "Ъ¤Ш±Щ…ЩЉЩ†ШЄШ§ЩґЩ† Ш±Ш§Ъ©Щ† ШЄЩ„Щ‡ ШЇЩ‡Ш§Щ†ШЄШ±"
   },
   "friends.friend.view-profile": {
-    "message": "ليهت ڤروفيل"
+    "message": "Щ„ЩЉЩ‡ШЄ Ъ¤Ш±Щ€ЩЃЩЉЩ„"
   },
   "friends.heading": {
-    "message": "راکن"
+    "message": "Ш±Ш§Ъ©Щ†"
   },
   "friends.heading.active": {
-    "message": "اکتيف"
+    "message": "Ш§Ъ©ШЄЩЉЩЃ"
   },
   "friends.heading.offline": {
-    "message": "لوار تالين"
+    "message": "Щ„Щ€Ш§Ш± ШЄШ§Щ„ЩЉЩ†"
   },
   "friends.heading.online": {
-    "message": "دالم تالين"
+    "message": "ШЇШ§Щ„Щ… ШЄШ§Щ„ЩЉЩ†"
   },
   "friends.heading.pending": {
-    "message": "منوڠݢو"
+    "message": "Щ…Щ†Щ€Ъ ЭўЩ€"
   },
   "friends.no-friends-match": {
-    "message": "تياد راکن يڠ سڤادن دڠن ''{query}''"
+    "message": "ШЄЩЉШ§ШЇ Ш±Ш§Ъ©Щ† ЩЉЪ  ШіЪ¤Ш§ШЇЩ† ШЇЪ Щ† ''{query}''"
   },
   "friends.search-friends-placeholder": {
-    "message": "چاري راکن..."
+    "message": "Ъ†Ш§Ш±ЩЉ Ш±Ш§Ъ©Щ†..."
   },
   "friends.section.heading": {
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>لوݢ ماسوق کأکاٴون Modrinth</link> اونتوق منمبه راکن دان مليهت اڤ يڠ مريک ماءينکن!"
+    "message": "<link>Щ„Щ€Эў Щ…Ш§ШіЩ€Щ‚ Ъ©ШЈЪ©Ш§ЩґЩ€Щ† Modrinth</link> Ш§Щ€Щ†ШЄЩ€Щ‚ Щ…Щ†Щ…ШЁЩ‡ Ш±Ш§Ъ©Щ† ШЇШ§Щ† Щ…Щ„ЩЉЩ‡ШЄ Ш§Ъ¤ ЩЉЪ  Щ…Ш±ЩЉЪ© Щ…Ш§ШЎЩЉЩ†Ъ©Щ†!"
   },
   "instance.add-server.add-and-play": {
-    "message": "تمبه دان ماءين"
+    "message": "ШЄЩ…ШЁЩ‡ ШЇШ§Щ† Щ…Ш§ШЎЩЉЩ†"
   },
   "instance.add-server.add-server": {
-    "message": "تمبه ڤلاين"
+    "message": "ШЄЩ…ШЁЩ‡ Ъ¤Щ„Ш§ЩЉЩ†"
   },
   "instance.add-server.resource-pack.disabled": {
-    "message": "دڽهداياکن"
+    "message": "ШЇЪЅЩ‡ШЇШ§ЩЉШ§Ъ©Щ†"
   },
   "instance.add-server.resource-pack.enabled": {
-    "message": "دداياکن"
+    "message": "ШЇШЇШ§ЩЉШ§Ъ©Щ†"
   },
   "instance.add-server.resource-pack.prompt": {
-    "message": "ڤروم"
+    "message": "Ъ¤Ш±Щ€Щ…"
   },
   "instance.add-server.title": {
-    "message": "تمبه ڤلاين"
+    "message": "ШЄЩ…ШЁЩ‡ Ъ¤Щ„Ш§ЩЉЩ†"
   },
   "instance.edit-server.title": {
-    "message": "سونتيڠ ڤلاين"
+    "message": "ШіЩ€Щ†ШЄЩЉЪ  Ъ¤Щ„Ш§ЩЉЩ†"
   },
   "instance.edit-world.hide-from-home": {
-    "message": "سمبوڽيکن دري لامن اوتام"
+    "message": "ШіЩ…ШЁЩ€ЪЅЩЉЪ©Щ† ШЇШ±ЩЉ Щ„Ш§Щ…Щ† Ш§Щ€ШЄШ§Щ…"
   },
   "instance.edit-world.name": {
-    "message": "نام"
+    "message": "Щ†Ш§Щ…"
   },
   "instance.edit-world.placeholder-name": {
-    "message": "دنيا ماءينکرف‌ت"
+    "message": "ШЇЩ†ЩЉШ§ Щ…Ш§ШЎЩЉЩ†Ъ©Ш±ЩЃвЂЊШЄ"
   },
   "instance.edit-world.reset-icon": {
-    "message": "تتڤ سمولا ايکون"
+    "message": "ШЄШЄЪ¤ ШіЩ…Щ€Щ„Ш§ Ш§ЩЉЪ©Щ€Щ†"
   },
   "instance.edit-world.title": {
-    "message": "سونتيڠ دنيا"
+    "message": "ШіЩ€Щ†ШЄЩЉЪ  ШЇЩ†ЩЉШ§"
   },
   "instance.filter.disabled": {
-    "message": "ڤروجيک يڠ دڽهداياکن"
+    "message": "Ъ¤Ш±Щ€Ш¬ЩЉЪ© ЩЉЪ  ШЇЪЅЩ‡ШЇШ§ЩЉШ§Ъ©Щ†"
   },
   "instance.filter.updates-available": {
-    "message": "کمس کيني ترسديا"
+    "message": "Ъ©Щ…Ші Ъ©ЩЉЩ†ЩЉ ШЄШ±ШіШЇЩЉШ§"
   },
   "instance.server-modal.address": {
-    "message": "علامت"
+    "message": "Ш№Щ„Ш§Щ…ШЄ"
   },
   "instance.server-modal.name": {
-    "message": "نام"
+    "message": "Щ†Ш§Щ…"
   },
   "instance.server-modal.placeholder-name": {
-    "message": "ڤلاين ماءينکرف‌ت"
+    "message": "Ъ¤Щ„Ш§ЩЉЩ† Щ…Ш§ШЎЩЉЩ†Ъ©Ш±ЩЃвЂЊШЄ"
   },
   "instance.server-modal.resource-pack": {
-    "message": "ڤيک سومبر"
+    "message": "Ъ¤ЩЉЪ© ШіЩ€Щ…ШЁШ±"
   },
   "instance.settings.tabs.general": {
-    "message": "عموم"
+    "message": "Ш№Щ…Щ€Щ…"
   },
   "instance.settings.tabs.general.delete": {
-    "message": "ڤادم ڤماسڠن"
+    "message": "Ъ¤Ш§ШЇЩ… Ъ¤Щ…Ш§ШіЪ Щ†"
   },
   "instance.settings.tabs.general.delete.button": {
-    "message": "ڤادم ڤماسڠن"
+    "message": "Ъ¤Ш§ШЇЩ… Ъ¤Щ…Ш§ШіЪ Щ†"
   },
   "instance.settings.tabs.general.delete.description": {
-    "message": "ممادمکن ڤماسڠن درڤد ڤرنتي اندا سچارا ککل⹁ ترماسوق دنيا⹁ کونفيݢوراسي دان سموا کاندوڠن يڠ دڤاسڠ. برهاتي-هاتي⹁ کران سباءيق سهاج اندا ممادمکن ڤماسڠن اين⹁ تيدق اد چارا اونتوق مموليهکنڽ."
+    "message": "Щ…Щ…Ш§ШЇЩ…Ъ©Щ† Ъ¤Щ…Ш§ШіЪ Щ† ШЇШ±Ъ¤ШЇ Ъ¤Ш±Щ†ШЄЩЉ Ш§Щ†ШЇШ§ ШіЪ†Ш§Ш±Ш§ Ъ©Ъ©Щ„в№Ѓ ШЄШ±Щ…Ш§ШіЩ€Щ‚ ШЇЩ†ЩЉШ§в№Ѓ Ъ©Щ€Щ†ЩЃЩЉЭўЩ€Ш±Ш§ШіЩЉ ШЇШ§Щ† ШіЩ…Щ€Ш§ Ъ©Ш§Щ†ШЇЩ€Ъ Щ† ЩЉЪ  ШЇЪ¤Ш§ШіЪ . ШЁШ±Щ‡Ш§ШЄЩЉ-Щ‡Ш§ШЄЩЉв№Ѓ Ъ©Ш±Ш§Щ† ШіШЁШ§ШЎЩЉЩ‚ ШіЩ‡Ш§Ш¬ Ш§Щ†ШЇШ§ Щ…Щ…Ш§ШЇЩ…Ъ©Щ† Ъ¤Щ…Ш§ШіЪ Щ† Ш§ЩЉЩ†в№Ѓ ШЄЩЉШЇЩ‚ Ш§ШЇ Ъ†Ш§Ш±Ш§ Ш§Щ€Щ†ШЄЩ€Щ‚ Щ…Щ…Щ€Щ„ЩЉЩ‡Ъ©Щ†ЪЅ."
   },
   "instance.settings.tabs.general.deleting.button": {
-    "message": "سدڠ ممادم..."
+    "message": "ШіШЇЪ  Щ…Щ…Ш§ШЇЩ…..."
   },
   "instance.settings.tabs.general.duplicate-button": {
-    "message": "چيڤتا سالينن"
+    "message": "Ъ†ЩЉЪ¤ШЄШ§ ШіШ§Щ„ЩЉЩ†Щ†"
   },
   "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
-    "message": "تيدق بوليه منچيڤتا سالينن سماس مماسڠ."
+    "message": "ШЄЩЉШЇЩ‚ ШЁЩ€Щ„ЩЉЩ‡ Щ…Щ†Ъ†ЩЉЪ¤ШЄШ§ ШіШ§Щ„ЩЉЩ†Щ† ШіЩ…Ш§Ші Щ…Щ…Ш§ШіЪ ."
   },
   "instance.settings.tabs.general.duplicate-instance": {
-    "message": "چيڤتا سالينن ڤماسڠن"
+    "message": "Ъ†ЩЉЪ¤ШЄШ§ ШіШ§Щ„ЩЉЩ†Щ† Ъ¤Щ…Ш§ШіЪ Щ†"
   },
   "instance.settings.tabs.general.duplicate-instance.description": {
-    "message": "منچيڤتا سالينن ڤماسڠن اين⹁ ترماسوق دنيا⹁ کونفيݢوراسي⹁ مود⹁ دان سباݢايڽ."
+    "message": "Щ…Щ†Ъ†ЩЉЪ¤ШЄШ§ ШіШ§Щ„ЩЉЩ†Щ† Ъ¤Щ…Ш§ШіЪ Щ† Ш§ЩЉЩ†в№Ѓ ШЄШ±Щ…Ш§ШіЩ€Щ‚ ШЇЩ†ЩЉШ§в№Ѓ Ъ©Щ€Щ†ЩЃЩЉЭўЩ€Ш±Ш§ШіЩЉв№Ѓ Щ…Щ€ШЇв№Ѓ ШЇШ§Щ† ШіШЁШ§ЭўШ§ЩЉЪЅ."
   },
   "instance.settings.tabs.general.edit-icon": {
-    "message": "سونتيڠ ايکون"
+    "message": "ШіЩ€Щ†ШЄЩЉЪ  Ш§ЩЉЪ©Щ€Щ†"
   },
   "instance.settings.tabs.general.edit-icon.remove": {
-    "message": "اليه کلوار ايکون"
+    "message": "Ш§Щ„ЩЉЩ‡ Ъ©Щ„Щ€Ш§Ш± Ш§ЩЉЪ©Щ€Щ†"
   },
   "instance.settings.tabs.general.edit-icon.replace": {
-    "message": "ݢنتي ايکون"
+    "message": "ЭўЩ†ШЄЩЉ Ш§ЩЉЪ©Щ€Щ†"
   },
   "instance.settings.tabs.general.edit-icon.select": {
-    "message": "ڤيليه ايکون"
+    "message": "Ъ¤ЩЉЩ„ЩЉЩ‡ Ш§ЩЉЪ©Щ€Щ†"
   },
   "instance.settings.tabs.general.library-groups": {
-    "message": "کومڤولن ڤوستاک"
+    "message": "Ъ©Щ€Щ…Ъ¤Щ€Щ„Щ† Ъ¤Щ€ШіШЄШ§Ъ©"
   },
   "instance.settings.tabs.general.library-groups.create": {
-    "message": "چيڤتا کومڤولن بهارو"
+    "message": "Ъ†ЩЉЪ¤ШЄШ§ Ъ©Щ€Щ…Ъ¤Щ€Щ„Щ† ШЁЩ‡Ш§Ш±Щ€"
   },
   "instance.settings.tabs.general.library-groups.description": {
-    "message": "کومڤولن ڤوستاک ممبوليهکن اندا مڽوسون ڤماسڠن اندا کدالم بهاݢين يڠ بربيذا دالم ڤوستاک اندا."
+    "message": "Ъ©Щ€Щ…Ъ¤Щ€Щ„Щ† Ъ¤Щ€ШіШЄШ§Ъ© Щ…Щ…ШЁЩ€Щ„ЩЉЩ‡Ъ©Щ† Ш§Щ†ШЇШ§ Щ…ЪЅЩ€ШіЩ€Щ† Ъ¤Щ…Ш§ШіЪ Щ† Ш§Щ†ШЇШ§ Ъ©ШЇШ§Щ„Щ… ШЁЩ‡Ш§ЭўЩЉЩ† ЩЉЪ  ШЁШ±ШЁЩЉШ°Ш§ ШЇШ§Щ„Щ… Ъ¤Щ€ШіШЄШ§Ъ© Ш§Щ†ШЇШ§."
   },
   "instance.settings.tabs.general.library-groups.enter-name": {
-    "message": "ماسوقکن نام کومڤولن"
+    "message": "Щ…Ш§ШіЩ€Щ‚Ъ©Щ† Щ†Ш§Щ… Ъ©Щ€Щ…Ъ¤Щ€Щ„Щ†"
   },
   "instance.settings.tabs.general.name": {
-    "message": "نام"
+    "message": "Щ†Ш§Щ…"
   },
   "instance.settings.tabs.hooks": {
-    "message": "چاڠکوق ڤلنچرن"
+    "message": "Ъ†Ш§Ъ Ъ©Щ€Щ‚ Ъ¤Щ„Щ†Ъ†Ш±Щ†"
   },
   "instance.settings.tabs.hooks.custom-hooks": {
-    "message": "چاڠکوق ڤلنچرن ترسواي"
+    "message": "Ъ†Ш§Ъ Ъ©Щ€Щ‚ Ъ¤Щ„Щ†Ъ†Ш±Щ† ШЄШ±ШіЩ€Ш§ЩЉ"
   },
   "instance.settings.tabs.hooks.description": {
-    "message": "چاڠکوق ممبنرکن ڤڠݢونا لنجوتن منجالنکن ڤرينته سيستم ترتنتو سبلوم دان سلڤس ملنچرکن ڤرماءينن."
+    "message": "Ъ†Ш§Ъ Ъ©Щ€Щ‚ Щ…Щ…ШЁЩ†Ш±Ъ©Щ† Ъ¤Ъ ЭўЩ€Щ†Ш§ Щ„Щ†Ш¬Щ€ШЄЩ† Щ…Щ†Ш¬Ш§Щ„Щ†Ъ©Щ† Ъ¤Ш±ЩЉЩ†ШЄЩ‡ ШіЩЉШіШЄЩ… ШЄШ±ШЄЩ†ШЄЩ€ ШіШЁЩ„Щ€Щ… ШЇШ§Щ† ШіЩ„Ъ¤Ші Щ…Щ„Щ†Ъ†Ш±Ъ©Щ† Ъ¤Ш±Щ…Ш§ШЎЩЉЩ†Щ†."
   },
   "instance.settings.tabs.hooks.post-exit": {
-    "message": "سلڤس کلوار"
+    "message": "ШіЩ„Ъ¤Ші Ъ©Щ„Щ€Ш§Ш±"
   },
   "instance.settings.tabs.hooks.post-exit.description": {
-    "message": "دجالنکن سلڤس ڤرماءينن دتوتوڤ."
+    "message": "ШЇШ¬Ш§Щ„Щ†Ъ©Щ† ШіЩ„Ъ¤Ші Ъ¤Ш±Щ…Ш§ШЎЩЉЩ†Щ† ШЇШЄЩ€ШЄЩ€Ъ¤."
   },
   "instance.settings.tabs.hooks.post-exit.enter": {
-    "message": "ماسوقکن ڤرينته يڠ اکن دجالنکن سلڤس ڤرماءينن دتوتوڤ..."
+    "message": "Щ…Ш§ШіЩ€Щ‚Ъ©Щ† Ъ¤Ш±ЩЉЩ†ШЄЩ‡ ЩЉЪ  Ш§Ъ©Щ† ШЇШ¬Ш§Щ„Щ†Ъ©Щ† ШіЩ„Ъ¤Ші Ъ¤Ш±Щ…Ш§ШЎЩЉЩ†Щ† ШЇШЄЩ€ШЄЩ€Ъ¤..."
   },
   "instance.settings.tabs.hooks.pre-launch": {
-    "message": "سبلوم ڤلنچرن"
+    "message": "ШіШЁЩ„Щ€Щ… Ъ¤Щ„Щ†Ъ†Ш±Щ†"
   },
   "instance.settings.tabs.hooks.pre-launch.description": {
-    "message": "دجالنکن سبلوم ڤماسڠن دلنچرکن."
+    "message": "ШЇШ¬Ш§Щ„Щ†Ъ©Щ† ШіШЁЩ„Щ€Щ… Ъ¤Щ…Ш§ШіЪ Щ† ШЇЩ„Щ†Ъ†Ш±Ъ©Щ†."
   },
   "instance.settings.tabs.hooks.pre-launch.enter": {
-    "message": "ماسوقکن ڤرينته يڠ اکن دجالنکن سبلوم ڤماسڠن دلنچرکن..."
+    "message": "Щ…Ш§ШіЩ€Щ‚Ъ©Щ† Ъ¤Ш±ЩЉЩ†ШЄЩ‡ ЩЉЪ  Ш§Ъ©Щ† ШЇШ¬Ш§Щ„Щ†Ъ©Щ† ШіШЁЩ„Щ€Щ… Ъ¤Щ…Ш§ШіЪ Щ† ШЇЩ„Щ†Ъ†Ш±Ъ©Щ†..."
   },
   "instance.settings.tabs.hooks.title": {
-    "message": "چاڠکوق ڤلنچرن ڤرماءينن"
+    "message": "Ъ†Ш§Ъ Ъ©Щ€Щ‚ Ъ¤Щ„Щ†Ъ†Ш±Щ† Ъ¤Ш±Щ…Ш§ШЎЩЉЩ†Щ†"
   },
   "instance.settings.tabs.hooks.wrapper": {
-    "message": "ڤمبالوت"
+    "message": "Ъ¤Щ…ШЁШ§Щ„Щ€ШЄ"
   },
   "instance.settings.tabs.hooks.wrapper.description": {
-    "message": "ڤرينته ڤمبالوت اونتوق ملنچرکن ماءينکرف‌ت."
+    "message": "Ъ¤Ш±ЩЉЩ†ШЄЩ‡ Ъ¤Щ…ШЁШ§Щ„Щ€ШЄ Ш§Щ€Щ†ШЄЩ€Щ‚ Щ…Щ„Щ†Ъ†Ш±Ъ©Щ† Щ…Ш§ШЎЩЉЩ†Ъ©Ш±ЩЃвЂЊШЄ."
   },
   "instance.settings.tabs.hooks.wrapper.enter": {
-    "message": "ماسوقکن ڤرينته ڤمبالوت..."
+    "message": "Щ…Ш§ШіЩ€Щ‚Ъ©Щ† Ъ¤Ш±ЩЉЩ†ШЄЩ‡ Ъ¤Щ…ШЁШ§Щ„Щ€ШЄ..."
   },
   "instance.settings.tabs.installation": {
-    "message": "ڤماسڠن"
+    "message": "Ъ¤Щ…Ш§ШіЪ Щ†"
   },
   "instance.settings.tabs.installation.change-version.already-installed.modded": {
-    "message": "{platform} {version} اونتوق ماءينکرف‌ت {game_version} سوده ڤون دڤاسڠ"
+    "message": "{platform} {version} Ш§Щ€Щ†ШЄЩ€Щ‚ Щ…Ш§ШЎЩЉЩ†Ъ©Ш±ЩЃвЂЊШЄ {game_version} ШіЩ€ШЇЩ‡ Ъ¤Щ€Щ† ШЇЪ¤Ш§ШіЪ "
   },
   "instance.settings.tabs.installation.change-version.already-installed.vanilla": {
-    "message": "{game_version} ۏانيلا سوده ڤون دڤاسڠ"
+    "message": "{game_version} ЫЏШ§Щ†ЩЉЩ„Ш§ ШіЩ€ШЇЩ‡ Ъ¤Щ€Щ† ШЇЪ¤Ш§ШіЪ "
   },
   "instance.settings.tabs.installation.change-version.button": {
-    "message": "توکر ۏرسي"
+    "message": "ШЄЩ€Ъ©Ш± ЫЏШ±ШіЩЉ"
   },
   "instance.settings.tabs.installation.change-version.button.install": {
-    "message": "ڤاسڠ"
+    "message": "Ъ¤Ш§ШіЪ "
   },
   "instance.settings.tabs.installation.change-version.button.installing": {
-    "message": "سدڠ مماسڠ"
+    "message": "ШіШЇЪ  Щ…Щ…Ш§ШіЪ "
   },
   "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "سدڠ مڠمبيل ۏرسي ڤيک مود"
+    "message": "ШіШЇЪ  Щ…Ъ Щ…ШЁЩЉЩ„ ЫЏШ±ШіЩЉ Ъ¤ЩЉЪ© Щ…Щ€ШЇ"
   },
   "instance.settings.tabs.installation.change-version.in-progress": {
-    "message": "سدڠ مماسڠ ۏرسي بهارو"
+    "message": "ШіШЇЪ  Щ…Щ…Ш§ШіЪ  ЫЏШ±ШіЩЉ ШЁЩ‡Ш§Ш±Щ€"
   },
   "instance.settings.tabs.installation.currently-installed": {
-    "message": "دڤاسڠ ڤد ماس اين"
+    "message": "ШЇЪ¤Ш§ШіЪ  Ъ¤ШЇ Щ…Ш§Ші Ш§ЩЉЩ†"
   },
   "instance.settings.tabs.installation.debug-information": {
-    "message": "معلومت ڽهڤڤيجت:"
+    "message": "Щ…Ш№Щ„Щ€Щ…ШЄ ЪЅЩ‡Ъ¤Ъ¤ЩЉШ¬ШЄ:"
   },
   "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "سدڠ مڠمبيل معلومت ڤيک مود"
+    "message": "ШіШЇЪ  Щ…Ъ Щ…ШЁЩЉЩ„ Щ…Ш№Щ„Щ€Щ…ШЄ Ъ¤ЩЉЪ© Щ…Щ€ШЇ"
   },
   "instance.settings.tabs.installation.game-version": {
-    "message": "ۏرسي ڤرماءينن"
+    "message": "ЫЏШ±ШіЩЉ Ъ¤Ш±Щ…Ш§ШЎЩЉЩ†Щ†"
   },
   "instance.settings.tabs.installation.install": {
-    "message": "ڤاسڠ"
+    "message": "Ъ¤Ш§ШіЪ "
   },
   "instance.settings.tabs.installation.install.in-progress": {
-    "message": "ڤماسڠن سدڠ دجالنکن"
+    "message": "Ъ¤Щ…Ш§ШіЪ Щ† ШіШЇЪ  ШЇШ¬Ш§Щ„Щ†Ъ©Щ†"
   },
   "instance.settings.tabs.installation.loader-version": {
-    "message": "ۏرسي {loader}"
+    "message": "ЫЏШ±ШіЩЉ {loader}"
   },
   "instance.settings.tabs.installation.minecraft-version": {
-    "message": "ماءينکرف‌ت {version}"
+    "message": "Щ…Ш§ШЎЩЉЩ†Ъ©Ш±ЩЃвЂЊШЄ {version}"
   },
   "instance.settings.tabs.installation.no-connection": {
-    "message": "تيدق داڤت مڠمبيل بوتيرن ڤيک مود يڠ ترڤاءوت. سيلا سمق سامبوڠن اينترنيت اندا."
+    "message": "ШЄЩЉШЇЩ‚ ШЇШ§Ъ¤ШЄ Щ…Ъ Щ…ШЁЩЉЩ„ ШЁЩ€ШЄЩЉШ±Щ† Ъ¤ЩЉЪ© Щ…Щ€ШЇ ЩЉЪ  ШЄШ±Ъ¤Ш§ШЎЩ€ШЄ. ШіЩЉЩ„Ш§ ШіЩ…Щ‚ ШіШ§Щ…ШЁЩ€Ъ Щ† Ш§ЩЉЩ†ШЄШ±Щ†ЩЉШЄ Ш§Щ†ШЇШ§."
   },
   "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader} تيدق ترسديا اونتوق ماءينکرف‌ت {version}. چوبا ڤموات مود يڠ لاءين."
+    "message": "{loader} ШЄЩЉШЇЩ‚ ШЄШ±ШіШЇЩЉШ§ Ш§Щ€Щ†ШЄЩ€Щ‚ Щ…Ш§ШЎЩЉЩ†Ъ©Ш±ЩЃвЂЊШЄ {version}. Ъ†Щ€ШЁШ§ Ъ¤Щ…Щ€Ш§ШЄ Щ…Щ€ШЇ ЩЉЪ  Щ„Ш§ШЎЩЉЩ†."
   },
   "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "ڤماسڠن اين دڤاءوتکن کڤد سبواه ڤيک مود⹁ تتاڤي ڤيک مود ترسبوت تيدق داڤت دجومڤاءي ڤد Modrinth."
+    "message": "Ъ¤Щ…Ш§ШіЪ Щ† Ш§ЩЉЩ† ШЇЪ¤Ш§ШЎЩ€ШЄЪ©Щ† Ъ©Ъ¤ШЇ ШіШЁЩ€Ш§Щ‡ Ъ¤ЩЉЪ© Щ…Щ€ШЇв№Ѓ ШЄШЄШ§Ъ¤ЩЉ Ъ¤ЩЉЪ© Щ…Щ€ШЇ ШЄШ±ШіШЁЩ€ШЄ ШЄЩЉШЇЩ‚ ШЇШ§Ъ¤ШЄ ШЇШ¬Щ€Щ…Ъ¤Ш§ШЎЩЉ Ъ¤ШЇ Modrinth."
   },
   "instance.settings.tabs.installation.platform": {
-    "message": "ڤلتفوم"
+    "message": "Ъ¤Щ„ШЄЩЃЩ€Щ…"
   },
   "instance.settings.tabs.installation.reinstall.button": {
-    "message": "ڤاسڠ سمولا ڤيک مود"
+    "message": "Ъ¤Ш§ШіЪ  ШіЩ…Щ€Щ„Ш§ Ъ¤ЩЉЪ© Щ…Щ€ШЇ"
   },
   "instance.settings.tabs.installation.reinstall.button.reinstalling": {
-    "message": "سدڠ مماسڠ سمولا ڤيک مود"
+    "message": "ШіШЇЪ  Щ…Щ…Ш§ШіЪ  ШіЩ…Щ€Щ„Ш§ Ъ¤ЩЉЪ© Щ…Щ€ШЇ"
   },
   "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "ڤماسڠن سمولا اکن منتڤکن سمولا سموا کاندوڠن يڠ دڤاسڠ اتاو دأوبه سواي کڤد اڤ يڠ دسدياکن اوليه ڤيک مود⹁ مڠاليه کلوار سبارڠ مود اتاو کاندوڠن يڠ تله اندا تمبهکن د اتس ڤماسڠن اصل. اين موڠکين داڤت ممبتولکن تيڠکه لاکو يڠ تيدق دجڠک جک ڤروبهن تله دبوات ڤد ڤماسڠن⹁ تتاڤي جک دنيا اندا کيني برݢنتوڠ ڤد کاندوڠن تمبهن يڠ دڤاسڠ⹁ اي موڠکين اکن مروسقکن دنيا سديا اد."
+    "message": "Ъ¤Щ…Ш§ШіЪ Щ† ШіЩ…Щ€Щ„Ш§ Ш§Ъ©Щ† Щ…Щ†ШЄЪ¤Ъ©Щ† ШіЩ…Щ€Щ„Ш§ ШіЩ…Щ€Ш§ Ъ©Ш§Щ†ШЇЩ€Ъ Щ† ЩЉЪ  ШЇЪ¤Ш§ШіЪ  Ш§ШЄШ§Щ€ ШЇШЈЩ€ШЁЩ‡ ШіЩ€Ш§ЩЉ Ъ©Ъ¤ШЇ Ш§Ъ¤ ЩЉЪ  ШЇШіШЇЩЉШ§Ъ©Щ† Ш§Щ€Щ„ЩЉЩ‡ Ъ¤ЩЉЪ© Щ…Щ€ШЇв№Ѓ Щ…Ъ Ш§Щ„ЩЉЩ‡ Ъ©Щ„Щ€Ш§Ш± ШіШЁШ§Ш±Ъ  Щ…Щ€ШЇ Ш§ШЄШ§Щ€ Ъ©Ш§Щ†ШЇЩ€Ъ Щ† ЩЉЪ  ШЄЩ„Щ‡ Ш§Щ†ШЇШ§ ШЄЩ…ШЁЩ‡Ъ©Щ† ШЇ Ш§ШЄШі Ъ¤Щ…Ш§ШіЪ Щ† Ш§ШµЩ„. Ш§ЩЉЩ† Щ…Щ€Ъ Ъ©ЩЉЩ† ШЇШ§Ъ¤ШЄ Щ…Щ…ШЁШЄЩ€Щ„Ъ©Щ† ШЄЩЉЪ Ъ©Щ‡ Щ„Ш§Ъ©Щ€ ЩЉЪ  ШЄЩЉШЇЩ‚ ШЇШ¬Ъ Ъ© Ш¬Ъ© Ъ¤Ш±Щ€ШЁЩ‡Щ† ШЄЩ„Щ‡ ШЇШЁЩ€Ш§ШЄ Ъ¤ШЇ Ъ¤Щ…Ш§ШіЪ Щ†в№Ѓ ШЄШЄШ§Ъ¤ЩЉ Ш¬Ъ© ШЇЩ†ЩЉШ§ Ш§Щ†ШЇШ§ Ъ©ЩЉЩ†ЩЉ ШЁШ±ЭўЩ†ШЄЩ€Ъ  Ъ¤ШЇ Ъ©Ш§Щ†ШЇЩ€Ъ Щ† ШЄЩ…ШЁЩ‡Щ† ЩЉЪ  ШЇЪ¤Ш§ШіЪ в№Ѓ Ш§ЩЉ Щ…Щ€Ъ Ъ©ЩЉЩ† Ш§Ъ©Щ† Щ…Ш±Щ€ШіЩ‚Ъ©Щ† ШЇЩ†ЩЉШ§ ШіШЇЩЉШ§ Ш§ШЇ."
   },
   "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "اداکه اندا ڤستي ماهو مماسڠ سمولا ڤماسڠن اين؟"
+    "message": "Ш§ШЇШ§Ъ©Щ‡ Ш§Щ†ШЇШ§ Ъ¤ШіШЄЩЉ Щ…Ш§Щ‡Щ€ Щ…Щ…Ш§ШіЪ  ШіЩ…Щ€Щ„Ш§ Ъ¤Щ…Ш§ШіЪ Щ† Ш§ЩЉЩ†Шџ"
   },
   "instance.settings.tabs.installation.reinstall.description": {
-    "message": "منتڤکن سمولا کاندوڠن ڤماسڠن کڤد کأداءن اصلڽ⹁ مڠاليه کلوار سبارڠ مود اتاو کاندوڠن يڠ تله اندا تمبهکن داتس ڤيک مود اصل."
+    "message": "Щ…Щ†ШЄЪ¤Ъ©Щ† ШіЩ…Щ€Щ„Ш§ Ъ©Ш§Щ†ШЇЩ€Ъ Щ† Ъ¤Щ…Ш§ШіЪ Щ† Ъ©Ъ¤ШЇ Ъ©ШЈШЇШ§ШЎЩ† Ш§ШµЩ„ЪЅв№Ѓ Щ…Ъ Ш§Щ„ЩЉЩ‡ Ъ©Щ„Щ€Ш§Ш± ШіШЁШ§Ш±Ъ  Щ…Щ€ШЇ Ш§ШЄШ§Щ€ Ъ©Ш§Щ†ШЇЩ€Ъ Щ† ЩЉЪ  ШЄЩ„Щ‡ Ш§Щ†ШЇШ§ ШЄЩ…ШЁЩ‡Ъ©Щ† ШЇШ§ШЄШі Ъ¤ЩЉЪ© Щ…Щ€ШЇ Ш§ШµЩ„."
   },
   "instance.settings.tabs.installation.reinstall.title": {
-    "message": "ڤاسڠ سمولا ڤيک مود"
+    "message": "Ъ¤Ш§ШіЪ  ШіЩ…Щ€Щ„Ш§ Ъ¤ЩЉЪ© Щ…Щ€ШЇ"
   },
   "instance.settings.tabs.installation.repair.button": {
-    "message": "ڤرباءيقي"
+    "message": "Ъ¤Ш±ШЁШ§ШЎЩЉЩ‚ЩЉ"
   },
   "instance.settings.tabs.installation.repair.button.repairing": {
-    "message": "سدڠ ممڤرباءيقي"
+    "message": "ШіШЇЪ  Щ…Щ…Ъ¤Ш±ШЁШ§ШЎЩЉЩ‚ЩЉ"
   },
   "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "ڤمباءيقن اين اکن مماسڠ سمولا کبرݢنتوڠن ماءينکرف‌ت دان ممريقسا کروسقن. اين موڠکين داڤت مڽلسايکن ايسو جک ڤرماءينن اندا تيدق دلنچرکن کران رالت برکاءيتن ڤلنچر⹁ تتاڤي تيدق اکن مڽلسايکن ايسو اتاو رانڤ يڠ برکاءيتن دڠن مود يڠ دڤاسڠ."
+    "message": "Ъ¤Щ…ШЁШ§ШЎЩЉЩ‚Щ† Ш§ЩЉЩ† Ш§Ъ©Щ† Щ…Щ…Ш§ШіЪ  ШіЩ…Щ€Щ„Ш§ Ъ©ШЁШ±ЭўЩ†ШЄЩ€Ъ Щ† Щ…Ш§ШЎЩЉЩ†Ъ©Ш±ЩЃвЂЊШЄ ШЇШ§Щ† Щ…Щ…Ш±ЩЉЩ‚ШіШ§ Ъ©Ш±Щ€ШіЩ‚Щ†. Ш§ЩЉЩ† Щ…Щ€Ъ Ъ©ЩЉЩ† ШЇШ§Ъ¤ШЄ Щ…ЪЅЩ„ШіШ§ЩЉЪ©Щ† Ш§ЩЉШіЩ€ Ш¬Ъ© Ъ¤Ш±Щ…Ш§ШЎЩЉЩ†Щ† Ш§Щ†ШЇШ§ ШЄЩЉШЇЩ‚ ШЇЩ„Щ†Ъ†Ш±Ъ©Щ† Ъ©Ш±Ш§Щ† Ш±Ш§Щ„ШЄ ШЁШ±Ъ©Ш§ШЎЩЉШЄЩ† Ъ¤Щ„Щ†Ъ†Ш±в№Ѓ ШЄШЄШ§Ъ¤ЩЉ ШЄЩЉШЇЩ‚ Ш§Ъ©Щ† Щ…ЪЅЩ„ШіШ§ЩЉЪ©Щ† Ш§ЩЉШіЩ€ Ш§ШЄШ§Щ€ Ш±Ш§Щ†Ъ¤ ЩЉЪ  ШЁШ±Ъ©Ш§ШЎЩЉШЄЩ† ШЇЪ Щ† Щ…Щ€ШЇ ЩЉЪ  ШЇЪ¤Ш§ШіЪ ."
   },
   "instance.settings.tabs.installation.repair.confirm.title": {
-    "message": "ڤرباءيقي ڤماسڠن؟"
+    "message": "Ъ¤Ш±ШЁШ§ШЎЩЉЩ‚ЩЉ Ъ¤Щ…Ш§ШіЪ Щ†Шџ"
   },
   "instance.settings.tabs.installation.repair.in-progress": {
-    "message": "ڤمباءيقن سدڠ دجالنکن"
+    "message": "Ъ¤Щ…ШЁШ§ШЎЩЉЩ‚Щ† ШіШЇЪ  ШЇШ¬Ш§Щ„Щ†Ъ©Щ†"
   },
   "instance.settings.tabs.installation.reset-selections": {
-    "message": "تتڤ سمولا کڤد سماس"
+    "message": "ШЄШЄЪ¤ ШіЩ…Щ€Щ„Ш§ Ъ©Ъ¤ШЇ ШіЩ…Ш§Ші"
   },
   "instance.settings.tabs.installation.show-all-versions": {
-    "message": "تونجوقکن سموا ۏرسي"
+    "message": "ШЄЩ€Щ†Ш¬Щ€Щ‚Ъ©Щ† ШіЩ…Щ€Ш§ ЫЏШ±ШіЩЉ"
   },
   "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "مڠوبه ۏرسي"
+    "message": "Щ…Ъ Щ€ШЁЩ‡ ЫЏШ±ШіЩЉ"
   },
   "instance.settings.tabs.installation.tooltip.action.install": {
-    "message": "مماسڠ"
+    "message": "Щ…Щ…Ш§ШіЪ "
   },
   "instance.settings.tabs.installation.tooltip.action.reinstall": {
-    "message": "مماسڠ سمولا"
+    "message": "Щ…Щ…Ш§ШіЪ  ШіЩ…Щ€Щ„Ш§"
   },
   "instance.settings.tabs.installation.tooltip.action.repair": {
-    "message": "ممڤرباءيقي"
+    "message": "Щ…Щ…Ъ¤Ш±ШЁШ§ШЎЩЉЩ‚ЩЉ"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-installing": {
-    "message": "تيدق بوليه {action} سماس مماسڠ"
+    "message": "ШЄЩЉШЇЩ‚ ШЁЩ€Щ„ЩЉЩ‡ {action} ШіЩ…Ш§Ші Щ…Щ…Ш§ШіЪ "
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-offline": {
-    "message": "تيدق بوليه {action} سماس براد دلوار تالين"
+    "message": "ШЄЩЉШЇЩ‚ ШЁЩ€Щ„ЩЉЩ‡ {action} ШіЩ…Ш§Ші ШЁШ±Ш§ШЇ ШЇЩ„Щ€Ш§Ш± ШЄШ§Щ„ЩЉЩ†"
   },
   "instance.settings.tabs.installation.tooltip.cannot-while-repairing": {
-    "message": "تيدق بوليه {action} سماس ممڤرباءيقي"
+    "message": "ШЄЩЉШЇЩ‚ ШЁЩ€Щ„ЩЉЩ‡ {action} ШіЩ…Ш§Ші Щ…Щ…Ъ¤Ш±ШЁШ§ШЎЩЉЩ‚ЩЉ"
   },
   "instance.settings.tabs.installation.unknown-version": {
-    "message": "(ۏرسي تيدق دکتاهوءي)"
+    "message": "(ЫЏШ±ШіЩЉ ШЄЩЉШЇЩ‚ ШЇЪ©ШЄШ§Щ‡Щ€ШЎЩЉ)"
   },
   "instance.settings.tabs.installation.unlink.button": {
-    "message": "ڽهڤاءوتکن ڤماسڠن"
+    "message": "ЪЅЩ‡Ъ¤Ш§ШЎЩ€ШЄЪ©Щ† Ъ¤Щ…Ш§ШіЪ Щ†"
   },
   "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "جک اندا منروسکن⹁ اندا تيدق اکن داڤت مماءوتکنڽ سمولا تنڤا ممبوات ڤماسڠن يڠ بهارو سڤنوهڽ. اندا تيدق اکن منريما کمس کيني ڤيک مود لاݢي دان اي اکن منجادي ڤماسڠن بياسا."
+    "message": "Ш¬Ъ© Ш§Щ†ШЇШ§ Щ…Щ†Ш±Щ€ШіЪ©Щ†в№Ѓ Ш§Щ†ШЇШ§ ШЄЩЉШЇЩ‚ Ш§Ъ©Щ† ШЇШ§Ъ¤ШЄ Щ…Щ…Ш§ШЎЩ€ШЄЪ©Щ†ЪЅ ШіЩ…Щ€Щ„Ш§ ШЄЩ†Ъ¤Ш§ Щ…Щ…ШЁЩ€Ш§ШЄ Ъ¤Щ…Ш§ШіЪ Щ† ЩЉЪ  ШЁЩ‡Ш§Ш±Щ€ ШіЪ¤Щ†Щ€Щ‡ЪЅ. Ш§Щ†ШЇШ§ ШЄЩЉШЇЩ‚ Ш§Ъ©Щ† Щ…Щ†Ш±ЩЉЩ…Ш§ Ъ©Щ…Ші Ъ©ЩЉЩ†ЩЉ Ъ¤ЩЉЪ© Щ…Щ€ШЇ Щ„Ш§ЭўЩЉ ШЇШ§Щ† Ш§ЩЉ Ш§Ъ©Щ† Щ…Щ†Ш¬Ш§ШЇЩЉ Ъ¤Щ…Ш§ШіЪ Щ† ШЁЩЉШ§ШіШ§."
   },
   "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "اداکه اندا ڤستي ماهو مڽهڤاءوتکن ڤماسڠن اين؟"
+    "message": "Ш§ШЇШ§Ъ©Щ‡ Ш§Щ†ШЇШ§ Ъ¤ШіШЄЩЉ Щ…Ш§Щ‡Щ€ Щ…ЪЅЩ‡Ъ¤Ш§ШЎЩ€ШЄЪ©Щ† Ъ¤Щ…Ш§ШіЪ Щ† Ш§ЩЉЩ†Шџ"
   },
   "instance.settings.tabs.installation.unlink.description": {
-    "message": "ڤماسڠن اين دڤاءوتکن کڤد ڤيک مود⹁ يڠ برمقصود مود تيدق بوليه دکمس کيني دان اندا تيدق بوليه منوکر ڤموات مود اتاو ۏرسي ماءينکرف‌ت. مڽهڤاءوت ڤماسڠن اين اکن مموتوسکن سامبوڠن ڤماسڠن اين سچارا ککل درڤد ڤيک مود."
+    "message": "Ъ¤Щ…Ш§ШіЪ Щ† Ш§ЩЉЩ† ШЇЪ¤Ш§ШЎЩ€ШЄЪ©Щ† Ъ©Ъ¤ШЇ Ъ¤ЩЉЪ© Щ…Щ€ШЇв№Ѓ ЩЉЪ  ШЁШ±Щ…Щ‚ШµЩ€ШЇ Щ…Щ€ШЇ ШЄЩЉШЇЩ‚ ШЁЩ€Щ„ЩЉЩ‡ ШЇЪ©Щ…Ші Ъ©ЩЉЩ†ЩЉ ШЇШ§Щ† Ш§Щ†ШЇШ§ ШЄЩЉШЇЩ‚ ШЁЩ€Щ„ЩЉЩ‡ Щ…Щ†Щ€Ъ©Ш± Ъ¤Щ…Щ€Ш§ШЄ Щ…Щ€ШЇ Ш§ШЄШ§Щ€ ЫЏШ±ШіЩЉ Щ…Ш§ШЎЩЉЩ†Ъ©Ш±ЩЃвЂЊШЄ. Щ…ЪЅЩ‡Ъ¤Ш§ШЎЩ€ШЄ Ъ¤Щ…Ш§ШіЪ Щ† Ш§ЩЉЩ† Ш§Ъ©Щ† Щ…Щ…Щ€ШЄЩ€ШіЪ©Щ† ШіШ§Щ…ШЁЩ€Ъ Щ† Ъ¤Щ…Ш§ШіЪ Щ† Ш§ЩЉЩ† ШіЪ†Ш§Ш±Ш§ Ъ©Ъ©Щ„ ШЇШ±Ъ¤ШЇ Ъ¤ЩЉЪ© Щ…Щ€ШЇ."
   },
   "instance.settings.tabs.installation.unlink.title": {
-    "message": "ڽهڤاءوت درڤد ڤيک مود"
+    "message": "ЪЅЩ‡Ъ¤Ш§ШЎЩ€ШЄ ШЇШ±Ъ¤ШЇ Ъ¤ЩЉЪ© Щ…Щ€ШЇ"
   },
   "instance.settings.tabs.java": {
-    "message": "جاۏا دان ايڠتن"
+    "message": "Ш¬Ш§ЫЏШ§ ШЇШ§Щ† Ш§ЩЉЪ ШЄЩ†"
   },
   "instance.settings.tabs.java.environment-variables": {
-    "message": "ڤمبوليهأوبه ڤرسکيترن"
+    "message": "Ъ¤Щ…ШЁЩ€Щ„ЩЉЩ‡ШЈЩ€ШЁЩ‡ Ъ¤Ш±ШіЪ©ЩЉШЄШ±Щ†"
   },
   "instance.settings.tabs.java.hooks": {
-    "message": "چاڠکوق"
+    "message": "Ъ†Ш§Ъ Ъ©Щ€Щ‚"
   },
   "instance.settings.tabs.java.java-arguments": {
-    "message": "ارݢومن جاۏا"
+    "message": "Ш§Ш±ЭўЩ€Щ…Щ† Ш¬Ш§ЫЏШ§"
   },
   "instance.settings.tabs.java.java-installation": {
-    "message": "ڤماسڠن جاۏا"
+    "message": "Ъ¤Щ…Ш§ШіЪ Щ† Ш¬Ш§ЫЏШ§"
   },
   "instance.settings.tabs.java.java-memory": {
-    "message": "ايڠتن يڠ دڤراونتوقکن"
+    "message": "Ш§ЩЉЪ ШЄЩ† ЩЉЪ  ШЇЪ¤Ш±Ш§Щ€Щ†ШЄЩ€Щ‚Ъ©Щ†"
   },
   "instance.settings.tabs.window": {
-    "message": "تتيڠکڤ"
+    "message": "ШЄШЄЩЉЪ Ъ©Ъ¤"
   },
   "instance.settings.tabs.window.custom-window-settings": {
-    "message": "تتڤن تتيڠکڤ ترسواي"
+    "message": "ШЄШЄЪ¤Щ† ШЄШЄЩЉЪ Ъ©Ъ¤ ШЄШ±ШіЩ€Ш§ЩЉ"
   },
   "instance.settings.tabs.window.fullscreen": {
-    "message": "سکرين ڤنوه"
+    "message": "ШіЪ©Ш±ЩЉЩ† Ъ¤Щ†Щ€Щ‡"
   },
   "instance.settings.tabs.window.fullscreen.description": {
-    "message": "ڤرماءينن اکن دمولاکن دالم سکرين ڤنوه کتيک دلنچرکن (مڠݢوناکن options.txt)."
+    "message": "Ъ¤Ш±Щ…Ш§ШЎЩЉЩ†Щ† Ш§Ъ©Щ† ШЇЩ…Щ€Щ„Ш§Ъ©Щ† ШЇШ§Щ„Щ… ШіЪ©Ш±ЩЉЩ† Ъ¤Щ†Щ€Щ‡ Ъ©ШЄЩЉЪ© ШЇЩ„Щ†Ъ†Ш±Ъ©Щ† (Щ…Ъ ЭўЩ€Щ†Ш§Ъ©Щ† options.txt)."
   },
   "instance.settings.tabs.window.height": {
-    "message": "تيڠݢي"
+    "message": "ШЄЩЉЪ ЭўЩЉ"
   },
   "instance.settings.tabs.window.height.description": {
-    "message": "تيڠݢي تتيڠکڤ ڤرماءينن اڤابيلا دلنچرکن."
+    "message": "ШЄЩЉЪ ЭўЩЉ ШЄШЄЩЉЪ Ъ©Ъ¤ Ъ¤Ш±Щ…Ш§ШЎЩЉЩ†Щ† Ш§Ъ¤Ш§ШЁЩЉЩ„Ш§ ШЇЩ„Щ†Ъ†Ш±Ъ©Щ†."
   },
   "instance.settings.tabs.window.height.enter": {
-    "message": "ماسوقکن تيڠݢي..."
+    "message": "Щ…Ш§ШіЩ€Щ‚Ъ©Щ† ШЄЩЉЪ ЭўЩЉ..."
   },
   "instance.settings.tabs.window.width": {
-    "message": "ليبر"
+    "message": "Щ„ЩЉШЁШ±"
   },
   "instance.settings.tabs.window.width.description": {
-    "message": "ليبر تتيڠکڤ ڤرماءينن اڤابيلا دلنچرکن."
+    "message": "Щ„ЩЉШЁШ± ШЄШЄЩЉЪ Ъ©Ъ¤ Ъ¤Ш±Щ…Ш§ШЎЩЉЩ†Щ† Ш§Ъ¤Ш§ШЁЩЉЩ„Ш§ ШЇЩ„Щ†Ъ†Ш±Ъ©Щ†."
   },
   "instance.settings.tabs.window.width.enter": {
-    "message": "ماسوقکن ليبر..."
+    "message": "Щ…Ш§ШіЩ€Щ‚Ъ©Щ† Щ„ЩЉШЁШ±..."
   },
   "instance.settings.title": {
-    "message": "تتڤن"
+    "message": "ШЄШЄЪ¤Щ†"
   },
   "instance.worlds.a_minecraft_server": {
-    "message": "ڤلاين ماءينکرف‌ت"
+    "message": "Ъ¤Щ„Ш§ЩЉЩ† Щ…Ш§ШЎЩЉЩ†Ъ©Ш±ЩЃвЂЊШЄ"
   },
   "instance.worlds.cant_connect": {
-    "message": "تيدق داڤت مڽامبوڠ کڤلاين"
+    "message": "ШЄЩЉШЇЩ‚ ШЇШ§Ъ¤ШЄ Щ…ЪЅШ§Щ…ШЁЩ€Ъ  Ъ©Ъ¤Щ„Ш§ЩЉЩ†"
   },
   "instance.worlds.copy_address": {
-    "message": "سالين علامت"
+    "message": "ШіШ§Щ„ЩЉЩ† Ш№Щ„Ш§Щ…ШЄ"
   },
   "instance.worlds.dont_show_on_home": {
-    "message": "جاڠن تونجوقکن ڤد لامن اوتام"
+    "message": "Ш¬Ш§Ъ Щ† ШЄЩ€Щ†Ш¬Щ€Щ‚Ъ©Щ† Ъ¤ШЇ Щ„Ш§Щ…Щ† Ш§Щ€ШЄШ§Щ…"
   },
   "instance.worlds.filter.available": {
-    "message": "ترسديا"
+    "message": "ШЄШ±ШіШЇЩЉШ§"
   },
   "instance.worlds.game_already_open": {
-    "message": "ڤماسڠن سوده ڤون دبوک"
+    "message": "Ъ¤Щ…Ш§ШіЪ Щ† ШіЩ€ШЇЩ‡ Ъ¤Щ€Щ† ШЇШЁЩ€Ъ©"
   },
   "instance.worlds.hardcore": {
-    "message": "مود تݢر"
+    "message": "Щ…Щ€ШЇ ШЄЭўШ±"
   },
   "instance.worlds.incompatible_server": {
-    "message": "ڤلاين تيدق سراسي"
+    "message": "Ъ¤Щ„Ш§ЩЉЩ† ШЄЩЉШЇЩ‚ ШіШ±Ш§ШіЩЉ"
   },
   "instance.worlds.no_contact": {
-    "message": "ڤلاين تيدق داڤت دهوبوڠي"
+    "message": "Ъ¤Щ„Ш§ЩЉЩ† ШЄЩЉШЇЩ‚ ШЇШ§Ъ¤ШЄ ШЇЩ‡Щ€ШЁЩ€Ъ ЩЉ"
   },
   "instance.worlds.no_server_quick_play": {
-    "message": "اندا هاڽ بوليه ماسوق تروس کدالم ڤلاين ڤد ماءينکرف‌ت ۏرسي الفا 1.0.5 دان کاتس"
+    "message": "Ш§Щ†ШЇШ§ Щ‡Ш§ЪЅ ШЁЩ€Щ„ЩЉЩ‡ Щ…Ш§ШіЩ€Щ‚ ШЄШ±Щ€Ші Ъ©ШЇШ§Щ„Щ… Ъ¤Щ„Ш§ЩЉЩ† Ъ¤ШЇ Щ…Ш§ШЎЩЉЩ†Ъ©Ш±ЩЃвЂЊШЄ ЫЏШ±ШіЩЉ Ш§Щ„ЩЃШ§ 1.0.5 ШЇШ§Щ† Ъ©Ш§ШЄШі"
   },
   "instance.worlds.no_singleplayer_quick_play": {
-    "message": "اندا هاڽ بوليه ماسوق تروس کدالم دنيا ايکاڤماءين ڤد ماءينکرف‌ت ۏرسي 1.20 دان کاتس"
+    "message": "Ш§Щ†ШЇШ§ Щ‡Ш§ЪЅ ШЁЩ€Щ„ЩЉЩ‡ Щ…Ш§ШіЩ€Щ‚ ШЄШ±Щ€Ші Ъ©ШЇШ§Щ„Щ… ШЇЩ†ЩЉШ§ Ш§ЩЉЪ©Ш§Ъ¤Щ…Ш§ШЎЩЉЩ† Ъ¤ШЇ Щ…Ш§ШЎЩЉЩ†Ъ©Ш±ЩЃвЂЊШЄ ЫЏШ±ШіЩЉ 1.20 ШЇШ§Щ† Ъ©Ш§ШЄШі"
   },
   "instance.worlds.play_instance": {
-    "message": "ماءينکن ڤماسڠن"
+    "message": "Щ…Ш§ШЎЩЉЩ†Ъ©Щ† Ъ¤Щ…Ш§ШіЪ Щ†"
   },
   "instance.worlds.type.server": {
-    "message": "ڤلاين"
+    "message": "Ъ¤Щ„Ш§ЩЉЩ†"
   },
   "instance.worlds.type.singleplayer": {
-    "message": "ايکاڤماءين"
+    "message": "Ш§ЩЉЪ©Ш§Ъ¤Щ…Ш§ШЎЩЉЩ†"
   },
   "instance.worlds.view_instance": {
-    "message": "ليهت ڤماسڠن"
+    "message": "Щ„ЩЉЩ‡ШЄ Ъ¤Щ…Ш§ШіЪ Щ†"
   },
   "instance.worlds.world_in_use": {
-    "message": "دنيا سدڠ دݢوناکن"
+    "message": "ШЇЩ†ЩЉШ§ ШіШЇЪ  ШЇЭўЩ€Щ†Ш§Ъ©Щ†"
   },
   "search.filter.locked.instance": {
-    "message": "دسدياکن اوليه ڤماسڠن اين"
+    "message": "ШЇШіШЇЩЉШ§Ъ©Щ† Ш§Щ€Щ„ЩЉЩ‡ Ъ¤Щ…Ш§ШіЪ Щ† Ш§ЩЉЩ†"
   },
   "search.filter.locked.instance-game-version.title": {
-    "message": "ۏرسي ڤرماءينن اداله دسدياکن اوليه ڤماسڠن اين"
+    "message": "ЫЏШ±ШіЩЉ Ъ¤Ш±Щ…Ш§ШЎЩЉЩ†Щ† Ш§ШЇШ§Щ„Щ‡ ШЇШіШЇЩЉШ§Ъ©Щ† Ш§Щ€Щ„ЩЉЩ‡ Ъ¤Щ…Ш§ШіЪ Щ† Ш§ЩЉЩ†"
   },
   "search.filter.locked.instance-loader.title": {
-    "message": "ڤموات اداله دسدياکن اوليه ڤماسڠن اين"
+    "message": "Ъ¤Щ…Щ€Ш§ШЄ Ш§ШЇШ§Щ„Щ‡ ШЇШіШЇЩЉШ§Ъ©Щ† Ш§Щ€Щ„ЩЉЩ‡ Ъ¤Щ…Ш§ШіЪ Щ† Ш§ЩЉЩ†"
   },
   "search.filter.locked.instance.sync": {
-    "message": "سلارسکن دڠن ڤماسڠن"
+    "message": "ШіЩ„Ш§Ш±ШіЪ©Щ† ШЇЪ Щ† Ъ¤Щ…Ш§ШіЪ Щ†"
   }
 }

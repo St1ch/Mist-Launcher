@@ -1,9 +1,9 @@
-{
+﻿{
   "app.auth-servers.unreachable.body": {
-    "message": "Minecraft authentication servere kan måske være nede lige nu. Tjek din internet forbindelse og prøv igen senere."
+    "message": "Minecraft authentication servere kan mГҐske vГ¦re nede lige nu. Tjek din internet forbindelse og prГёv igen senere."
   },
   "app.auth-servers.unreachable.header": {
-    "message": "Kan ikke nå autentificeringsservere"
+    "message": "Kan ikke nГҐ autentificeringsservere"
   },
   "app.modal.install-to-play.install-button": {
     "message": "Installer"
@@ -12,13 +12,13 @@
     "message": "{count, plural, one {# mod} other {# mods}}"
   },
   "app.modal.install-to-play.server-requires-mods": {
-    "message": "Denne server kræver mods for at spille. Klik installer for at sætte op filerne som er krævet fra Modrinth."
+    "message": "Denne server krГ¦ver mods for at spille. Klik installer for at sГ¦tte op filerne som er krГ¦vet fra Modrinth."
   },
   "app.modal.update-to-play.added-count": {
-    "message": "{count} tilføjet"
+    "message": "{count} tilfГёjet"
   },
   "app.modal.update-to-play.diff-type.added": {
-    "message": "Tilføjet"
+    "message": "TilfГёjet"
   },
   "app.modal.update-to-play.diff-type.removed": {
     "message": "Fjernet"
@@ -33,10 +33,10 @@
     "message": "{count} fjernet"
   },
   "app.modal.update-to-play.update-required": {
-    "message": "Opdatering krævet"
+    "message": "Opdatering krГ¦vet"
   },
   "app.modal.update-to-play.update-required-description": {
-    "message": "En opdatering er krævet for at spille {name}. Venligst opdater til den seneste version for at køre spillet."
+    "message": "En opdatering er krГ¦vet for at spille {name}. Venligst opdater til den seneste version for at kГёre spillet."
   },
   "app.modal.update-to-play.updated-count": {
     "message": "{count} opdateret"
@@ -69,19 +69,19 @@
     "message": "Ressourcestyring"
   },
   "app.update-toast.body": {
-    "message": "Modrinth App v{version} er allerede installeret! Genindlæs for at opdatere nu, eller automatisk når du lukker Modrinth App."
+    "message": "Mist Launcher v{version} er allerede installeret! GenindlГ¦s for at opdatere nu, eller automatisk nГҐr du lukker Mist Launcher."
   },
   "app.update-toast.body.download-complete": {
-    "message": "Modrinth App v{version} er færdig med at download. Genindlæs for at opdatere nu, eller automatisk når du lukker Modrinth App."
+    "message": "Mist Launcher v{version} er fГ¦rdig med at download. GenindlГ¦s for at opdatere nu, eller automatisk nГҐr du lukker Mist Launcher."
   },
   "app.update-toast.body.linux": {
-    "message": "Modrinth App v{version} er nu tilgængelig. Brug din pakke-manager til at opdatere for de nyeste features og fejlrettelser!"
+    "message": "Mist Launcher v{version} er nu tilgГ¦ngelig. Brug din pakke-manager til at opdatere for de nyeste features og fejlrettelser!"
   },
   "app.update-toast.body.metered": {
-    "message": "Modrinth App v{version} er nu tilgængelig! Siden du er på et begrænset netværk, vi downloadede den ikke automatisk."
+    "message": "Mist Launcher v{version} er nu tilgГ¦ngelig! Siden du er pГҐ et begrГ¦nset netvГ¦rk, vi downloadede den ikke automatisk."
   },
   "app.update-toast.changelog": {
-    "message": "Ændringslog"
+    "message": "Г†ndringslog"
   },
   "app.update-toast.download": {
     "message": "Download ({size})"
@@ -93,16 +93,16 @@
     "message": "Downloader..."
   },
   "app.update-toast.reload": {
-    "message": "Geninlæs"
+    "message": "GeninlГ¦s"
   },
   "app.update-toast.title": {
-    "message": "Opdatering tilgængelig"
+    "message": "Opdatering tilgГ¦ngelig"
   },
   "app.update-toast.title.download-complete": {
-    "message": "Download færdiggjort"
+    "message": "Download fГ¦rdiggjort"
   },
   "app.update.complete-toast.text": {
-    "message": "Klik her for at vise ændringslog."
+    "message": "Klik her for at vise Г¦ndringslog."
   },
   "app.update.complete-toast.title": {
     "message": "Version {version} var installeret med succes!"
@@ -114,10 +114,10 @@
     "message": "Downloader opdatering ({percent}%)"
   },
   "app.update.reload-to-update": {
-    "message": "Genindlæs for at installere opdatering"
+    "message": "GenindlГ¦s for at installere opdatering"
   },
   "friends.action.add-friend": {
-    "message": "Tilføj en ven"
+    "message": "TilfГёj en ven"
   },
   "friends.action.view-friend-requests": {
     "message": "{count} venne{count, plural, one {anmodning} other {anmodninger}}"
@@ -126,7 +126,7 @@
     "message": "Send en venneanmodning"
   },
   "friends.add-friend.title": {
-    "message": "Tilføjer en ven"
+    "message": "TilfГёjer en ven"
   },
   "friends.add-friend.username.description": {
     "message": "Det er muligvis anderledes end deres Minecraft brugernavn!"
@@ -138,7 +138,7 @@
     "message": "Hvad er din vens Modrinth brugernavn?"
   },
   "friends.add-friends-to-share": {
-    "message": "<link>Tilføj venner</link> for at se hvad de spiller!"
+    "message": "<link>TilfГёj venner</link> for at se hvad de spiller!"
   },
   "friends.friend.cancel-request": {
     "message": "Annuller anmodning"
@@ -171,19 +171,19 @@
     "message": "Ingen venner som matcher \"{query}\""
   },
   "friends.search-friends-placeholder": {
-    "message": "Søg venner..."
+    "message": "SГёg venner..."
   },
   "friends.section.heading": {
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Log ind på en Modrinth konto</link> for at tilføje venner og se hvad de spiller!"
+    "message": "<link>Log ind pГҐ en Modrinth konto</link> for at tilfГёje venner og se hvad de spiller!"
   },
   "instance.add-server.add-and-play": {
-    "message": "Tilføj og spil"
+    "message": "TilfГёj og spil"
   },
   "instance.add-server.add-server": {
-    "message": "Tilføj server"
+    "message": "TilfГёj server"
   },
   "instance.add-server.resource-pack.disabled": {
     "message": "Deaktiveret"
@@ -192,10 +192,10 @@
     "message": "Aktiveret"
   },
   "instance.add-server.resource-pack.prompt": {
-    "message": "Spørg"
+    "message": "SpГёrg"
   },
   "instance.add-server.title": {
-    "message": "Tilføj en server"
+    "message": "TilfГёj en server"
   },
   "instance.edit-server.title": {
     "message": "Rediger server"
@@ -219,7 +219,7 @@
     "message": "Deaktiverede projekter"
   },
   "instance.filter.updates-available": {
-    "message": "Tilgængelige opdateringer"
+    "message": "TilgГ¦ngelige opdateringer"
   },
   "instance.server-modal.address": {
     "message": "Adresse"
@@ -243,19 +243,19 @@
     "message": "Slet instans"
   },
   "instance.settings.tabs.general.delete.description": {
-    "message": "Permanent slet en instans fra din enhed, inkluderer dine verdener, konfigurationer, og alt installeret indhold. Vær forsigtig, for så snart du sletter en instans der er ingen at gendanne det."
+    "message": "Permanent slet en instans fra din enhed, inkluderer dine verdener, konfigurationer, og alt installeret indhold. VГ¦r forsigtig, for sГҐ snart du sletter en instans der er ingen at gendanne det."
   },
   "instance.settings.tabs.general.deleting.button": {
     "message": "Sletter..."
   },
   "instance.settings.tabs.general.duplicate-button": {
-    "message": "Kopiér"
+    "message": "KopiГ©r"
   },
   "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
     "message": "Kan ikke kopiere under installation."
   },
   "instance.settings.tabs.general.duplicate-instance": {
-    "message": "Kopiér instans"
+    "message": "KopiГ©r instans"
   },
   "instance.settings.tabs.general.duplicate-instance.description": {
     "message": "Opret en kopi af denne instans, inkluderer verdener, konfigurationer, mods, osv."
@@ -270,7 +270,7 @@
     "message": "Udskift ikon"
   },
   "instance.settings.tabs.general.edit-icon.select": {
-    "message": "Vælg ikon"
+    "message": "VГ¦lg ikon"
   },
   "instance.settings.tabs.general.library-groups": {
     "message": "Biblioteks grupper"
@@ -294,13 +294,13 @@
     "message": "Brugerfinansieret startkommandoer"
   },
   "instance.settings.tabs.hooks.description": {
-    "message": "Startkommandoer giver avancerede brugere mulighed for at køre bestemte systemkommandoer før og efter spillet startes."
+    "message": "Startkommandoer giver avancerede brugere mulighed for at kГёre bestemte systemkommandoer fГёr og efter spillet startes."
   },
   "instance.settings.tabs.hooks.post-exit": {
     "message": "Post-exit"
   },
   "instance.settings.tabs.hooks.post-exit.description": {
-    "message": "Kørte efter spillet lukkes."
+    "message": "KГёrte efter spillet lukkes."
   },
   "instance.settings.tabs.hooks.post-exit.enter": {
     "message": "Indtast post-exit kommando..."
@@ -309,7 +309,7 @@
     "message": "Pre-launch"
   },
   "instance.settings.tabs.hooks.pre-launch.description": {
-    "message": "Kørt før en instance bliver kørt."
+    "message": "KГёrt fГёr en instance bliver kГёrt."
   },
   "instance.settings.tabs.hooks.pre-launch.enter": {
     "message": "Indtast pre-launch kommando..."
@@ -321,7 +321,7 @@
     "message": "Wrapper"
   },
   "instance.settings.tabs.hooks.wrapper.description": {
-    "message": "Wrapper kommando for at køre Minecraft."
+    "message": "Wrapper kommando for at kГёre Minecraft."
   },
   "instance.settings.tabs.hooks.wrapper.enter": {
     "message": "Indtast wrapper kommando..."
@@ -345,7 +345,7 @@
     "message": "Installer"
   },
   "instance.settings.tabs.installation.change-version.cannot-while-fetching": {
-    "message": "Får modpack versioner"
+    "message": "FГҐr modpack versioner"
   },
   "instance.settings.tabs.installation.change-version.in-progress": {
     "message": "Installere ny version"
@@ -357,7 +357,7 @@
     "message": "Debug information:"
   },
   "instance.settings.tabs.installation.fetching-modpack-details": {
-    "message": "Får modpack detaljer"
+    "message": "FГҐr modpack detaljer"
   },
   "instance.settings.tabs.installation.game-version": {
     "message": "Spil version"
@@ -366,7 +366,7 @@
     "message": "Installer"
   },
   "instance.settings.tabs.installation.install.in-progress": {
-    "message": "Installation igangværende"
+    "message": "Installation igangvГ¦rende"
   },
   "instance.settings.tabs.installation.loader-version": {
     "message": "{loader} version"
@@ -375,13 +375,13 @@
     "message": "Minecraft {version}"
   },
   "instance.settings.tabs.installation.no-connection": {
-    "message": "Kan ikke få forbundet modpack detaljer. Venligst tjek din internet forbindelse."
+    "message": "Kan ikke fГҐ forbundet modpack detaljer. Venligst tjek din internet forbindelse."
   },
   "instance.settings.tabs.installation.no-loader-versions": {
-    "message": "{loader} er ikke mulig at bruge for Minecraft {version}. Prøv en anden mod loader."
+    "message": "{loader} er ikke mulig at bruge for Minecraft {version}. PrГёv en anden mod loader."
   },
   "instance.settings.tabs.installation.no-modpack-found": {
-    "message": "Denne instance er koblet til en modpack, men modpacken kunne ikke blive fundet på Modrinth."
+    "message": "Denne instance er koblet til en modpack, men modpacken kunne ikke blive fundet pГҐ Modrinth."
   },
   "instance.settings.tabs.installation.platform": {
     "message": "Platform"
@@ -393,13 +393,13 @@
     "message": "Geninstallere modpack"
   },
   "instance.settings.tabs.installation.reinstall.confirm.description": {
-    "message": "Geninstallering vil nulstille alt installeret eller modificeret indhold givet af modpacken, fjerne alle mods eller indhold du har tilføjet ovenpå den originale installation. Dette vil måske fikse uforventet adfærd hvis ændringer er blevet lavet til den instance, men hvis din verdener nu afhænger af ektra tilføjet indhold, dette vil måske ødelægge eksisterende verdener."
+    "message": "Geninstallering vil nulstille alt installeret eller modificeret indhold givet af modpacken, fjerne alle mods eller indhold du har tilfГёjet ovenpГҐ den originale installation. Dette vil mГҐske fikse uforventet adfГ¦rd hvis Г¦ndringer er blevet lavet til den instance, men hvis din verdener nu afhГ¦nger af ektra tilfГёjet indhold, dette vil mГҐske ГёdelГ¦gge eksisterende verdener."
   },
   "instance.settings.tabs.installation.reinstall.confirm.title": {
-    "message": "Er du sikker på du vil geninstallere denne instance?"
+    "message": "Er du sikker pГҐ du vil geninstallere denne instance?"
   },
   "instance.settings.tabs.installation.reinstall.description": {
-    "message": "Nulstiller instanceens indhold til dens oprindelige tilstand, fjerne alle mods eller indhold du har tilføjet ovenpå den oprindelige modpack."
+    "message": "Nulstiller instanceens indhold til dens oprindelige tilstand, fjerne alle mods eller indhold du har tilfГёjet ovenpГҐ den oprindelige modpack."
   },
   "instance.settings.tabs.installation.reinstall.title": {
     "message": "Geninstaller modpack"
@@ -411,7 +411,7 @@
     "message": "Reparere"
   },
   "instance.settings.tabs.installation.repair.confirm.description": {
-    "message": "Reparering geninstaller Minecraft afhængigheder og tjekker for korruption. Dette vil måske fikse fejl hvis dit spil ikke køre på grund af launcher relateret fejl, men vil ikke fikse fejl eller crashes relateret til installerede mods."
+    "message": "Reparering geninstaller Minecraft afhГ¦ngigheder og tjekker for korruption. Dette vil mГҐske fikse fejl hvis dit spil ikke kГёre pГҐ grund af launcher relateret fejl, men vil ikke fikse fejl eller crashes relateret til installerede mods."
   },
   "instance.settings.tabs.installation.repair.confirm.title": {
     "message": "Reparer instance?"
@@ -420,13 +420,13 @@
     "message": "Reparation i gang"
   },
   "instance.settings.tabs.installation.reset-selections": {
-    "message": "Nulstil til nuværende"
+    "message": "Nulstil til nuvГ¦rende"
   },
   "instance.settings.tabs.installation.show-all-versions": {
     "message": "Vis alle versioner"
   },
   "instance.settings.tabs.installation.tooltip.action.change-version": {
-    "message": "Ændre version"
+    "message": "Г†ndre version"
   },
   "instance.settings.tabs.installation.tooltip.action.install": {
     "message": "Installer"
@@ -453,13 +453,13 @@
     "message": "Frakoble instance"
   },
   "instance.settings.tabs.installation.unlink.confirm.description": {
-    "message": "Hvis du forsætter, du vil ikke have mulighed for at koble sammen igen uden at lave en helt ny instance. Du vil ikke længere modtage modpack opdateringer og vil blive en normal."
+    "message": "Hvis du forsГ¦tter, du vil ikke have mulighed for at koble sammen igen uden at lave en helt ny instance. Du vil ikke lГ¦ngere modtage modpack opdateringer og vil blive en normal."
   },
   "instance.settings.tabs.installation.unlink.confirm.title": {
-    "message": "Er du sikker på du vil frakoble denne instance?"
+    "message": "Er du sikker pГҐ du vil frakoble denne instance?"
   },
   "instance.settings.tabs.installation.unlink.description": {
-    "message": "Denne instance er forbundet til en modpack, hvilket betyder mods kan ikke blive opdateret og du kan ikke ændre mod loaderen eller Minecraft version. Frakobling vil permanent frakoble denne instance fra modpacken."
+    "message": "Denne instance er forbundet til en modpack, hvilket betyder mods kan ikke blive opdateret og du kan ikke Г¦ndre mod loaderen eller Minecraft version. Frakobling vil permanent frakoble denne instance fra modpacken."
   },
   "instance.settings.tabs.installation.unlink.title": {
     "message": "Frakoble fra modpack"
@@ -489,25 +489,25 @@
     "message": "Brugerdefineret vindue indstillinger"
   },
   "instance.settings.tabs.window.fullscreen": {
-    "message": "Fuld skærm"
+    "message": "Fuld skГ¦rm"
   },
   "instance.settings.tabs.window.fullscreen.description": {
-    "message": "Gør så spillet starter i fuld skærm når du køre spillet (Med brug af options.txt)."
+    "message": "GГёr sГҐ spillet starter i fuld skГ¦rm nГҐr du kГёre spillet (Med brug af options.txt)."
   },
   "instance.settings.tabs.window.height": {
-    "message": "Højde"
+    "message": "HГёjde"
   },
   "instance.settings.tabs.window.height.description": {
-    "message": "Højden af spillevinduet når kørt."
+    "message": "HГёjden af spillevinduet nГҐr kГёrt."
   },
   "instance.settings.tabs.window.height.enter": {
-    "message": "Indtast højde..."
+    "message": "Indtast hГёjde..."
   },
   "instance.settings.tabs.window.width": {
     "message": "Bredde"
   },
   "instance.settings.tabs.window.width.description": {
-    "message": "Bredden på spille vinduet når kørt."
+    "message": "Bredden pГҐ spille vinduet nГҐr kГёrt."
   },
   "instance.settings.tabs.window.width.enter": {
     "message": "Indtast bredde..."
@@ -522,13 +522,13 @@
     "message": "Kopier adresse"
   },
   "instance.worlds.dont_show_on_home": {
-    "message": "Vis ikke på forsiden"
+    "message": "Vis ikke pГҐ forsiden"
   },
   "instance.worlds.filter.available": {
-    "message": "Tilgængelig"
+    "message": "TilgГ¦ngelig"
   },
   "instance.worlds.game_already_open": {
-    "message": "Instance allerede åben"
+    "message": "Instance allerede ГҐben"
   },
   "instance.worlds.hardcore": {
     "message": "Hardcore mode"
@@ -540,10 +540,10 @@
     "message": "Serveren kunne ikke blive kontaktet"
   },
   "instance.worlds.no_server_quick_play": {
-    "message": "Du kan kun hoppe lige ind i servere på Minecraft Alpha 1.0.5+"
+    "message": "Du kan kun hoppe lige ind i servere pГҐ Minecraft Alpha 1.0.5+"
   },
   "instance.worlds.no_singleplayer_quick_play": {
-    "message": "Du kan kun hoppe lige ind i singleplayer verdener på Minecraft 1.20+"
+    "message": "Du kan kun hoppe lige ind i singleplayer verdener pГҐ Minecraft 1.20+"
   },
   "instance.worlds.play_instance": {
     "message": "Spil instance"

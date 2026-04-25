@@ -54,7 +54,7 @@ const messages = defineMessages({
 	body: {
 		id: 'app.update-toast.body.linux',
 		defaultMessage:
-			'Modrinth App v{version} is available. Use your package manager to update for the latest features and fixes!',
+			'Mist Launcher v{version} is available. Use your package manager to update for the latest features and fixes!',
 	},
 	download: {
 		id: 'app.update-toast.download-page',
