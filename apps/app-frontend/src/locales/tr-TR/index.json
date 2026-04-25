@@ -252,7 +252,7 @@
     "message": "Güncellemeyi kurmak için yeniden başlatın"
   },
   "app.world.server-modal.placeholder-address": {
-    "message": "example.modrinth.gg"
+    "message": "localhost:25565"
   },
   "app.world.server-modal.select-an-option": {
     "message": "Bir seçenek seçin"

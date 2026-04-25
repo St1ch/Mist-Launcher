@@ -252,7 +252,7 @@
     "message": "Muat semula untuk memasang kemas kini"
   },
   "app.world.server-modal.placeholder-address": {
-    "message": "example.modrinth.gg"
+    "message": "localhost:25565"
   },
   "app.world.server-modal.select-an-option": {
     "message": "Pilih pilihan anda"

@@ -252,7 +252,7 @@
     "message": "Hãy khởi động lại để cài đặt bản cập nhật"
   },
   "app.world.server-modal.placeholder-address": {
-    "message": "example.modrinth.gg"
+    "message": "localhost:25565"
   },
   "app.world.server-modal.select-an-option": {
     "message": "Chọn một tuỳ chọn"

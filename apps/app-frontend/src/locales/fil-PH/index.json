@@ -222,7 +222,7 @@
     "message": "Handang ma-install ang update"
   },
   "app.world.server-modal.placeholder-address": {
-    "message": "example.modrinth.gg"
+    "message": "localhost:25565"
   },
   "app.world.server-modal.select-an-option": {
     "message": "Pumili ng opsiyon"

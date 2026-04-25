@@ -165,7 +165,7 @@
     "message": "Необходимая сборка"
   },
   "app.modal.install-to-play.server-requires-mods": {
-    "message": "Для игры на сервере требуются моды. Установите необходимые файлы с Modrinth, чтобы подключиться."
+    "message": "Для игры на сервере требуются моды. Установите необходимые файлы, чтобы подключиться."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "РЎР±РѕСЂРєР°"
@@ -210,16 +210,16 @@
     "message": "РЈРїСЂР°РІР»РµРЅРёРµ СЂРµСЃСѓСЂСЃР°РјРё"
   },
   "app.update-popup.body": {
-    "message": "Версия Modrinth App {version} готова к установке! Перезапустите приложение, чтобы обновить его, или оно обновится автоматически после закрытия."
+    "message": "Версия Mist Launcher {version} готова к установке! Перезапустите приложение, чтобы обновить его, или оно обновится автоматически после закрытия."
   },
   "app.update-popup.body.download-complete": {
-    "message": "Скачивание версии Modrinth App {version} завершено. Перезапустите приложение, чтобы обновить его, или оно обновится автоматически после закрытия."
+    "message": "Скачивание версии Mist Launcher {version} завершено. Перезапустите приложение, чтобы обновить его, или оно обновится автоматически после закрытия."
   },
   "app.update-popup.body.linux": {
-    "message": "Доступна версия Modrinth App {version}. Обновите приложение через менеджер пакетов, чтобы получить последние улучшения и исправления!"
+    "message": "Доступна версия Mist Launcher {version}. Обновите приложение через менеджер пакетов, чтобы получить последние улучшения и исправления!"
   },
   "app.update-popup.body.metered": {
-    "message": "Версия Modrinth App {version} доступна для скачивания! Используется сеть с лимитным тарифным планом, поэтому скачивание не началось автоматически."
+    "message": "Версия Mist Launcher {version} доступна для скачивания! Используется сеть с лимитным тарифным планом, поэтому скачивание не началось автоматически."
   },
   "app.update-popup.changelog": {
     "message": "Список изменений"
@@ -252,7 +252,7 @@
     "message": "РџРµСЂРµР·Р°РїСѓСЃС‚РёС‚СЊ Рё РѕР±РЅРѕРІРёС‚СЊ"
   },
   "app.world.server-modal.placeholder-address": {
-    "message": "example.modrinth.gg"
+    "message": "localhost:25565"
   },
   "app.world.server-modal.select-an-option": {
     "message": "Выберите вариант"
@@ -285,10 +285,10 @@
     "message": "РћРЅРѕ РјРѕР¶РµС‚ Р±С‹С‚СЊ РЅРµВ С‚Р°РєРёРј, РєР°РєВ РІВ Minecraft!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Р’РІРµРґРёС‚Рµ РёРјСЏ СЃ Modrinth..."
+    "message": "Введите имя..."
   },
   "friends.add-friend.username.title": {
-    "message": "РљР°РєРѕРµ РёРјСЏ СѓВ РґСЂСѓРіР° РЅР°В Modrinth?"
+    "message": "Какое имя у друга?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Добавьте друзей</link> и следите за ними!"
@@ -330,7 +330,7 @@
     "message": "{title} вЂ” {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Войдите в аккаунт Modrinth</link>, чтобы добавлять друзей и следить за ними!"
+    "message": "<link>Онлайн-друзья отключены</link> в этой offline-сборке Mist Launcher."
   },
   "instance.add-server.add-and-play": {
     "message": "Р”РѕР±Р°РІРёС‚СЊ РёВ РёРіСЂР°С‚СЊ"

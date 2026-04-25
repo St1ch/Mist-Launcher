@@ -222,7 +222,7 @@
     "message": "Р°С‘Р€Р°С‘ВµР°в„–вЂљР°С‘В«Р°С‘ТђР°С‘вЂќР°в„–Р‚Р°С‘С›Р°С‘В·Р°в„–в‚¬Р°С‘В­Р°С‘вЂўР°С‘Т‘Р°С‘вЂќР°С‘вЂўР°С‘В±Р°в„–вЂ°Р°С‘вЂЎР°С‘В­Р°С‘В±Р°С‘С›Р°в„–Р‚Р°С‘вЂќР°С‘вЂў"
   },
   "app.world.server-modal.placeholder-address": {
-    "message": "example.modrinth.gg"
+    "message": "localhost:25565"
   },
   "app.world.server-modal.select-an-option": {
     "message": "а№ЂаёҐаё·аё­аёЃаё•аё±аё§а№ЂаёҐаё·аё­аёЃ"

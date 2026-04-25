@@ -252,7 +252,7 @@
     "message": "й‡ЌеђЇд»Ґе®‰иЈ…ж›ґж–°"
   },
   "app.world.server-modal.placeholder-address": {
-    "message": "example.modrinth.gg"
+    "message": "localhost:25565"
   },
   "app.world.server-modal.select-an-option": {
     "message": "选择一个选项"

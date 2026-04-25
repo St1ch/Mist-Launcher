@@ -165,7 +165,7 @@
     "message": "Required modpack"
   },
   "app.modal.install-to-play.server-requires-mods": {
-    "message": "This server requires mods to play. Click Install to set up the required files from Modrinth, then launch directly into the server."
+    "message": "This server requires mods to play. Click Install to set up the required files, then launch directly into the server."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "Shared instance"
@@ -252,7 +252,7 @@
     "message": "Reload to install update"
   },
   "app.world.server-modal.placeholder-address": {
-    "message": "example.modrinth.gg"
+    "message": "localhost:25565"
   },
   "app.world.server-modal.select-an-option": {
     "message": "Select an option"
@@ -285,10 +285,10 @@
     "message": "It may be different from their Minecraft username!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Enter Modrinth username..."
+    "message": "Enter username..."
   },
   "friends.add-friend.username.title": {
-    "message": "What's your friend's Modrinth username?"
+    "message": "What's your friend's username?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Add friends</link> to see what they're playing!"

@@ -252,7 +252,7 @@
     "message": "мѓ€лЎњкі м№Ён•м—¬ м—…лЌ°мќґнЉё м„¤м№"
   },
   "app.world.server-modal.placeholder-address": {
-    "message": "example.modrinth.gg"
+    "message": "localhost:25565"
   },
   "app.world.server-modal.select-an-option": {
     "message": "옵션 선택"
