@@ -288,6 +288,18 @@ fn main() {
                     ),
             )
             .plugin(
+                "local-servers",
+                InlinedPlugin::new()
+                    .commands(&[
+                        "local_servers_list",
+                        "local_servers_create",
+                        "local_servers_delete",
+                    ])
+                    .default_permission(
+                        DefaultPermissionRule::AllowAllCommands,
+                    ),
+            )
+            .plugin(
                 "worlds",
                 InlinedPlugin::new()
                     .commands(&[

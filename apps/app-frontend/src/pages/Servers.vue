@@ -1,6 +1,11 @@
 <script setup lang="ts">
-import { ButtonStyled } from '@modrinth/ui'
-import { computed, ref } from 'vue'
+import { ButtonStyled, injectNotificationManager, StyledInput } from '@modrinth/ui'
+import { computed, onMounted, ref } from 'vue'
+
+import * as localServers from '@/helpers/local_servers'
+import type { LocalServer } from '@/helpers/local_servers'
+
+const { handleError, addNotification } = injectNotificationManager()
 
 const loaderOptions = [
 	{ id: 'paper', name: 'Paper', description: 'Recommended for modern plugin servers.' },
@@ -12,69 +17,143 @@ const loaderOptions = [
 
 const versionOptions = ['1.21.11', '1.21.10', '1.21.9', '1.20.6', '1.20.4']
 
-const servers = ref([
-	{
-		id: 'local-dev',
-		name: 'Local test server',
-		version: '1.21.11',
-		loader: 'Paper',
-		status: 'Draft',
-		players: '0/20',
-		port: 25565,
-	},
-])
+const servers = ref<LocalServer[]>([])
+const loading = ref(true)
+const creating = ref(false)
 
 const selectedLoader = ref(loaderOptions[0].id)
 const selectedVersion = ref(versionOptions[0])
 const serverName = ref('Mist local server')
+const port = ref(25565)
+const maxPlayers = ref(20)
 
 const selectedLoaderInfo = computed(
 	() => loaderOptions.find((loader) => loader.id === selectedLoader.value) ?? loaderOptions[0],
 )
+
+onMounted(fetchServers)
+
+async function fetchServers() {
+	loading.value = true
+	try {
+		servers.value = await localServers.list()
+	} catch (error) {
+		handleError(error)
+	} finally {
+		loading.value = false
+	}
+}
+
+async function createServer() {
+	if (!serverName.value.trim()) {
+		addNotification({
+			title: 'Server name is required',
+			text: 'Pick a name before creating a local server.',
+			type: 'error',
+		})
+		return
+	}
+
+	creating.value = true
+	try {
+		const server = await localServers.create({
+			name: serverName.value,
+			gameVersion: selectedVersion.value,
+			loader: selectedLoader.value,
+			port: Number(port.value),
+			maxPlayers: Number(maxPlayers.value),
+		})
+		servers.value = [...servers.value, server]
+		addNotification({
+			title: 'Server created',
+			text: `${server.name} was added to your local server dashboard.`,
+			type: 'success',
+		})
+	} catch (error) {
+		handleError(error)
+	} finally {
+		creating.value = false
+	}
+}
+
+async function deleteServer(id: string) {
+	try {
+		await localServers.remove(id)
+		servers.value = servers.value.filter((server) => server.id !== id)
+	} catch (error) {
+		handleError(error)
+	}
+}
+
+function loaderName(loaderId: string) {
+	return loaderOptions.find((loader) => loader.id === loaderId)?.name ?? loaderId
+}
 </script>
 
 <template>
-	<div class="local-servers-page">
-		<section class="server-hero">
+	<div class="servers-page app-viewport">
+		<div class="servers-header">
 			<div>
-				<p class="eyebrow">Local server lab</p>
 				<h1>Servers</h1>
-				<p class="hero-copy">
-					Create and manage local Minecraft servers directly from Mist Launcher. This is the
-					new offline-first shell for server creation, runtime control, and logs.
-				</p>
+				<p>Create and manage local Minecraft servers from Mist Launcher.</p>
 			</div>
-			<div class="hero-card">
-				<span class="status-dot"></span>
-				<div>
-					<strong>Next milestone</strong>
-					<p>Wire this UI to a local server runtime, downloads, process control, and logs.</p>
-				</div>
-			</div>
-		</section>
+			<ButtonStyled>
+				<button @click="fetchServers" :disabled="loading">Refresh</button>
+			</ButtonStyled>
+		</div>
 
-		<section class="server-grid">
-			<div class="panel create-panel">
+		<div class="servers-layout">
+			<section class="panel">
 				<div class="panel-heading">
 					<div>
-						<p class="eyebrow">New server</p>
-						<h2>Choose version and core</h2>
+						<h2>Create local server</h2>
+						<p>Choose a Minecraft version and server core. Download/start controls come next.</p>
 					</div>
 				</div>
 
-				<label class="field">
-					<span>Name</span>
-					<input v-model="serverName" type="text" />
-				</label>
+				<div class="form-grid">
+					<label class="field field-wide">
+						<span>Name</span>
+						<StyledInput
+							id="local-server-name"
+							v-model="serverName"
+							autocomplete="off"
+							type="text"
+							wrapper-class="w-full"
+						/>
+					</label>
 
-				<label class="field">
-					<span>Minecraft version</span>
-					<select v-model="selectedVersion">
-						<option v-for="version in versionOptions" :key="version" :value="version">
-							{{ version }}
-						</option>
-					</select>
-				</label>
+					<label class="field">
+						<span>Minecraft version</span>
+						<select v-model="selectedVersion">
+							<option v-for="version in versionOptions" :key="version" :value="version">
+								{{ version }}
+							</option>
+						</select>
+					</label>
+
+					<label class="field">
+						<span>Port</span>
+						<StyledInput
+							id="local-server-port"
+							v-model="port"
+							autocomplete="off"
+							type="number"
+							wrapper-class="w-full"
+						/>
+					</label>
+
+					<label class="field">
+						<span>Max players</span>
+						<StyledInput
+							id="local-server-max-players"
+							v-model="maxPlayers"
+							autocomplete="off"
+							type="number"
+							wrapper-class="w-full"
+						/>
+					</label>
+				</div>
 
 				<div class="loader-list">
 					<button
@@ -89,157 +168,141 @@ const selectedLoaderInfo = computed(
 					</button>
 				</div>
 
-				<ButtonStyled color="brand" size="large">
-					<button disabled title="Local server backend is next">
-						Create {{ selectedLoaderInfo.name }} server
-					</button>
-				</ButtonStyled>
-			</div>
+				<div class="panel-actions">
+					<p>
+						Creating: {{ selectedLoaderInfo.name }} {{ selectedVersion }} on port {{ port }}
+					</p>
+					<ButtonStyled color="brand">
+						<button @click="createServer" :disabled="creating">
+							{{ creating ? 'Creating...' : 'Create server' }}
+						</button>
+					</ButtonStyled>
+				</div>
+			</section>
 
-			<div class="panel">
+			<section class="panel">
 				<div class="panel-heading">
 					<div>
-						<p class="eyebrow">Dashboard</p>
-						<h2>Local servers</h2>
+						<h2>Local dashboard</h2>
+						<p>Saved server definitions are stored in Mist Launcher data.</p>
 					</div>
 				</div>
 
-				<div class="server-list">
+				<div v-if="loading" class="empty-state">Loading servers...</div>
+				<div v-else-if="servers.length === 0" class="empty-state">
+					No local servers yet. Create one to start building the dashboard.
+				</div>
+				<div v-else class="server-list">
 					<article v-for="server in servers" :key="server.id" class="server-row">
-						<div>
+						<div class="server-main">
 							<strong>{{ server.name }}</strong>
-							<p>{{ server.loader }} {{ server.version }} - Port {{ server.port }}</p>
+							<p>
+								{{ loaderName(server.loader) }} {{ server.gameVersion }} - Port {{ server.port }}
+							</p>
 						</div>
 						<div class="server-meta">
-							<span>{{ server.players }}</span>
+							<span>{{ server.maxPlayers }} slots</span>
 							<span>{{ server.status }}</span>
 						</div>
+						<ButtonStyled>
+							<button @click="deleteServer(server.id)">Delete</button>
+						</ButtonStyled>
 					</article>
 				</div>
-			</div>
-		</section>
+			</section>
+		</div>
 	</div>
 </template>
 
 <style scoped lang="scss">
-.local-servers-page {
-	min-height: 100%;
-	padding: 2.5rem;
-	background:
-		radial-gradient(circle at top left, rgba(143, 255, 210, 0.16), transparent 34rem),
-		linear-gradient(135deg, rgba(13, 21, 25, 0.92), rgba(8, 11, 17, 0.98));
-}
-
-.server-hero {
-	display: grid;
-	grid-template-columns: minmax(0, 1fr) 22rem;
-	gap: 1.5rem;
-	align-items: stretch;
-	margin-bottom: 1.5rem;
-}
-
-.eyebrow {
-	margin: 0 0 0.45rem;
-	color: var(--color-brand);
-	font-size: 0.78rem;
-	font-weight: 800;
-	letter-spacing: 0.12em;
-	text-transform: uppercase;
-}
-
-h1,
-h2,
-p {
-	margin-top: 0;
-}
-
-h1 {
-	margin-bottom: 0.75rem;
-	color: var(--color-contrast);
-	font-size: clamp(2.5rem, 5vw, 4.8rem);
-	line-height: 0.95;
-}
-
-h2 {
-	margin-bottom: 0;
-	color: var(--color-contrast);
-}
-
-.hero-copy {
-	max-width: 44rem;
-	color: var(--color-secondary);
-	font-size: 1.05rem;
-	line-height: 1.7;
-}
-
-.hero-card,
-.panel {
-	border: 1px solid rgba(143, 255, 210, 0.16);
-	border-radius: 1.5rem;
-	background: rgba(23, 31, 38, 0.78);
-	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.22);
-}
-
-.hero-card {
+.servers-page {
 	display: flex;
-	gap: 1rem;
+	flex-direction: column;
+	gap: 1.5rem;
+	padding: 2rem;
+	background: var(--color-bg);
+}
+
+.servers-header {
+	display: flex;
 	align-items: flex-start;
-	padding: 1.25rem;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+.servers-header h1 {
+	margin: 0;
+	color: var(--color-contrast);
+	font-size: 2rem;
+	line-height: 1.15;
+}
+
+.servers-header p,
+.panel-heading p,
+.panel-actions p,
+.server-row p {
+	margin: 0.35rem 0 0;
 	color: var(--color-secondary);
 }
 
-.hero-card strong {
-	color: var(--color-contrast);
-}
-
-.status-dot {
-	width: 0.8rem;
-	height: 0.8rem;
-	margin-top: 0.25rem;
-	border-radius: 999px;
-	background: var(--color-brand);
-	box-shadow: 0 0 1.3rem rgba(143, 255, 210, 0.85);
-}
-
-.server-grid {
+.servers-layout {
 	display: grid;
-	grid-template-columns: minmax(24rem, 1.05fr) minmax(20rem, 0.95fr);
-	gap: 1.5rem;
+	grid-template-columns: minmax(24rem, 1.05fr) minmax(22rem, 0.95fr);
+	gap: 1rem;
 }
 
 .panel {
-	padding: 1.4rem;
+	border: 1px solid var(--color-button-border);
+	border-radius: var(--radius-lg);
+	background: var(--color-raised-bg);
+	padding: 1.25rem;
 }
 
 .panel-heading {
 	display: flex;
 	justify-content: space-between;
+	gap: 1rem;
 	margin-bottom: 1.25rem;
+}
+
+.panel-heading h2 {
+	margin: 0;
+	color: var(--color-contrast);
+	font-size: 1.2rem;
+}
+
+.form-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 1rem;
 }
 
 .field {
 	display: grid;
 	gap: 0.45rem;
-	margin-bottom: 1rem;
 	color: var(--color-secondary);
 	font-weight: 700;
 }
 
-.field input,
+.field-wide {
+	grid-column: 1 / -1;
+}
+
 .field select {
 	border: 1px solid var(--color-button-border);
-	border-radius: 0.9rem;
+	border-radius: var(--radius-md);
 	background: var(--color-button-bg);
 	color: var(--color-contrast);
-	padding: 0.85rem 1rem;
+	padding: 0.75rem 1rem;
 	font: inherit;
+	min-height: 2.5rem;
 }
 
 .loader-list {
 	display: grid;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
 	gap: 0.75rem;
-	margin: 1.2rem 0;
+	margin: 1.25rem 0;
 }
 
 .loader-card {
@@ -247,45 +310,66 @@ h2 {
 	gap: 0.35rem;
 	text-align: left;
 	border: 1px solid var(--color-button-border);
-	border-radius: 1rem;
-	background: rgba(255, 255, 255, 0.03);
+	border-radius: var(--radius-md);
+	background: var(--color-button-bg);
 	color: var(--color-secondary);
 	padding: 1rem;
 	cursor: pointer;
+	transition:
+		border-color 0.15s ease,
+		background 0.15s ease;
 }
 
-.loader-card strong {
-	color: var(--color-contrast);
-}
-
+.loader-card:hover,
 .loader-card.selected {
 	border-color: var(--color-brand);
-	background: rgba(143, 255, 210, 0.1);
-	box-shadow: inset 0 0 0 1px rgba(143, 255, 210, 0.16);
+	background: var(--color-brand-highlight);
 }
 
-.server-list {
-	display: grid;
-	gap: 0.85rem;
-}
-
-.server-row {
-	display: flex;
-	justify-content: space-between;
-	gap: 1rem;
-	border-radius: 1rem;
-	background: rgba(255, 255, 255, 0.04);
-	padding: 1rem;
-}
-
+.loader-card strong,
 .server-row strong {
 	color: var(--color-contrast);
 }
 
-.server-row p,
-.hero-card p {
-	margin: 0.25rem 0 0;
+.panel-actions {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	border-top: 1px solid var(--color-button-border);
+	padding-top: 1rem;
+}
+
+.empty-state {
+	display: grid;
+	min-height: 11rem;
+	place-items: center;
+	border: 1px dashed var(--color-button-border);
+	border-radius: var(--radius-lg);
 	color: var(--color-secondary);
+	text-align: center;
+	padding: 1.5rem;
+}
+
+.server-list {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+.server-row {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) auto auto;
+	align-items: center;
+	gap: 1rem;
+	border: 1px solid var(--color-button-border);
+	border-radius: var(--radius-md);
+	background: var(--color-button-bg);
+	padding: 1rem;
+}
+
+.server-main {
+	min-width: 0;
 }
 
 .server-meta {
@@ -293,22 +377,24 @@ h2 {
 	flex-direction: column;
 	align-items: flex-end;
 	gap: 0.35rem;
-	color: var(--color-brand);
-	font-weight: 800;
+	color: var(--color-secondary);
+	font-weight: 700;
 }
 
-@media (max-width: 900px) {
-	.local-servers-page {
-		padding: 1.25rem;
-	}
-
-	.server-hero,
-	.server-grid {
-		grid-template-columns: 1fr;
-	}
-
+@media (max-width: 980px) {
+	.servers-layout,
+	.form-grid,
 	.loader-list {
 		grid-template-columns: 1fr;
+	}
+
+	.server-row {
+		grid-template-columns: 1fr;
+		align-items: stretch;
+	}
+
+	.server-meta {
+		align-items: flex-start;
 	}
 }
 </style>
