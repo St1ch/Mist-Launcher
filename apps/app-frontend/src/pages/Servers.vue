@@ -20,6 +20,9 @@ const versionOptions = ['1.21.11', '1.21.10', '1.21.9', '1.20.6', '1.20.4']
 const servers = ref<LocalServer[]>([])
 const loading = ref(true)
 const creating = ref(false)
+const operatingServerId = ref<string | null>(null)
+const selectedLogServerId = ref<string | null>(null)
+const selectedLog = ref('')
 
 const selectedLoader = ref(loaderOptions[0].id)
 const selectedVersion = ref(versionOptions[0])
@@ -76,17 +79,85 @@ async function createServer() {
 	}
 }
 
+async function prepareServer(id: string) {
+	await runServerAction(id, async () => {
+		const server = await localServers.prepare(id)
+		updateServer(server)
+		addNotification({
+			title: 'Server prepared',
+			text: `${server.name} is ready to start.`,
+			type: 'success',
+		})
+	})
+}
+
+async function startServer(id: string) {
+	await runServerAction(id, async () => {
+		const server = await localServers.start(id)
+		updateServer(server)
+		addNotification({
+			title: 'Server started',
+			text: `${server.name} is running locally.`,
+			type: 'success',
+		})
+	})
+}
+
+async function stopServer(id: string) {
+	await runServerAction(id, async () => {
+		const server = await localServers.stop(id)
+		updateServer(server)
+		addNotification({
+			title: 'Server stopped',
+			text: `${server.name} was stopped.`,
+			type: 'success',
+		})
+	})
+}
+
+async function showLogs(id: string) {
+	await runServerAction(id, async () => {
+		selectedLogServerId.value = id
+		selectedLog.value = await localServers.logs(id)
+	})
+}
+
+async function runServerAction(id: string, action: () => Promise<void>) {
+	operatingServerId.value = id
+	try {
+		await action()
+	} catch (error) {
+		handleError(error)
+	} finally {
+		operatingServerId.value = null
+	}
+}
+
 async function deleteServer(id: string) {
 	try {
 		await localServers.remove(id)
 		servers.value = servers.value.filter((server) => server.id !== id)
+		if (selectedLogServerId.value === id) {
+			selectedLogServerId.value = null
+			selectedLog.value = ''
+		}
 	} catch (error) {
 		handleError(error)
 	}
 }
 
+function updateServer(updatedServer: LocalServer) {
+	servers.value = servers.value.map((server) =>
+		server.id === updatedServer.id ? updatedServer : server,
+	)
+}
+
 function loaderName(loaderId: string) {
 	return loaderOptions.find((loader) => loader.id === loaderId)?.name ?? loaderId
+}
+
+function isOperating(server: LocalServer) {
+	return operatingServerId.value === server.id
 }
 </script>
 
@@ -107,7 +178,7 @@ function loaderName(loaderId: string) {
 				<div class="panel-heading">
 					<div>
 						<h2>Create local server</h2>
-						<p>Choose a Minecraft version and server core. Download/start controls come next.</p>
+						<p>Choose a Minecraft version and server core, then prepare and start it locally.</p>
 					</div>
 				</div>
 
@@ -184,7 +255,7 @@ function loaderName(loaderId: string) {
 				<div class="panel-heading">
 					<div>
 						<h2>Local dashboard</h2>
-						<p>Saved server definitions are stored in Mist Launcher data.</p>
+						<p>Prepare server files, start Java, stop the process, and inspect logs.</p>
 					</div>
 				</div>
 
@@ -199,16 +270,57 @@ function loaderName(loaderId: string) {
 							<p>
 								{{ loaderName(server.loader) }} {{ server.gameVersion }} - Port {{ server.port }}
 							</p>
+							<small>{{ server.path }}</small>
 						</div>
 						<div class="server-meta">
 							<span>{{ server.maxPlayers }} slots</span>
-							<span>{{ server.status }}</span>
+							<span class="status-pill" :class="server.status.toLowerCase()">
+								{{ server.status }}
+							</span>
 						</div>
-						<ButtonStyled>
-							<button @click="deleteServer(server.id)">Delete</button>
-						</ButtonStyled>
+						<div class="server-actions">
+							<ButtonStyled>
+								<button @click="prepareServer(server.id)" :disabled="isOperating(server)">
+									{{ isOperating(server) ? 'Working...' : 'Prepare' }}
+								</button>
+							</ButtonStyled>
+							<ButtonStyled color="brand">
+								<button
+									@click="startServer(server.id)"
+									:disabled="isOperating(server) || server.status === 'Running'"
+								>
+									Start
+								</button>
+							</ButtonStyled>
+							<ButtonStyled>
+								<button
+									@click="stopServer(server.id)"
+									:disabled="isOperating(server) || server.status !== 'Running'"
+								>
+									Stop
+								</button>
+							</ButtonStyled>
+							<ButtonStyled>
+								<button @click="showLogs(server.id)" :disabled="isOperating(server)">Logs</button>
+							</ButtonStyled>
+							<ButtonStyled>
+								<button @click="deleteServer(server.id)" :disabled="isOperating(server)">Delete</button>
+							</ButtonStyled>
+						</div>
 					</article>
 				</div>
+			</section>
+
+			<section class="panel panel-wide">
+				<div class="panel-heading">
+					<div>
+						<h2>Console preview</h2>
+						<p>Latest server output captured by Mist Launcher.</p>
+					</div>
+				</div>
+				<pre class="log-output">{{
+					selectedLog || 'Select Logs on a prepared/running server to preview output.'
+				}}</pre>
 			</section>
 		</div>
 	</div>
@@ -256,6 +368,10 @@ function loaderName(loaderId: string) {
 	border-radius: var(--radius-lg);
 	background: var(--color-raised-bg);
 	padding: 1.25rem;
+}
+
+.panel-wide {
+	grid-column: 1 / -1;
 }
 
 .panel-heading {
@@ -359,7 +475,7 @@ function loaderName(loaderId: string) {
 
 .server-row {
 	display: grid;
-	grid-template-columns: minmax(0, 1fr) auto auto;
+	grid-template-columns: minmax(0, 1fr) auto;
 	align-items: center;
 	gap: 1rem;
 	border: 1px solid var(--color-button-border);
@@ -372,6 +488,15 @@ function loaderName(loaderId: string) {
 	min-width: 0;
 }
 
+.server-main small {
+	display: block;
+	overflow: hidden;
+	margin-top: 0.45rem;
+	color: var(--color-secondary);
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
 .server-meta {
 	display: flex;
 	flex-direction: column;
@@ -379,6 +504,47 @@ function loaderName(loaderId: string) {
 	gap: 0.35rem;
 	color: var(--color-secondary);
 	font-weight: 700;
+}
+
+.server-actions {
+	display: flex;
+	grid-column: 1 / -1;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.status-pill {
+	border: 1px solid var(--color-button-border);
+	border-radius: var(--radius-sm);
+	background: var(--color-button-bg);
+	padding: 0.2rem 0.5rem;
+	color: var(--color-secondary);
+}
+
+.status-pill.running,
+.status-pill.ready {
+	border-color: var(--color-brand);
+	background: var(--color-brand-highlight);
+	color: var(--color-contrast);
+}
+
+.status-pill.preparing,
+.status-pill.starting {
+	border-color: var(--color-orange);
+	color: var(--color-contrast);
+}
+
+.log-output {
+	overflow: auto;
+	min-height: 12rem;
+	max-height: 24rem;
+	margin: 0;
+	border: 1px solid var(--color-button-border);
+	border-radius: var(--radius-md);
+	background: var(--color-bg);
+	color: var(--color-contrast);
+	padding: 1rem;
+	white-space: pre-wrap;
 }
 
 @media (max-width: 980px) {

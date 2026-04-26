@@ -22,6 +22,7 @@ path-util = { workspace = true }
 serde = { workspace = true, features = ["derive"] }
 serde_json = { workspace = true }
 serde_with = { workspace = true }
+reqwest = { workspace = true, features = ["json"] }
 tauri = { workspace = true, features = [
   "devtools",
   "macos-private-api",
@@ -38,7 +39,7 @@ tauri-plugin-updater = { workspace = true }
 tauri-plugin-window-state = { workspace = true }
 theseus = { workspace = true, features = ["tauri"] }
 thiserror = { workspace = true }
-tokio = { workspace = true, features = ["time"] }
+tokio = { workspace = true, features = ["io-util", "process", "time"] }
 tracing = { workspace = true }
 tracing-error = { workspace = true }
 url = { workspace = true }

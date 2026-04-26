@@ -294,6 +294,10 @@ fn main() {
                         "local_servers_list",
                         "local_servers_create",
                         "local_servers_delete",
+                        "local_servers_prepare",
+                        "local_servers_start",
+                        "local_servers_stop",
+                        "local_servers_logs",
                     ])
                     .default_permission(
                         DefaultPermissionRule::AllowAllCommands,

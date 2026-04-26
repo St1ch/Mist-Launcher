@@ -8,6 +8,8 @@ export type LocalServer = {
 	port: number
 	maxPlayers: number
 	status: string
+	path: string
+	jarPath: string | null
 	createdAt: string
 	updatedAt: string
 }
@@ -30,4 +32,21 @@ export async function create(request: LocalServerCreateRequest): Promise<LocalSe
 
 export async function remove(id: string): Promise<void> {
 	return await invoke('plugin:local-servers|local_servers_delete', { id })
+}
+
+export async function prepare(id: string): Promise<LocalServer> {
+	return await invoke('plugin:local-servers|local_servers_prepare', { id })
+}
+
+export async function start(id: string): Promise<LocalServer> {
+	return await invoke('plugin:local-servers|local_servers_start', { id })
+}
+
+export async function stop(id: string): Promise<LocalServer> {
+	return await invoke('plugin:local-servers|local_servers_stop', { id })
+}
+
+export async function logs(id: string): Promise<string> {
+	const response = await invoke<{ log: string }>('plugin:local-servers|local_servers_logs', { id })
+	return response.log
 }
